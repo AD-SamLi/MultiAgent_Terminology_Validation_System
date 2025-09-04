@@ -1,0 +1,138 @@
+{
+  "summary_info": {
+    "timestamp": "20250903_163808",
+    "total_files_analyzed": 2,
+    "analysis_types": [
+      "dictionary",
+      "dictionary"
+    ]
+  },
+  "combined_statistics": {
+    "total_terms_analyzed": 200,
+    "overall_avg_translatability": 0.920571021131964,
+    "file_summaries": {
+      "dictionary": {
+        "total_terms": 100,
+        "avg_translatability": 0.9555415890842816,
+        "categories": {
+          "highly_translatable": {
+            "count": 92,
+            "percentage": 92.0,
+            "examples": [
+              {
+                "term": "surface",
+                "score": 1.0,
+                "frequency": 263
+              },
+              {
+                "term": "object",
+                "score": 1.0,
+                "frequency": 442
+              },
+              {
+                "term": "list",
+                "score": 1.0,
+                "frequency": 163
+              },
+              {
+                "term": "change",
+                "score": 1.0,
+                "frequency": 139
+              },
+              {
+                "term": "face",
+                "score": 1.0,
+                "frequency": 106
+              },
+              {
+                "term": "time",
+                "score": 1.0,
+                "frequency": 103
+              },
+              {
+                "term": "group",
+                "score": 1.0,
+                "frequency": 99
+              },
+              {
+                "term": "plane",
+                "score": 1.0,
+                "frequency": 97
+              },
+              {
+                "term": "note",
+                "score": 1.0,
+                "frequency": 91
+              },
+              {
+                "term": "center",
+                "score": 1.0,
+                "frequency": 88
+              }
+            ]
+          },
+          "moderately_translatable": {
+            "count": 8,
+            "percentage": 8.0,
+            "examples": [
+              {
+                "term": "python",
+                "score": 0.7970297029702971,
+                "frequency": 12
+              },
+              {
+                "term": "api",
+                "score": 0.6616915422885572,
+                "frequency": 45
+              },
+              {
+                "term": "pdf",
+                "score": 0.6287128712871287,
+                "frequency": 43
+              },
+              {
+                "term": "PDF",
+                "score": 0.5247524752475248,
+                "frequency": 27
+              },
+              {
+                "term": "API",
+                "score": 0.4900990099009901,
+                "frequency": 32
+              },
+              {
+                "term": "SQL",
+                "score": 0.4228855721393035,
+                "frequency": 14
+              },
+              {
+                "term": "gpu",
+                "score": 0.400990099009901,
+                "frequency": 13
+              },
+              {
+                "term": "xml",
+                "score": 0.3415841584158416,
+                "frequency": 13
+              }
+            ]
+          },
+          "poorly_translatable": {
+            "count": 0,
+            "percentage": 0.0,
+            "examples": []
+          }
+        },
+        "top_recommendations": [
+          "Terms show high translatability across languages. This suggests good potential for multilingual content adaptation."
+        ]
+      }
+    }
+  },
+  "comparative_analysis": {},
+  "overall_findings": [
+    "Terms show high overall translatability across languages",
+    "Dictionary: Terms show high translatability across languages. This suggests good potential for multilingual content adaptation.",
+    "Dictionary: Terms show high translatability across languages. This suggests good potential for multilingual content adaptation."
+  ]
+}

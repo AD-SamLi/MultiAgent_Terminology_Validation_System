@@ -1,0 +1,575 @@
+{
+  "report_info": {
+    "type": "translatability_analysis",
+    "timestamp": "20250903_192358",
+    "total_terms": 100,
+    "source_file": "translation_results\\non_dictionary_terms_translation_results_20250903_163809.json"
+  },
+  "summary_statistics": {
+    "total_terms_analyzed": 100,
+    "average_translatability_score": 0.8856004531796464,
+    "median_translatability_score": 0.9900497512437811,
+    "std_translatability_score": 0.20438139325812216,
+    "min_translatability_score": 0.21890547263681592,
+    "max_translatability_score": 1.0,
+    "average_same_languages": 23.08,
+    "average_translated_languages": 178.69,
+    "average_error_languages": 0.23,
+    "total_target_languages": 202
+  },
+  "detailed_analysis": {
+    "translatability_categories": {
+      "highly_translatable": {
+        "count": 80,
+        "percentage": 80.0,
+        "examples": [
+          {
+            "term": "project administrators",
+            "score": 1.0,
+            "frequency": 42
+          },
+          {
+            "term": "product design",
+            "score": 1.0,
+            "frequency": 34
+          },
+          {
+            "term": "design collaboration",
+            "score": 1.0,
+            "frequency": 34
+          },
+          {
+            "term": "document management",
+            "score": 1.0,
+            "frequency": 33
+          },
+          {
+            "term": "maintenance plan",
+            "score": 1.0,
+            "frequency": 29
+          },
+          {
+            "term": "section view",
+            "score": 1.0,
+            "frequency": 29
+          },
+          {
+            "term": "change order",
+            "score": 1.0,
+            "frequency": 27
+          },
+          {
+            "term": "more information",
+            "score": 1.0,
+            "frequency": 26
+          },
+          {
+            "term": "system requirements",
+            "score": 1.0,
+            "frequency": 26
+          },
+          {
+            "term": "team members",
+            "score": 1.0,
+            "frequency": 26
+          }
+        ]
+      },
+      "moderately_translatable": {
+        "count": 18,
+        "percentage": 18.0,
+        "examples": [
+          {
+            "term": "autodesk vault",
+            "score": 0.7871287128712872,
+            "frequency": 19
+          },
+          {
+            "term": "autodesk docs",
+            "score": 0.7611940298507462,
+            "frequency": 56
+          },
+          {
+            "term": "Civil 3D",
+            "score": 0.7425742574257426,
+            "frequency": 31
+          },
+          {
+            "term": "autodesk fusion",
+            "score": 0.6683168316831684,
+            "frequency": 20
+          },
+          {
+            "term": "3ds max",
+            "score": 0.6584158415841584,
+            "frequency": 85
+          },
+          {
+            "term": "Autodesk Docs",
+            "score": 0.6386138613861386,
+            "frequency": 29
+          },
+          {
+            "term": "Autodesk Vault",
+            "score": 0.6386138613861386,
+            "frequency": 22
+          },
+          {
+            "term": "3ds Max",
+            "score": 0.5841584158415841,
+            "frequency": 56
+          },
+          {
+            "term": "autodesk civil 3d",
+            "score": 0.5472636815920398,
+            "frequency": 21
+          },
+          {
+            "term": "Fusion 360",
+            "score": 0.472636815920398,
+            "frequency": 66
+          }
+        ]
+      },
+      "poorly_translatable": {
+        "count": 2,
+        "percentage": 2.0,
+        "examples": [
+          {
+            "term": "BIM 360",
+            "score": 0.21890547263681592,
+            "frequency": 27
+          },
+          {
+            "term": "AutoCAD LT",
+            "score": 0.297029702970297,
+            "frequency": 26
+          }
+        ]
+      }
+    },
+    "language_patterns": {
+      "top_borrowing_languages": {
+        "lus_Latn": 51,
+        "knc_Latn": 46,
+        "min_Arab": 34,
+        "sat_Olck": 34,
+        "lmo_Latn": 33,
+        "ceb_Latn": 31,
+        "lim_Latn": 29,
+        "taq_Latn": 26,
+        "min_Latn": 22,
+        "vie_Latn": 22,
+        "bod_Tibt": 21,
+        "fuv_Latn": 21,
+        "kab_Latn": 21,
+        "ltz_Latn": 21,
+        "lug_Latn": 21
+      },
+      "top_translating_languages": {
+        "awa_Deva": 100,
+        "ben_Beng": 100,
+        "bho_Deva": 100,
+        "bjn_Arab": 100,
+        "hne_Deva": 100,
+        "kas_Deva": 100,
+        "knc_Arab": 100,
+        "mag_Deva": 100,
+        "mai_Deva": 100,
+        "mal_Mlym": 100,
+        "mar_Deva": 100,
+        "prs_Arab": 100,
+        "pbt_Arab": 100,
+        "srp_Cyrl": 100,
+        "tel_Telu": 100
+      },
+      "top_error_languages": {
+        "ron_Latn": 1,
+        "yue_Hant": 1,
+        "gle_Latn": 1,
+        "lim_Latn": 1,
+        "mos_Latn": 1,
+        "sot_Latn": 1,
+        "mri_Latn": 1,
+        "run_Latn": 1,
+        "ory_Orya": 1,
+        "fur_Latn": 1
+      },
+      "language_preferences": {
+        "lus_Latn": {
+          "same_percentage": 51.0,
+          "translated_percentage": 49.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "knc_Latn": {
+          "same_percentage": 46.0,
+          "translated_percentage": 54.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "min_Arab": {
+          "same_percentage": 34.0,
+          "translated_percentage": 66.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "sat_Olck": {
+          "same_percentage": 34.0,
+          "translated_percentage": 66.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "lmo_Latn": {
+          "same_percentage": 33.0,
+          "translated_percentage": 67.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "ceb_Latn": {
+          "same_percentage": 31.0,
+          "translated_percentage": 69.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "lim_Latn": {
+          "same_percentage": 29.292929292929294,
+          "translated_percentage": 70.70707070707071,
+          "total_processed": 99,
+          "coverage_percentage": 99.0
+        },
+        "taq_Latn": {
+          "same_percentage": 26.0,
+          "translated_percentage": 74.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "min_Latn": {
+          "same_percentage": 22.0,
+          "translated_percentage": 78.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "vie_Latn": {
+          "same_percentage": 22.0,
+          "translated_percentage": 78.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "bod_Tibt": {
+          "same_percentage": 21.21212121212121,
+          "translated_percentage": 78.78787878787878,
+          "total_processed": 99,
+          "coverage_percentage": 99.0
+        },
+        "fuv_Latn": {
+          "same_percentage": 21.21212121212121,
+          "translated_percentage": 78.78787878787878,
+          "total_processed": 99,
+          "coverage_percentage": 99.0
+        },
+        "als_Latn": {
+          "same_percentage": 21.0,
+          "translated_percentage": 79.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "ltz_Latn": {
+          "same_percentage": 21.0,
+          "translated_percentage": 79.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "vec_Latn": {
+          "same_percentage": 21.0,
+          "translated_percentage": 79.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "lug_Latn": {
+          "same_percentage": 21.0,
+          "translated_percentage": 79.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "sna_Latn": {
+          "same_percentage": 21.0,
+          "translated_percentage": 79.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "dik_Latn": {
+          "same_percentage": 21.0,
+          "translated_percentage": 79.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "twi_Latn": {
+          "same_percentage": 21.0,
+          "translated_percentage": 79.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "kab_Latn": {
+          "same_percentage": 21.0,
+          "translated_percentage": 79.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        }
+      },
+      "script_preferences": {
+        "Olck": {
+          "same_percentage": 34.0,
+          "translated_percentage": 66.0,
+          "total_terms": 100
+        },
+        "Khmr": {
+          "same_percentage": 19.0,
+          "translated_percentage": 81.0,
+          "total_terms": 100
+        },
+        "Laoo": {
+          "same_percentage": 17.0,
+          "translated_percentage": 83.0,
+          "total_terms": 100
+        },
+        "Tibt": {
+          "same_percentage": 15.07537688442211,
+          "translated_percentage": 84.92462311557789,
+          "total_terms": 199
+        },
+        "Latn": {
+          "same_percentage": 14.563806777217014,
+          "translated_percentage": 85.43619322278299,
+          "total_terms": 12483
+        },
+        "Mymr": {
+          "same_percentage": 14.499999999999998,
+          "translated_percentage": 85.5,
+          "total_terms": 200
+        },
+        "Thai": {
+          "same_percentage": 14.000000000000002,
+          "translated_percentage": 86.0,
+          "total_terms": 100
+        },
+        "Tfng": {
+          "same_percentage": 11.5,
+          "translated_percentage": 88.5,
+          "total_terms": 200
+        },
+        "Grek": {
+          "same_percentage": 9.0,
+          "translated_percentage": 91.0,
+          "total_terms": 100
+        },
+        "Cyrl": {
+          "same_percentage": 8.507089241034196,
+          "translated_percentage": 91.4929107589658,
+          "total_terms": 1199
+        },
+        "Armn": {
+          "same_percentage": 8.0,
+          "translated_percentage": 92.0,
+          "total_terms": 100
+        },
+        "Geor": {
+          "same_percentage": 8.0,
+          "translated_percentage": 92.0,
+          "total_terms": 100
+        },
+        "Hang": {
+          "same_percentage": 7.000000000000001,
+          "translated_percentage": 93.0,
+          "total_terms": 100
+        },
+        "Ethi": {
+          "same_percentage": 6.5,
+          "translated_percentage": 93.5,
+          "total_terms": 200
+        },
+        "Jpan": {
+          "same_percentage": 6.0,
+          "translated_percentage": 94.0,
+          "total_terms": 100
+        },
+        "Hant": {
+          "same_percentage": 5.527638190954774,
+          "translated_percentage": 94.47236180904522,
+          "total_terms": 199
+        },
+        "Arab": {
+          "same_percentage": 5.5,
+          "translated_percentage": 94.5,
+          "total_terms": 2200
+        },
+        "Hebr": {
+          "same_percentage": 5.025125628140704,
+          "translated_percentage": 94.9748743718593,
+          "total_terms": 199
+        },
+        "Taml": {
+          "same_percentage": 4.0,
+          "translated_percentage": 96.0,
+          "total_terms": 100
+        },
+        "Hans": {
+          "same_percentage": 3.0,
+          "translated_percentage": 97.0,
+          "total_terms": 100
+        },
+        "Beng": {
+          "same_percentage": 2.666666666666667,
+          "translated_percentage": 97.33333333333334,
+          "total_terms": 300
+        },
+        "Deva": {
+          "same_percentage": 1.0999999999999999,
+          "translated_percentage": 98.9,
+          "total_terms": 1000
+        },
+        "Sinh": {
+          "same_percentage": 1.0,
+          "translated_percentage": 99.0,
+          "total_terms": 100
+        },
+        "Guru": {
+          "same_percentage": 1.0,
+          "translated_percentage": 99.0,
+          "total_terms": 100
+        },
+        "Gujr": {
+          "same_percentage": 1.0,
+          "translated_percentage": 99.0,
+          "total_terms": 100
+        },
+        "Orya": {
+          "same_percentage": 0.0,
+          "translated_percentage": 100.0,
+          "total_terms": 99
+        },
+        "Mlym": {
+          "same_percentage": 0.0,
+          "translated_percentage": 100.0,
+          "total_terms": 100
+        },
+        "Knda": {
+          "same_percentage": 0.0,
+          "translated_percentage": 100.0,
+          "total_terms": 99
+        },
+        "Telu": {
+          "same_percentage": 0.0,
+          "translated_percentage": 100.0,
+          "total_terms": 100
+        }
+      }
+    },
+    "frequency_patterns": {
+      "very_high": {
+        "count": 1,
+        "frequency_range": "500-inf",
+        "avg_translatability": 0.40594059405940597,
+        "median_translatability": 0.40594059405940597,
+        "examples": [
+          {
+            "term": "3d",
+            "frequency": 532,
+            "translatability_score": 0.40594059405940597
+          }
+        ]
+      },
+      "high": {
+        "count": 2,
+        "frequency_range": "100-499",
+        "avg_translatability": 0.9628712871287128,
+        "median_translatability": 0.9628712871287128,
+        "examples": [
+          {
+            "term": "civil 3d",
+            "frequency": 107,
+            "translatability_score": 0.9306930693069307
+          },
+          {
+            "term": "dialog box",
+            "frequency": 136,
+            "translatability_score": 0.995049504950495
+          }
+        ]
+      },
+      "medium": {
+        "count": 72,
+        "frequency_range": "20-99",
+        "avg_translatability": 0.8738434375153934,
+        "median_translatability": 0.9851485148514851,
+        "examples": [
+          {
+            "term": "BIM 360",
+            "frequency": 27,
+            "translatability_score": 0.21890547263681592
+          },
+          {
+            "term": "AutoCAD LT",
+            "frequency": 26,
+            "translatability_score": 0.297029702970297
+          },
+          {
+            "term": "2D",
+            "frequency": 29,
+            "translatability_score": 0.3415841584158416
+          },
+          {
+            "term": "2d",
+            "frequency": 76,
+            "translatability_score": 0.3465346534653465
+          },
+          {
+            "term": "3ds",
+            "frequency": 34,
+            "translatability_score": 0.39303482587064675
+          }
+        ]
+      },
+      "low": {
+        "count": 25,
+        "frequency_range": "5-19",
+        "avg_translatability": 0.9324653859415792,
+        "median_translatability": 0.9900990099009901,
+        "examples": [
+          {
+            "term": "Maya LT",
+            "frequency": 18,
+            "translatability_score": 0.3712871287128713
+          },
+          {
+            "term": "BIM Collaborate Pro",
+            "frequency": 18,
+            "translatability_score": 0.4405940594059406
+          },
+          {
+            "term": "autodesk vault",
+            "frequency": 19,
+            "translatability_score": 0.7871287128712872
+          },
+          {
+            "term": "autocad map 3d",
+            "frequency": 19,
+            "translatability_score": 0.8663366336633663
+          },
+          {
+            "term": "autocad mechanical",
+            "frequency": 19,
+            "translatability_score": 0.9601990049751243
+          }
+        ]
+      }
+    }
+  },
+  "visualizations": [
+    "analysis_reports\\translatability_analysis_20250903_192358.png",
+    "analysis_reports\\script_analysis_20250903_192358.png"
+  ],
+  "recommendations": [
+    "Terms show high translatability across languages. This suggests good potential for multilingual content adaptation."
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "report_info": {
+    "type": "translatability_analysis",
+    "timestamp": "20250903_192359",
+    "total_terms": 100,
+    "source_file": "translation_results\\dictionary_terms_translation_results_20250903_163809.json"
+  },
+  "summary_statistics": {
+    "total_terms_analyzed": 100,
+    "average_translatability_score": 0.9555415890842816,
+    "median_translatability_score": 0.995049504950495,
+    "std_translatability_score": 0.131638326772441,
+    "min_translatability_score": 0.3415841584158416,
+    "max_translatability_score": 1.0,
+    "average_same_languages": 8.97,
+    "average_translated_languages": 192.72,
+    "average_error_languages": 0.31,
+    "total_target_languages": 202
+  },
+  "detailed_analysis": {
+    "translatability_categories": {
+      "highly_translatable": {
+        "count": 92,
+        "percentage": 92.0,
+        "examples": [
+          {
+            "term": "surface",
+            "score": 1.0,
+            "frequency": 263
+          },
+          {
+            "term": "object",
+            "score": 1.0,
+            "frequency": 442
+          },
+          {
+            "term": "list",
+            "score": 1.0,
+            "frequency": 163
+          },
+          {
+            "term": "change",
+            "score": 1.0,
+            "frequency": 139
+          },
+          {
+            "term": "face",
+            "score": 1.0,
+            "frequency": 106
+          },
+          {
+            "term": "time",
+            "score": 1.0,
+            "frequency": 103
+          },
+          {
+            "term": "group",
+            "score": 1.0,
+            "frequency": 99
+          },
+          {
+            "term": "plane",
+            "score": 1.0,
+            "frequency": 97
+          },
+          {
+            "term": "note",
+            "score": 1.0,
+            "frequency": 91
+          },
+          {
+            "term": "center",
+            "score": 1.0,
+            "frequency": 88
+          }
+        ]
+      },
+      "moderately_translatable": {
+        "count": 8,
+        "percentage": 8.0,
+        "examples": [
+          {
+            "term": "python",
+            "score": 0.7970297029702971,
+            "frequency": 12
+          },
+          {
+            "term": "api",
+            "score": 0.6616915422885572,
+            "frequency": 45
+          },
+          {
+            "term": "pdf",
+            "score": 0.6287128712871287,
+            "frequency": 43
+          },
+          {
+            "term": "PDF",
+            "score": 0.5247524752475248,
+            "frequency": 27
+          },
+          {
+            "term": "API",
+            "score": 0.4900990099009901,
+            "frequency": 32
+          },
+          {
+            "term": "SQL",
+            "score": 0.4228855721393035,
+            "frequency": 14
+          },
+          {
+            "term": "gpu",
+            "score": 0.400990099009901,
+            "frequency": 13
+          },
+          {
+            "term": "xml",
+            "score": 0.3415841584158416,
+            "frequency": 13
+          }
+        ]
+      },
+      "poorly_translatable": {
+        "count": 0,
+        "percentage": 0.0,
+        "examples": []
+      }
+    },
+    "language_patterns": {
+      "top_borrowing_languages": {
+        "lmo_Latn": 18,
+        "knc_Latn": 14,
+        "lus_Latn": 13,
+        "min_Arab": 13,
+        "nob_Latn": 13,
+        "sat_Olck": 13,
+        "ltz_Latn": 12,
+        "cat_Latn": 12,
+        "cym_Latn": 11,
+        "nno_Latn": 11,
+        "pol_Latn": 11,
+        "lim_Latn": 11,
+        "azj_Latn": 11,
+        "kmr_Latn": 11,
+        "dan_Latn": 10
+      },
+      "top_translating_languages": {
+        "bam_Latn": 100,
+        "ban_Latn": 100,
+        "ben_Beng": 100,
+        "bho_Deva": 100,
+        "bjn_Latn": 100,
+        "crh_Latn": 100,
+        "eus_Latn": 100,
+        "hin_Deva": 100,
+        "hne_Deva": 100,
+        "kac_Latn": 100,
+        "kas_Deva": 100,
+        "knc_Arab": 100,
+        "kbp_Latn": 100,
+        "kea_Latn": 100,
+        "kmb_Latn": 100
+      },
+      "top_error_languages": {
+        "acm_Arab": 2,
+        "apc_Arab": 2,
+        "fur_Latn": 2,
+        "ace_Arab": 1,
+        "ace_Latn": 1,
+        "acq_Arab": 1,
+        "aeb_Arab": 1,
+        "afr_Latn": 1,
+        "ajp_Arab": 1,
+        "aka_Latn": 1
+      },
+      "language_preferences": {
+        "lmo_Latn": {
+          "same_percentage": 18.0,
+          "translated_percentage": 82.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "knc_Latn": {
+          "same_percentage": 14.000000000000002,
+          "translated_percentage": 86.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "nob_Latn": {
+          "same_percentage": 13.0,
+          "translated_percentage": 87.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "lus_Latn": {
+          "same_percentage": 13.0,
+          "translated_percentage": 87.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "min_Arab": {
+          "same_percentage": 13.0,
+          "translated_percentage": 87.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "sat_Olck": {
+          "same_percentage": 13.0,
+          "translated_percentage": 87.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "ltz_Latn": {
+          "same_percentage": 12.121212121212121,
+          "translated_percentage": 87.87878787878788,
+          "total_processed": 99,
+          "coverage_percentage": 99.0
+        },
+        "cat_Latn": {
+          "same_percentage": 12.0,
+          "translated_percentage": 88.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "cym_Latn": {
+          "same_percentage": 11.11111111111111,
+          "translated_percentage": 88.88888888888889,
+          "total_processed": 99,
+          "coverage_percentage": 99.0
+        },
+        "lim_Latn": {
+          "same_percentage": 11.0,
+          "translated_percentage": 89.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "pol_Latn": {
+          "same_percentage": 11.0,
+          "translated_percentage": 89.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "nno_Latn": {
+          "same_percentage": 11.0,
+          "translated_percentage": 89.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "kmr_Latn": {
+          "same_percentage": 11.0,
+          "translated_percentage": 89.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "azj_Latn": {
+          "same_percentage": 11.0,
+          "translated_percentage": 89.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "dan_Latn": {
+          "same_percentage": 10.0,
+          "translated_percentage": 90.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "hat_Latn": {
+          "same_percentage": 10.0,
+          "translated_percentage": 90.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "tgl_Latn": {
+          "same_percentage": 10.0,
+          "translated_percentage": 90.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "nus_Latn": {
+          "same_percentage": 9.0,
+          "translated_percentage": 91.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "als_Latn": {
+          "same_percentage": 9.0,
+          "translated_percentage": 91.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        },
+        "taq_Latn": {
+          "same_percentage": 9.0,
+          "translated_percentage": 91.0,
+          "total_processed": 100,
+          "coverage_percentage": 100.0
+        }
+      },
+      "script_preferences": {
+        "Olck": {
+          "same_percentage": 13.0,
+          "translated_percentage": 87.0,
+          "total_terms": 100
+        },
+        "Khmr": {
+          "same_percentage": 8.0,
+          "translated_percentage": 92.0,
+          "total_terms": 100
+        },
+        "Armn": {
+          "same_percentage": 6.0,
+          "translated_percentage": 94.0,
+          "total_terms": 100
+        },
+        "Laoo": {
+          "same_percentage": 6.0,
+          "translated_percentage": 94.0,
+          "total_terms": 100
+        },
+        "Latn": {
+          "same_percentage": 5.342410893071686,
+          "translated_percentage": 94.65758910692831,
+          "total_terms": 12485
+        },
+        "Hang": {
+          "same_percentage": 5.05050505050505,
+          "translated_percentage": 94.94949494949495,
+          "total_terms": 99
+        },
+        "Tfng": {
+          "same_percentage": 5.0,
+          "translated_percentage": 95.0,
+          "total_terms": 200
+        },
+        "Grek": {
+          "same_percentage": 5.0,
+          "translated_percentage": 95.0,
+          "total_terms": 100
+        },
+        "Tibt": {
+          "same_percentage": 4.5,
+          "translated_percentage": 95.5,
+          "total_terms": 200
+        },
+        "Taml": {
+          "same_percentage": 4.040404040404041,
+          "translated_percentage": 95.95959595959596,
+          "total_terms": 99
+        },
+        "Mymr": {
+          "same_percentage": 4.0201005025125625,
+          "translated_percentage": 95.97989949748744,
+          "total_terms": 199
+        },
+        "Geor": {
+          "same_percentage": 4.0,
+          "translated_percentage": 96.0,
+          "total_terms": 100
+        },
+        "Thai": {
+          "same_percentage": 4.0,
+          "translated_percentage": 96.0,
+          "total_terms": 100
+        },
+        "Arab": {
+          "same_percentage": 3.6073059360730597,
+          "translated_percentage": 96.39269406392694,
+          "total_terms": 2190
+        },
+        "Cyrl": {
+          "same_percentage": 3.4166666666666665,
+          "translated_percentage": 96.58333333333333,
+          "total_terms": 1200
+        },
+        "Hebr": {
+          "same_percentage": 3.0,
+          "translated_percentage": 97.0,
+          "total_terms": 200
+        },
+        "Ethi": {
+          "same_percentage": 2.512562814070352,
+          "translated_percentage": 97.48743718592965,
+          "total_terms": 199
+        },
+        "Hant": {
+          "same_percentage": 2.5,
+          "translated_percentage": 97.5,
+          "total_terms": 200
+        },
+        "Guru": {
+          "same_percentage": 2.0,
+          "translated_percentage": 98.0,
+          "total_terms": 100
+        },
+        "Telu": {
+          "same_percentage": 2.0,
+          "translated_percentage": 98.0,
+          "total_terms": 100
+        },
+        "Sinh": {
+          "same_percentage": 1.0,
+          "translated_percentage": 99.0,
+          "total_terms": 100
+        },
+        "Knda": {
+          "same_percentage": 1.0,
+          "translated_percentage": 99.0,
+          "total_terms": 100
+        },
+        "Gujr": {
+          "same_percentage": 1.0,
+          "translated_percentage": 99.0,
+          "total_terms": 100
+        },
+        "Deva": {
+          "same_percentage": 0.40040040040040037,
+          "translated_percentage": 99.5995995995996,
+          "total_terms": 999
+        },
+        "Beng": {
+          "same_percentage": 0.33333333333333337,
+          "translated_percentage": 99.66666666666667,
+          "total_terms": 300
+        },
+        "Orya": {
+          "same_percentage": 0.0,
+          "translated_percentage": 100.0,
+          "total_terms": 100
+        },
+        "Mlym": {
+          "same_percentage": 0.0,
+          "translated_percentage": 100.0,
+          "total_terms": 100
+        },
+        "Hans": {
+          "same_percentage": 0.0,
+          "translated_percentage": 100.0,
+          "total_terms": 100
+        },
+        "Jpan": {
+          "same_percentage": 0.0,
+          "translated_percentage": 100.0,
+          "total_terms": 99
+        }
+      }
+    },
+    "frequency_patterns": {
+      "high": {
+        "count": 14,
+        "frequency_range": "100-499",
+        "avg_translatability": 0.9921977629532674,
+        "median_translatability": 0.995049504950495,
+        "examples": [
+          {
+            "term": "system",
+            "frequency": 190,
+            "translatability_score": 0.945273631840796
+          },
+          {
+            "term": "color",
+            "frequency": 102,
+            "translatability_score": 0.9851485148514851
+          },
+          {
+            "term": "add",
+            "frequency": 147,
+            "translatability_score": 0.9900990099009901
+          },
+          {
+            "term": "part",
+            "frequency": 119,
+            "translatability_score": 0.9900990099009901
+          },
+          {
+            "term": "open",
+            "frequency": 120,
+            "translatability_score": 0.995
+          }
+        ]
+      },
+      "medium": {
+        "count": 57,
+        "frequency_range": "20-99",
+        "avg_translatability": 0.9625349023511934,
+        "median_translatability": 1.0,
+        "examples": [
+          {
+            "term": "API",
+            "frequency": 32,
+            "translatability_score": 0.4900990099009901
+          },
+          {
+            "term": "PDF",
+            "frequency": 27,
+            "translatability_score": 0.5247524752475248
+          },
+          {
+            "term": "pdf",
+            "frequency": 43,
+            "translatability_score": 0.6287128712871287
+          },
+          {
+            "term": "api",
+            "frequency": 45,
+            "translatability_score": 0.6616915422885572
+          },
+          {
+            "term": "plan",
+            "frequency": 51,
+            "translatability_score": 0.905940594059406
+          }
+        ]
+      },
+      "low": {
+        "count": 29,
+        "frequency_range": "5-19",
+        "avg_translatability": 0.9241000273470475,
+        "median_translatability": 0.995049504950495,
+        "examples": [
+          {
+            "term": "xml",
+            "frequency": 13,
+            "translatability_score": 0.3415841584158416
+          },
+          {
+            "term": "gpu",
+            "frequency": 13,
+            "translatability_score": 0.400990099009901
+          },
+          {
+            "term": "SQL",
+            "frequency": 14,
+            "translatability_score": 0.4228855721393035
+          },
+          {
+            "term": "python",
+            "frequency": 12,
+            "translatability_score": 0.7970297029702971
+          },
+          {
+            "term": "test",
+            "frequency": 15,
+            "translatability_score": 0.9504950495049505
+          }
+        ]
+      }
+    }
+  },
+  "visualizations": [
+    "analysis_reports\\translatability_analysis_20250903_192359.png",
+    "analysis_reports\\script_analysis_20250903_192359.png"
+  ],
+  "recommendations": [
+    "Terms show high translatability across languages. This suggests good potential for multilingual content adaptation."
+  ]
+}

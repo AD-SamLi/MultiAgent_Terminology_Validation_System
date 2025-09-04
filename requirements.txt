@@ -1,0 +1,39 @@
+# NLLB Translation Agent Requirements
+# Core ML and Translation
+torch>=2.0.0
+transformers>=4.30.0
+tokenizers>=0.13.0
+sentencepiece>=0.1.99
+accelerate>=0.25.0
+
+# Smolagents framework for terminology review agent
+smolagents>=1.21.0
+duckduckgo-search>=3.9.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.21.0
+scipy>=1.9.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Utilities
+tqdm>=4.64.0
+python-dotenv>=0.19.0
+pathlib>=1.0.0
+dataclasses-json>=0.5.0
+
+# Azure integration (if using Azure OpenAI for agent)
+azure-identity>=1.12.0
+azure-cognitiveservices-language-textanalytics>=5.2.0
+
+# Optional: CUDA support (install separately)
+# nvidia-ml-py3>=7.352.0
+
+# Development and testing
+pytest>=7.0.0
+jupyter>=1.0.0
+ipykernel>=6.0.0

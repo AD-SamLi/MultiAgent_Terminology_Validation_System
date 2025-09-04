@@ -1,0 +1,12 @@
+{
+  "session_id": "hybrid_20250904_144843",
+  "file_type": "dictionary",
+  "processed_index": 69,
+  "total_terms": 7931,
+  "results_count": 70,
+  "start_time": "2025-09-04T14:48:43.255023",
+  "last_update": "2025-09-04T15:58:36.894799",
+  "model_size": "1.3B",
+  "device": "auto",
+  "cpu_workers": 4
+}

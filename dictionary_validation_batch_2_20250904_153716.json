@@ -1,0 +1,3265 @@
+{
+  "metadata": {
+    "generated_by": "TerminologyReviewAgent",
+    "model_used": "unknown",
+    "parameters": {
+      "max_search_results": 50,
+      "seed": 42,
+      "temperature": 0.0,
+      "top_p": 1.0
+    },
+    "timestamp": "2025-09-04T15:43:09.561426",
+    "total_results": 5,
+    "version": "1.0"
+  },
+  "results": [
+    {
+      "autodesk_analysis": {
+        "already_exists": true,
+        "domain_relevance_score": 8.299999999999988,
+        "duplicate_count": 34,
+        "existing_translations": {
+          "DNM_FRE-ENG": "feature",
+          "DNM_ITA-ENG": "feature",
+          "EN-FR": "feature",
+          "EN-IT": "feature",
+          "EN-JA": "機能",
+          "EN-ZH": "功能",
+          "EN-ZH-TW": "特徵",
+          "ENG-CHS": "功能",
+          "ENG-CHT": "特徵",
+          "ENG-CSZ": "prvek",
+          "ENG-DAN": "funktion",
+          "ENG-FRE": "feature",
+          "ENG-ITA": "feature",
+          "ENG-JPN": "機能",
+          "ENG-NOR": "funksjon",
+          "ENG-PLY": "cecha",
+          "ENG-SWE": "funktion",
+          "dnm_fre-eng": "feature",
+          "dnm_ita-eng": "feature",
+          "en-fr": "feature",
+          "en-it": "feature",
+          "en-ja": "機能",
+          "en-zh": "功能",
+          "en-zh-tw": "特徵",
+          "eng-chs": "功能",
+          "eng-cht": "特徵",
+          "eng-csz": "prvek",
+          "eng-dan": "funktion",
+          "eng-fre": "feature",
+          "eng-ita": "feature",
+          "eng-jpn": "機能",
+          "eng-nor": "funksjon",
+          "eng-ply": "cecha",
+          "eng-swe": "funktion"
+        },
+        "industry_categories": [
+          "AEC"
+        ],
+        "related_terms": [
+          {
+            "language_pair": "ENG-ARA",
+            "term": "features",
+            "translation": "ميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "trace feature",
+            "translation": "ميزة التتبع"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "baseline features",
+            "translation": "الميزات الأساسية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "core features include",
+            "translation": "تتضمن الميزات الأساسية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature code",
+            "translation": "رمز الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature comparison",
+            "translation": "مقارنة الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature demonstration",
+            "translation": "عرض الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature demos",
+            "translation": "عروض الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature line",
+            "translation": "خط الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature set",
+            "translation": "مجموعة الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "FeatureCAM",
+            "translation": "FeatureCAM"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "features and benefits",
+            "translation": "الميزات والفوائد"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "features and demonstrations",
+            "translation": "الميزات والعروض التوضيحية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "features and functions",
+            "translation": "الميزات والوظائف"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "features and specifications",
+            "translation": "المميزات والمواصفات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "key features",
+            "translation": "الميزات الرئيسية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "side-by-side feature comparison",
+            "translation": "مقارنة الميزات جنبًا إلى جنب"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "automatic feature recognition",
+            "translation": "التعرف التلقائي على الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "boss feature",
+            "translation": "ميزة رفع أو تثبيت المحاور"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Experimental Generative Solvers and Features",
+            "translation": "الحلول والميزات التوليدية التجريبية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature collision",
+            "translation": "تصادم الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature construction",
+            "translation": "بناء الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature control frame",
+            "translation": "إطار التحكم بالميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature group",
+            "translation": "مجموعة الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature number",
+            "translation": "رقم الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "fillet feature",
+            "translation": "ميزة الوصل المستدير"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "geometric feature",
+            "translation": "ميزة هندسية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "hole feature",
+            "translation": "ميزة الثقب"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "iFeatures",
+            "translation": "iFeatures"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Interactive Feature Recognition",
+            "translation": "التعرف التفاعلي على الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "lip feature",
+            "translation": "ميزة الحافة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "New Features Workshop",
+            "translation": "ورشة الميزات الجديدة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "origin work feature",
+            "translation": "ميزة العمل الأصلية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "parallel feature construction",
+            "translation": "إنشاء ميزات متوازية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "pattern feature",
+            "translation": "ميزة النمط"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "PCB feature",
+            "translation": "ميزة PCB"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "placed feature",
+            "translation": "ميزة موضوعة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "power feature",
+            "translation": "ميزة الطاقة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "sheet metal features",
+            "translation": "ميزات الصفائح المعدنية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "sketched feature",
+            "translation": "ميزة مرسومة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "work feature",
+            "translation": "ميزة العمل"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "child feature class",
+            "translation": "子要素类"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "feature class",
+            "translation": "要素类"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "feature container",
+            "translation": "要素容器"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Feature Data Object",
+            "translation": "要素数据对象"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Feature Explorer",
+            "translation": "要素管理器"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "parent feature class",
+            "translation": "父要素类"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "point feature",
+            "translation": "点要素"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "schematic feature",
+            "translation": "示意图要素"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "feature",
+            "translation": "功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "feature lines",
+            "translation": "要素线"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Baseline Features",
+            "translation": "基本功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Core features include",
+            "translation": "核心功能包括"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Explore Features",
+            "translation": "探索功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Feature Comparison",
+            "translation": "功能比较"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Feature Demos",
+            "translation": "功能演示"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Features",
+            "translation": "功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Features and Benefits",
+            "translation": "功能和优势"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Features and Demonstrations",
+            "translation": "功能和演示"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Features and Functions",
+            "translation": "特性和功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Features and Specifications",
+            "translation": "功能和规范"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Key Features",
+            "translation": "主要功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "ATU",
+            "translation": "ATU"
+          },
+          {
+            "language_pair": "ENG-CSZ",
+            "term": "multipart feature",
+            "translation": "vícedílné prvky"
+          },
+          {
+            "language_pair": "ENG-ESP",
+            "term": "U",
+            "translation": "H"
+          },
+          {
+            "language_pair": "ENG-FIN",
+            "term": "new features workshop",
+            "translation": "uusien ominaisuuksien workshop"
+          },
+          {
+            "language_pair": "ENG-KOR",
+            "term": "rerecognize features",
+            "translation": "피쳐 재인식"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "FEA",
+            "translation": "FEA"
+          },
+          {
+            "language_pair": "AEC_CHS-ENG",
+            "term": "ReCap Pro collaboration features",
+            "translation": "ReCap Pro"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "automatische Feature-Erkennung",
+            "translation": "automatic feature recognition"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "Featuregruppe",
+            "translation": "feature group"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "Feature-Kollision",
+            "translation": "feature collision"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "interaktive Feature-Erkennung",
+            "translation": "Interactive Feature Recognition"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "groupe de feature",
+            "translation": "feature group"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "reconnaissance automatique de feature",
+            "translation": "automatic feature recognition"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "reconnaissance interactive de feature",
+            "translation": "Interactive Feature Recognition"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "collisione feature",
+            "translation": "feature collision"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "Riconoscimento interattivo feature",
+            "translation": "Interactive Feature Recognition"
+          }
+        ]
+      },
+      "industry_context": "General",
+      "recommendations": [
+        "⚠️ WARNING: Term found in 34 glossaries despite pre-filtering",
+        "✅ Domain relevance: 78 related terms found in glossaries",
+        "✅ Industry context: AEC",
+        "✅ Excellent domain fit with existing terminology",
+        "📋 LOW PRIORITY: Limited domain context, consider for future",
+        "🔍 INVESTIGATE: Found in glossary despite pre-filtering"
+      ],
+      "src_lang": "EN",
+      "status": "unexpected_duplicate",
+      "term": "feature",
+      "tgt_lang": "EN",
+      "timestamp": "2025-09-04T15:39:27.159114",
+      "validation_score": 0.466,
+      "web_research": {
+        "autodesk_specific": "Web search failed: https://html.duckduckgo.com/html RuntimeError: error sending request for url (https://html.duckduckgo.com/html): operation timed out\n\nCaused by:\n    operation timed out",
+        "general_industry": "Web search failed: https://lite.duckduckgo.com/lite/ RuntimeError: error sending request for url (https://lite.duckduckgo.com/lite/): operation timed out\n\nCaused by:\n    operation timed out",
+        "industry_context": "No industry-specific search performed",
+        "search_queries": [
+          "\"feature\" CAD software engineering technical terminology",
+          "\"feature\" Autodesk AutoCAD Revit Inventor Maya 3ds Max"
+        ]
+      }
+    },
+    {
+      "autodesk_analysis": {
+        "already_exists": true,
+        "domain_relevance_score": 7.79999999999999,
+        "duplicate_count": 14,
+        "existing_translations": {
+          "EN-PT": "funcionalidades",
+          "ENG-ARA": "ميزات",
+          "ENG-HIN": "फ़ीचर्स",
+          "ENG-IND": "fitur",
+          "ENG-NOR": "funksjoner",
+          "ENG-POR": "funcionalidades",
+          "ENG-UKR": "особливістi",
+          "en-pt": "funcionalidades",
+          "eng-ara": "ميزات",
+          "eng-hin": "फ़ीचर्स",
+          "eng-ind": "fitur",
+          "eng-nor": "funksjoner",
+          "eng-por": "funcionalidades",
+          "eng-ukr": "особливістi"
+        },
+        "industry_categories": [
+          "AEC"
+        ],
+        "related_terms": [
+          {
+            "language_pair": "ENG-ARA",
+            "term": "features",
+            "translation": "ميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "trace feature",
+            "translation": "ميزة التتبع"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "baseline features",
+            "translation": "الميزات الأساسية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "core features include",
+            "translation": "تتضمن الميزات الأساسية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature code",
+            "translation": "رمز الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature comparison",
+            "translation": "مقارنة الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature demonstration",
+            "translation": "عرض الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature demos",
+            "translation": "عروض الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature line",
+            "translation": "خط الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature set",
+            "translation": "مجموعة الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "features and benefits",
+            "translation": "الميزات والفوائد"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "features and demonstrations",
+            "translation": "الميزات والعروض التوضيحية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "features and functions",
+            "translation": "الميزات والوظائف"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "features and specifications",
+            "translation": "المميزات والمواصفات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "key features",
+            "translation": "الميزات الرئيسية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "side-by-side feature comparison",
+            "translation": "مقارنة الميزات جنبًا إلى جنب"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "automatic feature recognition",
+            "translation": "التعرف التلقائي على الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "boss feature",
+            "translation": "ميزة رفع أو تثبيت المحاور"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Experimental Generative Solvers and Features",
+            "translation": "الحلول والميزات التوليدية التجريبية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature collision",
+            "translation": "تصادم الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature construction",
+            "translation": "بناء الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature control frame",
+            "translation": "إطار التحكم بالميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature group",
+            "translation": "مجموعة الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feature number",
+            "translation": "رقم الميزة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "fillet feature",
+            "translation": "ميزة الوصل المستدير"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "geometric feature",
+            "translation": "ميزة هندسية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "hole feature",
+            "translation": "ميزة الثقب"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "iFeatures",
+            "translation": "iFeatures"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Interactive Feature Recognition",
+            "translation": "التعرف التفاعلي على الميزات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "lip feature",
+            "translation": "ميزة الحافة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "New Features Workshop",
+            "translation": "ورشة الميزات الجديدة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "origin work feature",
+            "translation": "ميزة العمل الأصلية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "parallel feature construction",
+            "translation": "إنشاء ميزات متوازية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "pattern feature",
+            "translation": "ميزة النمط"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "PCB feature",
+            "translation": "ميزة PCB"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "placed feature",
+            "translation": "ميزة موضوعة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "power feature",
+            "translation": "ميزة الطاقة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "sheet metal features",
+            "translation": "ميزات الصفائح المعدنية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "sketched feature",
+            "translation": "ميزة مرسومة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "work feature",
+            "translation": "ميزة العمل"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "child feature class",
+            "translation": "子要素类"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "feature class",
+            "translation": "要素类"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "feature container",
+            "translation": "要素容器"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Feature Data Object",
+            "translation": "要素数据对象"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Feature Explorer",
+            "translation": "要素管理器"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "parent feature class",
+            "translation": "父要素类"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "point feature",
+            "translation": "点要素"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "schematic feature",
+            "translation": "示意图要素"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "feature",
+            "translation": "功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "feature lines",
+            "translation": "要素线"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Baseline Features",
+            "translation": "基本功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Core features include",
+            "translation": "核心功能包括"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Explore Features",
+            "translation": "探索功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Feature Comparison",
+            "translation": "功能比较"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Feature Demos",
+            "translation": "功能演示"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Features",
+            "translation": "功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Features and Benefits",
+            "translation": "功能和优势"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Features and Demonstrations",
+            "translation": "功能和演示"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Features and Functions",
+            "translation": "特性和功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Features and Specifications",
+            "translation": "功能和规范"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Key Features",
+            "translation": "主要功能"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "ATU",
+            "translation": "ATU"
+          },
+          {
+            "language_pair": "ENG-CSZ",
+            "term": "multipart feature",
+            "translation": "vícedílné prvky"
+          },
+          {
+            "language_pair": "ENG-ESP",
+            "term": "U",
+            "translation": "H"
+          },
+          {
+            "language_pair": "ENG-FIN",
+            "term": "new features workshop",
+            "translation": "uusien ominaisuuksien workshop"
+          },
+          {
+            "language_pair": "ENG-KOR",
+            "term": "rerecognize features",
+            "translation": "피쳐 재인식"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "FEA",
+            "translation": "FEA"
+          },
+          {
+            "language_pair": "AEC_CHS-ENG",
+            "term": "ReCap Pro collaboration features",
+            "translation": "ReCap Pro"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "groupe de feature",
+            "translation": "feature group"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "reconnaissance automatique de feature",
+            "translation": "automatic feature recognition"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "reconnaissance interactive de feature",
+            "translation": "Interactive Feature Recognition"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "collisione feature",
+            "translation": "feature collision"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "Riconoscimento interattivo feature",
+            "translation": "Interactive Feature Recognition"
+          }
+        ]
+      },
+      "industry_context": "General",
+      "recommendations": [
+        "⚠️ WARNING: Term found in 14 glossaries despite pre-filtering",
+        "✅ Domain relevance: 73 related terms found in glossaries",
+        "✅ Industry context: AEC",
+        "✅ Excellent domain fit with existing terminology",
+        "📋 LOW PRIORITY: Limited domain context, consider for future",
+        "🔍 INVESTIGATE: Found in glossary despite pre-filtering"
+      ],
+      "src_lang": "EN",
+      "status": "unexpected_duplicate",
+      "term": "features",
+      "tgt_lang": "EN",
+      "timestamp": "2025-09-04T15:40:11.216559",
+      "validation_score": 0.456,
+      "web_research": {
+        "autodesk_specific": "Web search failed: https://lite.duckduckgo.com/lite/ RuntimeError: error sending request for url (https://lite.duckduckgo.com/lite/): operation timed out\n\nCaused by:\n    operation timed out",
+        "general_industry": "Web search failed: https://html.duckduckgo.com/html RuntimeError: error sending request for url (https://html.duckduckgo.com/html): operation timed out\n\nCaused by:\n    operation timed out",
+        "industry_context": "No industry-specific search performed",
+        "search_queries": [
+          "\"features\" CAD software engineering technical terminology",
+          "\"features\" Autodesk AutoCAD Revit Inventor Maya 3ds Max"
+        ]
+      }
+    },
+    {
+      "autodesk_analysis": {
+        "already_exists": false,
+        "domain_relevance_score": 14.299999999999967,
+        "duplicate_count": 0,
+        "existing_translations": {},
+        "industry_categories": [
+          "CAD",
+          "AEC",
+          "Manufacturing"
+        ],
+        "related_terms": [
+          {
+            "language_pair": "ENG-ARA",
+            "term": "OPENFROMCLOUD",
+            "translation": "OPENFROMCLOUD"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "POINTCLOUDATTACH",
+            "translation": "POINTCLOUDATTACH"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "POINTCLOUDCOLORMAP",
+            "translation": "POINTCLOUDCOLORMAP"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "POINTCLOUDCROP",
+            "translation": "POINTCLOUDCROP"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "POINTCLOUDCROPSTATE",
+            "translation": "POINTCLOUDCROPSTATE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "POINTCLOUDMANAGER",
+            "translation": "POINTCLOUDMANAGER"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "POINTCLOUDMANAGERCLOSE",
+            "translation": "POINTCLOUDMANAGERCLOSE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "POINTCLOUDSTYLIZE",
+            "translation": "POINTCLOUDSTYLIZE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "POINTCLOUDUNCROP",
+            "translation": "POINTCLOUDUNCROP"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "REVCLOUD",
+            "translation": "REVCLOUD"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "REVCLOUDPROPERTIES",
+            "translation": "REVCLOUDPROPERTIES"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "SAVETOCLOUD",
+            "translation": "SAVETOCLOUD"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "cloud model",
+            "translation": "نموذج السحابة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Point Cloud Image Lookup",
+            "translation": "البحث عن صورة السحابة النقطية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Autodesk Construction Cloud",
+            "translation": "سحابة Autodesk للإنشاءات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "cloud credits",
+            "translation": "نقاط استخدام السحابة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "cloud credits allocation",
+            "translation": "تخصيص نقاط استخدام السحابة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "cloud services",
+            "translation": "خدمات السحابة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "cloud storage",
+            "translation": "تخزين سحابي"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "cloud unit",
+            "translation": "وحدة السحابة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "point cloud",
+            "translation": "بيانات ثلاثية الأبعاد"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Revit Cloud Worksharing",
+            "translation": "المشاركة السحابية في Revit"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "cloud credit balance",
+            "translation": "رصيد أرصدة السحابة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "cloud credit task",
+            "translation": "مهمة أرصدة السحابة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "cloud data",
+            "translation": "بيانات السحابة"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Autodesk Cloud Standards",
+            "translation": "Autodesk 云标准"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "cloud licensing",
+            "translation": "云许可"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "cloud solid modeling",
+            "translation": "云实体建模"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "commercial cloud environment",
+            "translation": "商业云环境"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Generative Cloud Platform",
+            "translation": "衍生式云平台"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "virtual private cloud",
+            "translation": "虚拟私有云"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "cloud credit usage",
+            "translation": "云积分使用量"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Cloud Credits",
+            "translation": "云积分"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Cloud Credits panel",
+            "translation": "“云积分”面板"
+          },
+          {
+            "language_pair": "ENG-CSZ",
+            "term": "CL",
+            "translation": "osa"
+          },
+          {
+            "language_pair": "ENG-ESP",
+            "term": "U",
+            "translation": "H"
+          },
+          {
+            "language_pair": "ENG-ESP",
+            "term": "point cloud data",
+            "translation": "datos de nube de puntos"
+          },
+          {
+            "language_pair": "ENG-FRC",
+            "term": "Cloud Technologies",
+            "translation": "technologies infonuagiques"
+          },
+          {
+            "language_pair": "ENG-FRE",
+            "term": "Cloud Rights",
+            "translation": "droits d'utilisation du cloud"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "Autodesk Cloud",
+            "translation": "Autodesk Cloud"
+          },
+          {
+            "language_pair": "ACAD_CSZ-ENG",
+            "term": "OTEVŘIZCLOUDU",
+            "translation": "OPENFROMCLOUD"
+          },
+          {
+            "language_pair": "ACAD_CSZ-ENG",
+            "term": "ULOŽDOCLOUDU",
+            "translation": "SAVETOCLOUD"
+          },
+          {
+            "language_pair": "ACAD_DEU-ENG",
+            "term": "AUSCLOUDÖFF",
+            "translation": "OPENFROMCLOUD"
+          },
+          {
+            "language_pair": "ACAD_DEU-ENG",
+            "term": "INCLOUDSPEICH",
+            "translation": "SAVETOCLOUD"
+          },
+          {
+            "language_pair": "ACAD_FRE-ENG",
+            "term": "OUVRIRDEPUISCLOUD",
+            "translation": "OPENFROMCLOUD"
+          },
+          {
+            "language_pair": "ACAD_FRE-ENG",
+            "term": "ENREGISTRERDANSCLOUD",
+            "translation": "SAVETOCLOUD"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "APRIDACLOUD",
+            "translation": "OPENFROMCLOUD"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "SALVAINCLOUD",
+            "translation": "SAVETOCLOUD"
+          },
+          {
+            "language_pair": "AEC_DAN-ENG",
+            "term": "cloudmodel",
+            "translation": "cloud model"
+          },
+          {
+            "language_pair": "AEC_DEU-ENG",
+            "term": "Cloud-Modell",
+            "translation": "cloud model"
+          },
+          {
+            "language_pair": "AEC_FRE-ENG",
+            "term": "modèle cloud",
+            "translation": "cloud model"
+          },
+          {
+            "language_pair": "AEC_FRE-ENG",
+            "term": "partage de projet sur le cloud Revit",
+            "translation": "Revit Cloud Worksharing"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "model cloud",
+            "translation": "cloud model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "Pencarian Gambar Cloud Titik",
+            "translation": "Point Cloud Image Lookup"
+          },
+          {
+            "language_pair": "AEC_ITA-ENG",
+            "term": "modello cloud",
+            "translation": "cloud model"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "kredity pro cloud",
+            "translation": "cloud credits"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "cloudové služby",
+            "translation": "cloud services"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "cloudové jednotky",
+            "translation": "cloud unit"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "standardy pro cloudové služby Autodesk",
+            "translation": "Autodesk Cloud Standards"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "komerční cloudové prostředí",
+            "translation": "commercial cloud environment"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "generativní cloudová platforma",
+            "translation": "Generative Cloud Platform"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "virtuální privátní cloud",
+            "translation": "virtual private cloud"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "Autodesk cloudstandarder",
+            "translation": "Autodesk Cloud Standards"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "cloudlicensering",
+            "translation": "cloud licensing"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "cloud-tjenester",
+            "translation": "cloud services"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "Generativ cloudplatform",
+            "translation": "Generative Cloud Platform"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "kommercielt cloudmiljø",
+            "translation": "commercial cloud environment"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "solid modellering i cloud",
+            "translation": "cloud solid modeling"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "virtuel privat cloud",
+            "translation": "virtual private cloud"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Cloud Solid Modeling",
+            "translation": "cloud solid modeling"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Cloud-Einheit",
+            "translation": "cloud unit"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Cloud-Lizenzierung",
+            "translation": "cloud licensing"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Cloud-Punkte",
+            "translation": "cloud credits"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Cloud-Services",
+            "translation": "cloud services"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Cloud-Speicherung",
+            "translation": "cloud storage"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "kommerzielle Cloud-Umgebung",
+            "translation": "commercial cloud environment"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Vrtuelle private Cloud",
+            "translation": "virtual private cloud"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Zuteilung von Cloud-Punkten",
+            "translation": "cloud credits allocation"
+          },
+          {
+            "language_pair": "CORE_FIN-ENG",
+            "term": "Cloud-yksiköt",
+            "translation": "cloud unit"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "allocation de crédits cloud",
+            "translation": "cloud credits allocation"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "cloud privé virtuel",
+            "translation": "virtual private cloud"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "crédits cloud",
+            "translation": "cloud credits"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "environnement commercial sur cloud",
+            "translation": "commercial cloud environment"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "licences cloud",
+            "translation": "cloud licensing"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "modélisation de solide dans le cloud",
+            "translation": "cloud solid modeling"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "Normes Autodesk Cloud",
+            "translation": "Autodesk Cloud Standards"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "Plate-forme Cloud générative",
+            "translation": "Generative Cloud Platform"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "services cloud",
+            "translation": "cloud services"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "stockage dans le cloud",
+            "translation": "cloud storage"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "unité cloud",
+            "translation": "cloud unit"
+          },
+          {
+            "language_pair": "CORE_HUN-ENG",
+            "term": "Autodesk Cloud-szabványok",
+            "translation": "Autodesk Cloud Standards"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "Cloud Konstruksi Autodesk",
+            "translation": "Autodesk Construction Cloud"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "kredit cloud",
+            "translation": "cloud credits"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "alokasi kredit cloud",
+            "translation": "cloud credits allocation"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "layanan cloud",
+            "translation": "cloud services"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "penyimpanan cloud",
+            "translation": "cloud storage"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "unit cloud",
+            "translation": "cloud unit"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "cloud titik",
+            "translation": "point cloud"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "ambiente cloud commerciale",
+            "translation": "commercial cloud environment"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "assegnazione crediti cloud",
+            "translation": "cloud credits allocation"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "cloud privato virtuale",
+            "translation": "virtual private cloud"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "crediti cloud",
+            "translation": "cloud credits"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "licenze cloud",
+            "translation": "cloud licensing"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "memorizzazione nel cloud",
+            "translation": "cloud storage"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "modellazione di solidi cloud",
+            "translation": "cloud solid modeling"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "Piattaforma cloud generativa",
+            "translation": "Generative Cloud Platform"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "servizi cloud",
+            "translation": "cloud services"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "unità cloud",
+            "translation": "cloud unit"
+          },
+          {
+            "language_pair": "CORE_MEX-ENG",
+            "term": "Normas de Autodesk Cloud",
+            "translation": "Autodesk Cloud Standards"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "Autodesk cloudstandaarden",
+            "translation": "Autodesk Cloud Standards"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "cloud-credits",
+            "translation": "cloud credits"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "cloudlicenties",
+            "translation": "cloud licensing"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "cloud-services",
+            "translation": "cloud services"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "cloudunit",
+            "translation": "cloud unit"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "cloudvolumemodelering",
+            "translation": "cloud solid modeling"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "commerciële cloud-omgeving",
+            "translation": "commercial cloud environment"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "Generatief cloudplatform",
+            "translation": "Generative Cloud Platform"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "virtuele privécloud",
+            "translation": "virtual private cloud"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "Standarde cloud Autodesk",
+            "translation": "Autodesk Cloud Standards"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "licențiere cloud",
+            "translation": "cloud licensing"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "modelare solidă cloud",
+            "translation": "cloud solid modeling"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "mediu cloud comercial",
+            "translation": "commercial cloud environment"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "Platformă cloud generativă",
+            "translation": "Generative Cloud Platform"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "cloud privat virtual",
+            "translation": "virtual private cloud"
+          },
+          {
+            "language_pair": "CORE_RUS-ENG",
+            "term": "Стандарты Autodesk Cloud",
+            "translation": "Autodesk Cloud Standards"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "Cloud-Daten",
+            "translation": "cloud data"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "Cloud-Punkte-Aufgabe",
+            "translation": "cloud credit task"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "Cloud-Punkte-Guthaben",
+            "translation": "cloud credit balance"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "données cloud",
+            "translation": "cloud data"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "data cloud",
+            "translation": "cloud data"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "saldo kredit cloud",
+            "translation": "cloud credit balance"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "tugas kredit cloud",
+            "translation": "cloud credit task"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "dati del cloud",
+            "translation": "cloud data"
+          },
+          {
+            "language_pair": "MNE_FRE-ENG",
+            "term": "droits d'utilisation du cloud",
+            "translation": "Cloud Rights"
+          }
+        ]
+      },
+      "industry_context": "General",
+      "recommendations": [
+        "✅ Domain relevance: 134 related terms found in glossaries",
+        "✅ Industry context: CAD, AEC, Manufacturing",
+        "✅ Excellent domain fit with existing terminology",
+        "⚠️ NEEDS REVIEW: Good potential, requires human evaluation"
+      ],
+      "src_lang": "EN",
+      "status": "needs_review",
+      "term": "cloud",
+      "tgt_lang": "EN",
+      "timestamp": "2025-09-04T15:40:55.787752",
+      "validation_score": 0.7,
+      "web_research": {
+        "autodesk_specific": "Web search failed: https://html.duckduckgo.com/html RuntimeError: error sending request for url (https://html.duckduckgo.com/html): operation timed out\n\nCaused by:\n    operation timed out",
+        "general_industry": "Web search failed: https://lite.duckduckgo.com/lite/ RuntimeError: error sending request for url (https://lite.duckduckgo.com/lite/): operation timed out\n\nCaused by:\n    operation timed out",
+        "industry_context": "No industry-specific search performed",
+        "search_queries": [
+          "\"cloud\" CAD software engineering technical terminology",
+          "\"cloud\" Autodesk AutoCAD Revit Inventor Maya 3ds Max"
+        ]
+      }
+    },
+    {
+      "autodesk_analysis": {
+        "already_exists": true,
+        "domain_relevance_score": 13.099999999999971,
+        "duplicate_count": 2,
+        "existing_translations": {
+          "DNM_PTB-ENG": "stock",
+          "dnm_ptb-eng": "stock"
+        },
+        "industry_categories": [
+          "CAD",
+          "AEC"
+        ],
+        "related_terms": [
+          {
+            "language_pair": "ENG-ARA",
+            "term": "bill of materials",
+            "translation": "قائمة المواد"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "CONVERTOLDMATERIALS",
+            "translation": "CONVERTOLDMATERIALS"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MATERIALASSIGN",
+            "translation": "MATERIALASSIGN"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MATERIALATTACH",
+            "translation": "MATERIALATTACH"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MATERIALMAP",
+            "translation": "MATERIALMAP"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MATERIALSCLOSE",
+            "translation": "MATERIALSCLOSE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MIGRATEMATERIALS",
+            "translation": "MIGRATEMATERIALS"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "material properties",
+            "translation": "خصائص المواد"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "material takeoff",
+            "translation": "كشف كميات المواد"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Autodesk Material Library",
+            "translation": "Autodesk Material Library"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "learning materials",
+            "translation": "مواد تعليمية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Material Library",
+            "translation": "مكتبة مواد"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "biocompatible material",
+            "translation": "المواد الحيوية المتوافقة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "common material",
+            "translation": "المادة المشتركة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "hyperelastic material model",
+            "translation": "نموذج المادة الفائقة المرونة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "incompressible material",
+            "translation": "مادة غير قابلة للضغط"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "material accuracy",
+            "translation": "دقة المادة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "material model",
+            "translation": "نموذج المادة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "physical material",
+            "translation": "مادة مادية"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "mate constraint",
+            "translation": "配合约束"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Learning Materials",
+            "translation": "学习材料"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "consistent materials user interface",
+            "translation": "一致材料用户界面"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Fusion material library",
+            "translation": "Fusion 材料库"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "material ID",
+            "translation": "材料 ID"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "material texture manipulator",
+            "translation": "材质纹理操纵器"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "nonlinear material",
+            "translation": "非线性材料"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "NPR material",
+            "translation": "NPR 材质"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Shadow Material",
+            "translation": "阴影材质"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "woven cloth material",
+            "translation": "纺织布料材质"
+          },
+          {
+            "language_pair": "ENG-CHT",
+            "term": "Ia",
+            "translation": "Ia"
+          },
+          {
+            "language_pair": "ENG-CHT",
+            "term": "stored material",
+            "translation": "儲存材料"
+          },
+          {
+            "language_pair": "ENG-CHT",
+            "term": "bill of material",
+            "translation": "材料表"
+          },
+          {
+            "language_pair": "ENG-CSZ",
+            "term": "MATERIALS",
+            "translation": "MATERIÁLY"
+          },
+          {
+            "language_pair": "ENG-FIN",
+            "term": "material library",
+            "translation": "materiaalikirjasto"
+          },
+          {
+            "language_pair": "ENG-ITA",
+            "term": "tool Material",
+            "translation": "materiale utensile"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "AEC Industry Sales Materials",
+            "translation": "建設業界販売資料"
+          },
+          {
+            "language_pair": "ENG-KOR",
+            "term": "phong truelight material",
+            "translation": "퐁 사실적 조명 재질"
+          },
+          {
+            "language_pair": "ACAD_DEU-ENG",
+            "term": "MATERIALIEN",
+            "translation": "MATERIALS"
+          },
+          {
+            "language_pair": "ACAD_DEU-ENG",
+            "term": "MATERIALIENSCHL",
+            "translation": "MATERIALSCLOSE"
+          },
+          {
+            "language_pair": "ACAD_ESP-ENG",
+            "term": "lista de materiales",
+            "translation": "bill of materials"
+          },
+          {
+            "language_pair": "ACAD_ESP-ENG",
+            "term": "cuadrícula de la lista de materiales",
+            "translation": "BOM grid"
+          },
+          {
+            "language_pair": "ACAD_ESP-ENG",
+            "term": "MATERIALES",
+            "translation": "MATERIALS"
+          },
+          {
+            "language_pair": "ACAD_ESP-ENG",
+            "term": "MIGRARMATERIALES",
+            "translation": "MIGRATEMATERIALS"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "MATERIALI",
+            "translation": "MATERIALS"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "MIGRAMATERIALI",
+            "translation": "MIGRATEMATERIALS"
+          },
+          {
+            "language_pair": "ACAD_PTB-ENG",
+            "term": "ATRIBUIRMATERIAL",
+            "translation": "MATERIALASSIGN"
+          },
+          {
+            "language_pair": "ACAD_PTB-ENG",
+            "term": "ANEXARMATERIAL",
+            "translation": "MATERIALATTACH"
+          },
+          {
+            "language_pair": "ACAD_PTB-ENG",
+            "term": "MAPEARMATERIAL",
+            "translation": "MATERIALMAP"
+          },
+          {
+            "language_pair": "AEC_DEU-ENG",
+            "term": "Materialeigenschaften",
+            "translation": "material properties"
+          },
+          {
+            "language_pair": "AEC_DEU-ENG",
+            "term": "Materialauflistung",
+            "translation": "material takeoff"
+          },
+          {
+            "language_pair": "AEC_ESP-ENG",
+            "term": "propiedades del material",
+            "translation": "material properties"
+          },
+          {
+            "language_pair": "AEC_ESP-ENG",
+            "term": "cómputo de materiales",
+            "translation": "material takeoff"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "sifat material",
+            "translation": "material properties"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "takeoff material",
+            "translation": "material takeoff"
+          },
+          {
+            "language_pair": "AEC_ITA-ENG",
+            "term": "proprietà materiale",
+            "translation": "material properties"
+          },
+          {
+            "language_pair": "AEC_ITA-ENG",
+            "term": "computo dei materiali",
+            "translation": "material takeoff"
+          },
+          {
+            "language_pair": "AEC_NOR-ENG",
+            "term": "material-liste",
+            "translation": "inventory"
+          },
+          {
+            "language_pair": "AEC_PTB-ENG",
+            "term": "propriedades do material",
+            "translation": "material properties"
+          },
+          {
+            "language_pair": "AEC_PTB-ENG",
+            "term": "levantamento de material",
+            "translation": "material takeoff"
+          },
+          {
+            "language_pair": "AEC_PTB-ENG",
+            "term": "material hidráulico",
+            "translation": "plumbing fixture"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "ensartet brugergrænseflade for materialer",
+            "translation": "consistent materials user interface"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "Materialebibliotek",
+            "translation": "Material Library"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "tekstmateriale",
+            "translation": "copy block"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "Uddannelsesmateriale",
+            "translation": "Learning Materials"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Co-Branding-Materialien und -Vorlagen",
+            "translation": "Co-branding Assets & Templates"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "einheitliche Benutzeroberfläche für Materialien",
+            "translation": "consistent materials user interface"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Materialbibliothek",
+            "translation": "Material Library"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Werbematerial",
+            "translation": "collateral"
+          },
+          {
+            "language_pair": "CORE_ESP-ENG",
+            "term": "biblioteca de materiales",
+            "translation": "Material Library"
+          },
+          {
+            "language_pair": "CORE_ESP-ENG",
+            "term": "interfaz de usuario de materiales coherentes",
+            "translation": "consistent materials user interface"
+          },
+          {
+            "language_pair": "CORE_ESP-ENG",
+            "term": "Material de formación",
+            "translation": "Learning Materials"
+          },
+          {
+            "language_pair": "CORE_ESP-ENG",
+            "term": "Material de formación oficial de Autodesk",
+            "translation": "Autodesk Official Training Courseware"
+          },
+          {
+            "language_pair": "CORE_ESP-ENG",
+            "term": "materiales y plantillas de co-branding",
+            "translation": "Co-branding Assets & Templates"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "Pustaka Material Autodesk",
+            "translation": "Autodesk Material Library"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "materi pembelajaran",
+            "translation": "learning materials"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "Pustaka Materi",
+            "translation": "Material Library"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "interfaccia utente materiali coerenti",
+            "translation": "consistent materials user interface"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "libreria dei materiali",
+            "translation": "Material Library"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "Materiale didattico ufficiale Autodesk",
+            "translation": "Autodesk Official Training Courseware"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "materiali didattici",
+            "translation": "Learning Materials"
+          },
+          {
+            "language_pair": "CORE_MEX-ENG",
+            "term": "interfaz de usuario coherente de materiales",
+            "translation": "consistent materials user interface"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "gebruikersinterface met consistente materialen",
+            "translation": "consistent materials user interface"
+          },
+          {
+            "language_pair": "CORE_NOR-ENG",
+            "term": "materialbibliotek",
+            "translation": "material library"
+          },
+          {
+            "language_pair": "CORE_PLY-ENG",
+            "term": "aktywa niematerialne",
+            "translation": "intangible asset"
+          },
+          {
+            "language_pair": "CORE_PLY-ENG",
+            "term": "aktywa materialne",
+            "translation": "tangible asset"
+          },
+          {
+            "language_pair": "CORE_POR-ENG",
+            "term": "Material de formação oficial da Autodesk",
+            "translation": "Autodesk Official Training Courseware"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "interfața utilizatorului pentru materiale consistente",
+            "translation": "consistent materials user interface"
+          },
+          {
+            "language_pair": "CORE_SWE-ENG",
+            "term": "användargränssnitt med enhetligt material",
+            "translation": "consistent materials user interface"
+          },
+          {
+            "language_pair": "CORE_SWE-ENG",
+            "term": "material för kopiering",
+            "translation": "copy block"
+          },
+          {
+            "language_pair": "CORE_SWE-ENG",
+            "term": "Materialbibliotek",
+            "translation": "Material Library"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "biokompatibles Material",
+            "translation": "biocompatible material"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "häufig verwendetes Material",
+            "translation": "common material"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "hyperelastisches Materialmodell",
+            "translation": "hyperelastic material model"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "inkompressibles Material",
+            "translation": "incompressible material"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "Material",
+            "translation": "physical material"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "Materialgenauigkeit",
+            "translation": "material accuracy"
+          },
+          {
+            "language_pair": "DNM_DEU-ENG",
+            "term": "Materialmodell",
+            "translation": "material model"
+          },
+          {
+            "language_pair": "DNM_ESP-ENG",
+            "term": "biblioteca de materiales de Fusion",
+            "translation": "Fusion material library"
+          },
+          {
+            "language_pair": "DNM_ESP-ENG",
+            "term": "ID de material",
+            "translation": "material ID"
+          },
+          {
+            "language_pair": "DNM_ESP-ENG",
+            "term": "material biocompatible",
+            "translation": "biocompatible material"
+          },
+          {
+            "language_pair": "DNM_ESP-ENG",
+            "term": "material común",
+            "translation": "common material"
+          },
+          {
+            "language_pair": "DNM_ESP-ENG",
+            "term": "material físico",
+            "translation": "physical material"
+          },
+          {
+            "language_pair": "DNM_ESP-ENG",
+            "term": "material frío",
+            "translation": "cold slug"
+          },
+          {
+            "language_pair": "DNM_ESP-ENG",
+            "term": "material no lineal",
+            "translation": "nonlinear material"
+          },
+          {
+            "language_pair": "DNM_ESP-ENG",
+            "term": "precisión del material",
+            "translation": "material accuracy"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "akurasi material",
+            "translation": "material accuracy"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "model material",
+            "translation": "material model"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "materiale comune",
+            "translation": "common material"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "modello di materiale iperelastico",
+            "translation": "hyperelastic material model"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "materiale incomprimibile",
+            "translation": "incompressible material"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "precisione del materiale",
+            "translation": "material accuracy"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "modello di materiale",
+            "translation": "material model"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "materiale fisico",
+            "translation": "physical material"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "punto materiale",
+            "translation": "point mass"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "materiale residuo",
+            "translation": "stock"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "modello materiale residuo",
+            "translation": "stock model"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "materiale utensile",
+            "translation": "tool Material"
+          },
+          {
+            "language_pair": "DNM_PTB-ENG",
+            "term": "material",
+            "translation": "stock"
+          },
+          {
+            "language_pair": "DNM_PTB-ENG",
+            "term": "material biocompatível",
+            "translation": "biocompatible material"
+          },
+          {
+            "language_pair": "DNM_PTB-ENG",
+            "term": "material comum",
+            "translation": "common material"
+          },
+          {
+            "language_pair": "DNM_PTB-ENG",
+            "term": "material frio",
+            "translation": "cold slug"
+          },
+          {
+            "language_pair": "DNM_PTB-ENG",
+            "term": "material não linear",
+            "translation": "nonlinear material"
+          },
+          {
+            "language_pair": "DNM_PTB-ENG",
+            "term": "precisão do material",
+            "translation": "material accuracy"
+          },
+          {
+            "language_pair": "ACC-NOR",
+            "term": "Material category",
+            "translation": "Materiell kategori"
+          }
+        ]
+      },
+      "industry_context": "General",
+      "recommendations": [
+        "⚠️ WARNING: Term found in 2 glossaries despite pre-filtering",
+        "✅ Domain relevance: 124 related terms found in glossaries",
+        "✅ Industry context: CAD, AEC",
+        "✅ Excellent domain fit with existing terminology",
+        "⚠️ NEEDS REVIEW: Good potential, requires human evaluation",
+        "🔍 INVESTIGATE: Found in glossary despite pre-filtering"
+      ],
+      "src_lang": "EN",
+      "status": "unexpected_duplicate",
+      "term": "material",
+      "tgt_lang": "EN",
+      "timestamp": "2025-09-04T15:41:40.345760",
+      "validation_score": 0.5,
+      "web_research": {
+        "autodesk_specific": "Web search failed: https://lite.duckduckgo.com/lite/ RuntimeError: error sending request for url (https://lite.duckduckgo.com/lite/): operation timed out\n\nCaused by:\n    operation timed out",
+        "general_industry": "Web search failed: https://lite.duckduckgo.com/lite/ RuntimeError: error sending request for url (https://lite.duckduckgo.com/lite/): operation timed out\n\nCaused by:\n    operation timed out",
+        "industry_context": "No industry-specific search performed",
+        "search_queries": [
+          "\"material\" CAD software engineering technical terminology",
+          "\"material\" Autodesk AutoCAD Revit Inventor Maya 3ds Max"
+        ]
+      }
+    },
+    {
+      "autodesk_analysis": {
+        "already_exists": false,
+        "domain_relevance_score": 20.000000000000004,
+        "duplicate_count": 0,
+        "existing_translations": {},
+        "industry_categories": [
+          "CAD",
+          "AEC"
+        ],
+        "related_terms": [
+          {
+            "language_pair": "ENG-ARA",
+            "term": "blend mode",
+            "translation": "وضع الدمج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "digital elevation model",
+            "translation": "نموذج الارتفاع الرقمي"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "industry model",
+            "translation": "نموذج الصناعة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model parameter",
+            "translation": "مُعامل النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model space",
+            "translation": "مساحة النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "object snap mode",
+            "translation": "وضع التقاط الكائن"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "ortho mode",
+            "translation": "الوضع التخطيطي بمنظور متعامد"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "shade plot mode",
+            "translation": "وضع مخطط الظل"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "ArchiCAD model",
+            "translation": "نموذج ArchiCAD"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "AutoCAD model",
+            "translation": "نموذج AutoCAD"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "cloud model",
+            "translation": "نموذج السحابة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "digital terrain model",
+            "translation": "نموذج التضاريس الرقمي"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "ground model",
+            "translation": "نموذج أرضي"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "InfraWorks model",
+            "translation": "نموذج InfraWorks"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Max model",
+            "translation": "نموذج Max"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model alignment",
+            "translation": "محاذاة النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Model Builder",
+            "translation": "منشئ النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Model Builder model",
+            "translation": "طراز منشئ النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model text",
+            "translation": "نص النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "primary model",
+            "translation": "النموذج الأساسي"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "WIP model",
+            "translation": "نموذج قيد العمل (WIP)"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "draft mode",
+            "translation": "وضع المسودة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "license server model",
+            "translation": "نموذج خادم الترخيص"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model browser",
+            "translation": "متصفح النماذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model documentation",
+            "translation": "مستندات النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model identifier",
+            "translation": "معرف النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Model Performance Technical Note",
+            "translation": "ملاحظة فنية عن أداء النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Model Review",
+            "translation": "مراجعة النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "New Education Business Model",
+            "translation": "نموذج جديد لتوصيل البرمجيات للمؤسسات التعليمية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "redundant license server model",
+            "translation": "نموذج خادم الترخيص الاحتياطي"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "safe mode",
+            "translation": "الوضع الآمن"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "sector model",
+            "translation": "نموذج القطاع"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Shader Model",
+            "translation": "نموذج التظليل"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "silent mode",
+            "translation": "وضع الصامت"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "trial mode",
+            "translation": "وضع التجربة المجانية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "edit model workspace",
+            "translation": "مساحة عمل تحرير النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Express mode",
+            "translation": "الوضع السريع"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "feed mode",
+            "translation": "وضع التغذية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "generative model",
+            "translation": "نموذج توليدي"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "hyperelastic material model",
+            "translation": "نموذج المادة الفائقة المرونة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "material model",
+            "translation": "نموذج المادة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model complexity",
+            "translation": "تعقيد النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model files",
+            "translation": "ملفات النماذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model limits",
+            "translation": "حدود النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model stiffness",
+            "translation": "صلابة النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model translation",
+            "translation": "ترجمة النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "model view",
+            "translation": "عرض النموذج"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "OD",
+            "translation": "القطر الخارجي"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "probe mode",
+            "translation": "وضع المسبار"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "simulation model",
+            "translation": "نموذج المحاكاة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "smooth display mode",
+            "translation": "وضع العرض السلس"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "smoothing mode",
+            "translation": "وضع التنعيم"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "stock model",
+            "translation": "نموذج الكتلة الخام"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "viewer mode",
+            "translation": "وضع العارض"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "casing model",
+            "translation": "套管模型"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "meter model",
+            "translation": "仪表模型"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "model line",
+            "translation": "模型线"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "AEC Information Model",
+            "translation": "AEC 信息模型"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "building information model",
+            "translation": "建筑信息模型"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "business process model and notation",
+            "translation": "业务流程模型和注释"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "failure mode and effects analysis",
+            "translation": "失效模式和效应分析"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "media information model",
+            "translation": "传媒信息模型"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Product Information Model",
+            "translation": "产品信息模型"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "direct model",
+            "translation": "直接模型"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Model area clearance",
+            "translation": "模型区域清除"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "raytracing mode",
+            "translation": "光线跟踪模式"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Snap Mode",
+            "translation": "捕捉模式"
+          },
+          {
+            "language_pair": "ENG-CHT",
+            "term": "Autodesk Model Coordination",
+            "translation": "Autodesk Model Coordination"
+          },
+          {
+            "language_pair": "ENG-CHT",
+            "term": "conceptual model",
+            "translation": "概念模型"
+          },
+          {
+            "language_pair": "ENG-DEU",
+            "term": "MODEL",
+            "translation": "MODELL"
+          },
+          {
+            "language_pair": "ENG-FRC",
+            "term": "building model",
+            "translation": "modèle de bâtiment"
+          },
+          {
+            "language_pair": "ENG-FRE",
+            "term": "PROF mode",
+            "translation": "mode PROF"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "selection mode",
+            "translation": "選択モード"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "analytical model",
+            "translation": "解析モデル"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "drag mode",
+            "translation": "ドラッグ モード"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "Autodesk Industry Model Data Editor",
+            "translation": "Autodesk Industry Model Data Editor"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "Autodesk Industry Model Setup",
+            "translation": "Autodesk Industry Model Setup"
+          },
+          {
+            "language_pair": "ENG-NOR",
+            "term": "model aggregation",
+            "translation": "modellaggregering"
+          },
+          {
+            "language_pair": "ENG-NOR",
+            "term": "model iteration",
+            "translation": "modellutgave"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "fast mode",
+            "translation": "modo rápido"
+          },
+          {
+            "language_pair": "ENG-RUS",
+            "term": "coordination model",
+            "translation": "Координационная модель"
+          },
+          {
+            "language_pair": "ACAD_CSZ-ENG",
+            "term": "model chráničky",
+            "translation": "casing model"
+          },
+          {
+            "language_pair": "ACAD_CSZ-ENG",
+            "term": "digitální výškový model",
+            "translation": "digital elevation model"
+          },
+          {
+            "language_pair": "ACAD_CSZ-ENG",
+            "term": "oborový model",
+            "translation": "industry model"
+          },
+          {
+            "language_pair": "ACAD_CSZ-ENG",
+            "term": "model měřicího přístroje",
+            "translation": "meter model"
+          },
+          {
+            "language_pair": "ACAD_CSZ-ENG",
+            "term": "drátový model",
+            "translation": "wireframe"
+          },
+          {
+            "language_pair": "ACAD_FRE-ENG",
+            "term": "mode de fusion",
+            "translation": "blend mode"
+          },
+          {
+            "language_pair": "ACAD_FRE-ENG",
+            "term": "mode ortho",
+            "translation": "ortho mode"
+          },
+          {
+            "language_pair": "ACAD_FRE-ENG",
+            "term": "mode de tracé de l'ombrage",
+            "translation": "shade plot mode"
+          },
+          {
+            "language_pair": "ACAD_IND-ENG",
+            "term": "mode campuran",
+            "translation": "blend mode"
+          },
+          {
+            "language_pair": "ACAD_IND-ENG",
+            "term": "mode jepret objek",
+            "translation": "object snap mode"
+          },
+          {
+            "language_pair": "ACAD_IND-ENG",
+            "term": "mode orto",
+            "translation": "ortho mode"
+          },
+          {
+            "language_pair": "ACAD_IND-ENG",
+            "term": "mode plot bayangan",
+            "translation": "shade plot mode"
+          },
+          {
+            "language_pair": "ACAD_IND-ENG",
+            "term": "model elevasi digital",
+            "translation": "digital elevation model"
+          },
+          {
+            "language_pair": "ACAD_IND-ENG",
+            "term": "model industri",
+            "translation": "industry model"
+          },
+          {
+            "language_pair": "ACAD_IND-ENG",
+            "term": "parameter model",
+            "translation": "model parameter"
+          },
+          {
+            "language_pair": "ACAD_IND-ENG",
+            "term": "ruang model",
+            "translation": "model space"
+          },
+          {
+            "language_pair": "ACAD_PLY-ENG",
+            "term": "model obudowy",
+            "translation": "casing model"
+          },
+          {
+            "language_pair": "ACAD_PLY-ENG",
+            "term": "cyfrowy model wysokościowy",
+            "translation": "digital elevation model"
+          },
+          {
+            "language_pair": "ACAD_PLY-ENG",
+            "term": "model licznika",
+            "translation": "meter model"
+          },
+          {
+            "language_pair": "ACAD_PLY-ENG",
+            "term": "model krawędziowy",
+            "translation": "wireframe"
+          },
+          {
+            "language_pair": "AEC_DAN-ENG",
+            "term": "Primær model",
+            "translation": "primary model"
+          },
+          {
+            "language_pair": "AEC_DAN-ENG",
+            "term": "Igangværende model",
+            "translation": "WIP model"
+          },
+          {
+            "language_pair": "AEC_DEU-ENG",
+            "term": "Model Builder-Modell",
+            "translation": "Model Builder model"
+          },
+          {
+            "language_pair": "AEC_FRE-ENG",
+            "term": "modèle Model Builder",
+            "translation": "Model Builder model"
+          },
+          {
+            "language_pair": "AEC_FRE-ENG",
+            "term": "mode PROF",
+            "translation": "PROF mode"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "Model ArchiCAD",
+            "translation": "ArchiCAD model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "Model AutoCAD",
+            "translation": "AutoCAD model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "model cloud",
+            "translation": "cloud model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "Model InfraWorks",
+            "translation": "InfraWorks model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "Model Max",
+            "translation": "Max model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "model medan digital",
+            "translation": "digital terrain model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "Model Pembuat Model",
+            "translation": "Model Builder model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "model tanah",
+            "translation": "ground model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "model utama",
+            "translation": "primary model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "Model WIP",
+            "translation": "WIP model"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "Pembuat Model",
+            "translation": "Model Builder"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "penyejajaran model",
+            "translation": "model alignment"
+          },
+          {
+            "language_pair": "AEC_IND-ENG",
+            "term": "teks model",
+            "translation": "model text"
+          },
+          {
+            "language_pair": "AEC_ITA-ENG",
+            "term": "modello di Model Builder",
+            "translation": "Model Builder model"
+          },
+          {
+            "language_pair": "AEC_PLY-ENG",
+            "term": "model analityczny stropu",
+            "translation": "analytical floor"
+          },
+          {
+            "language_pair": "AEC_PLY-ENG",
+            "term": "model branżowy",
+            "translation": "industry model"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "model sektoru",
+            "translation": "sector model"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "informační model AEC",
+            "translation": "AEC Information Model"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "informační model budovy",
+            "translation": "building information model"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "mediální informační model",
+            "translation": "media information model"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "produktový informační model",
+            "translation": "Product Information Model"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Business Process Model and Notation",
+            "translation": "business process model and notation"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "mode Brouillon",
+            "translation": "draft mode"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "mode de téléchargement",
+            "translation": "download method"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "mode de téléchargement immédiat",
+            "translation": "Download Now method"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "mode sans échec",
+            "translation": "safe mode"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "mode silencieux",
+            "translation": "silent mode"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "mode draf",
+            "translation": "draft mode"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "model server lisensi",
+            "translation": "license server model"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "browser model",
+            "translation": "model browser"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "dokumentasi model",
+            "translation": "model documentation"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "pengenal model",
+            "translation": "model identifier"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "Catatan Teknis Kinerja Model",
+            "translation": "Model Performance Technical Note"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "Tinjauan Model",
+            "translation": "Model Review"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "Model Bisnis Pendidikan Baru",
+            "translation": "New Education Business Model"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "model server lisensi yang berlebihan",
+            "translation": "redundant license server model"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "mode aman",
+            "translation": "safe mode"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "model sektor",
+            "translation": "sector model"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "Model Shader",
+            "translation": "Shader Model"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "mode diam",
+            "translation": "silent mode"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "mode uji coba",
+            "translation": "trial mode"
+          },
+          {
+            "language_pair": "CORE_PLY-ENG",
+            "term": "model sektora",
+            "translation": "sector model"
+          },
+          {
+            "language_pair": "CORE_PLY-ENG",
+            "term": "model informacyjny AEC",
+            "translation": "AEC Information Model"
+          },
+          {
+            "language_pair": "CORE_PLY-ENG",
+            "term": "model informacji o budynku",
+            "translation": "building information model"
+          },
+          {
+            "language_pair": "CORE_PLY-ENG",
+            "term": "notacja i model procesu biznesowego",
+            "translation": "business process model and notation"
+          },
+          {
+            "language_pair": "CORE_PLY-ENG",
+            "term": "model informacji o mediach",
+            "translation": "media information model"
+          },
+          {
+            "language_pair": "CORE_PLY-ENG",
+            "term": "model informacyjny produktu",
+            "translation": "Product Information Model"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "Model informațional AEC",
+            "translation": "AEC Information Model"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "model și notare proces comercial",
+            "translation": "business process model and notation"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "model de informații media",
+            "translation": "media information model"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "Model de informații despre produs",
+            "translation": "Product Information Model"
+          },
+          {
+            "language_pair": "DNM_CSZ-ENG",
+            "term": "převést na cihlový model",
+            "translation": "brickify"
+          },
+          {
+            "language_pair": "DNM_ESP-ENG",
+            "term": "DE",
+            "translation": "OD"
+          },
+          {
+            "language_pair": "DNM_ESP-ENG",
+            "term": "ELS",
+            "translation": "SLS"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "mode d'accrochage",
+            "translation": "Snap Mode"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "mode d'avance",
+            "translation": "feed mode"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "mode de lissage",
+            "translation": "smoothing mode"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "mode de palpage",
+            "translation": "probe mode"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "mode rapide",
+            "translation": "Express mode"
+          },
+          {
+            "language_pair": "DNM_FRE-ENG",
+            "term": "mode visionneuse",
+            "translation": "viewer mode"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "batasan model",
+            "translation": "model limits"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "edit ruang kerja model",
+            "translation": "edit model workspace"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "file model",
+            "translation": "model files"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "kekakuan model",
+            "translation": "model stiffness"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "kompleksitas model",
+            "translation": "model complexity"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "Mode ekspres",
+            "translation": "Express mode"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "mode penampil",
+            "translation": "viewer mode"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "mode penghalusan",
+            "translation": "smoothing mode"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "mode probe",
+            "translation": "probe mode"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "mode tampilan halus",
+            "translation": "smooth display mode"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "mode umpan",
+            "translation": "feed mode"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "model bahan hiperelastis",
+            "translation": "hyperelastic material model"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "model generatif",
+            "translation": "generative model"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "model material",
+            "translation": "material model"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "model simulasi",
+            "translation": "simulation model"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "model stok",
+            "translation": "stock model"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "tampilan model",
+            "translation": "model view"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "terjemahan model",
+            "translation": "model translation"
+          },
+          {
+            "language_pair": "DNM_PLY-ENG",
+            "term": "model naddatku",
+            "translation": "stock model"
+          },
+          {
+            "language_pair": "DNM_TUR-ENG",
+            "term": "model çevirisi",
+            "translation": "model translation"
+          },
+          {
+            "language_pair": "ACC-NOR",
+            "term": "Sheets & Models",
+            "translation": "Tegninger og modeller"
+          },
+          {
+            "language_pair": "ACC-NOR",
+            "term": "Model Mappings",
+            "translation": "Modellkartlegginger"
+          },
+          {
+            "language_pair": "ACC-NOR",
+            "term": "Model Properties",
+            "translation": "Modellegenskaper"
+          },
+          {
+            "language_pair": "ACC-NOR",
+            "term": "Model Browser",
+            "translation": "Modellutforsker"
+          },
+          {
+            "language_pair": "ACC-NOR",
+            "term": "Model mappings",
+            "translation": "Modellkartlegginger"
+          },
+          {
+            "language_pair": "ACC-NOR",
+            "term": "Publish to Takeoff Sheets & Models",
+            "translation": "Publiser til Takeoff Tegninger og Modeller"
+          },
+          {
+            "language_pair": "ACC-NOR",
+            "term": "Upload models",
+            "translation": "Last opp modeller"
+          }
+        ]
+      },
+      "industry_context": "General",
+      "recommendations": [
+        "✅ Domain relevance: 193 related terms found in glossaries",
+        "✅ Industry context: CAD, AEC",
+        "✅ Excellent domain fit with existing terminology",
+        "⚠️ NEEDS REVIEW: Good potential, requires human evaluation"
+      ],
+      "src_lang": "EN",
+      "status": "needs_review",
+      "term": "models",
+      "tgt_lang": "EN",
+      "timestamp": "2025-09-04T15:42:24.915770",
+      "validation_score": 0.7,
+      "web_research": {
+        "autodesk_specific": "Web search failed: https://lite.duckduckgo.com/lite/ RuntimeError: error sending request for url (https://lite.duckduckgo.com/lite/): operation timed out\n\nCaused by:\n    operation timed out",
+        "general_industry": "Web search failed: https://html.duckduckgo.com/html RuntimeError: error sending request for url (https://html.duckduckgo.com/html): operation timed out\n\nCaused by:\n    operation timed out",
+        "industry_context": "No industry-specific search performed",
+        "search_queries": [
+          "\"models\" CAD software engineering technical terminology",
+          "\"models\" Autodesk AutoCAD Revit Inventor Maya 3ds Max"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "metadata": {
+    "generated_by": "TerminologyReviewAgent",
+    "model_used": "unknown",
+    "parameters": {
+      "max_search_results": 50,
+      "seed": 42,
+      "temperature": 0.0,
+      "top_p": 1.0
+    },
+    "timestamp": "2025-09-04T14:03:46.030369",
+    "total_results": 1,
+    "version": "1.0"
+  },
+  "results": [
+    {
+      "autodesk_analysis": {
+        "already_exists": false,
+        "domain_relevance_score": 11.199999999999978,
+        "duplicate_count": 0,
+        "existing_translations": {},
+        "industry_categories": [
+          "CAD",
+          "AEC"
+        ],
+        "related_terms": [
+          {
+            "language_pair": "ENG-ARA",
+            "term": "mesh",
+            "translation": "شبكة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "polyface mesh",
+            "translation": "شبكة متعددة الأوجه"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "polygon mesh",
+            "translation": "شبكة متعددة الأضلاع"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "subdivision mesh",
+            "translation": "شبكة التقسيمات الفرعية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "tabulated mesh",
+            "translation": "شبكة مجدولة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "topology",
+            "translation": "طوبولوجيا"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "3DMESH",
+            "translation": "3DMESH"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "CONVTOMESH",
+            "translation": "CONVTOMESH"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHCAP",
+            "translation": "MESHCAP"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHCOLLAPSE",
+            "translation": "MESHCOLLAPSE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHCREASE",
+            "translation": "MESHCREASE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHEXTRUDE",
+            "translation": "MESHEXTRUDE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHMERGE",
+            "translation": "MESHMERGE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHOPTIONS",
+            "translation": "MESHOPTIONS"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHPRIMITIVEOPTIONS",
+            "translation": "MESHPRIMITIVEOPTIONS"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHREFINE",
+            "translation": "MESHREFINE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHSMOOTH",
+            "translation": "MESHSMOOTH"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHSMOOTHLESS",
+            "translation": "MESHSMOOTHLESS"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHSMOOTHMORE",
+            "translation": "MESHSMOOTHMORE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHSPIN",
+            "translation": "MESHSPIN"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHSPLIT",
+            "translation": "MESHSPLIT"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "MESHUNCREASE",
+            "translation": "MESHUNCREASE"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "SH",
+            "translation": "SH"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "3D mesh primitive",
+            "translation": "كائن بدائي للشبكة ثلاثية الأبعاد"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Autodesk Retopology Tools for 3ds Max",
+            "translation": "Autodesk Retopology Tools for 3ds Max"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "mesh convergence study",
+            "translation": "دراسة تقارب الشبكة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "mesh density",
+            "translation": "كثافة الشبكة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "mesh refinement",
+            "translation": "تحسين الشبكة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "Meshmixer",
+            "translation": "Meshmixer"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "FEA mesh",
+            "translation": "شبكة التحليل بالعناصر المحدودة (FEA)"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "finite element mesh",
+            "translation": "شبكة العناصر المحدودة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "mesh view",
+            "translation": "عرض الشبكة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "mesher",
+            "translation": "أداة الشبكات"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "simulation mesh",
+            "translation": "شبكة المحاكاة"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "base mesh",
+            "translation": "شبكة أساسية"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "retopology",
+            "translation": "إعادة التحويل"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "retopology mesh",
+            "translation": "شبكة إعادة التحويل"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "retopology modifier",
+            "translation": "أداة تعديل إعادة التشكيل"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "retopology process",
+            "translation": "عملية إعادة التحويل"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "retopology tools",
+            "translation": "أدوات إعادة التحويل"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "network topology",
+            "translation": "网络拓扑"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "log",
+            "translation": "日志"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "Autodesk Meshmixer Toolkit",
+            "translation": "Autodesk Meshmixer 工具包"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "mesh face",
+            "translation": "网格面"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "mesh sampling",
+            "translation": "网格采样"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "mesh vertex",
+            "translation": "网格顶点"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "sweep mesh",
+            "translation": "扫描网格"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "Compressed Mesh",
+            "translation": "Compressed Mesh"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "mesh lattice",
+            "translation": "Malha Lattice"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "mesh manipulation",
+            "translation": "manipulação de malha"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "Quad Remeshing",
+            "translation": "Malha quadrática"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "triangle mesh",
+            "translation": "malha de triângulo"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "uniform remeshing",
+            "translation": "reaplicação de malha uniforme"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "Vertical Mesh Density",
+            "translation": "Densidade da malha vertical"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "Volumetric Remeshing",
+            "translation": "Reaplicação de malha volumétrica"
+          },
+          {
+            "language_pair": "ENG-RUS",
+            "term": "Voxel Meshing",
+            "translation": "создание сети вокселов"
+          },
+          {
+            "language_pair": "ACAD_ESP-ENG",
+            "term": "polo de conector",
+            "translation": "connector pin"
+          },
+          {
+            "language_pair": "ACAD_ESP-ENG",
+            "term": "POL",
+            "translation": "PLINE"
+          },
+          {
+            "language_pair": "ACAD_ESP-ENG",
+            "term": "H",
+            "translation": "U"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "AFFINAMESH",
+            "translation": "MESHREFINE"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "CHIUDISPAZIMESH",
+            "translation": "MESHCAP"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "COMPRIMIMESH",
+            "translation": "MESHCOLLAPSE"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "CONVINMESH",
+            "translation": "CONVTOMESH"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "DIVIDIMESH",
+            "translation": "MESHSPLIT"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "ESTRUDIMESH",
+            "translation": "MESHEXTRUDE"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "LEVIGAMESH",
+            "translation": "MESHSMOOTH"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "LEVIGAMESHMENO",
+            "translation": "MESHSMOOTHLESS"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "LEVIGAMESHPIU",
+            "translation": "MESHSMOOTHMORE"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "mesh 3D elementare",
+            "translation": "3D mesh primitive"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "mesh di suddivisione",
+            "translation": "subdivision mesh"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "mesh estrusa",
+            "translation": "tabulated mesh"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "mesh poliedrica",
+            "translation": "polyface mesh"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "mesh poligonale",
+            "translation": "polygon mesh"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "OPZIONIMESH",
+            "translation": "MESHOPTIONS"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "OPZIONIMESHPRIM",
+            "translation": "MESHPRIMITIVEOPTIONS"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "PIEGAMESH",
+            "translation": "MESHCREASE"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "POLIMESH",
+            "translation": "PFACE"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "RIMUOVIPIEGAMESH",
+            "translation": "MESHUNCREASE"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "RUOTAMESH",
+            "translation": "MESHSPIN"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "UNISCIMESH",
+            "translation": "MESHMERGE"
+          },
+          {
+            "language_pair": "ACAD_NLD-ENG",
+            "term": "onderverdeelde mesh",
+            "translation": "subdivision mesh"
+          },
+          {
+            "language_pair": "ACAD_SWE-ENG",
+            "term": "uppdelad mesh",
+            "translation": "subdivision mesh"
+          },
+          {
+            "language_pair": "AEC_PTB-ENG",
+            "term": "junta de topo",
+            "translation": "butt"
+          },
+          {
+            "language_pair": "AEC_PTB-ENG",
+            "term": "topo da laje",
+            "translation": "slab top"
+          },
+          {
+            "language_pair": "CORE_CHS-ENG",
+            "term": "Autodesk Meshmixer 工具包",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "Autodesk Meshmixer-værktøjssæt",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "Autodesk Meshmixer-Toolkit",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_ESP-ENG",
+            "term": "Kit de herramientas Autodesk Meshmixer",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_FRC-ENG",
+            "term": "boîte à outils Meshmixer Autodesk",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "affinamento della mesh",
+            "translation": "mesh refinement"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "densità della mesh",
+            "translation": "mesh density"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "studio di convergenza della mesh",
+            "translation": "mesh convergence study"
+          },
+          {
+            "language_pair": "CORE_JPN-ENG",
+            "term": "Autodesk Meshmixer ツールキット",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_KOR-ENG",
+            "term": "Autodesk Meshmixer 툴킷",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_MEX-ENG",
+            "term": "Kit de herramientas Meshmixer de Autodesk",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "Tool voor Autodesk-meshmixer",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_PLY-ENG",
+            "term": "zestaw narzędzi Autodesk Meshmixer",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_POR-ENG",
+            "term": "Kit de ferramentas do Autodesk Meshmixer",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_ROM-ENG",
+            "term": "Set de instrumente Autodesk Meshmixer",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_SWE-ENG",
+            "term": "Autodesks meshmixerverktyg",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "CORE_TUR-ENG",
+            "term": "Autodesk Meshmixer Araç Seti",
+            "translation": "Autodesk Meshmixer Toolkit"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "mesh ad elementi finiti",
+            "translation": "finite element mesh"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "vista mesh",
+            "translation": "mesh view"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "creazione mesh",
+            "translation": "mesher"
+          },
+          {
+            "language_pair": "DNM_ITA-ENG",
+            "term": "mesh di simulazione",
+            "translation": "simulation mesh"
+          }
+        ]
+      },
+      "industry_context": "General",
+      "recommendations": [
+        "✅ Domain relevance: 105 related terms found in glossaries",
+        "✅ Industry context: CAD, AEC",
+        "✅ Excellent domain fit with existing terminology",
+        "🎯 RECOMMENDED: Strong domain relevance and technical validity"
+      ],
+      "src_lang": "EN",
+      "status": "recommended",
+      "term": "mesh topology",
+      "tgt_lang": "CS",
+      "timestamp": "2025-09-04T14:03:42.382369",
+      "validation_score": 1.0,
+      "web_research": {
+        "autodesk_specific": "Web search failed: https://lite.duckduckgo.com/lite/ 202 Ratelimit",
+        "general_industry": "Web search failed: https://html.duckduckgo.com/html 202 Ratelimit",
+        "industry_context": "No industry-specific search performed",
+        "search_queries": [
+          "\"mesh topology\" CAD software engineering technical terminology",
+          "\"mesh topology\" Autodesk AutoCAD Revit Inventor Maya 3ds Max"
+        ]
+      }
+    }
+  ]
+}

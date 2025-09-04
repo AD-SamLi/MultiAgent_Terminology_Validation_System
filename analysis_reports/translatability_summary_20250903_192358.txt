@@ -1,0 +1,28 @@
+TRANSLATION ANALYSIS SUMMARY
+==================================================
+
+Analysis Date: 20250903_192358
+Total Terms Analyzed: 100
+Source File: translation_results\non_dictionary_terms_translation_results_20250903_163809.json
+
+SUMMARY STATISTICS
+------------------------------
+Average Translatability Score: 0.886
+Median Translatability Score: 0.990
+Standard Deviation: 0.204
+Range: 0.219 - 1.000
+
+TRANSLATABILITY CATEGORIES
+------------------------------
+Highly Translatable: 80 terms (80.0%)
+Moderately Translatable: 18 terms (18.0%)
+Poorly Translatable: 2 terms (2.0%)
+
+RECOMMENDATIONS
+------------------------------
+1. Terms show high translatability across languages. This suggests good potential for multilingual content adaptation.
+
+VISUALIZATION FILES
+------------------------------
+• translatability_analysis_20250903_192358.png
+• script_analysis_20250903_192358.png

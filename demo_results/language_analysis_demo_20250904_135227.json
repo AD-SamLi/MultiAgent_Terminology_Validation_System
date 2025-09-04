@@ -1,0 +1,1968 @@
+{
+  "analysis_info": {
+    "generated_at": "2025-09-04T13:52:27.260940",
+    "total_terms_analyzed": 5,
+    "total_languages_analyzed": 62,
+    "total_language_families": 13
+  },
+  "summary_statistics": {
+    "languages_with_high_borrowing": 27,
+    "languages_with_high_translation": 29,
+    "languages_with_mixed_behavior": 6,
+    "average_borrowing_percentage": 47.45,
+    "average_translation_percentage": 52.55
+  },
+  "language_statistics": {
+    "ibo_Latn": {
+      "language_name": "ibo_Latn",
+      "language_code": "ibo_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "gle_Latn": {
+      "language_name": "gle_Latn",
+      "language_code": "gle_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 3,
+      "terms_with_errors": 0,
+      "total_terms_processed": 3,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "guj_Gujr": {
+      "language_name": "guj_Gujr",
+      "language_code": "guj_Gujr",
+      "terms_keeping_same": 2,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 50.0,
+      "translated_percentage": 50.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "medium_borrowing"
+    },
+    "vie_Latn": {
+      "language_name": "vie_Latn",
+      "language_code": "vie_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "nld_Latn": {
+      "language_name": "Dutch",
+      "language_code": "nld_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "pan_Guru": {
+      "language_name": "pan_Guru",
+      "language_code": "pan_Guru",
+      "terms_keeping_same": 0,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 1,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "est_Latn": {
+      "language_name": "est_Latn",
+      "language_code": "est_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 5,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "khm_Khmr": {
+      "language_name": "khm_Khmr",
+      "language_code": "khm_Khmr",
+      "terms_keeping_same": 0,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 1,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "cym_Latn": {
+      "language_name": "cym_Latn",
+      "language_code": "cym_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 3,
+      "terms_with_errors": 0,
+      "total_terms_processed": 3,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "ukr_Cyrl": {
+      "language_name": "ukr_Cyrl",
+      "language_code": "ukr_Cyrl",
+      "terms_keeping_same": 2,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "som_Latn": {
+      "language_name": "som_Latn",
+      "language_code": "som_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "asm_Beng": {
+      "language_name": "asm_Beng",
+      "language_code": "asm_Beng",
+      "terms_keeping_same": 0,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 1,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "kan_Knda": {
+      "language_name": "kan_Knda",
+      "language_code": "kan_Knda",
+      "terms_keeping_same": 0,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "mar_Deva": {
+      "language_name": "mar_Deva",
+      "language_code": "mar_Deva",
+      "terms_keeping_same": 2,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 50.0,
+      "translated_percentage": 50.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "medium_borrowing"
+    },
+    "hun_Latn": {
+      "language_name": "hun_Latn",
+      "language_code": "hun_Latn",
+      "terms_keeping_same": 4,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 80.0,
+      "translated_percentage": 20.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "cat_Latn": {
+      "language_name": "cat_Latn",
+      "language_code": "cat_Latn",
+      "terms_keeping_same": 3,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 75.0,
+      "translated_percentage": 25.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "glg_Latn": {
+      "language_name": "glg_Latn",
+      "language_code": "glg_Latn",
+      "terms_keeping_same": 2,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 3,
+      "same_percentage": 66.67,
+      "translated_percentage": 33.33,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "medium_borrowing"
+    },
+    "zho_Hans": {
+      "language_name": "Chinese (Simplified)",
+      "language_code": "zho_Hans",
+      "terms_keeping_same": 0,
+      "terms_translated": 5,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "tha_Thai": {
+      "language_name": "tha_Thai",
+      "language_code": "tha_Thai",
+      "terms_keeping_same": 0,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "mlt_Latn": {
+      "language_name": "mlt_Latn",
+      "language_code": "mlt_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 4,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "rus_Cyrl": {
+      "language_name": "Russian",
+      "language_code": "rus_Cyrl",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "hin_Deva": {
+      "language_name": "Hindi",
+      "language_code": "hin_Deva",
+      "terms_keeping_same": 4,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 80.0,
+      "translated_percentage": 20.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "spa_Latn": {
+      "language_name": "Spanish",
+      "language_code": "spa_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "pol_Latn": {
+      "language_name": "Polish",
+      "language_code": "pol_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "slk_Latn": {
+      "language_name": "Slovak",
+      "language_code": "slk_Latn",
+      "terms_keeping_same": 4,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "swa_Latn": {
+      "language_name": "Swahili",
+      "language_code": "swa_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 4,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "ben_Beng": {
+      "language_name": "Bengali",
+      "language_code": "ben_Beng",
+      "terms_keeping_same": 3,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 60.0,
+      "translated_percentage": 40.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "medium_borrowing"
+    },
+    "jpn_Jpan": {
+      "language_name": "Japanese",
+      "language_code": "jpn_Jpan",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "ces_Latn": {
+      "language_name": "Czech",
+      "language_code": "ces_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "por_Latn": {
+      "language_name": "Portuguese",
+      "language_code": "por_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "ory_Orya": {
+      "language_name": "ory_Orya",
+      "language_code": "ory_Orya",
+      "terms_keeping_same": 0,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "ron_Latn": {
+      "language_name": "ron_Latn",
+      "language_code": "ron_Latn",
+      "terms_keeping_same": 4,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "aze_Latn": {
+      "language_name": "aze_Latn",
+      "language_code": "aze_Latn",
+      "terms_keeping_same": 2,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "zho_Hant": {
+      "language_name": "zho_Hant",
+      "language_code": "zho_Hant",
+      "terms_keeping_same": 0,
+      "terms_translated": 5,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "arb_Arab": {
+      "language_name": "Arabic",
+      "language_code": "arb_Arab",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "lao_Laoo": {
+      "language_name": "lao_Laoo",
+      "language_code": "lao_Laoo",
+      "terms_keeping_same": 0,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 1,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "eus_Latn": {
+      "language_name": "eus_Latn",
+      "language_code": "eus_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 4,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "srd_Latn": {
+      "language_name": "srd_Latn",
+      "language_code": "srd_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 1,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "fra_Latn": {
+      "language_name": "French",
+      "language_code": "fra_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "tur_Latn": {
+      "language_name": "tur_Latn",
+      "language_code": "tur_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "mya_Mymr": {
+      "language_name": "mya_Mymr",
+      "language_code": "mya_Mymr",
+      "terms_keeping_same": 0,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 1,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "deu_Latn": {
+      "language_name": "German",
+      "language_code": "deu_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "bul_Cyrl": {
+      "language_name": "bul_Cyrl",
+      "language_code": "bul_Cyrl",
+      "terms_keeping_same": 3,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 3,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "mal_Mlym": {
+      "language_name": "mal_Mlym",
+      "language_code": "mal_Mlym",
+      "terms_keeping_same": 0,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "gla_Latn": {
+      "language_name": "gla_Latn",
+      "language_code": "gla_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 3,
+      "terms_with_errors": 0,
+      "total_terms_processed": 3,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "amh_Ethi": {
+      "language_name": "amh_Ethi",
+      "language_code": "amh_Ethi",
+      "terms_keeping_same": 0,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "kor_Hang": {
+      "language_name": "Korean",
+      "language_code": "kor_Hang",
+      "terms_keeping_same": 4,
+      "terms_translated": 1,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 80.0,
+      "translated_percentage": 20.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "lav_Latn": {
+      "language_name": "lav_Latn",
+      "language_code": "lav_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 4,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "tel_Telu": {
+      "language_name": "tel_Telu",
+      "language_code": "tel_Telu",
+      "terms_keeping_same": 2,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 50.0,
+      "translated_percentage": 50.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "medium_borrowing"
+    },
+    "yor_Latn": {
+      "language_name": "yor_Latn",
+      "language_code": "yor_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "nno_Latn": {
+      "language_name": "nno_Latn",
+      "language_code": "nno_Latn",
+      "terms_keeping_same": 2,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 2,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "tam_Taml": {
+      "language_name": "tam_Taml",
+      "language_code": "tam_Taml",
+      "terms_keeping_same": 2,
+      "terms_translated": 2,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 50.0,
+      "translated_percentage": 50.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "medium_borrowing"
+    },
+    "ita_Latn": {
+      "language_name": "Italian",
+      "language_code": "ita_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "swe_Latn": {
+      "language_name": "Swedish",
+      "language_code": "swe_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "lit_Latn": {
+      "language_name": "lit_Latn",
+      "language_code": "lit_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 4,
+      "terms_with_errors": 0,
+      "total_terms_processed": 4,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "hau_Latn": {
+      "language_name": "Hausa",
+      "language_code": "hau_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 3,
+      "terms_with_errors": 0,
+      "total_terms_processed": 3,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "dan_Latn": {
+      "language_name": "Danish",
+      "language_code": "dan_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "fin_Latn": {
+      "language_name": "fin_Latn",
+      "language_code": "fin_Latn",
+      "terms_keeping_same": 0,
+      "terms_translated": 5,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "ell_Grek": {
+      "language_name": "ell_Grek",
+      "language_code": "ell_Grek",
+      "terms_keeping_same": 0,
+      "terms_translated": 5,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 0.0,
+      "translated_percentage": 100.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_translation"
+    },
+    "kaz_Cyrl": {
+      "language_name": "kaz_Cyrl",
+      "language_code": "kaz_Cyrl",
+      "terms_keeping_same": 1,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 1,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "heb_Hebr": {
+      "language_name": "heb_Hebr",
+      "language_code": "heb_Hebr",
+      "terms_keeping_same": 3,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 3,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    },
+    "nob_Latn": {
+      "language_name": "nob_Latn",
+      "language_code": "nob_Latn",
+      "terms_keeping_same": 5,
+      "terms_translated": 0,
+      "terms_with_errors": 0,
+      "total_terms_processed": 5,
+      "same_percentage": 100.0,
+      "translated_percentage": 0.0,
+      "error_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing"
+    }
+  },
+  "language_family_analysis": {
+    "Romance": {
+      "family_name": "Romance",
+      "languages_in_family": 8,
+      "total_same_instances": 27,
+      "total_translated_instances": 2,
+      "average_same_percentage": 67.5,
+      "average_translated_percentage": 5.0,
+      "borrowing_tendency": "high_borrowing",
+      "sample_languages": [
+        "French",
+        "Spanish",
+        "Italian",
+        "Portuguese",
+        "ron_Latn"
+      ]
+    },
+    "Germanic": {
+      "family_name": "Germanic",
+      "languages_in_family": 8,
+      "total_same_instances": 27,
+      "total_translated_instances": 0,
+      "average_same_percentage": 67.5,
+      "average_translated_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing",
+      "sample_languages": [
+        "German",
+        "Dutch",
+        "Danish",
+        "Swedish",
+        "nob_Latn"
+      ]
+    },
+    "Slavic": {
+      "family_name": "Slavic",
+      "languages_in_family": 8,
+      "total_same_instances": 22,
+      "total_translated_instances": 0,
+      "average_same_percentage": 55.0,
+      "average_translated_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing",
+      "sample_languages": [
+        "Russian",
+        "Polish",
+        "Czech",
+        "Slovak",
+        "bul_Cyrl"
+      ]
+    },
+    "Arabic": {
+      "family_name": "Arabic",
+      "languages_in_family": 8,
+      "total_same_instances": 5,
+      "total_translated_instances": 0,
+      "average_same_percentage": 12.5,
+      "average_translated_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing",
+      "sample_languages": [
+        "Arabic",
+        "ary_Arab",
+        "arz_Arab",
+        "acm_Arab",
+        "apc_Arab"
+      ]
+    },
+    "Indic": {
+      "family_name": "Indic",
+      "languages_in_family": 8,
+      "total_same_instances": 11,
+      "total_translated_instances": 11,
+      "average_same_percentage": 27.5,
+      "average_translated_percentage": 27.5,
+      "borrowing_tendency": "medium_borrowing",
+      "sample_languages": [
+        "Hindi",
+        "Bengali",
+        "guj_Gujr",
+        "pan_Guru",
+        "mar_Deva"
+      ]
+    },
+    "East_Asian": {
+      "family_name": "East Asian",
+      "languages_in_family": 4,
+      "total_same_instances": 9,
+      "total_translated_instances": 11,
+      "average_same_percentage": 45.0,
+      "average_translated_percentage": 55.0,
+      "borrowing_tendency": "medium_borrowing",
+      "sample_languages": [
+        "Chinese (Simplified)",
+        "zho_Hant",
+        "Japanese",
+        "Korean"
+      ]
+    },
+    "African_Niger_Congo": {
+      "family_name": "African Niger Congo",
+      "languages_in_family": 7,
+      "total_same_instances": 0,
+      "total_translated_instances": 11,
+      "average_same_percentage": 0.0,
+      "average_translated_percentage": 31.43,
+      "borrowing_tendency": "high_translation",
+      "sample_languages": [
+        "Swahili",
+        "Hausa",
+        "yor_Latn",
+        "ibo_Latn",
+        "kin_Latn"
+      ]
+    },
+    "Afroasiatic": {
+      "family_name": "Afroasiatic",
+      "languages_in_family": 4,
+      "total_same_instances": 3,
+      "total_translated_instances": 8,
+      "average_same_percentage": 15.0,
+      "average_translated_percentage": 40.0,
+      "borrowing_tendency": "high_translation",
+      "sample_languages": [
+        "amh_Ethi",
+        "som_Latn",
+        "heb_Hebr",
+        "mlt_Latn"
+      ]
+    },
+    "Turkic": {
+      "family_name": "Turkic",
+      "languages_in_family": 6,
+      "total_same_instances": 8,
+      "total_translated_instances": 0,
+      "average_same_percentage": 26.67,
+      "average_translated_percentage": 0.0,
+      "borrowing_tendency": "high_borrowing",
+      "sample_languages": [
+        "tur_Latn",
+        "aze_Latn",
+        "kaz_Cyrl",
+        "kir_Cyrl",
+        "uzb_Latn"
+      ]
+    },
+    "Austronesian": {
+      "family_name": "Austronesian",
+      "languages_in_family": 7,
+      "total_same_instances": 0,
+      "total_translated_instances": 0,
+      "average_same_percentage": 0.0,
+      "average_translated_percentage": 0.0,
+      "borrowing_tendency": "high_translation",
+      "sample_languages": [
+        "ind_Latn",
+        "msa_Latn",
+        "tgl_Latn",
+        "jav_Latn",
+        "sun_Latn"
+      ]
+    },
+    "Celtic": {
+      "family_name": "Celtic",
+      "languages_in_family": 4,
+      "total_same_instances": 0,
+      "total_translated_instances": 9,
+      "average_same_percentage": 0.0,
+      "average_translated_percentage": 45.0,
+      "borrowing_tendency": "high_translation",
+      "sample_languages": [
+        "gle_Latn",
+        "gla_Latn",
+        "cym_Latn",
+        "bre_Latn"
+      ]
+    },
+    "Finno_Ugric": {
+      "family_name": "Finno Ugric",
+      "languages_in_family": 3,
+      "total_same_instances": 4,
+      "total_translated_instances": 11,
+      "average_same_percentage": 26.67,
+      "average_translated_percentage": 73.33,
+      "borrowing_tendency": "high_translation",
+      "sample_languages": [
+        "fin_Latn",
+        "hun_Latn",
+        "est_Latn"
+      ]
+    },
+    "Other_European": {
+      "family_name": "Other European",
+      "languages_in_family": 6,
+      "total_same_instances": 2,
+      "total_translated_instances": 13,
+      "average_same_percentage": 6.67,
+      "average_translated_percentage": 43.33,
+      "borrowing_tendency": "high_translation",
+      "sample_languages": [
+        "ell_Grek",
+        "lav_Latn",
+        "lit_Latn",
+        "bel_Cyrl",
+        "ukr_Cyrl"
+      ]
+    }
+  },
+  "top_rankings": {
+    "highest_borrowing_percentage": [
+      {
+        "language_code": "nld_Latn",
+        "language_name": "Dutch",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "ukr_Cyrl",
+        "language_name": "ukr_Cyrl",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "rus_Cyrl",
+        "language_name": "Russian",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "spa_Latn",
+        "language_name": "Spanish",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "pol_Latn",
+        "language_name": "Polish",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "slk_Latn",
+        "language_name": "Slovak",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "jpn_Jpan",
+        "language_name": "Japanese",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "ces_Latn",
+        "language_name": "Czech",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "por_Latn",
+        "language_name": "Portuguese",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "ron_Latn",
+        "language_name": "ron_Latn",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "aze_Latn",
+        "language_name": "aze_Latn",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "arb_Arab",
+        "language_name": "Arabic",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "fra_Latn",
+        "language_name": "French",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "tur_Latn",
+        "language_name": "tur_Latn",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "deu_Latn",
+        "language_name": "German",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "bul_Cyrl",
+        "language_name": "bul_Cyrl",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "nno_Latn",
+        "language_name": "nno_Latn",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "ita_Latn",
+        "language_name": "Italian",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "swe_Latn",
+        "language_name": "Swedish",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "dan_Latn",
+        "language_name": "Danish",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "kaz_Cyrl",
+        "language_name": "kaz_Cyrl",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "heb_Hebr",
+        "language_name": "heb_Hebr",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "nob_Latn",
+        "language_name": "nob_Latn",
+        "borrowing_percentage": 100.0
+      },
+      {
+        "language_code": "hun_Latn",
+        "language_name": "hun_Latn",
+        "borrowing_percentage": 80.0
+      },
+      {
+        "language_code": "hin_Deva",
+        "language_name": "Hindi",
+        "borrowing_percentage": 80.0
+      }
+    ],
+    "highest_translation_percentage": [
+      {
+        "language_code": "ibo_Latn",
+        "language_name": "ibo_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "gle_Latn",
+        "language_name": "gle_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "vie_Latn",
+        "language_name": "vie_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "pan_Guru",
+        "language_name": "pan_Guru",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "est_Latn",
+        "language_name": "est_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "khm_Khmr",
+        "language_name": "khm_Khmr",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "cym_Latn",
+        "language_name": "cym_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "som_Latn",
+        "language_name": "som_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "asm_Beng",
+        "language_name": "asm_Beng",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "kan_Knda",
+        "language_name": "kan_Knda",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "zho_Hans",
+        "language_name": "Chinese (Simplified)",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "tha_Thai",
+        "language_name": "tha_Thai",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "mlt_Latn",
+        "language_name": "mlt_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "swa_Latn",
+        "language_name": "Swahili",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "ory_Orya",
+        "language_name": "ory_Orya",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "zho_Hant",
+        "language_name": "zho_Hant",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "lao_Laoo",
+        "language_name": "lao_Laoo",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "eus_Latn",
+        "language_name": "eus_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "srd_Latn",
+        "language_name": "srd_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "mya_Mymr",
+        "language_name": "mya_Mymr",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "mal_Mlym",
+        "language_name": "mal_Mlym",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "gla_Latn",
+        "language_name": "gla_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "amh_Ethi",
+        "language_name": "amh_Ethi",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "lav_Latn",
+        "language_name": "lav_Latn",
+        "translation_percentage": 100.0
+      },
+      {
+        "language_code": "yor_Latn",
+        "language_name": "yor_Latn",
+        "translation_percentage": 100.0
+      }
+    ],
+    "most_terms_keeping_same": [
+      {
+        "language_code": "nld_Latn",
+        "language_name": "Dutch",
+        "terms_same": 5
+      },
+      {
+        "language_code": "rus_Cyrl",
+        "language_name": "Russian",
+        "terms_same": 5
+      },
+      {
+        "language_code": "spa_Latn",
+        "language_name": "Spanish",
+        "terms_same": 5
+      },
+      {
+        "language_code": "pol_Latn",
+        "language_name": "Polish",
+        "terms_same": 5
+      },
+      {
+        "language_code": "jpn_Jpan",
+        "language_name": "Japanese",
+        "terms_same": 5
+      },
+      {
+        "language_code": "ces_Latn",
+        "language_name": "Czech",
+        "terms_same": 5
+      },
+      {
+        "language_code": "por_Latn",
+        "language_name": "Portuguese",
+        "terms_same": 5
+      },
+      {
+        "language_code": "arb_Arab",
+        "language_name": "Arabic",
+        "terms_same": 5
+      },
+      {
+        "language_code": "fra_Latn",
+        "language_name": "French",
+        "terms_same": 5
+      },
+      {
+        "language_code": "tur_Latn",
+        "language_name": "tur_Latn",
+        "terms_same": 5
+      },
+      {
+        "language_code": "deu_Latn",
+        "language_name": "German",
+        "terms_same": 5
+      },
+      {
+        "language_code": "ita_Latn",
+        "language_name": "Italian",
+        "terms_same": 5
+      },
+      {
+        "language_code": "swe_Latn",
+        "language_name": "Swedish",
+        "terms_same": 5
+      },
+      {
+        "language_code": "dan_Latn",
+        "language_name": "Danish",
+        "terms_same": 5
+      },
+      {
+        "language_code": "nob_Latn",
+        "language_name": "nob_Latn",
+        "terms_same": 5
+      },
+      {
+        "language_code": "hun_Latn",
+        "language_name": "hun_Latn",
+        "terms_same": 4
+      },
+      {
+        "language_code": "hin_Deva",
+        "language_name": "Hindi",
+        "terms_same": 4
+      },
+      {
+        "language_code": "slk_Latn",
+        "language_name": "Slovak",
+        "terms_same": 4
+      },
+      {
+        "language_code": "ron_Latn",
+        "language_name": "ron_Latn",
+        "terms_same": 4
+      },
+      {
+        "language_code": "kor_Hang",
+        "language_name": "Korean",
+        "terms_same": 4
+      },
+      {
+        "language_code": "cat_Latn",
+        "language_name": "cat_Latn",
+        "terms_same": 3
+      },
+      {
+        "language_code": "ben_Beng",
+        "language_name": "Bengali",
+        "terms_same": 3
+      },
+      {
+        "language_code": "bul_Cyrl",
+        "language_name": "bul_Cyrl",
+        "terms_same": 3
+      },
+      {
+        "language_code": "heb_Hebr",
+        "language_name": "heb_Hebr",
+        "terms_same": 3
+      },
+      {
+        "language_code": "guj_Gujr",
+        "language_name": "guj_Gujr",
+        "terms_same": 2
+      }
+    ],
+    "most_terms_translating": [
+      {
+        "language_code": "est_Latn",
+        "language_name": "est_Latn",
+        "terms_translated": 5
+      },
+      {
+        "language_code": "zho_Hans",
+        "language_name": "Chinese (Simplified)",
+        "terms_translated": 5
+      },
+      {
+        "language_code": "zho_Hant",
+        "language_name": "zho_Hant",
+        "terms_translated": 5
+      },
+      {
+        "language_code": "fin_Latn",
+        "language_name": "fin_Latn",
+        "terms_translated": 5
+      },
+      {
+        "language_code": "ell_Grek",
+        "language_name": "ell_Grek",
+        "terms_translated": 5
+      },
+      {
+        "language_code": "mlt_Latn",
+        "language_name": "mlt_Latn",
+        "terms_translated": 4
+      },
+      {
+        "language_code": "swa_Latn",
+        "language_name": "Swahili",
+        "terms_translated": 4
+      },
+      {
+        "language_code": "eus_Latn",
+        "language_name": "eus_Latn",
+        "terms_translated": 4
+      },
+      {
+        "language_code": "lav_Latn",
+        "language_name": "lav_Latn",
+        "terms_translated": 4
+      },
+      {
+        "language_code": "lit_Latn",
+        "language_name": "lit_Latn",
+        "terms_translated": 4
+      },
+      {
+        "language_code": "gle_Latn",
+        "language_name": "gle_Latn",
+        "terms_translated": 3
+      },
+      {
+        "language_code": "cym_Latn",
+        "language_name": "cym_Latn",
+        "terms_translated": 3
+      },
+      {
+        "language_code": "gla_Latn",
+        "language_name": "gla_Latn",
+        "terms_translated": 3
+      },
+      {
+        "language_code": "hau_Latn",
+        "language_name": "Hausa",
+        "terms_translated": 3
+      },
+      {
+        "language_code": "ibo_Latn",
+        "language_name": "ibo_Latn",
+        "terms_translated": 2
+      },
+      {
+        "language_code": "guj_Gujr",
+        "language_name": "guj_Gujr",
+        "terms_translated": 2
+      },
+      {
+        "language_code": "vie_Latn",
+        "language_name": "vie_Latn",
+        "terms_translated": 2
+      },
+      {
+        "language_code": "som_Latn",
+        "language_name": "som_Latn",
+        "terms_translated": 2
+      },
+      {
+        "language_code": "kan_Knda",
+        "language_name": "kan_Knda",
+        "terms_translated": 2
+      },
+      {
+        "language_code": "mar_Deva",
+        "language_name": "mar_Deva",
+        "terms_translated": 2
+      },
+      {
+        "language_code": "tha_Thai",
+        "language_name": "tha_Thai",
+        "terms_translated": 2
+      },
+      {
+        "language_code": "ben_Beng",
+        "language_name": "Bengali",
+        "terms_translated": 2
+      },
+      {
+        "language_code": "ory_Orya",
+        "language_name": "ory_Orya",
+        "terms_translated": 2
+      },
+      {
+        "language_code": "mal_Mlym",
+        "language_name": "mal_Mlym",
+        "terms_translated": 2
+      },
+      {
+        "language_code": "amh_Ethi",
+        "language_name": "amh_Ethi",
+        "terms_translated": 2
+      }
+    ]
+  },
+  "detailed_term_analysis": [
+    {
+      "term": "algorithm",
+      "frequency": 1250,
+      "translatability_score": 0.575,
+      "total_languages": 37,
+      "languages_keeping_same": {
+        "codes": [
+          "fra_Latn",
+          "spa_Latn",
+          "ita_Latn",
+          "por_Latn",
+          "deu_Latn",
+          "nld_Latn",
+          "dan_Latn",
+          "swe_Latn",
+          "nob_Latn",
+          "pol_Latn",
+          "ces_Latn",
+          "rus_Cyrl",
+          "arb_Arab",
+          "tur_Latn",
+          "jpn_Jpan",
+          "kor_Hang",
+          "hin_Deva"
+        ],
+        "names": [
+          "French",
+          "Spanish",
+          "Italian",
+          "Portuguese",
+          "German",
+          "Dutch",
+          "Danish",
+          "Swedish",
+          "nob_Latn",
+          "Polish"
+        ],
+        "count": 17
+      },
+      "languages_translating": {
+        "codes": [
+          "zho_Hans",
+          "zho_Hant",
+          "ben_Beng",
+          "tam_Taml",
+          "tel_Telu",
+          "mar_Deva",
+          "guj_Gujr",
+          "kan_Knda",
+          "mal_Mlym",
+          "ory_Orya",
+          "pan_Guru",
+          "asm_Beng",
+          "fin_Latn",
+          "hun_Latn",
+          "est_Latn",
+          "lav_Latn",
+          "lit_Latn",
+          "ell_Grek"
+        ],
+        "names": [
+          "Chinese (Simplified)",
+          "zho_Hant",
+          "Bengali",
+          "tam_Taml",
+          "tel_Telu",
+          "mar_Deva",
+          "guj_Gujr",
+          "kan_Knda",
+          "mal_Mlym",
+          "ory_Orya"
+        ],
+        "count": 18
+      },
+      "languages_with_errors": {
+        "codes": [
+          "sat_Olck",
+          "mni_Beng"
+        ],
+        "count": 2
+      },
+      "sample_translations": {
+        "zho_Hans": "算法",
+        "zho_Hant": "演算法",
+        "ben_Beng": "অ্যালগরিদম",
+        "fin_Latn": "algoritmi",
+        "hun_Latn": "algoritmus"
+      }
+    },
+    {
+      "term": "database",
+      "frequency": 2100,
+      "translatability_score": 0.4,
+      "total_languages": 49,
+      "languages_keeping_same": {
+        "codes": [
+          "fra_Latn",
+          "spa_Latn",
+          "ita_Latn",
+          "por_Latn",
+          "deu_Latn",
+          "nld_Latn",
+          "dan_Latn",
+          "swe_Latn",
+          "nob_Latn",
+          "nno_Latn",
+          "pol_Latn",
+          "ces_Latn",
+          "slk_Latn",
+          "hun_Latn",
+          "ron_Latn",
+          "bul_Cyrl",
+          "rus_Cyrl",
+          "ukr_Cyrl",
+          "arb_Arab",
+          "heb_Hebr",
+          "tur_Latn",
+          "jpn_Jpan",
+          "kor_Hang",
+          "hin_Deva",
+          "ben_Beng",
+          "guj_Gujr",
+          "mar_Deva",
+          "tam_Taml",
+          "tel_Telu"
+        ],
+        "names": [
+          "French",
+          "Spanish",
+          "Italian",
+          "Portuguese",
+          "German",
+          "Dutch",
+          "Danish",
+          "Swedish",
+          "nob_Latn",
+          "nno_Latn"
+        ],
+        "count": 29
+      },
+      "languages_translating": {
+        "codes": [
+          "zho_Hans",
+          "zho_Hant",
+          "fin_Latn",
+          "est_Latn",
+          "lav_Latn",
+          "lit_Latn",
+          "ell_Grek",
+          "mlt_Latn",
+          "eus_Latn",
+          "cat_Latn",
+          "glg_Latn",
+          "srd_Latn",
+          "vie_Latn",
+          "tha_Thai",
+          "khm_Khmr",
+          "lao_Laoo",
+          "mya_Mymr",
+          "swa_Latn"
+        ],
+        "names": [
+          "Chinese (Simplified)",
+          "zho_Hant",
+          "fin_Latn",
+          "est_Latn",
+          "lav_Latn",
+          "lit_Latn",
+          "ell_Grek",
+          "mlt_Latn",
+          "eus_Latn",
+          "cat_Latn"
+        ],
+        "count": 18
+      },
+      "languages_with_errors": {
+        "codes": [
+          "dzo_Tibt",
+          "sat_Olck"
+        ],
+        "count": 2
+      },
+      "sample_translations": {
+        "zho_Hans": "数据库",
+        "zho_Hant": "資料庫",
+        "fin_Latn": "tietokanta",
+        "eus_Latn": "datu-base",
+        "swa_Latn": "hifadhidata"
+      }
+    },
+    {
+      "term": "software",
+      "frequency": 3200,
+      "translatability_score": 0.525,
+      "total_languages": 50,
+      "languages_keeping_same": {
+        "codes": [
+          "fra_Latn",
+          "spa_Latn",
+          "ita_Latn",
+          "por_Latn",
+          "cat_Latn",
+          "glg_Latn",
+          "deu_Latn",
+          "nld_Latn",
+          "dan_Latn",
+          "swe_Latn",
+          "nob_Latn",
+          "nno_Latn",
+          "pol_Latn",
+          "ces_Latn",
+          "slk_Latn",
+          "hun_Latn",
+          "ron_Latn",
+          "rus_Cyrl",
+          "arb_Arab",
+          "heb_Hebr",
+          "tur_Latn",
+          "aze_Latn",
+          "kaz_Cyrl",
+          "jpn_Jpan"
+        ],
+        "names": [
+          "French",
+          "Spanish",
+          "Italian",
+          "Portuguese",
+          "cat_Latn",
+          "glg_Latn",
+          "German",
+          "Dutch",
+          "Danish",
+          "Swedish"
+        ],
+        "count": 24
+      },
+      "languages_translating": {
+        "codes": [
+          "zho_Hans",
+          "zho_Hant",
+          "kor_Hang",
+          "hin_Deva",
+          "ben_Beng",
+          "guj_Gujr",
+          "mar_Deva",
+          "tam_Taml",
+          "tel_Telu",
+          "kan_Knda",
+          "mal_Mlym",
+          "ory_Orya",
+          "fin_Latn",
+          "est_Latn",
+          "lav_Latn",
+          "lit_Latn",
+          "ell_Grek",
+          "mlt_Latn",
+          "eus_Latn",
+          "gle_Latn",
+          "gla_Latn",
+          "cym_Latn",
+          "swa_Latn",
+          "hau_Latn"
+        ],
+        "names": [
+          "Chinese (Simplified)",
+          "zho_Hant",
+          "Korean",
+          "Hindi",
+          "Bengali",
+          "guj_Gujr",
+          "mar_Deva",
+          "tam_Taml",
+          "tel_Telu",
+          "kan_Knda"
+        ],
+        "count": 24
+      },
+      "languages_with_errors": {
+        "codes": [
+          "bod_Tibt",
+          "mni_Beng"
+        ],
+        "count": 2
+      },
+      "sample_translations": {
+        "zho_Hans": "软件",
+        "zho_Hant": "軟體",
+        "kor_Hang": "소프트웨어",
+        "hin_Deva": "सॉफ्टवेयर",
+        "fin_Latn": "ohjelmisto"
+      }
+    },
+    {
+      "term": "interface",
+      "frequency": 1800,
+      "translatability_score": 0.45,
+      "total_languages": 44,
+      "languages_keeping_same": {
+        "codes": [
+          "fra_Latn",
+          "spa_Latn",
+          "ita_Latn",
+          "por_Latn",
+          "cat_Latn",
+          "ron_Latn",
+          "deu_Latn",
+          "nld_Latn",
+          "dan_Latn",
+          "swe_Latn",
+          "nob_Latn",
+          "pol_Latn",
+          "ces_Latn",
+          "slk_Latn",
+          "hun_Latn",
+          "bul_Cyrl",
+          "rus_Cyrl",
+          "ukr_Cyrl",
+          "arb_Arab",
+          "tur_Latn",
+          "jpn_Jpan",
+          "kor_Hang",
+          "hin_Deva",
+          "ben_Beng"
+        ],
+        "names": [
+          "French",
+          "Spanish",
+          "Italian",
+          "Portuguese",
+          "cat_Latn",
+          "ron_Latn",
+          "German",
+          "Dutch",
+          "Danish",
+          "Swedish"
+        ],
+        "count": 24
+      },
+      "languages_translating": {
+        "codes": [
+          "zho_Hans",
+          "zho_Hant",
+          "fin_Latn",
+          "est_Latn",
+          "ell_Grek",
+          "mlt_Latn",
+          "eus_Latn",
+          "gle_Latn",
+          "gla_Latn",
+          "cym_Latn",
+          "vie_Latn",
+          "tha_Thai",
+          "swa_Latn",
+          "hau_Latn",
+          "yor_Latn",
+          "ibo_Latn",
+          "amh_Ethi",
+          "som_Latn"
+        ],
+        "names": [
+          "Chinese (Simplified)",
+          "zho_Hant",
+          "fin_Latn",
+          "est_Latn",
+          "ell_Grek",
+          "mlt_Latn",
+          "eus_Latn",
+          "gle_Latn",
+          "gla_Latn",
+          "cym_Latn"
+        ],
+        "count": 18
+      },
+      "languages_with_errors": {
+        "codes": [
+          "dzo_Tibt",
+          "sat_Olck"
+        ],
+        "count": 2
+      },
+      "sample_translations": {
+        "zho_Hans": "接口",
+        "zho_Hant": "介面",
+        "fin_Latn": "käyttöliittymä",
+        "eus_Latn": "interfaze",
+        "swa_Latn": "kiolesura"
+      }
+    },
+    {
+      "term": "protocol",
+      "frequency": 950,
+      "translatability_score": 0.35,
+      "total_languages": 50,
+      "languages_keeping_same": {
+        "codes": [
+          "fra_Latn",
+          "spa_Latn",
+          "ita_Latn",
+          "por_Latn",
+          "cat_Latn",
+          "glg_Latn",
+          "ron_Latn",
+          "deu_Latn",
+          "nld_Latn",
+          "dan_Latn",
+          "swe_Latn",
+          "nob_Latn",
+          "pol_Latn",
+          "ces_Latn",
+          "slk_Latn",
+          "hun_Latn",
+          "bul_Cyrl",
+          "rus_Cyrl",
+          "arb_Arab",
+          "heb_Hebr",
+          "tur_Latn",
+          "aze_Latn",
+          "jpn_Jpan",
+          "kor_Hang",
+          "hin_Deva",
+          "ben_Beng",
+          "guj_Gujr",
+          "mar_Deva",
+          "tam_Taml",
+          "tel_Telu"
+        ],
+        "names": [
+          "French",
+          "Spanish",
+          "Italian",
+          "Portuguese",
+          "cat_Latn",
+          "glg_Latn",
+          "ron_Latn",
+          "German",
+          "Dutch",
+          "Danish"
+        ],
+        "count": 30
+      },
+      "languages_translating": {
+        "codes": [
+          "zho_Hans",
+          "zho_Hant",
+          "fin_Latn",
+          "est_Latn",
+          "lav_Latn",
+          "lit_Latn",
+          "ell_Grek",
+          "mlt_Latn",
+          "eus_Latn",
+          "gle_Latn",
+          "gla_Latn",
+          "cym_Latn",
+          "swa_Latn",
+          "hau_Latn",
+          "yor_Latn",
+          "ibo_Latn",
+          "amh_Ethi",
+          "som_Latn"
+        ],
+        "names": [
+          "Chinese (Simplified)",
+          "zho_Hant",
+          "fin_Latn",
+          "est_Latn",
+          "lav_Latn",
+          "lit_Latn",
+          "ell_Grek",
+          "mlt_Latn",
+          "eus_Latn",
+          "gle_Latn"
+        ],
+        "count": 18
+      },
+      "languages_with_errors": {
+        "codes": [
+          "bod_Tibt",
+          "mni_Beng"
+        ],
+        "count": 2
+      },
+      "sample_translations": {
+        "zho_Hans": "协议",
+        "zho_Hant": "協定",
+        "fin_Latn": "protokolla",
+        "eus_Latn": "protokolo",
+        "swa_Latn": "itifaki"
+      }
+    }
+  ]
+}

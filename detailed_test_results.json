@@ -1,0 +1,2235 @@
+{
+  "metadata": {
+    "generated_by": "TerminologyReviewAgent",
+    "model_used": "unknown",
+    "parameters": {
+      "max_search_results": 50,
+      "seed": 42,
+      "temperature": 0.0,
+      "top_p": 1.0
+    },
+    "timestamp": "2025-09-04T13:35:49.746696",
+    "total_results": 1,
+    "version": "1.0"
+  },
+  "results": [
+    {
+      "autodesk_analysis": {
+        "confidence_score": 17.40000000000002,
+        "existing_translations": {
+          "CORE_PTB-ENG": "paramétrico",
+          "EN-CS": "parametrický",
+          "EN-DE": "parametrisch",
+          "EN-ES": "paramétrico",
+          "EN-FR": "paramétrique",
+          "EN-IT": "parametrico",
+          "EN-JA": "パラメトリック",
+          "EN-KO": "파라메트릭",
+          "EN-RU": "параметрический",
+          "EN-ZH": "参数化",
+          "EN-ZH-TW": "參數式",
+          "ENG-ARA": "بارامتري",
+          "ENG-CHS": "参数化",
+          "ENG-CHT": "參數式",
+          "ENG-CSY": "parametrický",
+          "ENG-CSZ": "parametrický",
+          "ENG-DEU": "parametrisch",
+          "ENG-ESP": "paramétrico",
+          "ENG-FRE": "paramétrique",
+          "ENG-HIN": "पैरामीट्रिक",
+          "ENG-HUN": "parametrikus",
+          "ENG-IND": "parametrik",
+          "ENG-ITA": "parametrico",
+          "ENG-JPN": "パラメトリック",
+          "ENG-KOR": "파라메트릭",
+          "ENG-PLY": "parametryczny",
+          "ENG-PTB": "paramétrico",
+          "ENG-RUS": "параметрический",
+          "ENG-UKR": "параметричний",
+          "core_ptb-eng": "paramétrico",
+          "en-cs": "parametrický",
+          "en-de": "parametrisch",
+          "en-es": "paramétrico",
+          "en-fr": "paramétrique",
+          "en-it": "parametrico",
+          "en-ja": "パラメトリック",
+          "en-ko": "파라메트릭",
+          "en-ru": "параметрический",
+          "en-zh": "参数化",
+          "en-zh-tw": "參數式",
+          "eng-ara": "بارامتري",
+          "eng-chs": "参数化",
+          "eng-cht": "參數式",
+          "eng-csy": "parametrický",
+          "eng-csz": "parametrický",
+          "eng-deu": "parametrisch",
+          "eng-esp": "paramétrico",
+          "eng-fre": "paramétrique",
+          "eng-hin": "पैरामीट्रिक",
+          "eng-hun": "parametrikus",
+          "eng-ind": "parametrik",
+          "eng-ita": "parametrico",
+          "eng-jpn": "パラメトリック",
+          "eng-kor": "파라메트릭",
+          "eng-ply": "parametryczny",
+          "eng-ptb": "paramétrico",
+          "eng-rus": "параметрический",
+          "eng-ukr": "параметричний"
+        },
+        "industry_categories": [],
+        "related_terms": [
+          {
+            "language_pair": "ENG-ARA",
+            "term": "parametric drawing",
+            "translation": "الرسم البارامتري"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "parametric expression",
+            "translation": "التعبير البارامتري"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "parametric",
+            "translation": "بارامتري"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "RAM",
+            "translation": "ذاكرة الوصول العشوائي"
+          },
+          {
+            "language_pair": "ENG-ARA",
+            "term": "AM",
+            "translation": "التصنيع الإضافي"
+          },
+          {
+            "language_pair": "eng-ara",
+            "term": "parametric drawing",
+            "translation": "الرسم البارامتري"
+          },
+          {
+            "language_pair": "eng-ara",
+            "term": "parametric expression",
+            "translation": "التعبير البارامتري"
+          },
+          {
+            "language_pair": "eng-ara",
+            "term": "parametric",
+            "translation": "بارامتري"
+          },
+          {
+            "language_pair": "eng-ara",
+            "term": "RAM",
+            "translation": "ذاكرة الوصول العشوائي"
+          },
+          {
+            "language_pair": "eng-ara",
+            "term": "AM",
+            "translation": "التصنيع الإضافي"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "parametric drawing",
+            "translation": "参数化图形"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "parametric expression",
+            "translation": "参数化表达式"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "parametric",
+            "translation": "参数化"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-CHS",
+            "term": "AM",
+            "translation": "增材制造"
+          },
+          {
+            "language_pair": "EN-ZH",
+            "term": "parametric drawing",
+            "translation": "参数化图形"
+          },
+          {
+            "language_pair": "EN-ZH",
+            "term": "parametric expression",
+            "translation": "参数化表达式"
+          },
+          {
+            "language_pair": "EN-ZH",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-ZH",
+            "term": "parametric",
+            "translation": "参数化"
+          },
+          {
+            "language_pair": "EN-ZH",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "EN-ZH",
+            "term": "AM",
+            "translation": "增材制造"
+          },
+          {
+            "language_pair": "eng-chs",
+            "term": "parametric drawing",
+            "translation": "参数化图形"
+          },
+          {
+            "language_pair": "eng-chs",
+            "term": "parametric expression",
+            "translation": "参数化表达式"
+          },
+          {
+            "language_pair": "eng-chs",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-chs",
+            "term": "parametric",
+            "translation": "参数化"
+          },
+          {
+            "language_pair": "eng-chs",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-chs",
+            "term": "AM",
+            "translation": "增材制造"
+          },
+          {
+            "language_pair": "ENG-CHT",
+            "term": "parametric drawing",
+            "translation": "參數式繪製"
+          },
+          {
+            "language_pair": "ENG-CHT",
+            "term": "parametric expression",
+            "translation": "參數式表示式"
+          },
+          {
+            "language_pair": "ENG-CHT",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-CHT",
+            "term": "parametric",
+            "translation": "參數式"
+          },
+          {
+            "language_pair": "ENG-CHT",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "EN-ZH-TW",
+            "term": "parametric drawing",
+            "translation": "參數式繪製"
+          },
+          {
+            "language_pair": "EN-ZH-TW",
+            "term": "parametric expression",
+            "translation": "參數式表示式"
+          },
+          {
+            "language_pair": "EN-ZH-TW",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-ZH-TW",
+            "term": "parametric",
+            "translation": "參數式"
+          },
+          {
+            "language_pair": "EN-ZH-TW",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-cht",
+            "term": "parametric drawing",
+            "translation": "參數式繪製"
+          },
+          {
+            "language_pair": "eng-cht",
+            "term": "parametric expression",
+            "translation": "參數式表示式"
+          },
+          {
+            "language_pair": "eng-cht",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-cht",
+            "term": "parametric",
+            "translation": "參數式"
+          },
+          {
+            "language_pair": "eng-cht",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-CSZ",
+            "term": "parametric drawing",
+            "translation": "parametrický výkres"
+          },
+          {
+            "language_pair": "ENG-CSZ",
+            "term": "parametric expression",
+            "translation": "parametrický výraz"
+          },
+          {
+            "language_pair": "ENG-CSZ",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-CSZ",
+            "term": "parametric",
+            "translation": "parametrický"
+          },
+          {
+            "language_pair": "eng-csz",
+            "term": "parametric drawing",
+            "translation": "parametrický výkres"
+          },
+          {
+            "language_pair": "eng-csz",
+            "term": "parametric expression",
+            "translation": "parametrický výraz"
+          },
+          {
+            "language_pair": "eng-csz",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-csz",
+            "term": "parametric",
+            "translation": "parametrický"
+          },
+          {
+            "language_pair": "ENG-DAN",
+            "term": "parametric drawing",
+            "translation": "parametrisk tegning"
+          },
+          {
+            "language_pair": "ENG-DAN",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-dan",
+            "term": "parametric drawing",
+            "translation": "parametrisk tegning"
+          },
+          {
+            "language_pair": "eng-dan",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-DEU",
+            "term": "parametric drawing",
+            "translation": "parametrisches Zeichnen"
+          },
+          {
+            "language_pair": "ENG-DEU",
+            "term": "parametric expression",
+            "translation": "parametrischer Ausdruck"
+          },
+          {
+            "language_pair": "ENG-DEU",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-DEU",
+            "term": "parametric",
+            "translation": "parametrisch"
+          },
+          {
+            "language_pair": "ENG-DEU",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-DEU",
+            "term": "AM",
+            "translation": "AF"
+          },
+          {
+            "language_pair": "EN-DE",
+            "term": "parametric drawing",
+            "translation": "parametrisches Zeichnen"
+          },
+          {
+            "language_pair": "EN-DE",
+            "term": "parametric expression",
+            "translation": "parametrischer Ausdruck"
+          },
+          {
+            "language_pair": "EN-DE",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-DE",
+            "term": "parametric",
+            "translation": "parametrisch"
+          },
+          {
+            "language_pair": "EN-DE",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "EN-DE",
+            "term": "AM",
+            "translation": "AF"
+          },
+          {
+            "language_pair": "eng-deu",
+            "term": "parametric drawing",
+            "translation": "parametrisches Zeichnen"
+          },
+          {
+            "language_pair": "eng-deu",
+            "term": "parametric expression",
+            "translation": "parametrischer Ausdruck"
+          },
+          {
+            "language_pair": "eng-deu",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-deu",
+            "term": "parametric",
+            "translation": "parametrisch"
+          },
+          {
+            "language_pair": "eng-deu",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-deu",
+            "term": "AM",
+            "translation": "AF"
+          },
+          {
+            "language_pair": "ENG-ESP",
+            "term": "parametric drawing",
+            "translation": "dibujo paramétrico"
+          },
+          {
+            "language_pair": "ENG-ESP",
+            "term": "parametric expression",
+            "translation": "expresión paramétrica"
+          },
+          {
+            "language_pair": "ENG-ESP",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-ESP",
+            "term": "parametric",
+            "translation": "paramétrico"
+          },
+          {
+            "language_pair": "ENG-ESP",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-ESP",
+            "term": "AM",
+            "translation": "FA"
+          },
+          {
+            "language_pair": "EN-ES",
+            "term": "parametric drawing",
+            "translation": "dibujo paramétrico"
+          },
+          {
+            "language_pair": "EN-ES",
+            "term": "parametric expression",
+            "translation": "expresión paramétrica"
+          },
+          {
+            "language_pair": "EN-ES",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-ES",
+            "term": "parametric",
+            "translation": "paramétrico"
+          },
+          {
+            "language_pair": "EN-ES",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "EN-ES",
+            "term": "AM",
+            "translation": "FA"
+          },
+          {
+            "language_pair": "eng-esp",
+            "term": "parametric drawing",
+            "translation": "dibujo paramétrico"
+          },
+          {
+            "language_pair": "eng-esp",
+            "term": "parametric expression",
+            "translation": "expresión paramétrica"
+          },
+          {
+            "language_pair": "eng-esp",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-esp",
+            "term": "parametric",
+            "translation": "paramétrico"
+          },
+          {
+            "language_pair": "eng-esp",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-esp",
+            "term": "AM",
+            "translation": "FA"
+          },
+          {
+            "language_pair": "ENG-FIN",
+            "term": "parametric drawing",
+            "translation": "parametripiirto"
+          },
+          {
+            "language_pair": "ENG-FIN",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-fin",
+            "term": "parametric drawing",
+            "translation": "parametripiirto"
+          },
+          {
+            "language_pair": "eng-fin",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-FRE",
+            "term": "parametric drawing",
+            "translation": "dessin paramétrique"
+          },
+          {
+            "language_pair": "ENG-FRE",
+            "term": "parametric expression",
+            "translation": "expression paramétrique"
+          },
+          {
+            "language_pair": "ENG-FRE",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-FRE",
+            "term": "parametric",
+            "translation": "paramétrique"
+          },
+          {
+            "language_pair": "ENG-FRE",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-FRE",
+            "term": "AM",
+            "translation": "fabrication additive"
+          },
+          {
+            "language_pair": "EN-FR",
+            "term": "parametric drawing",
+            "translation": "dessin paramétrique"
+          },
+          {
+            "language_pair": "EN-FR",
+            "term": "parametric expression",
+            "translation": "expression paramétrique"
+          },
+          {
+            "language_pair": "EN-FR",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-FR",
+            "term": "parametric",
+            "translation": "paramétrique"
+          },
+          {
+            "language_pair": "EN-FR",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "EN-FR",
+            "term": "AM",
+            "translation": "fabrication additive"
+          },
+          {
+            "language_pair": "eng-fre",
+            "term": "parametric drawing",
+            "translation": "dessin paramétrique"
+          },
+          {
+            "language_pair": "eng-fre",
+            "term": "parametric expression",
+            "translation": "expression paramétrique"
+          },
+          {
+            "language_pair": "eng-fre",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-fre",
+            "term": "parametric",
+            "translation": "paramétrique"
+          },
+          {
+            "language_pair": "eng-fre",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-fre",
+            "term": "AM",
+            "translation": "fabrication additive"
+          },
+          {
+            "language_pair": "ENG-HIN",
+            "term": "parametric drawing",
+            "translation": "पैरामीट्रिक ड्राइंग"
+          },
+          {
+            "language_pair": "ENG-HIN",
+            "term": "parametric expression",
+            "translation": "पैरामीट्रिक अभिव्यक्ति"
+          },
+          {
+            "language_pair": "ENG-HIN",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-HIN",
+            "term": "parametric",
+            "translation": "पैरामीट्रिक"
+          },
+          {
+            "language_pair": "ENG-HIN",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-HIN",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "eng-hin",
+            "term": "parametric drawing",
+            "translation": "पैरामीट्रिक ड्राइंग"
+          },
+          {
+            "language_pair": "eng-hin",
+            "term": "parametric expression",
+            "translation": "पैरामीट्रिक अभिव्यक्ति"
+          },
+          {
+            "language_pair": "eng-hin",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-hin",
+            "term": "parametric",
+            "translation": "पैरामीट्रिक"
+          },
+          {
+            "language_pair": "eng-hin",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-hin",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "ENG-HUN",
+            "term": "parametric drawing",
+            "translation": "parametrikus rajz"
+          },
+          {
+            "language_pair": "ENG-HUN",
+            "term": "parametric expression",
+            "translation": "parametrikus kifejezés"
+          },
+          {
+            "language_pair": "ENG-HUN",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-HUN",
+            "term": "parametric",
+            "translation": "parametrikus"
+          },
+          {
+            "language_pair": "ENG-HUN",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-hun",
+            "term": "parametric drawing",
+            "translation": "parametrikus rajz"
+          },
+          {
+            "language_pair": "eng-hun",
+            "term": "parametric expression",
+            "translation": "parametrikus kifejezés"
+          },
+          {
+            "language_pair": "eng-hun",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-hun",
+            "term": "parametric",
+            "translation": "parametrikus"
+          },
+          {
+            "language_pair": "eng-hun",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-IND",
+            "term": "parametric drawing",
+            "translation": "gambar parametrik"
+          },
+          {
+            "language_pair": "ENG-IND",
+            "term": "parametric expression",
+            "translation": "ekspresi parametrik"
+          },
+          {
+            "language_pair": "ENG-IND",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-IND",
+            "term": "parametric",
+            "translation": "parametrik"
+          },
+          {
+            "language_pair": "ENG-IND",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-IND",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "eng-ind",
+            "term": "parametric drawing",
+            "translation": "gambar parametrik"
+          },
+          {
+            "language_pair": "eng-ind",
+            "term": "parametric expression",
+            "translation": "ekspresi parametrik"
+          },
+          {
+            "language_pair": "eng-ind",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-ind",
+            "term": "parametric",
+            "translation": "parametrik"
+          },
+          {
+            "language_pair": "eng-ind",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-ind",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "ENG-ITA",
+            "term": "parametric drawing",
+            "translation": "disegno parametrico"
+          },
+          {
+            "language_pair": "ENG-ITA",
+            "term": "parametric expression",
+            "translation": "espressione parametrica"
+          },
+          {
+            "language_pair": "ENG-ITA",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-ITA",
+            "term": "parametric",
+            "translation": "parametrico"
+          },
+          {
+            "language_pair": "ENG-ITA",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "EN-IT",
+            "term": "parametric drawing",
+            "translation": "disegno parametrico"
+          },
+          {
+            "language_pair": "EN-IT",
+            "term": "parametric expression",
+            "translation": "espressione parametrica"
+          },
+          {
+            "language_pair": "EN-IT",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-IT",
+            "term": "parametric",
+            "translation": "parametrico"
+          },
+          {
+            "language_pair": "EN-IT",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-ita",
+            "term": "parametric drawing",
+            "translation": "disegno parametrico"
+          },
+          {
+            "language_pair": "eng-ita",
+            "term": "parametric expression",
+            "translation": "espressione parametrica"
+          },
+          {
+            "language_pair": "eng-ita",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-ita",
+            "term": "parametric",
+            "translation": "parametrico"
+          },
+          {
+            "language_pair": "eng-ita",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "parametric drawing",
+            "translation": "パラメトリック図面"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "parametric expression",
+            "translation": "パラメータ表現"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "parametric",
+            "translation": "パラメトリック"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-JPN",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "EN-JA",
+            "term": "parametric drawing",
+            "translation": "パラメトリック図面"
+          },
+          {
+            "language_pair": "EN-JA",
+            "term": "parametric expression",
+            "translation": "パラメータ表現"
+          },
+          {
+            "language_pair": "EN-JA",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-JA",
+            "term": "parametric",
+            "translation": "パラメトリック"
+          },
+          {
+            "language_pair": "EN-JA",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "EN-JA",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "eng-jpn",
+            "term": "parametric drawing",
+            "translation": "パラメトリック図面"
+          },
+          {
+            "language_pair": "eng-jpn",
+            "term": "parametric expression",
+            "translation": "パラメータ表現"
+          },
+          {
+            "language_pair": "eng-jpn",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-jpn",
+            "term": "parametric",
+            "translation": "パラメトリック"
+          },
+          {
+            "language_pair": "eng-jpn",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-jpn",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "ENG-KOR",
+            "term": "parametric drawing",
+            "translation": "파라메트릭 도면"
+          },
+          {
+            "language_pair": "ENG-KOR",
+            "term": "parametric expression",
+            "translation": "파라메트릭 표현"
+          },
+          {
+            "language_pair": "ENG-KOR",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-KOR",
+            "term": "parametric",
+            "translation": "파라메트릭"
+          },
+          {
+            "language_pair": "ENG-KOR",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "EN-KO",
+            "term": "parametric drawing",
+            "translation": "파라메트릭 도면"
+          },
+          {
+            "language_pair": "EN-KO",
+            "term": "parametric expression",
+            "translation": "파라메트릭 표현"
+          },
+          {
+            "language_pair": "EN-KO",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-KO",
+            "term": "parametric",
+            "translation": "파라메트릭"
+          },
+          {
+            "language_pair": "EN-KO",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-kor",
+            "term": "parametric drawing",
+            "translation": "파라메트릭 도면"
+          },
+          {
+            "language_pair": "eng-kor",
+            "term": "parametric expression",
+            "translation": "파라메트릭 표현"
+          },
+          {
+            "language_pair": "eng-kor",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-kor",
+            "term": "parametric",
+            "translation": "파라메트릭"
+          },
+          {
+            "language_pair": "eng-kor",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-MEX",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-mex",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-NLD",
+            "term": "parametric drawing",
+            "translation": "parametrisch tekenen"
+          },
+          {
+            "language_pair": "ENG-NLD",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-nld",
+            "term": "parametric drawing",
+            "translation": "parametrisch tekenen"
+          },
+          {
+            "language_pair": "eng-nld",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-NOR",
+            "term": "parametric drawing",
+            "translation": "parametertegning"
+          },
+          {
+            "language_pair": "ENG-NOR",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-nor",
+            "term": "parametric drawing",
+            "translation": "parametertegning"
+          },
+          {
+            "language_pair": "eng-nor",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-PLY",
+            "term": "parametric drawing",
+            "translation": "rysunek parametryczny"
+          },
+          {
+            "language_pair": "ENG-PLY",
+            "term": "parametric expression",
+            "translation": "wyrażenie parametryczne"
+          },
+          {
+            "language_pair": "ENG-PLY",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-PLY",
+            "term": "parametric",
+            "translation": "parametryczny"
+          },
+          {
+            "language_pair": "eng-ply",
+            "term": "parametric drawing",
+            "translation": "rysunek parametryczny"
+          },
+          {
+            "language_pair": "eng-ply",
+            "term": "parametric expression",
+            "translation": "wyrażenie parametryczne"
+          },
+          {
+            "language_pair": "eng-ply",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-ply",
+            "term": "parametric",
+            "translation": "parametryczny"
+          },
+          {
+            "language_pair": "ENG-POR",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-PT",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-por",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "parametric drawing",
+            "translation": "desenho paramétrico"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "parametric expression",
+            "translation": "expressão paramétrica"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "parametric",
+            "translation": "paramétrico"
+          },
+          {
+            "language_pair": "ENG-PTB",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-ptb",
+            "term": "parametric drawing",
+            "translation": "desenho paramétrico"
+          },
+          {
+            "language_pair": "eng-ptb",
+            "term": "parametric expression",
+            "translation": "expressão paramétrica"
+          },
+          {
+            "language_pair": "eng-ptb",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-ptb",
+            "term": "parametric",
+            "translation": "paramétrico"
+          },
+          {
+            "language_pair": "eng-ptb",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-RUS",
+            "term": "parametric drawing",
+            "translation": "параметрический чертеж"
+          },
+          {
+            "language_pair": "ENG-RUS",
+            "term": "parametric expression",
+            "translation": "параметрическое выражение"
+          },
+          {
+            "language_pair": "ENG-RUS",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-RUS",
+            "term": "parametric",
+            "translation": "параметрический"
+          },
+          {
+            "language_pair": "ENG-RUS",
+            "term": "RAM",
+            "translation": "ОЗУ"
+          },
+          {
+            "language_pair": "ENG-RUS",
+            "term": "AM",
+            "translation": "АП"
+          },
+          {
+            "language_pair": "EN-RU",
+            "term": "parametric drawing",
+            "translation": "параметрический чертеж"
+          },
+          {
+            "language_pair": "EN-RU",
+            "term": "parametric expression",
+            "translation": "параметрическое выражение"
+          },
+          {
+            "language_pair": "EN-RU",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-RU",
+            "term": "parametric",
+            "translation": "параметрический"
+          },
+          {
+            "language_pair": "EN-RU",
+            "term": "RAM",
+            "translation": "ОЗУ"
+          },
+          {
+            "language_pair": "EN-RU",
+            "term": "AM",
+            "translation": "АП"
+          },
+          {
+            "language_pair": "eng-rus",
+            "term": "parametric drawing",
+            "translation": "параметрический чертеж"
+          },
+          {
+            "language_pair": "eng-rus",
+            "term": "parametric expression",
+            "translation": "параметрическое выражение"
+          },
+          {
+            "language_pair": "eng-rus",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-rus",
+            "term": "parametric",
+            "translation": "параметрический"
+          },
+          {
+            "language_pair": "eng-rus",
+            "term": "RAM",
+            "translation": "ОЗУ"
+          },
+          {
+            "language_pair": "eng-rus",
+            "term": "AM",
+            "translation": "АП"
+          },
+          {
+            "language_pair": "ENG-SWE",
+            "term": "parametric drawing",
+            "translation": "parametrisk ritning"
+          },
+          {
+            "language_pair": "ENG-SWE",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-swe",
+            "term": "parametric drawing",
+            "translation": "parametrisk ritning"
+          },
+          {
+            "language_pair": "eng-swe",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-TUR",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-tur",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-UKR",
+            "term": "parametric drawing",
+            "translation": "параметричний малюнок"
+          },
+          {
+            "language_pair": "ENG-UKR",
+            "term": "parametric expression",
+            "translation": "параметричний вираз"
+          },
+          {
+            "language_pair": "ENG-UKR",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-UKR",
+            "term": "parametric",
+            "translation": "параметричний"
+          },
+          {
+            "language_pair": "ENG-UKR",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "ENG-UKR",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "eng-ukr",
+            "term": "parametric drawing",
+            "translation": "параметричний малюнок"
+          },
+          {
+            "language_pair": "eng-ukr",
+            "term": "parametric expression",
+            "translation": "параметричний вираз"
+          },
+          {
+            "language_pair": "eng-ukr",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-ukr",
+            "term": "parametric",
+            "translation": "параметричний"
+          },
+          {
+            "language_pair": "eng-ukr",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "eng-ukr",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "ENG-CSY",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "ENG-CSY",
+            "term": "parametric",
+            "translation": "parametrický"
+          },
+          {
+            "language_pair": "EN-CS",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "EN-CS",
+            "term": "parametric",
+            "translation": "parametrický"
+          },
+          {
+            "language_pair": "eng-csy",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "eng-csy",
+            "term": "parametric",
+            "translation": "parametrický"
+          },
+          {
+            "language_pair": "ACAD_CSZ-ENG",
+            "term": "parametrický výkres",
+            "translation": "parametric drawing"
+          },
+          {
+            "language_pair": "ACAD_CSZ-ENG",
+            "term": "parametrický výraz",
+            "translation": "parametric expression"
+          },
+          {
+            "language_pair": "acad_csz-eng",
+            "term": "parametrický výkres",
+            "translation": "parametric drawing"
+          },
+          {
+            "language_pair": "acad_csz-eng",
+            "term": "parametrický výraz",
+            "translation": "parametric expression"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "disegno parametrico",
+            "translation": "parametric drawing"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "espressione parametrica",
+            "translation": "parametric expression"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "PARAMETRI",
+            "translation": "PARAMETERS"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "quota parametrica",
+            "translation": "driving dimension"
+          },
+          {
+            "language_pair": "ACAD_ITA-ENG",
+            "term": "vincolo non parametrico",
+            "translation": "driven constraint"
+          },
+          {
+            "language_pair": "acad_ita-eng",
+            "term": "disegno parametrico",
+            "translation": "parametric drawing"
+          },
+          {
+            "language_pair": "acad_ita-eng",
+            "term": "espressione parametrica",
+            "translation": "parametric expression"
+          },
+          {
+            "language_pair": "acad_ita-eng",
+            "term": "PARAMETRI",
+            "translation": "PARAMETERS"
+          },
+          {
+            "language_pair": "acad_ita-eng",
+            "term": "quota parametrica",
+            "translation": "driving dimension"
+          },
+          {
+            "language_pair": "acad_ita-eng",
+            "term": "vincolo non parametrico",
+            "translation": "driven constraint"
+          },
+          {
+            "language_pair": "CORE_CHS-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_CHS-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_chs-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_chs-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_CHT-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_CHT-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_cht-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_cht-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_CSZ-ENG",
+            "term": "parametrický",
+            "translation": "parametric"
+          },
+          {
+            "language_pair": "core_csz-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_csz-eng",
+            "term": "parametrický",
+            "translation": "parametric"
+          },
+          {
+            "language_pair": "CORE_DAN-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_dan-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_DEU-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_deu-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_deu-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_ESP-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_ESP-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_esp-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_esp-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_FIN-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_fin-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_FRE-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_fre-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_fre-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_HIN-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_HIN-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_hin-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_hin-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_HUN-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_HUN-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_hun-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_hun-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_IND-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_ind-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_ind-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "parametrico",
+            "translation": "parametric"
+          },
+          {
+            "language_pair": "CORE_ITA-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_ita-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_ita-eng",
+            "term": "parametrico",
+            "translation": "parametric"
+          },
+          {
+            "language_pair": "core_ita-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_JPN-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_JPN-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_jpn-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_jpn-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_KOR-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_KOR-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_kor-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_kor-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_MEX-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_mex-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_NLD-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_nld-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_NOR-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_nor-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_PLY-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_ply-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_POR-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_por-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_PTB-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_PTB-ENG",
+            "term": "parametric",
+            "translation": "paramétrico"
+          },
+          {
+            "language_pair": "CORE_PTB-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_ptb-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_ptb-eng",
+            "term": "parametric",
+            "translation": "paramétrico"
+          },
+          {
+            "language_pair": "core_ptb-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "CORE_RUS-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_rus-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_SWE-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_swe-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_TUR-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_tur-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_UKR-ENG",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "CORE_UKR-ENG",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "core_ukr-eng",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "core_ukr-eng",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "DNM_HIN-ENG",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "dnm_hin-eng",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "DNM_IND-ENG",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "dnm_ind-eng",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "DNM_JPN-ENG",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "dnm_jpn-eng",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "DNM_PLY-ENG",
+            "term": "parametr",
+            "translation": "parameter"
+          },
+          {
+            "language_pair": "dnm_ply-eng",
+            "term": "parametr",
+            "translation": "parameter"
+          },
+          {
+            "language_pair": "DNM_UKR-ENG",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "dnm_ukr-eng",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "en-zh",
+            "term": "parametric drawing",
+            "translation": "参数化图形"
+          },
+          {
+            "language_pair": "en-zh",
+            "term": "parametric expression",
+            "translation": "参数化表达式"
+          },
+          {
+            "language_pair": "en-zh",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-zh",
+            "term": "parametric",
+            "translation": "参数化"
+          },
+          {
+            "language_pair": "en-zh",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "en-zh",
+            "term": "AM",
+            "translation": "增材制造"
+          },
+          {
+            "language_pair": "en-zh-tw",
+            "term": "parametric drawing",
+            "translation": "參數式繪製"
+          },
+          {
+            "language_pair": "en-zh-tw",
+            "term": "parametric expression",
+            "translation": "參數式表示式"
+          },
+          {
+            "language_pair": "en-zh-tw",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-zh-tw",
+            "term": "parametric",
+            "translation": "參數式"
+          },
+          {
+            "language_pair": "en-zh-tw",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "en-de",
+            "term": "parametric drawing",
+            "translation": "parametrisches Zeichnen"
+          },
+          {
+            "language_pair": "en-de",
+            "term": "parametric expression",
+            "translation": "parametrischer Ausdruck"
+          },
+          {
+            "language_pair": "en-de",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-de",
+            "term": "parametric",
+            "translation": "parametrisch"
+          },
+          {
+            "language_pair": "en-de",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "en-de",
+            "term": "AM",
+            "translation": "AF"
+          },
+          {
+            "language_pair": "en-es",
+            "term": "parametric drawing",
+            "translation": "dibujo paramétrico"
+          },
+          {
+            "language_pair": "en-es",
+            "term": "parametric expression",
+            "translation": "expresión paramétrica"
+          },
+          {
+            "language_pair": "en-es",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-es",
+            "term": "parametric",
+            "translation": "paramétrico"
+          },
+          {
+            "language_pair": "en-es",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "en-es",
+            "term": "AM",
+            "translation": "FA"
+          },
+          {
+            "language_pair": "en-fr",
+            "term": "parametric drawing",
+            "translation": "dessin paramétrique"
+          },
+          {
+            "language_pair": "en-fr",
+            "term": "parametric expression",
+            "translation": "expression paramétrique"
+          },
+          {
+            "language_pair": "en-fr",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-fr",
+            "term": "parametric",
+            "translation": "paramétrique"
+          },
+          {
+            "language_pair": "en-fr",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "en-fr",
+            "term": "AM",
+            "translation": "fabrication additive"
+          },
+          {
+            "language_pair": "en-it",
+            "term": "parametric drawing",
+            "translation": "disegno parametrico"
+          },
+          {
+            "language_pair": "en-it",
+            "term": "parametric expression",
+            "translation": "espressione parametrica"
+          },
+          {
+            "language_pair": "en-it",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-it",
+            "term": "parametric",
+            "translation": "parametrico"
+          },
+          {
+            "language_pair": "en-it",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "en-ja",
+            "term": "parametric drawing",
+            "translation": "パラメトリック図面"
+          },
+          {
+            "language_pair": "en-ja",
+            "term": "parametric expression",
+            "translation": "パラメータ表現"
+          },
+          {
+            "language_pair": "en-ja",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-ja",
+            "term": "parametric",
+            "translation": "パラメトリック"
+          },
+          {
+            "language_pair": "en-ja",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "en-ja",
+            "term": "AM",
+            "translation": "AM"
+          },
+          {
+            "language_pair": "en-ko",
+            "term": "parametric drawing",
+            "translation": "파라메트릭 도면"
+          },
+          {
+            "language_pair": "en-ko",
+            "term": "parametric expression",
+            "translation": "파라메트릭 표현"
+          },
+          {
+            "language_pair": "en-ko",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-ko",
+            "term": "parametric",
+            "translation": "파라메트릭"
+          },
+          {
+            "language_pair": "en-ko",
+            "term": "RAM",
+            "translation": "RAM"
+          },
+          {
+            "language_pair": "en-pt",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-ru",
+            "term": "parametric drawing",
+            "translation": "параметрический чертеж"
+          },
+          {
+            "language_pair": "en-ru",
+            "term": "parametric expression",
+            "translation": "параметрическое выражение"
+          },
+          {
+            "language_pair": "en-ru",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-ru",
+            "term": "parametric",
+            "translation": "параметрический"
+          },
+          {
+            "language_pair": "en-ru",
+            "term": "RAM",
+            "translation": "ОЗУ"
+          },
+          {
+            "language_pair": "en-ru",
+            "term": "AM",
+            "translation": "АП"
+          },
+          {
+            "language_pair": "en-cs",
+            "term": "IC",
+            "translation": "IC"
+          },
+          {
+            "language_pair": "en-cs",
+            "term": "parametric",
+            "translation": "parametrický"
+          }
+        ]
+      },
+      "industry_context": "General",
+      "recommendations": [
+        "Term found in existing Autodesk glossaries",
+        "Related terms found in glossaries"
+      ],
+      "src_lang": "EN",
+      "status": "needs_review",
+      "term": "parametric",
+      "tgt_lang": "CS",
+      "timestamp": "2025-09-04T13:35:46.561245",
+      "validation_score": 0.6,
+      "web_research": {
+        "autodesk_specific": "Web search failed: https://html.duckduckgo.com/html 202 Ratelimit",
+        "general_industry": "Web search failed: https://html.duckduckgo.com/html 202 Ratelimit",
+        "industry_context": "No industry-specific search performed",
+        "search_queries": [
+          "\"parametric\" CAD software engineering technical terminology",
+          "\"parametric\" Autodesk AutoCAD Revit Inventor Maya 3ds Max"
+        ]
+      }
+    }
+  ]
+}
