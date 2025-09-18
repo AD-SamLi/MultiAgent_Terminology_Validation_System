@@ -28,7 +28,7 @@ dataclasses-json>=0.5.0
 
 # Azure integration (if using Azure OpenAI for agent)
 azure-identity>=1.12.0
-azure-cognitiveservices-language-textanalytics>=5.2.0
+#azure-cognitiveservices-language-textanalytics>=5.2.0
 
 # Optional: CUDA support (install separately)
 # nvidia-ml-py3>=7.352.0
