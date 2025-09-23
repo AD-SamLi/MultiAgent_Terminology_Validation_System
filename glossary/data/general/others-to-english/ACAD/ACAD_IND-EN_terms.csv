@@ -1,0 +1,1362 @@
+﻿source,target
+3DALIGN,3DALIGN
+3DARRAY,3DARRAY
+3DCLIP,3DCLIP
+3DCORBIT,3DCORBIT
+3DDISTANCE,3DDISTANCE
+3DDWF,3DDWF
+3DDWFPUBLISH,3DDWFPUBLISH
+3DEDITBAR,3DEDITBAR
+3DFACE,3DFACE
+3DFLY,3DFLY
+3DFORBIT,3DFORBIT
+3DMESH,3DMESH
+3DMOVE,3DMOVE
+3DORBIT,3DORBIT
+3DORBITCTR,3DORBITCTR
+3DORBITTRANSPARENT,3DORBITTRANSPARENT
+3DOSNAP,3DOSNAP
+3DPAN,3DPAN
+3DPANTRANSPARENT,3DPANTRANSPARENT
+3DPOLY,3DPOLY
+3DPRINT,3DPRINT
+3DPRINTSERVICE,3DPRINTSERVICE
+3DROTATE,3DROTATE
+3DSCALE,3DSCALE
+3DSIN,3DSIN
+3DSWIVEL,3DSWIVEL
+3DSWIVELTRANSPARENT,3DSWIVELTRANSPARENT
+3DWALK,3DWALK
+3DZOOM,3DZOOM
+3DZOOMTRANSPARENT,3DZOOMTRANSPARENT
+ACADBLOCKDIALOG,ACADBLOCKDIALOG
+ACADINFO,ACADINFO
+ACADWBLOCKDIALOG,ACADWBLOCKDIALOG
+ACISIN,ACISIN
+ACISOUT,ACISOUT
+ACS,ACS
+ACTBASEPOINT,ACTBASEPOINT
+ACTIVITYINSIGHTSCLOSE,ACTIVITYINSIGHTSCLOSE
+ACTIVITYINSIGHTSOPEN,ACTIVITYINSIGHTSOPEN
+ACTMANAGER,ACTMANAGER
+ACTRECORD,ACTRECORD
+ACTSTOP,ACTSTOP
+ACTUSERINPUT,ACTUSERINPUT
+ACTUSERMESSAGE,ACTUSERMESSAGE
+ADC,ADC
+ADCCLOSE,ADCCLOSE
+ADCCUSTOMNAVIGATE,ADCCUSTOMNAVIGATE
+ADCENTER,ADCENTER
+ADCNAVIGATE,ADCNAVIGATE
+ADDSELECTED,ADDSELECTED
+AIDIMPREC,AIDIMPREC
+AIDIMSTYLE,AIDIMSTYLE
+AIDIMTEXTMOVE,AIDIMTEXTMOVE
+air tanah,ground water
+aksialitas,axiality
+alat,gizmo
+alat dalam kanvas,in-canvas tool
+alat pelacakan jaringan,network tracing tool
+alat pendigit,digitizer puck
+alat pengeditan,editing tool
+Alat pensil,Pencil tool
+Alat Pindah 3D,3D Move gizmo
+Alat Putar 3D,3D Rotate gizmo
+Alat Skala 3D,3D Scale gizmo
+Alat Stok,Stock Tool
+ALIASEDIT,ALIASEDIT
+ALIGNSPACE,ALIGNSPACE
+ALKIS,ALKIS
+ALLPLAY,ALLPLAY
+alur kerja,workflows
+alur syal,scarf groove
+Alur U,U groove
+AMECONVERT,AMECONVERT
+analisis draf,draft analysis
+analisis kelengkungan,curvature analysis
+analisis permukaan,surface analysis
+analisis zebra,zebra analysis
+ANALYSISCURVATURE,ANALYSISCURVATURE
+ANALYSISDRAFT,ANALYSISDRAFT
+ANALYSISOPTIONS,ANALYSISOPTIONS
+ANALYSISZEBRA,ANALYSISZEBRA
+ANIPATH,ANIPATH
+ANNORESET,ANNORESET
+ANNOUPDATE,ANNOUPDATE
+anoda,anode
+anotasi,annotation
+antarmuka pengguna multibahasa,multilanguage user interface
+APERTURE,APERTURE
+Aplikasi AutoCAD Seluler,Autocad Mobile app
+APPAUTOLOADER,APPAUTOLOADER
+APPLOAD,APPLOAD
+arah aliran,flow direction
+arah jejak,trace direction
+arah ke atas,up direction
+arah utara,northing
+ARCTEXT,ARCTEXT
+area pembatas,bounding area
+area yang dibatasi,bounded area
+ARG,ARG
+array asosiatif,associative array
+array jalur,path array
+array linier,linear array
+array non-asosiatif,non-associative array
+array polar,polar array
+ARRAYCLASSIC,ARRAYCLASSIC
+ARRAYCLOSE,ARRAYCLOSE
+ARRAYEDIT,ARRAYEDIT
+ARRAYPATH,ARRAYPATH
+ARRAYPOLAR,ARRAYPOLAR
+ARRAYRECT,ARRAYRECT
+ARX,ARX
+Asisten Autodesk,Autodesk Assistant
+asosiasi dimensi,dimension association
+ASSISTANTCLOSE,ASSISTANTCLOSE
+ASSISTANTOPEN,ASSISTANTOPEN
+ATIL,ATIL
+ATTACHURL,ATTACHURL
+ATTDEF,ATTDEF
+ATTDISP,ATTDISP
+ATTEDIT,ATTEDIT
+ATTEXT,ATTEXT
+ATTIN,ATTIN
+ATTIPEDIT,ATTIPEDIT
+ATTOUT,ATTOUT
+ATTREDEF,ATTREDEF
+ATTSYNC,ATTSYNC
+AutoCAD Seluler,AutoCAD Mobile
+AUTODESKCONNECTIONPOINT,AUTODESKCONNECTIONPOINT
+azimut,azimuth
+BACTION,BACTION
+BACTIONBAR,BACTIONBAR
+BACTIONSET,BACTIONSET
+BACTIONTOOL,BACTIONTOOL
+bagian langsung,live section
+Bahasa Lembar Gaya yang Dapat Diperluas,Extensible Stylesheet Language
+baki kabel,cable tray
+balon koleksi,collected balloons
+bantalan sentuh,trackpad
+baris BOM dikelompokkan,grouped BOM row
+basis aturan,rule base
+BASSOCIATE,BASSOCIATE
+batas bagian,section boundary
+batasan,constraint
+batasan dimensi,dimension constraint
+batasan dimensional,dimensional constraint
+batasan dinamis,dynamic constraint
+batasan kolinear,colinear constraint
+batasan referensi,reference constraint
+batasan yang didorong,driven constraint
+BATTMAN,BATTMAN
+BATTORDER,BATTORDER
+BAUTHORPALETTE,BAUTHORPALETTE
+BAUTHORPALETTECLOSE,BAUTHORPALETTECLOSE
+Bayangan Gooch,Gooch shading
+BCLOSE,BCLOSE
+BCONSTRUCTION,BCONSTRUCTION
+BCOUNT,BCOUNT
+BCPARAMETER,BCPARAMETER
+BCYCLEORDER,BCYCLEORDER
+BDA,BDA
+BEDIT,BEDIT
+Belajar AutoCAD 2010,Learning AutoCAD 2010
+benjolan,bump
+berkas web,web file
+BESETTINGS,BESETTINGS
+BEXTEND,BEXTEND
+BGRIPSET,BGRIPSET
+BHATCH,BHATCH
+bidang bagian,section plane
+bidang kliping,clipping plane
+bidang kliping depan,front clipping plane
+bidikan sinematik,cinematic shot
+bilah batasan,constraint bar
+bingkai,frame
+bingkai kawat,wireframe
+bingkai regang,stretch frame
+BLOB,BLOB
+BLOCKICON,BLOCKICON
+BLOCKNAVIGATE,BLOCKNAVIGATE
+BLOCKREPLACE,BLOCKREPLACE
+BLOCKSDATAOPTION,BLOCKSDATAOPTION
+BLOCKSPALETTE,BLOCKSPALETTE
+BLOCKSPALETTECLOSE,BLOCKSPALETTECLOSE
+BLOCKTOXREF,BLOCKTOXREF
+blok judul,title block
+blok label,label block
+blok pengganti,substitute block
+blok pintar,smart block
+BLOOKUPTABLE,BLOOKUPTABLE
+BMAKE,BMAKE
+BMOD,BMOD
+BMPOUT,BMPOUT
+BOM,BOM
+BPARAMETER,BPARAMETER
+BPOLY,BPOLY
+BREAKATPOINT,BREAKATPOINT
+BREP,BREP
+BREPLACE,BREPLACE
+browser katalog,catalog browser
+BROWSERCLOSE,BROWSERCLOSE
+BROWSEROPEN,BROWSEROPEN
+BSAVE,BSAVE
+BSAVEAS,BSAVEAS
+BSCALE,BSCALE
+BTABLE,BTABLE
+BTESTBLOCK,BTESTBLOCK
+BTRIM,BTRIM
+buang,dump
+Buat & Edit Interaktif,Interactive Create & Edit
+busur,arc
+BVHIDE,BVHIDE
+BVSHOW,BVSHOW
+BVSTATE,BVSTATE
+BYBLOCK,BYBLOCK
+BYLAYER,BYLAYER
+CAL,CAL
+campuran alfa,alpha-blend
+catatan datum,datum note
+CDORDER,CDORDER
+celah,gap
+celah percikan,spark gap
+celah ujung pipa,pipe gap end
+CENTERDISASSOCIATE,CENTERDISASSOCIATE
+CENTERREASSOCIATE,CENTERREASSOCIATE
+CENTERRESET,CENTERRESET
+chamfer,chamfer
+CHAMFEREDGE,CHAMFEREDGE
+CHECKSTANDARDS,CHECKSTANDARDS
+CHPROP,CHPROP
+CHSPACE,CHSPACE
+CHURLS,CHURLS
+cincin tumpang tindih,overlapping ring
+CLASSICGROUP,CLASSICGROUP
+CLASSICIMAGE,CLASSICIMAGE
+CLASSICINSERT,CLASSICINSERT
+CLASSICLAYER,CLASSICLAYER
+CLASSICXREF,CLASSICXREF
+CLEANSCREENOFF,CLEANSCREENOFF
+CLEANSCREENON,CLEANSCREENON
+CLIPIT,CLIPIT
+CLOB,CLOB
+CLOSEALL,CLOSEALL
+CLOSEALLOTHER,CLOSEALLOTHER
+cold grip,cold grip
+COMMANDLINE,COMMANDLINE
+COMMANDLINEHIDE,COMMANDLINEHIDE
+COMMANDMACROS,COMMANDMACROS
+COMMANDMACROSCLOSE,COMMANDMACROSCLOSE
+COMPARECLOSE,COMPARECLOSE
+COMPAREEXPORT,COMPAREEXPORT
+COMPAREIMPORT,COMPAREIMPORT
+COMPAREINFO,COMPAREINFO
+CONSTRAINTBAR,CONSTRAINTBAR
+CONSTRAINTSETTINGS,CONSTRAINTSETTINGS
+CONVERTCTB,CONVERTCTB
+CONVERTOLDLIGHTS,CONVERTOLDLIGHTS
+CONVERTOLDMATERIALS,CONVERTOLDMATERIALS
+CONVERTPOLY,CONVERTPOLY
+CONVERTPSTYLES,CONVERTPSTYLES
+CONVTOMESH,CONVTOMESH
+CONVTONURBS,CONVTONURBS
+CONVTOSOLID,CONVTOSOLID
+CONVTOSURFACE,CONVTOSURFACE
+COORDINATIONMODELATTACH,COORDINATIONMODELATTACH
+COPYBASE,COPYBASE
+COPYCLIP,COPYCLIP
+COPYFROMTRACE,COPYFROMTRACE
+COPYHIST,COPYHIST
+COPYLINK,COPYLINK
+COPYM,COPYM
+COPYTOLAYER,COPYTOLAYER
+COUNTAREA,COUNTAREA
+COUNTAREACLOSE,COUNTAREACLOSE
+COUNTCLOSE,COUNTCLOSE
+COUNTFIELD,COUNTFIELD
+COUNTLIST,COUNTLIST
+COUNTLISTCLOSE,COUNTLISTCLOSE
+COUNTNAVNEXT,COUNTNAVNEXT
+COUNTNAVPREV,COUNTNAVPREV
+COUNTTABLE,COUNTTABLE
+CRS,CRS
+CSS,CSS
+CUIEXPORT,CUIEXPORT
+CUIIMPORT,CUIIMPORT
+CUILOAD,CUILOAD
+CUIUNLOAD,CUIUNLOAD
+CUSTOMIZE,CUSTOMIZE
+CUTBASE,CUTBASE
+CUTCLIP,CUTCLIP
+CVADD,CVADD
+CVHIDE,CVHIDE
+CVREBUILD,CVREBUILD
+CVREMOVE,CVREMOVE
+CVSHOW,CVSHOW
+CWFU,CWFU
+daftar bahan,bill of materials
+daftar blok terbaru,recent blocks list
+daftar komponen,component list
+daftar nosel,nozzle list
+daftar patch,patch list
+daftar ringkasan garis,line summary list
+dasbor proyek,project dashboard
+DATAEXTRACTION,DATAEXTRACTION
+DATALINK,DATALINK
+DATALINKUPDATE,DATALINKUPDATE
+datum,datum
+DBCCONFIGURE,DBCCONFIGURE
+DBCCONNECT,DBCCONNECT
+DBCDEFINELLT,DBCDEFINELLT
+DBCDEFINELT,DBCDEFINELT
+DBCDELETELINKS,DBCDELETELINKS
+DBCDELETELLT,DBCDELETELLT
+DBCDELETELT,DBCDELETELT
+DBCDELETEQRY,DBCDELETEQRY
+DBCDISCONNECT,DBCDISCONNECT
+DBCEDITLINKEDTABLE,DBCEDITLINKEDTABLE
+DBCEDITLLT,DBCEDITLLT
+DBCEDITLT,DBCEDITLT
+DBCEDITQRY,DBCEDITQRY
+DBCEDITTABLE,DBCEDITTABLE
+DBCEXECUTEQRY,DBCEXECUTEQRY
+DBCEXPORTLINKS,DBCEXPORTLINKS
+DBCEXPORTQS,DBCEXPORTQS
+DBCEXPORTTS,DBCEXPORTTS
+DBCHIDELABELS,DBCHIDELABELS
+DBCIMPORTQRY,DBCIMPORTQRY
+DBCIMPORTQS,DBCIMPORTQS
+DBCIMPORTTS,DBCIMPORTTS
+DBCLINKCONVERSION,DBCLINKCONVERSION
+DBCLINKMANAGER,DBCLINKMANAGER
+DBCONNECT,DBCONNECT
+DBCRELOADLABELS,DBCRELOADLABELS
+DBCSELECTLINKS,DBCSELECTLINKS
+DBCSHOWLABELS,DBCSHOWLABELS
+DBCVIEWLINKEDTABLE,DBCVIEWLINKEDTABLE
+DBCVIEWTABLE,DBCVIEWTABLE
+DBLIST,DBLIST
+DCALIGNED,DCALIGNED
+DCANGULAR,DCANGULAR
+DCCONVERT,DCCONVERT
+DCDIAMETER,DCDIAMETER
+DCDISPLAY,DCDISPLAY
+DCFORM,DCFORM
+DCHORIZONTAL,DCHORIZONTAL
+DCLINEAR,DCLINEAR
+DCRADIUS,DCRADIUS
+DCVERTICAL,DCVERTICAL
+DDATTE,DDATTE
+DDGRIPS,DDGRIPS
+DDIM,DDIM
+DDINSERT,DDINSERT
+DDPLOTSTAMP,DDPLOTSTAMP
+DDRMODES,DDRMODES
+DDSELECT,DDSELECT
+DDSTYLE,DDSTYLE
+DDUCS,DDUCS
+DDUCSP,DDUCSP
+DDUNITS,DDUNITS
+DDVPOINT,DDVPOINT
+DEFINISI,DEFPOINTS
+definisi blok,block definition
+DELCONSTRAINT,DELCONSTRAINT
+desain bentuk bebas,freeform design
+Desain Format Web,Design Web Format
+DESKTOPANALYTICS,DESKTOPANALYTICS
+DETACHURL,DETACHURL
+DGNADJUST,DGNADJUST
+DGNATTACH,DGNATTACH
+DGNBIND,DGNBIND
+DGNCLIP,DGNCLIP
+DGNEXPORT,DGNEXPORT
+DGNIMPORT,DGNIMPORT
+DGNLAYERS,DGNLAYERS
+DGNMAPPING,DGNMAPPING
+diagram skematik,schematic diagram
+dialog XAML,XAML dialog
+diameter,diameter
+DIGITALSIGN,DIGITALSIGN
+DIM1,DIM1
+DIMALIGNED,DIMALIGNED
+DIMANGULAR,DIMANGULAR
+DIMARC,DIMARC
+DIMBASELINE,DIMBASELINE
+DIMBREAK,DIMBREAK
+DIMCENTER,DIMCENTER
+DimConstraint,DimConstraint
+DIMCONTINUE,DIMCONTINUE
+DIMDIAMETER,DIMDIAMETER
+DIMDISASSOCIATE,DIMDISASSOCIATE
+DIMEDIT,DIMEDIT
+Dimensi Cepat,Quick Dimension
+dimensi inspeksi,inspection dimension
+dimensi linier,linear dimension
+dimensi ordinat,ordinate dimension
+dimensi penggerak,driving dimension
+dimensi yang dapat diseret,draggable dimension
+dimensi yang sejajar,aligned dimension
+DIMEX,DIMEX
+DIMHORIZONTAL,DIMHORIZONTAL
+DIMIM,DIMIM
+DIMINSPECT,DIMINSPECT
+DIMJOGGED,DIMJOGGED
+DIMJOGLINE,DIMJOGLINE
+DIMLINEAR,DIMLINEAR
+DIMORDINATE,DIMORDINATE
+DIMOVERRIDE,DIMOVERRIDE
+DIMRADIUS,DIMRADIUS
+DIMREASSOC,DIMREASSOC
+DIMREASSOCIATE,DIMREASSOCIATE
+DIMREGEN,DIMREGEN
+DIMROTATED,DIMROTATED
+DIMSPACE,DIMSPACE
+Dimstyle,Dimstyle
+DIMTEDIT,DIMTEDIT
+DIMVERTICAL,DIMVERTICAL
+direktori saat ini,current directory
+DIST,DIST
+DISTANTLIGHT,DISTANTLIGHT
+distribusi normal,normal distribution
+DMS,DMS
+DOF,DOF
+DOWNLOADMANAGER,DOWNLOADMANAGER
+DPI,DPI
+DRAGMODE,DRAGMODE
+Drawing Interchange Format,Drawing Interchange Format
+DRAWINGRECOVERY,DRAWINGRECOVERY
+DRAWINGRECOVERYHIDE,DRAWINGRECOVERYHIDE
+DRAWORDER,DRAWORDER
+DROPGEOM,DROPGEOM
+DSETTINGS,DSETTINGS
+DTED,DTED
+DTEXT,DTEXT
+dukungan pelanggan,customer support
+DVIEW,DVIEW
+DWF,DWF
+DWFADJUST,DWFADJUST
+DWFATTACH,DWFATTACH
+DWFCLIP,DWFCLIP
+DWFFORMAT,DWFFORMAT
+DWFLAYERS,DWFLAYERS
+DWG TrueConvert,DWG TrueConvert
+DWGCONVERT,DWGCONVERT
+DWGHISTORY,DWGHISTORY
+DWGHISTORYCLOSE,DWGHISTORYCLOSE
+DWGPROPS,DWGPROPS
+DXBIN,DXBIN
+DXF,DXF
+DXFIN,DXFIN
+DXFOUT,DXFOUT
+EATTEDIT,EATTEDIT
+EATTEXT,EATTEXT
+EDGESURF,EDGESURF
+edit di tempat,edit in place
+editor CUI,CUI editor
+Editor Konten,Content Editor
+editor tanda air,watermark editor
+Editor Tindakan,Action Editor
+EDITSHOT,EDITSHOT
+EDITTABLECELL,EDITTABLECELL
+EDITTIME,EDITTIME
+ejektor,ejector
+ekspresi parametrik,parametric expression
+ekstensi QDIM asosiatif,associative QDIM extension
+Ekstensi Tanda Tangan Digital,Digital Signature extension
+ELEV,ELEV
+Entitas AEC,AEC entity
+EPLOTEXT,EPLOTEXT
+ESW,ESW
+ETRANSMIT,ETRANSMIT
+EXOFFSET,EXOFFSET
+EXPLAN,EXPLAN
+EXPORTDWF,EXPORTDWF
+EXPORTDWFX,EXPORTDWFX
+EXPORTLAYOUT,EXPORTLAYOUT
+EXPORTPDF,EXPORTPDF
+EXPORTSETTINGS,EXPORTSETTINGS
+EXPORTTOAUTOCAD,EXPORTTOAUTOCAD
+EXPORTUSERSETTINGS,EXPORTUSERSETTINGS
+EXPRESSMENU,EXPRESSMENU
+EXPRESSTOOLS,EXPRESSTOOLS
+Extensible Markup Language,Extensible Markup Language
+EXTERNALREFERENCESCLOSE,EXTERNALREFERENCESCLOSE
+EXTRIM,EXTRIM
+FADEMARKUP,FADEMARKUP
+faktor tonjolan,bulge factor
+FASTSEL,FASTSEL
+FDO,FDO
+FG,FG
+file bantuan yang diperluas,extended help file
+file lisp,lisp file
+file log migrasi,migration log file
+FILEOPEN,FILEOPEN
+FILETAB,FILETAB
+FILETABCLOSE,FILETABCLOSE
+FILLETEDGE,FILLETEDGE
+fitur,features
+fitur jejak,trace feature
+FLATSHOT,FLATSHOT
+flyout,flyout
+fly-out,fly-out
+folder gambar,drawing folder
+folder yang ditonton,watched folder
+FREESPOT,FREESPOT
+FREEWEB,FREEWEB
+frekuensi poling,polling frequency
+FS,FS
+fungsi pintasan,shortcut function
+fungsionalitas,functionality
+gambar bitonal,bitonal image
+gambar isometrik produksi,production isometric drawing
+gambar parametrik,parametric drawing
+garis atas,overline
+garis bujur,longitude
+garis cermin,mirror line
+garis dimensi,dimension line
+garis ekstensi,extension line
+garis konstruksi,construction line
+garis luar,overlining
+garis perutean,routing line
+garis poli,polyline
+garis potong,cutting line
+garis properti,property line
+garis tengah,center line
+garis tidak jelas,obscured line
+gasifikasi bahan bakar,fuel gasifier
+GATTE,GATTE
+gaya dimensi,dimension style
+gaya mleader default,default mleader style
+gaya multileader,multileader style
+gaya normal,normal style
+gaya penampilan,appearance style
+gaya plot,plot style
+gaya plot default,default plot style
+gaya tabel default,default table style
+GCCOINCIDENT,GCCOINCIDENT
+GCCOLLINEAR,GCCOLLINEAR
+GCCONCENTRIC,GCCONCENTRIC
+GCEQUAL,GCEQUAL
+GCFIX,GCFIX
+GCHORIZONTAL,GCHORIZONTAL
+GCPARALLEL,GCPARALLEL
+GCPERPENDICULAR,GCPERPENDICULAR
+GCSMOOTH,GCSMOOTH
+GCSYMMETRIC,GCSYMMETRIC
+GCTANGENT,GCTANGENT
+GCVERTICAL,GCVERTICAL
+GEOGRAPHICLOCATION,GEOGRAPHICLOCATION
+GEOLOCATEME,GEOLOCATEME
+GEOMAPIMAGE,GEOMAPIMAGE
+GEOMAPIMAGEUPDATE,GEOMAPIMAGEUPDATE
+GEOMARKLATLONG,GEOMARKLATLONG
+GEOMARKME,GEOMARKME
+GEOMARKPOINT,GEOMARKPOINT
+GEOMARKPOSITION,GEOMARKPOSITION
+GEOMCONSTRAINT,GEOMCONSTRAINT
+GEOREMOVE,GEOREMOVE
+GEOREORIENTMARKER,GEOREORIENTMARKER
+GETSEL,GETSEL
+GIS,GIS
+glif kamera,camera glyph
+Google Earth,Google Earth
+GOTOSTART,GOTOSTART
+GOTOURL,GOTOURL
+GRAPHICSCONFIG,GRAPHICSCONFIG
+GRAPHSCR,GRAPHSCR
+GROUPEDIT,GROUPEDIT
+halaman tab,tab page
+HATCHEDIT,HATCHEDIT
+HATCHGENERATEBOUNDARY,HATCHGENERATEBOUNDARY
+HATCHSETBOUNDARY,HATCHSETBOUNDARY
+HATCHSETORIGIN,HATCHSETORIGIN
+HATCHTOBACK,HATCHTOBACK
+HIDEOBJECTS,HIDEOBJECTS
+HIDEPALETTES,HIDEPALETTES
+HIGHLIGHTNEW,HIGHLIGHTNEW
+HLSETTINGS,HLSETTINGS
+hot grip,hot grip
+hull kontrol,control hull
+hull sekumpulan titik kontrol,control vertices hull
+hull titik sudut kontrol,control vertex hull
+HYPERLINKBACK,HYPERLINKBACK
+HYPERLINKFWD,HYPERLINKFWD
+HYPERLINKOPEN,HYPERLINKOPEN
+HYPERLINKOPTIONS,HYPERLINKOPTIONS
+HYPERLINKSTOP,HYPERLINKSTOP
+IGESEXPORT,IGESEXPORT
+IGESIMPORT,IGESIMPORT
+IMAGEADJUST,IMAGEADJUST
+IMAGEAPP,IMAGEAPP
+IMAGEATTACH,IMAGEATTACH
+IMAGECLIP,IMAGECLIP
+IMAGEEDIT,IMAGEEDIT
+IMAGEOVERLAP,IMAGEOVERLAP
+IMAGEQUALITY,IMAGEQUALITY
+IMPORTUSERSETTINGS,IMPORTUSERSETTINGS
+indeks pembiasan,refraction index
+indeks warna,index color
+Indeks warna AutoCAD,AutoCAD color index
+Indikator i-drop,i-drop Indicator
+informasi geospasial,geospatial information
+input penunjuk,pointer input
+INPUTSEARCHOPTIONS,INPUTSEARCHOPTIONS
+INSERTCONTENT,INSERTCONTENT
+INSERTDRAWINGASBLOCK,INSERTDRAWINGASBLOCK
+INSERTOBJ,INSERTOBJ
+inspektur properti,properties inspector
+irisan melintang,cross section
+ISA,ISA
+isi pelilitan,winding fill
+ISODRAFT,ISODRAFT
+isolasi pipa,pipe insulation
+ISOLATEOBJECTS,ISOLATEOBJECTS
+isoline,isoline
+isoparm,isoparm
+jalur alat,toolpath
+jalur gradien,gradient ramp
+jalur sapuan,sweep path
+jarak akor busur,arc-chord distance
+jarak iluminasi,illuminance distance
+jaring,mesh
+jaring polifaset,polyface mesh
+jaring poligon,polygon mesh
+jaring subdivisi,subdivision mesh
+jaring tabel,tabulated mesh
+jejak palet,trace palette
+jendela sekunder yang ditingkatkan,enhanced secondary window
+jendela tersirat,implied windowing
+jepret objek persisten,persistent object snap
+JepretPolar,PolarSnap
+JPGOUT,JPGOUT
+JUSTIFYTEXT,JUSTIFYTEXT
+kalibrasi kamera,camera calibration
+kamus multibahasa,multi language dictionary
+karakter objek besar,character large object
+karakter pengganti,wildcard
+katup penutup,shut off valve
+kedalaman alur,groove depth
+kedalaman bidang,depth of field
+kedap air,watertight
+kekasaran,roughness
+kelas lebih renda,below grade
+kemacetan gambar,drawing congestion
+kendala anotasi,annotational constraint
+kendala geometris,geometric constraint
+Keyhole Markup Language,Keyhole Markup Language
+Kisi BOM,BOM grid
+kisi jepret,snap grid
+kisi referensi,reference grid
+KML,KML
+KMZ,KMZ
+Kode EPSG,EPSG code
+kode permintaan,request code
+koleksi,collection
+kombinasi kode,code combination
+komponen skematik,schematic component
+komposit padat,composite solid
+kompresi,compression
+kondisi berhenti,stop condition
+konteks render,render context
+Konten AEC,AEC content
+Konversi DWG,DWG Convert
+kuadrat terbalik,inverse square
+kurva jalur,path curve
+kurva periodik,periodic curve
+kurva profil,profile curve
+laju baud,baud rate
+laju bingkai,frame rate
+lampu jaring,web light
+lapisan,layer
+laporan konversi spek,spec conversion report
+las alur kemiringan,bevel groove weld
+layanan pemetaan web,web mapping service
+layar selamat datang,welcome screen
+LAYCUR,LAYCUR
+LAYDEL,LAYDEL
+LAYERCLOSE,LAYERCLOSE
+LAYERP,LAYERP
+LAYERPALETTE,LAYERPALETTE
+LAYERPMODE,LAYERPMODE
+LAYERSTATE,LAYERSTATE
+LAYERSTATESAVE,LAYERSTATESAVE
+LAYFRZ,LAYFRZ
+LAYISO,LAYISO
+LAYLCK,LAYLCK
+LAYMCH,LAYMCH
+LAYMCUR,LAYMCUR
+LAYMRG,LAYMRG
+LAYOFF,LAYOFF
+LAYON,LAYON
+LAYOUTMERGE,LAYOUTMERGE
+LAYOUTWIZARD,LAYOUTWIZARD
+LAYTHW,LAYTHW
+LAYTRANS,LAYTRANS
+LAYULK,LAYULK
+LAYUNISO,LAYUNISO
+LAYVPI,LAYVPI
+LAYWALK,LAYWALK
+lebar pena,pen width
+lembar gaya berjenjang,cascading style sheets
+Lengkapi Otomatis,AutoComplete
+LIGHTLIST,LIGHTLIST
+LIGHTLISTCLOSE,LIGHTLISTCLOSE
+Lihat roda Objek,View Object wheel
+Lingkungan AutoLISP,AutoLISP environment
+Lingkungan Desain Ganda,Multiple Design Environment
+linier terbalik,inverse linear
+lintang,latitude
+LOGFILEOFF,LOGFILEOFF
+LOGFILEON,LOGFILEON
+lokasi,location
+lokasi blok terbaru,recent blocks location
+LSP,LSP
+LSPSURF,LSPSURF
+LTSCALE,LTSCALE
+LWEIGHT,LWEIGHT
+MAKELISPAPP,MAKELISPAPP
+MAKEPREVIEW,MAKEPREVIEW
+MANAGEUPLOADS,MANAGEUPLOADS
+MARKUPASSIST,MARKUPASSIST
+MARKUPCLOSE,MARKUPCLOSE
+MARKUPIMPORT,MARKUPIMPORT
+MASSPROP,MASSPROP
+MATBROWSERCLOSE,MATBROWSERCLOSE
+MATBROWSEROPEN,MATBROWSEROPEN
+MATCHCELL,MATCHCELL
+MATCHPROP,MATCHPROP
+MATEDITORCLOSE,MATEDITORCLOSE
+MATEDITOROPEN,MATEDITOROPEN
+MATERIALASSIGN,MATERIALASSIGN
+MATERIALATTACH,MATERIALATTACH
+MATERIALMAP,MATERIALMAP
+MATERIALSCLOSE,MATERIALSCLOSE
+MATLIB,MATLIB
+MDE,MDE
+MEASUREGEOM,MEASUREGEOM
+memutus perulangan,break loop
+mengganti tema,override theme
+mental ray,mental ray
+MENULOAD,MENULOAD
+MENUUNLOAD,MENUUNLOAD
+MEP,MEP
+MESHCAP,MESHCAP
+MESHCOLLAPSE,MESHCOLLAPSE
+MESHCREASE,MESHCREASE
+MESHEXTRUDE,MESHEXTRUDE
+MESHMERGE,MESHMERGE
+MESHOPTIONS,MESHOPTIONS
+MESHPRIMITIVEOPTIONS,MESHPRIMITIVEOPTIONS
+MESHREFINE,MESHREFINE
+MESHSMOOTH,MESHSMOOTH
+MESHSMOOTHLESS,MESHSMOOTHLESS
+MESHSMOOTHMORE,MESHSMOOTHMORE
+MESHSPIN,MESHSPIN
+MESHSPLIT,MESHSPLIT
+MESHUNCREASE,MESHUNCREASE
+Mesin DCM,DCM Engine
+mesin penghancur,comminuting machine
+mesin rendering mental ray,mental ray rendering engine
+MIGRATEMATERIALS,MIGRATEMATERIALS
+minidump,minidump
+MINSERT,MINSERT
+MIRROR3D,MIRROR3D
+MKLTYPE,MKLTYPE
+MKSHAPE,MKSHAPE
+MLD,MLD
+MLEADER,MLEADER
+MLEADERALIGN,MLEADERALIGN
+MLEADERCOLLECT,MLEADERCOLLECT
+MLEADEREDIT,MLEADEREDIT
+MLEADERSTYLE,MLEADERSTYLE
+MLEDIT,MLEDIT
+MLSTYLE,MLSTYLE
+MOCORO,MOCORO
+mode campuran,blend mode
+mode jepret objek,object snap mode
+mode orto,ortho mode
+mode plot bayangan,shade plot mode
+model elevasi digital,digital elevation model
+model industri,industry model
+motor starter,motor starter
+MOVEBAK,MOVEBAK
+MPEDIT,MPEDIT
+MREDO,MREDO
+MSLIDE,MSLIDE
+MSPACE,MSPACE
+MSTRETCH,MSTRETCH
+MTEDIT,MTEDIT
+MTEXT,MTEXT
+MTPROP,MTPROP
+muka planar,planar face
+Mulai Di folder,Start In folder
+multileader,multileader
+MvPart,MvPart
+MVSETUP,MVSETUP
+NANT,NANT
+NAS,NAS
+NAVBAR,NAVBAR
+NAVSMOTION,NAVSMOTION
+NAVSMOTIONCLOSE,NAVSMOTIONCLOSE
+NAVSWHEEL,NAVSWHEEL
+NAVVCUBE,NAVVCUBE
+NCLOB,NCLOB
+NCOPY,NCOPY
+NETLOAD,NETLOAD
+NEWSHEETSET,NEWSHEETSET
+NEWSHOT,NEWSHOT
+NEWVIEW,NEWVIEW
+nilai area,area value
+nilai asosiasi terminal,terminal association value
+nomor katalog,catalog number
+normal permukaan,surface normal
+nosel yang diasumsikan,assumed nozzle
+NPR,NPR
+ObjectARX,ObjectARX
+OBJECTSCALE,OBJECTSCALE
+Objek AEC,AEC object
+objek anotatif,annotative object
+objek bagian,section object
+objek biner besar,binary large object
+Objek Kebijakan Grup,Group Policy Object
+objek mleader,mleader object
+objek pembuat blok,block authoring object
+objek penghapusan,wipeout object
+objek terbatas,constrained object
+OFFSETEDGE,OFFSETEDGE
+Ohm,Ohm
+oktan,octant
+OLECONVERT,OLECONVERT
+OLELINKS,OLELINKS
+OLEOPEN,OLEOPEN
+OLERESET,OLERESET
+OLESCALE,OLESCALE
+ONLINEDESIGNSHARE,ONLINEDESIGNSHARE
+opasitas,opacity
+OPENDWFMARKUP,OPENDWFMARKUP
+OPENFROMCLOUD,OPENFROMCLOUD
+OPENFROMWEBMOBILE,OPENFROMWEBMOBILE
+OPENSHEETSET,OPENSHEETSET
+Opsi cepat,Quick option
+OPTCHPROP,OPTCHPROP
+orientasi,orientation
+OSNAP,OSNAP
+P&ID,P&ID
+PAGESETUP,PAGESETUP
+paket bahasa,language pack
+paket konten,content pack
+paket transmisi,transmittal package
+paku keling belah,split rivet
+palang trapesium,trapeze bar
+palet alat,tool palette
+Palet blok,Blocks palette
+panah aliran,flow arrow
+panah sumber,source arrow
+panah tujuan,destination arrow
+Panduan Pembuatan OEM,OEM Make Wizard
+panel lipat,fold panel
+panel pita,ribbon panel
+panjang busur,arc length
+papan nama,nameplate
+Papan peluncuran,Launchpad
+parameter batasan,constraint parameter
+parameter model,model parameter
+parameterisasi knot,knot parameterization
+PARAMETERSCLOSE,PARAMETERSCLOSE
+PARTIALOAD,PARTIALOAD
+PARTIALOPEN,PARTIALOPEN
+PASTEASHYPERLINK,PASTEASHYPERLINK
+PASTEBLOCK,PASTEBLOCK
+PASTECLIP,PASTECLIP
+PASTEORIG,PASTEORIG
+PASTESPEC,PASTESPEC
+PCEXTRACTSECTION,PCEXTRACTSECTION
+PCINWIZARD,PCINWIZARD
+PDFADJUST,PDFADJUST
+PDFATTACH,PDFATTACH
+PDFCLIP,PDFCLIP
+PDFIMPORT,PDFIMPORT
+PDFLAYERS,PDFLAYERS
+PDFSHXTEXT,PDFSHXTEXT
+PEDIT,PEDIT
+pegangan multifungsi,multi-functional grip
+pelacak sistem koordinat,coordinate system tracker
+pelacakan polar,polar tracking
+pelaporan kesalahan pelanggan,customer error reporting
+pelindung,visor
+pemancar,emitter
+pemandangan,panorama
+pemasangan baki kabel,cable tray fitting
+pemasangan pipa,pipe fitting
+pembangkit listrik,power station
+Pembangun Ekspresi,Expression Builder
+pembuat laporan,report generator
+pembuatan prototipe cepat,rapid prototyping
+pembuatan prototipe fisik,physical prototyping
+Pemeriksa Standar Batch,Batch Standards Checker
+pemeriksaan gangguan,interference check
+pemetaan benjolan,bump mapping
+pemodelan foto,photo modeling
+pemodelan organik,organic modeling
+pemotongan tutup,cap filleting
+pena,stylus
+Penambah i-drop,i-drop Enhancer
+penampil yang ditingkatkan,enhanced viewer
+pencahayaan default,default lighting
+Pencari Perintah Pita,Ribbon Command Locator
+pendaratan horizontal,horizontal landing
+Pengaktif Langsung,Live Enabler
+pengaturan transmisi,transmittal setup
+Pengelola Gambar,Drawing Manager
+pengelola prasetel presisi,precision presets manager
+Pengelola Referensi,Reference Manager
+Pengelola Referensi Eksternal,External Reference Manager
+pengelola set lembar,sheet set manager
+Pengelola Set Penanda,Markup Set Manager
+PengelolaBentuk,ShapeManager
+Pengembangan AutoLISP,AutoLISP development
+pengenal datum,datum identifier
+penggabungan garis,line merge
+penggantian blok,block replacement
+penggiling bola,ball mill
+pengukuran dimensi daya,power dimensioning
+pengukuran dimensi ordinat,ordinate dimensioning
+pengurai bahan bakar,fuel degasifier
+penyaringan,screening
+Penyimpanan Jaringan Terlampir,Network Attached Storage
+penyorotan dependensi,dependency highlighting
+peralatan fabrikasi,fabricated equipment
+Perancang Laporan,Report Designer
+peregangan polar,polar stretch
+PERFANALYZER,PERFANALYZER
+PERFANALYZERCLOSE,PERFANALYZERCLOSE
+peringatan lisensi,license alert
+perintah VLIDE,VLIDE command
+permukaan analitik,analytical surface
+permukaan campuran,blend surface
+permukaan jaringan,network surface
+permukaan NURBS,NURBS surface
+permukaan patch,patch surface
+permukaan subdivisi,subdivision surface
+Permukaan subdivisi Catmull-Clark,Catmull-Clark subdivision surface
+persimpangan perulangan,loop crossing
+pertemuan terakhir,final gathering
+perwakilan,representation
+peta benjolan,bump map
+peta difusi,diffuse map
+peta foton,photon map
+peta lingkungan,environment map
+peta refleksi,reflection map
+PFACE,PFACE
+pilih set pertama,pickfirst set
+pin konektor,connector pin
+PIP,PIP
+PKFSTGROUP,PKFSTGROUP
+PLANESURF,PLANESURF
+PLINE,PLINE
+PLOT,PLOT
+PLOTSTAMP,PLOTSTAMP
+PLOTSTYLE,PLOTSTYLE
+PLOTTERMANAGER,PLOTTERMANAGER
+PLT2DWG,PLT2DWG
+PMSTART,PMSTART
+PMSTOP,PMSTOP
+PMTOGGLE,PMTOGGLE
+PMTRACE,PMTRACE
+PNGOUT,PNGOUT
+pohon rentang biaya minimum,minimum cost spanning tree
+pohon rentang minimum,minimum spanning tree
+POINTCLOUDATTACH,POINTCLOUDATTACH
+POINTCLOUDCOLORMAP,POINTCLOUDCOLORMAP
+POINTCLOUDCROP,POINTCLOUDCROP
+POINTCLOUDCROPSTATE,POINTCLOUDCROPSTATE
+POINTCLOUDMANAGER,POINTCLOUDMANAGER
+POINTCLOUDMANAGERCLOSE,POINTCLOUDMANAGERCLOSE
+POINTCLOUDSTYLIZE,POINTCLOUDSTYLIZE
+POINTCLOUDUNCROP,POINTCLOUDUNCROP
+POINTLIGHT,POINTLIGHT
+pola arsir,hatch pattern
+pola pengisian,fill pattern
+poligon dengan sisi bersilangan,self-intersecting polygon
+POLYSOLID,POLYSOLID
+Portal Komunitas Manufaktur Autodesk,Autodesk Manufacturing Community Portal
+prasetel render,render preset
+PRESSPULL,PRESSPULL
+Project Simulus,Project Simulus
+PROJECTGEOMETRY,PROJECTGEOMETRY
+PROPERTIESCLOSE,PROPERTIESCLOSE
+PSBSCALE,PSBSCALE
+PSETUPIN,PSETUPIN
+PSFILL,PSFILL
+PSOUT,PSOUT
+PSPACE,PSPACE
+PSTSCALE,PSTSCALE
+PTYPE,PTYPE
+PUSHTODOCSCLOSE,PUSHTODOCSCLOSE
+PUSHTODOCSOPEN,PUSHTODOCSOPEN
+pustaka,library
+pustaka blok,block library
+Pustaka CS,CS library
+pustaka konten,content library
+QCCLOSE,QCCLOSE
+QDIM,QDIM
+QLATTACH,QLATTACH
+QLATTACHSET,QLATTACHSET
+QLDETACHSET,QLDETACHSET
+QLEADER,QLEADER
+QNEW,QNEW
+QQUIT,QQUIT
+QSAVE,QSAVE
+QSELECT,QSELECT
+QTEXT,QTEXT
+QUICKCUI,QUICKCUI
+QUICKPROPERTIES,QUICKPROPERTIES
+QVDRAWING,QVDRAWING
+QVDRAWINGCLOSE,QVDRAWINGCLOSE
+QVLAYOUT,QVLAYOUT
+QVLAYOUTCLOSE,QVLAYOUTCLOSE
+R14PENWIZARD,R14PENWIZARD
+radius busur,arc radius
+RCONFIG,RCONFIG
+reaktor pembiak cepat,fast breeder reactor
+reaktor persisten,persistent reactor
+RECOVERALL,RECOVERALL
+REDIR,REDIR
+REDIRMODE,REDIRMODE
+REDRAWALL,REDRAWALL
+REFCLOSE,REFCLOSE
+REFEDIT,REFEDIT
+referensi bagian,part reference
+referensi tersarang,nested reference
+REFSET,REFSET
+REGEN,REGEN
+REGEN3,REGEN3
+REGENALL,REGENALL
+REGENAUTO,REGENAUTO
+REGION,REGION
+REINIT,REINIT
+rencana grading,grading plan
+RENDERCROP,RENDERCROP
+RENDERENVIRONMENT,RENDERENVIRONMENT
+RENDERENVIRONMENTCLOSE,RENDERENVIRONMENTCLOSE
+RENDEREXPOSURE,RENDEREXPOSURE
+RENDEREXPOSURECLOSE,RENDEREXPOSURECLOSE
+rendering terdistribusi,distributed rendering
+RENDERONLINE,RENDERONLINE
+RENDERPRESETS,RENDERPRESETS
+RENDERPRESETSCLOSE,RENDERPRESETSCLOSE
+RENDERWIN,RENDERWIN
+RENDERWINDOW,RENDERWINDOW
+RENDERWINDOWCLOSE,RENDERWINDOWCLOSE
+REPURLS,REPURLS
+RESETBLOCK,RESETBLOCK
+REVCLOUD,REVCLOUD
+REVCLOUDPROPERTIES,REVCLOUDPROPERTIES
+REVSURF,REVSURF
+RIBBONCLOSE,RIBBONCLOSE
+riwayat pekerjaan,work history
+riwayat putar ulang,rewind history
+Roda Bangunan Tur,Tour Building wheel
+ROTATE3D,ROTATE3D
+RPREF,RPREF
+RPREFCLOSE,RPREFCLOSE
+RSCRIPT,RSCRIPT
+RTEDIT,RTEDIT
+RTEXT,RTEXT
+RTEXTAPP,RTEXTAPP
+RTPAN,RTPAN
+RTUCS,RTUCS
+RTZOOM,RTZOOM
+ruang dunia,world space
+ruang kertas,paper space
+ruang model,model space
+ruang pembakaran,combustion chamber
+Ruang UV,UV space
+RULESURF,RULESURF
+salinan massal,bulk copy
+saluran,conduit
+saluran informasi,information channel
+sambungan yang ditekan,pressed joint
+SAVEALL,SAVEALL
+SAVEAS,SAVEAS
+SAVEIMG,SAVEIMG
+SAVETOCLOUD,SAVETOCLOUD
+SAVETOWEBMOBILE,SAVETOWEBMOBILE
+SCALELISTEDIT,SCALELISTEDIT
+SCALETEXT,SCALETEXT
+SCRIPTCALL,SCRIPTCALL
+SECTIONPLANE,SECTIONPLANE
+SECTIONPLANEJOG,SECTIONPLANEJOG
+SECTIONPLANESETTINGS,SECTIONPLANESETTINGS
+SECTIONPLANETOBLOCK,SECTIONPLANETOBLOCK
+SECTIONSPINNERS,SECTIONSPINNERS
+SECURITYOPTIONS,SECURITYOPTIONS
+segi,facet
+segmen busur poli,polyarc segment
+segmentasi busur,arc segmentation
+SELECTCOUNT,SELECTCOUNT
+SELECTSIMILAR,SELECTSIMILAR
+SELECTURL,SELECTURL
+senyawa sambungan,compound joint
+SEQUENCEPLAY,SEQUENCEPLAY
+server waktu,time server
+set palet alat,tool palette set
+set penanda,markup set
+SETBYLAYER,SETBYLAYER
+SETVAR,SETVAR
+SH,SH
+SHADEMODE,SHADEMODE
+shader perangkat keras,hardware shader
+SHAREDVIEWS,SHAREDVIEWS
+SHAREDVIEWSCLOSE,SHAREDVIEWSCLOSE
+SHAREVIEW,SHAREVIEW
+SHEETSET,SHEETSET
+SHEETSETHIDE,SHEETSETHIDE
+SHOWPALETTES,SHOWPALETTES
+SHOWRENDERGALLERY,SHOWRENDERGALLERY
+SHOWURLS,SHOWURLS
+SHP2BLK,SHP2BLK
+SIGCODE,SIGCODE
+SIGVALIDATE,SIGVALIDATE
+siklus pemilihan,selection cycling
+siku,elbow
+siku berlekuk,mitered elbow
+siku radius panjang,long radius elbow
+simbol gabungan,compound symbol
+simbol komposit,composite symbol
+simbol sendi mati,dead joint symbol
+simbol serbaguna,all-around symbol
+simbol skematik,schematic symbol
+simpangan baku,standard deviation
+simpul,vertex
+sirklip,circlip
+sirkuit cabang,branch circuit
+Sistem Koordinat Dunia,World Coordinate System
+sistem koordinat pengguna,user coordinate system
+sistem koordinat tambahan,auxiliary coordinate system
+sistem koordinat yang diproyeksikan,projected coordinate system
+skema,schema
+SketchUp,SketchUp
+soket plastik,plastic socket
+SOLDRAW,SOLDRAW
+SOLIDEDIT,SOLIDEDIT
+SOLPROF,SOLPROF
+SOLVIEW,SOLVIEW
+SPACETRANS,SPACETRANS
+spline,spline
+SPLINEDIT,SPLINEDIT
+SPOTLIGHT,SPOTLIGHT
+SSM,SSM
+SSX,SSX
+standar yang dimuat,loaded standard
+stasiun anoda,anode station
+status lapisan,layer state
+stempel plot,plot stamp
+STLOUT,STLOUT
+STYLESMANAGER,STYLESMANAGER
+subset lembar,sheet subset
+sudut defleksi,angle of deflection
+sudut jepret,snap angle
+sudut objek miring,oblique angle
+sudut pandang nonpersegi panjang,non-rectangular viewport
+sudut rotasi,rotation angle
+sudut yang disertakan,included angle
+sumber gambar,drawing source
+SUNPROPERTIES,SUNPROPERTIES
+SUNPROPERTIESCLOSE,SUNPROPERTIESCLOSE
+SUPERHATCH,SUPERHATCH
+SURFBLEND,SURFBLEND
+SURFEXTEND,SURFEXTEND
+SURFEXTRACTCURVE,SURFEXTRACTCURVE
+SURFFILLET,SURFFILLET
+SURFNETWORK,SURFNETWORK
+SURFOFFSET,SURFOFFSET
+SURFPATCH,SURFPATCH
+SURFSCULPT,SURFSCULPT
+SURFTRIM,SURFTRIM
+SURFUNTRIM,SURFUNTRIM
+SYSVARMONITOR,SYSVARMONITOR
+SYSVDLG,SYSVDLG
+SYSWINDOWS,SYSWINDOWS
+Tab mulai,Start tab
+tabel properti blok,block properties table
+tabel sortir,sortents table
+TABLEDIT,TABLEDIT
+TABLEEXPORT,TABLEEXPORT
+TABLESTYLE,TABLESTYLE
+tablet digitalisasi,digitizing tablet
+TABSURF,TABSURF
+tampilan atas,top view
+tampilan bagian,section view
+tampilan bagian sejajar,aligned section view
+tampilan orto,ortho view
+tanda panah sinyal,signal arrow
+tanda panah sinyal tujuan,destination signal arrow
+tanda sisipan,caret
+tanda tengah,center mark
+tanggal kembali,return date
+tangkapan realitas,reality capture
+tangki retensi,retention tank
+TARGETPOINT,TARGETPOINT
+TBCONFIG,TBCONFIG
+TCASE,TCASE
+TCIRCLE,TCIRCLE
+TCOUNT,TCOUNT
+tekanan aksial,axial stress
+tembus pandang,translucency
+templat ekstraksi,extraction template
+templat ekstraksi bagian,part extraction template
+templat ekstraksi perakitan,assembly extraction template
+tengah,median
+tepi tertutup,closed edge
+terlalu dibatasi,over-constrain
+termoplastik,thermoplastic
+teselasi,tessellation
+TEXTALIGN,TEXTALIGN
+TEXTEDIT,TEXTEDIT
+TEXTFIT,TEXTFIT
+TEXTMASK,TEXTMASK
+TEXTSCR,TEXTSCR
+TEXTTOFRONT,TEXTTOFRONT
+TEXTUNMASK,TEXTUNMASK
+TFHELP,TFHELP
+TFRAMES,TFRAMES
+TIFOUT,TIFOUT
+tindakan regang,stretch action
+tinggi tutup,cap height
+tingkat kehalusan,level of smoothness
+Tinjauan Desain,Design Review
+TINSERT,TINSERT
+tipalat progresif,progressive tooltip
+titik akhir,end point
+titik batasan,constraint point
+titik dasar,base point
+titik datum,datumpoint
+titik kontrol,control point
+titik pas,fit point
+titik per inci,dots per inch
+titik pusat,center point
+titik sampel,sample point
+titik sudut,corner point
+titik sudut kontrol,control vertex
+titik tengah,midpoint
+TJUST,TJUST
+toleransi,tolerance
+tonjolan,bulge
+tonjolan puncak,vertex bulge
+TOOLPALETTES,TOOLPALETTES
+TOOLPALETTESCLOSE,TOOLPALETTESCLOSE
+topologi,topology
+TORIENT,TORIENT
+torus,torus
+TPNAVIGATE,TPNAVIGATE
+TRACEBACK,TRACEBACK
+TRACEEDIT,TRACEEDIT
+TRACEFRONT,TRACEFRONT
+TRACEPALETTECLOSE,TRACEPALETTECLOSE
+TRACEPALETTEOPEN,TRACEPALETTEOPEN
+TRACEVIEW,TRACEVIEW
+transformasi geodesi,geodetic transformation
+TRAYSETTINGS,TRAYSETTINGS
+TREESTAT,TREESTAT
+TREX,TREX
+TSCALE,TSCALE
+TUTCLEAR,TUTCLEAR
+TUTDEMO,TUTDEMO
+TXT2MTXT,TXT2MTXT
+TXTEXP,TXTEXP
+UCSICON,UCSICON
+UCSMAN,UCSMAN
+ujung kompresi,compression end
+ukuran ubin,tile size
+ULAYERS,ULAYERS
+underlay,underlay
+UNISOLATEOBJECTS,UNISOLATEOBJECTS
+unit alternatif,alternate unit
+unit perlengkapan pasokan air,water fixture unit
+unit perlengkapan pasokan air dingin,cold water fixture unit
+unit perlengkapan pasokan air panas,hot water fixture unit
+UPDATEFIELD,UPDATEFIELD
+UPDATETHUMBSNOW,UPDATETHUMBSNOW
+urutan ubin,tile order
+variabel batasan,constraint variable
+VBAIDE,VBAIDE
+VBALOAD,VBALOAD
+VBAMAN,VBAMAN
+VBANEW,VBANEW
+VBAPREF,VBAPREF
+VBARUN,VBARUN
+VBASTMT,VBASTMT
+VBAUNLOAD,VBAUNLOAD
+vektor knot,knot vector
+versi evaluasi,evaluation version
+versi pelajar,student version
+versi uji coba,trial version
+VERSIONCOMPARE,VERSIONCOMPARE
+VIEWBASE,VIEWBASE
+VIEWCOMPONENT,VIEWCOMPONENT
+VIEWDETAIL,VIEWDETAIL
+VIEWDETAILSTYLE,VIEWDETAILSTYLE
+VIEWEDIT,VIEWEDIT
+VIEWGO,VIEWGO
+VIEWPLAY,VIEWPLAY
+VIEWPLOTDETAILS,VIEWPLOTDETAILS
+VIEWPORTS,VIEWPORTS
+VIEWPROJ,VIEWPROJ
+VIEWRES,VIEWRES
+VIEWSECTION,VIEWSECTION
+VIEWSECTIONSTYLE,VIEWSECTIONSTYLE
+VIEWSETPROJ,VIEWSETPROJ
+VIEWSKETCHCLOSE,VIEWSKETCHCLOSE
+VIEWSTD,VIEWSTD
+VIEWSYMBOLSKETCH,VIEWSYMBOLSKETCH
+VIEWUPDATE,VIEWUPDATE
+VISUALSTYLES,VISUALSTYLES
+VISUALSTYLESCLOSE,VISUALSTYLESCLOSE
+VLIDE,VLIDE
+VLISP,VLISP
+Volo Lihat Ekspres,Volo View Express
+volume klip,clip volume
+VPCLIP,VPCLIP
+VPEDIT,VPEDIT
+VPLAYER,VPLAYER
+VPMAX,VPMAX
+VPMIN,VPMIN
+VPOINT,VPOINT
+VPORTS,VPORTS
+VPSCALE,VPSCALE
+VPSYNC,VPSYNC
+VSCURRENT,VSCURRENT
+VSLIDE,VSLIDE
+VSSAVE,VSSAVE
+VTOPTIONS,VTOPTIONS
+waktu menggambar,drawtime
+WALKFLYSETTINGS,WALKFLYSETTINGS
+warna tint,tint color
+WBLOCK,WBLOCK
+WEBLIGHT,WEBLIGHT
+WEBLOAD,WEBLOAD
+WHOHAS,WHOHAS
+WIPEOUT,WIPEOUT
+WMFIN,WMFIN
+WMFOPTS,WMFOPTS
+WMFOUT,WMFOUT
+WSSAVE,WSSAVE
+WSSETTINGS,WSSETTINGS
+XATTACH,XATTACH
+XBIND,XBIND
+XCLIP,XCLIP
+XCOMPARE,XCOMPARE
+XCOMPARECLOSE,XCOMPARECLOSE
+XCOMPARERCNEXT,XCOMPARERCNEXT
+XCOMPARERCPREV,XCOMPARERCPREV
+XDATA,XDATA
+XDLIST,XDLIST
+XEDGES,XEDGES
+XLINE,XLINE
+XLIST,XLIST
+XOPEN,XOPEN
+XP,XP
+XPLODE,XPLODE
+xref,xref
+XSL,XSL

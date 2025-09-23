@@ -1,0 +1,101 @@
+﻿source,target
+fondu alpha,alpha-blend
+vitesse angulaire,angular speed
+ancrer,bake
+maillage de base,base mesh
+Big New Better,Big New Better
+Big New Max,Big New Max
+Big New Maya,Big New Maya
+grand objet binaire,binary large object
+position de liaison,bind pose
+mode de fusion,blend mode
+surface de fusion,blend surface
+signet,bookmark
+pinceau,brush
+trait de pinceau,brush stroke
+caméra,camera
+battant,casement
+grand objet caractère,character large object
+CLOB,CLOB
+arête fermée,closed edge
+droits d'utilisation du cloud,Cloud Rights
+composant,component
+objet contraint,constrained object
+sommet de contrôle,control vertex
+convexe,convex
+système de coordonnées de référence,coordinate reference system
+CV,CV
+profondeur de champ,depth of field
+modèle DEM,digital elevation model
+texture de déplacement,displacement map
+échelle de déplacement,displacement scale
+nuance,dithering
+DOF,DOF
+faire un travelling,dolly
+livre électronique,e-book
+axe d'élévation,elevation axis
+extraction,extraction
+pipette,eyedropper
+face,face
+raccord,fillet
+fragment,fragment
+image,frame
+nombre d'images par seconde,frame rate
+FBIK,full-body inverse kinematics
+gamma,gamma
+ombrage matériel,hardware shader
+reflet,highlight
+texture d'image,image map
+plan d'image,image plane
+éclairage basé sur une image,image-based lighting
+isoparm,isoparm
+jonction,joint
+couche,layer
+niveau,level
+limite de surface,limit surface
+réseau linéaire,linear array
+maillage,mesh
+mailleur,mesher
+demi-teinte,mid-tone
+modificateur,modifier
+animations graphiques,motion graphics
+licence monoposte,node-locked license
+texture normale,normal map
+NTSC,NTSC
+espace objet,object space
+opacité,opacity
+contour,outline
+vue particule,Particle View
+pivot,Pivot
+polygone,polygon
+pose,pose
+primitive,primitive
+texture de projection,projection map
+lancer de rayons,ray tracing
+texture de réflexion,reflection map
+retopologie,retopology
+maillage de retopologie,retopology mesh
+processus de retopologie,retopology process
+outils de retopologie,retopology tools
+zone d'images valides,Safe Frame
+point d'échantillonnage,sample point
+projection de scène,screen projection
+ombrage,shading
+SOP (slope/offset/power),slope-offset-power
+lissage,smoothing
+SMPTE,SMPTE
+SOP,SOP
+reflet spéculaire,specular highlight
+nœud de spline,spline knot
+pochoir,stencil
+trait,stroke
+niveau de subdivision,subdivision level
+ligne de profil en long superposée,superimposed profile
+ajustement de surface,surface trimming
+seuil,threshold
+translater,translate
+trianguler le couvercle,Triangulate Cap
+faire pivoter sur l'axe vertical,tumble
+manipulateur universel,universal manipulator
+ID de sommet,vertex ID
+normale de sommet,vertex normal

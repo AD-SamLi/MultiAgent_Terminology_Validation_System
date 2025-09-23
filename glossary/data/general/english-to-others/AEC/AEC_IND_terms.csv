@@ -1,0 +1,561 @@
+﻿source,target
+3D mesh primitive,Jaring 3D primitif
+3D Mini-map,Peta Mini 3D
+3D Move gizmo,Alat Pindah 3D
+3D Rotate gizmo,Alat Putar 3D
+3D Scale gizmo,Alat Skala 3D
+abutment,penyangga
+account administrator,administrator akun
+Activity Gantt View,Tampilan Gantt Aktivitas
+aggregate view,tampilan agregat
+air handler,penangan udara
+Airtable,Airtable
+aligned section view,tampilan bagian sejajar
+alignment geometry point,titik geometri penyejajaran
+alignment offset,offset penyejajaran
+ALKIS,ALKIS
+ampacity,kapasitas ampere
+analemma,analemma
+analytical brace,penjepit analitik
+analytical floor,lantai analitik
+analytical surface,permukaan analitik
+angle of deflection,sudut defleksi
+angular speed,kecepatan sudut
+annotation,anotasi
+anti-shrinkage reinforcement,penguat anti penyusutan
+apparent power,kekuatan nyata
+appearance style,gaya penampilan
+approver,pemberi persetujuan
+arc-chord distance,jarak akor busur
+ArchiCAD model,Model ArchiCAD
+architectural floor,lantai arsitektur
+ASBD,ASBD
+ASHRAE fitting,Pemasangan ASHRAE
+asset library,pustaka aset
+ATIL,ATIL
+attachment,lampiran
+AutoCAD model,Model AutoCAD
+Autodesk Image Library,Pustaka Gambar Autodesk
+average end area,area ujung rata-rata
+azimuth,azimut
+backsight,backsight
+ball in court,bola di lapangan
+base family,keluarga dasar
+base layer,lapisan dasar
+basemap,peta dasar
+BCA,BCA
+BCF,BCF
+bearing wall,dinding bantalan
+bend diameter,diameter tekukan
+bent bar,bilah bengkok
+billing period,periode penagihan
+BIM object,Objek BIM
+bisymmetric,bisimetris
+bloss,bloss
+borrower,peminjam
+box girder,gelagar tubular
+branch circuit,sirkuit cabang
+brick veneer,veneer batu bata
+brushed aluminium,aluminium yang digosok
+budget transfer,transfer anggaran
+building common area,area umum bangunan
+building footprint,jejak bangunan
+building level,tingkat bangunan
+built-up roof,atap yang dibangun
+bulge,tonjolan
+burnishing,memoles
+business units,unit bisnis
+butt,butt
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+cable tray,baki kabel
+CADmep,CADmep
+callout markup,markup panggilan
+callout tag,tag panggilan
+camera-centric,berpusat pada kamera
+cant,cant
+cant gradient,gradien cant
+cant view,tampilan cant
+cap,tutup
+cartoon set,set kartun
+casement,tingkap
+catch basin,bak penangkap
+catchment,tangkapan air
+catchment area,daerah tangkapan
+catchment location,lokasi tangkapan
+cavity wall,dinding rongga
+CDE,CDE
+center line,garis tengah
+center mark,tanda tengah
+ceramic tile,ubin keramik
+change analysis,analisis perubahan
+Changes tool,Alat perubahan
+characteristic strength,kekuatan karakteristik
+Cipolletti,Cipolletti
+clash group,grup clash
+clash service,layanan clash
+clerestory,lenggek cahaya
+clip volume,volume klip
+cloud model,model cloud
+code combination,kombinasi kode
+cold water fixture unit,unit perlengkapan pasokan air dingin
+colinear,kolinear
+collinear,kollinear
+composition roof,atap komposisi
+compound curve,kurva majemuk
+compressive strength,kekuatan tekan
+concentrated force,kekuatan terkonsentrasi
+conceptual energy analysis,analisis energi konseptual
+conceptual mass,massa konseptual
+condensate drain,pembuangan kondensat
+conduit,saluran
+conduit connector,konektor saluran
+conduit fitting,pemasangan saluran
+connector,konektor
+constraint element,elemen batasan
+constructability modeling,pemodelan konstruktabilitas
+content awareness,kesadaran konten
+content library,pustaka konten
+content pack,paket konten
+contingency,kontingensi
+contour label,label kontur
+contracted,berkontraksi
+contributor,kontributor
+convection load,beban konveksi
+convex,cembung
+coordination space,ruang koordinasi
+cope,cope
+COR,COR
+corbel,corbel
+co-reviewer,pengulas bersama
+corridor section,bagian koridor
+cost impact,dampak biaya
+cost management,manajemen biaya
+cost payment application,aplikasi pembayaran biaya
+count takeoff,penghitungan takeoff
+country kit,kit negara
+crest curve,kurva puncak
+crossing pipe,pipa penyeberangan
+crossover library,pustaka persilangan
+crown,mahkota
+crowned roadway,jalan bermahkota
+CS,CS
+cubic parabola,parabola kubik
+current directory,direktori saat ini
+curtain grid,kisi tirai
+curtain panel,panel tirai
+curtain system,sistem tirai
+curtain wall,dinding tirai
+curtain wall frame,bingkai dinding tirai
+curtain wall grid,kisi-kisi dinding tirai
+curtain wall mullion,mullion dinding tirai
+curtain wall unit,unit dinding tirai
+curve tessellation distance,jarak teselasi kurva
+curved beam,balok melengkung
+curve-spiral,kurva-spiral
+custom girder,gelagar khusus
+cut-in speed wind,kecepatan angin cut-in
+cut-out speed wind,kecepatan angin cut-out
+CWFU,CWFU
+dashboard,dasbor
+data center,pusat data
+daylight portal,portal siang hari
+daylighting glass,kaca siang hari
+dead load,beban mati
+DECDEG,DECDEG
+deck,dek
+DEM,DEM
+demand diagram,diagram permintaan
+demand factor,faktor permintaan
+design report,laporan desain
+Desktop Connector,Konektor Desktop
+diffuse,menyebar
+digital terrain model,model medan digital
+direction type,jenis arah
+discipline,disiplin
+distribution list,daftar distribusi
+DLL,DLL
+DMS,DMS
+document,dokumen
+document log,log dokumen
+drainage network,jaringan drainase
+drawing group,grup gambar
+drop reference location,lokasi referensi jatuhkan
+dry bulb,suhu bola kering
+drywall,papan gipsum
+DTM,DTM
+duct connector,konektor saluran
+duct damper,peredam saluran
+duct fitting,pemasangan saluran
+duct lining,lapisan saluran
+duct system,sistem saluran
+earthworks,pekerjaan tanah
+EDM,EDM
+EGL,EGL
+electrical equipment,peralatan listrik
+electronic distance meter,pengukur jarak elektronik
+elevation,elevasi
+elevation axis,sumbu elevasi
+ellipse segment,segmen elips
+embedded wall,dinding tertanam
+end connector,konektor ujung
+equilibrium cant,equilibrium cant
+evaporation,penguapan
+EVC,EVC
+EVCE,EVCE
+exhaust air,udara buang
+external data reference,referensi data eksternal
+fidelity,fidelitas
+field book,buku lapangan
+field report,laporan lapangan
+field splice,field splice
+file,file
+fill pattern,pola pengisian
+fillet,filet
+fillet radius,radius filet
+finite-element bridge analysis,analisis jembatan finite-element
+fixed window,jendela tetap
+flare angle,sudut suar
+float curve,kurva mengambang
+floor plan,denah lantai
+form element,elemen bentuk
+forms,formulir
+foundation,fondasi
+frame,bingkai
+frame rate,laju bingkai
+free float,mengambang bebas
+FU,FU
+fuzz,fuzz
+Gantt,Gantt
+general contractor,kontraktor umum
+general contractor company,perusahaan kontraktor umum
+girder,gelagar
+girder group,grup gelagar
+girder shape,bentuk gelagar
+gizmo,alat
+global coordinate system,sistem koordinat global
+grade break,grade break
+grading plan,rencana grading
+gravity network,jaringan gravitasi
+gravity pipe,pipa gravitasi
+ground conductor,konduktor tanah
+ground model,model tanah
+ground profile,profil tanah
+ground water,air tanah
+guardrail,pagar pembatas
+hanger,gantungan
+HDS,HDS
+heat gain,perolehan panas
+heat island,heat island
+heating and cooling loads,beban pemanasan dan pendinginan
+heating design temperature,suhu desain pemanas
+HGL,HGL
+Home,Beranda
+horizontal adjustment method,metode penyesuaian horizontal
+hot conductor,konduktor panas
+HP,HP
+HS end plate,Pelat ujung HS
+HVAC zone,Zona HVAC
+hypermodeling,hiperpemodelan
+ice giants,raksasa es
+impact cost,biaya dampak
+implied point of intersection,titik persimpangan tersirat
+IMX,IMX
+Industrial Peak Flow Factor,Peak Flow Factor Industri
+industry model,model industri
+InfraWorks model,Model InfraWorks
+initiator,inisiator
+interface shear,geser antarmuka
+interference check,pemeriksaan gangguan
+intersection component,komponen persimpangan
+intersection quadrant,kuadran persimpangan
+Inventor Server,Server Inventor
+ISD,ISD
+issue,masalah
+issues,masalah
+item summary,ringkasan item
+jobsite photos,foto lokasi kerja
+keynote,keynote
+keynote table,tabel keynote
+keynote tag,tag keynote
+keynote text,teks keynote
+knuckle,knuckle
+label style,gaya label
+land development,pengembangan lahan
+LandXML,LandXML
+LAS,LAS
+latent heat,panas laten
+lateral bracing,penguat lateral
+layer state,status lapisan
+level landing,level landing
+level of smoothness,tingkat kehalusan
+LF,LF
+lighting device,perangkat penerangan
+lighting fixture,perlengkapan pencahayaan
+lighting power density,kepadatan daya pencahayaan
+line boundary,batas garis
+linear array,array linier
+linear dimension,dimensi linier
+linear scale,skala linier
+linear takeoff,takeoff linier
+load case,kasus beban
+load classification,klasifikasi beban
+load diagram,diagram beban
+locations,lokasi
+longitudinal spacing,jarak longitudinal
+LP,LP
+MACP,MACP
+main contract,kontrak utama
+markup,markup
+mass floor,lantai massa
+mass zone,zona massa
+material properties,sifat material
+material takeoff,takeoff material
+Max model,Model Max
+mean daily range,rata-rata rentang harian
+mechanical load,beban mekanis
+meetings,pertemuan
+member end forces,gaya dalam pada ujung elemen
+member forces,gaya pada elemen
+minor tick,centang kecil
+miter join,sambungan siku
+model alignment,penyejajaran model
+Model Builder,Pembuat Model
+Model Builder model,Model Pembuat Model
+model text,teks model
+multiple members,banyak anggota
+multi-poled circuit,sirkuit multi-kutub
+multi-sheet,multi-lembar
+net graph,grafik net
+neutral conductor,konduktor netral
+node,simpul
+nominal diameter,diameter nominal
+northing,arah utara
+notional load,beban nosional
+NRV,NRV
+nurse call device,perangkat panggilan perawat
+occupancy,hunian
+offset alignment,penyejajaran offset
+one way slab,lempengan satu arah
+ordinate dimensioning,pengukuran dimensi ordinat
+owner changes,perubahan pemilik
+P&ID Modeler,Pemodel P&ID
+pan joist,datar rusuk
+panelboard,papan panel
+part family,keluarga bagian
+path reinforcement,penguatan jalur
+PCO,PCO
+people latent heat gain,Perolehan Panas Laten Orang
+percentage impervious,persentase kedap air
+phase filter,filter fase
+phase mapping,pemetaan fase
+Photo on ReCap 360,Photo on ReCap 360
+photometric shape,bentuk fotometrik
+photon map,peta foton
+PI point,Titik PI
+PID,PID
+pier,pilar
+pier cap,bagian atas pilar
+pier column,kolom pilar
+pipe accessory,aksesori pipa
+pipe bearing,bantalan pipa
+pipe connector,konektor pipa
+pipe fitting,pemasangan pipa
+pipe insulation,isolasi pipa
+pipe layout,tata letak pipa
+pipe plan,rencana pipa
+pipe run,panjang pipa
+Piranesi EPix,Piranesi EPix
+pitch,jarak
+Place Me,Tempatkan Saya
+PlanGrid,PlanGrid
+plenum,plenum
+plumbing fixture,perlengkapan pipa ledeng
+point boundary condition,kondisi batas titik
+Point Cloud Image Lookup,Pencarian Gambar Cloud Titik
+point group,kelompok titik
+point load,beban titik
+point marker,penanda titik
+polyline,garis poli
+power circuit,sirkuit daya
+power collaborator,kolaborator daya
+power load,beban daya
+PRC,PRC
+pre-action fire protection system,sistem proteksi kebakaran pra-tindakan
+Preissmann slot,Preissmann slot
+pressure loss,kehilangan tekanan
+pressure pipe,pipa tekanan
+primary model,model utama
+profile grade elevation,elevasi kelas profil
+profile grade line,garis kelas profil
+profile grid view,tampilan kisi profil
+profile view,tampilan profil
+progress photos,foto kemajuan
+progress tracking,pelacakan kemajuan
+project administrator,administrator proyek
+Project Vasari,Project Vasari
+projected coordinate system,sistem koordinat yang diproyeksikan
+property line,garis properti
+proposal,proposal
+push pin,pin dorong
+Pype,Pype
+quality risk trend,tren risiko kualitas
+quick tickets,tiket cepat
+rail alignment,perataan rel
+railing system,sistem rel
+ray tracing,ray tracing
+RCP,RCP
+reactive ticket,tiket reaktif
+rebar bar,batang tulangan
+redundant room,ruang yang berlebihan
+reference profile,profil referensi
+region line,garis wilayah
+reinforcement pattern,pola penguatan
+release condition,kondisi pelepasan
+rendering appearance,penampilan rendering
+return air,udara balik
+return airflow,aliran udara balik
+reviewer,pengulas
+RFI custom field,Kolom khusus RFI
+riser,riser
+roadway decoration,dekorasi jalan
+Roamer,Roamer
+role,peran
+rolled roof,atap gulung
+rollover,bergulir
+roof ridge,bubungan atap
+roof soffit,soffit atap
+room cavity ratio,rasio rongga ruangan
+room schedule,jadwal ruangan
+root cause,akar penyebab
+rotodynamic pump,pompa rotodinamis
+round pipe,pipa bundar
+rumble strips,pita penggaduh
+sag curve,kurva penurunan
+sample point,titik sampel
+sampled source,sumber sampel
+scalar TSDB,scalar TSDB
+schedule of values,jadwal nilai
+schema name,nama skema
+SCS,SCS
+SCSCS,SCSCS
+SCSSCS,SCSSCS
+section plane,bidang bagian
+section sheet,lembar bagian
+selection resolution,resolusi pemilihan
+service clearance,izin layanan
+settings,pengaturan
+shear wall,dinding geser
+sheet,lembar
+sheet flow,alur lembaran
+shell construction,konstruksi cangkang
+shop drawing,shop drawing
+sideshot point,titik bidikan samping
+SketchUp,SketchUp
+slab bottom,bagian bawah lempengan
+slab top,bagian atas lempengan
+sloped beam,balok miring
+sloped piping,perpipaan miring
+snapshot,jepretan
+snowmelt,pencairan salju
+solid reinforced concrete slab,lempeng beton bertulang padat
+Space Naming Utility,Utilitas Penamaan Ruang
+spec section,bagian spesifikasi
+speed striping,striping kecepatan
+SPI,SPI
+split profile view,tampilan profil terpisah
+spot slope,kemiringan tempat
+sprinkler,sprinkler
+spud,spud
+stacked profile view,tampilan profil bertumpuk
+stacked wall,dinding bertumpuk
+stakeout alignment report,laporan penyejajaran stakeout
+steel girder,gelagar baja
+steel truss,rangka baja
+step footing,pijakan berundak
+storm sewer,saluran pembuangan air hujan
+street elbow,siku jalan
+string field,bidang string
+strip window,segel jendela
+stripping pavement,pengupasan trotoar
+stripping top soil,kupasan lapisan tanah permukaan
+Structural Analysis for Revit,Structural Analysis for Revit
+Structural Bridge Design,Desain Jembatan Struktural
+structural modeling,pemodelan struktural
+structure profile,profil struktur
+subassemblies,subrakitan
+subassembly,subperakitan
+subassembly shape,bentuk subperakitan
+subcontractor quality risk trend,tren risiko kualitas subkontraktor
+sub-location,sublokasi
+submittal,pengajuan
+superelevation attainment method,metode pencapaian superelevasi
+superelevation properties,properti superelevasi
+superelevation rate,tingkat superelevasi
+supplier change order,pesanan perubahan pemasok
+supply air system,sistem pasokan udara
+surface profile,profil permukaan
+survey point,titik survei
+swath width,lebar petak
+switchboard,papan sakelar
+tag,tanda
+takeoff,takeoff
+takeoff object,objek takeoff
+takeoff type,tipe takeoff
+Team Space,Ruang Tim
+temperature load,beban suhu
+template,templat
+tensile strength,kekuatan tarik
+terrain level,tingkat medan
+tilt angle,sudut kemiringan
+time of travel,waktu perjalanan
+timeline,lini masa
+TimeLiner,TimeLiner
+Tinkerplay,Tinkerplay
+title mark,tanda judul
+tolerance,toleransi
+toolspace,ruang alat
+transition fitting,pemasangan transisi
+transition station,stasiun transisi
+transversal bar,bilah transversal
+treadplate,pelat tapak
+trench,parit
+true current,arus sebenarnya
+true load,beban sebenarnya
+turn slip lane,jalur slip belok
+turnout table,tabel pemilih
+two-cut plumb,dua potong tegak lurus
+two-cut square,dua potong persegi
+UCS,UCS
+underdrain,drainase bawah tanah
+undivided crowned,undivided crowned
+undivided planar,planar tak terbagi
+unidirectional bending,pembengkokan searah
+upstream budget change order,perintah perubahan anggaran hulu
+user contour,kontur pengguna
+user research,riset pengguna
+variable air volume,volume udara variabel
+variable crest,lambang variabel
+VAV,VAV
+Vehicle Tracking,Vehicle Tracking
+velocity pressure,tekanan kecepatan
+veneer,pelapis
+vertical adjustment,penyesuaian vertikal
+view list,lihat daftar
+viewer,penampil
+viewport,viewport
+vision glass,kaca penglihatan
+void geometry,geometri kosong
+void RFI,RFI tidak berlaku
+voided slab,lempengan yang tidak berlaku
+walkthrough,penelusuran
+wall foundation,pondasi dinding
+washoff,washoff
+web thickness,ketebalan jaring
+welded wire fabric,kain kawat yang dilas
+wet bulb,bohlam basah
+WFU,WFU
+WIP model,Model WIP
+Worksharing Monitor,Monitor Pembagian Kerja
+XDRef,XDRef

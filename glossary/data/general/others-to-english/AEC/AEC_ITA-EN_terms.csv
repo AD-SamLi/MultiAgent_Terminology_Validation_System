@@ -1,0 +1,501 @@
+﻿source,target
+mesh 3D elementare,3D mesh primitive
+gizmo Spostamento 3D,3D Move gizmo
+gizmo Rotazione 3D,3D Rotate gizmo
+gizmo Scala 3D,3D Scale gizmo
+spalla,abutment
+amministratore,administrator
+piattaforma di lavoro aerea,aerial lift
+unità di trattamento aria,air handler
+vista in sezione allineata,aligned section view
+punto notevole tracciato,alignment geometry point
+scostamento tracciato,alignment offset
+ALKIS,ALKIS
+portata del conduttore,ampacity
+analemma,analemma
+controvento analitico,analytical brace
+pavimento analitico,analytical floor
+superficie analitica,analytical surface
+angolo di deflessione,angle of deflection
+velocità angolare,angular speed
+annotazione,annotation
+armatura antiritiro,anti-shrinkage reinforcement
+APL,APL
+alimentazione apparente,apparent power
+stile aspetto,appearance style
+distanza arco-corda,arc-chord distance
+ArcGIS,ArcGIS
+Modello di ArchiCAD,ArchiCAD model
+piano architettonico,architectural floor
+ASBD,ASBD
+raccordo ASHRAE,ASHRAE fitting
+Risorse,Assets
+ATIL,ATIL
+team AUM,AUM team
+Modello di AutoCAD,AutoCAD model
+Libreria di immagini Autodesk,Autodesk Image Library
+sezioni ragguagliate,average end area
+scostamento dell'asse,axis offset
+azimut,azimuth
+punto ribattuto,backsight
+responsabilità,ball in court
+famiglia di base,base family
+layer base,base layer
+carta base,basemap
+Batch Print,Batch Print
+BCA,BCA
+BCF,BCF
+muro portante,bearing wall
+diametro di curvatura,bend diameter
+pacchetto di offerta,bid package
+Bloss,bloss
+utente che prende in prestito,borrower
+circuito derivato,branch circuit
+rivestimento in mattoni,brick veneer
+Ponte,Bridge
+Bridge Design for InfraWorks 360,Bridge Design for InfraWorks 360
+spazzolato,brushed
+alluminio spazzolato,brushed aluminium
+instabilità,buckling
+segmento codice budget,budget code segment
+area comune dell'edificio,building common area
+perimetro edificio,building footprint
+livello dell'edificio,building level
+tetto a strati,built-up roof
+curvatura,bulge
+testa,butt
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+passerella,cable tray
+CADmep,CADmep
+annotazione di richiamo,callout markup
+etichetta di dettaglio,callout tag
+sopraelevazione ferroviaria,cant
+pendenza trasversale ferroviaria,cant gradient
+terminazione,cap
+bozza digitale,cartoon set
+bacino di drenaggio,catch basin
+drenaggio,catchment
+area di drenaggio,catchment area
+posizione di drenaggio,catchment location
+muro ad intercapedine,cavity wall
+linea d'asse,center line
+centro,center mark
+piastrella di ceramica,ceramic tile
+cima,chamfer
+resistenza caratteristica,characteristic strength
+griglia delle interferenze,clash grid
+lucernario,clerestory
+volume di ritaglio,clip volume
+modello cloud,cloud model
+combinazione di norma,code combination
+coefficiente,coefficient
+portata di progetto acqua fredda,cold water fixture unit
+azienda,company
+tetto sintetico,composition roof
+curva di continuità,compound curve
+resistenza di compressione,compressive strength
+Utilità di analisi energetica concettuale,Conceptual Energy Analysis
+massa concettuale,conceptual mass
+scarico condensa,condensate drain
+tubo protettivo,conduit
+connettore per tubo protettivo,conduit connector
+raccordo tubo protettivo,conduit fitting
+elemento vincolo,constraint element
+modellazione di costruibilità,constructability modeling
+contatto,contact
+libreria di contenuti,content library
+pacchetto di contenuti,content pack
+etichetta della curva di livello,contour label
+condivisione controllata,controlled sharing
+carico di convezione,convection load
+convesso,convex
+spazio di coordinamento,coordination space
+cimasa,cope
+COR,COR
+modiglione,corbel
+editor di sezione modellatore,corridor section editor
+sostegno,counterfort
+country kit,country kit
+raccordo convesso,crest curve
+regione di taglio,crop region
+condotta intersecante,crossing pipe
+sommità,crown
+sezione stradale a doppia falda,crowned roadway
+CS,CS
+directory corrente,current directory
+sistema di facciata continua,curtain system
+facciata continua,curtain wall
+telaio di facciata continua,curtain wall frame
+montante di facciata continua,curtain wall mullion
+distanza tassellazione curva,curve tessellation distance
+trave curva,curved beam
+trave personalizzata,custom girder
+velocità di taglio inferiore,cut-in speed wind
+velocità di taglio superiore,cut-out speed wind
+CWFU,CWFU
+entrata della luce diurna,daylight portal
+vetro per l'illuminazione con luce diurna,daylighting glass
+carico permanente,dead load
+DECDEG,DECDEG
+impalcato del ponte,deck
+DEM,DEM
+fattore di richiesta,demand factor
+progettazione,design
+rapporto progetto,design report
+Desktop Connector,Desktop Connector
+diffuso,diffuse
+modello digitale del terreno,digital terrain model
+vincolo dimensionale,DimConstraint
+tipo di direzione,direction type
+dll,DLL
+DMS,DMS
+Drainage Design for Infraworks 360,Drainage Design for Infraworks 360
+rete di drenaggio,drainage network
+gruppo di disegni,drawing group
+posizione di riferimento dislivello,drop reference location
+bulbo secco,dry bulb
+muro a secco,drywall
+DTM,DTM
+connettore per condotto,duct connector
+smorzatore di condotto,duct damper
+raccordo del condotto,duct fitting
+rivestimento del condotto,duct lining
+sistema di condotti,duct system
+Lettore Dynamo,Dynamo Player
+lavori di sterro,earthworks
+EDM,EDM
+attrezzatura elettrica,electrical equipment
+Electronic Distance Meter,electronic distance meter
+altezza,elevation
+asse dell'altezza,elevation axis
+muro incorporato,embedded wall
+connettore terminale,end connector
+sopraelevazione ferroviaria di equilibrio,equilibrium cant
+EVC,EVC
+EVCE,EVCE
+dirigente,executive
+aria di scarico,exhaust air
+riferimento dati esterni,External Data Reference
+staffa di fabbricazione,fabrication hanger
+parti di fabbricazione,fabrication parts
+protezione anticaduta,fall protection
+funzionalità,feature
+libretto di campagna,field book
+giunzione campo,field splice
+registro file,files log
+modello di riempimento,fill pattern
+raccordo,fillet
+raggio di raccordo,fillet radius
+analisi del ponte ad elementi finiti,finite-element bridge analysis
+finestra fissa,fixed window
+unità apparecchio,fixture unit
+angolo della svasatura,flare angle
+curva flottante,float curve
+pianta del piano,floor plan
+rettifica previsione,forecast adjustment
+modulo,Form
+elemento di forma,form element
+cassaforma,formwork
+fondazione,foundation
+fotogramma,frame
+frequenza fotogrammi,frame rate
+FU,FU
+sfocatura,fuzz
+diagramma di Gantt,Gantt
+trave,girder
+forma della trave,girder shape
+gizmo,gizmo
+sistema di coordinate globale,global coordinate system
+cambio di pendenza,grade break
+piano di livellamento,grading plan
+rete a gravità,gravity network
+conduttore di terra,ground conductor
+profilo terreno esistente,ground profile
+acqua freatica,ground water
+guardrail,guardrail
+gestore,handle
+HDS,HDS
+incremento di calore,heat gain
+isola di calore,heat island
+carichi di riscaldamento e raffreddamento,heating and cooling loads
+temperatura di riscaldamento progetto,heating design temperature
+HGL,HGL
+metodo di regolazione orizzontale,horizontal adjustment method
+conduttore di fase,hot conductor
+HP,HP
+Sezione cava con piastra di estremità,HS end plate
+zona HVAC,HVAC zone
+idronico,hydronic
+ipermodellazione,hypermodel
+vertice planimetrico implicito,implied point of intersection
+modello di settore,industry model
+modello di InfraWorks,InfraWorks model
+taglio all'interfaccia,interface shear
+controllo delle interferenze,interference check
+trasferimento budget interno,internal budget transfer
+componente dell'intersezione,intersection component
+quadrante di intersezione,intersection quadrant
+Inventor Server,Inventor Server
+inventario,inventory
+Registro attività,issues tool
+elemento,item
+nota chiave,keynote
+tabella di note chiave,keynote table
+etichetta di nota chiave,keynote tag
+testo di nota chiave,keynote text
+snodo,knuckle
+ponte a travata,ladder deck
+urbanizzazione del territorio,land development
+LAS,LAS
+calore latente,latent heat
+controvento laterale,lateral bracing
+stato layer,layer state
+pianerottolo livello,level landing
+livello di levigatezza,level of smoothness
+LF,LF
+dispositivo di illuminazione,lighting device
+densità di alimentazione dell'illuminazione,lighting power density
+vincolo esterno lineare,line boundary
+quota lineare,linear dimension
+carico variabile,live load
+condizione di carico,load case
+classificazione del carico,load classification
+diagramma del carico,load diagram
+posizione,location
+linea di ubicazione,location line
+registro,log
+LP,LP
+contratto principale,main contract
+pavimento di massa,mass floor
+zona della massa,mass zone
+proprietà materiale,material properties
+computo dei materiali,material takeoff
+Modello di Max,Max model
+intervallo giornaliero medio,mean daily range
+carico meccanico,mechanical load
+membro,member
+mini-mappa,mini-map
+tick secondario,minor tick
+giunto d'angolo,miter join
+Model Builder,Model Builder
+modello di Model Builder,Model Builder model
+linea modello,model line
+testo del modello,model text
+più membri,multiple members
+circuito multipolare,multi-poled circuit
+a più fogli,multi-sheet
+grafico netto,net graph
+conduttore neutro,neutral conductor
+diametro nominale,nominal diameter
+scostamento verso nord,northing
+dispositivo di chiamata infermiera,nurse call device
+oggetto,object
+parte interna condotta,obvert of pipe
+occupazione,occupancy
+abitabile,occupiable
+OCR,OCR
+offerta,offering
+solaio monodirezionale,one way slab
+quote coordinate,ordinate dimensioning
+organizzazione,organization
+budget originale,original budget
+ortogonale,orthographic
+P&ID Modeler,P&ID Modeler
+travetto a T,pan joist
+pannello dei comandi,panelboard
+armatura su percorso,path reinforcement
+incremento del calore latente per persona,people latent heat gain
+autorizzazione,permission
+filtro di fase,phase filter
+mappatura delle fasi,phase mapping
+Photo on ReCap 360,Photo on ReCap 360
+forma fotometrica,photometric shape
+punto vertice planimetrico,PI point
+pilone,pier
+pulvino del pilone,pier cap
+colonna del pilone,pier column
+accessorio per tubazione,pipe accessory
+direzione condotta,pipe bearing
+connettore per tubi,pipe connector
+raccordo di tubazione,pipe fitting
+isolamento tubazione,pipe insulation
+planimetria delle condotte,pipe plan
+ramo,pipe run
+sistema di tubazioni,piping system
+Piranesi EPix,Piranesi EPix
+inclinazione trasversale,pitch
+PlanGrid,PlanGrid
+vano tecnico,plenum
+apparecchio idraulico,plumbing fixture
+vincolo esterno puntuale,point boundary condition
+dati della nuvola di punti,point cloud data
+Ricerca immagine nuvola di punti,Point Cloud Image Lookup
+codice punto,point code
+carico concentrato,point load
+simbolo punto,point marker
+circuito di alimentazione,power circuit
+Collaboratore Premium,power collaborator
+carico di alimentazione,power load
+PRC,PRC
+sistema antincendio proattivo,pre-action fire protection system
+prefabbricato,precast
+dispersione di pressione,pressure loss
+primario,Primary
+prodotto,product
+selettore prodotti,product picker
+VA da pendenza e quota obiettivo,profile grade elevation
+vista tabella dati profilo,profile grid view
+vista profilo,profile view
+foto di avanzamento,progress photos
+Monitoraggio avanzamento,Progress Tracking
+progetto,project
+Elenco progetti,Project List
+Project Vasari,Project Vasari
+sistema di coordinate proiettato,projected coordinate system
+confine catastale,property line
+proposta,proposal
+puntina,pushpin
+sistema di ringhiere,railing system
+raytracing,ray tracing
+RCP,RCP
+barra dell'armatura,rebar bar
+annotare,redline
+locale ridondante,redundant room
+riferimento,reference
+profilo di riferimento,reference profile
+linea della regione,region line
+condizione di rilascio,release condition
+composizione di rendering,rendering appearance
+aria di ritorno,return air
+flusso d'aria di ritorno,return airflow
+RFI,RFI
+alzata,riser
+Roadway Design for InfraWorks 360,Roadway Design for InfraWorks 360
+Roamer,Roamer
+copertura in rotolo,rolled roof
+differenza di sopraelevazione,rollover
+fascia del tetto,roof fascia
+trave di colmo,roof ridge
+intradosso del tetto,roof soffit
+rapporto incassi locale,room cavity ratio
+abaco del locale,room schedule
+bande rumorose,rumble strips
+tratto,run
+raccordo concavo,sag curve
+punto di campionamento,sample point
+origine campionata,sampled source
+Cronoprogramma,Schedule
+pianificazione dei valori,schedule of values
+nome dello schema,schema name
+SCS,SCS
+SCSCS,SCSCS
+SCSSCS,SCSSCS
+foglio di sezione,section sheet
+precisione della selezione,selection resolution
+spazio per la manutenzione,service clearance
+gruppo,set
+impostazioni,settings
+parete a taglio,shear wall
+flusso laminare,sheet flow
+costruzione della struttura dell'edificio,shell construction
+disegno esecutivo,shop drawing
+SketchUp,SketchUp
+intradosso solaio,slab bottom
+estradosso solaio,slab top
+corsia di svolta,slip lane
+trave inclinata,sloped beam
+tubature in pendenza,sloped piping
+soletta in cemento armato solido,solid reinforced concrete slab
+Space Naming Utility,Space Naming Utility
+dissuasore di velocità,speed striping
+transizione,spiral
+transizione-curva,spiral-curve
+vista profilo divisa,split profile view
+inclinazione in un punto,spot slope
+estintore,sprinkler
+tubo di raccordo,spud
+vista profili impilati,stacked profile view
+muro sovrapposto,stacked wall
+rapporto picchetti di tracciamento,stakeout alignment report
+timbro,stamp
+trave in acciaio,steel girder
+trave reticolare in acciaio,steel truss
+fondamento con gradini,step footing
+immagine fissa,still image
+fognatura acqua piovana,storm sewer
+gomito con filettatura maschio e femmina,street elbow
+finestra a nastro,strip window
+scotico pavimentazione,stripping pavement
+scotico terreno superficiale,stripping top soil
+analisi strutturale,structural analysis
+Structural Analysis for Revit,Structural Analysis for Revit
+Structural Bridge Design,Structural Bridge Design
+modellazione strutturale,structural modeling
+profilo pozzetto,structure profile
+forma del componente sezione tipo,subassembly shape
+posizione secondaria,sub-location
+subordinato,Subordinate
+sopraelevazione,superelevation
+metodo di raggiungimento della sopraelevazione,superelevation attainment method
+tasso di sopraelevazione,superelevation rate
+sopraelevazione della rampa,superelevation runoff
+profilo sovrapposto,superimposed profile
+sistema Aria di mandata,supply air system
+profilo della superficie,surface profile
+larghezza swath,swath width
+quadro elettrico generale,switchboard
+etichetta,tag
+pacchetto di take-off,takeoff package
+giunto,tap
+attività,task
+team,team
+assegnazione di temi ai team,team theming
+carico di temperatura,temperature load
+template,template
+resistenza a trazione,tensile strength
+curvatura di tirante,tie bend
+angolo di inclinazione,tilt angle
+analisi time-history,time history analysis
+tempo di percorrenza,time of travel
+TimeLiner,TimeLiner
+titolo,title
+contrassegno titolo,title mark
+tolleranza,tolerance
+strumento,tool
+raccordo di transizione,transition fitting
+progressiva di transizione,transition station
+armatura trasversale,transversal reinforcement
+pedana,treadplate
+trincea,trench
+piastra di copertura fossati,trench plate
+corrente reale,true current
+carico reale,true load
+corsia di svolta diretta,turn slip lane
+doppio taglio a piombo,two-cut plumb
+doppio taglio squadrato,two-cut square
+UCS,UCS
+ordine di modifica del budget a monte,upstream budget change order
+curva di livello definita dall'utente,user contour
+ricerca utenti,user research
+VAV,VAV
+pressione della velocità,velocity pressure
+piallaccio,veneer
+ventilato,vented
+regolazione verticale,vertical adjustment
+vista,view
+elenco di viste,view list
+vetro panoramico,vision glass
+geometria del vuoto,void geometry
+soletta a vuoto,voided slab
+animazione,walkthrough
+cordolo,wall foundation
+spessore dell'anima,web thickness
+reti saldate,welded wire fabric
+bulbo umido,wet bulb
+WFU,WFU
+modello in lavorazione,WIP model
+Worksharing Monitor,Worksharing Monitor
+XDRef,XDRef
+zoom riquadro,zoom box

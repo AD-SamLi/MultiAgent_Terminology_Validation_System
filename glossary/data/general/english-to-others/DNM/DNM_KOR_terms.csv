@@ -1,0 +1,881 @@
+﻿source,target
+3D Print,3D 프린트
+A360,A360
+A360 Rendering,A360 Rendering
+A360 Team,A360 Team
+ABF,ABF
+acceleration structure,가속화 구조
+action modifier button,작업 수정자 버튼
+adaptive refinement,가변 미세 조정
+additive,적층
+additive technology,적층 기술
+additive toolpath,적층 도구 경로
+admin,관리자
+adult Tinkercad account,성인 Tinkercad 계정
+air trap,에어 트랩
+Alias,Alias
+Alias AutoStudio,Alias AutoStudio
+Alias Concept,Alias Concept
+Alias Design,Alias Design
+Alias SpeedForm,Alias SpeedForm
+Alias Surface,Alias Surface
+aligned section view,정렬 단면도
+all-around symbol,온둘레 기호
+alternate unit,대체 단위
+ambient occlusion,앰비언트 어클루젼
+analytical surface,해석 표면
+angle increment,각도 증분
+angular global load,각도 전역 하중
+Angular Intensity,각 강도
+Angular range,각도 범위
+angular speed,각속도
+animation footage,애니메이션 길이
+anisotropic,비등방성
+anisotropy,비등방성
+annular ring,고리형 링
+Arcam EBM,Arcam EBM
+assembly constraint,조립품 구속조건
+assembly pattern,조립품 패턴
+asset library,자산 라이브러리
+Asset Manager,자산 관리자
+associative PCB,연관 PCB
+ATF Version,AFT 버전
+ATU,ATU
+AutoCAD 360,AutoCAD 360
+AutoCAD Inventor LT Suite,AutoCAD Inventor LT Suite
+Autodesk Desktop Connector,Autodesk Desktop Connector
+Autodesk Flex,Autodesk Flex
+Autodesk Inventor Mentor,Autodesk Inventor 멘토
+Autodesk Job Processor,Autodesk Job Processor
+Autodesk Partner,Autodesk 파트너
+Autodesk Prodsmart,Autodesk Prodsmart
+Autodesk Projects,Autodesk 프로젝트
+Autodesk Vault Professional edition,Autodesk Vault Professional 버전
+automatic face chain,자동 면 체인
+automatic routing,자동 라우팅
+auxiliary view,보조 뷰
+axle,축
+background processing,백그라운드 처리
+bake settings,베이크 설정
+ball mill,볼 밀
+ball screw,볼 나사
+barrel tool,배럴 공구
+base body,기본 본체
+base class,기본 클래스
+base flange,기준 플랜지
+base point,기준점
+Baseplate,베이스 플레이트
+Basic Imaging Profile,기본 이미지 프로파일
+baud rate,전송 속도
+beam detail,빔 상세
+Being Inventive,Being Inventive
+Belleville spring,접시형 스프링
+bend,절곡부
+bend radius,절곡부 반지름
+bend relief override,절곡부 릴리프 재지정
+bent tubing route,절곡부 튜브 루트
+BINVOX,BINVOX
+biocompatible material,바이오 호환 재질
+blend surface,혼합 표면
+blisk,블리스크
+Bluetooth Network Encapsulation Protocol,Bluetooth 네트워크 인캡슐레이션 프로토콜
+body load,본체 하중
+BOM,BOM
+boss,보스
+boundary patch,경계 패치
+Bounding Box,경계 상자
+bounding shape,경계 쉐이프
+bouquet,부케
+bowtie,보타이
+braking torque,제동 토크
+branch connection,분기 연결
+Breakpoint,중단점
+brickify,블록으로 전환
+brush,브러시
+brush mapping radial XY,브러시 매핑 방사형 XY
+build plate,빌드 플레이트
+build preparation software,빌드 준비 소프트웨어
+building process,건축 프로세스
+buildroom,빌드 공간
+build-time estimation,예상 빌드 시간
+bulk load,대량 로드
+bump,범프
+bump map,범프 맵
+bump mapping,범프 매핑
+burn mark,번 마크
+CA certificates,CA 인증서
+cable tray,케이블 트레이
+callout style,콜아웃 스타일
+camera collision detection,카메라 충돌 감지
+camera counterclockwise,카메라 반시계 방향
+camera turntable,카메라 턴테이블
+canvas,캔버스
+cap filleting,캡을 씌운 모깎기
+cap surface,캡 서피스
+cascade water junction,계단식 용수 합류점
+caustics,산란
+cavity,캐비티
+cel shading,CEL 음영처리
+center line,중심선
+center pin,중심 핀
+centric axis,중심 축
+CFD,CFD
+CFD Advanced,CFD Advanced
+CFD Motion,CFD Motion
+chain dimension,체인 치수
+chain selection,체인 선택
+chamfering tools,모따기 도구
+checkerboard texture,체커보드 텍스처
+chip formation,칩 구성
+chromaticity,색도
+chrome reflection color,크롬 반사 색상
+chuck jaws,척 죠
+circlip,써클립
+circular pitch,원형 피치
+circular tapered gate,테이퍼된 원형 게이트
+circumferential speed,원주 속도
+clearance,이격거리
+clip planes,클립 평면
+clone,복제
+close flat,평면 닫기
+closed edge,닫힌 모서리
+closed return bend,닫힌 복귀 절곡부
+cloud data,클라우드 데이터
+CO,CO
+code snippet,코드 조각
+codebase,codebase
+coincident constraint,일치 구속조건
+co-injection molding,이중 사출 성형
+cold slug,콜드 슬러그
+collaboration session,공동 작업 세션
+collet,콜릿
+Common Core,Common Core
+common material,일반 재질
+component visibility,구성요소 가시성
+Computenode,계산 노드
+concentricity,동심
+conduit,배선
+Configurator 360,Configurator 360
+connector,커넥터
+connector pin,커넥터 핀
+constant-radius fillet,동일반지름 모깎기
+constrained object,구속된 객체
+constraint,구속조건
+constringence,역분산
+Content Center Editor,Content Center Editor
+content library,컨텐츠 라이브러리
+contour flange,컨투어 플랜지
+convergence plot,수렴 플롯
+convex,볼록
+coolant,냉각수
+COPPA,COPPA
+copy Design,Copy Design
+core pin,코어 핀
+Corner Blend surface,코너 블렌드 서피스
+corner filleting style,구석 모깎기 스타일
+CORS,CORS
+cosmetic weld bead,표면 용접 비드
+counterbore hole,카운터보어 구멍
+countersink hole,카운터싱크 구멍
+crimp,크림프
+crinkle washer,크링클 워셔
+cross recessed,십자 오목
+cross section analysis,횡단면 해석
+cross-highlighting,십자 강조 표시
+current directory,현재 디렉토리
+curvature continuous fillet,곡률 연속 모깎기
+curve definition,커브 정의
+curve editor,커브 편집기
+custom part library,사용자 부품 라이브러리
+cutting line,절단선
+CV,CV
+CV hull,CV 선체
+database exports,데이터베이스 내보내기
+datum identifier,데이텀 식별자
+datum note,데이텀 주
+datum reference frame,데이텀 참조 프레임
+datum target,데이텀 대상
+deburr,디버링
+decal,전사
+decision support system,결정 지원 시스템
+default environment switch,기본 환경 스위치
+defeaturing,피쳐 제거
+degenerate,퇴화
+demote,강등
+deposition layer,적층 도면층
+design conflict,설계 충돌
+design file,디자인 파일
+design reservation,설계 예약
+Dew Point,이슬점
+diagnostic log file,진단 로그 파일
+dial-up network connection,전화 접속 네트워크 연결
+die formed lofted flange,다이 형상 로프트 플랜지
+diffuse color,분산 색상
+direction tolerance,방향 공차
+DirectX Runtime,DirectX 런타임
+DM,DM
+dots per inch,dpi
+downskin,아래쪽 스킨
+downskin analysis,아래쪽 스킨 분석
+DPI,DPI
+Draft,구배
+drawing group,도면 그룹
+drilling cycles,드릴 사이클
+drilling toolpaths,드릴 툴패스
+Drive Curve,드라이브 커브
+DSS,DSS
+DTD,DTD
+DTLS server,DTLS 서버
+duct connector,덕트 커넥터
+dump,덤프 파일
+Duplex Printing,양면 인쇄
+dynamic preview,동적 미리보기
+EBM,EBM
+edge constraint,모서리 구속조건
+edge index,가장자리 색인
+Edge lambda,가장자리 람다
+edge path,모서리 경로
+edit in place,내부 편집
+edit point,점 편집
+EDM,EDM
+educator account,교사 계정
+ejection temperature,방출 온도
+ejector,이젝터
+ejector pin,이젝터 핀
+ejector plate,이젝터 판
+elbow,엘보
+electric arc wire,전기 호 와이어
+electric discharge machining,방전 가공
+electronic distance meter,전자 거리 미터
+element deletion criteria,요소 삭제 기준
+ELF object,ELF 객체
+emboss,엠보싱
+end fill,충전 말단
+end of fill pressure,충전 말단 압력
+end treatment,끝 처리
+Engineer-to-Order,Engineer-to-Order
+event simulation,이벤트 시뮬레이션
+Experimental Generative Solvers and Features,실험적 제너러티브 솔버 및 기능
+Express mode,Express 모드
+Expression Builder,표현식 빌더
+Extended Service Discovery Protocol,확장 서비스 검색 프로토콜
+exterior corner,외부 구석
+external frame,외부 프레임
+extract,추출
+extruder,압출기
+eye,눈
+eye separation,시선 분리
+face direction,면 방향
+face draft,면 기울기
+face group,면 그룹
+facegroup,면 그룹
+fanout,팬아웃
+Fasteners library,조임쇠 라이브러리
+feature collision,피쳐 충돌
+feature control frame,형상 공차
+FeatureCAM,FeatureCAM
+feed mode,피드 모드
+feed rate,이송 속도
+FFF,FFF
+FFF additive manufacturing,FFF 적층 제조
+field fit,필드 맞춤
+filestore,파일 저장소
+fill pattern,채우기 패턴
+fillet,모깎기
+fillet feature,모깎기 피쳐
+fillet style,모깎기 스타일
+fixed,고정
+fixed edge draft,고정된 모서리 기울기
+fixture,설비
+flat pattern,플랫 패턴
+flat shading,단순 음영처리
+flat washer,플랫 워셔
+Flex,Flex
+flood solution,홍수 솔루션
+flow lines,흐름 선
+flow rate,유량
+flow source,흐름 소스
+flow velocity,흐름 속도
+fluid motion,유체 동작
+fluid velocity,유체 속도
+flush constraint,플러쉬 구속조건
+focal plane,초점 평면
+focus distance,초점 거리
+fold,접기
+framebuffer,프레임 버퍼
+free drag,자유 끌기
+free orbit,자유 궤도
+freeform edit,자유형 편집
+freeform shape,자유형 쉐이프
+fresnel IOR parameter,프레넬 IOR 매개변수
+fresnel term,프레넬 항
+friendship bridge,호환
+frontplate,전면 플레이트
+Full Navigation wheel,전체 탐색 휠
+full round fillet,전체 둥근 모깎기
+functional design,기능적 설계
+Fusion,Fusion
+Fusion 360,Fusion 360
+Fusion Electronics,Fusion Electronics
+Fusion Lifecycle,Fusion Lifecycle
+Fusion material library,Fusion 재료 라이브러리
+Fusion Modeling Data,Fusion Modeling Data
+Fusion Team administrator,Fusion Team 관리자
+gate,게이트
+generative design,제너레이티브 디자인
+generative modeling,생성 모델링
+geocode manager,지오코드 관리자
+geodesic,측지선
+geodesic curve,측지 곡선
+geometry node,형상 노드
+gesture behavior,제스처 동작
+GGX,GGX
+gimbal,짐벌
+grain direction,무늬결 방향
+graphics card,그래픽 카드
+green response curve,녹색 응답 곡선
+gripper,그리퍼
+gripper arm,그리퍼 암
+groove weld,그루브 용접
+ground calibration,지면 보정
+ground plane,지면
+ground shadow,지면 그림자
+grounded work point,고정 작업점
+guide rail,안내 레일
+Hangul Jamo,한글 자모
+hard transition,강성 변환
+harness part,하네스 부품
+harness segment,하네스 세그먼트
+hatch pattern,해치 패턴
+hatching,해칭
+Headnode,헤드 노드
+heat transfer pipe,열 전송 파이프
+Helius Composite,Helius Composite
+Helius PFA,Helius PFA
+history marker,사용내역 마커
+HMD,HMD
+hole table,구멍 테이블
+Host,호스트
+HSM kernel,HSM 커널
+HSMWorks,HSMWorks
+HSMWorks for SOLIDWORKS,HSMWorks for SOLIDWORKS
+HSV,HSV
+Human Interface Device Protocol,휴먼 인터페이스 장치 프로토콜
+hydroforming,유압성형
+Hypertext Transfer Protocol,하이퍼텍스트 전송 프로토콜
+I section,I 단면
+ICC profile,ICC 프로파일
+iCopy,iCopy
+iFeatures,iFeatures
+iLogic Design Copy,iLogic 설계 복사
+image denoise,이미지 노이즈 제거
+image denoiser,이미지 노이즈 제거기
+image framebuffer,이미지 프레임 버퍼
+impedance,임피던스
+impersonating user,가장 사용자
+inactive component,비활성 구성요소
+in-canvas tool,캔버스 내 도구
+infer constraints,구속조건 추정
+inference,추정
+infill,채우기
+injection cone,사출 콘
+injection molding simulation study,사출 성형 시뮬레이션 학습
+injection-compression molding,사출 압축 성형
+input buffer,입력 버퍼
+Input Gamma,입력 감마
+insulation displacement,절연체 변위
+interlayer temperature,도면층 간 온도
+interlock,내부 잠금
+intermittent weld,비연속 용접
+internal frame,내부 프레임
+Inventor,Inventor
+Inventor LT,Inventor LT
+Inventor LT Suite,Inventor LT Suite
+Inventor Professional,Inventor Professional
+iPart Author,iPart 작성자
+iProperties,iProperties
+ISO,ISO
+isoline,Iso라인
+ISTE,ISTE
+item deletion restrictions,항목 삭제 제한 사항
+item number,항목 번호
+item revision,항목 리비전
+item revision number,항목 리비전 번호
+JIT option,JIT 옵션
+joint,접합
+jump delay,점프 지연
+kinematic chain,운동 사슬
+kPa,kPa
+L section,L 단면
+landing surface,계단 모양 표면
+language pack,언어 팩
+laser jump delay,레이저 점프 지연
+laser mark delay,레이저 표시 지연
+laser polygon delay,레이저 폴리곤 지연
+lattice,격자
+Lattice Commander,격자 명령 관리자
+lattice manipulator,격자 조절기
+Launchpad,론치패드
+layer,도면층
+layer height,도면층 높이
+layer stack,도면층 스택
+Learning Inventor 2010,Inventor 2010 학습
+lease period,임대 기간
+Legal Extra,Legal Extra
+lens flare,렌즈 플레어
+lesser version,하위 버전
+Level,수준
+license server,라이센스 서버
+lifecycle transition limit,수명 주기 변이 제한
+lifter,리프터
+lightmap,라이트 맵
+linear global load,선형 전역 하중
+lip and groove,립 및 그루브
+Live Enabler,Live Enabler
+live update,라이브 업데이트
+load diagram,하중 다이어그램
+location ring,위치 링
+lock set,잠금 세트
+LOD,LOD
+LOD bias,LOD 바이어스
+lofted flange,로프트 플랜지
+loop,루프
+LRO,LRO
+luminous intensity,광도
+Machine Connector,기계 커넥터
+Machine Simulation,기계 시뮬레이션
+MachineDNA,MachineDNA
+machining attributes,가공 속성
+machining toolpath,기계가공 도구 경로
+Manage Extension,확장 관리
+manipulator,조작기
+mapping type,매핑 유형
+markup,마크업
+mass flow rate,질량 유량
+material accuracy,재질 정확도
+material ID,재료 ID
+material texture manipulator,재질 텍스처 조절기
+mating face,결합 면
+maximum clamp force,최대 클램프 압력
+mechanistic movement,기계적 이동
+medial axis,중간 축
+mesh,메쉬
+mesh view,메쉬 뷰
+mesher,메셔
+metal FFF,금속 FFF
+migration path,마이그레이션 경로
+MIME types,MIME 형식
+mini toolbar,미니 도구막대
+mipmapping,밉매핑
+mirror,대칭
+miter,마이터
+model complexity,모형 복잡도
+model files,모델 파일
+model limits,모델 제한
+model stiffness,모형 강성
+model translation,모델 변환
+moderator,중재자
+moiré removal,무아레 제거
+mold,금형
+mold base,금형 베이스
+molding window,성형 창
+morph strategy,모프 전략
+motion factor,모션 요소
+MPBF,MPBF
+MTT,MTT
+multi-body,다중 본체
+multibody workflow,다중 본체 워크플로우
+multi-body workflow,다중 본체 워크플로우
+multi-cavity mold,멀티 캐비티 금형
+multiple composites,다중 복합
+MultiValue,다중 값
+Namespace declarations,네임스페이스 선언
+Nastran,Nastran
+Nastran In-CAD,Nastran In-CAD
+navigation bar,탐색 막대
+NC code,NC 코드
+NC program,NC 프로그램
+NC Programs,NC 프로그램
+NC setup,NC 설정
+neck,목
+negative shell,음수 셸
+Netfabb,Netfabb
+New Features Workshop,새로운 기능 워크숍
+New Shared View,새 공유 뷰
+newsgroup,뉴스그룹
+NG,NG
+NGSS,NGSS
+nodal moment,노드 모멘트
+nonlinear material,비선형 재질
+non-production,미출시
+non-rectangular viewport,직사각형이 아닌 뷰포트
+normal,법선
+normal tolerance,노멀 공차
+note,메모
+NPR material,NPR 재질
+object category,객체 범주
+Object ID,객체 ID
+objective limits,목표 한계
+obstacle geometry,장애물 형상
+opacity values,불투명도 값
+OpenSSL,OpenSSL
+Orange Peel,오렌지 필
+organic modeling,유기적 모델링
+Orientation vector machining,방향 벡터 가공
+orientation vectors,방향 벡터
+origin work feature,원점 작업 피쳐
+o-ring,O 링
+outer angle,외부 각도
+outlining,윤곽 처리
+output size,출력 크기
+overhang angle,돌출부 각도
+overlap,오버랩
+overtravel,초과 이동
+parallax occlusion mapping,시차 어클루젼 매핑
+parallel plane,평행 평면
+parent account,부모 계정
+part catcher,부품 캐처
+part visibility,부품 가시성
+Particle,파티클
+parting design,분할 설계
+parting diagnostic,분할 진단
+password policy requirement,암호 정책 요구사항
+patch,패치
+patch curve,패치 곡선
+patching surface,패치 곡면
+path sketch,경로 스케치
+pattern entity,패턴 엔티티
+pattern feature,패턴 피쳐
+PCRE,PCRE
+pcurve,p-커브
+PDF Publish,PDF 게시
+pecking depth,펙 깊이
+pencil trace,연필 추적
+phong truelight material,퐁 사실적 조명 재질
+photometric,포토메트릭
+photon caustic,포톤 산란
+physical material,물리적 재질
+pilot hole,파일럿 구멍
+pilot recess,파일럿 오목
+PIM,PIM
+pin constraint,핀 구속조건
+pipe plug,파이프 플러그
+pitch diameter,피치 지름
+pitch line,피치 선
+placed feature,배치된 피쳐
+plain washer,플레인 워셔
+planar curve,평면형 곡선
+planar face,평면형 면
+plastic part,소성부
+plate detail face,판 세부 면
+plate fixture,플레이트 설비
+plunge feed rate,플런지 피드 속도
+PMI,PMI
+point mass,점질량
+Poisson ratio,프와송의 비
+polygon delay,폴리곤 지연
+polygonised,폴리곤화
+POSIX,POSIX
+POSIX collating elements,POSIX 결합 요소
+post processor,후처리기
+PowerInspect,PowerInspect
+PowerMill,PowerMill
+PowerMill Additive,PowerMill 적층
+PowerShape,PowerShape
+Pozidriv,Pozidriv
+ppoint,p-포인트
+preserve geometry,유지 형상
+press brake,압력 브레이크
+Press/Pull,누르기/당기기
+pressed joint,프레스된 접합
+pressure drop,압력 강하
+pressure loss,압력 손실
+PRM file,PRM 파일
+PRM generation,PRM 생성
+Pro,Pro
+probe body,프로브 본체
+Probe Geometry,프로브 형상
+probe mode,프로브 모드
+probe type,프로브 유형
+process simulation,프로세스 시뮬레이션
+production version,출시 버전
+Profile Passes,프로파일 패스
+program point,프로그램 포인트
+progressive tooltip,단계적 툴팁
+project explorer,프로젝트 탐색기
+Project Simulus,Project Simulus
+Projects,프로젝트
+promote surface,곡면 승격
+propagation delay,전파 지연
+property mapping,특성 매핑
+Proportional Crown,Proportional Crown
+protrusion,돌출
+puck,퍽
+pull direction,당김 방향
+pulse weight,펄스 가중치
+quadrant point,사분점
+quarter section view,1/4 단면도
+quilt,퀼트
+random seed,랜덤 시드
+randomized seam,임의 지정된 이음새
+raster,래스터
+ray file,Ray 파일
+raytracing,레이트레이싱
+raytracing mode,레이트레이싱 모드
+reaction force,반력
+realistic appearance,사실적 모양
+recoater,재도포
+recursive depth,재귀 깊이
+Reference Editor,참조 편집기
+referencing toolpaths,참조 툴패스
+reflectivity,반사도
+refold,재접힘
+refraction,굴절
+re-index,색인 재지정
+release,릴리즈
+relief remnant,릴리프 나머지
+relief remnant value,릴리프 나머지 값
+render engine,렌더 엔진
+render pass,렌더 패스
+replication,복제
+repositioned,위치가 변경됨
+rerecognize features,피쳐 재인식
+reservation,예약
+resin identification code,수지 식별 코드
+restored pattern element,재부착된 패턴 요소
+revision format,리비전 형식
+revision mark,리비전 표식
+revision scheme format,리비전 체계 형식
+revision tag,리비전 태그
+rgb absorption coefficient,rgb 흡수 계수
+rho value,Rho 값
+rib chamfer,리브 모따기
+rib fillet,리브 모깎기
+ribbon cable,리본 케이블
+rip up,분할
+RLE,RLE
+room name,공간 명칭
+root component,루트 구성요소
+rotation step size,회전 단계 크기
+rotational adjustment,회전 조정
+roughing slice,황삭 슬라이스
+round washer,둥근 워셔
+rule fillet,규칙 모깎기
+ruled surface,직선보간 곡면
+Run Basic Macro,기본 매크로 실행
+runoff loop,유출 루프
+runoff surface,유출 표면
+safety avatar,안전 아바타
+sceneplate,장면 플레이트
+sealing plug,실링 플러그
+selective laser sintering,선택적 레이저 소결
+self border intersection,자체 경계 교차
+self symmetric,자체 대칭
+self-tapping screw,자체 태핑 나사
+shader,쉐이더
+Shadow Material,그림자 재질
+shank,섕크
+Shank clearance,생크 여유
+shape,쉐이프
+Shared Views,공유 뷰
+shear heating,전단 발열
+shear rate,전단율
+sheet metal face,판금 면
+shell,셸
+Shera printers,Shera 프린터
+Show Me animation,보기 애니메이션
+show tool load,공구 부하 보기
+shrinkwrap,형상단순화
+shrinkwrap substitute,형상단순화 대체
+side core,측면 코어
+side lock,측면 잠금
+sight line,시선
+signal integrity,신호 무결성
+Silhouette Curves,실루엣 커브
+Simulated Orientations,시뮬레이션된 방향
+Simulation CFD 3D Viewer,Simulation CFD 3D Viewer
+Simulation CFD Viewer,Simulation CFD Viewer
+simulation mesh,시뮬레이션 메쉬
+simulation tool color,시뮬레이션 공구 색상
+Simulation Utility,Simulation Utility
+single composite,단일 복합재
+Single Point of Failure,단일 장애점
+single-spindle lathe,단일 스핀들 선반
+sintering,소결
+sketch grid,스케치 그리드
+sketch illustration,스케치 일러스트
+sketched feature,스케치된 피쳐
+sketched symbol,스케치된 기호
+Skill Builder,Skill Builder
+skylight environment,스카이라이트 환경
+slice,슬라이스
+SLS,SLS
+SMD,SMD
+smoke,연기
+smoke circle,연기 원
+smoke simulation,연기 시뮬레이션
+snippet,조각
+soft box,부드러운 상자
+soft transition,연성 변환
+solid face,솔리드 면
+Solid Support,솔리드 지지
+SolidscapeDL Printer,SolidscapeDL 프린터
+spectrum,스펙트럼
+spindle,스핀들
+Spindle calibration,스핀들 교정
+spindle orientation,스핀들 방향
+spindle revolution,스핀들 회전
+spline,스플라인
+split rivet,분할 리벳
+spring washer,스프링 워셔
+sprue,스프루
+sprue bushing,스프루 부싱
+spur gear,스퍼 기어
+SSL handshake,SSL 핸드쉐이크
+SSL session,SSL 세션
+stack check,스택 검사
+standard appearance,표준 모양
+staple yarn,스테이플사
+stepover,스텝오버
+still frame,스틸 프레임
+stillframe,스틸 프레임
+stipple count,점각 개수
+STL,STL
+stop pin,중지 핀
+strain,변형
+strain energy,변형 에너지
+Straumann printers,Straumann 프린터
+stress analysis,응력 해석
+stripe gap,줄무늬 간격
+Stripe Offset,스트라이프 간격띄우기
+structural buckling study,구조적 버클링 학습
+student design,학생 디자인
+subspindle,부분 스핀들
+substance,Substance
+substance panorama,Substance 파노라마
+Substance preset,Substance 사전 설정
+Substance property,Substance 속성
+subsurface scattering,하위 표면 분산
+Suite Workflows,Suite 워크플로우
+suppressed assembly pattern element,억제된 조립품 패턴 요소
+Surface Analysis,표면 분석
+surface associativity,표면 연관성
+surface body,곡면 본체
+surface face,곡면 면
+surface fillet,표면 모깎기
+surface normal,곡면 법선
+surface probe,곡면 프로브
+surface texture,표면 텍스처
+Swarf,스와프
+sweep,스윕
+System,시스템
+tangent plane,접하는 평면
+tapered mill,테이퍼된 밀
+team,팀
+terminal electrical properties,터미널 전기 특성
+terminator,종료자
+tessellation,테셀레이션
+texture baking,텍스처 베이킹
+texture coordinate,텍스처 좌표
+Thick Client,Thick Client
+Thin Client,Thin Client
+thin-walled support shape,박막 지지 쉐이프
+third-angle projection,삼각 투영
+thread designation,스레드 지정
+three quarter section view,3/4 단면도
+thumb screw,나비 나사
+time slider,시간 슬라이더
+TinkerBox,TinkerBox
+tonemap method,톤 맵 방법
+tonemapping,톤 매핑
+tool database,공구 데이터베이스
+tool entity,공구 개체
+tool orientation,도구 방향
+tool shank,공구 생크
+tool shank data,공구 생크 데이터
+toolpath,도구 경로
+Toolpath Calculation,도구 경로 계산
+Toolpath Edit menu,툴패스 편집 메뉴
+toolpath points,툴패스 점
+toolpath segments,툴패스 세그먼트
+toolpath workplane,툴패스 작업 영역
+torque load,토크 하중
+touch sensor,터치 센서
+transform variant,변환 변형
+transient load,과도 하중
+transition feedrate,전환 피드 속도
+transition frames,전환 프레임
+transparency,투명도
+triangle flip,삼각면 반전
+trilinear filtering,삼중 선형 필터링
+trivial hole,기타 구멍
+trochoid,트로코이드
+twin-symmetric,트윈 대칭
+U Section,U 단면
+ULP,ULP
+ultimate tensile strength,극한 인장 강도
+uncrease,각진 부분 제거
+undercut,언더컷
+underlay,언더레이
+underlay geometry,언더레이 형상
+undirected angle,미지정 각도
+unfold method,전개 방법
+upskin,위쪽 스킨
+User Datagram Protocol,사용자 데이터그램 프로토콜
+UV island,UV 고립영역
+UV layout,UV 레이아웃
+UV mapping,UV 매핑
+UV snapshot,UV 스냅샷
+valve gate,밸브 게이트
+Variable Rate Shading,가변 비율 쉐이딩
+variable-radius fillet,변수 반지름 모깎기
+Vault,Vault
+Vault account,Vault 계정
+Vault Basic,Vault Basic
+Vault Professional,Vault Professional
+Vault Workgroup,Vault Workgroup
+vaulted version,저장 버전
+vaulting restriction,저장 제한 사항
+v-belt,V-벨트
+vent,배출구
+vertex baking,정점 베이킹
+viewer mode,뷰어 모드
+vif,vif
+vin tiles,Vin 타일
+Vortex toolpath,보텍스 툴패스
+vorticity,소용돌이도
+voxel,복셀
+VRED,VRED
+VRED Cluster Daemon,VRED 클러스터 데몬
+VRED Cluster Service,VRED Cluster Service
+VRED Design,VRED Design
+VRED Presenter,VRED Presenter
+VRED Professional,VRED Professional
+VRED project,VRED 프로젝트
+VRED Server,VRED Server
+VRML animation,VRML 애니메이션
+VRPN,VRPN
+wall clearance,측벽 가공여유
+wall thickness,벽 두께
+warp color,세로실 색상
+WCS,WCS
+weft color,가로실 색상
+weld damage,용접 손상
+weld line,웰드 라인
+welding neck flange,용접 넥 플랜지
+whisper cuts,작은 절단면
+wire feedrate,와이어 피드 속도
+wire run,와이어 런
+wireframe display,와이어프레임 화면표시
+work axis,작업축
+work feature,작업 피쳐
+work in progress,진행 중인 작업
+work plane,작업 기준면
+work surface,작업 곡면
+workpiece,가공물
+worm gear,웜 기어
+woven cloth,직조 천
+woven cloth material,직조 천 재질
+X-ray ground shadow,X-레이 지면 그림자
+yarn type,실 종류
+yield strength,항복 강도

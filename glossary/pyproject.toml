@@ -1,0 +1,64 @@
+[project]
+name = "glossary"
+version = "0.1.0"
+description = "Glossary"
+authors = [
+    {name = "Guobi Wu",email = "guobi.wu@autodesk.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+pylint = "^3.3.4"
+mypy = "^1.15.0"
+pandas-stubs = "^2.2.3.241126"
+
+[tool.black]
+line-length = 200
+target-version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.mypy]
+python_version = 3.8
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_subclassing_any = true
+disallow_any_generics = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+warn_unreachable = true
+strict_equality = true
+
+[tool.pylint]
+max-line-length = 200
+disable = [
+    "W0718",  # Catching too general exception
+    "W1203",  # Use % formatting in logging functions and pass the % parameters as arguments
+    "C0116",  # Missing function or method docstring (missing-function-docstring)
+]

@@ -1,0 +1,906 @@
+﻿source,target
+3D पैकिंग,3D Packing
+3D प्रिंट,3D Print
+AFR,AFR
+Alias,Alias
+AM,AM
+Autodesk पार्टनर,Autodesk Partner
+Autodesk प्रोजेक्ट्स,Autodesk Projects
+Autodesk मानव इंटरफ़ेस दिशानिर्देश (HIG),Autodesk Human Interface Guidelines
+Autodesk वॉल्ट प्रोफ़ेशनल एडिशन,Autodesk Vault Professional edition
+B ऐक्सिस,B axis
+BOM,BOM
+BOM Oऑब्जेक्ट,BOM Object
+BOM ग्रिड,BOM grid
+C ऐक्सिस,C axis
+CAM क्षमताएं,CAM capabilities
+CAM प्रोग्रामिंग,CAM programming
+CLDATA,CLDATA
+CMM,CMM
+CNC,CNC
+CNC कंट्रोलर,CNC controller
+COPPA,COPPA
+CV,CV
+CV पतवार,CV hull
+DirectX Runtime,DirectX Runtime
+DOF,DOF
+DPI,DPI
+DSS,DSS
+dxf,dxf
+EBM,EBM
+EDM,EDM
+F3Z,F3Z
+FEA मेश,FEA mesh
+FFF,FFF
+FFF प्रिंट,FFF print
+FFF मशीन,FFF machine
+FFF योगात्मक विनिर्माण,FFF additive manufacturing
+Fusion PCB,Fusion PCB
+GCode,GCode
+GTC,GTC
+HSV,HSV
+iCopy,iCopy
+ID 2019 Add-In,ID 2019 Add-In
+iFeatures,iFeatures
+IFR,IFR
+iLogic डिज़ाइन कॉपी,iLogic Design Copy
+iPart Author,iPart Author
+iProperties,iProperties
+ISO,ISO
+ISTE,ISTE
+kPa,kPa
+L सेक्‍शन,L section
+MachineDNA,MachineDNA
+MD फ़ाइल,MD file
+MultiValue,MultiValue
+NC प्रोग्राम,NC program
+NC प्रोग्राम आइटम,NC Program item
+NC प्रोग्राम्स,NC Programs
+NC सेटअप,NC setup
+NG,NG
+NGSS,NGSS
+OD,OD
+o-रिंग,o-ring
+PCB,PCB
+PCB फ़ीचर,PCB feature
+PDF पब्लिश,PDF Publish
+Pozidriv,Pozidriv
+PRM जनरेशन,PRM generation
+PRM फ़ाइल,PRM file
+Simulation CFD 3D Viewer,Simulation CFD 3D Viewer
+Simulation CFD Viewer,Simulation CFD Viewer
+SLM मशीन,SLM machine
+SLS,SLS
+SolidscapeDL Printer,SolidscapeDL Printer
+SVG,SVG
+U सेक्शन,U section
+UCS,UCS
+WCS,WCS
+XBUILD,XBUILD
+अंडरकट,undercut
+अंडरकट विकल्प,Undercut option
+अंत उपचार,end treatment
+अंत कोण,end angle
+अंतर,gap
+अंतराल,interval
+अंतिम तन्यता क्षमता,ultimate tensile strength
+अंतिम बिंदु,end point
+अधिकतम क्लैंप बल,maximum clamp force
+अध्ययन का प्रकार,study type
+अनुकूलित SLM वर्कफ़्लो,optimized SLM workflow
+अनुकूली परिशोधन,adaptive refinement
+अनुकूली समाशोधन,adaptive clearing
+अनुक्रम वृक्ष,sequence tree
+अनुमति नियंत्रण,permission control
+अनुमान,inference
+अनुवाद,translation
+अपघर्षक प्रवाह दर,abrasive flow rate
+अप्रत्यक्ष कोण,undirected angle
+अभिविन्यास बिंदु,orientation point
+अभिसरण कथानक,convergence plot
+असंपीड्य सामग्री,incompressible material
+असेंबली पैटर्न,assembly pattern
+असेंबली बाधा,assembly constraint
+असेट लाइब्रेरी,asset library
+आंतरायिक वेल्ड,intermittent weld
+आंतरिक ताप,internal heat
+आंतरिक ताप लोड,internal heat load
+आंतरिक ताप लोड प्रकार,internal heat load types
+आंतरिक ताप लोड विशेषता,internal heat load attribute
+आंतरिक फ़्रेम,internal frame
+आइटम नंबर,item number
+आइटम विलोपन प्रतिबंध,item deletion restrictions
+आइटम संशोधन,item revision
+आइटम संशोधन नंबर,item revision number
+आइसोलाइन,isoline
+आई सेक्शन,I section
+आकार,shape
+आधार चेहरा,base face
+आधार निकला हुआ किनारा,base flange
+आधार निकाय,base body
+आधार बिंदु,base point
+आयत,rectangle
+आयाम,dimension
+आर्क,arc
+आविष्कारक व्यू,inventor View
+इंजेक्शन कोन,injection cone
+इंजेक्शन मोल्डिंग सिमुलेशन अध्ययन,injection molding simulation study
+इंजेक्शन लोकेशन,injection location
+इंजेक्शन-संपीड़न मोल्डिंग,injection-compression molding
+इंटरलॉक,interlock
+इंटरैक्टिव फ़ीचर पहचान (IFR),Interactive Feature Recognition
+इजेक्टर,ejector
+इजेक्टर पिन,ejector pin
+इजेक्टर प्लेट,ejector plate
+इजेक्शन तापमान,ejection temperature
+इजेक्शन दिशा बटन,ejection direction button
+इतिहास मार्कर,history marker
+इन-कैनवास टूल,in-canvas tool
+इन्सुलेशन विस्थापन,insulation displacement
+इलेक्ट्रिक आर्क वायर,electric arc wire
+इलेक्ट्रिक डिस्चार्ज मशीनिंग,electric discharge machining
+इलेक्ट्रॉनिक दूरी मीटर (EDM),electronic distance meter
+इलेक्ट्रॉनिक्स कार्यक्षेत्र,electronics workspace
+इलेक्ट्रॉनिक्स कूलिंग,electronics cooling
+इलेक्ट्रॉनिक्स घटक,electronics component
+इलेक्ट्रो डिस्चार्ज मशीनिंग,electro discharge machining
+इलेक्ट्रोड,electrode
+इवेंट सिमुलेशन,event simulation
+उत्थानक,lifter
+उत्पादन संस्करण,production version
+उथला क्षेत्र,shallow area
+उद्देश्य सीमाएं,objective limits
+उन्नत सिमुलेशन अध्ययन,advanced simulation study
+उपधुरी,subspindle
+उप-धुरी,sub-spindle
+उपयोगकर्ता का प्रतिरूपण करना,impersonating user
+उपयोगकर्ता समन्वय प्रणाली,user coordinate system
+ऊंचाई,elevation
+एकत्रीकरण,concentricity
+एकल समग्र,single composite
+एकाधिक सम्मिश्रण,multiple composites
+एकाधिक स्थिरता दस्तावेज़,multiple fixture document
+एक्स निकासी स्थिति,X clearance position
+एक्सट्रूडर,extruder
+एक्सप्रेशन बिल्डर,Expression Builder
+एक्सप्रेस मोड,Express mode
+एक्सप्लोरर विंडो,Explorer Window
+एक्स-रे ग्राउंड छाया,X-ray ground shadow
+एक्सेल,axle
+एज,edge
+एज इंडेक्स,edge index
+एज लैम्ब्डा,edge lambda
+एडिट इन-प्लेस,edit in place
+एडिट मॉडल कार्यक्षेत्र,edit model workspace
+एनीमेशन फ़ुटेज,animation footage
+एल्बो,elbow
+एसोसिएटिव PCB,associative PCB
+ऐक्सिस,axis
+ऐडमिन,admin
+ऐप्लिकेशन,application
+ऑटो-ड्रा टूल,auto-draw tool
+ऑर्डर बदलें,change order
+ऑल-अराउंड प्रतीक,all-around symbol
+ओरिएंटेशन वैक्टर,orientation vectors
+ओरिजनल फ़ाइल नाम,original file name
+ओवरहैंग कोण,overhang angle
+कंप्यूटेनोड,computenode
+कटर मुआवजा,cutter compensation
+कटिंग लाइन,cutting line
+कटौती की गहराई,depth of cut
+कठिन संक्रमण,hard transition
+कठोरता आनुपातिक,stiffness proportional
+कनेक्टर,connector
+कनेक्टर पिन,connector pin
+कमांड विंडो,command window
+काउंटरड्रिल छेद,counterdrill hole
+काउंटरबोर छेद,counterbore hole
+काउंटरसिंक छेद,countersink hole
+कार्यनीति,strategy
+कार्यात्मक डिज़ाइन,functional design
+कुलिंग फ़ैन पार्ट,cooling fan part
+कुलिंग विज़ार्ड,cooling wizard
+कृमि गियर,worm gear
+केंद्र पिन,center pin
+केंद्र बिंदु,centre point
+केंद्र रेखा,center line
+केन्द्रित ऐक्सिस,centric axis
+केबल ट्रे,cable tray
+कैनवास,canvas
+कैप फ़िलेटिंग,cap filleting
+कैलिब्रेशन,calibration
+कॉन्टेंट लाइब्रेरी,content library
+कॉन्टेंट सेंटर एडिटर,Content Center Editor
+कॉन्फ़िगरेशन प्रशासक,Configuration Administrator
+कॉमन कोर,Common Core
+कॉर्नर की त्रिज्या,corner radius
+कॉर्नर फ़िलेटिंग,corner filleting
+कॉर्नर फ़िलेटिंग शैली,corner filleting style
+कॉलआउट शैली,callout style
+कॉस्मेटिक वेल्ड बीड,cosmetic weld bead
+कोआर्डिनेट,coordinate
+को-इंजेक्शन मोल्डिंग,co-injection molding
+कोटिंग,coating
+कोड स्निपेट,code snippet
+कोडबेस,codebase
+कोण की स्थिति,angularity
+कोणीय गति,angular speed
+कोणीय वेग,angular velocity
+कोणीय वैश्विक भार,angular global load
+कोन,cone
+कोर,core
+कोर पिन,core pin
+कोलिट,collet
+कोल्ड स्लग,cold slug
+क्रमांकन योजना,numbering scheme
+क्रमांकन योजनाएं,numbering schemes
+क्रॉस सेक्शन विश्लेषण,cross section analysis
+क्रॉस-हाइलाइटिंग,cross-highlighting
+क्लाउड क्रेडिट कार्य,cloud credit task
+क्लाउड क्रेडिट बैलेंस,cloud credit balance
+क्लाउड डेटा,cloud data
+क्लिप प्लेन,clip planes
+क्षणिक भार,transient load
+क्षेत्र की गहराई,depth of field
+क्षैतिज आर्क,horizontal arc
+खिंचाव,strain
+खिंचाव की ऊर्जा,strain energy
+गतिज श्रृंखला,kinematic chain
+गतिशील पूर्वावलोकन,dynamic preview
+गतिशील बिंदु,dynamic point
+गेट,gate
+गैर उत्पादन,non-production
+गैर-आयताकार व्यूपोर्ट,non-rectangular viewport
+गॉज,gouge
+गोल वॉशर,round washer
+गोलाकार पतला गेट,circular tapered gate
+गोलाकार पिच,circular pitch
+ग्राफ़िक कार्ड,graphics card
+ग्राफ़िक हैंडल,graphic handle
+ग्रिड,grid
+ग्रिपर,gripper
+ग्रिपर आर्म,gripper arm
+ग्रेन दिशा,grain direction
+ग्रो टू बॉक्स,Grow to Box
+घटक,component
+घटक दृश्यता,component visibility
+घटक प्लेसमेंट,component placement
+घूर्णी समायोजन,rotational adjustment
+घेरा,circlip
+घोंसला बनाने की क्रिया,nesting
+चक जॉ,chuck jaws
+चक्कर आना,vorticity
+चतुर्थांश बिंदु,quadrant point
+चम्फर टूल,chamfer tool
+चम्फरिंग टूल,chamfering tools
+चयनात्मक लेजर सिंटरिंग,selective laser sintering
+चिप निर्माण,chip formation
+चैनिंग,chaining
+चौड़ाई,width
+जंप डीले,jump delay
+जनरेटिव डिज़ाइन सेटअप,generative design setup
+जनरेटिव प्रौद्योगिकी,generative technology
+जनरेटिव मॉडल,generative model
+जनरेटिव मॉडलिंग,generative modeling
+जमाव परत,deposition layer
+ज़मीन की छाया,ground shadow
+जमीनी कार्य बिंदु,grounded work point
+ज़मीनी समतल,ground plane
+जल निर्माण,hydroforming
+जला क्षेत्र,burn region
+जांच,probe
+जांच का प्रकार,probe type
+जांच ज्यामिति,probe geometry
+जांच निकाय,probe body
+जांच मोड,probe mode
+जाली और त्वचा अनुकूलन,lattice and skin optimization
+जीवनचक्र नियम,lifecycle rules
+जीवनचक्र संक्रमण सीमा,lifecycle transition limit
+जुड़वां-सममित,twin-symmetric
+जुड़ा हुआ कार्यसमूह,connected workgroup
+जैवसंगत सामग्री,biocompatible material
+जैविक मॉडलिंग,organic modeling
+जॉब सर्वर,Job Server
+ज्यामिति,geometry
+ज्यामिति सरलीकरण,geometry simplification
+ज्यामितीय फ़ीचर,geometric feature
+झरना जल जंक्शन,cascade water junction
+टकराव,collision
+टकराव मुक्त लिंक पथ,collision free link path
+टकराव से बचने के पैरामीटर,collision avoidance parameters
+टकराव से बचाव,collision avoidance
+टर्मिनल इलेक्ट्रिकल प्रॉपर्टी,terminal electrical properties
+टर्मिनेटर,terminator
+टिप्पणी,annotation
+टी-स्पलाइन,T-Spline
+टी-स्पलाइन बॉडी,T-Spline body
+टूल,tool
+टूल अभिविन्यास,tool orientation
+टूल असेंबली,tool assembly
+टूल इकाई,tool entity
+टूल ऐक्सिस,tool axis
+टूल ऐक्सिस कोण,tool axis angle
+टूल ऐक्सिस सीमा,tool axis limit
+टूल टिप त्रिज्या,tool tip radius
+टूल डेटाबेस,tool database
+टूल त्रिज्या,tool radius
+टूल दिशा बटन,tool direction button
+टूल प्रॉपर्टी,tool property
+टूल मैगज़ीन,tool magazine
+टूल शैंक डेटा,tool shank data
+टूलपाथ,toolpath
+टूलपाथ एडिट मेनू,Toolpath Edit menu
+टूलपाथ कार्यस्थल,toolpath workplane
+टूलपाथ टेल,toolpath tail
+टूलपाथ बिंदु,toolpath points
+टूलपाथ सिमुलेशन,toolpath simulation
+टूलपाथ सेगमेंट,toolpath segments
+टूलिंग,tooling
+टॉर्क गुणांक,torque coefficient
+टॉर्क लोड,torque load
+टोनमैप विधि,tonemap method
+टोरस,torus
+ट्री व्यू,tree view
+ट्रोचॉइड,trochoid
+ठोस,solid
+ठोस फ़ेस,solid face
+डंप,dump
+डक्ट कनेक्टर,duct connector
+डाई-फ़ॉर्मेड लॉफ्टेड फ्लैंज,die formed lofted flange
+डायग्नोस्टिक लॉग फ़ाइल,diagnostic log file
+डायल-अप नेटवर्क कनेक्शन,dial-up network connection
+डिज़ाइन का टकराव,design conflict
+डिज़ाइन फ़ाइल,design file
+डिज़ाइन रिज़र्वेशन,design reservation
+डिब्बाबंद साइकल,canned cycle
+डीकल,decal
+डीफ़ीचरिंग,defeaturing
+डुबकी बिंदु,plunge point
+डेंटल विंग्स प्रिंटर्स,Dental Wings printers
+डेटा कार्ड,data card
+डेटा बफ़र,data buffer
+डेटाबेस निर्यात,database exports
+डेटाम नोट,datum note
+डेटाम लक्ष्य,datum target
+डेटाम संदर्भ फ्रेम,datum reference frame
+डेस्कटॉप कनेक्टर,Desktop Connector
+ड्राइव वक्र,drive curve
+ड्राफ़्ट कोण,draft angle
+ड्राफ़्ट सतह,draft surface
+ड्रिल का व्यास,drill diameter
+ड्रिलिंग चक्र,drilling cycles
+ड्रिलिंग टूलपथ,drilling toolpaths
+ड्रॉ पैनल,Draw panel
+ड्रॉइंग समूह,drawing group
+ढलान प्रतीक,slope symbol
+ढलान वाला क्षेत्र,steep area
+तत्व,element
+तत्व विलोपन मानदंड,element deletion criteria
+तनाव विश्लेषण,stress analysis
+तलीय वक्र,planar curve
+तिमाही सेक्शन व्यू,quarter section view
+तीन चौथाई सेक्शन व्यू,three quarter section view
+तीन त्रिकोणों से घिरे हुए छेद,trivial hole
+तृतीय-कोण प्रक्षेपण,third-angle projection
+त्रिज्या,radius
+त्रुटि मैप,error map
+त्वरित सूची,quick list
+थंब स्क्रू,thumb screw
+दबा हुआ असेंबली पैटर्न तत्व,suppressed assembly pattern element
+दबाएं/खींचें,Press/Pull
+दबाया हुआ जोड़,pressed joint
+दबाव में गिरावट,pressure drop
+दबाव हानि,pressure loss
+दिशा,direction
+दिशा खींचना,pull direction
+दूरी और कोण कक्ष,distance and angle chamfer
+द्रव गति,fluid motion
+द्रव्यमान आनुपातिक,mass proportional
+द्रव्यमान प्रवाह दर,mass flow rate
+धारक निकासी,holder clearance
+धुरी,spindle
+धुरी अंशांकन,spindle calibration
+धुरी अभिविन्यास,spindle orientation
+धुरी क्रांति,spindle revolution
+नए फ़ीचर्स वर्कशॉप,New Features Workshop
+नकारात्मक खोल,negative shell
+नम्य होने की क्षमता,yield strength
+नरम संक्रमण,soft transition
+नाम का टकराव,name collision
+नाली जड़,groove root
+नाली वेल्ड,groove weld
+निकासी मूल्य,clearance value
+नियंत्रण शीर्ष,control vertex
+नियम फ़िलेट,rule fillet
+निरीक्षण क्रम,inspection sequence
+निर्णय सहायता प्रणाली,decision support system
+निर्देशित बिंदु,guided point
+निर्माण तैयारी सॉफ़्टवेयर,build preparation software
+निर्माण प्लेन,construction plane
+निष्क्रिय घटक,inactive component
+नेक,neck
+नेविगेशन बार,navigation bar
+नॉनलाइनर लाइब्रेरी,nonlinear library
+नोट,note
+नोडल क्षण,nodal moment
+पंखे की ज्यामिति,fan geometry
+पक,puck
+पतर की मोटाई,layer thickness
+पतरे,swarf
+पतली दीवार वाली समर्थन आकृति,thin-walled support shape
+पथ रेखाचित्र,path sketch
+पन्नी जलाशय,foil reservoir
+परत का ढेर,layer stack
+परत की ऊंचाई,layer height
+परावर्तन,reflectivity
+परिणाम कार्यक्षेत्र,results workspace
+परिणाम छवि,outcome image
+परिधीय,peripheral
+परिधीय गति,circumferential speed
+परिमित तत्व मेश,finite element mesh
+परिवर्तनशील फ़िलेट,variable fillet
+परिवर्तनशील-त्रिज्या फ़िलेट,variable-radius fillet
+पर्यावरण की छवि,environment image
+पाइप प्लग,pipe plug
+पाउडर फ़ीचर,power feature
+पाउडर बेड मेटल एडिटिव विनिर्माण,powder bed metal additive manufacturing
+पायलट होल,pilot hole
+पार्ट कैचर,part catcher
+पार्टिंग डिज़ाइन,parting design
+पार्टिंग निदान,parting diagnostic
+पावर सतह,power surface
+पासवर्ड पॉलिसी की आवश्यकता,password policy requirement
+पिच का व्यास,pitch diameter
+पिच लाइन,pitch line
+पिन बाधा,pin constraint
+पीढ़ियों को मोटा करना,coarsening generations
+पुनरीक्षण टैग,revision tag
+पुनरीक्षण प्लान फ़ॉर्मेट,revision scheme format
+पुनरीक्षण फ़ॉर्मेट,revision format
+पुनरीक्षण मार्क,revision mark
+पुनर्निर्धारित,repositioned
+पुष्प गुच्छ,bouquet
+पूरी गोल फ़िलेट,full round fillet
+पूर्ण नेविगेशन व्हील,Full Navigation wheel
+पूर्वावलोकन एक्सट्रूज़न,preview extrusion
+पृष्ठभूमि प्रसंस्करण,background processing
+पेंसिल का निशान,pencil trace
+पैच वक्र,patch curve
+पैचिंग सतह,patching surface
+पैटर्न,pattern
+पैटर्न फ़ीचर,pattern feature
+पैटर्न भरें,fill pattern
+पैरामीटर,parameter
+पॉलीगन डीले,polygon delay
+पोस्ट प्रोसेसर,post processor
+पोस्ट प्रोसेसिंग गुण,post processing properties
+प्रकट करने की विधि,unfold method
+प्रक्रिया सिमुलेशन अध्ययन,process simulation study
+प्रगतिशील टूलटिप,progressive tooltip
+प्रति इंच बिंदू,dots per inch
+प्रतिकृति,replication
+प्रतिक्रिया बल,reaction force
+प्रतीक परिभाषा,symbol definition
+प्रमुख तनाव,principal strain
+प्रायोगिक जनरेटिव सॉल्वर और फ़ीचर्स,Experimental Generative Solvers and Features
+प्रारंभ कोण,start angle
+प्रारंभ बिंदु,start point
+प्रॉपर्टी मैपिंग,property mapping
+प्रोग्राम बिंदु,program point
+प्रोजेक्ट,project
+प्रोजेक्ट एक्सप्लोरर,project explorer
+प्रोजेक्ट सिमुलस,Project Simulus
+प्रोजेक्ट्स,projects
+प्रोफ़ाइल पास,profile passes
+प्लास्टिक पार्ट,plastic part
+प्लेट विवरण फ़ेस,plate detail face
+प्लेट स्थिरता,plate fixture
+प्लेन,plane
+फलाव,protrusion
+फ़ाइल डॉक्टर,file doctor
+फ़ाइलस्टोर,filestore
+फ़ास्टनर्स लाइब्रेरी,Fasteners library
+फ़िक्स्चरिंग,fixturing
+फ़िक्स्ड एज ड्राफ़्ट,fixed edge draft
+फ़िलेट फ़ीचर,fillet feature
+फ़िलेट शैली,fillet style
+फ़ीचर टकराव,feature collision
+फ़ीचर नंबर,feature number
+फ़ीचर नियंत्रण फ़्रेम,feature control frame
+फ़ीचर निर्माण,feature construction
+फ़ीचर समूह,feature group
+फ़ीड दर,feed rate
+फ़ीड मोड,feed mode
+फ़ीडदर,feedrate
+फ़ीडबैक हब,Feedback Hub
+फ़ील्ड फ़िट,field fit
+फ़ेस,face
+फ़ेस की दिशा,face direction
+फ़ेस ड्राफ्ट,face draft
+फ़ेस समूह,face group
+फ़ेससमूह,facegroup
+फ़ोकल प्लेन,focal plane
+फ़्यूज़न टीम प्रशासक,Fusion Team administrator
+फ़्री ऑर्बिट,free orbit
+फ़्री ड्रैग,free drag
+फ़्रीफ़ॉर्म आकार,freeform shape
+फ़्रीफ़ॉर्म एडिट,freeform edit
+फ़्लेक्स,Flex
+फ़्लैंज की ऊंचाई,flange height
+फ़्लैंज प्रोफ़ाइल,flange profile
+फ्लैअर वी,flare v
+फ्लैट पैटर्न,flat pattern
+फ्लैट शेडिंग,flat shading
+फ्लैट सूची,flat list
+फ़्लोलाइन मशीनिंग रणनीति,flowline machining strategy
+बंद किनारा,closed edge
+बंद वापसी मोड़,closed return bend
+बकलिंग,buckling
+बड़े पैमाने पर गुण,mass properties
+बम्प,bump
+बम्प मार्क,burn mark
+बम्प मैप,bump map
+बम्प मैपिंग,bump mapping
+बल्क मॉड्यूल,bulk modulus
+बल्क लोड,bulk load
+बाढ़ समाधान,flood solution
+बाधा,constraint
+बाधा की स्थिति,constraint status
+बाधा ज्यामिति,obstacle geometry
+बाधाओं का अनुमान,infer constraints
+बाधित ऑब्जेक्ट,constrained object
+बाहरी कोण,outer angle
+बाहरी कोना,exterior corner
+बाहरी त्रिज्या,outer radius
+बाहरी फ़्रेम,external frame
+बिंदु द्रव्यमान,point mass
+बीज बिंदु,seed point
+बीज वक्र,seed curve
+बीम का विवरण,beam detail
+बुद्धिमान कर्सर,intelligent cursor
+बुनियाद,underlay
+बुनियादी ज्यामिति,underlay geometry
+बुर्ज,turret
+बेंड रिलीफ़ ओवरराइड,bend relief override
+बेलेविल स्प्रिंग,Belleville spring
+बैरल टूल,barrel tool
+बॉक्स प्रदर्शन,box display
+बॉड दर,baud rate
+बॉडी का प्रकार,body type
+बॉडी की मोटाई,body thickness
+बॉडी लोड,body load
+बॉल नोज्ड टूल,ball nosed tool
+बॉल मिल,ball mill
+बॉल स्क्रू,ball screw
+बॉस फ़ीचर,boss feature
+बोटी,bowtie
+बोरिंग बार,boring bar
+बोर्ड आउटलाइन,board outline
+ब्रश,brush
+ब्रांच कनेक्शन,branch connection
+ब्रेक दबाएं,press brake
+ब्रेकिंग टॉर्क,braking torque
+ब्लिस्क,blisk
+ब्लेंड सतह,blend surface
+भत्ता,allowance
+भरण दबाव का अंत,end of fill pressure
+भीतरी त्रिज्या,inner radius
+भौतिक सामग्री,physical material
+मनके की चौड़ाई,bead width
+मल्टी-कैविटी मोल्ड,multi-cavity mold
+मल्टी-बॉडी,multi-body
+मल्टीबॉडी वर्कफ़्लो,multibody workflow
+मल्टी-बॉडी वर्कफ़्लो,multi-body workflow
+मशीन कनेक्टर,Machine Connector
+मशीन टूल,machine tool
+मशीन डिज़ाइन,machine design
+मशीनिंग अनुशासन,machining discipline
+मशीनिंग टूलपाथ,machining toolpath
+मशीनिंग विस्तार,Machining extension
+महत्वपूर्ण तापमान विशेषता,critical temperature attribute
+माइग्रेशन पाथ,migration path
+मानक उपस्थिति,standard appearance
+माप डेटा,measurement data
+मार्कअप,markup
+मिटर,miter
+मिट्रेड कॉर्नर,mitred corner
+मिनी टूलबार,mini toolbar
+मिरर प्लेन,mirror plane
+मिलिंग ऑपरेशन,milling operation
+मिलिंग टूल,milling tool
+मुख्य बिंदु,key point
+मुड़ा हुआ टयूबिंग रूट,bent tubing route
+मूल कार्य फ़ीचर,origin work feature
+मेटल पाउडर बेड फ़्यूज़न (MPBF),metal powder bed fusion
+मेटल पाउडर बेड फ़्यूज़न (MPBF) प्रक्रिया,metal powder bed fusion process
+मेश,mesh
+मेश व्यू,mesh view
+मेशर,mesher
+मैट्रिक्स,matrix
+मैनिपुलेटर,manipulator
+मैनुअल मशीन,manual machine
+मॉडरेटर,moderator
+मॉडल अनुवाद,model translation
+मॉडल कठोरता,model stiffness
+मॉडल जटिलता,model complexity
+मॉडल फ़ाइल,model files
+मॉडल व्यू,model view
+मॉडल सीमाएं,model limits
+मोल्ड,mold
+मोल्ड का आधार,mold base
+मोल्डिंग विंडो,molding window
+मौजूदा निर्देशिका,current directory
+यंत्रवत गति,mechanistic movement
+यथार्थवादी उपस्थिति,realistic appearance
+यॉ,yaw
+योगात्मक प्रौद्योगिकी,additive technology
+योगात्मक विनिर्माण सिमुलेशन,additive manufacturing simulation
+यौगिक छिद्र,compound hole
+रंग पैलेट,colour palette
+रंगीकरण विकल्प,colorization options
+रंगीन कंफ़ेद्दी,colored confetti
+रखा गया फ़ीचर,placed feature
+रज़ाई की तरह,quilt
+रनऑफ़ लूप,runoff loop
+रनऑफ़ सतह,runoff surface
+रफिंग टुकड़ा,roughing slice
+रफिंग रणनीति,roughing strategy
+राइडर,rider
+राहत अवशेष मूल्य,relief remnant value
+रिकोटर,recoater
+रिकोटर निकासी,recoater clearance
+रिकोटिंग,recoating
+रिज़र्वेशन,reservation
+रिट्रेक्ट दूरी,retract distance
+रिब चम्फर,rib chamfer
+रिब फ़िलेट,rib fillet
+रिबन केबल,ribbon cable
+रिस्टोर्ड पैटर्न तत्व,restored pattern element
+री-इंडेक्स,re-index
+रूप रणनीति,morph strategy
+रेंडमाइज़ सीम,randomized seam
+रेसिन पहचान कोड,resin identification code
+रैंप,ramp
+रैखिक वैश्विक भार,linear global load
+रोटरी B ऐक्सिस,rotary B axis
+रोटरी C ऐक्सिस,rotary C axis
+रोटरी दिशा,rotary direction
+लक्ष्य घटक,target component
+लक्ष्य बिंदु,target point
+लक्ष्य सुरक्षा कारक,target safety factor
+लर्निंग इन्वेंटर 2010,Learning Inventor 2010
+लांच पैड,Launchpad
+लाइन स्टाइल टूलपाथ,line style toolpath
+लाइव अपडेट,live update
+लाइव एनेबलर,Live Enabler
+लाइसेंस सर्वर,license server
+लिप और नाली,lip and groove
+लिप फ़ीचर,lip feature
+लीज़ की अवधि,lease period
+लीड कोण,lead angle
+लूप,loop
+लेज़र जंप डीले,laser jump delay
+लेज़र पॉलीगन डीले,laser polygon delay
+लेज़र मार्क डीले,laser mark delay
+लेसर संस्करण,lesser version
+लैंग्वेज पैक,language pack
+लैंडिंग सतह,landing surface
+लॉक सेट,lock set
+लॉलीपॉप मिल,lollipop mill
+लोकेशन रिंग,location ring
+लोड आरेख,load diagram
+वक्र एडिटर,curve editor
+वक्र जानकारी,curve information
+वक्र परिभाषा,curve definition
+वक्रता कंघी,curvature comb
+वक्रता सतत फ़िलेट,curvature continuous fillet
+वर्क ऐक्सिस,work axis
+वर्क प्लेन,work plane
+वर्क फ़ीचर,work feature
+वर्क सतह,work surface
+वर्कपीस,workpiece
+वर्कप्लेन,workplane
+वर्कसमूह,workgroup
+वर्ग इंच,square inch
+वस्तु श्रेणी,object category
+वायर फ़ीडरेट,wire feedrate
+वायर रन,wire run
+वायरफ़्रेम,wireframe
+वायरफ़्रेम डिस्प्ले,wireframe display
+वायु संवहन,air convection
+वाल्व गेट,valve gate
+वाहक,carrier
+विज़ुअलाइज़ेशन फ़ाइल,visualization file
+विनिर्माण टूलपाथ रणनीतियाँ,manufacturing toolpath strategies
+विनिर्माण वातावरण,manufacturing environment
+विनिर्माण विस्तार,manufacturing extension
+विभाजित रिवेट,split rivet
+विभाजित सतह,split surface
+विश्लेषण का समय,analysis time
+विश्लेषणात्मक सतह,analytical surface
+विष का अनुपात,Poisson ratio
+वी बट,v butt
+वी-बेल्ट,v-belt
+वेंट या बाहर निकलने देना,vent
+वेक्टर,vector
+वेज़,wedge
+वेब,web
+वेब की मोटाई,web thickness
+वेल्ड क्षति,weld damage
+वेल्ड प्रतीक,weld symbol
+वेल्ड लाइन,weld line
+वैकल्पिक युनिट,alternate unit
+वैल्डिंग नेक फ्लांज,welding neck flange
+वैश्विक समन्वय प्रणाली,global coordinate system
+वॉक्सेल रेज़ॉल्यूशन,voxel resolution
+वॉल निकासी,wall clearance
+वॉल शीर तनाव,wall shear stress
+वॉल्ट अकाउंट,Vault account
+वॉल्ट ब्लॉग,Vault blog
+वॉल्टिंग प्रतिबंध,vaulting restriction
+वॉल्टेड संस्करण,vaulted version
+वॉल्यूमेट्रिक प्रवाह दर,volumetric flow rate
+वोर्टेक्स टूलपाथ,vortex toolpath
+व्यवस्थापक,administrator
+व्यास,diameter
+व्यूवर मोड,viewer mode
+व्रेप विज़ार्ड,Wrap Wizard
+शाफ़्ट ऊपरी व्यास,shaft upper diameter
+शाफ़्ट सेगमेंट की ऊंचाई,shaft segment height
+शासित सतह,ruled surface
+शीट बार,sheet bar
+शीट मेटल,sheet metal
+शीट मेटल नियम,sheet metal rule
+शीट मेटल फ़ीचर्स,sheet metal features
+शीट मेटल फ़ेस,sheet metal face
+शीतलक,coolant
+शीतलक विकल्प,coolant options
+शीर दर,shear rate
+शीर हीटिंग,shear heating
+शीर्ष,vertex
+शेरा प्रिंटर्स,Shera printers
+शेल,shell
+शैंक,shank
+शैंक निकासी,shank clearance
+शैंक प्रोफ़ाइल,shank profile
+शो मी ऐनिमेशन,Show Me animation
+श्रिंकव्रैप,shrinkwrap
+श्रिंकव्रैप विकल्प,shrinkwrap substitute
+श्रृंखला आयाम,chain dimension
+श्रृंखला चयन,chain selection
+श्रेणी,range
+संकुचन,shrinkage
+संदर्भ ज्यामिति,reference geometry
+संदर्भ डिज़ाइन,reference design
+संदर्भित ऑब्जेक्ट,referenced object
+संदर्भित घटक,referenced component
+संपर्क बिंदु,contact point
+संपर्क बिंदु सीमा,contact point boundary
+संयुक्त उत्पत्ति,joint origin
+संयुक्त उद्गम बिंदु,joint origin point
+संयोग बाधा,coincident constraint
+संरचनात्मक बकलिंग अध्ययन,structural buckling study
+संरचनात्मक बकलिंग सिमुलेशन,structural buckling simulation
+संरचनात्मक सदस्य,structural member
+संरेखण,alignment
+संरेखित सेक्शन व्यू,aligned section view
+सकारात्मक दिशा,positive direction
+सतह,surface
+सतह की छंटाई,surface trimming
+सतह की बनावट,surface texture
+सतह को बढ़ावा देना,promote surface
+सतह जांच,surface probe
+सतह निरीक्षण समूह,surface inspection group
+सतह प्रक्षेपण,surface projection
+सतह सामान्य,surface normal
+सतह सामान्य आर्क,surface normal arc
+सतही निकाय,surface body
+सतही फ़िलेट,surface fillet
+सतही फ़ेस,surface face
+सतही साहचर्यता,surface associativity
+सदस्य,member
+समग्र वक्र,composite curve
+समतल फ़ेस,planar face
+समतलीय,coplanar
+समय स्लाइडर,time slider
+समाचार समूह,newsgroup
+समानांतर प्लेन,parallel plane
+समानांतर फ़ीचर निर्माण,parallel feature construction
+समोच्च निकला हुआ किनारा,contour flange
+सरल उपाय समूह,simple measures group
+सरल कार्यक्षेत्र,simplify workspace
+सरलीकृत DWG,simplified DWG
+सहनशीलता,tolerance
+सहायक व्यू,auxiliary view
+सहायता जनरेशन,support generation
+सहायता सेटिंग्स,support settings
+सहिष्णुता बैंड,tolerance band
+साइट लाइन,sight line
+साइड,side
+साइड कोर,side core
+साइड लॉक,side lock
+सामग्री का बिल,bill of materials
+सामग्री मॉडल,material model
+सामग्री सटीकता,material accuracy
+सामान्य सामग्री,common material
+सिमुलेटेड अभिविन्यास,simulated orientations
+सिमुलेशन अध्ययन,simulation study
+सिमुलेशन मेश,simulation mesh
+सिमुलेशन मॉडल,simulation model
+सिलेंडर,cylinder
+सीमा,boundary
+सीमा ट्रिम करना,trim boundary
+सीमा पैच,boundary patch
+सीलिंग प्लग,sealing plug
+सुइट वर्कफ़्लो,suite workflow
+सुचारू,smooth
+सुचारू प्रदर्शन मोड,smooth display mode
+सुचारू मोड,smoothing mode
+सुचारू सहिष्णुता कारक,smoothing tolerance factor
+सुरक्षित ज्यामिति,preserve geometry
+सेंसर,sensor
+सेक्शन व्यू,section view
+सेगमेंट,segment
+सेटअप WCS,setup WCS
+सेटअप शीट छवि,setup sheet image
+सेल शेडिंग,cel shading
+सेल्फ़-टैपिंग स्क्रू,self-tapping screw
+स्किल बिल्डर,Skill Builder
+स्केच इकाई,sketch entity
+स्केच एज,sketch edge
+स्केच ग्रिढ,sketch grid
+स्केच चित्रण,sketch illustration
+स्केच्ड प्रतीक,sketched symbol
+स्केच्ड विशेषता,sketched feature
+स्कैटर प्लॉट,scatter plot
+स्क्रैच ज़ोन,scratch zone
+स्टार बिंदु,star point
+स्टिपल काउंट,stipple count
+स्टील साटन,steel satin
+स्टेपओवर,stepover
+स्टेपडाउन,stepdown
+स्टॉक,stock
+स्टॉक मॉडल,stock model
+स्टॉप पिन,stop pin
+स्ट्रोमैन प्रिंटर,Straumann printers
+स्थानीय समन्वय प्रणाली,local coordinate system
+स्थिति सूचना अंतराल को हल करना,solve status information interval
+स्थिरता ID,fixture ID
+स्थिरता ऑफ़सेट,fixture offset
+स्थिर-त्रिज्या फ़िलेट,constant-radius fillet
+स्निपेट,snippet
+स्पर गियर,spur gear
+स्पर्शरेखा दिशा,tangent direction
+स्पर्शरेखा प्लेन,tangent plane
+स्पॉट ड्रिल,spot drill
+स्पॉटफेस,spotface
+स्प्रू,sprue
+स्प्रू बशिंग,sprue bushing
+स्प्लाइन,spline
+स्मार्ट सर्फेसर,Smart Surfacer
+स्रोत घटक,source component
+स्लाइड कोर,slide core
+स्लाइडर,slider
+स्व सममित,self symmetric
+स्वचालित उपकरण परिवर्तक क्षमता,automatic tool changer capacity
+स्वचालित ऑर्डरिंग,automatic ordering
+स्वचालित फ़ीचर पहचान,automatic feature recognition
+स्वचालित फ़ेस चेन,automatic face chain
+स्वचालित रूटिंग,automatic routing
+स्वचालित सत्यापन,automatic verification
+स्वतंत्र PCB,independent PCB
+हवाई जाल,air trap
+हाइपरलास्टिक सामग्री मॉडल,hyperelastic material model
+हार्नेस पार्ट,harness part
+हार्नेस सेगमेंट,harness segment
+हावभाव व्यवहार,gesture behavior
+हिट ट्रांसफ़र पाइप,heat transfer pipe
+हिट लोड,heat load
+हेक्स वॉशर,hex washer
+हेडनोड,headnode
+हैच पैटर्न,hatch pattern
+हैचिंग,hatching
+होम लोकेशन,home location
+होल टेबल,hole table
+होल फ़ीचर,hole feature
+होस्ट,host

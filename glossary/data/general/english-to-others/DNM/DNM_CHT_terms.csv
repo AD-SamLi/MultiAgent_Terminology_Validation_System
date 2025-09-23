@@ -1,0 +1,639 @@
+﻿source,target
+3D Print,3D 列印
+ABF,ABF
+Accept,接受
+admin,管理員
+administrator,管理員
+air trap,包封
+aligned section view,對齊剖面視圖
+all-around symbol,全周符號
+alternate unit,對照單位
+analytical surface,解析表面
+angle increment,角度增量
+angular speed,角速度
+animation footage,動畫畫面
+application,應用程式
+Apply,套用
+Arcam EBM,Arcam EBM
+assembly constraint,組合約束
+assembly pattern,組合陣列
+asset library,資產資源庫
+ATU,ATU
+Autodesk Manufacturing Community Portal,Autodesk 製造業社群入口網站
+Autodesk Masters award,Autodesk 大師獎項
+Autodesk Masters Program,Autodesk 大師計劃
+Autodesk Partner,Autodesk 合作夥伴
+Autodesk Projects,Autodesk 專案
+Autodesk Vault Professional edition,Autodesk Vault Professional 版本
+auto-draw tool,自動著色刀具
+automatic face chain,自動面鏈
+automatic routing,自動佈線
+automatic verification,自動驗證
+axis,軸
+axis offset,軸偏移
+axle,軸
+background processing,背景處理
+ball mill,球磨機
+ball nosed tool,球刀
+ball screw,滾珠螺桿
+base body,基準本體
+base class,基本類別
+base point,基準點
+Baseplate,底板
+Basic Imaging Profile,基本影像設定檔
+baud rate,鮑率
+beam detail,樑詳圖
+Belleville spring,皿形彈簧
+bent tubing route,曲管佈線
+bill of material,材料表
+BINVOX,BINVOX
+biocompatible material,生物相容材料
+blend surface,混成曲面
+blisk,葉片
+body load,本體負載
+BOM Object,BOM 物件
+boss,凸轂
+boundary patch,邊界補面
+Bounding Box,邊界框
+bouquet,花束
+bowtie,控制點
+braking torque,制動扭矩
+branch connection,分支連接
+Break Link,中斷連結
+brickify,磚砌
+brush,筆刷
+build plate,建置板
+building process,建置程序
+buildroom,建置房間
+build-time estimation,建置時間估算
+bulk load,批量載入
+bump,凸紋
+bump map,凸紋貼圖
+bump mapping,凸紋貼圖
+burn mark,燒灼痕跡
+burn region,放電區域
+CA certificates,CA 認證
+cable tray,電纜托盤
+callout style,圖說型式
+canvas,畫布
+cap filleting,收頭圓角處理
+cascade water junction,圓管形水隔板
+caterpillar,熔接聯珠
+cavity,母模仁
+center line,中心線
+center pin,中心銷
+centre point,中心點
+centric axis,中心軸線
+chain dimension,連續標註
+chamfer tool,倒斜角工具
+circlip,扣環
+circular pitch,周節
+circular tapered gate,圓錐形灌嘴
+circumferential speed,圓周速度
+clearance,間隙
+clip planes,裁剪平面
+close flat,封閉平面
+closed edge,封閉邊
+closed return bend,封閉式回彎
+cloud data,點雲資料
+coating,塗層
+code snippet,程式碼片段
+coincident constraint,重合約束
+co-injection molding,共射出成型
+cold slug,冷料穴
+collision,干涉
+command window,命令視窗
+Common Core,共同核心
+common material,通用材料
+component visibility,元件可見性
+composite curve,複合曲線
+compound hole,複合孔
+Computenode,計算節點
+concentricity,同圓心
+conduit,導管
+Configurator 360,Configurator 360
+connector,接頭
+connector pin,連接器接腳
+constant-radius fillet,固定半徑圓角
+constrained object,受約束的物件
+constraint,約束
+contact point boundary,接觸點邊界
+Content Center Editor,資源中心編輯器
+content library,圖庫
+contour flange,輪廓線凸緣
+control vertex,控制頂點
+control vertex hull,控制頂點關聯線
+control vertices hull,控制頂點關聯線
+convex,凸面
+coolant,冷卻液
+cooling wizard,水路精靈
+coordinate,座標
+COPPA,COPPA
+Copy Design,Copy Design
+core,公模
+core pin,模仁銷
+Corner Filleting,轉角倒圓角
+corner filleting style,轉角倒圓角樣式
+cosmetic weld bead,表面焊道
+crimp,卷曲
+cross section analysis,斷面分析
+cross-highlighting,交互亮顯
+current directory,目前目錄
+curvature continuous fillet,曲率連續圓角
+curve definition,曲線定義
+curve editor,曲線編輯器
+custom part library,自訂零件資源庫
+cutter compensation,切削補償
+cutting line,割面線
+CV,CV
+CV hull,CV 關聯線
+cycle,循環
+database exports,資料庫匯出
+Datagram,資料包
+datum reference frame,基準參考框
+decal,印花
+decision support system,決策支援系統
+defeaturing,移除特徵
+demote,降級
+Dental Wings printers,Dental Wings 印表機
+deposition layer,沈積層
+depth of cut,切削深度
+depth of field,景深
+design conflict,設計衝突
+design reservation,設計保留
+dial-up network connection,撥號網路連接
+die formed lofted flange,成型模斷面混成彎板
+direction tolerance,方向公差
+DirectX Runtime,DirectX Runtime
+dots per inch,每英吋點數
+downskin,下表層
+downskin analysis,下表層分析
+Downskin Border Polygon,下表層邊界多邊形
+DPI,DPI
+draft angle,拔模角度
+draft surface,拔模曲面
+Draw panel,「繪製」面板
+drawing group,圖面群組
+drilling cycles,鑽孔循環
+drilling toolpaths,鑽孔刀具路徑
+drive curve,導引曲線
+DSS,DSS
+DTD,DTD
+DTLS server,DTLS 伺服器
+duct connector,管道接頭
+dump,轉儲
+Duplex Printing,雙面列印
+dynamic preview,動態預覽
+EBM,EBM
+edge index,邊緣索引
+Edge lambda,邊緣 Lambda
+edit in place,現地編輯
+edit point,編輯點
+EDM,EDM
+ejection temperature,頂出溫度
+ejector,頂出裝置
+ejector pin,頂針
+ejector plate,下頂出板
+elbow,彎頭
+electric discharge machining,放電加工
+Electro Discharge Machining,放電切削
+electrode,電極
+electronic distance meter,電子測距儀
+ELF object,ELF 物件
+emboss,浮雕
+end fill,接合端
+end of fill pressure,充填結束時的壓力
+end point,終點
+end treatment,接合形式
+Express mode,快速模式
+Expression Builder,表示式建置器
+exterior corner,外部轉角
+external frame,外部框架
+extract,解壓縮
+face draft,面拔模
+face group,面群組
+Fasteners library,結件資源庫
+feature,特徵
+feature collision,特徵干涉
+feature control frame,特徵控制框
+feature group,特徵群組
+feed rate,進給率
+field fit,現場配合
+file doctor,檔案診斷
+filestore,檔案倉庫
+fill pattern,填滿樣式
+fillet feature,圓角特徵
+fillet style,倒圓角樣式
+Finish panel,「完成」面板
+fixed edge draft,固定邊拔模
+fixture,裝置
+fixture offset,夾具偏置
+flat pattern,展開圖
+flat shading,平板描影
+flood solution,洪水解決方案
+flow rate,流速
+flush constraint,齊平約束
+focal plane,焦點平面
+foil reservoir,箔製貯墨器
+fold,摺疊
+free drag,自由拖曳
+free orbit,自由環轉
+freeform edit,自由形式編輯
+freeform shape,自由形式造型
+Full Navigation wheel,完整導覽操控盤
+full round fillet,全圓圓角
+functional design,功能設計
+Fusion Lifecycle,Fusion Lifecycle
+Fusion Modeling Data,Fusion Modeling Data
+gate,灌嘴
+GATT Service Changed,GATT 服務已變更
+generative design,衍生式設計
+geocode manager,地理編碼管理程式
+gesture behavior,手控模式
+gouge,過切
+graphic handle,圖形控點
+graphics card,圖形卡
+gripper,夾子
+groove weld,起槽熔接
+ground plane,地平面
+ground shadow,地面陰影
+grounded work point,不動工作點
+Grow to Box,方框增大
+hard transition,硬轉換
+harness part,線束零件
+harness segment,線束段
+hatch,填充線
+hatch pattern,填充線樣式
+hatching,填充線
+Headnode,主節點
+heat transfer pipe,導熱管
+Helius Composite,Helius Composite
+Helius PFA,Helius PFA
+holder clearance,夾頭間隙
+horizontal arc,水平圓弧
+HSV,HSV
+Human Interface Device Protocol,人性化介面裝置通訊協定
+hydroforming,液壓成形
+Hypertext Transfer Protocol,超文字傳輸通訊協定
+I section,I 型
+iCopy,iCopy
+iFeatures,iFeatures
+iLogic Design Copy,iLogic 設計複製
+impersonating user,模擬使用者
+inactive component,非作用中的元件
+in-canvas tool,圖元區工具
+infer constraints,推論約束
+inference,推論
+injection cone,射嘴
+injection-compression molding,射壓成型
+insulation displacement,絕緣位移
+intelligent cursor,智慧游標
+interlock,定位塊
+intermittent weld,間斷熔接
+internal frame,內部框架
+iPart Author,iPart 建立
+iProperties,iProperties
+ISTE,ISTE
+item deletion restrictions,料件刪除限制
+item revision,料件版序
+item revision number,料件版序號碼
+JIT option,JIT 選項
+job queue,工作佇列
+jump delay,跳轉延遲
+key point,關鍵點
+kinematic chain,運動鏈
+L section,L 型
+landing surface,著陸表面
+language pack,語言套件
+laser jump delay,雷射跳轉延遲
+laser mark delay,雷射標記延遲
+laser polygon delay,雷射多邊形延遲
+lattice,晶格
+lattice and skin optimization,晶格和表層最佳化
+Lattice Commander,晶格指令器
+Launchpad,啟動台
+layer,圖層
+layer height,層高度
+layer stack,圖層堆疊
+lbf,lbf
+Learning Inventor 2010,研習 Inventor 2010
+lease period,租賃期限
+lesser version,較低版本
+Level,等級
+license server,授權伺服器
+lifecycle transition limit,生命週期轉變限制
+lifter,斜頂出器
+Live Enabler,Live Enabler
+live update,即時更新
+load diagram,負載圖
+lock set,定位塊群組
+lofted flange,折疊斷面混成彎板
+loop,迴路
+LRO,LRO
+MachineDNA,MachineDNA
+machining toolpath,加工刀具路徑
+Manage Extension,管理延伸
+manipulator,操控點
+Mapbox plugin,Mapbox 外掛程式
+markup,標記
+mass flow rate,質量流速
+material accuracy,材料精度
+material ID,材料 ID
+maximum clamp force,最大鎖模力
+mechanistic movement,機械移動
+medial axis,中軸
+member,成員
+mesh,網格
+mesh view,網面視圖
+mesher,網面產生器
+milling tool,銑削刀具
+mirror plane,鏡射平面
+Model area clearance,模型粗加工
+model complexity,模型複雜性
+model files,模型檔案
+model limits,模型限制
+model translation,模型轉換
+moderator,審核者
+mold,模具
+mold base,模座
+molding window,成型視窗
+MTT,MTT
+multi-body,多重本體
+multibody workflow,多重本體工作流程
+multi-body workflow,多重本體工作流程
+multi-cavity mold,多模穴模具
+multiple composites,多件複合體
+MultiValue,多值
+Namespace declarations,命名空間宣告
+navigation bar,導覽列
+NC Programs,NC 程式
+NC setup,NC 設置
+neck,頸
+negative shell,負薄殻
+nesting,排版
+netfabb Engine,netfabb 引擎
+New Features Workshop,新功能介紹
+newsgroup,新聞群組
+NG,NG
+NGSS,NGSS
+nodal moment,節點力矩
+non-production,非生產版本
+non-rectangular viewport,非矩形視埠
+note,註記
+Numbering Panel,編號面板
+Numbering Schemes,編號規則
+object category,物件品類
+Object ID,物件 ID
+offset distance,偏移距離
+OpenSSL,OpenSSL
+organic modeling,有機建模
+Orientation vector machining,方向向量加工
+orientation vectors,方向向量
+origin work feature,原點工作特徵
+Original File Name,原始檔名
+o-ring,O 型環
+outer angle,外角
+outlining,自動大綱顯示
+overlap,重疊
+parent account,家長帳戶
+part visibility,零件可見性
+Particle,粒子
+parting design,分模設計
+parting diagnostic,分模診斷
+password policy requirement,密碼規則需求
+patch,補面
+patching surface,修補曲面
+path sketch,路徑草圖
+pattern entity,參考線實體
+pattern feature,陣列特徵
+PCRE,PCRE
+pencil trace,清角追蹤
+physical material,實體材料
+pin constraint,銷約束
+pipe plug,管塞
+pitch diameter,節圓直徑
+pitch line,節距線
+placed feature,置入特徵
+planar curve,平面曲線
+planar face,平物面
+plastic part,可塑性零件
+plate detail face,板詳面
+plate fixture,板裝置
+Poisson ratio,蒲松氏比
+polygon delay,多邊形延遲
+polygonised,多邊形化
+POSIX,POSIX
+POSIX collating elements,POSIX 校勘元素
+PowerMill Additive,PowerMill 增材
+press brake,折床
+Press/Pull,按/拉
+pressed joint,加壓接頭
+pressure drop,壓降
+pressure loss,壓力損耗
+preview,預覽
+Primary,主要
+PRM file,PRM 檔案
+PRM generation,PRM 產生
+Pro,Pro
+probe body,探測本體
+production version,生產版本
+Profile Passes,輪廓路徑
+program point,程式點
+progressive tooltip,漸進式工具提示
+project,專案
+project explorer,專案總管
+Project Simulus,Project Simulus
+Projects,專案
+promote surface,晉級曲面
+property mapping,性質對映
+protrusion,突出
+puck,選集指標
+pull direction,拔模方向
+quadrant point,四分點
+quarter section view,四分之一剖面視圖
+quilt,縫合曲面
+randomized seam,隨機化接縫
+range,範圍
+reaction force,反作用力
+realistic appearance,擬真外觀
+recoating,塗覆
+recursion limit,遞迴限制
+recursive depth,遞歸深度
+referencing toolpaths,參考刀具路徑
+reflectivity,反射
+refold,重新摺疊
+re-index,重新建立索引
+release,版本
+replication,複製
+repositioned,重新定位
+reservation,保留
+resin identification code,樹脂識別代碼
+restored pattern element,還原陣列元素
+revision format,版序格式
+revision mark,版序標記
+revision scheme format,版序規則格式
+revision tag,修訂標籤
+ribbon cable,排線
+RLE,RLE
+rule fillet,規則圓角
+ruled surface,直紋面
+runoff loop,分型線
+runoff surface,分型面
+scale,比例
+sealing plug,密封塞
+Secondary,次要
+segment,線段
+shank,刀桿
+Shank clearance,刀桿間隙
+Shank profile,刀桿輪廓
+shape,造型
+shear heating,剪切生熱
+shear rate,剪切率
+sheet metal face,板金面
+shell,薄殼
+Shera printers,Shera 印表機
+Show Me animation,展示動畫
+shrinkwrap,包膜
+shrinkwrap substitute,包膜替代件
+side core,側型芯
+side lock,側面閉鎖器
+Simulated Orientations,模擬方向
+Simulation Utility,Simulation Utility
+single composite,單一複合
+Single Point of Failure,單一故障點
+sketch edge,草圖邊
+sketch grid,草圖格線
+sketch illustration,草圖插圖
+sketched feature,草繪式特徵
+sketched symbol,草繪式符號
+Skill Builder,技能演練
+slide core,滑塊芯
+SLS,SLS
+Smart Surfacer,智慧曲面
+smoke,煙霧
+smoke circle,煙霧圈
+smoke simulation,煙霧模擬
+snippet,片段
+soft box,柔光箱
+soft transition,軟轉換
+solid face,實體面
+Solid Support,實體支撐
+SolidscapeDL Printer,SolidscapeDL 印表機
+solver,求解器
+source component,來源組件
+Spindle calibration,主軸校正
+split rivet,一般用途扁圓頭開口鉚釘
+split surface,分模面
+spotface,淺柱坑
+sprue,注料口
+sprue bushing,注料口襯套
+spur gear,正齒輪
+SSL handshake,SSL 交握
+SSL session,SSL 階段作業
+standard appearance,標準外觀
+start point,起點
+step size,步長大小
+stepover,刀間距
+stipple count,點刻計數
+STL,STL
+stop pin,止動銷
+strain,應變
+strategy,工法
+Straumann printers,Straumann 印表機
+stress analysis,應力分析
+stripe,條紋
+stripe angle,條紋角度
+stripe gap,條紋間隙
+Structo Velox printer,Structo Velox 印表機
+structural member,結構構件
+student design,學生設計
+Suite Workflows,套件工作流程
+suppressed assembly pattern element,抑制的組合陣列元素
+surface associativity,曲面關聯性
+surface body,曲面本體
+surface face,曲面面
+surface fillet,曲面圓角
+surface normal,曲面法線
+surface normal arc,曲面法線圓弧
+surface texture,表面加工
+surface trimming,曲面修剪
+sweep,掃掠
+symbol definition,符號定義
+tangent direction,切線方向
+target component,目標組件
+team,團隊
+terminal electrical properties,端子電氣性質
+terminator,終止符
+tessellation,鑲嵌
+Thick Client,Thick Client
+thickness,厚度
+Thin Client,Thin Client
+thin-walled support shape,薄壁支撐造型
+third-angle projection,第三角法投影
+three quarter section view,四分之三剖面視圖
+thumb screw,指捻螺釘
+time estimation,時間估算
+time slider,時間滑棒
+tonemap method,色調貼圖方法
+tool,刀具
+tool assembly,刀具組件
+tool axis,刀軸
+tool database,刀具資料庫
+tool entity,刀具實體
+tool shank,刀桿
+tool tip radius,刀尖半徑
+tooling,工具
+toolpath,刀具路徑
+Toolpath Calculation,刀具路徑計算
+Toolpath Edit menu,刀具路徑編輯功能表
+toolpath points,刀具路徑點
+toolpath segments,刀具路徑線段
+toolpath workplane,刀具路徑工作座標
+torque load,扭矩負載
+trim boundary,裁剪邊界
+trivial hole,細小孔
+trochoid,螺旋線
+U Section,U 型
+ultimate tensile strength,極限抗拉強度
+undercut,讓切
+Undercut option,倒勾選項
+underlay,參考底圖
+underlay geometry,參考底圖幾何圖形
+undirected angle,無向角
+unfold method,展開規則
+upskin,上表層
+Upskin Border Polygon,上表層邊界多邊形
+User Datagram Protocol,使用者資料包通訊協定
+valve gate,閥澆口
+variable-radius fillet,變動半徑圓角
+Vault blog,Vault 部落格
+vaulted version,Vault 中的版本
+vaulting restriction,Vault 限制
+v-belt,V 型皮帶
+vent,排氣孔
+viewer mode,檢視器模式
+vin tiles,Vin 並排
+visualization file,視覺化檔案
+volumetric flow rate,體積流速
+Vortex toolpath,旋風刀具路徑
+voxel,立體像素
+wall thickness,牆厚度
+watermark,浮水印
+web thickness,腹板厚度
+wedge,楔形塊
+weld line,熔接線
+weld symbol,熔接符號
+welding neck flange,帶頸熔接凸緣
+wire run,線材管路
+wireframe display,線架構顯示
+work axis,工作軸線
+work feature,工作特徵
+work plane,工作平面
+work surface,工作曲面
+workpiece,公母模仁胚料
+workplane,工作座標
+worm gear,蝸輪
+Wrap Wizard,貼覆精靈
+X-ray ground shadow,X 射線地面陰影
+yaw,偏擺
+yield strength,降伏強度

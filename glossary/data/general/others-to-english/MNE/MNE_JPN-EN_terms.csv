@@ -1,0 +1,188 @@
+﻿source,target
+3D マット,3D matte
+管理者設定,Admin Settings
+高度なスカルプト アトリビュート,advanced sculpt attributes
+アルファブレンド,alpha-blend
+角速度,angular speed
+Autodesk Masters アワード,Autodesk Masters award
+Autodesk Masters プログラム,Autodesk Masters Program
+軸オフセット,axis offset
+ベイク処理,bake
+ベース メッシュ,base mesh
+ビッド,bid
+バイナリ ラージ オブジェクト,binary large object
+バインド ポーズ,bind pose
+ブレンド モード,blend mode
+ブレンド サーフェス,blend surface
+ブラー,blur
+ブックマーク,bookmark
+境界エッジ,border edge
+バウンディング ボックス,bounding box
+ブラシ,brush
+ブラシ ストローク,brush stroke
+ビルトイン ノード,built-in node
+膨らみ係数,bulge
+バンプ,bump
+バンプ マップ,bump map
+バンプ マッピング,bump mapping
+カメラ,camera
+内倒し,casement
+キャラクタ ラージ オブジェクト,character large object
+キャラクタ リグ,character rig
+クリア コートの粗さ,clear-coat roughness
+CLOB,CLOB
+クラウド利用権,Cloud Rights
+カラー パレット,colour palette
+コンポーネント,component
+コンストレインされたオブジェクト,constrained object
+契約日,contract date
+座標参照系,coordinate reference system
+CPV,CPV
+CSV 出力書式,CSV output formatting
+CV,CV
+CV ハル,CV hull
+DAG,DAG
+既定のタスク テンプレート,default task template
+既定値,default value
+部門,department
+被写界深度,depth of field
+拡散カラー,diffuse color
+数値標高モデル,digital elevation model
+ディスプレイスメント マップ,displacement map
+変位倍率,displacement scale
+ディザリング,dithering
+DOF,DOF
+ドリー,dolly
+仰角軸,elevation axis
+放出カラー,emissive color
+エンティティ,entity
+評価マネージャ,Evaluation Manager
+書き出しツールの出力,exporter output
+抽出,extraction
+スポイト,eyedropper
+フェース,face
+減衰,falloff
+減衰ランプ,Falloff Ramp
+フィレット,fillet
+フィルタ パネル,Filter Panel
+フローティング ライセンス,floating license
+塗り潰しアルゴリズム,flood algorithm
+フラグメント,fragment
+フレーム,frame
+フレーム レート,frame rate
+フルボディのインバース キネマティクス,full-body inverse kinematics
+ガンマ,gamma
+ガウス スムーズ フィルタ,gaussian smooth filter
+ゴースト,ghost
+ゴースト化ドライバ,ghost driver
+ゴースト化,ghosting
+ジンバル ロック,gimbal lock
+グローバル既定,Global Default
+GPU のオーバーライド,GPU Override
+グラフ エディタ,Graph Editor
+グラフ スタイル,Graph Style
+ガイド ポーズ,guide pose
+ハードウェア シェーダ,hardware shader
+ホットキー,hotkey
+イメージ マップ,image map
+イメージ プレーン,image plane
+イメージ ベースド ライティング,image-based lighting
+アプリ内チャット,In-App chat
+瞬時シャッター,instantaneous shutter
+内部リソース,internal resources
+補間,interpolation
+論理積分類,intersection classification
+アイソパラム,isoparm
+ジョイント,joint
+キーフレーム,keyframe
+旧式の XGen,legacy XGen
+レベル,level
+サーフェス制限,limit surface
+メッシュ,mesh
+メッシュのサンプリング,mesh sampling
+メッシュ頂点,mesh vertex
+メッシャー,mesher
+中間トーン,mid-tone
+モディファイヤ,modifier
+負の色,Negative Color
+ノードロック ライセンス,node-locked license
+法線マップ,normal map
+NTSC,NTSC
+NURBS,NURBS
+オブジェクト空間,object space
+不透明度,opacity
+オペレータ,operator
+アウトライン,outline
+出力タイプ,output type
+パーティクル ビュー,Particle View
+人日,person day
+基点,Pivot
+ピクセル化された球,pixelated globe
+プレイリスト,Playlist
+[ポリゴンのモデリング]シェルフ,poly modeling shelf
+ポリゴン,polygon
+ポーズ,pose
+プライマリ パス,prim path
+プリミティブ,primitive
+投影マッピング,projection map
+プロキシ,proxy
+クォータニオン,quaternion
+クエリー フィールド,query field
+クイック リグ,quick rig
+RAW ドライバ,raw driver
+レイ トレーシング,ray tracing
+反射マップ,reflection map
+通常のポリゴン,regular polygon
+リトポロジ化,retopologize
+リトポロジ,retopology
+リトポロジ メッシュ,retopology mesh
+リトポロジ モディファイヤ,retopology modifier
+リトポロジ プロセス,retopology process
+リトポロジ ツール,retopology tools
+フォームを元に戻す,Revert Form
+ロールアウト,rollout
+の上にカーソルを合わせ,rollover
+丸みのある長方形,rounded rectangle
+セーフ フレーム,Safe Frame
+サンプル ポイント,sample point
+スクリーンから投影,screen projection
+スクリプト エディタ,script editor
+スクリプト タブ,script tab
+スカルプト,sculpt
+サーバ側のイベント,server-side event
+シェーディング,shading
+Shotgun サイト,Shotgun site
+特異性,singularity
+スロープ オフセットべき,slope-offset-power
+スムーズ係数,smooth factor
+スムージング,smoothing
+SMPTE,SMPTE
+SOP,SOP
+鏡面反射光ハイライト,specular highlight
+スプライン ノット,spline knot
+ステータス リスト,status list
+ステンシル,stencil
+ストローク,stroke
+サブディビジョン レベル,subdivision level
+合成縦断,superimposed profile
+サポート チーム,support team
+サーフェスのトリム,surface trimming
+スイープ メッシュ,sweep mesh
+同期,Sync
+タスク テンプレート,task templates
+しきい値,threshold
+タイムライン,timeline
+トポロジ,topology
+キャップを三角形化,Triangulate Cap
+タンブル,tumble
+ユニバーサル マニピュレータ,universal manipulator
+使用状況データ,usage data
+UV セット,UV set
+頂点 ID,vertex ID
+頂点マップ,vertex map
+頂点法線,vertex normal
+頂点価数,vertex valence
+波形表示,Waveform Display
+Webhook のステータス,Webhook status
+Z ベクトル,z vector
+ゼロ パディング,zero padding

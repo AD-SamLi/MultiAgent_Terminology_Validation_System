@@ -1,0 +1,64 @@
+﻿source,target
+alpha-blend,łączenie alfa
+angular speed,prędkość kątowa
+Autodesk Masters award,Nagrody Autodesk Masters
+Autodesk Masters Program,Program Autodesk Masters
+axis offset,odsunięcie osi
+binary large object,wielki obiekt binarny
+bind pose,ustalona poza
+blend mode,tryb łączenia
+blend surface,powierzchnia połączenia
+border,granica
+bounding box,ramka ograniczająca
+bulge,wybrzuszenie
+bump,wypukłość
+bump map,mapa wypukłości
+bump mapping,mapowanie wypukłości
+camera,kamera
+casement,skrzydło okienne
+character large object,wielki obiekt znaku
+CLOB,CLOB
+closed edge,zamknięta krawędź
+constrained object,obiekt związany
+constraint solver,funkcja rozwiązywania ograniczeń
+control vertex,wierzchołek sterujący
+control vertex hull,powłoka z wierzchołków sterujących
+control vertices hull,powłoka z wierzchołków sterujących
+coordinate reference system,układ współrzędnych odniesienia
+depth of field,głębia ostrości
+digital elevation model,cyfrowy model wysokościowy
+displacement scale,skala przemieszczenia
+dithering,wyrównywanie
+DOF,DOF
+elevation axis,oś rzędnych
+fillet,zaokrąglenie
+Filmbox,Filmbox
+full-body inverse kinematics,Kinematyka odwrotna całej bryły
+hardware shader,sprzętowe narzędzie cieniowania
+i-drop target,element docelowy i-drop
+isoparm,krzywa izoparametryczna
+knuckle,przegub
+layer,warstwa
+level,poziom
+linear array,szyk liniowy
+MatchMover,MatchMover
+mesh,siatka
+mesher,moduł generowania siatki
+Meshmixer,Meshmixer
+MUD,MUD
+Mudbox,Mudbox
+NTSC,NTSC
+OBJ,OBJ
+opacity,nieprzezroczystość
+OpenEXR,OpenEXR
+ray tracing,śledzenie promieni
+reflection map,mapa odbić
+sample point,punkt próbki
+secondary joint,połączenie pomocnicze
+slope-offset-power,nachylenie-przesunięcie nośnych-moc
+SMPTE,SMPTE
+SOP,SOP
+street furniture,meble uliczne
+superimposed profile,utwórz profil nałożony
+surface trimming,przycinanie powierzchni
+universal manipulator,manipulator uniwersalny

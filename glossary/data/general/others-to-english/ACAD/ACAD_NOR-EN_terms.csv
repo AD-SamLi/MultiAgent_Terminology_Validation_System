@@ -1,0 +1,132 @@
+﻿source,target
+3D-flytting,3D Move gizmo
+3D-rotering,3D Rotate gizmo
+3D-skalering,3D Scale gizmo
+ALKIS,ALKIS
+analytisk overflate,analytical surface
+kommentarrestriksjon,annotational constraint
+Associative QDIM extension,Associative QDIM extension
+ATIL,ATIL
+AutoCAD Migration Assistance,AutoCAD Migration Assistance
+AutoCAD Mobil,AutoCAD Mobile
+Autodesk Content Explorer,Autodesk Content Explorer
+blandingsmodus,blend mode
+blandingsoverflate,blend surface
+BLOB,BLOB
+redigeringsobjekt for blokk,block authoring object
+egenskapstabell for blokk,block properties table
+avgrenset område,bounded area
+kamerakalibrering,camera calibration
+Catmull-Clark-underoppdelingsflate,Catmull-Clark subdivision surface
+CHAR,CHAR
+CLOB,CLOB
+kaldt håndtak,cold grip
+sammensatt helfylt,composite solid
+restriksjonslinje,constraint bar
+restriksjonsparameter,constraint parameter
+restriksjonspunkt,constraint point
+restriksjonsvariabel,constraint variable
+konstruksjonslinje,construction line
+Kontrolldeksel,control hull
+brett,crease
+CRS,CRS
+CSS,CSS
+CWFU,CWFU
+DCM-motor,DCM Engine
+utheving av avhengigheter,dependency highlighting
+Design Web Format,Design Web Format
+Digital Signature Extension,Digital Signature Extension
+dimensjonsrestriksjon,dimensional constraint
+DMS,DMS
+DOF,DOF
+DPI,DPI
+Drawing Interchange Format,Drawing Interchange Format
+foranderlig restriksjon,driven constraint
+forandrende dimensjon,driving dimension
+DTED,DTED
+DWF,DWF
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DXF,DXF
+dynamisk restriksjon,dynamic constraint
+høyde,elevation
+ESW,ESW
+utvidet hjelpefil,extended help file
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+fasett,facet
+FDO,FDO
+assosiativ avrunding,fillet
+festepunkt,fit point
+brettepanel,fold panel
+frihåndsdesign,freeform design
+geometrisk restriksjon,geometric constraint
+geografisk informasjon,geospatial information
+verktøy,gizmo
+Google Earth,Google Earth
+varmt håndtak,hot grip
+i-drop Enhancer,i-drop Enhancer
+forholdsrestriksjon,infer constraints
+ISA,ISA
+isolinje,isoline
+isoparm,isoparm
+Keyhole Markup Language,Keyhole Markup Language
+KML,KML
+KMZ,KMZ
+knuteparametere,knot parameterization
+språkpakke,language pack
+breddegrad,latitude
+utjevningsgrad,level of smoothness
+slå sammen linjer,line merge
+lengdegrad,longitude
+mental ray,mental ray
+nett,mesh
+Flerspråklig installering,MLD
+modellparameter,model parameter
+flerbrukshåndtak,multi-functional grip
+NANT,NANT
+NAS,NAS
+NCLOB,NCLOB
+nestet referanse,nested reference
+nettverksoverflate,network surface
+NURBS-overflate,NURBS surface
+ObjectARX,ObjectARX
+oktant,octant
+Ohm,Ohm
+organisk modellering,organic modeling
+ortobilde,ortho-image
+overrestriksjon,over-constrain
+P&ID,P&ID
+panorama,panorama
+parametertegning,parametric drawing
+tett flate,patch surface
+blyant,pencil tool
+periodisk kurve,periodic curve
+konstant objekttiltrekking,persistent object snap
+fotomodellering,photo modeling
+fysisk bygging,physical prototyping
+pickfirst-sett,pickfirst set
+PIP,PIP
+plan flate,planar face
+PolarSnap,PolarSnap
+polybuesegment,polyarc segment
+polylinje,polyline
+håndtering av presisjonsforhåndsinnstillinger,precision presets manager
+hurtigbygging,rapid prototyping
+realistisk bilde,reality capture
+referanserestriksjon,reference constraint
+gjør restriksjon inaktiv,relax constraint
+ShapeManager,ShapeManager
+SketchUp,SketchUp
+underoppdelingsnett,subdivision mesh
+underoppdelingsflate,subdivision surface
+overflatenormaler,surface normal
+mosaikk,tessellation
+termoplast,thermoplastic
+underlag,underlay
+opp,up direction
+UV-rom,UV space
+knekkpunkt,vertex
+startskjerm,welcome screen
+XSL,XSL
+upåvirket av zoom,zoom invariant

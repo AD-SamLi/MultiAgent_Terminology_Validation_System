@@ -1,0 +1,551 @@
+﻿source,target
+Airtable,Airtable
+ALKIS,ALKIS
+ASBD,ASBD
+ATIL,ATIL
+BCA,BCA
+BCF,BCF
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+CADmep,CADmep
+Cipolletti,Cipolletti
+CWFU,CWFU
+DECDEG,DECDEG
+DEM,DEM
+Desktop Connector,Desktop Connector
+DMS,DMS
+DTM,DTM
+EDM,EDM
+EGL,EGL
+EVC,EVC
+EVCE,EVCE
+FU,FU
+HDS,HDS
+HGL,HGL
+HP,HP
+IMX,IMX
+Inventor Server,Inventor Server
+LandXML,LandXML
+LAS,LAS
+LF,LF
+LP,LP
+MACP,MACP
+P&ID Modeler,P&ID Modeler
+Photo on ReCap 360,Photo on ReCap 360
+Piranesi EPix,Piranesi EPix
+PlanGrid,PlanGrid
+Pype,Pype
+RCP,RCP
+Roamer,Roamer
+SCS,SCS
+SCSCS,SCSCS
+SCSSCS,SCSSCS
+SketchUp,SketchUp
+Structural Analysis for Revit,Structural Analysis for Revit
+TimeLiner,TimeLiner
+Tinkerplay,Tinkerplay
+Vehicle Tracking,Vehicle Tracking
+XDRef,XDRef
+اتجاه مخاطر الجودة,quality risk trend
+اتجاه مخاطر جودة المقاول الفرعي,subcontractor quality risk trend
+اجتماعات,meetings
+ارتفاع,elevation
+ارتفاع المنحنى,bulge
+ارتفاع درجة المقطع الطولي,profile grade elevation
+اسم المخطط,schema name
+اقتراح,proposal
+اكتساب الحرارة الكامنة من الأشخاص,people latent heat gain
+الاحتياطي,contingency
+الإشغال,occupancy
+الإعدادات,settings
+البحث عن صورة السحابة النقطية,Point Cloud Image Lookup
+البعد الخطي,linear dimension
+التباعد الطولي,longitudinal spacing
+التبخر,evaporation
+التحقق من التداخل,interference check
+التحويل,Place Me
+التدعيم الجانبي,lateral bracing
+التفاوت,tolerance
+التقوس,fillet
+التيار الفعلي,true current
+الجدار الساتر,curtain wall
+الجدول الزمني,timeline
+الجسر الصندوقي,box girder
+الحرارة الكامنة,latent heat
+الحمل الافتراضي,notional load
+الحمل الفعلي,true load
+الحمل الكهربائي,power load
+الحمل الميت,dead load
+الحمل الميكانيكي,mechanical load
+الخلفية,backsight
+الدعم التحليلي,analytical brace
+الدقة,fidelity
+الدليل الحالي,current directory
+الربط بين الحوائط,butt
+الرسم البياني للشبكة,net graph
+السبب الجذري,root cause
+السرعة الزاويّة,angular speed
+السطح,deck
+السطح التحليلي,analytical surface
+السمت,azimuth
+الشكل الضوئي,photometric shape
+الصفحة الرئيسية,Home
+الطابق المعماري,architectural floor
+العقد الرئيسي,main contract
+القدرة الظاهرية,apparent power
+القطاع الناقص,ellipse segment
+القطر الاسمي,nominal diameter
+القطع التكعيبي,cubic parabola
+القوة المميزة,characteristic strength
+الكتلة المفاهيمية,conceptual mass
+الكسب الحراري,heat gain
+الكلمة الرئيسية,keynote
+الكواكب الجليدية العملاقة,ice giants
+المسافة بين القوس والوتر,arc-chord distance
+المسح الخطي,linear takeoff
+المسؤولية الآن على الطرف الآخر,ball in court
+المشكلات,issues
+المشكلة,issue
+المصباح الجاف,dry bulb
+المفصل,knuckle
+المقياس الخطي,linear scale
+الملف المرجعي,reference profile
+المواقع,locations
+المياه الجوفية,ground water
+الميلان,cant
+الميلان نحو الحواف,crown
+النمذجة الهيكلية,structural modeling
+النموذج الأساسي,primary model
+الوعي بالمحتوى,content awareness
+انحناء أحادي الاتجاه,unidirectional bending
+انقلاب,rollover
+إحداثيات شمالية,northing
+إدارة التكاليف,cost management
+إرجاع تدفق الهواء,return airflow
+إزاحة المحاذاة,alignment offset
+إزالة التربة السطحية,stripping top soil
+إطار,frame
+إطار الجدار الساتر,curtain wall frame
+إلغاء طلب المعلومات (RFI),void RFI
+أجزاء فرعية,subassemblies
+أحمال التدفئة والتبريد,heating and cooling loads
+أداة,gizmo
+أداة البدء,initiator
+أداة التحريك ثلاثية الأبعاد,3D Move gizmo
+أداة التدوير ثلاثية الأبعاد,3D Rotate gizmo
+أداة التغييرات,Changes tool
+أداة تسمية المساحات,Space Naming Utility
+أداة داعمة,abutment
+أداة رؤية ثلاثية الأبعاد,3D Scale gizmo
+أساس,foundation
+أساس الجدار,wall foundation
+أعضاء متعددون,multiple members
+أعلى اللوح,slab top
+أعمال الحفر,earthworks
+ألواح الجبس,drywall
+ألومنيوم مصقول,brushed aluminium
+أمر تغيير محتمل (PCO),PCO
+أمر تغيير ميزانية من الجهة العليا,upstream budget change order
+أنابيب مائلة,sloped piping
+أنبوب,conduit
+أنبوب الجاذبية,gravity pipe
+أنبوب الضغط,pressure pipe
+أنبوب دائري,round pipe
+أنبوب متقاطع,crossing pipe
+أوراق متعددة,multi-sheet
+بالوعة مياه الأمطار,storm sewer
+بحث المستخدم,user research
+بلاط سيراميك,ceramic tile
+بناء الهيكل,shell construction
+بيانات ISD,ISD
+بيئة البيانات المشتركة,CDE
+تأثير التكلفة,cost impact
+تتبع الأشعة,ray tracing
+تتبع التقدم,progress tracking
+تجريد الرصيف,stripping pavement
+تحديد,markup
+تحديد السرعة بخطوط,speed striping
+تحديد موقع الإسقاط,drop reference location
+تحليل التغيير,change analysis
+تحليل الجسر بعناصر محدودة,finite-element bridge analysis
+تحليل الطاقة المفاهيمي,conceptual energy analysis
+تحويل الميزانية,budget transfer
+تخطيط الأنبوب,pipe layout
+تخطيط المراحل,phase mapping
+تدرج الميلان,cant gradient
+تدفق سطحي,sheet flow
+تذاكر سريعة,quick tickets
+تذكرة تفاعلية,reactive ticket
+تركيب الأنابيب,pipe fitting
+تركيب السباكة,plumbing fixture
+تركيب القناة,duct fitting
+تركيب إضاءة,lighting fixture
+تسليح مقاوم للانكماش,anti-shrinkage reinforcement
+تصريح الخدمة,service clearance
+تصميم الجسور الهيكلية,Structural Bridge Design
+تصنيف التحميل,load classification
+تطبيق دفع التكلفة,cost payment application
+تطوير الأراضي,land development
+تعديل رأسي,vertical adjustment
+تعزيز المسار,path reinforcement
+تعليق,annotation
+تغييرات المالك,owner changes
+تقديم,submittal
+تقرير التصميم,design report
+تقرير محاذاة المراقبة,stakeout alignment report
+تقرير ميداني,field report
+تقليم,cope
+تكلفة التأثير,impact cost
+تلميع,burnishing
+تمديد الأنبوب,pipe run
+تنسيق الإحداثيات,ordinate dimensioning
+توازن مائل,equilibrium cant
+توصيل الأنبوب,conduit fitting
+ثنائي التماثل,bisymmetric
+جدار القص,shear wall
+جدار حامل,bearing wall
+جدار مجوف,cavity wall
+جدار مدمج,embedded wall
+جدار مكدّس,stacked wall
+جدول الغرفة,room schedule
+جدول القيم,schedule of values
+جدول الكلمة الرئيسية,keynote table
+جدول متغير,turnout table
+جملون فولاذي,steel truss
+جهاز استدعاء الممرضة,nurse call device
+جهاز إضاءة,lighting device
+جهاز كهربائي,electrical equipment
+حاجز أمان,guardrail
+حالة التحميل,load case
+حالة الطبقة,layer state
+حجم القفل,clip volume
+حجم الهواء المتغير,variable air volume
+حجم الهواء المتغير (VAV),VAV
+حد الخط,line boundary
+حزمة المحتوى,content pack
+حساب المواد,takeoff
+حقل RFI مخصص,RFI custom field
+حقل النص,string field
+حمل الحمل الحراري,convection load
+حمل درجة الحرارة,temperature load
+حمل مركز,point load
+حوض,catchment
+حوض التصريف,catch basin
+خاصية انتشار الألوان,diffuse
+خدمة كشف العناصر المتعارضة,clash service
+خريطة الأساس,basemap
+خريطة الفوتونات,photon map
+خريطة مصغرة ثلاثية الأبعاد,3D Mini-map
+خصائص الانحدار الجانبي,superelevation properties
+خصائص المواد,material properties
+خط الحركة السنوي للشمس,analemma
+خط الملكية,property line
+خط المنتصف,center line
+خط المنطقة,region line
+خط درجة المقطع الطولي,profile grade line
+خط متعدد النقاط,polyline
+خندق,trench
+دائرة الطاقة,power circuit
+دائرة فرعية,branch circuit
+دائرة متعددة الأقطاب,multi-poled circuit
+دبوس تثبيت,push pin
+درجة الميلان,pitch
+درجة حرارة تصميم التدفئة,heating design temperature
+دعامة,hanger
+دقة الاختيار,selection resolution
+دليل إرشادي,walkthrough
+دور,role
+ذوبان الجليد,snowmelt
+رُبع منطقة التقاطع,intersection quadrant
+رسم تنفيذي,shop drawing
+رشاش,sprinkler
+ركيزة,pier
+زاوية الانحراف,angle of deflection
+زاوية التوهج,flare angle
+زاوية الميل,tilt angle
+زجاج الرؤية,vision glass
+زجاج الضوء الطبيعي,daylighting glass
+زخرفة الطريق,roadway decoration
+سجل المستندات,document log
+سرعة إيقاف تشغيل التوربين,cut-out speed wind
+سرعة بدء تشغيل التوربين,cut-in speed wind
+سطح,sheet
+سعة التيار,ampacity
+سقف المبني,built-up roof
+سقف مُركب,composition roof
+سقف مدحرج,rolled roof
+سقيفة السقف,roof soffit
+سماكة الشبكة,web thickness
+شبكة الجاذبية,gravity network
+شبكة الجدار الساتر,curtain wall grid
+شبكة الصرف,drainage network
+شبكة تقسيم الجدار,curtain grid
+شبكة سلكية ملحومة,welded wire fabric
+شرائط التنبيه,rumble strips
+شرط التحرير,release condition
+شرط الحد النقطي,point boundary condition
+شركة مقاولات عامة,general contractor company
+شريط النافذة,strip window
+شريط عرضي,transversal bar
+شق بريزمان,Preissmann slot
+شكل العارضة,girder shape
+شكل المجموعة الفرعية,subassembly shape
+صفيحة معدنية منقوشة,treadplate
+صمام أحادي الاتجاه (NRV),NRV
+صمام تنظيم التدفق في القناة,duct damper
+صور التقدم,progress photos
+صور موقع العمل,jobsite photos
+ضغط السرعة,velocity pressure
+طبقة الأساس,base layer
+طراز منشئ النموذج,Model Builder model
+طريق الميلان نحو الحواف,crowned roadway
+طريق غير مقسّم ومحدب,undivided crowned
+طريقة التعديل الأفقي,horizontal adjustment method
+طريقة تحقيق الميل العرضي,superelevation attainment method
+طلب تغيير,COR
+طلب تغيير المورد,supplier change order
+عارضة,girder
+عارضة خرسانية مسلحة صلبة,solid reinforced concrete slab
+عارضة فولاذية,steel girder
+عارضة مائلة,sloped beam
+عارضة مخصصة,custom girder
+عارضة مقعرة,pan joist
+عارضة منحنية,curved beam
+عامل الطلب,demand factor
+عرض القائمة,view list
+عرض المظهر,rendering appearance
+عرض المقطع الطولي,profile view
+عرض المقطع الطولي المترابط,stacked profile view
+عرض الميلان,cant view
+عرض النطاق,swath width
+عرض شبكة المقطع الطولي,profile grid view
+عرض مجمع,aggregate view
+عرض مخطط Gantt للنشاط,Activity Gantt View
+عرض مقطع طولي مقسّم,split profile view
+عرض مقطع محاذي,aligned section view
+عزل الأنابيب,pipe insulation
+عزل القناة,duct lining
+عقدة,node
+علامة,tag
+علامة الحدود,contour label
+علامة الكلمة الرئيسية,keynote tag
+علامة المنتصف,center mark
+علامة النقطة,point marker
+علامة تنبيه,callout tag
+علامة توضيحية,callout markup
+علامة صغيرة,minor tick
+عملية الجرف,washoff
+عمود الجدار الساتر,curtain wall mullion
+عمود الركيزة,pier column
+عنصر السطح التحليلي,analytical floor
+عنصر القيد,constraint element
+عنصر النموذج,form element
+عنصر دعم الوزن,corbel
+غرفة زائدة,redundant room
+غطاء,cap
+غطاء الركيزة,pier cap
+فترة الفوترة,billing period
+فراغ الكابلات,plenum
+فراغ الهندسة,void geometry
+فقدان الضغط,pressure loss
+فلتر المرحلة,phase filter
+قاع اللوح,slab bottom
+قاعدة الدرجة,step footing
+قاعدة بيانات متسلسلة زمنية,scalar TSDB
+قالب,template
+قائمة التوزيع,distribution list
+قسم الممر,corridor section
+قسم المواصفات,spec section
+قشرة,veneer
+قص سطحي,interface shear
+قضيب حديد تسليح,rebar bar
+قضيب منحني,bent bar
+قطر الانحناء,bend diameter
+قطع رأسي مزدوج,two-cut plumb
+قطع مربع مزدوج,two-cut square
+قمة السقف,roof ridge
+قمة متغيرة,variable crest
+قوة الشد,tensile strength
+قوة تحمل الضغط,compressive strength
+قوة مركزة,concentrated force
+كائن BIM,BIM object
+كائن أرضي,ground profile
+كائن بدائي للشبكة ثلاثية الأبعاد,3D mesh primitive
+كائن حساب المواد,takeoff object
+كتاب ميداني,field book
+كتلة الأرضية,mass floor
+كثافة قدرة الإضاءة,lighting power density
+كسوة الطوب,brick veneer
+كشف العدد,count takeoff
+كشف كميات المواد,material takeoff
+كوع بالشارع,street elbow
+لقطة,snapshot
+لقطة جانبية,sideshot point
+لوح أحادي الاتجاه,one way slab
+لوح مفرغ,voided slab
+لوحة التوزيع الكهربائية,panelboard
+لوحة تقسيم الجدار,curtain panel
+لوحة طرفية عالية القوة,HS end plate
+مِصْعَد,riser
+متعاون قوي,power collaborator
+متقلّص,contracted
+متوسط المساحة النهائية,average end area
+مجال الخبرة,discipline
+مجرى الكابلات,cable tray
+مجموعة الأساس,base family
+مجموعة الرسم,drawing group
+مجموعة الرسومات التوضيحية,cartoon set
+مجموعة الرموز,code combination
+مجموعة العناصر المتعارضة,clash group
+مجموعة أجزاء,part family
+مجموعة أدوات محلية,country kit
+مجموعة عوارض,girder group
+مجموعة فرعية,subassembly
+مجموعة نقاط,point group
+محاذاة القضبان,rail alignment
+محاذاة النموذج,model alignment
+محاذاة متوازية,offset alignment
+محامل الأنبوب,pipe bearing
+محدب,convex
+محطة انتقالية,transition station
+محور الارتفاع,elevation axis
+مخطط Gantt,Gantt
+مخطط الأنبوب,pipe plan
+مخطط التحميل,load diagram
+مخطط التسوية,grading plan
+مخطط الطابق,floor plan
+مخطط الطلب,demand diagram
+مخطط المستخدم,user contour
+مراجع,reviewer
+مراجع مشارك,co-reviewer
+مراقب تقاسم العمل,Worksharing Monitor
+مرتكز على الكاميرا,camera-centric
+مرجع البيانات الخارجية,external data reference
+مرفق,attachment
+مركز البيانات,data center
+مساحة الأدوات,toolspace
+مساحة التنسيق,coordination space
+مساحة الفريق,Team Space
+مساحة المبنى,building footprint
+مسافة تقسيم المنحنى,curve tessellation distance
+مساهم,contributor
+مستند,document
+مستوى التضاريس,terrain level
+مستوى القسم,section plane
+مستوى المبنى,building level
+مستوى النعومة,level of smoothness
+مسطح أفقي,level landing
+مسطح غير مقسم,undivided planar
+مسؤول الحساب,account administrator
+مسؤول المراجعة والاعتماد,approver
+مسؤول المشروع,project administrator
+مشاهد,viewer
+مشروع فازاري,Project Vasari
+مصباح رطب,wet bulb
+مصدر العينة,sampled source
+مصرف التكثيف,condensate drain
+مصرف تحت الأرض,underdrain
+مصفوفة خطية,linear array
+مضخة ديناميكية دوارة,rotodynamic pump
+معالج الهواء,air handler
+معامل التفاوت لتقريب النقاط,fuzz
+معامل ذروة التدفق الصناعي,Industrial Peak Flow Factor
+معدل الانحدار الجانبي,superelevation rate
+معدل الإطارات,frame rate
+مقاول عام,general contractor
+مقترض,borrower
+مقطع السطح,surface profile
+مقطع الهيكل,structure profile
+مقياس المسافات الإلكتروني,electronic distance meter
+مكان حوض التجميع,catchment location
+مكتبة الارتباط الديناميكي (DLL),DLL
+مكتبة الأصول,asset library
+مكتبة التوصيلات المتقاطعة,crossover library
+مكتبة المحتوى,content library
+مكتبة صور Autodesk,Autodesk Image Library
+مكون التقاطع,intersection component
+ملحق الأنبوب,pipe accessory
+ملخص العنصر,item summary
+ملف,file
+ممر التفافي للانعطاف,turn slip lane
+منحنى القمة,crest curve
+منحنى بلوس,bloss
+منحنى عائم,float curve
+منحنى مركب,compound curve
+منحنى مقعر,sag curve
+منشئ النموذج,Model Builder
+منطقة التبريد والتدفئة وتكييف الهواء,HVAC zone
+منطقة العرض,viewport
+منطقة الكتلة,mass zone
+منطقة حرارية,heat island
+منطقة حوض التجميع,catchment area
+منطقة مشتركة في المبنى,building common area
+موصل,connector
+موصل القناة,duct connector
+موصل أرضي,ground conductor
+موصل ساخن,hot conductor
+موصل طرفي,end connector
+موصل محايد,neutral conductor
+موقع فرعي,sub-location
+مؤشر العنوان,title mark
+ميل النقطة,spot slope
+نافذة الضوء الطبيعي,daylight portal
+نافذة ثابتة,fixed window
+نافذة علوية,clerestory
+نافذة مفصلية,casement
+نسبة الأسطح غير المنفذة,percentage impervious
+نسبة تجويف الغرفة,room cavity ratio
+نص الكلمة الرئيسية,keynote text
+نص النموذج,model text
+نصف قطر التقوس,fillet radius
+نطاق المتوسط اليومي,mean daily range
+نظام الإحداثيات العالمي,global coordinate system
+نظام الإحداثيات المتوقع,projected coordinate system
+نظام الحماية بشكل مسبق من الحرائق,pre-action fire protection system
+نظام الدرابزين,railing system
+نظام القنوات,duct system
+نظام إحداثيات المستخدم,UCS
+نظام تغذية الهواء,supply air system
+نظام تقسيم الجدار,curtain system
+نقطة PI,PI point
+نقطة التقاطع الضمنية,implied point of intersection
+نقطة العينة,sample point
+نقطة المسح,survey point
+نقطة انعكاس الانحناء,PRC
+نقطة تغير الميل,grade break
+نقطة تقاطع المنحنى اللولبي (SPI),SPI
+نقطة هندسة المحاذاة,alignment geometry point
+نماذج,forms
+نمذجة إمكانية البناء,constructability modeling
+نمذجة فائقة,hypermodeling
+نمط التسمية,label style
+نمط التعبئة,fill pattern
+نمط التعزيز,reinforcement pattern
+نمط المظهر,appearance style
+نموذج ArchiCAD,ArchiCAD model
+نموذج AutoCAD,AutoCAD model
+نموذج InfraWorks,InfraWorks model
+نموذج Max,Max model
+نموذج التضاريس الرقمي,digital terrain model
+نموذج السحابة,cloud model
+نموذج الصناعة,industry model
+نموذج أرضي,ground model
+نموذج قيد العمل (WIP),WIP model
+نوع الاتجاه,direction type
+نوع حساب المواد,takeoff type
+هواء العادم,exhaust air
+هواء راجع,return air
+وحدات الأعمال,business units
+وحدة الجدار الساتر,curtain wall unit
+وحدة تجهيزات المياه,WFU
+وحدة ضبط ثلاثية المراحل (PID),PID
+وحدة قياس تدفق المياه الباردة,cold water fixture unit
+ورقة القسم,section sheet
+وصلة انتقالية,transition fitting
+وصلة أنبوبية متعددة الاستخدامات قابلة للتعديل,spud
+وصلة مائلة,miter join
+وصلة ميدانية,field splice
+وصلة وفق معايير ASHRAE,ASHRAE fitting
+وقت الانتقال,time of travel
+وقت ممتد,free float

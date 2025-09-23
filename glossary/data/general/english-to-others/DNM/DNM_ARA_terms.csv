@@ -1,0 +1,887 @@
+﻿source,target
+3D Packing,التغليف ثلاثي الأبعاد
+3D Print,طباعة ثلاثية الأبعاد
+abrasive flow rate,معدل تدفق المادة الكاشطة
+adaptive clearing,التصفية التكيفية
+adaptive refinement,التنقيح التكيفي
+additive manufacturing simulation,محاكاة التصنيع الإضافي
+additive technology,تقنية التصنيع الإضافي
+admin,مسؤول
+administrator,المسؤول
+advanced simulation study,دراسة المحاكاة المتقدمة
+air convection,الحمل الحراري الهوائي
+air trap,شرك الفقاعات الهوائية
+Alias,Alias
+aligned section view,عرض مقطع محاذي
+alignment,محاذاة
+all-around symbol,رمز شامل
+allowance,هامش التصميم
+alternate unit,الوحدة البديلة
+AM,التصنيع الإضافي
+analysis time,وقت التحليل
+analytical surface,السطح التحليلي
+angular global load,الحمل الزاوي العام
+angular speed,السرعة الزاويّة
+angular velocity,سرعة الدوران المحورية
+angularity,الانحراف الزاوي
+animation footage,المواد الخام للرسوم المتحركة
+annotation,تعليق
+application,التطبيق
+arc,قوس
+assembly constraint,قيود التجميع
+assembly pattern,نمط التجميع
+asset library,مكتبة الأصول
+associative PCB,لوحة الدوائر المطبوعة الترابطية
+auto-draw tool,أداة الرسم التلقائي
+Autodesk Human Interface Guidelines,إرشادات واجهة المستخدم من Autodesk
+Autodesk Partner,شريك Autodesk
+Autodesk Projects,مشروعات Autodesk
+Autodesk Vault Professional edition,الإصدار الاحترافي من Autodesk Vault
+automatic face chain,السلسلة التلقائية للوجوه
+automatic feature recognition,التعرف التلقائي على الميزات
+automatic ordering,الترتيب التلقائي
+automatic routing,التوجيه التلقائي
+automatic tool changer capacity,سعة أداة التغيير التلقائي
+automatic verification,التحقق التلقائي
+auxiliary view,العرض المساعد
+axis,المحور
+axle,عمود الدوران
+B axis,محور B
+background processing,المعالجة في الخلفية
+ball mill,طاحونة الكرات
+ball nosed tool,أداة ذات رأس كروي
+ball screw,محول الحركة الدقيق
+barrel tool,أداة التشطيب الذكية
+base body,الهيكل الرئيسي
+base face,السطح الرئيسي
+base flange,الحافة الرئيسية
+base point,نقطة الأساس
+baud rate,سرعة نقل الإشارات في الاتصال
+bead width,عرض الترسيب
+beam detail,تفاصيل العوارض
+Belleville spring,زنبرك Belleville
+bend relief override,تجاوز تخفيف الانحناء
+bent tubing route,مسار الأنابيب المنحنية
+bill of materials,قائمة المواد
+biocompatible material,المواد الحيوية المتوافقة
+blend surface,سطح الدمج
+blisk,القرص المدمج مع الشفرات
+board outline,مخطط اللوحة
+body load,حمل الهيكل
+body thickness,سماكة الهيكل
+body type,نوع الهيكل
+BOM grid,شبكة قائمة المواد (BOM)
+BOM Object,كائن قائمة المواد (BOM)
+boring bar,أداة توسيع وتجويف الفتحات
+boss feature,ميزة رفع أو تثبيت المحاور
+boundary,الحد
+boundary patch,رقعة الحدود
+bouquet,باقة
+bowtie,مقبض لتعديل انحناءات الخطوط
+box display,عرض الإطار
+braking torque,عزم الفرامل
+branch connection,توصيل فرع
+brush,فرشاة
+buckling,الانبعاج
+build preparation software,برنامج إعداد النماذج للطباعة
+bulk load,تحميل مُجمع للبيانات
+bulk modulus,معامل الحجم
+bump,بروز
+bump map,تخطيط البروز
+bump mapping,مخطط البروز
+burn mark,علامة حرق
+burn region,منطقة الحرق
+C axis,محور C
+cable tray,مجرى الكابلات
+calibration,معايرة
+callout style,نمط التنبيه
+canned cycle,الدورة المعلبة
+canvas,اللوحة القماشية
+cap filleting,تنعيم الحواف بالتغطية
+carrier,الناقل
+cascade water junction,وصلة مياه الشلال
+cel shading,التظليل الخلوي
+center line,خط المنتصف
+center pin,دبوس المنتصف
+centre point,نقطة المنتصف
+centric axis,المحور المركزي
+chain dimension,بُعد السلسلة
+chain selection,اختيار السلسلة
+chaining,التسلسل
+chamfer tool,أداة الشطف
+chamfering tools,أدوات الشطف
+change order,أمر التغيير
+chip formation,تكوين الرقائق
+chuck jaws,فكوك المخرطة
+circlip,حلقة قفل
+circular pitch,خطوة دائرية
+circular tapered gate,البوابة المخروطية الدائرية
+circumferential speed,السرعة المحيطية
+CLDATA,CLDATA
+clearance value,قيمة الخلوص
+clip planes,مستويات القص
+closed edge,حافة مغلقة
+closed return bend,منحنى رجوع مغلق
+cloud credit balance,رصيد أرصدة السحابة
+cloud credit task,مهمة أرصدة السحابة
+cloud data,بيانات السحابة
+CNC controller,وحدة تحكم التحكم الرقمي بالحاسوب
+co-injection molding,قولبة الحقن المشترك
+coarsening generations,أجيال التخشين
+coating,الطلاء
+code snippet,مقتطف الكود
+codebase,قاعدة الكود
+coincident constraint,القيد المتطابق
+cold slug,البقايا الباردة
+collet,ملزمة التثبيت
+collision,الاصطدام
+collision avoidance,تجنب الاصطدام
+collision avoidance parameters,معلمات تجنب الاصطدام
+collision free link path,مسار الربط الخالي من الاصطدام
+colored confetti,الوريقات الملونة
+colorization options,خيارات التلوين
+colour palette,لوحة الألوان
+command window,نافذة الأوامر
+Common Core,المعايير الأساسية المشتركة
+common material,المادة المشتركة
+component,مكون
+component placement,موضع المكوّن
+component visibility,رؤية المكوّن
+composite curve,المنحنى المركب
+compound hole,الثقب المركب
+computenode,عقدة الحساب
+concentricity,التركيز
+conduit,أنبوب
+cone,المخروط
+Configuration Administrator,مسؤول التكوين
+connected workgroup,مجموعة العمل المتصلة
+connector,الموصل
+connector pin,سن التوصيل
+constant-radius fillet,وصلة مستديرة ثابتة القطر
+constrained object,كائن مقيّد
+constraint,قيد
+constraint status,حالة القيد
+construction plane,مستوى الإنشاء
+contact point,نقطة التلامس
+contact point boundary,حدود نقطة التلامس
+Content Center Editor,محرر مركز المحتوى
+content library,مكتبة المحتوى
+contour flange,شفة محيطية
+control vertex,نقطة التحكم
+control vertex hull,هيكل نقطة التحكم
+control vertices hull,هيكل نقاط التحكم
+convergence plot,مخطط التقارب
+coolant,المبرد
+coolant options,خيارات المبرد
+cooling fan part,جزء مروحة التبريد
+cooling wizard,معالج التبريد
+coordinate,إحداثي
+coplanar,متساوي المستوى
+core,اللب
+core pin,دبوس اللب
+corner filleting,تدرج الزوايا
+corner filleting style,نمط تدرج الزوايا
+corner radius,نصف قطر الزاوية
+cosmetic weld bead,خرزة لحام تجميلية
+counterbore hole,ثقب التوسيع المحوري
+counterdrill hole,ثقب التوسيع المتدرج
+countersink hole,ثقب التوسيع المخروطي
+critical temperature attribute,خاصية درجة الحرارة الحرجة
+cross section analysis,تحليل المقطع العرضي
+cross-highlighting,التمييز المتقاطع
+current directory,الدليل الحالي
+curvature comb,مش المنحنى
+curvature continuous fillet,وصلة مستمرة الانحناء
+curve definition,تعريف المنحنى
+curve editor,محرر المنحنى
+curve information,معلومات المنحنى
+cutter compensation,تعويض القاطع
+cutting line,خط القطع
+CV,CV
+CV hull,هيكل رؤوس التحكم (CV)
+cylinder,أسطوانة
+data buffer,ذاكرة مؤقتة للبيانات
+data card,بطاقة البيانات
+database exports,تصدير قواعد البيانات
+datum note,ملاحظة البيانات المرجعية
+datum reference frame,إطار مرجعي للبيانات
+datum target,هدف البيانات المرجعية
+decal,ملصق
+decision support system,نظام دعم القرارات
+defeaturing,إزالة التفاصيل الصغيرة
+Dental Wings printers,طابعات Dental Wings
+deposition layer,طبقة الإيداع
+depth of cut,عمق القطع
+depth of field,عمق المجال
+design conflict,تعارض التصميم
+design file,ملف التصميم
+design reservation,حجز التصميم
+Desktop Connector,موصل سطح المكتب
+diagnostic log file,ملف سجل التشخيص
+dial-up network connection,اتصال شبكة عبر الهاتف
+diameter,قُطر
+die formed lofted flange,شفة متشكلة بالقالب
+dimension,بُعد
+direction,الاتجاه
+DirectX Runtime,وقت تشغيل DirectX
+distance and angle chamfer,شطف المسافة والزاوية
+dots per inch,نقطة في البوصة
+DPI,DPI
+draft angle,زاوية المسودة
+draft surface,سطح المسودة
+Draw panel,لوحة الرسم
+drawing group,مجموعة الرسم
+drill diameter,قطر الثقب
+drilling cycles,دورات الحفر
+drilling toolpaths,مسارات أدوات الحفر
+drive curve,منحنى القيادة
+DSS,DSS
+duct connector,موصل القناة
+dump,نسخة احتياطية
+dxf,ملف dxf
+dynamic point,نقطة ديناميكية
+dynamic preview,معاينة ديناميكية
+edge,الحافة
+edge index,فهرس الحافة
+edge lambda,لامبدا الحافة
+edit in place,تحرير في الموقع
+edit model workspace,مساحة عمل تحرير النموذج
+EDM,EDM
+ejection direction button,زر اتجاه القذف
+ejection temperature,درجة حرارة القذف
+ejector,أداة الإخراج
+ejector pin,دبوس أداة الإخراج
+ejector plate,لوحة أداة الإخراج
+elbow,كوع
+electric arc wire,سلك القوس الكهربائي
+electric discharge machining,تشغيل التفريغ الكهربائي
+electro discharge machining,تشغيل التفريغ الكهربائي
+electrode,القطب الكهربائي
+electronic distance meter,مقياس المسافات الإلكتروني
+electronics component,مكون إلكتروني
+electronics cooling,تبريد الإلكترونيات
+electronics workspace,مساحة عمل الإلكترونيات
+element,عنصر
+element deletion criteria,معايير حذف العناصر
+elevation,ارتفاع
+end angle,زاوية النهاية
+end of fill pressure,ضغط نهاية الملء
+end point,نقطة النهاية
+end treatment,معالجة النهاية
+environment image,صورة البيئة
+error map,خريطة الأخطاء
+event simulation,محاكاة الحدث
+Experimental Generative Solvers and Features,الحلول والميزات التوليدية التجريبية
+Explorer Window,نافذة المستكشف
+Express mode,الوضع السريع
+Expression Builder,أداة إنشاء التعبيرات
+exterior corner,الزاوية الخارجية
+external frame,الإطار الخارجي
+extruder,قاذف
+F3Z,ملف F3Z
+face,وجه
+face direction,اتجاه الوجه
+face draft,مسودة الوجه
+face group,مجموعة الوجه
+facegroup,مجموعة الوجه
+fan geometry,هندسة المروحة
+Fasteners library,مكتبة المثبتات
+FEA mesh,شبكة التحليل بالعناصر المحدودة (FEA)
+feature collision,تصادم الميزة
+feature construction,بناء الميزة
+feature control frame,إطار التحكم بالميزة
+feature group,مجموعة الميزات
+feature number,رقم الميزة
+feed mode,وضع التغذية
+feed rate,معدل التغذية
+Feedback Hub,مركز الملاحظات
+feedrate,معدل التغذية
+FFF additive manufacturing,التصنيع الإضافي بتقنية الشعيرات المنصهرة
+FFF machine,آلة تصنيع الشعيرات المنصهرة
+FFF print,طباعة الشعيرات المنصهرة
+field fit,التركيب الميداني
+file doctor,ملف الطبيب
+filestore,مستودع الملفات
+fill pattern,نمط التعبئة
+fillet feature,ميزة الوصل المستدير
+fillet style,نمط الوصل المستدير
+finite element mesh,شبكة العناصر المحدودة
+fixed edge draft,مسودة الحافة الثابتة
+fixture ID,معرف التثبيت
+fixture offset,إزاحة التثبيت
+fixturing,التثبيت
+flange height,ارتفاع الحافة
+flange profile,ملف تعريف الحافة
+flare v,لحام على شكل حرف V
+flat list,قائمة مسطحة
+flat pattern,نموذج مسطح
+flat shading,التظليل المسطح
+Flex,Flex
+flood solution,حل للفيضانات
+flowline machining strategy,استراتيجية تشغيل خط التدفق
+fluid motion,حركة السوائل
+focal plane,المستوى البؤري
+foil reservoir,خزان الرقائق
+free drag,السحب الحر
+free orbit,المدار الحر
+freeform edit,تحرير الشكل الحر
+freeform shape,شكل حر
+Full Navigation wheel,عجلة التنقل الكاملة
+full round fillet,وصل مستدير كامل
+functional design,التصميم الوظيفي
+Fusion PCB,Fusion PCB
+Fusion Team administrator,مسؤول فريق Fusion
+gap,فجوة
+gate,البوابة
+GCode,كود G
+generative design setup,إعداد التصميم التوليدي
+generative model,نموذج توليدي
+generative modeling,النمذجة التوليدية
+generative technology,التكنولوجيا التوليدية
+geometric feature,ميزة هندسية
+geometry,الهندسة
+geometry simplification,تبسيط الهندسة
+gesture behavior,سلوك الإيماءات
+global coordinate system,نظام الإحداثيات العالمي
+gouge,خدش
+grain direction,اتجاه الحبيبات
+graphic handle,مقبض رسومي
+graphics card,بطاقة الرسومات
+grid,شبكة
+gripper,قبضة
+gripper arm,ذراع القبضة
+groove,أخدود
+groove root,جذر الأخدود
+groove weld,لحام أخدود
+ground plane,المستوى الأرضي
+ground shadow,الظل الأرضي
+grounded work point,نقطة عمل ثابتة
+Grow to Box,التوسع إلى الصندوق
+guided point,نقطة موجهة
+hard transition,انتقال حاد
+harness part,جزء الحزام
+harness segment,مقطع الحزام
+hatch pattern,نمط التظليل
+hatching,التظليل
+headnode,عقدة رئيسية
+heat load,حمل حراري
+heat transfer pipe,أنبوب نقل الحرارة
+hex washer,غسالة سداسية
+history marker,علامة التاريخ
+holder clearance,خلوص الحامل
+hole feature,ميزة الثقب
+hole table,جدول الثقوب
+home location,الموقع الأساسي
+horizontal arc,قوس أفقي
+host,المضيف
+hydroforming,التشكيل المائي
+hyperelastic material model,نموذج المادة الفائقة المرونة
+I section,مقطع I
+iCopy,iCopy
+ID 2019 Add-In,ملحق ID 2019
+iFeatures,iFeatures
+iLogic Design Copy,نسخ التصميم باستخدام iLogic
+impersonating user,انتحال المستخدم
+in-canvas tool,أداة ضمن واجهة العمل
+inactive component,المكون غير النشط
+incompressible material,مادة غير قابلة للضغط
+independent PCB,لوحة دوائر مطبوعة مستقلة
+infer constraints,استنتاج القيود
+inference,الاستدلال
+injection cone,مخروط الحقن
+injection location,موقع الحقن
+injection molding simulation study,دراسة محاكاة حقن القوالب
+injection-compression molding,تشكيل الحقن والانضغاط
+inner radius,نصف القطر الداخلي
+inspection sequence,تسلسل الفحص
+insulation displacement,إزاحة العزل
+intelligent cursor,المؤشر الذكي
+Interactive Feature Recognition,التعرف التفاعلي على الميزات
+interlock,قفل متشابك
+intermittent weld,لحام متقطع
+internal frame,إطار داخلي
+internal heat,الحرارة الداخلية
+internal heat load,حمل الحرارة الداخلي
+internal heat load attribute,سمة حمل الحرارة الداخلي
+internal heat load types,أنواع الأحمال الحرارية الداخلية
+interval,الفاصل الزمني
+inventor View,عرض Inventor
+iPart Author,مؤلف iPart
+iProperties,iProperties
+ISO,ISO
+isocurve,منحنى إيزوباراميتري
+isoline,خط متساوي
+ISTE,ISTE
+item deletion restrictions,قيود حذف العناصر
+item number,رقم العنصر
+item revision,مراجعة العنصر
+item revision number,رقم مراجعة العنصر
+Job Server,خادم المهام
+joint origin,أصل الوصلة
+joint origin point,نقطة أصل الوصلة
+jump delay,تأخير القفزة
+key point,نقطة رئيسية
+kinematic chain,سلسلة حركية
+kPa,كيلو باسكال
+L section,مقطع L
+landing surface,سطح هبوط
+language pack,حزمة اللغة
+laser jump delay,تأخير قفزة الليزر
+laser mark delay,تأخير وضع علامة الليزر
+laser polygon delay,تأخير مضلع الليزر
+lattice and skin optimization,تحسين الشبكة والجلد
+Launchpad,منصة الإصدار
+layer height,ارتفاع الطبقة
+layer stack,مكدس الطبقات
+layer thickness,سمك الطبقة
+lead angle,زاوية التوجيه
+Learning Inventor 2010,تعلم Inventor 2010
+lease period,فترة الإيجار
+lesser version,النسخة الأقدم
+license server,خادم الترخيص
+lifecycle rules,قواعد دورة الحياة
+lifecycle transition limit,حد انتقال دورة الحياة
+lifter,الرافعة
+line style toolpath,مسار الأدوات بأسلوب الخط
+linear global load,الحمل الخطي العالمي
+lip and groove,الحافة والمجرى
+lip feature,ميزة الحافة
+Live Enabler,أداة التمكين التلقائي للكائنات
+live update,التحديث المباشر
+load diagram,مخطط التحميل
+local coordinate system,نظام الإحداثيات المحلي
+location ring,حلقة التحديد
+lock set,مجموعة القفل
+lollipop mill,مطحنة الحلوى (Lollipop)
+loop,الحلقة
+Machine Connector,موصل الآلة
+machine design,تصميم الآلة
+machine tool,أداة الآلة
+machining discipline,تخصص التصنيع
+Machining extension,امتداد التصنيع
+machining toolpath,مسار أدوات التصنيع
+manipulator,أداة التحكم
+manual machine,آلة يدوية
+manufacturing environment,بيئة التصنيع
+manufacturing extension,امتداد التصنيع
+manufacturing toolpath strategies,استراتيجيات مسار أدوات التصنيع
+markup,العلامة
+mass flow rate,معدل تدفق الكتلة
+mass properties,خصائص الكتلة
+mass proportional,التناسب الكتلي
+material accuracy,دقة المادة
+material model,نموذج المادة
+matrix,المصفوفة
+maximum clamp force,أقصى قوة تثبيت
+MD file,ملف تصميم الآلة
+measurement data,بيانات القياس
+mechanistic movement,الحركة الآلية
+member,العضو
+mesh,شبكة
+mesh view,عرض الشبكة
+mesher,أداة الشبكات
+metal powder bed fusion,اندماج مسحوق المعدن
+metal powder bed fusion process,عملية اندماج مسحوق المعدن
+migration path,مسار الترحيل
+milling operation,عملية الطحن
+milling tool,أداة الطحن
+mini toolbar,شريط الأدوات المصغر
+mirror plane,مستوى المرآة
+miter,وصلة الميترا
+mitred corner,زاوية الميترا
+model complexity,تعقيد النموذج
+model files,ملفات النماذج
+model limits,حدود النموذج
+model stiffness,صلابة النموذج
+model translation,ترجمة النموذج
+model view,عرض النموذج
+moderator,المشرف
+mold,القالب
+mold base,قاعدة القالب
+molding window,نافذة التشكيل
+morph strategy,استراتيجية التشكل
+multi-body,متعدد الأجسام
+multi-body workflow,سير العمل متعدد الأجسام
+multi-cavity mold,قالب متعدد التجاويف
+multibody workflow,سير العمل متعدد الأجسام
+multiple composites,مركبات متعددة
+multiple fixture document,مستند التثبيتات المتعددة
+MultiValue,القيم المتعددة
+name collision,تعارض الأسماء
+navigation bar,شريط التنقل
+NC program,برنامج التحكم الرقمي
+NC Program item,عنصر برنامج التحكم الرقمي
+NC Programs,برامج التحكم الرقمي
+NC setup,إعداد التحكم الرقمي
+negative shell,القشرة السلبية
+nesting,التداخل
+New Features Workshop,ورشة الميزات الجديدة
+newsgroup,مجموعة الأخبار
+nodal moment,عزم العقدة
+non-production,غير مخصص للإنتاج
+non-rectangular viewport,منفذ عرض غير مستطيل
+nonlinear library,مكتبة غير خطية
+note,ملاحظة
+numbering scheme,مخطط الترقيم
+numbering schemes,مخططات الترقيم
+o-ring,حلقة O
+object category,فئة الكائن
+objective limits,حدود الهدف
+obstacle geometry,هندسة العائق
+OD,القطر الخارجي
+optimized SLM workflow,سير عمل SLM محسن
+organic modeling,النمذجة العضوية
+orientation point,نقطة التوجيه
+orientation vectors,متجهات التوجيه
+origin work feature,ميزة العمل الأصلية
+original file name,اسم الملف الأصلي
+outcome image,صورة النتيجة
+outer angle,الزاوية الخارجية
+outer radius,نصف القطر الخارجي
+overhang angle,زاوية البروز
+parallel feature construction,إنشاء ميزات متوازية
+parallel plane,مستوٍ متوازي
+parameter,معلمة
+part catcher,ماسك القطع
+parting design,تصميم الفصل
+parting diagnostic,تشخيص الفصل
+password policy requirement,متطلبات سياسة كلمة المرور
+patch curve,منحنى التصحيح
+patching surface,سطح التصحيح
+path sketch,مخطط المسار
+pattern,نمط
+pattern feature,ميزة النمط
+PCB feature,ميزة PCB
+PDF Publish,PDF Publish
+pencil trace,أثر القلم
+peripheral,جهاز طرفي
+permission control,التحكم في الأذونات
+physical material,مادة مادية
+pilot hole,ثقب إرشادي
+pin constraint,قيود الدبوس
+pipe plug,سدادة الأنابيب
+pitch diameter,قطر الخطوة
+pitch line,خط الخطوة
+placed feature,ميزة موضوعة
+planar curve,منحنى مستوٍ
+planar face,وجه مستوٍ
+plane,مستوى
+plastic part,جزء بلاستيكي
+plate detail face,وجه تفاصيل اللوح
+plate fixture,تثبيت اللوح
+plunge point,نقطة الغمر
+point mass,كتلة نقطية
+Poisson ratio,نسبة بواسون
+polygon delay,تأخير المضلع
+positive direction,الاتجاه الموجب
+post processing properties,خصائص ما بعد المعالجة
+post processor,معالج ما بعد
+powder bed metal additive manufacturing,التصنيع الإضافي المعدني بطبقة مسحوق
+power feature,ميزة الطاقة
+power surface,سطح الطاقة
+Pozidriv,مفك Pozidriv
+preserve geometry,الحفاظ على الهندسة
+press brake,مكبس الثني
+Press/Pull,ضغط/سحب
+pressed joint,مفصل مضغوط
+pressure drop,انخفاض الضغط
+pressure loss,فقدان الضغط
+preview extrusion,عرض مسبق للبثق
+principal strain,الإجهاد الرئيسي
+PRM file,ملف PRM
+PRM generation,توليد PRM
+probe,مسبار
+probe body,جسم المسبار
+probe geometry,هندسة المسبار
+probe mode,وضع المسبار
+probe type,نوع المسبار
+process simulation study,دراسة محاكاة العملية
+production version,إصدار الإنتاج
+profile passes,تمريرات الملف الشخصي
+program point,نقطة البرنامج
+progressive tooltip,تلميح تدريجي
+project,مشروع
+project explorer,مستكشف المشروع
+Project Simulus,مشروع سيمولوس
+projects,مشاريع
+promote surface,ترقية السطح
+property mapping,تعيين الخصائص
+protrusion,بروز
+puck,جهاز الإدخال
+pull direction,اتجاه السحب
+quadrant point,نقطة الربع
+quarter section view,عرض مقطعي ربعي
+quick list,قائمة سريعة
+quilt,غطاء موصل
+radius,نصف القطر
+ramp,منحدر
+randomized seam,خط درز عشوائي
+range,نطاق
+re-index,إعادة الفهرسة
+reaction force,قوة رد الفعل
+realistic appearance,مظهر واقعي
+recoater,موزع الطبقات
+recoater clearance,خلوص الموزع
+recoating,إعادة الطلاء
+rectangle,مستطيل
+reference design,تصميم مرجعي
+reference geometry,هندسة مرجعية
+referenced component,مكون مرجعي
+referenced object,كائن مرجعي
+reflectivity,الانعكاسية
+relief remnant value,قيمة البقايا الإغاثية
+replication,النسخ المتماثل
+repositioned,معاد تموضعه
+reservation,حجز
+resin identification code,رمز تعريف الراتنج
+restored pattern element,عنصر نمط مستعاد
+results workspace,مساحة عمل النتائج
+retract distance,مسافة السحب
+revision format,تنسيق المراجعة
+revision mark,علامة المراجعة
+revision scheme format,تنسيق مخطط المراجعة
+revision tag,علامة المراجعة
+rib chamfer,شطف الضلع
+rib fillet,تقوية الضلع
+ribbon cable,كابل شريطي
+rider,محور الحركة
+rotary B axis,المحور B الدوار
+rotary C axis,المحور C الدوار
+rotary direction,اتجاه الدوران
+rotational adjustment,ضبط الدوران
+roughing slice,شريحة التخشين
+roughing strategy,استراتيجية التخشين
+round washer,غسالة مستديرة
+rule fillet,فيليه القاعدة
+ruled surface,سطح منتظم
+runoff loop,حلقة الجريان
+runoff surface,سطح الجريان
+scatter plot,مخطط التشتت
+scratch zone,منطقة التحضير
+sealing plug,سدادة مانعة للتسرب
+section view,عرض مقطعي
+seed curve,منحنى البداية
+seed point,نقطة البداية
+segment,قطعة
+selective laser sintering,التلبيد بالليزر الانتقائي
+self symmetric,تماثل ذاتي
+self-tapping screw,برغي ذاتي القطع
+sensor,حساس
+sequence tree,شجرة التسلسل
+setup sheet image,صورة ورقة الإعداد
+shaft segment height,ارتفاع مقطع العمود
+shaft upper diameter,القطر العلوي للعمود
+shallow area,منطقة ضحلة
+shank,ساق الأداة
+shank clearance,خلوص الساق
+shank profile,ملف تعريف الساق
+shape,شكل
+shear heating,تسخين القص
+shear rate,معدل القص
+sheet bar,شريط الورقة
+sheet metal,صفائح معدنية
+sheet metal face,وجه الصفائح المعدنية
+sheet metal features,ميزات الصفائح المعدنية
+sheet metal rule,قاعدة الصفائح المعدنية
+shell,غلاف
+Shera printers,طابعات Shera
+Show Me animation,رسوم Show Me المتحركة
+shrinkage,انكماش
+shrinkwrap,تغليف انكماشي
+shrinkwrap substitute,بديل التغليف الانكماشي
+side,جانب
+side core,نواة جانبية
+side lock,قفل جانبي
+sight line,خط الرؤية
+simple measures group,مجموعة القياسات البسيطة
+simplified DWG,ملف DWG مبسط
+simplify workspace,تبسيط مساحة العمل
+simulated orientations,الاتجاهات المحاكية
+Simulation CFD 3D Viewer,Simulation CFD 3D Viewer
+Simulation CFD Viewer,Simulation CFD Viewer
+simulation mesh,شبكة المحاكاة
+simulation model,نموذج المحاكاة
+simulation study,دراسة المحاكاة
+single composite,مركب منفرد
+sketch edge,حافة الرسم
+sketch entity,عنصر الرسم
+sketch grid,شبكة الرسم
+sketch illustration,رسم توضيحي
+sketched feature,ميزة مرسومة
+sketched symbol,رمز مرسوم
+Skill Builder,بناء المهارات
+slide core,نواة الانزلاق
+slider,منزلق
+SLM machine,آلة SLM
+slope symbol,رمز الميل
+Smart Surfacer,مُكون الأسطح الذكي
+smooth,تنعيم
+smooth display mode,وضع العرض السلس
+smoothing mode,وضع التنعيم
+smoothing tolerance factor,عامل سماحية التنعيم
+snippet,مقتطف
+soft transition,انتقال ناعم
+solid,جسم صلب
+solid face,وجه صلب
+SolidscapeDL Printer,طابعة SolidscapeDL
+solve status information interval,فترة معلومات حالة الحل
+source component,مكون المصدر
+spindle,محور دوران
+spindle calibration,معايرة المحور
+spindle orientation,اتجاه المحور
+spindle revolution,دوران المحور
+spline,شريحة
+split rivet,مسمار تثبيت مشقوق
+split surface,سطح مقسم
+spot drill,مثقاب النقط
+spotface,وجه النقطة
+sprue,قناة الصب
+sprue bushing,جلبة الصب
+spur gear,ترس مستقيم
+square inch,بوصة مربعة
+standard appearance,مظهر قياسي
+star point,نقطة نجمة
+start angle,زاوية البداية
+start point,نقطة البداية
+steel satin,صقل فولاذي
+steep area,منطقة شديدة الانحدار
+stepdown,خطوة هبوط
+stepover,تداخل الخطوات
+stiffness proportional,تناسب الصلابة
+stipple count,عدد النقاط المنقطة
+stock,الكتلة الخام
+stock model,نموذج الكتلة الخام
+stop pin,دبوس التوقف
+strain,إجهاد
+strain energy,طاقة الإجهاد
+strategy,استراتيجية
+Straumann printers,طابعات Straumann
+stress analysis,تحليل الإجهاد
+structural buckling simulation,محاكاة الانبعاج الهيكلي
+structural buckling study,دراسة الانبعاج الهيكلي
+structural member,عنصر هيكلي
+study type,نوع الدراسة
+sub-spindle,محور فرعي
+subspindle,محور فرعي
+suite workflow,سير عمل الحزمة
+support generation,إنشاء الدعم
+support settings,إعدادات الدعم
+suppressed assembly pattern element,عنصر نمط تجميع مقيد
+surface,سطح
+surface associativity,ترابط السطح
+surface body,جسم السطح
+surface face,وجه السطح
+surface fillet,فيليه السطح
+surface inspection group,مجموعة فحص السطح
+surface normal,سطح عادي
+surface normal arc,قوس عمودي السطح
+surface probe,مسبار السطح
+surface projection,إسقاط السطح
+surface texture,نسيج السطح
+surface trimming,تشذيب السطح
+swarf,فضلات القطع
+symbol definition,تعريف الرمز
+T-Spline,T-Spline
+T-Spline body,جسم T-Spline
+tangent direction,اتجاه التماس
+tangent plane,مستوٍ متماسي
+target component,المكون الهدف
+target point,نقطة الهدف
+target safety factor,معامل الأمان الهدف
+terminal electrical properties,الخصائص الكهربائية للطرفيات
+terminator,النهاية
+thin-walled support shape,شكل دعم ذو جدران رقيقة
+third-angle projection,الإسقاط بالزاوية الثالثة
+three quarter section view,عرض مقطعي ثلاثي
+thumb screw,برغي اليد
+time slider,شريط الوقت
+tolerance,التفاوت
+tolerance band,نطاق التفاوت
+tonemap method,طريقة تنسيق الألوان
+tool,أداة
+tool assembly,تجميع الأداة
+tool axis,محور الأداة
+tool axis angle,زاوية محور الأداة
+tool axis limit,حد محور الأداة
+tool database,قاعدة بيانات الأدوات
+tool direction button,زر اتجاه الأداة
+tool entity,كيان الأداة
+tool magazine,مخزن الأدوات
+tool orientation,اتجاه الأداة
+tool property,خاصية الأداة
+tool radius,نصف قطر الأداة
+tool shank data,بيانات ساق الأداة
+tool tip radius,نصف قطر رأس الأداة
+tooling,تجهيز الأدوات
+toolpath,مسار الأداة
+Toolpath Edit menu,قائمة تحرير مسار الأداة
+toolpath points,نقاط مسار الأداة
+toolpath segments,قطاعات مسار الأداة
+toolpath simulation,محاكاة مسار الأداة
+toolpath tail,ذيل مسار الأداة
+toolpath workplane,مستوى عمل مسار الأداة
+torque coefficient,معامل العزم
+torque load,حمل العزم
+torus,الطارة
+transient load,حمل عابر
+translation,ترجمة
+tree view,عرض شجري
+trim boundary,حد القطع
+trivial hole,ثقب بسيط
+trochoid,تروخيد
+turret,برج دوران
+twin-symmetric,متماثل مزدوج
+U section,قسم U
+ultimate tensile strength,أقصى قوة شد
+undercut,نحت داخلي
+Undercut option,خيار النحت الداخلي
+underlay,طبقة سفلية
+underlay geometry,هندسة الطبقة السفلية
+undirected angle,زاوية غير موجهة
+unfold method,طريقة النشر
+user coordinate system,نظام إحداثيات المستخدم
+v butt,لحام الحواف بشكل V
+v-belt,حزام V
+valve gate,صمام البوابة
+variable fillet,فيليه متغير
+variable-radius fillet,فيليه بنصف قطر متغير
+Vault account,حساب Vault
+Vault blog,مدونة Vault
+vaulted version,إصدار محفوظ
+vaulting restriction,قيود الحفظ
+vector,متجه
+vent,فتحة تهوية
+vertex,نقطة
+viewer mode,وضع العارض
+visualization file,ملف التصور
+volumetric flow rate,معدل التدفق الحجمي
+vortex toolpath,مسار أداة الدوامة
+vorticity,دوامية
+voxel resolution,دقة فوكسل
+wall clearance,خلوص الحائط
+wall shear stress,إجهاد القص للجدار
+web,شريحة داعمة
+web thickness,سمك الشريحة
+wedge,إسفين
+weld damage,تلف اللحام
+weld line,خط اللحام
+weld symbol,رمز اللحام
+welding neck flange,شفة عنق اللحام
+width,العرض
+wire feedrate,معدل تغذية السلك
+wire run,تشغيل السلك
+wireframe,إطار سلكي
+wireframe display,عرض الإطار السلكي
+work axis,محور العمل
+work feature,ميزة العمل
+work plane,مستوٍ عمل
+work surface,سطح العمل
+workgroup,مجموعة العمل
+workpiece,قطعة العمل
+workplane,مستوى العمل
+worm gear,ترس دودي
+Wrap Wizard,معالج الالتفاف
+X clearance position,موقع خلوص X
+X-ray ground shadow,ظل أرضي بالأشعة السينية
+yaw,دوران أفقي
+yield strength,قوة الخضوع

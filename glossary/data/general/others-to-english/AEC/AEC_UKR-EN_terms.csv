@@ -1,0 +1,553 @@
+﻿source,target
+Примітив 3D сітки,3D mesh primitive
+Міні-карта 3D,3D Mini-map
+3D-рухома штуковина,3D Move gizmo
+3D-поворотна штуковина,3D Rotate gizmo
+Штуковина в 3D масштабі,3D Scale gizmo
+абатмент,abutment
+адміністратор облікового запису,account administrator
+Перегляд активності Ганта,Activity Gantt View
+сукупний вид,aggregate view
+обробник повітря,air handler
+Надувний стіл,Airtable
+вирівняний вид перетину,aligned section view
+геометрична точка вирівнювання,alignment geometry point
+зміщення вирівнювання,alignment offset
+ALKIS,ALKIS
+потужність,ampacity
+аналема,analemma
+аналітична дужка,analytical brace
+аналітичний поверх,analytical floor
+аналітична поверхня,analytical surface
+кут відхилення,angle of deflection
+кутова швидкість,angular speed
+анотація,annotation
+армування проти усадки,anti-shrinkage reinforcement
+удавана потужність,apparent power
+стиль зовнішнього вигляду,appearance style
+затвердитель,approver
+відстань між дугою і хордою,arc-chord distance
+Модель ArchiCAD,ArchiCAD model
+архітектурна підлога,architectural floor
+ASBD,ASBD
+Фітинг ASHRAE,ASHRAE fitting
+бібліотека активів,asset library
+ATIL,ATIL
+прихильність,attachment
+модель AutoCAD,AutoCAD model
+Бібліотека зображень Autodesk,Autodesk Image Library
+Середня кінцева площа,average end area
+азимут,azimuth
+підсвічування,backsight
+м'яч у корті,ball in court
+базове сімейство,base family
+базовий шар,base layer
+базова карта,basemap
+BCA,BCA
+BCF,BCF
+несуча стіна,bearing wall
+діаметр вигину,bend diameter
+вигнутий стрижень,bent bar
+розрахунковий період,billing period
+BIM-об'єкт,BIM object
+бісиметричний,bisymmetric
+розквітати,bloss
+позичальник,borrower
+коробчата балка,box girder
+відгалуження ланцюга,branch circuit
+облицювання цеглою,brick veneer
+матовий алюміній,brushed aluminium
+бюджетний трансферт,budget transfer
+загальна зона будівлі,building common area
+"площа, яку займає будівля",building footprint
+рівень будівлі,building level
+надбудований дах,built-up roof
+опуклість,bulge
+полірування,burnishing
+бізнес-одиниці,business units
+торець,butt
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+кабельний лоток,cable tray
+КАДмеп,CADmep
+розмітка виноски,callout markup
+тег виноски,callout tag
+орієнтований на камеру,camera-centric
+косяк,cant
+градієнт косяку,cant gradient
+вид косяку,cant view
+ковпачок,cap
+мультяшний набір,cartoon set
+стулка,casement
+уловлюючий басейн,catch basin
+дренаж,catchment
+водозбірна зона,catchment area
+місце розташування водозбору,catchment location
+стінка порожнини,cavity wall
+CDE,CDE
+центральна лінія,center line
+Центральна відмітка,center mark
+керамічна плитка,ceramic tile
+аналіз змін,change analysis
+Iнструмент змiн,Changes tool
+характерна міцність,characteristic strength
+Чиполлетті,Cipolletti
+група зіткнень,clash group
+служба колізій,clash service
+сюжетна лінія,clerestory
+гучність кліпу,clip volume
+хмарна модель,cloud model
+кодова комбінація,code combination
+пристрій для подачі холодної води,cold water fixture unit
+композиція даху,composition roof
+складова крива,compound curve
+міцність на стиск,compressive strength
+зосереджена сила,concentrated force
+концептуальний енергетичний аналіз,conceptual energy analysis
+концептуальна маса,conceptual mass
+відведення конденсату,condensate drain
+трубопровід,conduit
+з'єднувач трубопроводу,conduit connector
+фітинг для трубопроводу,conduit fitting
+з'єднувач,connector
+елемент обмеження,constraint element
+моделювання конструктивності,constructability modeling
+поінформованість про зміст,content awareness
+бібліотека контенту,content library
+пакет вмісту,content pack
+випадковість,contingency
+контурна мітка,contour label
+договiрний,contracted
+учасник,contributor
+конвекційне навантаження,convection load
+опуклий,convex
+координаційний простір,coordination space
+справитися,cope
+COR,COR
+пояс,corbel
+співоглядач,co-reviewer
+ділянка коридору,corridor section
+вплив на витрати,cost impact
+управління витратами,cost management
+заявка на оплату вартості,cost payment application
+вважайте зліт,count takeoff
+заміський набір,country kit
+крива гребеня,crest curve
+пересічна труба,crossing pipe
+перехресна бібліотека,crossover library
+корона,crown
+увінчана короною проїжджа частина,crowned roadway
+CS,CS
+кубічна парабола,cubic parabola
+поточний каталог,current directory
+завісочна решітка,curtain grid
+шторна панель,curtain panel
+система штор,curtain system
+ЗАВІСНА стіна,curtain wall
+каркас навісної стіни,curtain wall frame
+решітка для навісних стін,curtain wall grid
+опора навісної стіни,curtain wall mullion
+блок навісної стіни,curtain wall unit
+відстань тесселяції кривої,curve tessellation distance
+вигнута балка,curved beam
+крива-спіраль,curve-spiral
+виготовлена на замовлення балка,custom girder
+зниження швидкості вітру,cut-in speed wind
+швидкість вітру зі зниженою швидкістю,cut-out speed wind
+CWFU,CWFU
+приладова панель,dashboard
+центр обробки даних,data center
+портал денного світла,daylight portal
+скло для денного освітлення,daylighting glass
+вага конструкції,dead load
+DECDEG,DECDEG
+колода,deck
+DEM,DEM
+діаграма попиту,demand diagram
+фактор попиту,demand factor
+звіт про проектування,design report
+З'єднувач для настільного комп'ютера,Desktop Connector
+розсіяти,diffuse
+цифрова модель місцевості,digital terrain model
+тип напрямку,direction type
+дисципліна,discipline
+список розсилки,distribution list
+DLL,DLL
+DMS,DMS
+документ,document
+журнал реєстрації документів,document log
+дренажна мережа,drainage network
+група малювання,drawing group
+скидання початкового місця розташування,drop reference location
+суха цибулина,dry bulb
+гіпсокартон,drywall
+DTM,DTM
+з'єднувач повітроводів,duct connector
+заслінка воздуховода,duct damper
+фітинг воздуховода,duct fitting
+облицювання повітропроводів,duct lining
+система повітроводів,duct system
+Земляні роботи,earthworks
+EDM,EDM
+EGL,EGL
+електричне обладнання,electrical equipment
+електронний вимірювач відстані,electronic distance meter
+висота,elevation
+вісь висот,elevation axis
+сегмент еліпса,ellipse segment
+вбудована стіна,embedded wall
+кінцевий з'єднувач,end connector
+рівновага не може,equilibrium cant
+випаровування,evaporation
+EVC,EVC
+EVCE,EVCE
+відпрацьоване повітря,exhaust air
+посилання на зовнішні дані,external data reference
+точність,fidelity
+Польова книга,field book
+звіт про польові роботи,field report
+з'єднання в польових умовах,field splice
+файл,file
+шаблон заливки,fill pattern
+жолобок,fillet
+радіус заокруглення,fillet radius
+кінцево-елементний аналіз мосту,finite-element bridge analysis
+фіксоване вікно,fixed window
+кут спалаху,flare angle
+плаваюча крива,float curve
+план поверху,floor plan
+елемент форми,form element
+форми,forms
+фундамент,foundation
+рамка,frame
+частота зміни кадрів,frame rate
+вільне плавання,free float
+FU,FU
+пушинка,fuzz
+Гантт,Gantt
+генеральний підрядник,general contractor
+компанія-генеральний підрядник,general contractor company
+балка,girder
+група балок,girder group
+форма балки,girder shape
+штуковина,gizmo
+глобальна система координат,global coordinate system
+зміна в класі,grade break
+розрив рівня,grading plan
+гравітаційна мережа,gravity network
+гравітаційна труба,gravity pipe
+провідник заземлення,ground conductor
+наземна модель,ground model
+профіль грунту,ground profile
+грунтові води,ground water
+огорожа,guardrail
+вішалка,hanger
+HDS,HDS
+збільшення тепловиділення,heat gain
+Острів тепла,heat island
+навантаження на опалення та охолодження,heating and cooling loads
+розрахункова температура нагріву,heating design temperature
+HGL,HGL
+Домашня сторiнка,Home
+спосіб горизонтального регулювання,horizontal adjustment method
+Гарячий провідник,hot conductor
+HP,HP
+Торцева пластина HS,HS end plate
+Зона кондиціонування повітря,HVAC zone
+гіпермоделювання,hypermodeling
+крижані гіганти,ice giants
+вартість впливу,impact cost
+передбачувана точка перетину,implied point of intersection
+IMX,IMX
+Промисловий піковий коефіцієнт витрати,Industrial Peak Flow Factor
+галузева модель,industry model
+Модель InfraWorks,InfraWorks model
+ініціатор,initiator
+зрушення кордону розділу,interface shear
+перевірка на перешкоди,interference check
+компонент перетину,intersection component
+квадрант перетину,intersection quadrant
+Сервер Inventor,Inventor Server
+ISD,ISD
+короткий опис товару,item summary
+фотографії будівельного майданчика,jobsite photos
+лейтмотив,keynote
+таблиця з основними доповідями,keynote table
+тег keynote,keynote tag
+основний текст доповіді,keynote text
+суглоб пальця,knuckle
+стиль етикетки,label style
+освоєння земельних ділянок,land development
+LandXML,LandXML
+LAS,LAS
+приховане тепло,latent heat
+бічне кріплення,lateral bracing
+стан шару,layer state
+рівна посадка,level landing
+рівень гладкості,level of smoothness
+LF,LF
+щільність потужності освітлення,lighting power density
+лінія кордону,line boundary
+лінійний масив,linear array
+лінійний розмір,linear dimension
+лінійний масштаб,linear scale
+лінійний зліт,linear takeoff
+вантажний кейс,load case
+Класифікація навантажень,load classification
+діаграма навантаження,load diagram
+місця,locations
+поздовжній інтервал,longitudinal spacing
+LP,LP
+MACP,MACP
+основний контракт,main contract
+розмітка,markup
+масовий пол,mass floor
+масова зона,mass zone
+властивості матеріалу,material properties
+відбір матеріалу,material takeoff
+Максимальна модель,Max model
+середній денний діапазон,mean daily range
+механічне навантаження,mechanical load
+зустрічi,meetings
+кінцеві зусилля елемента,member end forces
+сили учасників,member forces
+незначний тик,minor tick
+з'єднання Мітри,miter join
+вирівнювання моделі,model alignment
+Конструктор моделей,Model Builder
+Модель конструктора моделей,Model Builder model
+текст моделі,model text
+кілька учасників,multiple members
+багатополюсна схема,multi-poled circuit
+багатошаровий лист,multi-sheet
+чистий графік,net graph
+нейтральний провідник,neutral conductor
+вузол,node
+номінальний діаметр,nominal diameter
+північний,northing
+умовне навантаження,notional load
+NRV,NRV
+пристрій для виклику медсестри,nurse call device
+зайнятість,occupancy
+вирівнювання по зміщенню,offset alignment
+одностороння плита перекриття,one way slab
+визначення розмірів по осі ординат,ordinate dimensioning
+зміна власника,owner changes
+Розробник моделей P & ID,P&ID Modeler
+опорна балка,pan joist
+панельна дошка,panelboard
+частина сім'ї,part family
+посилення траєкторії,path reinforcement
+PCO,PCO
+прихований приріст тепла у людей,people latent heat gain
+відсоток непроникності,percentage impervious
+фазовий фільтр,phase filter
+фазове відображення,phase mapping
+Фото в огляді 360,Photo on ReCap 360
+фотометрична форма,photometric shape
+фотонна карта,photon map
+Точка PI,PI point
+PID,PID
+пірс,pier
+цоколь Пірса,pier cap
+опорна колона,pier column
+приладдя для труб,pipe accessory
+трубний підшипник,pipe bearing
+з'єднувач труб,pipe connector
+фітинг для труби,pipe fitting
+ізоляція труб,pipe insulation
+розташування труб,pipe layout
+план трубопроводу,pipe plan
+прохід по трубі,pipe run
+Піранезі EPix,Piranesi EPix
+подача,pitch
+Постав мене на місце,Place Me
+Плангрід,PlanGrid
+пленум,plenum
+сантехнічне обладнання,plumbing fixture
+гранична умова точки,point boundary condition
+Пошук зображень у хмарі точок,Point Cloud Image Lookup
+група точок,point group
+точкове навантаження,point load
+точковий маркер,point marker
+ламана лінія,polyline
+силовий ланцюг,power circuit
+колабораціоніст влади,power collaborator
+силове навантаження,power load
+PRC,PRC
+система попереднього протипожежного захисту,pre-action fire protection system
+Слот Preissmann,Preissmann slot
+утрата тиску,pressure loss
+напірна труба,pressure pipe
+первинна модель,primary model
+висота ухилу профілю,profile grade elevation
+лінія профілювання профілю,profile grade line
+вид сітки профілю,profile grid view
+вид профілю,profile view
+фотографії прогресу,progress photos
+відстеження прогресу,progress tracking
+адміністратор проекту,project administrator
+Проект Вазарі,Project Vasari
+проекційна система координат,projected coordinate system
+рядок властивостей,property line
+пропозиція,proposal
+натискний штифт,push pin
+Пайп,Pype
+тенденція до зниження ризику для якості,quality risk trend
+швидкі квитки,quick tickets
+вирівнювання рейок,rail alignment
+система огорож,railing system
+трасування променів,ray tracing
+RCP,RCP
+реактивний квиток,reactive ticket
+арматурний стрижень,rebar bar
+зайва кімната,redundant room
+довідковий профіль,reference profile
+регіональна лінія,region line
+схема армування,reinforcement pattern
+умова вивільнення,release condition
+зовнішній вигляд рендеринга,rendering appearance
+зворотне повітря,return air
+зворотний потік повітря,return airflow
+рецензент,reviewer
+Настроюване поле RFI,RFI custom field
+вертикальна труба,riser
+прикраса проїжджої частини,roadway decoration
+Мандрівник,Roamer
+роль,role
+рулонний дах,rolled roof
+одночасне натискання,rollover
+коник даху,roof ridge
+перекриття даху,roof soffit
+співвідношення порожнин в приміщенні,room cavity ratio
+розклад номерів,room schedule
+першопричина,root cause
+ротодинамічний насос,rotodynamic pump
+кругла труба,round pipe
+гуркітливі смуги,rumble strips
+крива прогину,sag curve
+точка відбору проб,sample point
+вибране джерело,sampled source
+скалярний TSDB,scalar TSDB
+таблиця значень,schedule of values
+назва схеми,schema name
+SCS,SCS
+SCSCS,SCSCS
+SCSSCS,SCSSCS
+площина перерізу,section plane
+лист перетину,section sheet
+дозвіл вибору,selection resolution
+дозвіл на обслуговування,service clearance
+настройка,settings
+зрізна стінка,shear wall
+листя,sheet
+потік листів,sheet flow
+конструкція оболонки,shell construction
+магазинний малюнок,shop drawing
+точка бічного огляду,sideshot point
+Начерк,SketchUp
+дно плити,slab bottom
+верхня частина плити,slab top
+Похила балка,sloped beam
+похилий трубопровід,sloped piping
+знімок,snapshot
+танення снігу,snowmelt
+суцільна залізобетонна плита,solid reinforced concrete slab
+Утиліта для присвоєння імен просторам,Space Naming Utility
+розділ специфікацій,spec section
+швидкісне чергування,speed striping
+SPI,SPI
+розділений вид профілю,split profile view
+точковий нахил,spot slope
+розбризкувач,sprinkler
+підсапувати,spud
+складений вид профілю,stacked profile view
+багатошарова стіна,stacked wall
+звіт про розстановку сил в засідці,stakeout alignment report
+сталева балка,steel girder
+steel beam,steel truss
+ступінчаста опора,step footing
+зливова каналізація,storm sewer
+вуличний лікоть,street elbow
+рядкове поле,string field
+смугасте вікно,strip window
+смугастий тротуар,stripping pavement
+розкривання верхнього шару грунту,stripping top soil
+Структурний аналіз для Revit,Structural Analysis for Revit
+Конструктивна конструкція мосту,Structural Bridge Design
+структурне моделювання,structural modeling
+структурний профіль,structure profile
+вузли збірки,subassemblies
+вузол збірки,subassembly
+форма вузла,subassembly shape
+Динаміка ризиків для якості субпідрядника,subcontractor quality risk trend
+додаткове місце розташування,sub-location
+подача заявки,submittal
+спосіб досягнення віражу,superelevation attainment method
+властивості віражу,superelevation properties
+швидкість віражу,superelevation rate
+замовлення на зміну Постачальника,supplier change order
+система припливного повітря,supply air system
+профіль поверхні,surface profile
+точка обслуговання,survey point
+ширина смуги,swath width
+комутатор,switchboard
+мітка,tag
+злету,takeoff
+Злітаючий об'єкт,takeoff object
+тип зльоту,takeoff type
+Командний простір,Team Space
+температурне навантаження,temperature load
+шаблон,template
+межа міцності,tensile strength
+рівень рельєфу,terrain level
+кут нахилу,tilt angle
+час для подорожі,time of travel
+Майстер-гра,Tinkerplay
+титульний знак,title mark
+толерантність,tolerance
+простір для інструментів,toolspace
+перехідний фітинг,transition fitting
+перехідна станція,transition station
+поперечний стрижень,transversal bar
+опорна плита,treadplate
+траншея,trench
+справжній струм,true current
+справжнє навантаження,true load
+поворотна ковзна смуга,turn slip lane
+таблиця явки виборців,turnout table
+схил з двома зрізами,two-cut plumb
+квадрат з двома розрізами,two-cut square
+UCS,UCS
+недостатній дренаж,underdrain
+безроздільно увінчаний,undivided crowned
+нерозділений плоский,undivided planar
+однонаправлений вигин,unidirectional bending
+попередній порядок зміни бюджету,upstream budget change order
+користувальницький контур,user contour
+дослідження користувачів,user research
+змінний об'єм повітря,variable air volume
+змінний гребінь,variable crest
+VAV,VAV
+Відстеження транспортних засобів,Vehicle Tracking
+швидкісний тиск,velocity pressure
+шпон,veneer
+вертикальне регулювання,vertical adjustment
+переглянути список,view list
+глядач,viewer
+вікно перегляду,viewport
+оглядове скло,vision glass
+геометрія порожнечі,void geometry
+недійсний RFI,void RFI
+пустотіла плита,voided slab
+проходження,walkthrough
+фундамент стіни,wall foundation
+змивши,washoff
+товщина полотна,web thickness
+зварена дротяна тканина,welded wire fabric
+волога колба,wet bulb
+WFU,WFU
+Модель WIP,WIP model
+Монітор для спільного використання ресурсів,Worksharing Monitor
+XDRef,XDRef

@@ -1,0 +1,97 @@
+﻿source,target
+campuran alfa,alpha-blend
+kecepatan sudut,angular speed
+jaring dasar,base mesh
+objek biner besar,binary large object
+pose ikat,bind pose
+mode campuran,blend mode
+permukaan campuran,blend surface
+keburaman,blurriness
+penanda,bookmark
+kuas,brush
+sapuan kuas,brush stroke
+tonjolan,bulge
+benjolan,bump
+peta benjolan,bump map
+pemetaan benjolan,bump mapping
+kamera,camera
+tingkap,casement
+karakter objek besar,character large object
+CLOB,CLOB
+tepi tertutup,closed edge
+komponen,component
+objek terbatas,constrained object
+titik sudut kontrol,control vertex
+hull titik sudut kontrol,control vertex hull
+hull sekumpulan titik kontrol,control vertices hull
+kedalaman bidang,depth of field
+model elevasi digital,digital elevation model
+peta perpindahan,displacement map
+skala perpindahan,displacement scale
+dithering,dithering
+DOF,DOF
+sumbu elevasi,elevation axis
+ekstraksi,extraction
+pengambil warna,eyedropper
+muka,face
+filet,fillet
+flyout,flyout
+fly-out,fly-out
+pecahan,fragment
+bingkai,frame
+laju bingkai,frame rate
+inverse kinematics seluruh isi,full-body inverse kinematics
+gamma,gamma
+shader perangkat keras,hardware shader
+sorotan,highlight
+Hypershade,Hypershade
+peta gambar,image map
+bidang gambar,image plane
+pencahayaan berbasis gambar,image-based lighting
+isoparm,isoparm
+sambungan,joint
+knuckle,knuckle
+lapisan,layer
+level,level
+permukaan batas,limit surface
+array linier,linear array
+jaring,mesh
+penyambung,mesher
+nada tengah,mid-tone
+pemodifikasi,modifier
+lisensi terkunci node,node-locked license
+peta normal,normal map
+NTSC,NTSC
+ruang objek,object space
+opasitas,opacity
+garis besar,outline
+Tampilan Partikel,Particle View
+poligon,polygon
+primitif,primitive
+peta proyeksi,projection map
+ray tracing,ray tracing
+peta refleksi,reflection map
+retopologi,retopology
+jaring retopologi,retopology mesh
+pemodifikasi retopologi,retopology modifier
+proses retopologi,retopology process
+alat retopologi,retopology tools
+bingkai aman,safe frame
+titik sampel,sample point
+proyeksi layar,screen projection
+pencorakan,shading
+daya offset kemiringan,slope-offset-power
+penghalusan,smoothing
+SMPTE,SMPTE
+SOP,SOP
+sorotan spekular,specular highlight
+knot spline,spline knot
+stensil,stencil
+stroke,stroke
+level subdivisi,subdivision level
+profil yang ditumpangkan,superimposed profile
+pemangkasan permukaan,surface trimming
+ambang batas,threshold
+manipulatos universal,universal manipulator
+id titik sudut,vertex ID
+normal titik sudut,vertex normal

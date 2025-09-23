@@ -1,0 +1,49 @@
+﻿source,target
+alfa blending,alpha-blend
+velocità angolare,angular speed
+scostamento dell'asse,axis offset
+congelare,bake
+posa di unione,bind pose
+modalità di miscelazione,blend mode
+superficie di raccordo,blend surface
+pennello,brush
+curvatura,bulge
+composizione in rilievo,bump
+mappa in rilievo,bump map
+mappa di composizione in rilievo,bump mapping
+inquadratura,camera
+a battenti,casement
+CLOB,CLOB
+spigolo chiuso,closed edge
+oggetto vincolato,constrained object
+vertice di controllo,control vertex
+convesso,convex
+sistema di coordinate di riferimento,coordinate reference system
+reticolo VC,CV hull
+scala di spostamento,displacement scale
+dithering,dithering
+DOF,DOF
+asse dell'altezza,elevation axis
+contagocce,eyedropper
+raccordo,fillet
+fotogramma,frame
+frequenza fotogrammi,frame rate
+shader hardware,hardware shader
+destinazione i-drop,i-drop target
+isoparm,isoparm
+snodo,knuckle
+distinta componenti,layer
+livello,level
+creazione mesh,mesher
+NTSC,NTSC
+opacità,opacity
+raytracing,ray tracing
+mappa di riflessione,reflection map
+punto di campionamento,sample point
+Slope-Offset-Power,slope-offset-power
+SMPTE,SMPTE
+SOP,SOP
+stencil,stencil
+profilo sovrapposto,superimposed profile
+taglio della superficie,surface trimming
+manipolatore universale,universal manipulator

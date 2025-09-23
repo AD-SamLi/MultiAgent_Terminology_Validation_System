@@ -1,0 +1,104 @@
+﻿source,target
+alpha-blend,fondu alpha
+angular speed,vitesse angulaire
+bake,ancrer
+base mesh,maillage de base
+Big New Better,Big New Better
+Big New Max,Big New Max
+Big New Maya,Big New Maya
+binary large object,grand objet binaire
+bind pose,position de liaison
+blend mode,mode de fusion
+blend surface,surface de fusion
+bookmark,signet
+brush,pinceau
+brush stroke,trait de pinceau
+camera,caméra
+casement,battant
+character large object,grand objet caractère
+CLOB,CLOB
+closed edge,arête fermée
+Cloud Rights,droits d'utilisation du cloud
+component,composant
+constrained object,objet contraint
+control vertex,sommet de contrôle
+control vertex hull,grille de sommets de contrôle
+control vertices hull,grille de sommets de contrôle
+convex,convexe
+coordinate reference system,système de coordonnées de référence
+CV,CV
+CV hull,grille de sommets de contrôle
+depth of field,profondeur de champ
+digital elevation model,modèle DEM
+displacement map,texture de déplacement
+displacement scale,échelle de déplacement
+dithering,nuance
+DOF,DOF
+dolly,faire un travelling
+e-book,livre électronique
+elevation axis,axe d'élévation
+extraction,extraction
+eyedropper,pipette
+face,face
+fillet,raccord
+fragment,fragment
+frame,image
+frame rate,nombre d'images par seconde
+full-body inverse kinematics,FBIK
+gamma,gamma
+hardware shader,ombrage matériel
+highlight,reflet
+image map,texture d'image
+image plane,plan d'image
+image-based lighting,éclairage basé sur une image
+isoparm,isoparm
+joint,jonction
+layer,couche
+level,niveau
+limit surface,limite de surface
+linear array,réseau linéaire
+mesh,maillage
+mesher,mailleur
+mid-tone,demi-teinte
+modifier,modificateur
+motion graphics,animations graphiques
+node-locked license,licence monoposte
+normal map,texture normale
+NTSC,NTSC
+object space,espace objet
+opacity,opacité
+outline,contour
+Particle View,vue particule
+Pivot,pivot
+polygon,polygone
+pose,pose
+primitive,primitive
+projection map,texture de projection
+ray tracing,lancer de rayons
+reflection map,texture de réflexion
+retopology,retopologie
+retopology mesh,maillage de retopologie
+retopology process,processus de retopologie
+retopology tools,outils de retopologie
+Safe Frame,zone d'images valides
+sample point,point d'échantillonnage
+screen projection,projection de scène
+shading,ombrage
+slope-offset-power,SOP (slope/offset/power)
+smoothing,lissage
+SMPTE,SMPTE
+SOP,SOP
+specular highlight,reflet spéculaire
+spline knot,nœud de spline
+stencil,pochoir
+stroke,trait
+subdivision level,niveau de subdivision
+superimposed profile,ligne de profil en long superposée
+surface trimming,ajustement de surface
+threshold,seuil
+translate,translater
+Triangulate Cap,trianguler le couvercle
+tumble,faire pivoter sur l'axe vertical
+universal manipulator,manipulateur universel
+vertex ID,ID de sommet
+vertex normal,normale de sommet

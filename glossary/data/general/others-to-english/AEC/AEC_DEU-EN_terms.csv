@@ -1,0 +1,559 @@
+﻿source,target
+3D-Netzgrundkörper,3D mesh primitive
+3D-Minimap,3D Mini-map
+3D-Verschieben-Gizmo,3D Move gizmo
+3D-Drehen-Gizmo,3D Rotate gizmo
+3D-Skalieren-Gizmo,3D Scale gizmo
+Widerlager,abutment
+Kontoadministrator,account administrator
+Gantt-Diagramm für Aktivität,Activity Gantt View
+Gesamtansicht,aggregate View
+Lüftungsgerät,air handler
+Airtable,Airtable
+Ausgerichtete Schnittansicht,aligned section view
+Achshauptpunkt,alignment geometry point
+Achsversatz,alignment offset
+ALKIS,ALKIS
+Nennstromstärke,ampacity
+Analemma,analemma
+analytische Geschossdecke,analytical floor
+berechnete Oberfläche,analytical surface
+Winkeltoleranz,angle of deflection
+Winkelgeschwindigkeit,angular speed
+Anmerkung,annotation
+Mindestbewehrung,anti-shrinkage reinforcement
+Scheinleistung,apparent power
+Darstellungsstil,appearance style
+Genehmiger,approver
+Bogen-Sehnen-Abstand,arc-chord distance
+ArchiCAD-Modell,ArchiCAD model
+architektonisches Geschoss,architectural floor
+ASBD,ASBD
+ASHRAE-Formstück,ASHRAE fitting
+Objektbibliothek,asset library
+ATIL,ATIL
+Anhang,attachment
+AutoCAD-Modell,AutoCAD model
+Autodesk-Bilddatenbank,Autodesk Image Library
+durchschnittliche Endfläche,average end area
+Azimut,azimuth
+Anschlusspunkt,backsight
+Beauftragter,ball in court
+Basisfamilie,base family
+Basislayer,base layer
+Basemap,basemap
+Batch Print,Batch Print
+BCA,BCA
+BCF,BCF
+tragende Wand,bearing wall
+Biegedurchmesser,bend diameter
+Stabkröpfung,bent bar
+Abrechnungszeitraum,billing period
+BIM-Objekt,BIM object
+zweifachsymmetrisch,bisymmetric
+Bloss-Bogen,bloss
+Entleiher,borrower
+Hohlträger,box girder
+Zweigstromkreis,branch circuit
+Ziegelverblendung,brick veneer
+Transfer-Tool,Bridge
+gebürstet,brushed
+gebürstetes Aluminium,brushed aluminium
+Budget-Übertragung,budget transfer
+Gemeinschaftsfläche,building common area
+Gebäudegrundfläche,building footprint
+Geschoss,building level
+mehrlagiges Dach,built-up roof
+Wölbung,bulge
+poliert,burnishing
+Geschäftsbereiche,business units
+stumpf,butt
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+Kabeltrasse,cable tray
+CADmep,CADmep
+Ausschnittsvergrößerung,callout markup
+Detailausschnittsbeschriftung,callout tag
+host,camera-centric
+Überhöhung,cant
+Überhöhungsneigung,cant gradient
+Überhöhungsansicht,Cant View
+Linienende,cap
+Cartoon-Satz,cartoon set
+Flügel,casement
+Auffangbecken,catch basin
+Gebietsauslass,catchment location
+Hohlwand,cavity wall
+CDE,CDE
+Mittellinie,center line
+Zentrumsmarke,center mark
+Keramikfliese,ceramic tile
+Fase,chamfer
+Änderungsanalyse,change analysis
+Änderungsverfolgung,Changes tool
+charakteristische Festigkeit,characteristic strength
+Cipolletti,Cipolletti
+Kollisionsgruppe,clash group
+Oberlicht,clerestory
+Schnittvolumen,clip volume
+Cloud-Modell,cloud model
+Normkombination,code combination
+Kaltwasser-Sanitärobjekt,cold water fixture unit
+Dach mit Asphaltschindeln,composition roof
+Korbbogen,compound curve
+Druckfestigkeit,compressive strength
+Einzelkraft,concentrated force
+Entwurfsenergieanalyse,Conceptual Energy Analysis
+Entwurfskörper,conceptual mass
+Kondensatableiter,condensate drain
+Leerrohr,conduit
+Leerrohr-Anschlussstück,conduit connector
+Leerrohrformteil,conduit fitting
+Verbinder,connector
+Abhängigkeitselement,constraint element
+Realisierbarkeitsmodelle,constructability modeling
+Relevante Inhalte,Content Awareness
+Inhaltsbibliothek,content library
+Inhaltspaket,content pack
+Eventualfonds,contingency
+Höhenlinienbeschriftung,contour label
+mit Kontraktion,contracted
+Mitwirkender,Contributor
+Konvektionslast,convection load
+konvex,convex
+Koordinationsraum,coordination space
+Ausklinkung,cope
+Anforderung für Änderungsauftrag,COR
+Konsole,corbel
+Co-Prüfer,Co-reviewer
+Trassenabschnitt,corridor section
+Auswirkung auf Kosten,cost impact
+Kostenverwaltung,cost management
+Kostenzahlungsantrag,cost payment application
+Ermittlung der Anzahl,count takeoff
+Länder-Kit,country kit
+Kuppe,crest curve
+Haltungsquerschnitt,crossing pipe
+Gleisverbindungsbibliothek,crossover library
+Fahrbahnscheitel,crown
+Straße mit Dachprofil,crowned roadway
+kubische Parabel,Cubic Parabola
+aktuelles Verzeichnis,current directory
+Fassadensystem,curtain system
+Fassade,curtain wall
+Fassadenrahmen,curtain wall frame
+Fassadenpfosten,curtain wall mullion
+Bogen-Tessellationsabstand,curve tessellation distance
+gekrümmter Träger,curved beam
+benutzerdefinierter Träger,custom girder
+Einschaltwindgeschwindigkeit,cut-in speed wind
+Ausschaltwindgeschwindigkeit,cut-out speed wind
+CWFU,CWFU
+Dashboard,dashboard
+Rechenzentrum,data center
+lichtdurchlässiges Bauteil,daylight portal
+Verglasung für Beleuchtung mit Tageslicht,daylighting glass
+ständige Last,dead load
+DECDEG,DECDEG
+Überbau,deck
+Grad/Minuten/Sekunden,degrees minutes seconds
+DEM,DEM
+Bedarfsdiagramm,demand diagram
+Gleichzeitigkeit,demand factor
+Entwurfsbericht,design report
+Desktop Connector,Desktop Connector
+diffus,diffuse
+digitales Geländemodell,digital terrain model
+Bemaßungsabhängigkeit,DimConstraint
+Richtungstyp,direction type
+Disziplin,Discipline
+Verteilungsliste,Distribution List
+dll,DLL
+DMS,DMS
+Dokument,document
+Dokumentprotokoll,document log
+Document Management,Document Management
+Dokumente,Documents
+Entwässerungsnetz,drainage network
+Zeichnungsgruppe,drawing group
+Absturz-Referenzposition,drop reference location
+Trockenkugel,dry bulb
+Trockenbauwand,drywall
+DTM,DTM
+Lüftungsleitungsverbinder,duct connector
+Luftklappe,duct damper
+Luftkanalformteil,duct fitting
+Luftkanaldämmung,duct lining
+Luftkanalsystem,duct system
+Erdarbeiten,earthworks
+EDM,EDM
+elektrische Ausstattung,electrical equipment
+elektronischer Entfernungsmesser,electronic distance meter
+Höhe,elevation
+Höhenachse,elevation axis
+Ellipsensegment,ellipse segment
+umschlossene Wand,embedded wall
+Endanschluss,end connector
+ausgeglichene Überhöhung,equilibrium cant
+Verdunstung,evaporation
+EVC,EVC
+EVCE,EVCE
+externe Datenreferenz,External Data Reference
+Treue,fidelity
+Feldbuch,field book
+Baustellenbericht,field report
+Montagestoß,field splice
+Datei,file
+Füllmuster,fill pattern
+Abrundung,fillet
+Verrundungsradius,fillet radius
+Finite-Elemente-Brückenanalyse,finite-element bridge analysis
+festverglastes Fenster,fixed window
+Öffnungswinkel,flare angle
+Koppelelement (Bogen),float curve
+Grundriss,floor plan
+Formelement,form element
+Formulare,Forms
+Fundament,foundation
+frame,frame
+Frame-Rate,frame rate
+Pufferzeit,free float
+FU,FU
+Fuzzy,fuzz
+Gantt,Gantt
+Generalunternehmer,general contractor
+Firma des Generalunternehmers,general contractor company
+Träger,girder
+Trägergruppe,girder group
+Trägerform,girder shape
+Gizmo,gizmo
+globales Koordinatensystem,global coordinate system
+Brechpunkt,grade break
+Verschneidungsplan,grading plan
+Freispiegelkanalnetzwerk,gravity network
+Haltung mit natürlichem Gefälle,gravity pipe
+Schutzleiter,ground conductor
+Geländemodell,ground model
+Grundwasser,ground water
+Leitplanke,guardrail
+Kennung,handle
+Halterung,hanger
+HDS,HDS
+Wärmegewinn,heat gain
+Wärmeinsel,heat island
+Heiz- und Kühllasten,heating and cooling loads
+Heizungsbemessungstemperatur,heating design temperature
+HGL,HGL
+Start,Home
+horizontale Anpassungsmethode,horizontal adjustment method
+Phasenleiter,hot conductor
+HP,HP
+HS-Stirnplatte,HS end plate
+HLK-Zone,HVAC zone
+Hypermodeling,hypermodeling
+Eisriesen,ice giants
+Kosten beeinflussen,impact cost
+impliziter TS-Punkt,implied point of intersection
+IMX road,IMX
+Wird überprüft,In review
+industrieller Spitzendurchflussfaktor,Industrial Peak Flow Factor
+Fachschale,industry model
+InfraWorks-Modell,InfraWorks model
+Initiator,initiator
+Grenzflächenabscherung,interface shear
+Knotenpunktkomponente,intersection component
+Knotenpunktbereich,intersection quadrant
+Inventor Server,Inventor Server
+Aufgabe,issue
+Aufgaben,Issues
+Element-Übersicht,Item summary
+Baustellenfotos,jobsite photos
+Bauelementschlüssel,keynote
+Bauelementtabelle,keynote table
+Bauelementbeschriftung,keynote tag
+Bauelementtext,keynote text
+Straßenbucht,knuckle
+Beschriftungsstil,label style
+Landentwicklung,land development
+LandXML,LandXML
+LAS,LAS
+latente Wärme,latent heat
+seitlicher Verband,lateral bracing
+Layerstatus,layer state
+Podestebene,level landing
+Glättungsgrad,level of smoothness
+LF,LF
+Lichtquelle,lighting device
+Leuchte,lighting fixture
+Beleuchtungsleistungsdichte,lighting power density
+Linien-Auflagerbedingung,line boundary
+lineare Anordnung,linear array
+lineare Bemaßung,linear dimension
+lineare Skala,linear scale
+lineare Ermittlung,linear takeoff
+Lastfall,load case
+Lastklassifizierung,load classification
+Belastungsdiagramm,load diagram
+Standorte,Locations
+Längsabstand,longitudinal spacing
+LP,LP
+Hauptvertrag,main contract
+Markierung,markup
+Körpergeschoss,mass floor
+Körperzone,mass zone
+Materialeigenschaften,material properties
+Materialauflistung,material takeoff
+Max-Modell,Max model
+Tagesmittel,mean daily range
+mechanische Last,mechanical load
+Besprechungen,Meetings
+Nebenstationspunktmarker,minor tick
+Gehrungsverbindung,miter join
+Modellausrichtung,model alignment
+Model Builder,Model Builder
+Model Builder-Modell,Model Builder model
+Modelltext,model text
+mehrere Mitglieder,multiple members
+mehrpoliger Stromkreis,multi-poled circuit
+mehrseitig,multi-sheet
+Netto-Diagramm,net graph
+Neutralleiter,neutral conductor
+Nächste Aktion von,next action by
+Knoten,node
+Nenndurchmesser,nominal diameter
+Hochwert,northing
+Ignorieren,not an issue
+Rechenlast,notional load
+Rückschlagventil,NRV
+Notrufgerät,nurse call device
+Belegung,occupancy
+besetzbar,occupiable
+Achsparallele,Offset Alignment
+Platte einseitig,one way slab
+Koordinatenbemaßung,ordinate dimensioning
+AG-Änderungen,owner changes
+P&ID Modeler,P&ID Modeler
+trapezförmiger Balken,pan joist
+Verteilerkasten,panelboard
+Komponentenfamilie,Part Family
+lineare Bewehrung,path reinforcement
+potenzieller Änderungsauftrag,PCO
+Ausstehend,Pending
+latenter Wärmegewinn pro Person,people latent heat gain
+Prozentsatz undurchlässig,Percentage Impervious
+Phasenfilter,phase filter
+Phasen-Mapping,phase mapping
+Photo on ReCap 360,Photo on ReCap 360
+fotometrische Form,photometric shape
+Photonen-Map,photon map
+Fotos,Photos
+TS-Punkt,PI point
+PID,PID
+Pfeiler,pier
+Pfeilerabschluss,pier cap
+Pfeilerstütze,pier column
+Rohrzubehör,pipe accessory
+Rohrlager,pipe bearing
+Rohrverbinder,pipe connector
+Rohrformteil,pipe fitting
+Rohrisolierung,pipe insulation
+Kanal-Layout,pipe layout
+Kanalplan,pipe plan
+Kanalsystem,pipe run
+Piranesi EPix,Piranesi EPix
+Steigung,pitch
+Place Me,Place Me
+PlanGrid,PlanGrid
+Luftraum,plenum
+Sanitärinstallation,plumbing fixture
+Punkt-Auflagerbedingung,point boundary condition
+Punktwolkenbildsuche,Point Cloud Image Lookup
+Punktgruppe,point group
+Einzellast,point load
+Punktsymbol,point marker
+Polylinie,Polyline
+Stromkreis,power circuit
+Hauptmitarbeiter,power collaborator
+Stromlast,power load
+PRC,PRC
+vorgesteuertes Brandschutzsystem,pre-action fire protection system
+Preissmann-Schlitz,Preissmann slot
+Druckverlust,pressure loss
+Druckleitung,pressure pipe
+primär,Primary
+primäres Modell,primary model
+Längsschnitt-Neigungshöhe,profile grade elevation
+Längsschnitt-Neigungslinie,profile grade line
+Längsschnitt-Rasteransicht,profile grid view
+Höhenplan,profile view
+Baufortschrittsfotos,progress photos
+Fortschrittsverfolgung,Progress Tracking
+Projektadministrator,project administrator
+Project Vasari,Project Vasari
+projiziertes Koordinatensystem,projected coordinate system
+Grundstücksgrenze,property line
+Vorschlag,proposal
+Pin,push pin
+Pype,Pype
+Qualitätsrisikobewertung,Quality Risk Trend
+Schnell-Tickets,Quick Tickets
+Gleisachse,rail alignment
+Geländersystem,railing system
+Raytracing,ray tracing
+RCP,RCP
+reaktives Ticket,reactive ticket
+Bewehrungseisen,rebar bar
+Redlining,redline
+redundanter Raum,redundant room
+Referenzlängsschnitt,reference profile
+Bereichslinie,region line
+Bewehrungsverlegung,reinforcement pattern
+Auflagerbedingung,release condition
+Render-Darstellung,rendering appearance
+Abluftstrom,return airflow
+Prüfer,reviewer
+benutzerdefiniertes Informationsanfragen-Feld,RFI custom field
+Gestaltungselement für Straßen,roadway decoration
+Roamer,Roamer
+Rolle,role
+Dach mit gewalztem Belag,rolled roof
+Querneigungsdifferenz,rollover
+First,roof ridge
+Dachuntersicht,roof soffit
+Raum-/Aushöhlungs-Verhältnis,room cavity ratio
+Raumliste,room schedule
+Fehlerursache,root cause
+rotodynamische Pumpe,rotodynamic pump
+rundes Rohr,round pipe
+Rüttelstreifen,rumble strips
+Strecke,run
+Wanne,sag curve
+Beispielpunkt,sample point
+Berücksichtigte Datenquelle,sampled source
+skalare TSDB,Scalar TSDB
+Zeitplan,Schedule
+Kostenaufstellung,schedule of values
+Schemaname,schema name
+ÜBÜ,SCS
+ÜBÜBÜ,SCSCS
+ÜBÜÜBÜ,SCSSCS
+Schnittebene,section plane
+Querprofilplan-Layout,section sheet
+Auswahldifferenzierung,selection resolution
+Wartungsdurchgang,service clearance
+Einstellungen,Settings
+Scheibenwand,shear wall
+Plan,sheet
+Oberflächenabfluss,sheet flow
+Pläne,Sheets
+Konstruktion der Gebäudehülle,shell construction
+Fertigungsplan,shop drawing
+Seitenaufnahme,sideshot point
+SketchUp,SketchUp
+Plattenunterseite,slab bottom
+Plattenoberseite,slab top
+geneigter Träger,sloped beam
+geneigte Rohrleitung,sloped piping
+Snapshot,Snapshot
+Schneeschmelze,snowmelt
+massive Stahlbetonplatte,solid reinforced concrete slab
+Space Naming Utility,Space Naming Utility
+Spezifikation,spec section
+Geschwindigkeitsstreifen,speed striping
+Tangentenschnittpunkt des Übergangsbogens,SPI
+Unterteilte Längsschnittansicht,split profile view
+Neigungskote,spot slope
+Sprinkler,sprinkler
+Stutzen,spud
+Höhenplan-Stapelung,stacked profile view
+geschichtete Wand,stacked wall
+Achsenabsteckungs-Bericht,stakeout alignment report
+Stahlträger,steel girder
+Stahlfachwerkbinder,steel truss
+abgestufte Gründung,step footing
+Regenwasserkanal,storm sewer
+Schenkelrohr mit Innen- und Außengewinde,street elbow
+Textfeld,string field
+Einzellenfenster,strip window
+Fahrbahnbelagabtrag,stripping pavement
+Mutterbodenabtrag,stripping top soil
+Structural Analysis for Revit,Structural Analysis for Revit
+Structural Bridge Design,Structural Bridge Design
+Tragwerksmodellierung,structural modeling
+Querschnittsbestandteile,Subassemblies
+Querschnittsbestandteil,subassembly
+Querschnittsbestandteil-Profilart,subassembly shape
+Nachunternehmer-Qualitätsrisikotrend,Subcontractor Quality Risk Trend
+untergeordneter Standort,sub-location
+Eingaben,Submittals
+untergeordnet,Subordinate
+Methode zum Erreichen der Querneigung,superelevation attainment method
+Querneigungseigenschaften,Superelevation properties
+Querneigungsrate,superelevation rate
+Lieferanten-Änderungsauftrag,supplier change order
+Zuluftsystem,supply air system
+Vermessungspunkt,survey point
+Streifenbreite,swath width
+Schaltschrank,switchboard
+Beschriftung,tag
+Ermittlung,takeoff
+Ermittlungsobjekt,takeoff object
+Ermittlungstyp,takeoff type
+Teambereich,Team Space
+Teams,Teams
+Temperaturlast,temperature load
+Vorlage,template
+Zugfestigkeit,tensile strength
+Geländeniveau,terrain level
+Neigungswinkel,tilt angle
+Fließzeit,time of travel
+Zeitleiste,Timeline
+TimeLiner,TimeLiner
+Tinkerplay,Tinkerplay
+Hinweissymbol,title mark
+Toleranz,tolerance
+Projektbrowser,toolspace
+Übergangsformteil,transition fitting
+Übergangsstation,transition station
+Bügel,transversal bar
+trapezförmig,trapezoidal
+Trittblech,treadplate
+Graben,trench
+Wirkstrom,true current
+Wirkleistung,true load
+Abbiegefahrstreifen,turn slip lane
+Weichentabelle,Turnout Table
+Vertikal/Horizontal,two-cut plumb
+Lotrecht/Horizontal,two-cut square
+BKS,UCS
+wiederherstellen,unarchive
+Rohrdrän,underdrain
+einfache Biegung,unidirectional bending
+vorgelagerter Budget-Änderungsauftrag,upstream budget change order
+Benutzerdefinierte Höhenlinie,user contour
+Benutzerstudie,user research
+mit variabler Krone,variable crest
+Vehicle Tracking,Vehicle Tracking
+Geschwindigkeitsdruck,velocity pressure
+Furnier,veneer
+belüftet,vented
+vertikale Anpassungsmethode,vertical adjustment
+Ansichtsliste,view list
+Viewer,viewer
+Ansichtsfenster,Viewport
+Sichtfenster,vision glass
+Abzugskörpergeometrie,void geometry
+ungültige Informationsanfrage,void RFI
+ausgesparte Platte,voided slab
+Walkthrough,walkthrough
+Wandfundament,wall foundation
+Abtrag,washoff
+Stegdicke,web thickness
+Baustahlmatte,welded wire fabric
+Feuchtkugel,wet bulb
+Wassersanitätsobjekt,WFU
+Modell in Bearbeitung,WIP model
+Worksharing Monitor,Worksharing Monitor
+umbrechen,wrap
+XDRef,XDRef

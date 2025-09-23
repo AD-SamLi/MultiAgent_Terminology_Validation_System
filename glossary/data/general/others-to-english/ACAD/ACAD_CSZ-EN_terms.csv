@@ -1,0 +1,1454 @@
+﻿source,target
+manipulátor 3D přesunu,3D Move gizmo
+manipulátor 3D rotace,3D Rotate gizmo
+manipulátor 3D měřítka,3D Scale gizmo
+3DSROVNEJ,3DALIGN
+3DPOLE,3DARRAY
+3DOŘEŽ,3DCLIP
+3DPORBIT,3DCORBIT
+3DVZD,3DDISTANCE
+3DDWF,3DDWF
+PUBLIK3DDWF,3DDWFPUBLISH
+3DEDITBAR,3DEDITBAR
+3DPLOCHA,3DFACE
+3DPRŮLET,3DFLY
+3DVORBIT,3DFORBIT
+3DSÍŤ,3DMESH
+3DPOSUN,3DMOVE
+3DORBIT,3DORBIT
+3DORBITCTR,3DORBITCTR
+3DORBITTRANSPARENT,3DORBITTRANSPARENT
+3DUCHOP,3DOSNAP
+-3DUCHOP,-3DOSNAP
+3DPP,3DPAN
+3DPANTRANSPARENT,3DPANTRANSPARENT
+3DKŘIVKA,3DPOLY
+3DTISK,3DPRINT
+SLUŽBA3DTISKU,3DPRINTSERVICE
+3DOTOČ,3DROTATE
+3DMĚŘÍTKO,3DSCALE
+ČTI3DS,3DSIN
+3DCÍL,3DSWIVEL
+3DNÁKLONTRANSPARENT,3DSWIVELTRANSPARENT
+3DPROCH,3DWALK
+3DZOOM,3DZOOM
+3DZOOMTRANSPARENT,3DZOOMTRANSPARENT
+ACADBLOCKDIALOG,ACADBLOCKDIALOG
+ACADINFO,ACADINFO
+ACADWBLOCKDIALOG,ACADWBLOCKDIALOG
+ČTIACIS,ACISIN
+PIŠACIS,ACISOUT
+PSS,ACS
+REFBODAKCE,ACTBASEPOINT
+ZAVŘIPŘEHLEDAKTIVIT,ACTIVITYINSIGHTSCLOSE
+OTEVŘIPŘEHLEDAKTIVIT,ACTIVITYINSIGHTSOPEN
+ACTM,ACTM
+SPRÁVCEAKCÍ,ACTMANAGER
+ZÁZNAMAKCE,ACTRECORD
+STOPAKCE,ACTSTOP
+UŽIVZADÁNÍ,ACTUSERINPUT
+UŽIVZPRÁVA,ACTUSERMESSAGE
+ADC,ADC
+ADCZAVŘI,ADCCLOSE
+ADCUŽIVNAVIGACE,ADCCUSTOMNAVIGATE
+ADCENTER,ADCENTER
+ADCNAVIGACE,ADCNAVIGATE
+ADDSELECTED,ADDSELECTED
+AI_CIRCTAN,AI_CIRCTAN
+AI_PSPACE,AI_PSPACE
+AIDIMPREC,AIDIMPREC
+AIDIMSTYLE,AIDIMSTYLE
+AIDIMTEXTMOVE,AIDIMTEXTMOVE
+ALIASEDIT,ALIASEDIT
+zarovnaný řez,aligned section view
+ALIGNSPACE,ALIGNSPACE
+ALKIS,ALKIS
+značka obvodového svaru,all-around symbol
+PŘEHRÁTVŠE,ALLPLAY
+alfa přechod,alpha-blend
+alternativní jednotky,alternate unit
+měření výšek,altimetry
+AMEPŘEVOD,AMECONVERT
+ANALÝZAZAKŘIVENÍ,ANALYSISCURVATURE
+ANALÝZAÚKOSU,ANALYSISDRAFT
+MOŽNOSTIANALÝZY,ANALYSISOPTIONS
+ANALÝZAHLADKOSTI,ANALYSISZEBRA
+analytický povrch,analytical surface
+úhel odklonění,angle of deflection
+ANIMDRÁHU,ANIPATH
+POZNOBNOV,ANNORESET
+poznámka,annotation
+vazba s poznámkou,annotational constraint
+POZNAKT,ANNOUPDATE
+anoda,anode
+anodová stanice,anode station
+APLAUTONAČTENÍ,APPAUTOLOADER
+styl vzhledu,appearance style
+APLČTI,APPLOAD
+OBLOUK,ARC
+segmentace oblouku,arc segmentation
+vzdálenost oblouk-tětiva,arc-chord distance
+ARCTEXT,ARCTEXT
+PLOCHA,AREA
+ARG,ARG
+POLE,ARRAY
+POLESTARŠÍ,ARRAYCLASSIC
+ZAVŘIPOLE,ARRAYCLOSE
+EDITPOLE,ARRAYEDIT
+KŘIVPOLE,ARRAYPATH
+POLÁRPOLE,ARRAYPOLAR
+OBDPOLE,ARRAYRECT
+ARX,ARX
+výkres sestavy,assembly drawing
+šablona extrakce sestavy,assembly extraction template
+ASISTENTZAVŘI,ASSISTANTCLOSE
+ASISTENTOTEVŘI,ASSISTANTOPEN
+ATEXT,ATEXT
+ATIL,ATIL
+PŘIPOJURL,ATTACHURL
+ATRDEF,ATTDEF
+ATRDISP,ATTDISP
+ATREDIT,ATTEDIT
+ATREXT,ATTEXT
+ATTIN,ATTIN
+ATRPEDIT,ATTIPEDIT
+ATTOUT,ATTOUT
+ATTREDEF,ATTREDEF
+ATRSYNCHR,ATTSYNC
+Index barev aplikace AutoCAD,AutoCAD color index
+AutoCAD Migration Assistance,AutoCAD Migration Assistance
+Mobilní AutoCAD,AutoCAD Mobile
+automatické dokončování,AutoComplete
+AUTOVAZBY,AUTOCONSTRAIN
+Autodesk Assistant,Autodesk Assistant
+Autodesk Content Explorer,Autodesk Content Explorer
+portál Autodesk Manufacturing Community,Autodesk Manufacturing Community Portal
+AUTODESKCONNECTIONPOINT,AUTODESKCONNECTIONPOINT
+vývojové prostředí AutoLISP,AutoLISP development
+prostředí AutoLISP,AutoLISP environment
+AUTOPUBLIKUJ,AUTOPUBLISH
+pomocný souřadnicový systém,auxiliary coordinate system
+odsazení osy,axis offset
+azimut,azimuth
+POZADÍ,BACKGROUND
+AKCEBLOKU,BACTION
+BPANELAKCÍ,BACTIONBAR
+MNOŽAKCEBLOKU,BACTIONSET
+NÁSTROJAKCEBLOKU,BACTIONTOOL
+kulová fréza,ball mill
+SDRUŽBLOK,BASSOCIATE
+Dávková kontrola standardů,Batch Standards Checker
+SPRBLOKU,BATTMAN
+POŘATRBLOKU,BATTORDER
+přenosová rychlost,baud rate
+PALBLOKU,BAUTHORPALETTE
+ZAVŘIPALBLOK,BAUTHORPALETTECLOSE
+ZAVŘIEDBLOK,BCLOSE
+BKONSTRUKCE,BCONSTRUCTION
+BCOUNT,BCOUNT
+PARAMETRBV,BCPARAMETER
+POŘCYKLPROCHBLOK,BCYCLEORDER
+BDA,BDA
+EDBLOK,BEDIT
+BENASTAVENÍ,BESETTINGS
+úkos,bevel
+BEXTEND,BEXTEND
+MNOŽUZLBLOK,BGRIPSET
+HŠRAFY,BHATCH
+rozpiska,bill of materials
+binární velký objekt,binary large object
+režim přechodu,blend mode
+přechodová plocha,blend surface
+BLOB,BLOB
+objekt publikování bloku,block authoring object
+knihovna bloků,block library
+tabulka vlastností bloku,block properties table
+nahrazení bloku,block replacement
+BLOKIKONA,BLOCKICON
+BLOCKREPLACE,BLOCKREPLACE
+MOŽNOSTIDATBLOKŮ,BLOCKSDATAOPTION
+PALETABLOKY,BLOCKSPALETTE
+ZAVŘIPALETABLOKY,BLOCKSPALETTECLOSE
+BLOCKTOXREF,BLOCKTOXREF
+VYHLTABBLOK,BLOOKUPTABLE
+pojistný ventil,blow off valve
+VYTVOŘB,BMAKE
+BUPRAV,BMOD
+PIŠBMP,BMPOUT
+HRANICE,BOUNDARY
+ohraničená oblast,bounded area
+ohraničující plocha,bounding area
+ohraničující těleso,bounding box
+PARAMBLOK,BPARAMETER
+HKŘIVKA,BPOLY
+koncový obvod,branch circuit
+smyčka přerušení,break loop
+PŘERUŠVBODĚ,BREAKATPOINT
+jistič,breaker
+čára přerušení,break-out line
+HREP,BREP
+NAHRAĎBLOK,BREPLACE
+ZAVŘIPROHL,BROWSERCLOSE
+OTEVŘIPROHL,BROWSEROPEN
+ULOŽBLOK,BSAVE
+ULOŽBLOKJAKO,BSAVEAS
+BSCALE,BSCALE
+BTABULKA,BTABLE
+BTESTBLOKU,BTESTBLOCK
+BTRIM,BTRIM
+vyboulení,bulge
+faktor vyboulení,bulge factor
+hromadné kopírování,bulk copy
+nerovnost,bump
+mapa nerovností,bump map
+mapování nerovností,bump mapping
+sběrnice,bus bar
+SKRYJBLOK,BVHIDE
+ZOBRAZBLOK,BVSHOW
+STAVVIDBLOKU,BVSTATE
+kabelová lávka,cable tray
+tvarovka kabelové lávky,cable tray fitting
+KAL,CAL
+KAMERA,CAMERA
+kalibrace kamery,camera calibration
+symbol kamery,camera glyph
+kreslicí plocha,canvas
+zakončení,cap
+zaoblení zakončení,cap filleting
+kondenzátor,capacitor
+chránička,casing
+model chráničky,casing model
+povrchy úseků Catmull-Clark,Catmull-Clark subdivision surface
+CDORDER,CDORDER
+středová značka,center mark
+STŘEDODPOJ,CENTERDISASSOCIATE
+osa,centerline
+STŘEDPŘIPOJ,CENTERREASSOCIATE
+STŘEDOBNOV,CENTERRESET
+ZKOSHRANU,CHAMFEREDGE
+CHAR,CHAR
+velké objekty znaků,character large object
+KONTROLASTANDARDU,CHECKSTANDARDS
+chí-kvadrát,chi square
+podřazená třída prvků,child feature class
+ZMĚNAV,CHPROP
+ZMĚŇPROSTOR,CHSPACE
+CHURLS,CHURLS
+filmový záběr,cinematic shot
+KLASICKÁSKUPINA,CLASSICGROUP
+KLASICKÝOBRAZ,CLASSICIMAGE
+KLASICKÝVLOŽ,CLASSICINSERT
+KLASICKÁHLADINA,CLASSICLAYER
+KLASICKÝXREF,CLASSICXREF
+ČISTÁOBRAZOVKANE,CLEANSCREENOFF
+ČISTÁOBRAZOVKAANO,CLEANSCREENON
+oříznutý objem,clip volume
+CLIPIT,CLIPIT
+CLOB,CLOB
+ZAVŘIVŠE,CLOSEALL
+ZAVŘIVŠEOSTATNÍ,CLOSEALLOTHER
+uzavřená hrana,closed edge
+kombinace kódů,code combination
+COGO,COGO
+neaktivní uzly,cold grip
+instalační jednotka pro studenou vodu,cold water fixture unit
+kolineární vazba,colinear constraint
+kompletovat,collate
+sada,collection
+BARVA,COLOR
+spalovací komora,combustion chamber
+PŘÍKAZŘÁD,COMMANDLINE
+SKRYJPŘÍKAZŘÁD,COMMANDLINEHIDE
+MAKRAPŘÍKAZŮ,COMMANDMACROS
+ZAVŘIMAKRAPŘÍKAZŮ,COMMANDMACROSCLOSE
+rozmělňovač,comminuting machine
+ZAVŘIPOROVNÁNÍ,COMPARECLOSE
+EXPORTPOROVNÁNÍ,COMPAREEXPORT
+IMPORTPOROVNÁNÍ,COMPAREIMPORT
+POROVNEJINFO,COMPAREINFO
+seznam součástí,component list
+složené těleso,composite solid
+složený symbol,composite symbol
+komprese,compression
+tlačná pružina,compression spring
+vypočítaná délka,computed length
+vodič,conductor
+vedení,conduit
+tvarovka vedení,conduit fitting
+KUŽEL,CONE
+KONFIG,CONFIG
+spojnice,connector line
+svorka konektoru,connector pin
+objekt s vazbou,constrained object
+panel vazeb,constraint bar
+parametr vazby,constraint parameter
+bod vazby,constraint point
+řešič vazeb,constraint solver
+proměnná vazby,constraint variable
+PANELVAZEB,CONSTRAINTBAR
+NASTAVVAZBY,CONSTRAINTSETTINGS
+konstrukční čára,construction line
+OBSAH,CONTENT
+Editor obsahu,Content Editor
+Knihovna obsahu,content library
+obsahový balíček,content pack
+kontrolní kabel,control cable
+kontrolní bod,control point
+řídicí vrchol,control vertex
+PŘEVODCTB,CONVERTCTB
+PŘEVODSTSVĚTEL,CONVERTOLDLIGHTS
+PŘEVODSTMAT,CONVERTOLDMATERIALS
+KPŘEVOD,CONVERTPOLY
+PŘEVODVSTYLU,CONVERTPSTYLES
+PŘEVEĎNASÍŤ,CONVTOMESH
+PŘEVEĎNANURBS,CONVTONURBS
+PŘEVNATĚLESO,CONVTOSOLID
+PŘEVNAPOVRCH,CONVTOSURFACE
+souřadnicový referenční systém,coordinate reference system
+trasovač souřadnicového systému,coordinate system tracker
+PŘIPOJMODELKOORDINACE,COORDINATIONMODELATTACH
+SKOPIEREF,COPYBASE
+SKOPIE,COPYCLIP
+KOPÍRUJZESTOPY,COPYFROMTRACE
+KOPIEHIST,COPYHIST
+PKOPIE,COPYLINK
+COPYM,COPYM
+KOPIEDOHLAD,COPYTOLAYER
+POČETOBLASTI,COUNTAREA
+ZAVŘIPOČETOBLASTI,COUNTAREACLOSE
+ZAVŘIPOČET,COUNTCLOSE
+POLEPOČTU,COUNTFIELD
+SEZNAMPOČET,COUNTLIST
+ZAVŘISEZNAMPOČET,COUNTLISTCLOSE
+POČETDALŠÍ,COUNTNAVNEXT
+POČETPŘEDCHOZÍ,COUNTNAVPREV
+TABULKAPOČTU,COUNTTABLE
+plocha překrytí,covering area
+CRC,CRC
+přehyb,crease
+příčný řez,cross section
+vedení příčného řezu,cross section duct
+CRS,CRS
+knihovna SS,CS library
+CSS,CSS
+kubické šablonování,cubic loft
+CUI,CUI
+Editor CUI,CUI editor
+EXPORTCUI,CUIEXPORT
+IMPORTCUI,CUIIMPORT
+NAČTICUI,CUILOAD
+UVOLNICUI,CUIUNLOAD
+aktuální adresář,current directory
+analýza zakřivení,curvature analysis
+Odesílání chyb zákazníkem,Customer Error Reporting
+zákaznická podpora,customer support
+VYJMISREF,CUTBASE
+VYJMIS,CUTCLIP
+čára řezu,cutting line
+PŘIDEJŘV,CVADD
+SKRYJŘV,CVHIDE
+PŘEBUDUJŘV,CVREBUILD
+ODSTRAŇŘV,CVREMOVE
+ZOBRAZŘV,CVSHOW
+CWFU,CWFU
+VÁLEC,CYLINDER
+EXTRDATA,DATAEXTRACTION
+DATSPOJ,DATALINK
+AKTUALIZUJDATSPOJ,DATALINKUPDATE
+vztažný bod,datumpoint
+DBCCONFIGURE,DBCCONFIGURE
+DBCCONNECT,DBCCONNECT
+DBCDEFINELLT,DBCDEFINELLT
+DBCDEFINELT,DBCDEFINELT
+DBCDELETELINKS,DBCDELETELINKS
+DBCDELETELLT,DBCDELETELLT
+DBCDELETELT,DBCDELETELT
+DBCDELETEQRY,DBCDELETEQRY
+DBCDISCONNECT,DBCDISCONNECT
+DBCEDITLINKEDTABLE,DBCEDITLINKEDTABLE
+DBCEDITLLT,DBCEDITLLT
+DBCEDITLT,DBCEDITLT
+DBCEDITQRY,DBCEDITQRY
+DBCEDITTABLE,DBCEDITTABLE
+DBCEXECUTEQRY,DBCEXECUTEQRY
+DBCEXPORTLINKS,DBCEXPORTLINKS
+DBCEXPORTQS,DBCEXPORTQS
+DBCEXPORTTS,DBCEXPORTTS
+DBCHIDELABELS,DBCHIDELABELS
+DBCIMPORTQRY,DBCIMPORTQRY
+DBCIMPORTQS,DBCIMPORTQS
+DBCIMPORTTS,DBCIMPORTTS
+DBCLINKCONVERSION,DBCLINKCONVERSION
+DBCLINKMANAGER,DBCLINKMANAGER
+DBCONNECT,DBCONNECT
+DBCRELOADLABELS,DBCRELOADLABELS
+DBCSELECTLINKS,DBCSELECTLINKS
+DBCSHOWLABELS,DBCSHOWLABELS
+DBCVIEWLINKEDTABLE,DBCVIEWLINKEDTABLE
+DBCVIEWTABLE,DBCVIEWTABLE
+DBVÝPIS,DBLIST
+RVZAROVNANÁ,DCALIGNED
+RVÚHLOVÁ,DCANGULAR
+RVPŘEVEĎ,DCCONVERT
+RVPRŮMĚROVÁ,DCDIAMETER
+ZOBRAZRV,DCDISPLAY
+TVARRV,DCFORM
+RVHORIZONTÁLNÍ,DCHORIZONTAL
+RVLINEÁRNÍ,DCLINEAR
+modul DCM,DCM Engine
+RVPOLOMĚROVÁ,DCRADIUS
+RVVERTIKÁLNÍ,DCVERTICAL
+DDATTE,DDATTE
+DIAUZLY,DDGRIPS
+DIAKÓTY,DDIM
+DDINSERT,DDINSERT
+DIAVYKROZNAČ,DDPLOTSTAMP
+DIAPOM,DDRMODES
+DDSELECT,DDSELECT
+DIAPÍSMO,DDSTYLE
+DIAUSS,DDUCS
+DIAUSSP,DDUCSP
+DDUNITS,DDUNITS
+DIAOKO,DDVPOINT
+symbol slepého spoje,dead joint symbol
+dekorativní prvek,decorative element
+stupně minuty sekundy,degrees minutes seconds
+ODSTRVAZBU,DELCONSTRAINT
+zvýraznění závislosti,dependency highlighting
+hloubka pole,depth of field
+hloubkový polygon,depth polygon
+Design Review,Design Review
+Design Web Format,Design Web Format
+LOKÁLNÍANALÝZA,DESKTOPANALYTICS
+ODPOJURL,DETACHURL
+Odchylka,deviation
+UPRAVDGN,DGNADJUST
+PŘIPOJDGN,DGNATTACH
+VAŽDGN,DGNBIND
+OŘEŽDGN,DGNCLIP
+DGNEXPORT,DGNEXPORT
+DGNIMPORT,DGNIMPORT
+HLADINYDGN,DGNLAYERS
+MAPOVÁNÍDGN,DGNMAPPING
+průměr,diameter
+mapa rozptylu,diffuse map
+digitální výškový model,digital elevation model
+DIGITÁLNÍPODPIS,DIGITALSIGN
+digitalizační puk,digitizer puck
+digitalizační tablet,digitizing tablet
+KÓTY,DIM
+KÓTYSROVNEJ,DIMALIGNED
+KÓTYÚHEL,DIMANGULAR
+KÓTAOBLOUK,DIMARC
+KÓTYZÁKL,DIMBASELINE
+PŘERUŠKÓTU,DIMBREAK
+KÓTYSTŘED,DIMCENTER
+KÓTYŘET,DIMCONTINUE
+KÓTYPRŮM,DIMDIAMETER
+KÓTYODPOJ,DIMDISASSOCIATE
+KÓTYEDIT,DIMEDIT
+kótovací styl,dimension style
+zadání kót,dimensional input
+DIMEX,DIMEX
+KÓTYHORIZ,DIMHORIZONTAL
+DIMIM,DIMIM
+KÓTAKONTROL,DIMINSPECT
+KÓTAZALOM,DIMJOGGED
+LOMKÓTČÁRA,DIMJOGLINE
+KÓTYPŘÍM,DIMLINEAR
+KÓTYSTANIČNÍ,DIMORDINATE
+KÓTYPŘEPIŠ,DIMOVERRIDE
+KÓTYRÁDIUS,DIMRADIUS
+DIMREASSOC,DIMREASSOC
+KÓTYPŘIPOJ,DIMREASSOCIATE
+KÓTYREGEN,DIMREGEN
+KÓTYOTOČ,DIMROTATED
+KÓTMEZERA,DIMSPACE
+KÓTYTEDIT,DIMTEDIT
+KÓTYVERT,DIMVERTICAL
+VZD,DIST
+odsazení vzdálenosti,distance offset
+VZDÁLSVĚTLO,DISTANTLIGHT
+rozložené rendrování,distributed rendering
+půltóny,dithering
+DMS,DMS
+ukotvit,dock
+DOF,DOF
+PRSTEN,DONUT
+PRSTENEC,DOUGHNUT
+SPRÁVCESTAH,DOWNLOADMANAGER
+DPI,DPI
+analýza úkosu,draft analysis
+norma kreslení,drafting standard
+VLÉCI,DRAGMODE
+povodí,drain area
+složka výkresu,drawing folder
+Drawing Interchange Format,Drawing Interchange Format
+Správce výkresu,Drawing Manager
+sada výkresů,drawing set
+RESTAURUJVÝKRES,DRAWINGRECOVERY
+SKRYJRESTVÝKRES,DRAWINGRECOVERYHIDE
+POŘADÍ,DRAWORDER
+řízená vazba,driven constraint
+řídicí kóta,driving dimension
+DROPGEOM,DROPGEOM
+VNASTAV,DSETTINGS
+DTED,DTED
+DTEXT,DTEXT
+tvarovka potrubí,duct fitting
+soubor DUMP,dump
+DPOHLED,DVIEW
+DWF,DWF
+UPRAVDWF,DWFADJUST
+PŘIPOJDWF,DWFATTACH
+DWFOŘEŽ,DWFCLIP
+FORMÁTDWF,DWFFORMAT
+DWFHLAD,DWFLAYERS
+DWG TrueConvert,DWG TrueConvert
+PŘEVEĎDWG,DWGCONVERT
+HISTORIEDWG,DWGHISTORY
+HISTORIEDWGZAVŘI,DWGHISTORYCLOSE
+VVLASTNOSTI,DWGPROPS
+ČTIDXB,DXBIN
+DXF,DXF
+ČTIDXF,DXFIN
+PIŠDXF,DXFOUT
+dynamická vazba,dynamic constraint
+souřadnice X,easting
+EATREDIT,EATTEDIT
+EATREXT,EATTEXT
+značka hrany,edge symbol
+HPLOCHA,EDGESURF
+úprava na místě,edit in place
+UPRAVZÁBĚR,EDITSHOT
+UPRAVBUŇTAB,EDITTABLECELL
+EDITTIME,EDITTIME
+vyhazovač,ejector
+koleno,elbow
+Prohlížeč elektrických prvků,Electric Explorer
+ZDVIH,ELEV
+výška,elevation
+odsazení výšky,elevation offset
+vynechat,elide
+ELIPSA,ELLIPSE
+vložit,embed
+emitor,emitter
+filtr entit,entity filter
+mapa okolí,environment map
+EPLOTROZ,EPLOTEXT
+kód EPSG,EPSG code
+ESW,ESW
+EPŘENOS,ETRANSMIT
+vyhodnocovací verze,evaluation version
+EXOFFSET,EXOFFSET
+EXPLAN,EXPLAN
+ROZLOŽ,EXPLODE
+PRŮZKUMNÍK,EXPLORER
+EXPORT,EXPORT
+EXPORTDWF,EXPORTDWF
+EXPORTDWFX,EXPORTDWFX
+EXPORTROZVRŽENÍ,EXPORTLAYOUT
+EXPORTPDF,EXPORTPDF
+NASTAVEXPORT,EXPORTSETTINGS
+EXPORTTOAUTOCAD,EXPORTTOAUTOCAD
+Generátor výrazů,Expression Builder
+EXPRESSMENU,EXPRESSMENU
+EXPRESSTOOLS,EXPRESSTOOLS
+PRODLUŽ,EXTEND
+rozšířený soubor nápovědy,extended help file
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+tažná pružina,extension spring
+externí reference,external reference
+rozšíření Správce externích referencí,External Reference Manager
+EXTERNÍREFERENCE,EXTERNALREFERENCES
+ZAVŘIEXTERNÍREFERENCE,EXTERNALREFERENCESCLOSE
+EXTRIM,EXTRIM
+VYTÁHNI,EXTRUDE
+ploška,facet
+zařízení,facility
+UTLUMPŘIPOMÍNKY,FADEMARKUP
+FASTSEL,FASTSEL
+FDO,FDO
+třída prvků,feature class
+kontejner prvků,feature container
+geometrická tolerance,feature control frame
+Průzkumník prvků,Feature Explorer
+FG,FG
+FID,FID
+TPOLE,FIELD
+na staveništi,field fit
+OTEVŘISOUBOR,FILEOPEN
+SOUBORKARTA,FILETAB
+SOUBORKARTAZAVŘI,FILETABCLOSE
+VYPLNĚNÍ,FILL
+vzor výplně,fill pattern
+ZAOBLIHRANU,FILLETEDGE
+FILTR,FILTER
+filtrační vrstva,Filtration Bed
+konečné seskupení,final gathering
+bod vyhlazení,fit point
+jednoúrovňové hledání,flat search
+PLOŠSNÍMEK,FLATSHOT
+směr toku,flow direction
+vazba stejný směr,flush constraint
+MLHA,FOG
+roztahovací panel,fold panel
+cizí klíč,foreign key
+splašková voda,foul water
+volné stanoviště,free standpoint
+volné staničení,free station
+návrh volného tvaru,freeform design
+VOLNÝREFLEKTOR,FREESPOT
+VOLNÁSÍŤ,FREEWEB
+FS,FS
+pojistka,fuse
+fuzzy,fuzz
+GATTE,GATTE
+GVTOTOŽNÁ,GCCOINCIDENT
+GVKOLINEÁRNÍ,GCCOLLINEAR
+GVSOUSTŘEDNÁ,GCCONCENTRIC
+GVSHODNÁ,GCEQUAL
+GVPEVNÁ,GCFIX
+GVHORIZONTÁLNÍ,GCHORIZONTAL
+GVROVNOBĚŽNÁ,GCPARALLEL
+GVKOLMÁ,GCPERPENDICULAR
+GVHLADKÁ,GCSMOOTH
+GVSYMETRICKÁ,GCSYMMETRIC
+GVTEČNÁ,GCTANGENT
+GVVERTIKÁLNÍ,GCVERTICAL
+bod geodetické sítě,geodetic network point
+geodetická transformace,geodetic transformation
+GEOGRAFPOLOHA,GEOGRAPHICLOCATION
+GEONAJDIMNE,GEOLOCATEME
+GEOMAPA,GEOMAP
+OBRGEOMAPA,GEOMAPIMAGE
+AKTOBRGEOMAPU,GEOMAPIMAGEUPDATE
+GEOOZNAČZEM,GEOMARKLATLONG
+GEOOZNAČMNE,GEOMARKME
+GEOOZNAČBOD,GEOMARKPOINT
+GEOOZNAČPOLOHU,GEOMARKPOSITION
+GEOMVAZBA,GEOMCONSTRAINT
+geometrická vazba,geometric constraint
+GEOODSTRAŇ,GEOREMOVE
+GEOREORIENTMARKER,GEOREORIENTMARKER
+geoprostorové informace,geospatial information
+GETSEL,GETSEL
+manipulátor,gizmo
+Goochovo stínování,Gooch shading
+PŘEJDINAZAČÁTEK,GOTOSTART
+GOTOURL,GOTOURL
+terénní úprava,grading plan
+KONFIGGRAF,GRAPHICSCONFIG
+GRAFOBR,GRAPHSCR
+lapač tuků,grease trap
+RASTR,GRID
+uzel,grip
+lapač písku,grit chamber
+uzemnění,ground
+broušený závit,ground thread
+podzemní voda,ground water
+SKUPINA,GROUP
+objekt zásad skupin,Group Policy Object
+EDITSKUPINU,GROUPEDIT
+záchytné místo,handhole
+hardwarový stínovač,hardware shader
+šrafovací vzor,hatch pattern
+ŠRAFEDIT,HATCHEDIT
+HATCHGENERATEBOUNDARY,HATCHGENERATEBOUNDARY
+HATCHSETBOUNDARY,HATCHSETBOUNDARY
+HATCHSETORIGIN,HATCHSETORIGIN
+HATCHTOBACK,HATCHTOBACK
+HIDEOBJECTS,HIDEOBJECTS
+SKRÝTPALETY,HIDEPALETTES
+ZVÝRAZNINOVÉ,HIGHLIGHTNEW
+SHNASTAV,HLSETTINGS
+horizontální vazba,horizontal constraint
+vodorovné zakončení,horizontal landing
+vybraný uzel,hot grip
+instalační jednotka pro teplou vodu,hot water fixture unit
+domovní přípojka,house connector
+HYPERLINKZPĚT,HYPERLINKBACK
+HYPERLINKDALŠÍ,HYPERLINKFWD
+HYPERLINKOTEVŘI,HYPERLINKOPEN
+HYPERLINKMOŽNOSTI,HYPERLINKOPTIONS
+HYPERLINKSTOP,HYPERLINKSTOP
+ID,ID
+IGESEXPORT,IGESEXPORT
+IGESIMPORT,IGESIMPORT
+vzdálenost osvětlení,illuminance distance
+OBRÁZEK,IMAGE
+OBRUPRAV,IMAGEADJUST
+IMAGEAPP,IMAGEAPP
+OBRPŘIPOJ,IMAGEATTACH
+OBROŘEŽ,IMAGECLIP
+IMAGEEDIT,IMAGEEDIT
+IMAGEOVERLAP,IMAGEOVERLAP
+OBRKVALITA,IMAGEQUALITY
+naznačený výběr oknem,implied windowing
+IMPORT,IMPORT
+OTISK,IMPRINT
+nástroj na kreslicí ploše,in-canvas tool
+sevřený úhel,included angle
+oborový model,industry model
+informační kanál,information channel
+MOŽNOSTIHLEDÁNÍZ,INPUTSEARCHOPTIONS
+VLOŽOBSAH,INSERTCONTENT
+VLOŽVÝKRESJAKOBLOK,INSERTDRAWINGASBLOCK
+VLOŽOBJEKT,INSERTOBJ
+kontrolní kóta,inspection dimension
+interaktivní tvorba a úprava,Interactive Create & Edit
+Kontrola kolizí,interference check
+ISA,ISA
+IZOVÝKRES,ISODRAFT
+ISOLATEOBJECTS,ISOLATEOBJECTS
+izolátor,isolator
+izočára,isoline
+izoparma,isoparm
+IZOROV,ISOPLANE
+PIŠJPG,JPGOUT
+spojka,junction
+ZAROVNEJTEXT,JUSTIFYTEXT
+Keyhole Markup Language,Keyhole Markup Language
+KML,KML
+KMZ,KMZ
+parametrizace uzlů,knot parameterization
+uzlový vektor,knot vector
+blok popisků,label block
+laguna,lagoon
+spáva území,land management
+jazykový balíček,language pack
+zeměpisná šířka,latitude
+AKTHLAD,LAYCUR
+VYMAŽHL,LAYDEL
+hladina,layer
+stav hladiny,layer state
+HLADZAVŘI,LAYERCLOSE
+PHLADINA,LAYERP
+PALETAHLADINY,LAYERPALETTE
+PHLADINAMÓD,LAYERPMODE
+STAVHLAD,LAYERSTATE
+LAYERSTATESAVE,LAYERSTATESAVE
+ZMRAZHL,LAYFRZ
+IZOLHLAD,LAYISO
+ZAMKNIHL,LAYLCK
+ZMĚŇHL,LAYMCH
+LAYMCUR,LAYMCUR
+SLUČHL,LAYMRG
+VYPHLAD,LAYOFF
+ZAPHLAD,LAYON
+ROZVRŽENÍ,LAYOUT
+LAYOUTMERGE,LAYOUTMERGE
+PRŮVROZVRŽENÍ,LAYOUTWIZARD
+UVOLNIHL,LAYTHW
+PŘEVEĎHLADINU,LAYTRANS
+ODEMKHL,LAYULK
+NEIZOLHLAD,LAYUNISO
+IZOLVHL,LAYVPI
+LAYWALK,LAYWALK
+Seznámení s aplikací AutoCAD 2010,Learning AutoCAD 2010
+úroveň vyhlazení,level of smoothness
+upozornění na licenci,license alert
+lehká křivka,light weight polyline
+SEZNSVĚTEL,LIGHTLIST
+SEZNSVĚTELZAVŘI,LIGHTLISTCLOSE
+bleskojiska,lightning arrester
+MEZE,LIMITS
+sloučení čar,line merge
+linie,line string
+lineární pole,linear array
+přímá kóta,linear dimension
+lineární šablonování,linear loft
+TYPČ,LINETYPE
+soubor lisp,lisp file
+Live Enabler,Live Enabler
+přepěťová ochrana,load tap changer
+načtený standard,loaded standard
+umístění,location
+zámek,lock
+uzamknutí,locking
+šablonování,loft
+LOGSOUBOR_NE,LOGFILEOFF
+LOGSOUBOR_ANO,LOGFILEON
+zeměpisná délka,longitude
+vyhledávání,lookup
+LSP,LSP
+LSPSURF,LSPSURF
+TČMĚŘ,LTSCALE
+Rozvaděč NN,LV board
+TLČÁRY,LWEIGHT
+LISPAPL,MAKELISPAPP
+MAKEPREVIEW,MAKEPREVIEW
+SPRAVUJODCHOZÍ,MANAGEUPLOADS
+výrobce,manufacturer
+sada připomínek,markup set
+správce sady připomínek,Markup Set Manager
+ASISTENTPŘIPOMÍNEK,MARKUPASSIST
+ZAVŘIPŘIPOMÍNKY,MARKUPCLOSE
+IMPORTPŘIPOMÍNEK,MARKUPIMPORT
+HMOTV,MASSPROP
+ZAVŘIPROHLMAT,MATBROWSERCLOSE
+OTEVŘIPROHLMAT,MATBROWSEROPEN
+KOPIEVLBUŇKY,MATCHCELL
+KOPIEVLAST,MATCHPROP
+vazba proti sobě,mate constraint
+ZAVŘIEDITORMAT,MATEDITORCLOSE
+OTEVŘIEDITORMAT,MATEDITOROPEN
+MATERIÁLPŘIŘAĎ,MATERIALASSIGN
+MATERIÁLPŘIPOJ,MATERIALATTACH
+MATERIÁLMAP,MATERIALMAP
+MATERIÁLY,MATERIALS
+MATERIÁLYZAVŘI,MATERIALSCLOSE
+MATKNIH,MATLIB
+MDE,MDE
+naměřená délka,measured length
+MĚŘITGEOM,MEASUREGEOM
+měření,measurement
+chyba měření,measurement error
+střední hodnota,median
+mental ray,mental ray
+rendrovací nástroj Mental Ray,mental ray rendering engine
+MENU,MENU
+ČTIMENU,MENULOAD
+ZRUŠMENU,MENUUNLOAD
+sloučit,merge
+síť,mesh
+POKRYJSÍTÍ,MESHCAP
+SVIŇSÍŤ,MESHCOLLAPSE
+ZLOMSÍTĚ,MESHCREASE
+VYSUŇSÍŤ,MESHEXTRUDE
+SLUČSÍŤ,MESHMERGE
+MOŽNSÍTĚ,MESHOPTIONS
+MOŽNPRIMSÍTĚ,MESHPRIMITIVEOPTIONS
+ZJEMNITSÍŤ,MESHREFINE
+VYHLSÍŤ,MESHSMOOTH
+VYHLSÍŤMÉNĚ,MESHSMOOTHLESS
+VYHLSÍŤVÍCE,MESHSMOOTHMORE
+OBRAŤSÍŤ,MESHSPIN
+ROZDĚLSÍŤ,MESHSPLIT
+NEZLOMSÍTĚ,MESHUNCREASE
+měřená oblast,meter area
+model měřicího přístroje,meter model
+MIGRUJMAT,MIGRATEMATERIALS
+minidump,minidump
+minimální překlenující strom,minimum spanning tree
+NVLOŽ,MINSERT
+osa zrcadlení,mirror line
+ZRCADLI3D,MIRROR3D
+MKLTYPE,MKLTYPE
+MKSHAPE,MKSHAPE
+MLD,MLD
+MODKAZ,MLEADER
+MODKAZSROVNEJ,MLEADERALIGN
+SOUHRNMODKAZ,MLEADERCOLLECT
+MODKAZEDIT,MLEADEREDIT
+MODKAZSTYL,MLEADERSTYLE
+MČEDIT,MLEDIT
+MČÁRA,MLINE
+MČSTYL,MLSTYLE
+MOCORO,MOCORO
+parametr modelu,model parameter
+motor,motor
+MOVEBAK,MOVEBAK
+MPEDIT,MPEDIT
+NZNOVA,MREDO
+VSNÍMEK,MSLIDE
+MODEL,MSPACE
+MSTRETCH,MSTRETCH
+MTEDIT,MTEDIT
+MTEXT,MTEXT
+MTVLAST,MTPROP
+vícejazyčný slovník,Multi Language Dictionary
+multifunkční uzel,multi-functional grip
+vícejazyčné uživatelské rozhraní,multilanguage user interface
+vícedílné prvky,multipart feature
+více obvodů,multiple circuits
+prostředí více návrhů,Multiple Design Environment
+vícenásobná relace,multi-relation
+MPOHLED,MVIEW
+MVSETUP,MVSETUP
+pojmenovaná projekce,named projection
+NANT,NANT
+PANNAVIG,NAVBAR
+navigační panel,navigation pane
+NAVSMOTION,NAVSMOTION
+NAVSMOTIONZAVŘ,NAVSMOTIONCLOSE
+NAVSWHEEL,NAVSWHEEL
+NAVVCUBE,NAVVCUBE
+NBA,NBA
+NCLOB,NCLOB
+NCOPY,NCOPY
+vnořená reference,nested reference
+NETLOAD,NETLOAD
+vyrovnání sítě,network adjustment
+síťové povrchy,network surface
+síťová topologie,network topology
+trasování sítě,network trace
+nástroj trasování sítě,network tracing tool
+neutralizátor,neutralizer
+NOVÁSADALISTŮ,NEWSHEETSET
+NOVÝZÁBĚR,NEWSHOT
+NOVÝPOHLED,NEWVIEW
+trubka bez zakončení,non-ending pipe
+nepravoúhlý výřez,non-rectangular viewport
+normální rozdělení,normal distribution
+normální styl,normal style
+souřadnice Y,northing
+NPR,NPR
+postrčit,nudge
+povrch NURBS,NURBS surface
+tematické mapování objektu,object thematic mapping
+ObjectARX,ObjectARX
+OBJMĚŘÍTKO,OBJECTSCALE
+úhel sklonu,oblique angle
+zakrytá čára,obscured line
+oktant,octant
+čichačka,odour equipment
+ODSAZHRANU,OFFSETEDGE
+Ohm,Ohm
+lapač olejů,Oil water separator
+OLEPŘEVOD,OLECONVERT
+OLESPOJ,OLELINKS
+OLEOTEVŘI,OLEOPEN
+OLERESET,OLERESET
+OLEMĚŘÍTKO,OLESCALE
+SDÍLEJNÁVRHONLINE,ONLINEDESIGNSHARE
+OBNOV,OOPS
+neprůhlednost,opacity
+OTEVŘIDWFPŘIPOMÍNKY,OPENDWFMARKUP
+OTEVŘIZCLOUDU,OPENFROMCLOUD
+OTEVŘIZWEBMOBILE,OPENFROMWEBMOBILE
+OTEVŘISADULISTŮ,OPENSHEETSET
+MOŽNOSTIZMĚNAV,OPTCHPROP
+MOŽNOSTI,OPTIONS
+staniční kóta,ordinate dimension
+staniční kótování,ordinate dimensioning
+organické modelování,organic modeling
+popisek počátku,origin label
+ortografický obrázek,ortho-image
+UCHOP,OSNAP
+vnější styl,outer style
+výpust,outfall
+překrývající se prstence,overlapping ring
+předefinovat,override
+předefinování motivu,override theme
+P&ID,P&ID
+základová patka,pad
+VZHLEDSTR,PAGESETUP
+#NAME?,#NAME?
+panorama,panorama
+výkresový prostor,paper space
+vazba rovnoběžnosti,parallel constraint
+PARAMETRY,PARAMETERS
+PARAMETRYZAVŘI,PARAMETERSCLOSE
+parametrický výkres,parametric drawing
+parametrický výraz,parametric expression
+parcela,parcel
+nadřazená třída prvků,parent feature class
+šablona extrakce součásti,part extraction template
+reference součásti,part reference
+ČNAČTI,PARTIALOAD
+ČOTEVŘI,PARTIALOPEN
+VLOŽJAKOHYPERLINK,PASTEASHYPERLINK
+SVLOŽBLOK,PASTEBLOCK
+SVLOŽ,PASTECLIP
+SVLOŽORIG,PASTEORIG
+SVLOŽSPEC,PASTESPEC
+záplata,patch
+záplatová plocha,patch surface
+křivkové pole,path array
+křivka trajektorie,path curve
+PCEXTRAHUJŘEZ,PCEXTRACTSECTION
+PRŮVČTIPC,PCINWIZARD
+PDFUPRAV,PDFADJUST
+PDFPŘIPOJ,PDFATTACH
+PDFOŘEŽ,PDFCLIP
+PDFIMPORT,PDFIMPORT
+PDFHLADINY,PDFLAYERS
+PDFSHXTEXT,PDFSHXTEXT
+KEDIT,PEDIT
+tloušťka pera,pen width
+nástroj Tužka,Pencil tool
+ANALÝZAVÝKONU,PERFANALYZER
+ZAVŘIANALÝZUVÝKONU,PERFANALYZERCLOSE
+rady pro výkonnost,performance hint
+periodická křivka,periodic curve
+trvalé uchopení objektu,persistent object snap
+trvalý reaktor,persistent reactor
+pesimistické zamykání,pessimistic locking
+OBSÍŤ,PFACE
+fotografické modelování,photo modeling
+fotonová mapa,photon map
+fyzický prototyp,physical prototyping
+vstup ježka,pig launch
+PIP,PIP
+tvarovka trubky,pipe fitting
+izolace trubky,pipe insulation
+PKFSTGROUP,PKFSTGROUP
+PŮDORYS,PLAN
+rovinná plocha,planar face
+ROVINPOVRCH,PLANESURF
+měření ploch,planimetry
+rámeček vykreslování,plot frame
+struktura vykreslování,plot structure
+styl vykreslování,plot style
+VYKROZNAČ,PLOTSTAMP
+PLOTSTYL,PLOTSTYLE
+SPRÁVCEPLOTRŮ,PLOTTERMANAGER
+PLT2DWG,PLT2DWG
+PMSTART,PMSTART
+PMSTOP,PMSTOP
+PMTOGGLE,PMTOGGLE
+PMTRACE,PMTRACE
+PIŠPNG,PNGOUT
+BOD,POINT
+bodový prvek,point feature
+PŘIPOJMRAČNOBODŮ,POINTCLOUDATTACH
+BARVYMRAČNABODŮ,POINTCLOUDCOLORMAP
+ZMENŠIMRAČNOBODŮ,POINTCLOUDCROP
+STAVOŘÍZNUTÍMRAČNABODŮ,POINTCLOUDCROPSTATE
+SPRÁVCEMRAČNABODŮ,POINTCLOUDMANAGER
+SPRÁVCEMRAČNABODŮZAVŘI,POINTCLOUDMANAGERCLOSE
+VZHLEDMRAČNABODŮ,POINTCLOUDSTYLIZE
+NEZMENŠIMRAČNOBODŮ,POINTCLOUDUNCROP
+zadání ukazatelem,pointer input
+BODSVĚTLO,POINTLIGHT
+polární pole,polar array
+Polární protažení,polar stretch
+polární trasování,polar tracking
+pól,pole
+frekvence dotazování,polling frequency
+segment oblouku,polyarc segment
+obecná síť,polyface mesh
+POLYGON,POLYGON
+mnohoúhelníková síť,polygon mesh
+POLYTĚLESO,POLYSOLID
+vyhledávač polohy,position finder
+bod polohy,position point
+Power kótování,Power Dimensioning
+Správce předvoleb přesnosti,precision presets manager
+PREFERENCE,PREFERENCES
+lisovaný spoj,pressed joint
+TLAČTÁHNI,PRESSPULL
+tlakové pásmo,pressure zone
+NÁHLED,PREVIEW
+profilová křivka,profile curve
+Návrhář profilů,profile designer
+progresivní popisek nástroje,progressive tooltip
+řídicí panel projektu,project dashboard
+Project Simulus,Project Simulus
+promítnutý souřadnicový systém,projected coordinate system
+PROMGEOM,PROJECTGEOMETRY
+VLASTNOSTI,PROPERTIES
+ZAVŘIVL,PROPERTIESCLOSE
+Hranice pozemku,property line
+PROPULATE,PROPULATE
+prototypový výkres,prototype drawing
+PSBSCALE,PSBSCALE
+ČTIVZHLEDSTR,PSETUPIN
+VYPLPS,PSFILL
+PIŠPS,PSOUT
+VÝKRES,PSPACE
+PSTSCALE,PSTSCALE
+BTYP,PTYPE
+ZAVŘIODESLATDODOCS,PUSHTODOCSCLOSE
+OTEVŘIODESLATDODOCS,PUSHTODOCSOPEN
+JEHLAN,PYRAMID
+ZAVŘIRKAL,QCCLOSE
+RKÓTY,QDIM
+QLATTACH,QLATTACH
+QLATTACHSET,QLATTACHSET
+QLDETACHSET,QLDETACHSET
+RODKAZ,QLEADER
+RNOVÝ,QNEW
+QQUIT,QQUIT
+RULOŽ,QSAVE
+RVYBER,QSELECT
+PTEXT,QTEXT
+rychlá kóta,quick dimension
+RCUI,QUICKCUI
+VLASTNOSTIRYCHLÉ,QUICKPROPERTIES
+RPVÝKRES,QVDRAWING
+RPVÝKRESZAVŘI,QVDRAWINGCLOSE
+RPROZVRŽENÍ,QVLAYOUT
+RPROZVRŽENÍZAVŘI,QVLAYOUTCLOSE
+PRŮVR14PER,R14PENWIZARD
+kóta poloměru,radial dimension
+rychlé vytváření prototypů,rapid prototyping
+převést na rastr,rasterize
+POLOPŘÍMKA,RAY
+RKONFIG,RCONFIG
+seznam posledních bloků,recent blocks list
+umístění posledních bloků,recent blocks location
+znovuspínající chránič,recloser
+OBNOVITVŠE,RECOVERALL
+OBD,RECTANG
+OBDÉLNÍK,RECTANGLE
+REDIR,REDIR
+REDIRMODE,REDIRMODE
+PŘEKRV,REDRAWALL
+REFZAVŘI,REFCLOSE
+REFEDIT,REFEDIT
+referenční vazba,reference constraint
+referenční rámec,reference frame
+referenční mřížka,reference grid
+Správce referencí,Reference Manager
+referenční záznam,reference record
+zjemnění,refinement
+mapa odrazů,reflection map
+index lomu,refraction index
+REFSADA,REFSET
+REGEN,REGEN
+REGEN3,REGEN3
+REGENV,REGENALL
+REGENA,REGENAUTO
+OBLAST,REGION
+regulátor,regulator
+REINIC,REINIT
+uvolnit vazbu,relax constraint
+kontext rendrování,render context
+předvolba rendrování,render preset
+RENDEROŘEŽ,RENDERCROP
+RENDERPROSTŘEDÍ,RENDERENVIRONMENT
+RENDERENVIRONMENTCLOSE,RENDERENVIRONMENTCLOSE
+RENDEREXPOZICE,RENDEREXPOSURE
+RENDEREXPOSURECLOSE,RENDEREXPOSURECLOSE
+RENDERONLINE,RENDERONLINE
+PŘEDVRENDR,RENDERPRESETS
+ZAVŘIRENDERPŘEDV,RENDERPRESETSCLOSE
+ZAVŘIRENDEROKNO,RENDERWINDOWCLOSE
+návrhář zpráv,Report Designer
+reprezentace,representation
+Zástupný řetězec,representation string
+REPURLS,REPURLS
+kód požadavku,request code
+vodojem,reservoir
+OBNOVBLOK,RESETBLOCK
+omezovač,restrictor
+datum vrácení,return date
+ROBLÁČEK,REVCLOUD
+VLASTREVOBLÁČKU,REVCLOUDPROPERTIES
+OBRÁTIT,REVERSE
+ROTPL,REVSURF
+historie převíjení,rewind history
+Vyhledávač příkazů na pásech karet,Ribbon Command Locator
+PÁSKARETZAVŘI,RIBBONCLOSE
+podstupnice,riser
+Vrátit zpět,rollback
+OTOČ3D,ROTATE3D
+OTOČENÁ,ROTATED
+RPREF,RPREF
+RPREFZAVŘI,RPREFCLOSE
+RDEMO,RSCRIPT
+RTEDIT,RTEDIT
+RTEXT,RTEXT
+RTEXTAPP,RTEXTAPP
+RPP,RTPAN
+RTUCS,RTUCS
+RZOOM,RTZOOM
+báze pravidel,rule base
+PŘÍPL,RULESURF
+bod vzorku,sample point
+SAVEALL,SAVEALL
+ULOŽJAKO,SAVEAS
+ULOŽR,SAVEIMG
+ULOŽDOCLOUDU,SAVETOCLOUD
+ULOŽNAWEBMOBILE,SAVETOWEBMOBILE
+MĚŘÍTKO,SCALE
+UPRSEZMĚŘ,SCALELISTEDIT
+MĚŘÍTKOTEXTU,SCALETEXT
+schéma,schema
+prvek schématu,schematic feature
+čára schématu,schematic line
+schematická značka,schematic symbol
+řádkování,screening
+SCRIPTCALL,SCRIPTCALL
+hranice řezu,section boundary
+objekt řezu,section object
+rovina řezu,section plane
+pohled řezu,section view
+ROVINAPRŮŘ,SECTIONPLANE
+ROVINAPRŮŘZALOM,SECTIONPLANEJOG
+NASTAVROVŘEZ,SECTIONPLANESETTINGS
+ROVŘEZDOBLOKU,SECTIONPLANETOBLOCK
+OVLÁDEJŘEZ,SECTIONSPINNERS
+BEZPEČNOSTNÍMOŽNOSTI,SECURITYOPTIONS
+VYBRATPOČET,SELECTCOUNT
+SELECTSIMILAR,SELECTSIMILAR
+VYBERURL,SELECTURL
+protínající se polygon,self-intersecting polygon
+sedimentační nádrž,septic tank
+PŘEHRÁTSEKVENCI,SEQUENCEPLAY
+postupné hledání,sequential search
+NASTAVDLEHLAD,SETBYLAYER
+SYSPAR,SETVAR
+STÍN,SHADE
+režim stínovaného vykreslování,shade plot mode
+SHADEMODE,SHADEMODE
+přerušení hřídele,shaft break
+TVAR,SHAPE
+ShapeManager,ShapeManager
+SDÍLENÉPOHLEDY,SHAREDVIEWS
+ZAVŘISDÍLENÉPOHLEDY,SHAREDVIEWSCLOSE
+SDÍLEJPOHLED,SHAREVIEW
+správce sady listů,sheet set manager
+dílčí sada listů,sheet subset
+SADALISTŮ,SHEETSET
+SKRYJSADULISTŮ,SHEETSETHIDE
+zkratková funkce,shortcut function
+ZOBRAZPALETY,SHOWPALETTES
+ZOBRAZGALERIIRENDER,SHOWRENDERGALLERY
+SHOWURLS,SHOWURLS
+SHP2BLK,SHP2BLK
+uzavírací ventil,shut off valve
+OVĚŘPODPIS,SIGVALIDATE
+bod vymezené oblasti,site point
+SketchUp,SketchUp
+objímka,sleeve
+chytrý blok,smart block
+úhel kroku,snap angle
+OBJKRESLI,SOLDRAW
+objemové primitivum,solid primitive
+OBJEDIT,SOLIDEDIT
+OBJPROF,SOLPROF
+OBJPOHLED,SOLVIEW
+tabulka sortents,sortents table
+PŘEVEĎPROSTOR,SPACETRANS
+KOULE,SPHERE
+spline,spline
+SPLINEDIT,SPLINEDIT
+bod rozdělení,split point
+nýt s rozštěpeným dříkem,split rivet
+REFLEKTOR,SPOTLIGHT
+SSM,SSM
+SSX,SSX
+směrodatná odchylka,standard deviation
+STANDARDY,STANDARDS
+karta Začít,Start tab
+počáteční pohled,starting view
+STATIS,STATS
+STAV,STATUS
+sešít,stitch
+PIŠSTL,STLOUT
+Základní nástroj,Stock Tool
+podmínka zastavení,stop condition
+překlenout,straddle
+protahovací rámeček,stretch frame
+stavba,structure
+studentská verze,student version
+SPRÁVCESTYLŮ,STYLESMANAGER
+pero,stylus
+síť úseku,subdivision mesh
+povrch úseku,subdivision surface
+trafostanice,substation
+náhradní blok,substitute block
+vlastnosti oslunění,sun property
+VLASTSLUNCE,SUNPROPERTIES
+VLASTSLUNCEZAVŘI,SUNPROPERTIESCLOSE
+SUPERHATCH,SUPERHATCH
+zásobovací pásmo,supply zone
+analýza povrchu,surface analysis
+odkazová čára povrchu,surface indication leader
+normála povrchu,surface normal
+PŘECHODPOVRCHU,SURFBLEND
+PRODLUŽPOVRCH,SURFEXTEND
+EXTRAHUJKŘIVKU,SURFEXTRACTCURVE
+ZAOBLPOVRCH,SURFFILLET
+POVRCHZESÍTĚ,SURFNETWORK
+ODSAZPOVRCH,SURFOFFSET
+ZÁPLATAPOVRCHU,SURFPATCH
+TVARUJZPOVRCHŮ,SURFSCULPT
+OŘEŽPOVRCH,SURFTRIM
+ZRUŠOŘEZPOVRCHU,SURFUNTRIM
+TAŽENÍ,SWEEP
+trajektorie tažení,sweep path
+spínací skříňka,switchgear
+SLEDUJSYSPROM,SYSVARMONITOR
+SYSVDLG,SYSVDLG
+SYSOKNA,SYSWINDOWS
+stránka karty,tab page
+TABULKA,TABLE
+TABEDIT,TABLEDIT
+TABEXPORT,TABLEEXPORT
+TABSTYL,TABLESTYLE
+TABLET,TABLET
+TRAPL,TABSURF
+trajekční síť,tabulated mesh
+úhel zúžení,taper angle
+CÍLBOD,TARGETPOINT
+podokno Úlohy,task pane
+NPKONFIG,TBCONFIG
+TCASE,TCASE
+TCIRCLE,TCIRCLE
+TCOUNT,TCOUNT
+Správce šablon,template manager
+bod terénu v profilu,Terrain Point Pro
+TEXT,TEXT
+TEXTSROVNEJ,TEXTALIGN
+TEXTEDIT,TEXTEDIT
+TEXTFIT,TEXTFIT
+TEXTMASK,TEXTMASK
+TEXTOBR,TEXTSCR
+TEXTNAHORU,TEXTTOFRONT
+TEXTUNMASK,TEXTUNMASK
+TFHELP,TFHELP
+TFRAMES,TFRAMES
+tepelná vodivost,thermal conductivity
+PIŠTIF,TIFOUT
+ČAS,TIME
+časový server,time server
+časová osa,timeline
+TVLOŽ,TINSERT
+zabarvení,tint color
+rohové razítko,title block
+TJUST,TJUST
+TOLERANCE,TOLERANCE
+paleta nástrojů,tool palette
+NPALETY,TOOLPALETTES
+NPALETUZAVŘI,TOOLPALETTESCLOSE
+dráha nástroje,toolpath
+pohled shora,top view
+téma,topic
+topologie,topology
+TORIENT,TORIENT
+anuloid,torus
+kolečko Projít budovu,Tour Building wheel
+stožár,tower
+NPNAVIG,TPNAVIGATE
+stopa,trace
+směr trasování,trace direction
+funkce stopa,trace feature
+STOPAVPOZADÍ,TRACEBACK
+UPRAVITSTOPU,TRACEEDIT
+STOPAVPOPŘEDÍ,TRACEFRONT
+ZAVŘIPALETUSTOPY,TRACEPALETTECLOSE
+OTEVŘIPALETUSTOPY,TRACEPALETTEOPEN
+ZOBRAZITSTOPU,TRACEVIEW
+trackpad,trackpad
+transakce,transaction
+transformátor,transformer
+průsvitnost,translucency
+přenosový balíček,transmittal package
+nastavení přenosu,transmittal setup
+zásobník,tray
+NASTAVOZN,TRAYSETTINGS
+STROMINF,TREESTAT
+mříž,trellis
+TREX,TREX
+zkušební verze,trial version
+TSCALE,TSCALE
+TUTCLEAR,TUTCLEAR
+TUTDEMO,TUTDEMO
+TXTNAMTXT,TXT2MTXT
+TXTEXP,TXTEXP
+USS,UCS
+USSI,UCSICON
+SPRUSS,UCSMAN
+HLADINYPOD,ULAYERS
+podložení,underlay
+UNGROUP,UNGROUP
+UNISOLATEOBJECTS,UNISOLATEOBJECTS
+JEDNOTKY,UNITS
+směr nahoru,up direction
+AKTUALIZUJTPOLE,UPDATEFIELD
+AKTUALIZUJNÁHLEDY,UPDATETHUMBSNOW
+proti směru proudu,upstream
+uživatelský souřadnicový systém,User Coordinate System
+inženýrská síť,utility
+prostor UV,UV space
+VBAIDE,VBAIDE
+VBALOAD,VBALOAD
+VBAMAN,VBAMAN
+VBANEW,VBANEW
+VBAPREF,VBAPREF
+VBARUN,VBARUN
+VBASTMT,VBASTMT
+VBAUNLOAD,VBAUNLOAD
+POROVNEJVERZE,VERSIONCOMPARE
+vrchol,vertex
+vrcholové vyboulení,vertex bulge
+kolečko Zobrazit objekt,View Object wheel
+ZÁKLADNÍPOHLED,VIEWBASE
+KOMPONENTAPOHLEDU,VIEWCOMPONENT
+DETAIL,VIEWDETAIL
+STYLDETAILU,VIEWDETAILSTYLE
+EDITPOHLED,VIEWEDIT
+POHLPŘEP,VIEWGO
+PŘEHRÁTPOHLED,VIEWPLAY
+PROMPOHLED,VIEWPROJ
+ROZLIŠ,VIEWRES
+POHLEDŘEZU,VIEWSECTION
+STYLPOHLEDUŘEZU,VIEWSECTIONSTYLE
+POHLEDNASTAVPROJ,VIEWSETPROJ
+ZAVŘIPOHLEDNÁČRTU,VIEWSKETCHCLOSE
+NORMAKRESLENÍ,VIEWSTD
+NÁČRTSYMBOLU,VIEWSYMBOLSKETCH
+AKTUALIZUJPOHLEDY,VIEWUPDATE
+bod návštěvy,visit point
+panel,visor
+VIZUALSTYLY,VISUALSTYLES
+VIZUALSTYLYZAVŘI,VISUALSTYLESCLOSE
+VLIDE,VLIDE
+příkaz VLIDE,VLIDE command
+VLISP,VLISP
+Volo View Express,Volo View Express
+VOŘEŽ,VPCLIP
+VZEDIT,VPEDIT
+VHLADINA,VPLAYER
+VZMAX,VPMAX
+VZMIN,VPMIN
+OKO,VPOINT
+VPSCALE,VPSCALE
+VPSYNC,VPSYNC
+AKTUÁLNÍVS,VSCURRENT
+ZSNÍMEK,VSLIDE
+VSULOŽ,VSSAVE
+VOLBYPZ,VTOPTIONS
+NASTAVPROCH,WALKFLYSETTINGS
+vymývací oblast,washing area
+odpadní voda,waste water
+sledovaná složka,watched folder
+vodovodní jednotka,water fixture unit
+Editor vodoznaku,watermark editor
+PIŠBLOK,WBLOCK
+webový soubor,web file
+síťové světlo,web light
+webové mapovací služby,web mapping service
+SÍŤOVÉSVĚTLO,WEBLIGHT
+NAČTIJS,WEBLOAD
+KLÍN,WEDGE
+Úvodní obrazovka,welcome screen
+KDOMÁ,WHOHAS
+zástupný znak,wildcard
+vlnitá výplň,winding fill
+PŘEKRÝT,WIPEOUT
+drátový model,wireframe
+kabelová chránička,wireway
+ČTIWMF,WMFIN
+NASTAVWMF,WMFOPTS
+PIŠWMF,WMFOUT
+PRACPROST,WORKSPACE
+globální souřadnicový systém,World Coordinate System
+reálný prostor,world space
+ULOŽPRACPROST,WSSAVE
+NASTPRACPROST,WSSETTINGS
+XPŘIPOJ,XATTACH
+XVAŽ,XBIND
+XOŘEŽ,XCLIP
+XPOROVNEJ,XCOMPARE
+XPOROVNEJZAVŘI,XCOMPARECLOSE
+XPOROVNEJDALŠÍ,XCOMPARERCNEXT
+XPOROVNEJPŘEDCHOZÍ,XCOMPARERCPREV
+XDATA,XDATA
+XDLIST,XDLIST
+EXHRANY,XEDGES
+PŘÍMKA,XLINE
+XLIST,XLIST
+XOTEVŘI,XOPEN
+XP,XP
+XPLODE,XPLODE
+XSL,XSL
+analýza hladkosti,zebra analysis
+komprimovaný soubor KML,zipped KML file
+přiblížit,zoom in
+oddálit,zoom out

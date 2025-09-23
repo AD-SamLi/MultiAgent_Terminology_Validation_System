@@ -1,0 +1,702 @@
+﻿source,target
+3D 移動控點,3D Move gizmo
+3D 旋轉控點,3D Rotate gizmo
+3D 縮放控點,3D Scale gizmo
+ACS,ACS
+ACTM,ACTM
+對齊標註,Aligned Dimension
+對齊剖面視圖,aligned section view
+ALKIS,ALKIS
+全周符號,all-around symbol
+alpha 混成,alpha-blend
+對照單位,alternate unit
+測高法,altimetry
+AMSHIDE,AMSHIDE
+解析表面,analytical surface
+偏折角度,angle of deflection
+註解,annotation
+註解約束,annotational constraint
+可註解物件,annotative object
+陽極,anode
+陽極測站,anode station
+外觀型式,appearance style
+弧,arc
+弧分段,arc segmentation
+弧弦距離,arc-chord distance
+ARG,ARG
+組合萃取樣板,assembly extraction template
+Associative QDIM extension,Associative QDIM extension
+ATIL,ATIL
+AutoCAD 顏色索引,AutoCAD color index
+AutoCAD 行動版,AutoCAD Mobile
+AutoCAD Mobile 應用程式,Autocad Mobile app
+自動完成,AutoComplete
+Autodesk Assistant,Autodesk Assistant
+Autodesk 製造業社群入口網站,Autodesk Manufacturing Community Portal
+AutoLISP 開發,AutoLISP development
+AutoLISP 環境,AutoLISP environment
+輔助座標系統,auxiliary coordinate system
+軸偏移,axis offset
+方位角,azimuth
+逆止閥,backwater gate
+球磨機,ball mill
+基準點,base point
+基準線,baseline
+批次標準檢查器,Batch Standards Checker
+鮑率,baud rate
+BDA,BDA
+低於地平面,below grade
+斜切,bevel
+材料表,bill of materials
+二進位大型物件,binary large object
+黑白影像,bitonal image
+混合模式,blend mode
+混成曲面,blend surface
+BLOB,BLOB
+圖塊建立物件,block authoring object
+圖塊資源庫,block library
+圖塊性質表,block properties table
+圖塊取代,block replacement
+BLOCKMRULIST,BLOCKMRULIST
+BLOCKNAVIGATE,BLOCKNAVIGATE
+BLOCKSPALETTE,BLOCKSPALETTE
+BLOCKSPALETTECLOSE,BLOCKSPALETTECLOSE
+進氣洩壓閥,blow off valve
+BOM,BOM
+布林,boolean
+有邊界的區域,bounded area
+邊界區域,bounding area
+邊界方塊,bounding box
+分支電路,branch circuit
+切斷,break
+截斷迴路,break loop
+BREAKATPOINT,BREAKATPOINT
+拆解線,break-out line
+凸度,bulge
+凸度係數,bulge factor
+批量複製,bulk copy
+凸紋,bump
+匯流排,bus bar
+電纜架,cable tray
+電纜架配件,cable tray fitting
+相機校準,camera calibration
+相機圖像,camera glyph
+畫布,canvas
+末端收頭,cap
+收頭圓角處理,cap filleting
+大寫字高,cap height
+電容器,capacitor
+階層型式表,Cascading Style Sheets
+套管,casing
+套管型號,casing model
+Catmull-Clark 細分曲面,Catmull-Clark subdivision surface
+中心線,center line
+中心標記,center mark
+中心點,center point
+倒角,chamfer
+CHAR,CHAR
+角色大型物件,character large object
+卡方,chi square
+子圖徵類別,child feature class
+電影式快照,cinematic shot
+扣環,circlip
+電路圖,circuitry
+CLASSICINSERT,CLASSICINSERT
+截取體積,clip volume
+CLOB,CLOB
+封閉邊,closed edge
+代碼組合,code combination
+COGO,COGO
+冷掣點,cold grip
+冷水裝置單元,cold water fixture unit
+共線約束,colinear constraint
+核對,collate
+集合,collection
+混合使用電力和熱力的發電站,combined electric and heat generating station
+燃燒室,combustion chamber
+粉碎機,comminuting machine
+COMPARECLOSE,COMPARECLOSE
+COMPAREEXPORT,COMPAREEXPORT
+COMPAREIMPORT,COMPAREIMPORT
+元件清單,component list
+複合實體,composite solid
+複合符號,compound symbol
+壓縮,compression
+計算長度,computed length
+同圓心,concentric
+導體,conductor
+導管,conduit
+導管配件,conduit fitting
+連接線,connector line
+連接器接腳,connector pin
+受約束的物件,constrained object
+約束列,constraint bar
+約束參數,constraint parameter
+約束點,constraint point
+約束變數,constraint variable
+建構線,construction line
+圖庫,content library
+內容套件,content pack
+控制箱,control cabinet
+控制電纜,control cable
+控制關聯線,control hull
+控制點,control point
+控制頂點,control vertex
+控制頂點關聯線,control vertices hull
+座標參考系統,coordinate reference system
+座標系統追蹤器,coordinate system tracker
+角點,corner point
+COUNTCLOSE,COUNTCLOSE
+COUNTFIELD,COUNTFIELD
+COUNTLIST,COUNTLIST
+COUNTLISTCLOSE,COUNTLISTCLOSE
+COUNTNAVNEXT,COUNTNAVNEXT
+COUNTNAVPREV,COUNTNAVPREV
+COUNTTABLE,COUNTTABLE
+覆蓋區域,covering area
+CRC,CRC
+縐摺,crease
+斷面,cross section
+斷面管道,cross section duct
+CRS,CRS
+CS 資源庫,CS library
+CSS,CSS
+CUI 編輯器,CUI editor
+目前目錄,current directory
+曲率分析,curvature analysis
+客戶錯誤報告,Customer Error Reporting
+客戶支援,customer support
+割面線,cutting line
+CV,CV
+CV 關聯線,CV hull
+CWFU,CWFU
+DCM 引擎,DCM Engine
+固定接合符號,dead joint symbol
+裝飾元素,decorative element
+度/分/秒,degrees minutes seconds
+相依性亮顯,dependency highlighting
+景深,depth of field
+深度多邊形,depth polygon
+Design Review,Design Review
+Design Web Format,Design Web Format
+直徑,diameter
+漫射貼圖,diffuse map
+數位高程模型,digital elevation model
+Digital Signature Extension,Digital Signature Extension
+數位高程地形資料,digital terrain elevation data
+數位板指標,digitizer puck
+數位板,digitizing tablet
+標註線,dimension line
+廢水槽,disposal tank
+距離偏移,distance offset
+分散式彩現,distributed rendering
+調色,dithering
+DMS,DMS
+停靠,dock
+DOF,DOF
+每英吋點數,dots per inch
+DPI,DPI
+拔模分析,draft analysis
+排水區域,drain area
+圖面資料夾,drawing folder
+Drawing Interchange Format,Drawing Interchange Format
+圖面清單報告,drawing list report
+圖面管理員,Drawing Manager
+從動約束,driven constraint
+主動標註,driving dimension
+DTED,DTED
+風管配件,duct fitting
+轉儲,dump
+DWF,DWF
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DWGCONVERT,DWGCONVERT
+DWGHISTORY,DWGHISTORY
+DWGHISTORYCLOSE,DWGHISTORYCLOSE
+DXF,DXF
+動態約束,dynamic constraint
+東距,easting
+現地編輯,edit in place
+頂出裝置,ejector
+彎頭,elbow
+電力總管,Electric Explorer
+高程,elevation
+高程偏移,elevation offset
+省略,elide
+嵌入,embed
+發射器,emitter
+終點,end point
+增強型次視窗,enhanced secondary window
+增強的檢視器,enhanced viewer
+環境貼圖,environment map
+EPSG 代碼,EPSG code
+ESW,ESW
+評估版,evaluation version
+表示式建置器,Expression Builder
+延伸說明檔,extended help file
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+延伸線,extension line
+外部參考,external reference
+外部參考管理員,External Reference Manager
+刻面,facet
+設施,facility
+FDO,FDO
+圖徵類別,feature class
+圖徵容器,feature container
+特徵控制框,feature control frame
+圖徵資料物件,Feature Data Object
+圖徵總管,Feature Explorer
+饋線,feeder
+FG,FG
+FID,FID
+現場匯流排,field bus
+現場配合,field fit
+填滿樣式,fill pattern
+圓角,fillet
+過濾床,Filtration Bed
+最終聚集,final gathering
+擬合點,fit point
+配件,fitting
+平面搜尋,flat search
+流動方向,flow direction
+齊平約束,flush constraint
+收闔面板,fold panel
+污水,foul water
+畫面,frame
+畫面速率,frame rate
+自由形式設計,freeform design
+保險絲,fuse
+連綴,fuzz
+大地路網點,geodetic network point
+大地轉換,geodetic transformation
+幾何約束,geometric constraint
+地理空間資訊,geospatial information
+控點,gizmo
+谷氏描影,Gooch shading
+漸層,gradient ramp
+整地計畫,grading plan
+隔油槽,grease trap
+掣點,grip
+掣點鏡射,grip mirror
+掣點旋轉,grip rotate
+掣點比例,grip scale
+沉沙池,grit chamber
+接地,ground
+地下水,ground water
+群組原則物件,Group Policy Object
+探孔,handhole
+硬體描影程式,hardware shader
+填充線樣式,hatch pattern
+水平連字線,horizontal landing
+主,host
+熱掣點,hot grip
+熱水裝置單元,hot water fixture unit
+房屋接頭,house connector
+i-drop 指標,i-drop Indicator
+i-drop 目標,i-drop target
+照度距離,illuminance distance
+內附窗框,implied windowing
+圖元區工具,in-canvas tool
+包含角度,included angle
+索引顏色,index color
+產業模型,industry model
+推論約束,infer constraints
+資訊頻道,information channel
+輸入類型,input type
+插入,insert
+INSERTCONTENT,INSERTCONTENT
+INSERTDRAWINGASBLOCK,INSERTDRAWINGASBLOCK
+檢驗標註,inspection dimension
+安裝代碼,installation code
+實例,instance
+互動式建立與編輯,Interactive Create & Edit
+干涉檢查,interference check
+內部目標,internal destination
+線性反比,inverse linear
+平方反比,inverse square
+ISA,ISA
+絕緣體,isolator
+等角,isometric
+結構線,isoparm
+接頭,junction
+Keyhole Markup Language,Keyhole Markup Language
+扭折,kink
+KML,KML
+KMZ,KMZ
+節點參數,knot parameterization
+節點向量,knot vector
+標示圖塊,label block
+污水塘,lagoon
+土地管理,land management
+語言套件,language pack
+緯度,latitude
+啟動台,Launchpad
+圖層,layer
+圖層狀態,layer state
+研習 AutoCAD 2010,Learning AutoCAD 2010
+平滑度等級,level of smoothness
+授權警示,license alert
+避雷器,lightning arrester
+線條合併,line merge
+線串,line string
+線性陣列,linear array
+線性標註,linear dimension
+線型,linetype
+接頭盒,link box
+lisp 檔案,lisp file
+Live Enabler,Live Enabler
+即時剖面,live section
+荷載,load
+有載分接頭轉換器,load tap changer
+位置,location
+經度,longitude
+基地,lot
+低電壓板,LV board
+MAKELISPAPP,MAKELISPAPP
+MAKEPREVIEW,MAKEPREVIEW
+人孔,manhole
+歧管,manifold
+製造商,manufacturer
+標記,markup
+標記集,markup set
+標記集管理員,Markup Set Manager
+貼合約束,mate constraint
+MDE,MDE
+測量長度,measured length
+測量,measurement
+測量錯誤,measurement error
+平均值,median
+mental ray,mental ray
+mental ray 彩現引擎,mental ray rendering engine
+MEP,MEP
+合併,merge
+網面,mesh
+計量器,meter
+計量器區域,meter area
+計量器型號,meter model
+中點,midpoint
+移轉記錄檔,migration log file
+小型傾印,minidump
+最小擴展樹,minimum spanning tree
+鏡射線,mirror line
+MLD,MLD
+多重引線物件,mleader object
+模型參數,model parameter
+模型空間,model space
+馬達,motor
+多語言字典,Multi Language Dictionary
+多功能掣點,multi-functional grip
+多語言使用者介面,multilanguage user interface
+多重地圖,multi-map
+多重電路,multiple circuits
+多重設計環境,Multiple Design Environment
+多重關係,multi-relation
+多圖紙,multi-sheet
+多重視圖零件,MvPart
+AutoCAD - 我的見解,My Insights for AutoCAD
+Autodesk - 我的見解,My Insights from Autodesk
+名稱號碼,Name Number
+具名投影,named projection
+銘牌,nameplate
+NANT,NANT
+導覽窗格,navigation pane
+NBA,NBA
+NCLOB,NCLOB
+巢狀參考,nested reference
+路網調整,network adjustment
+網路曲面,network surface
+路網拓樸,network topology
+路網追蹤,network trace
+路網追蹤工具,network tracing tool
+中和槽,neutralizer
+無末端管,non-ending pipe
+非各式形,non-manifold
+非矩形視埠,non-rectangular viewport
+常態分佈,normal distribution
+一般型式,normal style
+北向,northing
+NPR,NPR
+微移,nudge
+NURBS 曲面,NURBS surface
+物件,object
+物件鎖點模式,object snap mode
+ObjectARX,ObjectARX
+傾斜角度,oblique angle
+隱蔽線,obscured line
+OC,OC
+八分圓,octant
+氣味控制設備,odour equipment
+OE,OE
+OEM Make 精靈,OEM Make Wizard
+Ohm,Ohm
+油水分離器,Oil water separator
+不透明度,opacity
+OPENFROMWEBMOBILE,OPENFROMWEBMOBILE
+有機建模,organic modeling
+正交,ortho
+正交模式,ortho mode
+正交影像,ortho-image
+外部型式,outer style
+出口,outfall
+過度約束,over-constrain
+重疊環,overlapping ring
+覆疊,overlay
+頂線,overline
+加頂線,overlining
+取代,override
+取代主題,override theme
+P&ID,P&ID
+底座,pad
+面板外形圖符號,panel footprint symbol
+全景,panorama
+圖紙空間,paper space
+參數式繪製,parametric drawing
+參數式表示式,parametric expression
+宗地,parcel
+父圖徵類別,parent feature class
+零件萃取樣板,part extraction template
+零件參考,part reference
+補面,patch
+修補清單,patch list
+修補曲面,patch surface
+路徑陣列,path array
+路徑曲線,path curve
+路徑,pathway
+筆寬,pen width
+鉛筆工具,Pencil tool
+效能提示,performance hint
+週期曲線,periodic curve
+永久物件鎖點,persistent object snap
+常駐反應器,persistent reactor
+相片塑型,photo modeling
+光子貼圖,photon map
+實體原型,physical prototyping
+預選集,pickfirst set
+清管發射器,pig launch
+PIP,PIP
+管,pipe
+管配件,pipe fitting
+管隔熱層,pipe insulation
+平物面,planar face
+平面座標,plane coordinate
+平面測量,planimetry
+塑膠接頭,plastic socket
+出圖框,plot frame
+出圖戳記,plot stamp
+出圖結構,plot structure
+出圖型式,plot style
+PLY,PLY
+點圖徵,point feature
+指標輸入,pointer input
+極座標拉伸,polar stretch
+極座標追蹤,polar tracking
+PolarSnap,PolarSnap
+桿,pole
+同步頻率,polling frequency
+多弧線段,polyarc segment
+聚合面網面,polyface mesh
+多邊形網面,polygon mesh
+聚合線,polyline
+位置搜尋器,position finder
+位置點,position point
+發電站,power station
+精確度預置管理員,precision presets manager
+加壓接頭,pressed joint
+壓力區域,pressure zone
+縱斷面曲線,profile curve
+輪廓設計器,profile designer
+漸進式工具提示,progressive tooltip
+專案管控面板,project dashboard
+Project Simulus,Project Simulus
+投影座標系統,projected coordinate system
+性質視察器,properties inspector
+地界線,property line
+保護裝置,protective
+原型圖面,prototype drawing
+推送到 Autodesk Docs,Push to Autodesk Docs
+PUSHTODOCSCLOSE,PUSHTODOCSCLOSE
+PUSHTODOCSOPEN,PUSHTODOCSOPEN
+快速標註,quick dimension
+快速計算器,QuickCalc
+快速原型製作,rapid prototyping
+點陣化,rasterize
+實景擷取,reality capture
+最近使用的圖塊清單,recent blocks list
+最近使用的圖塊位置,recent blocks location
+復閉器,recloser
+參考約束,reference constraint
+參考框,reference frame
+參考網格,reference grid
+參考管理員,Reference Manager
+參考記錄,reference record
+細分,refinement
+反射貼圖,reflection map
+折射率,refraction index
+調節器,regulator
+放鬆約束,relax constraint
+彩現描述表,render context
+彩現預置,render preset
+報告設計器,Report Designer
+報告產生器,report generator
+表現法字串,representation string
+需求碼,request code
+水庫,reservoir
+限流器,restrictor
+留存槽,retention tank
+歸還日期,return date
+REVCLOUDPROPERTIES,REVCLOUDPROPERTIES
+倒轉歷程,rewind history
+功能區面板,ribbon panel
+豎板,riser
+展開,roll open
+撤回,rollback
+旋轉角度,rotation angle
+規則庫,rule base
+取樣點,sample point
+比例係數高度,scale factor height
+架構,schema
+線路圖元件,schematic component
+三相線路圖,schematic diagram
+線路圖圖徵,schematic feature
+示意圖符號,schematic symbol
+篩選,screening
+剖面邊界,section boundary
+剖面物件,section object
+剖面平面,section plane
+剖面視圖,section view
+自交多邊形,self-intersecting polygon
+化糞池,septic tank
+循序搜尋,sequential search
+服務點,service point
+描影出圖模式,shade plot mode
+ShapeManager,ShapeManager
+圖紙集管理員,sheet set manager
+圖紙子集,sheet subset
+捷徑函數,shortcut function
+停止閥,shut off valve
+基地點,site point
+SketchUp,SketchUp
+套筒,sleeve
+智慧圖塊,smart block
+鎖點角度,snap angle
+鎖點格線,snap grid
+實體,solid
+實體基本圖元,solid primitive
+sortents 表格,sortents table
+火花間隙,spark gap
+雲形線,spline
+分割點,split point
+一般用途扁圓頭開口鉚釘,split rivet
+SSM,SSM
+標準偏差,standard deviation
+「開始位置」資料夾,Start In folder
+「開始」頁籤,Start tab
+樁號摘要,station summary
+縫合,stitch
+常備工具,Stock Tool
+停止條件,stop condition
+跨,straddle
+拉伸動作,stretch action
+拉伸框,stretch frame
+建築物,structure
+學生版,student version
+手寫筆,stylus
+細分網面,subdivision mesh
+細分曲面,subdivision surface
+變電所,substation
+供氣區域,supply zone
+曲面分析,surface analysis
+表面指示引線,surface indication leader
+曲面法線,surface normal
+掃掠路徑,sweep path
+可切換,switchable
+開關裝置,switchgear
+迴旋,swivel
+頁籤頁面,tab page
+表格空間,tablespace
+板展網面,tabulated mesh
+推拔,taper
+樣板管理員,template manager
+終端,termination
+輪廓地形點,Terrain Point Pro
+鑲嵌,tessellation
+TEXTALIGN,TEXTALIGN
+鋪貼順序,tile order
+鋪貼區域大小,tile size
+時間伺服器,time server
+時間軸線,timeline
+染色,tint color
+標題欄框,title block
+公差,tolerance
+工具選項板,tool palette
+工具選項板集,tool palette set
+刀具路徑,toolpath
+上視圖,top view
+主題,topic
+拓樸,topology
+圓環,torus
+導覽建築操控盤,Tour Building wheel
+塔,tower
+追蹤方向,trace direction
+追蹤功能,trace feature
+TRACEBACK,TRACEBACK
+TRACEFRONT,TRACEFRONT
+TRACEPALETTECLOSE,TRACEPALETTECLOSE
+TRACEPALETTEOPEN,TRACEPALETTEOPEN
+觸控式軌跡板,trackpad
+交易,transaction
+變壓器,transformer
+半透明度,translucency
+傳送套件,transmittal package
+傳送設置,transmittal setup
+狀態匣,tray
+處理廠,treatment plant
+格子,trellis
+試用版,trial version
+分成三角形,triangulate
+觸發器,trigger
+修剪,trim
+USC,UCS
+約束不足,underconstrained
+參考底圖,underlay
+向上方向,up direction
+上游,upstream
+使用者座標系統,User Coordinate System
+公用設施,utility
+UV 空間,UV space
+VERSIONCOMPARE,VERSIONCOMPARE
+頂點,vertex
+頂點凸度,vertex bulge
+檢視物件操控盤,View Object wheel
+遮板,visor
+VLIDE 指令,VLIDE command
+Volo View Express,Volo View Express
+視點凍結,VP freeze
+VPEDIT,VPEDIT
+漫遊,walk
+廢水,waste water
+關注的資料夾,watched folder
+水裝置單元,water fixture unit
+浮水印編輯器,watermark editor
+無縫,watertight
+WCS,WCS
+網光源,web light
+網路地圖服務,web mapping service
+歡迎畫面,welcome screen
+萬用字元,wildcard
+捲繞填滿,winding fill
+遮蔽物件,wipeout object
+線架構,wireframe
+世界座標系統,World Coordinate System
+世界空間,world space
+XCOMPARE,XCOMPARE
+XCOMPARECLOSE,XCOMPARECLOSE
+XCOMPARERCNEXT,XCOMPARERCNEXT
+XCOMPARERCPREV,XCOMPARERCPREV
+XSL,XSL
+斑馬紋分析,zebra analysis
+壓縮的 KML 檔案,zipped KML file
+拉近,zoom in
+縮放不變體,zoom invariant
+拉遠,zoom out

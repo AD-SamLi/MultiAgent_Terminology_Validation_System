@@ -1,0 +1,538 @@
+﻿source,target
+3D Print,3D tisk
+Accept,Přijmout
+additive technology,aditivní technologie
+administrator,správce
+adult Tinkercad account,účet Tinkercad pro dospělé
+AFR,AFR
+air trap,vzduchová kapsa
+Alias,Alias
+all-around symbol,značka obvodového svaru
+allowance,přídavek
+alternate unit,alternativní jednotky
+analytical surface,analytický povrch
+Angular range,úhlový rozsah
+angular speed,úhlová rychlost
+animation footage,stopáž animace
+Apply,Použít
+assembly constraint,vazby sestavy
+assembly pattern,pole sestavy
+asset library,knihovna položek
+Autodesk Desktop Connector,Autodesk Desktop Connector
+Autodesk Inventor Mentor,program Autodesk Inventor Mentor
+Autodesk Manufacturing Community Portal,portál Autodesk Manufacturing Community
+Autodesk Masters award,Ocenění Autodesk Masters
+Autodesk Masters Program,Program Autodesk Masters
+Autodesk Partner,partneři společnosti Autodesk
+Autodesk Projects,Projekty Autodesk
+Autodesk Vault Professional edition,edice Autodesk Vault Professional
+automatic face chain,automatické řetězení ploch
+automatic feature recognition,automatické rozpoznání prvku
+automatic ordering,automatické řazení
+automatic routing,automatické trasování
+automatic verification,automatická kontrola
+axis,osa
+axis offset,odsazení osy
+axle,osa
+background processing,zpracování na pozadí
+ball mill,kulová fréza
+ball nosed tool,kulová fréza
+ball screw,kuličkový šroub
+barrel tool,soudečková fréza
+base point,referenční bod
+baud rate,přenosová rychlost
+beam detail,detail nosníku
+Belleville spring,talířová pružina
+bent tubing route,trasa ohýbaných trubek
+blend surface,přechodová plocha
+blisk,lopatkové kolo
+body load,zatížení tělesa
+bore,vnitřní soustružení
+boring bar,vyvrtávací tyč
+boss,nálitek
+boundary patch,hraniční záplata
+Bounding Box,box ohraničení
+braking torque,brzdný moment
+branch connection,připojení větve
+Break Link,Přerušit připojení
+brickify,převést na cihlový model
+bulk load,hromadné načtení
+bump,nerovnost
+bump map,mapa nerovností
+bump mapping,mapování nerovností
+cable tray,kabelová lávka
+callout style,styl odkazu
+CAM capabilities,možnosti CAM
+canned cycle,pevný cyklus
+canvas,kreslicí plocha
+cap filleting,zaoblení zakončení
+cascade water junction,kaskádový vodní spoj
+caterpillar,housenka
+cavity,dutina
+center line,osa
+center pin,středový kolík
+centre point,středový bod
+centric axis,středová osa
+chain dimension,řetězová kóta
+chain selection,výběr řetězce
+chaining,spojování
+chamfer,zkosení
+chamfer tool,nástroj sražení
+chamfering tools,nástroje zkosení
+chip formation,tvorba třísek
+chuck,čelist
+circular pitch,obvodová rozteč
+circular tapered gate,kuželový vtok
+circumferential speed,obvodová rychlost
+clearance,vůle
+closed edge,uzavřená hrana
+closed return bend,zavřený dvojitý oblouk
+CNC,CNC
+CO,ZP
+code snippet,fragment kódu
+coincident constraint,vazba totožnosti
+co-injection molding,tváření společným vstřikováním
+cold slug,studený bod
+collision,kolize
+Common Core,iniciativa Common Core
+common material,společný materiál
+component visibility,viditelnost komponenty
+composite curve,kompozitní křivka
+compound hole,složená díra
+concentricity,soustřednost
+conduit,vedení
+Configurator 360,Configurator 360
+connected workgroup,propojené pracovní skupiny
+connector,konektor
+connector pin,svorka konektoru
+constant-radius fillet,zaoblení s konstantním poloměrem
+constrained object,objekt s vazbou
+constraint,vazba
+contact point boundary,hranice kontaktního bodu
+Content Center Editor,Editor Obsahového centra
+content library,Knihovna obsahu
+contour,kontura
+contour flange,profilový ohyb
+control vertex,řídicí vrchol
+control vertex hull,kostra z řídicích vrcholů
+control vertices hull,kostra z řídicích vrcholů
+convex,konvexní
+coolant,chladicí médium
+coordinate,souřadnice
+COPPA,pravidla COPPA
+copy Design,copy design
+core pin,kolík otvoru tvárníku
+Corner Filleting,zaoblení rohu
+corner filleting style,styl zaoblení rohů
+corner radius,poloměr rohu
+cosmetic weld bead,kosmetické svarové housenky
+cross section analysis,analýza průřezu
+current directory,aktuální adresář
+curvature continuous fillet,zaoblení s plynulým zakřivením
+curve editor,editor křivek
+cutter compensation,korekce nástroje
+cutting line,čára řezu
+CV,CV
+cycle,cyklus
+database exports,exporty databází
+datum reference frame,referenční rámec
+decal,obtisk
+decision support system,rozhodovací systém
+defeaturing,zjednodušení prvků
+demote,snížit úroveň
+depth of cut,hloubka řezu
+design conflict,konflikty návrhu
+design file,soubor návrhu
+design reservation,rezervace návrhu
+Desktop Connector,Desktop Connector
+direction,směr
+DirectX Runtime,modul runtime technologie DirectX
+dots per inch,bodů na palec
+DPI,DPI
+draft angle,úhel úkosu
+Draw panel,panel Kreslit
+drawing group,skupina výkresů
+DRF,DRF
+drill,vrtání
+drilling cycles,vrtací cykly
+drilling toolpaths,dráhy vrtání
+drive curve,řídící křivka
+DSS,DSS
+duct connector,spojovací součást potrubí
+dump,soubor DUMP
+dynamic preview,dynamický náhled
+edit in place,úprava na místě
+edit point,Změnit polohu bodu
+EDM,EDM
+ejection temperature,teplota vyhození
+ejector,vyhazovač
+ejector pin,kolík vyhazovače
+ejector plate,deska vyhazovače
+elbow,koleno
+electric discharge machining,elektroerozivní obrábění
+electronic distance meter,elektronický měřič vzdáleností
+end fill,vyplnění konce
+end of fill pressure,tlak na konci plnění
+end point,koncový bod
+end treatment,opracování
+Express mode,expresní režim
+Expression Builder,Generátor výrazů
+exterior corner,vnější roh
+extract,extrahovat
+extruder,vysouvač
+face draft,zešikmení plochy
+Fasteners library,knihovna spojovacích součástí
+feature,prvek
+feature collision,kolize prvků
+feature control frame,geometrická tolerance
+feature group,skupina prvků
+feed mode,režim posuvu
+feed rate,posuv
+feedrate,posuv
+FFF,FFF
+FFF additive manufacturing,aditivní výroba FFF
+FFF print,tisk FFF
+field fit,na staveništi
+filestore,úložiště souborů
+fill pattern,vzor výplně
+fillet,zaoblení
+fillet feature,prvek zaoblení
+fillet style,styl zaoblení
+Finish panel,panel Dokončit
+finite element mesh,síť konečných prvků
+fixed edge draft,zešikmení s pevnou hranou
+fixture,upínka
+fixture ID,ID počátku
+fixture offset,posunutí počátku
+fixturing,upínky
+Flat List,základní seznam
+flat pattern,rozvin
+flat shading,ploché stínování
+flood solution,protipovodňové řešení
+flow rate,průtoková rychlost
+flush constraint,vazba stejný směr
+focal plane,ohnisková rovina
+form mill,tvarová fréza
+free drag,volné přetažení
+free orbit,volný orbit
+freeform edit,libovolné úpravy
+freeform shape,volný tvar
+Full Navigation wheel,kolečko Plná navigace
+full round fillet,zaoblení s plným zakulacením
+functional design,funkční navrhování
+Fusion Lifecycle,Fusion Lifecycle
+Fusion Team administrator,správce služby Fusion Team
+gate,vtok
+GCode,g-funkce
+geometric feature,geometrický prvek
+geometry,geometrie
+gesture behavior,ovládání gestem
+gouge,kolize
+graphics card,grafická karta
+gripper arm,úchopové rameno
+groove,drážka
+groove weld,žlábkový svar
+ground plane,základní rovina
+ground shadow,stín terénu
+grounded work point,pevný pracovní bod
+harness part,součást svazku
+harness segment,segment svazku
+hatch pattern,šrafovací vzor
+heat transfer pipe,tepelná trubice
+Helius Composite,Helius Composite
+Helius PFA,Helius PFA
+holder clearance,přídavek držáku
+horizontal arc,horizontální oblouk
+HSV,HSV
+hydroforming,hydraulické tváření
+I section,I profil
+iCopy,iCopy
+iFeatures,iFeatures
+IFR,IFR
+iLogic Design Copy,kopie modelu iLogic
+inactive component,neaktivní komponenta
+in-canvas tool,nástroj na kreslicí ploše
+infer constraints,odvozování vazeb
+inference,odvodit
+injection cone,vstřikovací kužel
+injection-compression molding,tváření vstřikovací kompresí
+insulation displacement,odstranění izolace
+Interactive Feature Recognition,interaktivní rozpoznání prvků
+interlock,zámek polohy
+intermittent weld,přerušovaný svar
+iPart Author,Autor iSoučásti
+iProperties,iProperties
+isoline,izočára
+ISTE,společnost ISTE
+item number,číslo položky
+item revision,revize položky
+job queue,fronta úloh
+kinematic chain,kinematický řetěz
+L section,L profil
+landing surface,povrch základny
+language pack,jazykový balíček
+Launchpad,Program Launchpad
+layer,hladina
+Learning Inventor 2010,Seznámení s aplikací Inventor 2010
+lease period,období zapůjčení
+lesser version,nižší verze
+license server,licenční server
+Lifecycle State Filter,filtr stavu životního cyklu
+lifter,zdvihač
+Live Enabler,Live Enabler
+live update,Live Update
+load diagram,schéma zatížení
+local coordinate system,místní souřadnicový systém
+location ring,středicí kroužek
+lock set,blokovací jednotka
+locknut,pojistná matice
+loft,šablonování
+lofted flange,šablonovaná příruba
+lollipop mill,soudečková fréza
+loop,smyčka
+Machine Connector,Machine Connector
+machine design,návrh stroje
+machine tool,obráběcí nástroj
+Machining extension,rozšíření Machining
+machining toolpath,dráha nástroje
+Manage Extension,Spravovat rozšíření
+manipulator,manipulátor
+markup,připomínka
+mass flow rate,průtok hmoty
+material accuracy,přesnost materiálu
+maximum clamp force,maximální svěrná síla během plnění
+MD file,soubor MD
+mechanistic movement,mechanický pohyb
+member,člen
+mesh view,pohled sítě
+mesher,generátor sítě
+metal powder bed fusion,fúze tavení kovového prášku
+milling tool,frézovací nástroj
+mirror plane,rovina zrcadlení
+Model area clearance,hrubování modelu
+model complexity,složitost modelu
+model files,soubory modelu
+model limits,limity modelu
+model translation,posunutí modelu
+moderator,moderátor
+mold,forma
+mold base,základna formy
+molding window,okno tváření
+morph strategy,strategie morfování
+multi-body,s více tělesy
+multibody workflow,pracovní postup s více tělesy
+multi-body workflow,pracovní postup s více tělesy
+multi-cavity mold,forma s více dutinami
+multiple composites,více kompozitů
+MultiValue,více hodnot
+navigation bar,panel navigace
+NC program,NC program
+NC Programs,nc programy
+NC setup,NC ustavení
+neck,krček
+New Features Workshop,Workshop o nových funkcích
+newsgroup,diskusní skupina
+nodal moment,uzlový moment
+non-rectangular viewport,nepravoúhlý výřez
+note,poznámka
+organic modeling,organické modelování
+orientation vectors,vektory orientace
+origin work feature,původní pracovní prvek
+o-ring,těsnicí kroužek
+outer angle,vnější úhel
+outlining,ohraničení
+parent account,rodičovský účet
+part catcher,lapač součásti
+parting diagnostic,diagnostika dělení
+password policy requirement,požadavky na zásady hesel
+patch,záplata
+patching surface,povrch záplaty
+path sketch,náčrt trajektorie
+pattern feature,prvek pole
+PDF Publish,publikování do formátu pdf
+physical material,fyzický materiál
+pilot hole,pilotní díra
+pin constraint,vazba svorky
+pipe plug,zátka trubice
+placed feature,umístěné prvky
+planar curve,rovinná křivka
+planar face,rovinná plocha
+plane,rovina
+plastic part,plastová součást
+plate detail face,plocha detailu tabule
+plunge point,bod zanoření
+Poisson ratio,Poissonova konstanta
+polygonised,převedeno do úseček
+post processor,postprocesor
+press brake,ohraňovací lis
+pressed joint,lisovaný spoj
+pressure drop,pokles tlaku
+pressure loss,ztráta tlaku
+Primary,primární
+Pro,Pro
+probe body,těleso sondy
+probe geometry,geometrie sondy
+probe mode,režim sondy
+probe type,typ sondy
+production version,produkční verze
+Profile Passes,profilové řezy
+program point,programový bod
+progressive tooltip,progresivní popisek nástroje
+project,projekt
+project explorer,prohlížeč projektu
+Project Simulus,Project Simulus
+Projects,Projekty
+promote surface,povýšit povrchy
+protrusion,výčnělek
+pull direction,směr vytažení
+quadrant point,bod kvadrantu
+quarter section view,čtvrtinový řez
+quilt,sešitá plocha
+range,rozsah
+reaction force,reakční síla
+realistic appearance,realistický vzhled
+recoater,recoater
+reflectivity,odrazivost
+refold,znovu ohnout
+re-index,přeindexování
+replication,replikace
+repositioned,změněná pozice
+reservation,rezervace
+resin identification code,identifikační kód pro recyklaci
+restored pattern element,obnovený prvek pole
+revision label,revizní štítek
+revision scheme,schéma revizí
+revision scheme format,formát schématu revizí
+ribbon cable,plochý kabel
+roughing slice,hrubovací řez
+rule fillet,zaoblení podle pravidla
+ruled surface,přímková plocha
+runoff loop,uzavřená linie odtokového kanálu
+runoff surface,dělicí povrch
+sealing plug,těsnicí zátka
+Secondary,sekundární
+segment,segment
+selective laser sintering,selektivní laserové slinování
+shank,dřík
+Shank clearance,oblast dříku
+Shank profile,profil dříku
+shape,tvar
+shear heating,teplo při střihu
+shear rate,rychlost střihu
+sheet metal face,plocha plechu
+shell,skořepina
+Show Me animation,názorná animace
+shrinkwrap,obal
+shrinkwrap substitute,nahrazení obalu
+side core,boční tvárník
+side lock,boční zámek
+Simulated Orientations,simulované orientace
+simulation mesh,síť simulace
+single composite,jeden kompozitní
+Single Point of Failure,jednobodové selhání
+sketch grid,rastr náčrtu
+sketch illustration,ilustrace náčrtu
+sketched symbol,načrtnutá značka
+Skill Builder,Praktická cvičení
+SLM machine,stroj SLM
+slot mill,drážková fréza
+SLS,SLS
+snippet,fragment
+solid face,plocha tělesa
+spindle,vřeteno
+spindle orientation,orientace vřetena
+spindle revolution,otáčka vřetena
+split rivet,nýt s rozštěpeným dříkem
+spotface,mělké zahloubení
+sprue,licí kanál
+sprue bushing,objímka licího kanálu
+spur gear,čelní ozubené kolo
+standard appearance,standardní vzhled
+start point,počáteční bod
+stepover,krok
+stock,polotovar
+stop pin,dorazový kolík
+strategy,strategie
+stress analysis,pevnostní analýza
+structural member,konstrukční prvek
+student design,návrh studenta
+Suite Workflows,pracovní postupy sad
+support generation,generování podpor
+suppressed assembly pattern element,vypnutý prvek pole sestavy
+surface associativity,asociativita povrchu
+surface body,povrchové těleso
+surface face,plocha povrchu
+surface fillet,zaoblení povrchu
+surface normal,normála povrchu
+surface normal arc,oblouk normály plochy
+surface trimming,oříznutí povrchu
+Swiss machining,švýcarské soustružení
+team,tým
+terminal electrical properties,elektrické vlastnosti svorkovnice
+terminator,ukončení
+Thick Client,Thick Client
+thickness,přídavek
+Thin Client,Thin Client
+thin-walled support shape,tenkostěnný podpůrný tvar
+third-angle projection,americké promítání
+three quarter section view,tříčtvrtinový řez
+thumb screw,křídlatý šroub
+time slider,posuvník času
+tolerance,tolerance
+tonemap method,metoda mapování tónů
+tool,nástroj
+tool assembly,sestava nástroje
+tool axis,osa nástroje
+tool database,databáze nástrojů
+tool entity,entita nástroje
+tool orientation,orientace nástroje
+tool property,vlastnost nástroje
+tool radius,poloměr nástroje
+tool shank,dřík nástroje
+tool shank data,data dříku nástroje
+tool tip radius,rádius špičky nástroje
+tooling,nástroje
+Toolpath Edit menu,nabídka úpravy dráhy
+toolpath tail,konec dráhy nástroje
+torque load,namáhání krutem
+tree view,stromové zobrazení
+trochoid,trochoida
+turret,nástrojová hlava
+U Section,U profil
+ultimate tensile strength,mez pevnosti v tahu
+Undercut option,možnost podkosu
+underlay,podložení
+underlay geometry,geometrie podložení
+undirected angle,směr úhlu proti sobě
+unfold method,metoda rozvinu
+valve gate,kaskádový vtok
+variable-radius fillet,zaoblení s proměnným poloměrem
+Vault account,účet úložiště Vault
+Vault Workgroup,Vault Workgroup
+vaulted version,verze z úložiště
+vaulting restriction,omezení úložiště
+vent,větrací otvor
+viewer mode,režim prohlížeče
+volumetric flow rate,volumetrický průtok
+wall clearance,oblast od stěny
+watermark,vodoznak
+WCS,WCS
+wedge,klín
+weld line,linie roztavení
+welding neck flange,svařovaná příruba s hrdlem
+width,šířka
+wire feedrate,posuv drátu
+wire run,vedení vodiče
+wireframe display,zobrazení drátového modelu
+work axis,pracovní osa
+work feature,pracovní prvek
+work plane,pracovní rovina
+work surface,pracovní povrch
+workgroup,pracovní skupina
+workpiece,obrobek
+workplane,pracovní rovina
+worm gear,šnekové ozubení
+XBUILD,XBUILD
+X-ray ground shadow,rentgenový vržený stín
+yaw,stočit
+yield strength,mez kluzu v tahu

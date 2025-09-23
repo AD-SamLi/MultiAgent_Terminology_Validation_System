@@ -1,0 +1,897 @@
+﻿source,target
+Add-In ID 2019,ID 2019 Add-In
+admin,admin
+administrator,administrator
+Administrator Konfigurasi,Configuration Administrator
+Administrator Tim Fusion,Fusion Team administrator
+AFR,AFR
+akar alur,groove root
+Akun vault,Vault account
+akurasi material,material accuracy
+alat,tool
+alat barel,barrel tool
+alat chamfer,chamfer tool
+alat chamfering,chamfering tools
+alat dalam kanvas,in-canvas tool
+alat gambar otomatis,auto-draw tool
+alat mesin,machine tool
+alat penggilingan,milling tool
+Alias,Alias
+alur,groove
+alur kerja SLM yang dioptimalkan,optimized SLM workflow
+alur kerja suite,suite workflow
+AM,AM
+analisis penampang melintang,cross section analysis
+analisis stres,stress analysis
+anggota,member
+anggota struktural,structural member
+angularitas,angularity
+Animasi Show Me,Show Me animation
+anotasi,annotation
+aplikasi,application
+arah,direction
+arah butir,grain direction
+arah muka,face direction
+arah positif,positive direction
+arah putar,rotary direction
+arah singgung,tangent direction
+arah tarik,pull direction
+asosiativitas permukaan,surface associativity
+atribut beban panas internal,internal heat load attribute
+atribut suhu kritis,critical temperature attribute
+aturan logam lembaran,sheet metal rule
+aturan siklus hidup,lifecycle rules
+Autodesk Projects,Autodesk Projects
+Autodesk Vault Professional edition,Autodesk Vault Professional edition
+bagan urutan,sequence tree
+bagian harness,harness part
+Bagian I,I section
+bagian kipas pendingin,cooling fan part
+Bagian L,L section
+bagian plastik,plastic part
+Bagian U,U section
+bahan fisik,physical material
+bahan umum,common material
+bahan yang biokompatibel,biocompatible material
+bahan yang tidak dapat dimampatkan,incompressible material
+baki kabel,cable tray
+ball nosed tool,ball nosed tool
+basis data alat,tool database
+basis kode,codebase
+batang bor,boring bar
+batas,boundary
+batas objektif,objective limits
+batas pangkas,trim boundary
+batas sumbu alat,tool axis limit
+batas titik kontak,contact point boundary
+batas transisi siklus hidup,lifecycle transition limit
+batasan,constraint
+batasan bertepatan,coincident constraint
+batasan model,model limits
+batasan perakitan,assembly constraint
+batasan pin,pin constraint
+batasan vaulting,vaulting restriction
+bayangan datar,flat shading
+bayangan tanah,ground shadow
+Bayangan tanah sinar-X,X-ray ground shadow
+beban global linier,linear global load
+beban global sudut,angular global load
+beban panas,heat load
+beban panas internal,internal heat load
+beban torsi,torque load
+beban transien,transient load
+beban tubuh,body load
+beberapa dokumen fixture,multiple fixture document
+beberapa komposit,multiple composites
+benda kerja,workpiece
+benjolan,bump
+bentuk,shape
+bentuk bebas,freeform shape
+bentuk penyangga berdinding tipis,thin-walled support shape
+bersarang,nesting
+bibir dan alur,lip and groove
+bidang,plane
+bidang cermin,mirror plane
+bidang fokus,focal plane
+bidang kerja jalur alat,toolpath workplane
+bidang klip,clip planes
+bidang paralel,parallel plane
+bidang singgung,tangent plane
+bidang tanah,ground plane
+bilah alat mini,mini toolbar
+bilah lembaran,sheet bar
+bilah navigasi,navigation bar
+bingkai eksternal,external frame
+bingkai internal,internal frame
+bingkai kawat,wireframe
+bingkai kontrol fitur,feature control frame
+blisk,blisk
+Blog Vault,Vault blog
+bodi permukaan,surface body
+bodi probe,probe body
+Bodi T-Spline,T-Spline body
+BOM,BOM
+bor titik,spot drill
+buang,dump
+buffer data,data buffer
+buket,bouquet
+busur,arc
+busur horizontal,horizontal arc
+busur normal permukaan,surface normal arc
+butt v,v butt
+cangkang,shell
+cangkang negatif,negative shell
+catatan,note
+catatan datum,datum note
+cel shading,cel shading
+celah,gap
+Cetak 3D,3D Print
+Cetak FFF,FFF print
+cetakan,mold
+cetakan kompresi injeksi,injection-compression molding
+cetakan multirongga,multi-cavity mold
+chaining,chaining
+chuck jaws,chuck jaws
+cincin lokasi,location ring
+cincin-o,o-ring
+citra lingkungan,environment image
+CLDATA,CLDATA
+CMM,CMM
+CNC,CNC
+co-injection molding,co-injection molding
+cold slug,cold slug
+collet,collet
+computenode,computenode
+confetti berwarna,colored confetti
+coplanar,coplanar
+COPPA,COPPA
+cuplikan,snippet
+cuplikan animasi,animation footage
+cuplikan kode,code snippet
+CV,CV
+daerah curam,steep area
+daerah dangkal,shallow area
+daftar bahan,bill of materials
+daftar cepat,quick list
+daftar datar,flat list
+dasar cetakan,mold base
+dasi kupu-kupu,bowtie
+data betis alat,tool shank data
+data cloud,cloud data
+data pengukuran,measurement data
+defeaturing,defeaturing
+definisi kurva,curve definition
+definisi simbol,symbol definition
+desain fungsional,functional design
+desain mesin,machine design
+desain pemisahan,parting design
+desain referensi,reference design
+detail balok,beam detail
+diagnostik pemisahan,parting diagnostic
+diagram beban,load diagram
+diameter,diameter
+diameter atas poros,shaft upper diameter
+diameter bor,drill diameter
+diameter lapangan,pitch diameter
+dimensi,dimension
+dimensi rantai,chain dimension
+diposisikan ulang,repositioned
+DirectX Runtime,DirectX Runtime
+direktori saat ini,current directory
+disiplin pemesinan,machining discipline
+DOF,DOF
+dokter file,file doctor
+DPI,DPI
+draf tepi tetap,fixed edge draft
+DSS,DSS
+DWG yang disederhanakan,simplified DWG
+dxf,dxf
+EBM,EBM
+edit bentuk bebas,freeform edit
+edit di tempat,edit in place
+edit ruang kerja model,edit model workspace
+editor kurva,curve editor
+Editor Pusat Konten,Content Center Editor
+EDM,EDM
+ejektor,ejector
+ekor jalur alat,toolpath tail
+ekspor basis data,database exports
+Ekstensi pemesinan,Machining extension
+ekstruder,extruder
+ekstrusi pratinjau,preview extrusion
+elektroda,electrode
+elemen,element
+elemen pola perakitan yang ditekan,suppressed assembly pattern element
+elemen pola yang dipulihkan,restored pattern element
+elevasi,elevation
+energi regangan,strain energy
+entitas alat,tool entity
+entitas sketsa,sketch entity
+F3Z,F3Z
+faktor keamanan target,target safety factor
+faktor toleransi penghalusan,smoothing tolerance factor
+FFF,FFF
+file desain,design file
+file log diagnostik,diagnostic log file
+File MD,MD file
+file model,model files
+File PRM,PRM file
+file visualisasi,visualization file
+fillet aturan,rule fillet
+fillet bulat penuh,full round fillet
+fillet dengan radius variabel,variable-radius fillet
+fillet kontinu kelengkungan,curvature continuous fillet
+fillet permukaan,surface fillet
+fillet radius konstan,constant-radius fillet
+fillet sudut,corner filleting
+fillet variabel,variable fillet
+fitur bibir,lip feature
+fitur bos,boss feature
+fitur daya,power feature
+fitur fillet,fillet feature
+fitur geometris,geometric feature
+fitur kerja,work feature
+fitur logam lembaran,sheet metal features
+fitur lubang,hole feature
+Fitur PCB,PCB feature
+fitur pekerjaan asal,origin work feature
+fitur pola,pattern feature
+fitur sketsa,sketched feature
+fitur tempatan,placed feature
+fixture pelat,plate fixture
+fixturing,fixturing
+Fleks,Flex
+flensa dasar,base flange
+flensa ditinggikan die formed,die formed lofted flange
+flensa kontur,contour flange
+flensa leher pengelasan,welding neck flange
+format revisi,revision format
+format skema revisi,revision scheme format
+gambar hasil,outcome image
+gambar lembar penyiapan,setup sheet image
+gandar,axle
+garis besar papan,board outline
+garis lapangan,pitch line
+garis las,weld line
+garis pandang,sight line
+garis potong,cutting line
+garis tengah,center line
+gaya callout,callout style
+gaya fillet,fillet style
+gaya fillet sudut,corner filleting style
+gaya reaksi,reaction force
+GCode,GCode
+geometri,geometry
+geometri kipas,fan geometry
+geometri probe,probe geometry
+geometri referensi,reference geometry
+geometri rintangan,obstacle geometry
+geometri underlay,underlay geometry
+gerakan fluida,fluid motion
+gerakan mekanistik,mechanistic movement
+gerbang,gate
+gerbang katup,valve gate
+gerbang runcing melingkar,circular tapered gate
+gigi spur,spur gear
+gouge,gouge
+grup berita,newsgroup
+grup fitur,feature group
+grup gambar,drawing group
+grup inspeksi permukaan,surface inspection group
+grup kerja,workgroup
+grup tindakan sederhana,simple measures group
+GTC,GTC
+halus,smooth
+handel grafis,graphic handle
+hatching,hatching
+host,host
+HSV,HSV
+Hub Umpan Balik,Feedback Hub
+hull CV,CV hull
+hull sekumpulan titik kontrol,control vertices hull
+hull titik sudut kontrol,control vertex hull
+iCopy,iCopy
+ID fixture,fixture ID
+iFeatures,iFeatures
+IFR,IFR
+ilustrasi sketsa,sketch illustration
+inci persegi,square inch
+indeks tepi,edge index
+indeks ulang,re-index
+infer constraints,infer constraints
+inference,inference
+informasi kurva,curve information
+interval,interval
+inti,core
+inti geser,slide core
+inti samping,side core
+Inti Umum,Common Core
+iPart Author,iPart Author
+iProperties,iProperties
+irisan,wedge
+irisan roughing,roughing slice
+ISO,ISO
+isocurve,isocurve
+isoline,isoline
+ISTE,ISTE
+Item Program NC,NC Program item
+izin pemegang,holder clearance
+jahitan acak,randomized seam
+jalur alat,toolpath
+jalur alat gaya garis,line style toolpath
+jalur alat pemesinan,machining toolpath
+jalur alat pengeboran,drilling toolpaths
+jalur alat vortex,vortex toolpath
+jalur kawat,wire run
+jalur migrasi,migration path
+jalur tautan bebas tabrakan,collision free link path
+jarak bagi lingkaran,circular pitch
+jarak bebas dinding,wall clearance
+jarak bebas pelapis ulang,recoater clearance
+jarak bebas shank,shank clearance
+jarak dan sudut chamfer,distance and angle chamfer
+jarak retraksi,retract distance
+jaring,mesh
+jaring elemen finite,finite element mesh
+Jaring FEA,FEA mesh
+jaring simulasi,simulation mesh
+jejak pensil,pencil trace
+jendela cetakan,molding window
+Jendela Penjelajah,Explorer Window
+jendela perintah,command window
+jenis beban panas internal,internal heat load types
+jenis probe,probe type
+jenis studi,study type
+joint origin,joint origin
+jumlah stipple,stipple count
+kabel pita,ribbon cable
+kalibrasi,calibration
+kalibrasi spindel,spindle calibration
+kanvas,canvas
+kapasitas pengubah alat otomatis,automatic tool changer capacity
+kartu data,data card
+kartu grafis,graphics card
+kategori objek,object category
+kawat busur listrik,electric arc wire
+kecepatan keliling,circumferential speed
+kecepatan sudut,angular speed
+kecepatan umpan kawat,wire feedrate
+kecocokan lapangan,field fit
+kedalaman bidang,depth of field
+kedalaman potongan,depth of cut
+kehilangan tekanan,pressure loss
+kekakuan model,model stiffness
+kekuatan klem maksimum,maximum clamp force
+kekuatan luluh,yield strength
+kekuatan tarik utama,ultimate tensile strength
+kelajuan sudut,angular velocity
+kelompok kerja yang terhubung,connected workgroup
+kelulusan profil,profile passes
+Kemampuan CAM,CAM capabilities
+kembar-simetris,twin-symmetric
+kerangka referensi datum,datum reference frame
+kerucut,cone
+kerucut injeksi,injection cone
+kerusakan las,weld damage
+ketebalan jaring,web thickness
+ketebalan lapisan,layer thickness
+ketebalan tubuh,body thickness
+kisi,grid
+Kisi BOM,BOM grid
+kisi sketsa,sketch grid
+kode identifikasi resin,resin identification code
+koefisien torsi,torque coefficient
+kompensasi pemotong,cutter compensation
+kompleksitas model,model complexity
+komponen,component
+komponen elektronik,electronics component
+komponen sumber,source component
+komponen target,target component
+komponen tidak aktif,inactive component
+komposit tunggal,single composite
+koneksi cabang,branch connection
+koneksi jaringan dial-up,dial-up network connection
+konektor,connector
+Konektor Desktop,Desktop Connector
+Konektor Mesin,Machine Connector
+konektor saluran,duct connector
+konflik desain,design conflict
+konflik nama,name collision
+konsentrisitas,concentricity
+konsep muka,face draft
+konstruksi fitur,feature construction
+konstruksi fitur paralel,parallel feature construction
+kontrol izin,permission control
+konveksi udara,air convection
+kPa,kPa
+kriteria penghapusan elemen,element deletion criteria
+kuas,brush
+kunci samping,side lock
+kursor cerdas,intelligent cursor
+kurva benih,seed curve
+kurva komposit,composite curve
+kurva penggerak,drive curve
+kurva planar,planar curve
+kurva tambalan,patch curve
+laju aliran abrasif,abrasive flow rate
+laju aliran massa,mass flow rate
+laju aliran volumetrik,volumetric flow rate
+laju baud,baud rate
+laju geser,shear rate
+lambda edge,edge lambda
+lapisan deposisi,deposition layer
+las alur,groove weld
+Learning Inventor 2010,Learning Inventor 2010
+lebar,width
+lebar titik las,bead width
+leher,neck
+lengan penjepit,gripper arm
+lengkung balik tertutup,closed return bend
+lingkungan manufaktur,manufacturing environment
+logam lembaran,sheet metal
+Lokakarya Fitur Baru,New Features Workshop
+lokasi asal,home location
+lokasi injeksi,injection location
+lubang counterbore,counterbore hole
+lubang counterdrill,counterdrill hole
+lubang countersink,countersink hole
+lubang kompon,compound hole
+lubang pilot,pilot hole
+lubang trivial,trivial hole
+MachineDNA,MachineDNA
+majalah alat,tool magazine
+manipulator,manipulator
+Manufaktur aditif FFF,FFF additive manufacturing
+manufaktur powder bed metal additive,powder bed metal additive manufacturing
+markup,markup
+masa sewa,lease period
+massa proporsional,mass proportional
+massa titik,point mass
+matriks,matrix
+mempertahankan geometri,preserve geometry
+menara,turret
+menghindari tabrakan,collision avoidance
+mengoordinasikan,coordinate
+Menu Edit Jalur Alat,Toolpath Edit menu
+menyamar sebagai pengguna,impersonating user
+menyederhanakan ruang kerja,simplify workspace
+menyelesaikan interval informasi status,solve status information interval
+Mesin FFF,FFF machine
+mesin manual,manual machine
+Mesin SLM,SLM machine
+metal powder bed fusion,metal powder bed fusion
+metode tonemap,tonemap method
+metode unfold,unfold method
+Mitra Autodesk,Autodesk Partner
+Mode ekspres,Express mode
+mode penampil,viewer mode
+mode penghalusan,smoothing mode
+mode probe,probe mode
+mode tampilan halus,smooth display mode
+mode umpan,feed mode
+model bahan hiperelastis,hyperelastic material model
+model generatif,generative model
+model material,material model
+model simulasi,simulation model
+model stok,stock model
+moderator,moderator
+modulus curah,bulk modulus
+momen nodal,nodal moment
+muatan curah,bulk load
+muka,face
+muka dasar,base face
+muka detail pelat,plate detail face
+muka lembaran logam,sheet metal face
+muka permukaan,surface face
+muka planar,planar face
+muka solid,solid face
+multibodi,multi-body
+MultiValue,MultiValue
+mur kepala heksagonal,hex washer
+nama file orisinal,original file name
+NG,NG
+NGSS,NGSS
+nilai jarak bebas,clearance value
+nilai sisa bantuan,relief remnant value
+nomor fitur,feature number
+nomor item,item number
+nomor revisi item,item revision number
+nonproduksi,non-production
+normal permukaan,surface normal
+Objek BOM,BOM Object
+objek terbatas,constrained object
+OD,OD
+offset fixture,fixture offset
+operasi penggilingan,milling operation
+opsi pendingin,coolant options
+opsi pewarnaan,colorization options
+Opsi undercut,Undercut option
+orbit bebas,free orbit
+orientasi alat,tool orientation
+orientasi spindel,spindle orientation
+padat,solid
+paket bahasa,language pack
+paku keling belah,split rivet
+palet warna,colour palette
+panas internal,internal heat
+Panduan Antarmuka Autodesk Human,Autodesk Human Interface Guidelines
+Panduan Bungkus,Wrap Wizard
+panduan pendingin,cooling wizard
+Panel gambar,Draw panel
+Papan peluncuran,Launchpad
+parameter,parameter
+parameter penghindaran tabrakan,collision avoidance parameters
+PCB,PCB
+PCB asosiatif,associative PCB
+PCB Fusion,Fusion PCB
+PCB independen,independent PCB
+Pegas Belleville,Belleville spring
+pelapis ulang,recoater
+pelapisan,coating
+pelapisan ulang,recoating
+pelat ejektor,ejector plate
+pemanasan geser,shear heating
+pemangkasan permukaan,surface trimming
+Pembangun Ekspresi,Expression Builder
+Pembangun Keterampilan,Skill Builder
+pembaruan langsung,live update
+pembatasan penghapusan item,item deletion restrictions
+pembawa,carrier
+pembentukan cip,chip formation
+pembentukan hidro,hydroforming
+pembersihan adaptif,adaptive clearing
+pembuatan pengasaran,coarsening generations
+pembuatan penyangga,support generation
+Pembuatan PRM,PRM generation
+Pemecah dan Fitur Generatif Eksperimental,Experimental Generative Solvers and Features
+pemesanan otomatis,automatic ordering
+pemesinan pelepasan elektro,electro discharge machining
+pemesinan pelepasan listrik,electric discharge machining
+pemetaan benjolan,bump mapping
+pemetaan properti,property mapping
+pemilihan rantai,chain selection
+pemodelan generatif,generative modeling
+pemodelan organik,organic modeling
+pemotong ujung bola bulat,lollipop mill
+pemotongan tutup,cap filleting
+Pemrograman CAM,CAM programming
+pemrosesan latar belakang,background processing
+pemrosesan pasca,post processor
+penampilan standar,standard appearance
+penanda sejarah,history marker
+penangkap bagian,part catcher
+Pencetak Shera,Shera printers
+Pencetak SolidscapeDL,SolidscapeDL Printer
+Pencetak Straumann,Straumann printers
+pendingin,coolant
+pendingin elektronik,electronics cooling
+penempatan komponen,component placement
+Pengaktif Langsung,Live Enabler
+pengangkat,lifter
+pengaturan desain generatif,generative design setup
+pengaturan penyangga,support settings
+pengelasan intermiten,intermittent weld
+Pengemasan 3D,3D Packing
+Pengenalan Fitur Interaktif,Interactive Feature Recognition
+pengenalan fitur otomatis,automatic feature recognition
+pengendara,rider
+pengganti shrinkwrap,shrinkwrap substitute
+penggeser,slider
+penggeser waktu,time slider
+penggiling bola,ball mill
+Pengontrol CNC,CNC controller
+pengoptimalan kisi dan kulit,lattice and skin optimization
+pengukur jarak elektronik,electronic distance meter
+penjelajah proyek,project explorer
+penjepit,gripper
+penundaan lompatan,jump delay
+penundaan lompatan laser,laser jump delay
+penundaan poligon,polygon delay
+penundaan poligon laser,laser polygon delay
+penundaan tanda laser,laser mark delay
+penurunan tekanan,pressure drop
+penyambung,mesher
+penyederhanaan geometri,geometry simplification
+penyejajaran,alignment
+penyempurnaan adaptif,adaptive refinement
+penyesuaian perputaran,rotational adjustment
+Penyiapan NC,NC setup
+penyimpanan file,filestore
+penyorotan silang,cross-highlighting
+penyusutan,shrinkage
+perakitan alat,tool assembly
+perangkap udara,air trap
+perangkat lunak persiapan pembuatan,build preparation software
+perawatan akhir,end treatment
+periferal,peripheral
+perilaku gestur,gesture behavior
+perkakas,tooling
+permukaan,surface
+permukaan analitik,analytical surface
+permukaan campuran,blend surface
+permukaan daya,power surface
+permukaan draf,draft surface
+permukaan kerja,work surface
+permukaan limpasan,runoff surface
+permukaan penambalan,patching surface
+permukaan pendaratan,landing surface
+permukaan terbelah,split surface
+permukaan yang diatur,ruled surface
+perpanjangan produksi,manufacturing extension
+perpindahan isolasi,insulation displacement
+persegi panjang,rectangle
+persyaratan kebijakan kata sandi,password policy requirement
+perulangan,loop
+perulangan limpasan,runoff loop
+perutean otomatis,automatic routing
+pesawat konstruksi,construction plane
+peta benjolan,bump map
+peta kesalahan,error map
+pin ejektor,ejector pin
+pin henti,stop pin
+pin inti,core pin
+pin konektor,connector pin
+pin tengah,center pin
+pipa perpindahan panas,heat transfer pipe
+pita toleransi,tolerance band
+plot konvergensi,convergence plot
+plot pencar,scatter plot
+poin program,program point
+pola,pattern
+pola arsir,hatch pattern
+pola datar,flat pattern
+pola pengisian,fill pattern
+pola perakitan,assembly pattern
+Posisi jarak bebas X,X clearance position
+Pozidriv,Pozidriv
+pratinjau dinamis,dynamic preview
+Printer Dental Wings,Dental Wings printers
+probe,probe
+profil flensa,flange profile
+profil shank,shank profile
+Project Simulus,Project Simulus
+promosikan permukaan,promote surface
+properti alat,tool property
+properti pascapemrosesan,post processing properties
+proporsional kekakuan,stiffness proportional
+proses metal powder bed fusion,metal powder bed fusion process
+proyeksi permukaan,surface projection
+proyeksi sudut ketiga,third-angle projection
+puck,puck
+pustaka aset,asset library
+pustaka konten,content library
+pustaka nonlinier,nonlinear library
+Pustaka pengencang,Fasteners library
+quilt,quilt
+radius,radius
+radius alat,tool radius
+radius bagian dalam,inner radius
+radius luar,outer radius
+radius sudut,corner radius
+radius ujung alat,tool tip radius
+ramp,ramp
+rantai kinematik,kinematic chain
+rantai wajah otomatis,automatic face chain
+Rasio poisson,Poisson ratio
+referensi komponen,referenced component
+referensi objek,referenced object
+reflektifitas,reflectivity
+regangan,strain
+regangan utama,principal strain
+rem tekan,press brake
+rentang,range
+replikasi,replication
+reservasi,reservation
+reservasi desain,design reservation
+reservoir foil,foil reservoir
+resolusi voxel,voxel resolution
+revisi item,item revision
+revolusi spindel,spindle revolution
+rib chamfer,rib chamfer
+rib fillet,rib fillet
+roda gigi aus,worm gear
+Roda Navigasi Penuh,Full Navigation wheel
+ruang kerja elektronik,electronics workspace
+ruang kerja hasil,results workspace
+rute pipa bengkok,bent tubing route
+sabuk-v,v-belt
+saldo kredit cloud,cloud credit balance
+Salinan Desain iLogic,iLogic Design Copy
+saling mengunci,interlock
+saluran,conduit
+sambungan air kaskade,cascade water junction
+sambungan siku,miter
+sambungan yang ditekan,pressed joint
+samping,side
+satin baja,steel satin
+segmen,segment
+segmen harness,harness segment
+segmen jalur alat,toolpath segments
+sekrup bola,ball screw
+sekrup sadap mandiri,self-tapping screw
+sekrup thumb,thumb screw
+selective laser sintering,selective laser sintering
+sensor,sensor
+seret bebas,free drag
+server lisensi,license server
+Server Pekerjaan,Job Server
+set kunci,lock set
+shank,shank
+shrinkwrap,shrinkwrap
+sifat listrik terminal,terminal electrical properties
+sifat massa,mass properties
+siklus canned,canned cycle
+siklus pengeboran,drilling cycles
+siku,elbow
+silinder,cylinder
+simbol kemiringan,slope symbol
+simbol las,weld symbol
+simbol serbaguna,all-around symbol
+simbol sketsa,sketched symbol
+simetris mandiri,self symmetric
+simpul,vertex
+simpul kepala,headnode
+simulasi acara,event simulation
+simulasi jalur alat,toolpath simulation
+simulasi manufaktur aditif,additive manufacturing simulation
+simulasi orientasi,simulated orientations
+simulasi tekuk struktural,structural buckling simulation
+Simulation CFD 3D Viewer,Simulation CFD 3D Viewer
+Simulation CFD Viewer,Simulation CFD Viewer
+sirklip,circlip
+sisir kelengkungan,curvature comb
+sistem koordinat global,global coordinate system
+sistem koordinat lokal,local coordinate system
+sistem koordinat pengguna,user coordinate system
+sistem pendukung keputusan,decision support system
+sketsa jalur,path sketch
+SLS,SLS
+Smart Surfacer,Smart Surfacer
+solusi banjir,flood solution
+spindel,spindle
+spline,spline
+spotface,spotface
+sprue,sprue
+sprue bushing,sprue bushing
+status batasan,constraint status
+steker penyegel,sealing plug
+steker pipa,pipe plug
+stepdown,stepdown
+stepover,stepover
+stiker,decal
+stok,stock
+strategi,strategy
+strategi jalur alat manufaktur,manufacturing toolpath strategies
+strategi morf,morph strategy
+strategi pemesinan flowline,flowline machining strategy
+strategi roughing,roughing strategy
+studi simulasi,simulation study
+studi simulasi cetakan injeksi,injection molding simulation study
+studi simulasi lanjutan,advanced simulation study
+studi simulasi proses,process simulation study
+studi tekuk struktural,structural buckling study
+suar v,flare v
+subspindel,subspindle
+sub-spindel,sub-spindle
+sudut akhir,end angle
+sudut awal,start angle
+sudut disikukan,mitred corner
+sudut draf,draft angle
+sudut eksterior,exterior corner
+sudut luar,outer angle
+sudut menggantung,overhang angle
+sudut pandang nonpersegi panjang,non-rectangular viewport
+sudut sumbu alat,tool axis angle
+sudut tidak terarah,undirected angle
+sudut utama,lead angle
+suhu ejeksi,ejection temperature
+sumbu,axis
+sumbu alat,tool axis
+Sumbu B,B axis
+sumbu B putar,rotary B axis
+Sumbu C,C axis
+sumbu C putar,rotary C axis
+sumbu kerja,work axis
+sumbu sentris,centric axis
+surface probe,surface probe
+SVG,SVG
+swarf,swarf
+tabel lubang,hole table
+tabrakan,collision
+tabrakan fitur,feature collision
+tag revisi,revision tag
+tambalan batas,boundary patch
+tampilan bagian,section view
+tampilan bagian sejajar,aligned section view
+tampilan bagian seperempat,quarter section view
+tampilan bagian tiga perempat,three quarter section view
+tampilan bingkai kawat,wireframe display
+Tampilan inventor,inventor View
+tampilan jaring,mesh view
+tampilan kotak,box display
+tampilan model,model view
+tampilan realistis,realistic appearance
+tampilan tambahan,auxiliary view
+tanda revisi,revision mark
+tanda terbakar,burn mark
+target datum,datum target
+tegangan geser dinding,wall shear stress
+Tekan/Tarik,Press/Pull
+tekanan akhir pengisian,end of fill pressure
+teknologi aditif,additive technology
+teknologi generatif,generative technology
+tekstur permukaan,surface texture
+tekuk,buckling
+tepi,edge
+tepi sketsa,sketch edge
+tepi tertutup,closed edge
+Terbitkan PDF,PDF Publish
+terjemahan,translation
+terjemahan model,model translation
+terminator,terminator
+timpa relief tekuk,bend relief override
+tinggi flensa,flange height
+tinggi lapisan,layer height
+tinggi segmen poros,shaft segment height
+tipalat progresif,progressive tooltip
+tipe tubuh,body type
+titik akhir,end point
+titik awal,start point
+titik benih,seed point
+titik bintang,star point
+titik dasar,base point
+titik dinamis,dynamic point
+titik jalur alat,toolpath points
+titik joint origin,joint origin point
+titik kerja yang digrounding,grounded work point
+titik kontak,contact point
+titik kuadran,quadrant point
+titik kunci,key point
+titik las kosmetik,cosmetic weld bead
+titik orientasi,orientation point
+titik per inci,dots per inch
+titik plunge,plunge point
+titik sudut kontrol,control vertex
+titik target,target point
+titik tengah,centre point
+titik terpandu,guided point
+toleransi,tolerance
+tombol arah alat,tool direction button
+tombol arah ejeksi,ejection direction button
+tonjolan,protrusion
+torsi pengereman,braking torque
+torus,torus
+transisi sulit,hard transition
+transisi yang lembut,soft transition
+tree view,tree view
+trochoid,trochoid
+T-Spline,T-Spline
+tubuh dasar,base body
+tugas kredit cloud,cloud credit task
+Tumbuh ke Kotak,Grow to Box
+tumpukan lapisan,layer stack
+tunjangan,allowance
+ubah pesanan,change order
+UCS,UCS
+undercut,undercut
+underlay,underlay
+unit alternatif,alternate unit
+urutan pemeriksaan,inspection sequence
+vektor,vector
+vektor orientasi,orientation vectors
+ventilasi,vent
+verifikasi otomatis,automatic verification
+versi ber-vault,vaulted version
+versi lebih rendah,lesser version
+versi produksi,production version
+visibilitas komponen,component visibility
+vortisitas,vorticity
+waktu analisis,analysis time
+washer bulat,round washer
+WCS,WCS
+WCS penyiapan,setup WCS
+web,web
+wilayah terbakar,burn region
+XBUILD,XBUILD
+yaw,yaw
+zona awal,scratch zone

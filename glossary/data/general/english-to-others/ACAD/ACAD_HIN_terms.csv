@@ -1,0 +1,1369 @@
+﻿source,target
+3D Move gizmo,3D मूव गिज़्मो
+3D Rotate gizmo,3D रोटेट गिज़्मो
+3D Scale gizmo,3D स्केल गिज़्मो
+ACS,ACS
+Action Editor,ऐक्शन एडिटर
+AEC content,AEC कॉन्टेंट
+AEC entity,AEC इकाई
+AEC object,AEC ऑब्जेक्ट
+aligned dimension,संरेखित आयाम
+aligned section view,संरेखित सेक्शन व्यू
+ALKIS,ALKIS
+all-around symbol,ऑल-अराउंड प्रतीक
+alpha-blend,अल्फ़ा--ब्लेंड
+alternate unit,वैकल्पिक युनिट
+analytical surface,विश्लेषणात्मक सतह
+angle of deflection,विक्षेपण का कोण
+annotation,टिप्पणी
+annotational constraint,व्याख्यात्मक बाधा
+annotative object,व्याख्यात्मक ऑब्जेक्ट
+anode,एनोड
+anode station,एनोड स्टेशन
+appearance style,रूप-रंग की शैली
+arc,आर्क
+arc length,आर्क की लंबाई
+arc radius,आर्क की त्रिज्या
+arc segmentation,आर्क विभाजन
+arc-chord distance,आर्क-कॉर्ड दूरी
+area value,क्षेत्र का मान
+ARG,ARG
+assembly extraction template,असेंबली एक्सट्रैक्शन टेम्प्लेट
+associative array,एसोसिएटिव ऐरे
+associative QDIM extension,एसोसिएटिव QDIM एक्सटेंशन
+assumed nozzle,कल्पित नोज़ल
+ATIL,ATIL
+AutoCAD color index,AutoCAD कलर इंडेक्स
+AutoCAD Mobile,AutoCAD Mobile
+Autocad Mobile app,Autocad Mobile ऐप
+AutoComplete,AutoComplete
+Autodesk Assistant,Autodesk Assistant
+Autodesk Manufacturing Community Portal,Autodesk विनिर्माण समुदाय पोर्टल
+AutoLISP development,AutoLISP विकास
+AutoLISP environment,AutoLISP वातावरण
+auxiliary coordinate system,सहायक समन्वय प्रणाली
+axial stress,अक्षीय तनाव
+axiality,अक्षीयता
+azimuth,दिगंश
+ball mill,बॉल मिल
+base point,आधार बिंदु
+Batch Standards Checker,बैच स्टैंडर्ड चेकर
+baud rate,बॉड दर
+BDA,BDA
+below grade,ग्रेड से कम
+bevel groove weld,बेवेल ग्रूव वेल्ड
+bill of materials,सामग्री का बिल
+binary large object,बाइनरी बड़ा ऑब्जेक्ट
+bitonal image,बिटोनल छवि
+blend mode,ब्लेंड मोड
+blend surface,ब्लेंड सतह
+BLOB,BLOB
+block authoring object,ब्लॉक ऑथरिंग ऑब्जेक्ट
+block definition,ब्लॉक परिभाषा
+block library,ब्लॉक लाइब्रेरी
+block properties table,ब्लॉक प्रॉपर्टीज़ टेबल
+block replacement,ब्लॉक प्रतिस्थापन
+Blocks palette,ब्लॉक पैलेट
+BOM,BOM
+BOM grid,BOM ग्रिड
+bounded area,सीमांकित क्षेत्र
+bounding area,सीमाबद्ध क्षेत्र
+branch circuit,ब्रांच सर्किट
+break loop,ब्रेक लूप
+break point,ब्रेक प्वाइंट
+breakpoint,ब्रेकप्वाइंट
+bulge,उभार
+bulge factor,उभार कारक
+bulk copy,बल्क कॉपी
+bump,बम्प
+bump map,बम्प मैप
+bump mapping,बम्प मैपिंग
+cable tray,केबल ट्रे
+cable tray fitting,केबल ट्रे फ़िटिंग
+camera calibration,कैमरा कैलिब्रेशन
+camera glyph,कैमरा ग्लिफ़
+cap filleting,कैप फ़िलेटिंग
+cap height,कैप की ऊंचाई
+caret,कैरट
+cascading style sheets,व्यापक शैली की शीट
+catalog browser,कैटलॉग ब्राउज़र
+catalog number,कैटलॉग नंबर
+Catmull-Clark subdivision surface,कैटमुल-क्लार्क सब-डिवीज़न सतह
+center line,केंद्र रेखा
+center mark,केंद्र चिह्न
+center point,केंद्र बिंदु
+chamfer,किनारा
+character large object,कैरेक्टर लार्ज ऑब्जेक्ट
+cinematic shot,सिनेमाई शॉट
+circlip,घेरा
+clip volume,क्लिप वॉल्यूम
+clipping plane,क्लिपिंग प्लेन
+CLOB,CLOB
+closed edge,बंद किनारा
+code combination,कोड संयोजन
+cold grip,कोल्ड ग्रिप
+cold water fixture unit,ठंडे पानी की स्थिरता इकाई
+colinear constraint,रेखीय बाधा
+collected balloons,एकत्रित गुब्बारे
+collection,कलेक्शन
+color book,कलर बुक
+colorbook,कलरबुक
+combustion chamber,दहन कक्ष
+comminuting machine,संचार मशीन
+component list,घटक सूची
+composite solid,समग्र ठोस
+composite symbol,समग्र प्रतीक
+compound joint,यौगिक जोड़
+compound symbol,यौगिक प्रतीक
+compression,संपीड़न
+compression end,संपीड़न अंत
+conduit,नाली
+conduit fitting,नाली की फ़िटिंग
+connector pin,कनेक्टर पिन
+constrained object,बाधित ऑब्जेक्ट
+constraint,बाधा
+constraint bar,बाधा बार
+constraint parameter,बाधा पैरामीटर
+constraint point,बाधा का बिंदु
+constraint variable,बाधा चर
+construction line,निर्माण लाइन
+Content Editor,कॉन्टेंट एडिटर
+content library,कॉन्टेंट लाइब्रेरी
+content pack,कॉन्टेंट पैक
+control hull,नियंत्रण पतवार
+control point,नियंत्रण बिंदु
+control vertex,नियंत्रण शीर्ष
+control vertex hull,नियंत्रण शीर्ष पतवार
+control vertices hull,नियंत्रण शीर्ष पतवार
+coordinate system tracker,समन्वय प्रणाली ट्रैकर
+corner point,कोने का बिंदु
+cross section,क्रॉस सेक्शन
+CRS,CRS
+CS library,CS लाइब्रेरी
+CSS,CSS
+CUI editor,CUI एडिटर
+current directory,मौजूदा निर्देशिका
+curvature analysis,वक्रता विश्लेषण
+customer error reporting,ग्राहक त्रुटि रिपोर्टिंग
+customer support,ग्राहक सहायता
+cutting line,कटिंग लाइन
+CWFU,CWFU
+datum,डेटाम
+datum identifier,डेटाम पहचानकर्ता
+datum note,डेटाम नोट
+datumpoint,डेटामबिंदु
+DCM Engine,DCM इंजन
+dead joint symbol,मृत जोड़ प्रतीक
+default lighting,डिफ़ॉल्ट प्रकाश व्यवस्था
+default mleader style,डिफ़ॉल्ट मल्टीलीडर शैली
+default plot style,डिफ़ॉल्ट प्लॉट शैली
+default table style,डिफ़ॉल्ट टेबल शैली
+DEFPOINTS,DEFPOINTS
+dependency highlighting,निर्भरता हाइलाइटिंग
+depth of field,क्षेत्र की गहराई
+Design Review,Design Review
+Design Web Format,डिज़ाइन वेब फ़ॉर्मेट
+destination arrow,गंतव्य तीर
+destination signal arrow,गंतव्य संकेत तीर
+diameter,व्यास
+diffuse map,फैला हुआ मैप
+digital elevation model,डिजिटल उन्नयन मॉडल
+Digital Signature extension,डिजिटल सिग्नेचर विस्तार
+digitizer puck,डिजिटाइज़र पक
+digitizing tablet,डिजिटाइजिंग टेबलेट
+dimension association,आयाम एसोसिएशन
+dimension constraint,आयाम बाधा
+dimension line,आयाम लाइन
+dimension style,आयाम शैली
+dimensional constraint,आयामी बाधा
+distributed rendering,वितरित प्रतिपादन
+DMS,DMS
+DOF,DOF
+dots per inch,प्रति इंच बिंदू
+DPI,DPI
+draft analysis,ड्राफ़्ट विश्लेषण
+draggable dimension,खींचने योग्य आयाम
+drawing congestion,ड्राइंग भीड़भाड़
+drawing folder,ड्राइंग फ़ोल्डर
+Drawing Interchange Format,ड्राइंग इंटरचेंज फ़ॉर्मेट
+Drawing Manager,ड्राइंग मैनेजर
+drawing source,ड्राइंग सोर्स
+drawtime,ड्राटाइम
+driven constraint,संचालित बाधा
+driving dimension,ड्राइविंग आयाम
+DTED,DTED
+duct fitting,डक्ट फ़िटिंग
+dump,डंप
+DWF,DWF
+DWG Convert,DWG कन्वर्ट
+DWG TrueConvert,DWG TrueConvert
+DXF,DXF
+dynamic constraint,गतिशील बाधा
+edit in place,एडिट इन-प्लेस
+editing tool,एडिटिंग टूल
+ejector,इजेक्टर
+elbow,एल्बो
+emitter,उत्सर्जक
+end point,अंतिम बिंदु
+enhanced secondary window,उन्नत द्वितीयक विंडो
+enhanced viewer,उन्नत दर्शक
+environment map,पर्यावरण का मैप
+EPSG code,EPSG कोड
+ESW,ESW
+evaluation version,मूल्यांकन संस्करण
+Expression Builder,एक्सप्रेशन बिल्डर
+extended help file,विस्तारित सहायता फ़ाइल
+Extensible Markup Language,एक्स्टेंसिबल मार्कअप लैंग्वेज
+Extensible Stylesheet Language,एक्स्टेंसिबल स्टाइलशीट लैंग्वेज
+extension line,विस्तारित लाइन
+External Reference Manager,एक्सटर्नल रिफ़रेंस मैनेजर
+extraction template,एक्सट्रैक्शन टेम्प्लेट
+fabricated equipment,निर्मित उपकरण
+facet,पहलू
+fast breeder reactor,फ़ास्ट ब्रीडर रिएक्टर
+FDO,FDO
+features,फ़ीचर्स
+FG,FG
+fill pattern,पैटर्न भरें
+final gathering,अंतिम सभा
+fit point,फिट बिंदु
+flow arrow,प्रवाह तीर
+flow direction,प्रवाह की दिशा
+flyout,फ्लायआउट
+fly-out,फ्लाय-आउट
+fold panel,फ़ोल्ड पैनल
+frame,फ़्रेम
+frame rate,फ़्रेम दर
+freeform design,फ़्रीफ़ॉर्म डिज़ाइन
+front clipping plane,फ़्रंट क्लिपिंग प्लेन
+fuel degasifier,फ़्यूल डिगैसिफ़ायर
+fuel gasifier,फ़्यूल गैसीफ़ायर
+functionality,कार्यक्षमता
+gap,अंतर
+geodetic transformation,भूगणितीय परिवर्तन
+geometric constraint,ज्यामितीय बाधा
+geospatial information,भू-स्थानिक जानकारी
+GIS,GIS
+gizmo,गिज़्मो
+Gooch shading,गूच शेडिंग
+Google Earth,Google Earth
+gradient ramp,ढाल रैंप
+grading plan,ग्रेडिंग प्लान
+groove depth,नाली की गहराई
+ground water,भूजल
+Group Policy Object,ग्रुप पॉलिसी ऑब्जेक्ट
+grouped BOM row,समूहीकृत BOM पंक्ति
+hardware shader,हार्डवेयर शेडर
+hatch pattern,हैच पैटर्न
+horizontal landing,क्षैतिज लैंडिंग
+hot grip,हॉट ग्रिप
+hot water fixture unit,गर्म पानी की स्थिरता इकाई
+i-drop Enhancer,i-drop Enhancer
+i-drop Indicator,i-drop इंडिकेटर
+illuminance distance,रोशनी की दूरी
+implied windowing,निहित खिड़की
+in-canvas tool,इन-कैनवास टूल
+included angle,शामिल कोण
+index color,इंडेक्स कलर
+industry model,उद्योग मॉडल
+information channel,जानकारी चैनल
+inspection dimension,निरीक्षण आयाम
+Interactive Create & Edit,इंटरैक्टिव क्रिएट एंड एडिट
+interference check,हस्तक्षेप जाँच
+inverse linear,उलटा रैखिक
+inverse square,उलटा वर्ग
+ISA,ISA
+isoline,आइसोलाइन
+isoparm,आइसोपर्म
+Keyhole Markup Language,कीहोल मार्कअप लैंग्वेज
+KML,KML
+KMZ,KMZ
+knot parameterization,नॉट पैरामीटरीकरण
+knot vector,नॉट वेक्टर
+label block,लेबल ब्लॉक
+language pack,लैंग्वेज पैक
+latitude,अक्षांश
+Launchpad,लांच पैड
+layer,परत
+layer state,परत की अवस्था
+Learning AutoCAD 2010,लर्निंग AutoCAD 2010
+level of smoothness,चिकनाई का स्तर
+library,लाइब्रेरी
+license alert,लाइसेंस अलर्ट
+line merge,लाइन मर्ज
+line summary list,लाइन सारांश सूची
+linear array,रैखिक ऐरे
+linear dimension,रैखिक आयाम
+lisp file,लिस्प फ़ाइल
+Live Enabler,लाइव एनेबलर
+live section,लाइव सेक्शन
+loaded standard,लोड किया गया स्टैंडर्ड
+location,लोकेशन
+long radius elbow,लंबी त्रिज्या वाली एल्बो
+longitude,देशान्तर
+loop crossing,लूप क्रॉसिंग
+markup set,मार्कअप सेट
+Markup Set Manager,मार्कअप सेट मैनेजर
+MDE,MDE
+median,मध्य मान
+mental ray,मानसिक किरण
+mental ray rendering engine,मानसिक किरण प्रतिपादन इंजन
+MEP,MEP
+mesh,मेश
+midpoint,मध्यबिंदु
+migration log file,माइग्रेशन लॉग फ़ाइल
+minidump,मिनीडम्प
+minimum cost spanning tree,न्यूनतम लागत फैलाव वाला पेड़
+minimum spanning tree,न्यूनतम फैलाव वाला पेड़
+mirror line,मिरर लाइन
+mitered elbow,झुकी हुई एल्बो
+MLD,MLD
+mleader object,मल्टीलीडर ऑब्जेक्ट
+model parameter,मॉडल पैरामीटर
+model space,मॉडल स्पेस
+motor starter,मोटर स्टार्टर
+multi language dictionary,बहु भाषा शब्दकोश
+multi-functional grip,बहु-कार्यात्मक ग्रिप
+multilanguage user interface,बहुभाषी उपयोगकर्ता इंटरफ़ेस
+multileader,मल्टीलीडर
+multileader style,मल्टीलीडर शैली
+Multiple Design Environment,मल्टीपल डिज़ाइन एनवायरनमेंट
+MvPart,MvPart
+nameplate,नेमप्लेट
+NANT,NANT
+NAS,NAS
+NCLOB,NCLOB
+nested reference,नेस्टेड रिफ़रेंस
+Network Attached Storage,नेटवर्क अटैच्ड स्टोरेज
+network surface,नेटवर्क सतह
+network tracing tool,नेटवर्क ट्रेसिंग टूल
+non-associative array,नॉन-एसोसिएटिव ऐरे
+non-rectangular viewport,गैर-आयताकार व्यूपोर्ट
+normal distribution,सामान्य वितरण
+normal style,सामान्य शैली
+nozzle list,नोज़ल सूची
+NPR,NPR
+NURBS surface,NURBS सतह
+object snap mode,ऑब्जेक्ट स्नैप मोड
+ObjectARX,ObjectARX
+oblique angle,परोक्ष कोण
+obscured line,अस्पष्ट लाइन
+octant,ओक्टांट
+OEM Make Wizard,OEM मेक विज़ार्ड
+Ohm,Ohm
+opacity,अस्पष्टता
+ordinate dimension,समन्वय आयाम
+ordinate dimensioning,समन्वित आयाम
+organic modeling,जैविक मॉडलिंग
+orientation,अभिविन्यास
+ortho drawing,ऑर्थो ड्राइंग
+ortho mode,ऑर्थो मोड
+ortho view,ऑर्थो व्यू
+ortho-image,ऑर्थो-छवि
+over-constrain,अति-बाधित
+overlapping ring,अतिव्यापी रिंग
+overline,ओवर लाइन
+overlining,ओवर लाइनिंग
+override theme,आवेरराइड थीम
+P&ID,P&ID
+panorama,पैनोरोमा
+paper space,पेपर स्पेस
+parametric drawing,पैरामीट्रिक ड्राइंग
+parametric expression,पैरामीट्रिक अभिव्यक्ति
+part extraction template,पार्ट एक्सट्रैक्शन टेम्प्लेट
+part reference,पार्ट रिफ़रेंस
+patch list,पैच सूची
+patch surface,पैच सतह
+path array,पथ ऐरे
+path curve,पथ वक्र
+pen width,पेन की चौड़ाई
+Pencil tool,पेंसिल टूल
+periodic curve,आवधिक वक्र
+persistent object snap,सतत ऑब्जेक्ट स्नैप
+persistent reactor,सतत रिएक्टर
+photo modeling,फ़ोटो मॉडलिंग
+photon map,फ़ोटॉन मैप
+physical prototyping,भौतिक प्रोटोटाइप
+pickfirst set,पिकफ़र्स्ट सेट
+PIP,PIP
+pipe fitting,पाइप फ़िटिंग
+pipe gap end,पाइप गैप अंत
+pipe insulation,पाइप इन्सुलेशन
+planar face,समतल फ़ेस
+plastic socket,प्लास्टिक सॉकेट
+plot stamp,प्लॉट स्टांप
+plot style,प्लॉट शैली
+pointer input,सूचक इनपुट
+polar array,पोलर ऐरे
+polar stretch,ध्रुवीय खिंचाव
+polar tracking,ध्रुवीय ट्रैकिंग
+PolarSnap,PolarSnap
+polling frequency,मतादान की आवृति
+polyarc segment,पॉलीआर्क सेगमेंट
+polyface mesh,पॉलीफ़ेस मेश
+polygon mesh,पॉलीगन मेश
+polyline,पॉलीलाइन
+power dimensioning,पावर आयाम
+power station,पावर स्टेशन
+precision presets manager,सटीक प्रीसेट मैनेजर
+pressed joint,दबाया हुआ जोड़
+production isometric drawing,उत्पादन आइसोमेट्रिक ड्राइंग
+profile curve,प्रोफ़ाइल वक्र
+progressive tooltip,प्रगतिशील टूलटिप
+project dashboard,प्रोजेक्ट डैशबोर्ड
+Project Simulus,प्रोजेक्ट सिमुलस
+projected coordinate system,प्रक्षेपित समन्वय प्रणाली
+properties inspector,गुण निरीक्षक
+property line,प्रॉपर्टी लाइन
+Quick Dimension,त्वरित आयाम
+Quick option,त्वरित विकल्प
+rapid prototyping,तीव्र प्रोटोटाइपिंग
+reality capture,रीऐलिटी कैप्चर
+recent blocks list,हालिया ब्लॉक सूची
+recent blocks location,हालिया ब्लॉक लोकेशन
+reference constraint,रिफ़रेंस बाधा
+reference grid,रिफ़रेंस ग्रिड
+Reference Manager,रिफ़रेंस मैनेजर
+reflection map,प्रतिबिंब मैप
+refraction index,अपवर्तन इंडेक्स
+render context,रेंडर कॉन्टेक्स्ट
+render preset,रेंडर प्रीसेट
+Report Designer,रिपोर्ट डिज़ाइनर
+report generator,रिपोर्ट जेनरेटर
+representation,प्रतिनिधित्व
+request code,अनुरोध कोड
+retention tank,प्रतिधारण टैंक
+return date,वापसी दिनांक
+rewind history,इतिहास को उल्टा करना
+Ribbon Command Locator,रिबन कमांड लोकेटर
+ribbon panel,रिबन पैनल
+rotation angle,रोटेशन कोण
+roughness,सतह का खुरदरापन
+routing line,राउटिंग लाइन
+rule base,नियम का आधार
+sample point,नमूना बिंदु
+scarf groove,दुपट्टा नाली
+schema,स्कीमा
+schematic component,योजनाबद्ध घटक
+schematic diagram,योजनाबद्ध आरेख
+schematic symbol,योजनाबद्ध प्रतीक
+screening,स्क्रीनिंग
+section boundary,सेक्शन की सीमा
+section object,सेक्शन ऑब्जेक्ट
+section plane,सेक्शन प्लेन
+section view,सेक्शन व्यू
+selection cycling,चयन साइकिलिंग
+self-intersecting polygon,स्व-प्रतिच्छेदी पॉलिगन
+shade plot mode,शेड प्लॉट मोड
+ShapeManager,ShapeManager
+sheet set manager,शीट सेट मैनेजर
+sheet subset,शीट सबसेट
+shortcut function,शॉर्टकट फ़ंक्शन
+shut off valve,वाल्व बंद करें
+SIGCODE,SIGCODE
+signal arrow,संकेत तीर
+SketchUp,SketchUp
+smart block,स्मार्ट ब्लॉक
+snap angle,स्नैप कोण
+snap grid,स्नैप ग्रिड
+sortents table,सॉर्टेंट्स टेबल
+source arrow,स्रोत तीर
+spark gap,स्पार्क गैप
+spec conversion report,विशिष्ट रूपांतरण रिपोर्ट
+spline,स्प्लाइन
+split rivet,विभाजित रिवेट
+SSM,SSM
+standard deviation,स्टैंडर्ड विचलन
+Start In folder,स्टार्ट इन फ़ोल्डर
+Start tab,शुरू करें टैब
+Stock Tool,स्टॉक टूल
+stop condition,रुकने की स्थिति
+stretch action,खिंचाव का ऐक्शन
+stretch frame,खिंचाव फ़्रेम
+student version,छात्र संस्करण
+stylus,लेखनी
+subdivision mesh,सब डिवीज़न मेश
+subdivision surface,सब डिवीज़न सतह
+substitute block,स्थानापन्न ब्लॉक
+surface analysis,सतह विश्लेषण
+surface normal,सतह सामान्य
+sweep path,स्वीप पथ
+tab page,टैब पेज
+tabulated mesh,सारणीबद्ध मेश
+terminal association value,टर्मिनल एसोसिएशन मान
+tessellation,चौकोर
+thermoplastic,थर्माप्लास्टिक
+tile order,टाइल ऑर्डर
+tile size,टाइल आकार
+time server,समय सर्वर
+tint color,टिंट कलर
+title block,टाइटल ब्लॉक
+tolerance,सहनशीलता
+tool palette,टूल पैलेट
+tool palette set,टूल पैलेट सेट
+toolpath,टूलपाथ
+top view,टॉप व्यू
+topology,टोपोलॉजी
+torus,टोरस
+Tour Building wheel,टूर बिल्डिंग व्हील
+trace direction,ट्रेस दिशा
+trace feature,ट्रेस फ़ीचर
+trace palette,ट्रेस पैलेट
+trackpad,ट्रैकपैड
+translucency,पारदर्शता
+transmittal package,संचारण पैकेज
+transmittal setup,संचारण सेटअप
+trapeze bar,ट्रैपेज़ बार
+trial version,ट्रायल संस्करण
+U groove,U नाली
+underlay,बुनियाद
+up direction,ऊपर की दिशा
+user coordinate system,उपयोगकर्ता समन्वय प्रणाली
+UV space,UV स्पेस
+vertex,शीर्ष
+vertex bulge,शीर्ष उभार
+View Object wheel,व्यू ऑब्जेक्ट व्हील
+visor,टोपी का छज्जा
+VLIDE command,VLIDE कमांड
+Volo View Express,वोलो व्यू एक्सप्रेस
+watched folder,देखा गया फ़ोल्डर
+water fixture unit,जल स्थिरता इकाई
+watermark editor,वाटरमार्क एडिटर
+watertight,समतल सतह
+web file,वेब फ़ाइल
+web light,वेब प्रकाश
+web mapping service,वेब मैपिंग सेवा
+welcome screen,स्वागत स्क्रीन
+wildcard,वाइल्डकार्ड
+winding fill,घुमावदार भराव
+wipeout object,ऑब्जेक्ट को मिटाएं
+wireframe,वायरफ़्रेम
+work history,काम का इतिहास
+workflows,वर्कफ़्लो
+World Coordinate System,विश्व समन्वय प्रणाली (WCS)
+world space,वर्ल्ड स्पेस
+XAML dialog,XAML डायलॉग
+XSL,XSL
+zebra analysis,ज़ेबरा विश्लेषण
+3DALIGN,3DALIGN
+3DARRAY,3DARRAY
+3DCLIP,3DCLIP
+3DCORBIT,3DCORBIT
+3DDISTANCE,3DDISTANCE
+3DDWF,3DDWF
+3DDWFPUBLISH,3DDWFPUBLISH
+3DEDITBAR,3DEDITBAR
+3DFACE,3DFACE
+3DFLY,3DFLY
+3DFORBIT,3DFORBIT
+3DMESH,3DMESH
+3DMOVE,3DMOVE
+3DORBIT,3DORBIT
+3DORBITCTR,3DORBITCTR
+3DORBITTRANSPARENT,3DORBITTRANSPARENT
+3DOSNAP,3DOSNAP
+3DPAN,3DPAN
+3DPANTRANSPARENT,3DPANTRANSPARENT
+3DPOLY,3DPOLY
+3DPRINT,3DPRINT
+3DPRINTSERVICE,3DPRINTSERVICE
+3DROTATE,3DROTATE
+3DSCALE,3DSCALE
+3DSIN,3DSIN
+3DSWIVEL,3DSWIVEL
+3DSWIVELTRANSPARENT,3DSWIVELTRANSPARENT
+3DWALK,3DWALK
+3DZOOM,3DZOOM
+3DZOOMTRANSPARENT,3DZOOMTRANSPARENT
+ACADBLOCKDIALOG,ACADBLOCKDIALOG
+ACADINFO,ACADINFO
+ACADWBLOCKDIALOG,ACADWBLOCKDIALOG
+ACISIN,ACISIN
+ACISOUT,ACISOUT
+ACTBASEPOINT,ACTBASEPOINT
+ACTIVITYINSIGHTSCLOSE,ACTIVITYINSIGHTSCLOSE
+ACTIVITYINSIGHTSOPEN,ACTIVITYINSIGHTSOPEN
+ACTMANAGER,ACTMANAGER
+ACTRECORD,ACTRECORD
+ACTSTOP,ACTSTOP
+ACTUSERINPUT,ACTUSERINPUT
+ACTUSERMESSAGE,ACTUSERMESSAGE
+ADC,ADC
+ADCCLOSE,ADCCLOSE
+ADCCUSTOMNAVIGATE,ADCCUSTOMNAVIGATE
+ADCENTER,ADCENTER
+ADCNAVIGATE,ADCNAVIGATE
+ADDSELECTED,ADDSELECTED
+AIDIMPREC,AIDIMPREC
+AIDIMSTYLE,AIDIMSTYLE
+AIDIMTEXTMOVE,AIDIMTEXTMOVE
+ALIASEDIT,ALIASEDIT
+ALIGNSPACE,ALIGNSPACE
+ALLPLAY,ALLPLAY
+AMECONVERT,AMECONVERT
+ANALYSISCURVATURE,ANALYSISCURVATURE
+ANALYSISDRAFT,ANALYSISDRAFT
+ANALYSISOPTIONS,ANALYSISOPTIONS
+ANALYSISZEBRA,ANALYSISZEBRA
+ANIPATH,ANIPATH
+ANNORESET,ANNORESET
+ANNOUPDATE,ANNOUPDATE
+APERTURE,APERTURE
+APPAUTOLOADER,APPAUTOLOADER
+APPLOAD,APPLOAD
+ARCTEXT,ARCTEXT
+ARRAYCLASSIC,ARRAYCLASSIC
+ARRAYCLOSE,ARRAYCLOSE
+ARRAYEDIT,ARRAYEDIT
+ARRAYPATH,ARRAYPATH
+ARRAYPOLAR,ARRAYPOLAR
+ARRAYRECT,ARRAYRECT
+ARX,ARX
+ASSISTANTCLOSE,ASSISTANTCLOSE
+ASSISTANTOPEN,ASSISTANTOPEN
+ATTACHURL,ATTACHURL
+ATTDEF,ATTDEF
+ATTDISP,ATTDISP
+ATTEDIT,ATTEDIT
+ATTEXT,ATTEXT
+ATTIN,ATTIN
+ATTIPEDIT,ATTIPEDIT
+ATTOUT,ATTOUT
+ATTREDEF,ATTREDEF
+ATTSYNC,ATTSYNC
+AUTODESKCONNECTIONPOINT,AUTODESKCONNECTIONPOINT
+BACTION,BACTION
+BACTIONBAR,BACTIONBAR
+BACTIONSET,BACTIONSET
+BACTIONTOOL,BACTIONTOOL
+BASSOCIATE,BASSOCIATE
+BATTMAN,BATTMAN
+BATTORDER,BATTORDER
+BAUTHORPALETTE,BAUTHORPALETTE
+BAUTHORPALETTECLOSE,BAUTHORPALETTECLOSE
+BCLOSE,BCLOSE
+BCONSTRUCTION,BCONSTRUCTION
+BCOUNT,BCOUNT
+BCPARAMETER,BCPARAMETER
+BCYCLEORDER,BCYCLEORDER
+BEDIT,BEDIT
+BESETTINGS,BESETTINGS
+BEXTEND,BEXTEND
+BGRIPSET,BGRIPSET
+BHATCH,BHATCH
+BLOCKICON,BLOCKICON
+BLOCKNAVIGATE,BLOCKNAVIGATE
+BLOCKREPLACE,BLOCKREPLACE
+BLOCKSDATAOPTION,BLOCKSDATAOPTION
+BLOCKSPALETTE,BLOCKSPALETTE
+BLOCKSPALETTECLOSE,BLOCKSPALETTECLOSE
+BLOCKTOXREF,BLOCKTOXREF
+BLOOKUPTABLE,BLOOKUPTABLE
+BMAKE,BMAKE
+BMOD,BMOD
+BMPOUT,BMPOUT
+BPARAMETER,BPARAMETER
+BPOLY,BPOLY
+BREAKATPOINT,BREAKATPOINT
+BREP,BREP
+BREPLACE,BREPLACE
+BROWSERCLOSE,BROWSERCLOSE
+BROWSEROPEN,BROWSEROPEN
+BSAVE,BSAVE
+BSAVEAS,BSAVEAS
+BSCALE,BSCALE
+BTABLE,BTABLE
+BTESTBLOCK,BTESTBLOCK
+BTRIM,BTRIM
+BVHIDE,BVHIDE
+BVSHOW,BVSHOW
+BVSTATE,BVSTATE
+BYBLOCK,BYBLOCK
+BYLAYER,BYLAYER
+CAL,CAL
+CDORDER,CDORDER
+CENTERDISASSOCIATE,CENTERDISASSOCIATE
+CENTERREASSOCIATE,CENTERREASSOCIATE
+CENTERRESET,CENTERRESET
+CHAMFEREDGE,CHAMFEREDGE
+CHECKSTANDARDS,CHECKSTANDARDS
+CHPROP,CHPROP
+CHSPACE,CHSPACE
+CHURLS,CHURLS
+CLASSICGROUP,CLASSICGROUP
+CLASSICIMAGE,CLASSICIMAGE
+CLASSICINSERT,CLASSICINSERT
+CLASSICLAYER,CLASSICLAYER
+CLASSICXREF,CLASSICXREF
+CLEANSCREENOFF,CLEANSCREENOFF
+CLEANSCREENON,CLEANSCREENON
+CLIPIT,CLIPIT
+CLOSEALL,CLOSEALL
+CLOSEALLOTHER,CLOSEALLOTHER
+COMMANDLINE,COMMANDLINE
+COMMANDLINEHIDE,COMMANDLINEHIDE
+COMMANDMACROS,COMMANDMACROS
+COMMANDMACROSCLOSE,COMMANDMACROSCLOSE
+COMPARECLOSE,COMPARECLOSE
+COMPAREEXPORT,COMPAREEXPORT
+COMPAREIMPORT,COMPAREIMPORT
+COMPAREINFO,COMPAREINFO
+CONSTRAINTBAR,CONSTRAINTBAR
+CONSTRAINTSETTINGS,CONSTRAINTSETTINGS
+CONVERTCTB,CONVERTCTB
+CONVERTOLDLIGHTS,CONVERTOLDLIGHTS
+CONVERTOLDMATERIALS,CONVERTOLDMATERIALS
+CONVERTPOLY,CONVERTPOLY
+CONVERTPSTYLES,CONVERTPSTYLES
+CONVTOMESH,CONVTOMESH
+CONVTONURBS,CONVTONURBS
+CONVTOSOLID,CONVTOSOLID
+CONVTOSURFACE,CONVTOSURFACE
+COORDINATIONMODELATTACH,COORDINATIONMODELATTACH
+COPYBASE,COPYBASE
+COPYCLIP,COPYCLIP
+COPYFROMTRACE,COPYFROMTRACE
+COPYHIST,COPYHIST
+COPYLINK,COPYLINK
+COPYM,COPYM
+COPYTOLAYER,COPYTOLAYER
+COUNTAREA,COUNTAREA
+COUNTAREACLOSE,COUNTAREACLOSE
+COUNTCLOSE,COUNTCLOSE
+COUNTFIELD,COUNTFIELD
+COUNTLIST,COUNTLIST
+COUNTLISTCLOSE,COUNTLISTCLOSE
+COUNTNAVNEXT,COUNTNAVNEXT
+COUNTNAVPREV,COUNTNAVPREV
+COUNTTABLE,COUNTTABLE
+CUIEXPORT,CUIEXPORT
+CUIIMPORT,CUIIMPORT
+CUILOAD,CUILOAD
+CUIUNLOAD,CUIUNLOAD
+CUSTOMIZE,CUSTOMIZE
+CUTBASE,CUTBASE
+CUTCLIP,CUTCLIP
+CVADD,CVADD
+CVHIDE,CVHIDE
+CVREBUILD,CVREBUILD
+CVREMOVE,CVREMOVE
+CVSHOW,CVSHOW
+DATAEXTRACTION,DATAEXTRACTION
+DATALINK,DATALINK
+DATALINKUPDATE,DATALINKUPDATE
+DBCCONFIGURE,DBCCONFIGURE
+DBCCONNECT,DBCCONNECT
+DBCDEFINELLT,DBCDEFINELLT
+DBCDEFINELT,DBCDEFINELT
+DBCDELETELINKS,DBCDELETELINKS
+DBCDELETELLT,DBCDELETELLT
+DBCDELETELT,DBCDELETELT
+DBCDELETEQRY,DBCDELETEQRY
+DBCDISCONNECT,DBCDISCONNECT
+DBCEDITLINKEDTABLE,DBCEDITLINKEDTABLE
+DBCEDITLLT,DBCEDITLLT
+DBCEDITLT,DBCEDITLT
+DBCEDITQRY,DBCEDITQRY
+DBCEDITTABLE,DBCEDITTABLE
+DBCEXECUTEQRY,DBCEXECUTEQRY
+DBCEXPORTLINKS,DBCEXPORTLINKS
+DBCEXPORTQS,DBCEXPORTQS
+DBCEXPORTTS,DBCEXPORTTS
+DBCHIDELABELS,DBCHIDELABELS
+DBCIMPORTQRY,DBCIMPORTQRY
+DBCIMPORTQS,DBCIMPORTQS
+DBCIMPORTTS,DBCIMPORTTS
+DBCLINKCONVERSION,DBCLINKCONVERSION
+DBCLINKMANAGER,DBCLINKMANAGER
+DBCONNECT,DBCONNECT
+DBCRELOADLABELS,DBCRELOADLABELS
+DBCSELECTLINKS,DBCSELECTLINKS
+DBCSHOWLABELS,DBCSHOWLABELS
+DBCVIEWLINKEDTABLE,DBCVIEWLINKEDTABLE
+DBCVIEWTABLE,DBCVIEWTABLE
+DBLIST,DBLIST
+DCALIGNED,DCALIGNED
+DCANGULAR,DCANGULAR
+DCCONVERT,DCCONVERT
+DCDIAMETER,DCDIAMETER
+DCDISPLAY,DCDISPLAY
+DCFORM,DCFORM
+DCHORIZONTAL,DCHORIZONTAL
+DCLINEAR,DCLINEAR
+DCRADIUS,DCRADIUS
+DCVERTICAL,DCVERTICAL
+DDATTE,DDATTE
+DDGRIPS,DDGRIPS
+DDIM,DDIM
+DDINSERT,DDINSERT
+DDPLOTSTAMP,DDPLOTSTAMP
+DDRMODES,DDRMODES
+DDSELECT,DDSELECT
+DDSTYLE,DDSTYLE
+DDUCS,DDUCS
+DDUCSP,DDUCSP
+DDUNITS,DDUNITS
+DDVPOINT,DDVPOINT
+DELCONSTRAINT,DELCONSTRAINT
+DESKTOPANALYTICS,DESKTOPANALYTICS
+DETACHURL,DETACHURL
+DGNADJUST,DGNADJUST
+DGNATTACH,DGNATTACH
+DGNBIND,DGNBIND
+DGNCLIP,DGNCLIP
+DGNEXPORT,DGNEXPORT
+DGNIMPORT,DGNIMPORT
+DGNLAYERS,DGNLAYERS
+DGNMAPPING,DGNMAPPING
+DIGITALSIGN,DIGITALSIGN
+DIM1,DIM1
+DIMALIGNED,DIMALIGNED
+DIMANGULAR,DIMANGULAR
+DIMARC,DIMARC
+DIMBASELINE,DIMBASELINE
+DIMBREAK,DIMBREAK
+DIMCENTER,DIMCENTER
+DimConstraint,DimConstraint
+DIMCONTINUE,DIMCONTINUE
+DIMDIAMETER,DIMDIAMETER
+DIMDISASSOCIATE,DIMDISASSOCIATE
+DIMEDIT,DIMEDIT
+DIMEX,DIMEX
+DIMHORIZONTAL,DIMHORIZONTAL
+DIMIM,DIMIM
+DIMINSPECT,DIMINSPECT
+DIMJOGGED,DIMJOGGED
+DIMJOGLINE,DIMJOGLINE
+DIMLINEAR,DIMLINEAR
+DIMORDINATE,DIMORDINATE
+DIMOVERRIDE,DIMOVERRIDE
+DIMRADIUS,DIMRADIUS
+DIMREASSOC,DIMREASSOC
+DIMREASSOCIATE,DIMREASSOCIATE
+DIMREGEN,DIMREGEN
+DIMROTATED,DIMROTATED
+DIMSPACE,DIMSPACE
+Dimstyle,Dimstyle
+DIMTEDIT,DIMTEDIT
+DIMVERTICAL,DIMVERTICAL
+DIST,DIST
+DISTANTLIGHT,DISTANTLIGHT
+DOWNLOADMANAGER,DOWNLOADMANAGER
+DRAGMODE,DRAGMODE
+DRAWINGRECOVERY,DRAWINGRECOVERY
+DRAWINGRECOVERYHIDE,DRAWINGRECOVERYHIDE
+DRAWORDER,DRAWORDER
+DROPGEOM,DROPGEOM
+DSETTINGS,DSETTINGS
+DTEXT,DTEXT
+DVIEW,DVIEW
+DWFADJUST,DWFADJUST
+DWFATTACH,DWFATTACH
+DWFCLIP,DWFCLIP
+DWFFORMAT,DWFFORMAT
+DWFLAYERS,DWFLAYERS
+DWGCONVERT,DWGCONVERT
+DWGHISTORY,DWGHISTORY
+DWGHISTORYCLOSE,DWGHISTORYCLOSE
+DWGPROPS,DWGPROPS
+DXBIN,DXBIN
+DXFIN,DXFIN
+DXFOUT,DXFOUT
+EATTEDIT,EATTEDIT
+EATTEXT,EATTEXT
+EDGESURF,EDGESURF
+EDITSHOT,EDITSHOT
+EDITTABLECELL,EDITTABLECELL
+EDITTIME,EDITTIME
+ELEV,ELEV
+EPLOTEXT,EPLOTEXT
+ETRANSMIT,ETRANSMIT
+EXOFFSET,EXOFFSET
+EXPLAN,EXPLAN
+EXPORTDWF,EXPORTDWF
+EXPORTDWFX,EXPORTDWFX
+EXPORTLAYOUT,EXPORTLAYOUT
+EXPORTPDF,EXPORTPDF
+EXPORTSETTINGS,EXPORTSETTINGS
+EXPORTTOAUTOCAD,EXPORTTOAUTOCAD
+EXPORTUSERSETTINGS,EXPORTUSERSETTINGS
+EXPRESSMENU,EXPRESSMENU
+EXPRESSTOOLS,EXPRESSTOOLS
+EXTERNALREFERENCESCLOSE,EXTERNALREFERENCESCLOSE
+EXTRIM,EXTRIM
+FADEMARKUP,FADEMARKUP
+FASTSEL,FASTSEL
+FILEOPEN,FILEOPEN
+FILETAB,FILETAB
+FILETABCLOSE,FILETABCLOSE
+FILLETEDGE,FILLETEDGE
+FLATSHOT,FLATSHOT
+FREESPOT,FREESPOT
+FREEWEB,FREEWEB
+FS,FS
+GATTE,GATTE
+GCCOINCIDENT,GCCOINCIDENT
+GCCOLLINEAR,GCCOLLINEAR
+GCCONCENTRIC,GCCONCENTRIC
+GCEQUAL,GCEQUAL
+GCFIX,GCFIX
+GCHORIZONTAL,GCHORIZONTAL
+GCPARALLEL,GCPARALLEL
+GCPERPENDICULAR,GCPERPENDICULAR
+GCSMOOTH,GCSMOOTH
+GCSYMMETRIC,GCSYMMETRIC
+GCTANGENT,GCTANGENT
+GCVERTICAL,GCVERTICAL
+GEOGRAPHICLOCATION,GEOGRAPHICLOCATION
+GEOLOCATEME,GEOLOCATEME
+GEOMAPIMAGE,GEOMAPIMAGE
+GEOMAPIMAGEUPDATE,GEOMAPIMAGEUPDATE
+GEOMARKLATLONG,GEOMARKLATLONG
+GEOMARKME,GEOMARKME
+GEOMARKPOINT,GEOMARKPOINT
+GEOMARKPOSITION,GEOMARKPOSITION
+GEOMCONSTRAINT,GEOMCONSTRAINT
+GEOREMOVE,GEOREMOVE
+GEOREORIENTMARKER,GEOREORIENTMARKER
+GETSEL,GETSEL
+GOTOSTART,GOTOSTART
+GOTOURL,GOTOURL
+GRAPHICSCONFIG,GRAPHICSCONFIG
+GRAPHSCR,GRAPHSCR
+GROUPEDIT,GROUPEDIT
+HATCHEDIT,HATCHEDIT
+HATCHGENERATEBOUNDARY,HATCHGENERATEBOUNDARY
+HATCHSETBOUNDARY,HATCHSETBOUNDARY
+HATCHSETORIGIN,HATCHSETORIGIN
+HATCHTOBACK,HATCHTOBACK
+HIDEOBJECTS,HIDEOBJECTS
+HIDEPALETTES,HIDEPALETTES
+HIGHLIGHTNEW,HIGHLIGHTNEW
+HLSETTINGS,HLSETTINGS
+HYPERLINKBACK,HYPERLINKBACK
+HYPERLINKFWD,HYPERLINKFWD
+HYPERLINKOPEN,HYPERLINKOPEN
+HYPERLINKOPTIONS,HYPERLINKOPTIONS
+HYPERLINKSTOP,HYPERLINKSTOP
+IGESEXPORT,IGESEXPORT
+IGESIMPORT,IGESIMPORT
+IMAGEADJUST,IMAGEADJUST
+IMAGEAPP,IMAGEAPP
+IMAGEATTACH,IMAGEATTACH
+IMAGECLIP,IMAGECLIP
+IMAGEEDIT,IMAGEEDIT
+IMAGEOVERLAP,IMAGEOVERLAP
+IMAGEQUALITY,IMAGEQUALITY
+IMPORTUSERSETTINGS,IMPORTUSERSETTINGS
+INPUTSEARCHOPTIONS,INPUTSEARCHOPTIONS
+INSERTCONTENT,INSERTCONTENT
+INSERTDRAWINGASBLOCK,INSERTDRAWINGASBLOCK
+INSERTOBJ,INSERTOBJ
+ISODRAFT,ISODRAFT
+ISOLATEOBJECTS,ISOLATEOBJECTS
+JPGOUT,JPGOUT
+JUSTIFYTEXT,JUSTIFYTEXT
+LAYCUR,LAYCUR
+LAYDEL,LAYDEL
+LAYERCLOSE,LAYERCLOSE
+LAYERP,LAYERP
+LAYERPALETTE,LAYERPALETTE
+LAYERPMODE,LAYERPMODE
+LAYERSTATE,LAYERSTATE
+LAYERSTATESAVE,LAYERSTATESAVE
+LAYFRZ,LAYFRZ
+LAYISO,LAYISO
+LAYLCK,LAYLCK
+LAYMCH,LAYMCH
+LAYMCUR,LAYMCUR
+LAYMRG,LAYMRG
+LAYOFF,LAYOFF
+LAYON,LAYON
+LAYOUTMERGE,LAYOUTMERGE
+LAYOUTWIZARD,LAYOUTWIZARD
+LAYTHW,LAYTHW
+LAYTRANS,LAYTRANS
+LAYULK,LAYULK
+LAYUNISO,LAYUNISO
+LAYVPI,LAYVPI
+LAYWALK,LAYWALK
+LIGHTLIST,LIGHTLIST
+LIGHTLISTCLOSE,LIGHTLISTCLOSE
+LOGFILEOFF,LOGFILEOFF
+LOGFILEON,LOGFILEON
+LSP,LSP
+LSPSURF,LSPSURF
+LTSCALE,LTSCALE
+LWEIGHT,LWEIGHT
+MAKELISPAPP,MAKELISPAPP
+MAKEPREVIEW,MAKEPREVIEW
+MANAGEUPLOADS,MANAGEUPLOADS
+MARKUPASSIST,MARKUPASSIST
+MARKUPCLOSE,MARKUPCLOSE
+MARKUPIMPORT,MARKUPIMPORT
+MASSPROP,MASSPROP
+MATBROWSERCLOSE,MATBROWSERCLOSE
+MATBROWSEROPEN,MATBROWSEROPEN
+MATCHCELL,MATCHCELL
+MATCHPROP,MATCHPROP
+MATEDITORCLOSE,MATEDITORCLOSE
+MATEDITOROPEN,MATEDITOROPEN
+MATERIALASSIGN,MATERIALASSIGN
+MATERIALATTACH,MATERIALATTACH
+MATERIALMAP,MATERIALMAP
+MATERIALSCLOSE,MATERIALSCLOSE
+MATLIB,MATLIB
+MEASUREGEOM,MEASUREGEOM
+MENULOAD,MENULOAD
+MENUUNLOAD,MENUUNLOAD
+MESHCAP,MESHCAP
+MESHCOLLAPSE,MESHCOLLAPSE
+MESHCREASE,MESHCREASE
+MESHEXTRUDE,MESHEXTRUDE
+MESHMERGE,MESHMERGE
+MESHOPTIONS,MESHOPTIONS
+MESHPRIMITIVEOPTIONS,MESHPRIMITIVEOPTIONS
+MESHREFINE,MESHREFINE
+MESHSMOOTH,MESHSMOOTH
+MESHSMOOTHLESS,MESHSMOOTHLESS
+MESHSMOOTHMORE,MESHSMOOTHMORE
+MESHSPIN,MESHSPIN
+MESHSPLIT,MESHSPLIT
+MESHUNCREASE,MESHUNCREASE
+MIGRATEMATERIALS,MIGRATEMATERIALS
+MINSERT,MINSERT
+MIRROR3D,MIRROR3D
+MKLTYPE,MKLTYPE
+MKSHAPE,MKSHAPE
+MLEADER,MLEADER
+MLEADERALIGN,MLEADERALIGN
+MLEADERCOLLECT,MLEADERCOLLECT
+MLEADEREDIT,MLEADEREDIT
+MLEADERSTYLE,MLEADERSTYLE
+MLEDIT,MLEDIT
+MLSTYLE,MLSTYLE
+MOCORO,MOCORO
+MOVEBAK,MOVEBAK
+MPEDIT,MPEDIT
+MREDO,MREDO
+MSLIDE,MSLIDE
+MSPACE,MSPACE
+MSTRETCH,MSTRETCH
+MTEDIT,MTEDIT
+MTEXT,MTEXT
+MTPROP,MTPROP
+MVSETUP,MVSETUP
+NAVBAR,NAVBAR
+NAVSMOTION,NAVSMOTION
+NAVSMOTIONCLOSE,NAVSMOTIONCLOSE
+NAVSWHEEL,NAVSWHEEL
+NAVVCUBE,NAVVCUBE
+NCOPY,NCOPY
+NETLOAD,NETLOAD
+NEWSHEETSET,NEWSHEETSET
+NEWSHOT,NEWSHOT
+NEWVIEW,NEWVIEW
+OBJECTSCALE,OBJECTSCALE
+OFFSETEDGE,OFFSETEDGE
+OLECONVERT,OLECONVERT
+OLELINKS,OLELINKS
+OLEOPEN,OLEOPEN
+OLERESET,OLERESET
+OLESCALE,OLESCALE
+ONLINEDESIGNSHARE,ONLINEDESIGNSHARE
+OPENDWFMARKUP,OPENDWFMARKUP
+OPENFROMCLOUD,OPENFROMCLOUD
+OPENFROMWEBMOBILE,OPENFROMWEBMOBILE
+OPENSHEETSET,OPENSHEETSET
+OPTCHPROP,OPTCHPROP
+OSNAP,OSNAP
+PAGESETUP,PAGESETUP
+PARAMETERSCLOSE,PARAMETERSCLOSE
+PARTIALOAD,PARTIALOAD
+PARTIALOPEN,PARTIALOPEN
+PASTEASHYPERLINK,PASTEASHYPERLINK
+PASTEBLOCK,PASTEBLOCK
+PASTECLIP,PASTECLIP
+PASTEORIG,PASTEORIG
+PASTESPEC,PASTESPEC
+PCEXTRACTSECTION,PCEXTRACTSECTION
+PCINWIZARD,PCINWIZARD
+PDFADJUST,PDFADJUST
+PDFATTACH,PDFATTACH
+PDFCLIP,PDFCLIP
+PDFIMPORT,PDFIMPORT
+PDFLAYERS,PDFLAYERS
+PDFSHXTEXT,PDFSHXTEXT
+PEDIT,PEDIT
+PERFANALYZER,PERFANALYZER
+PERFANALYZERCLOSE,PERFANALYZERCLOSE
+PFACE,PFACE
+PKFSTGROUP,PKFSTGROUP
+PLANESURF,PLANESURF
+PLINE,PLINE
+PLOT,PLOT
+PLOTSTAMP,PLOTSTAMP
+PLOTSTYLE,PLOTSTYLE
+PLOTTERMANAGER,PLOTTERMANAGER
+PLT2DWG,PLT2DWG
+PMSTART,PMSTART
+PMSTOP,PMSTOP
+PMTOGGLE,PMTOGGLE
+PMTRACE,PMTRACE
+PNGOUT,PNGOUT
+POINTCLOUDATTACH,POINTCLOUDATTACH
+POINTCLOUDCOLORMAP,POINTCLOUDCOLORMAP
+POINTCLOUDCROP,POINTCLOUDCROP
+POINTCLOUDCROPSTATE,POINTCLOUDCROPSTATE
+POINTCLOUDMANAGER,POINTCLOUDMANAGER
+POINTCLOUDMANAGERCLOSE,POINTCLOUDMANAGERCLOSE
+POINTCLOUDSTYLIZE,POINTCLOUDSTYLIZE
+POINTCLOUDUNCROP,POINTCLOUDUNCROP
+POINTLIGHT,POINTLIGHT
+POLYSOLID,POLYSOLID
+PRESSPULL,PRESSPULL
+PROJECTGEOMETRY,PROJECTGEOMETRY
+PROPERTIESCLOSE,PROPERTIESCLOSE
+PSBSCALE,PSBSCALE
+PSETUPIN,PSETUPIN
+PSFILL,PSFILL
+PSOUT,PSOUT
+PSPACE,PSPACE
+PSTSCALE,PSTSCALE
+PTYPE,PTYPE
+PUSHTODOCSCLOSE,PUSHTODOCSCLOSE
+PUSHTODOCSOPEN,PUSHTODOCSOPEN
+QCCLOSE,QCCLOSE
+QDIM,QDIM
+QLATTACH,QLATTACH
+QLATTACHSET,QLATTACHSET
+QLDETACHSET,QLDETACHSET
+QLEADER,QLEADER
+QNEW,QNEW
+QQUIT,QQUIT
+QSAVE,QSAVE
+QSELECT,QSELECT
+QTEXT,QTEXT
+QUICKCUI,QUICKCUI
+QUICKPROPERTIES,QUICKPROPERTIES
+QVDRAWING,QVDRAWING
+QVDRAWINGCLOSE,QVDRAWINGCLOSE
+QVLAYOUT,QVLAYOUT
+QVLAYOUTCLOSE,QVLAYOUTCLOSE
+R14PENWIZARD,R14PENWIZARD
+RCONFIG,RCONFIG
+RECOVERALL,RECOVERALL
+REDIR,REDIR
+REDIRMODE,REDIRMODE
+REDRAWALL,REDRAWALL
+REFCLOSE,REFCLOSE
+REFEDIT,REFEDIT
+REFSET,REFSET
+REGEN,REGEN
+REGEN3,REGEN3
+REGENALL,REGENALL
+REGENAUTO,REGENAUTO
+REGION,REGION
+REINIT,REINIT
+RENDERCROP,RENDERCROP
+RENDERENVIRONMENT,RENDERENVIRONMENT
+RENDERENVIRONMENTCLOSE,RENDERENVIRONMENTCLOSE
+RENDEREXPOSURE,RENDEREXPOSURE
+RENDEREXPOSURECLOSE,RENDEREXPOSURECLOSE
+RENDERONLINE,RENDERONLINE
+RENDERPRESETS,RENDERPRESETS
+RENDERPRESETSCLOSE,RENDERPRESETSCLOSE
+RENDERWIN,RENDERWIN
+RENDERWINDOW,RENDERWINDOW
+RENDERWINDOWCLOSE,RENDERWINDOWCLOSE
+REPURLS,REPURLS
+RESETBLOCK,RESETBLOCK
+REVCLOUD,REVCLOUD
+REVCLOUDPROPERTIES,REVCLOUDPROPERTIES
+REVSURF,REVSURF
+RIBBONCLOSE,RIBBONCLOSE
+ROTATE3D,ROTATE3D
+RPREF,RPREF
+RPREFCLOSE,RPREFCLOSE
+RSCRIPT,RSCRIPT
+RTEDIT,RTEDIT
+RTEXT,RTEXT
+RTEXTAPP,RTEXTAPP
+RTPAN,RTPAN
+RTUCS,RTUCS
+RTZOOM,RTZOOM
+RULESURF,RULESURF
+SAVEALL,SAVEALL
+SAVEAS,SAVEAS
+SAVEIMG,SAVEIMG
+SAVETOCLOUD,SAVETOCLOUD
+SAVETOWEBMOBILE,SAVETOWEBMOBILE
+SCALELISTEDIT,SCALELISTEDIT
+SCALETEXT,SCALETEXT
+SCRIPTCALL,SCRIPTCALL
+SECTIONPLANE,SECTIONPLANE
+SECTIONPLANEJOG,SECTIONPLANEJOG
+SECTIONPLANESETTINGS,SECTIONPLANESETTINGS
+SECTIONPLANETOBLOCK,SECTIONPLANETOBLOCK
+SECTIONSPINNERS,SECTIONSPINNERS
+SECURITYOPTIONS,SECURITYOPTIONS
+SELECTCOUNT,SELECTCOUNT
+SELECTSIMILAR,SELECTSIMILAR
+SELECTURL,SELECTURL
+SEQUENCEPLAY,SEQUENCEPLAY
+SETBYLAYER,SETBYLAYER
+SETVAR,SETVAR
+SH,SH
+SHADEMODE,SHADEMODE
+SHAREDVIEWS,SHAREDVIEWS
+SHAREDVIEWSCLOSE,SHAREDVIEWSCLOSE
+SHAREVIEW,SHAREVIEW
+SHEETSET,SHEETSET
+SHEETSETHIDE,SHEETSETHIDE
+SHOWPALETTES,SHOWPALETTES
+SHOWRENDERGALLERY,SHOWRENDERGALLERY
+SHOWURLS,SHOWURLS
+SHP2BLK,SHP2BLK
+SIGVALIDATE,SIGVALIDATE
+SOLDRAW,SOLDRAW
+SOLIDEDIT,SOLIDEDIT
+SOLPROF,SOLPROF
+SOLVIEW,SOLVIEW
+SPACETRANS,SPACETRANS
+SPLINEDIT,SPLINEDIT
+SPOTLIGHT,SPOTLIGHT
+SSX,SSX
+STLOUT,STLOUT
+STYLESMANAGER,STYLESMANAGER
+SUNPROPERTIES,SUNPROPERTIES
+SUNPROPERTIESCLOSE,SUNPROPERTIESCLOSE
+SUPERHATCH,SUPERHATCH
+SURFBLEND,SURFBLEND
+SURFEXTEND,SURFEXTEND
+SURFEXTRACTCURVE,SURFEXTRACTCURVE
+SURFFILLET,SURFFILLET
+SURFNETWORK,SURFNETWORK
+SURFOFFSET,SURFOFFSET
+SURFPATCH,SURFPATCH
+SURFSCULPT,SURFSCULPT
+SURFTRIM,SURFTRIM
+SURFUNTRIM,SURFUNTRIM
+SYSVARMONITOR,SYSVARMONITOR
+SYSVDLG,SYSVDLG
+SYSWINDOWS,SYSWINDOWS
+TABLEDIT,TABLEDIT
+TABLEEXPORT,TABLEEXPORT
+TABLESTYLE,TABLESTYLE
+TABSURF,TABSURF
+TARGETPOINT,TARGETPOINT
+TBCONFIG,TBCONFIG
+TCASE,TCASE
+TCIRCLE,TCIRCLE
+TCOUNT,TCOUNT
+TEXTALIGN,TEXTALIGN
+TEXTEDIT,TEXTEDIT
+TEXTFIT,TEXTFIT
+TEXTMASK,TEXTMASK
+TEXTSCR,TEXTSCR
+TEXTTOFRONT,TEXTTOFRONT
+TEXTUNMASK,TEXTUNMASK
+TFHELP,TFHELP
+TFRAMES,TFRAMES
+TIFOUT,TIFOUT
+TINSERT,TINSERT
+TJUST,TJUST
+TOOLPALETTES,TOOLPALETTES
+TOOLPALETTESCLOSE,TOOLPALETTESCLOSE
+TORIENT,TORIENT
+TPNAVIGATE,TPNAVIGATE
+TRACEBACK,TRACEBACK
+TRACEEDIT,TRACEEDIT
+TRACEFRONT,TRACEFRONT
+TRACEPALETTECLOSE,TRACEPALETTECLOSE
+TRACEPALETTEOPEN,TRACEPALETTEOPEN
+TRACEVIEW,TRACEVIEW
+TRAYSETTINGS,TRAYSETTINGS
+TREESTAT,TREESTAT
+TREX,TREX
+TSCALE,TSCALE
+TUTCLEAR,TUTCLEAR
+TUTDEMO,TUTDEMO
+TXT2MTXT,TXT2MTXT
+TXTEXP,TXTEXP
+UCSICON,UCSICON
+UCSMAN,UCSMAN
+ULAYERS,ULAYERS
+UNISOLATEOBJECTS,UNISOLATEOBJECTS
+UPDATEFIELD,UPDATEFIELD
+UPDATETHUMBSNOW,UPDATETHUMBSNOW
+VBAIDE,VBAIDE
+VBALOAD,VBALOAD
+VBAMAN,VBAMAN
+VBANEW,VBANEW
+VBAPREF,VBAPREF
+VBARUN,VBARUN
+VBASTMT,VBASTMT
+VBAUNLOAD,VBAUNLOAD
+VERSIONCOMPARE,VERSIONCOMPARE
+VIEWBASE,VIEWBASE
+VIEWCOMPONENT,VIEWCOMPONENT
+VIEWDETAIL,VIEWDETAIL
+VIEWDETAILSTYLE,VIEWDETAILSTYLE
+VIEWEDIT,VIEWEDIT
+VIEWGO,VIEWGO
+VIEWPLAY,VIEWPLAY
+VIEWPLOTDETAILS,VIEWPLOTDETAILS
+VIEWPORTS,VIEWPORTS
+VIEWPROJ,VIEWPROJ
+VIEWRES,VIEWRES
+VIEWSECTION,VIEWSECTION
+VIEWSECTIONSTYLE,VIEWSECTIONSTYLE
+VIEWSETPROJ,VIEWSETPROJ
+VIEWSKETCHCLOSE,VIEWSKETCHCLOSE
+VIEWSTD,VIEWSTD
+VIEWSYMBOLSKETCH,VIEWSYMBOLSKETCH
+VIEWUPDATE,VIEWUPDATE
+VISUALSTYLES,VISUALSTYLES
+VISUALSTYLESCLOSE,VISUALSTYLESCLOSE
+VLIDE,VLIDE
+VLISP,VLISP
+VPCLIP,VPCLIP
+VPEDIT,VPEDIT
+VPLAYER,VPLAYER
+VPMAX,VPMAX
+VPMIN,VPMIN
+VPOINT,VPOINT
+VPORTS,VPORTS
+VPSCALE,VPSCALE
+VPSYNC,VPSYNC
+VSCURRENT,VSCURRENT
+VSLIDE,VSLIDE
+VSSAVE,VSSAVE
+VTOPTIONS,VTOPTIONS
+WALKFLYSETTINGS,WALKFLYSETTINGS
+WBLOCK,WBLOCK
+WEBLIGHT,WEBLIGHT
+WEBLOAD,WEBLOAD
+WHOHAS,WHOHAS
+WIPEOUT,WIPEOUT
+WMFIN,WMFIN
+WMFOPTS,WMFOPTS
+WMFOUT,WMFOUT
+WSSAVE,WSSAVE
+WSSETTINGS,WSSETTINGS
+XATTACH,XATTACH
+XBIND,XBIND
+XCLIP,XCLIP
+XCOMPARE,XCOMPARE
+XCOMPARECLOSE,XCOMPARECLOSE
+XCOMPARERCNEXT,XCOMPARERCNEXT
+XCOMPARERCPREV,XCOMPARERCPREV
+XDATA,XDATA
+XDLIST,XDLIST
+XEDGES,XEDGES
+XLINE,XLINE
+XLIST,XLIST
+XOPEN,XOPEN
+XP,XP
+XPLODE,XPLODE
+xref,xref

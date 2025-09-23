@@ -1,0 +1,1551 @@
+﻿source,target
+3D Move gizmo,3D 移動ギズモ
+3D Rotate gizmo,3D 回転ギズモ
+3D Scale gizmo,3D 尺度変更ギズモ
+3DALIGN,3D 位置合わせ
+3DARRAY,3D 配列複写
+3DCLIP,3D クリップ
+3DCORBIT,3D 継続オービット
+3DDISTANCE,3D 距離
+3DDWF,3D DWF
+3DDWFPUBLISH,3D DWF パブリッシュ
+3DFACE,3D 面
+3DFLY,3D フライスルー
+3DFORBIT,3D 自由オービット
+3DMESH,3D メッシュ
+3DMOVE,3D 移動
+3DORBIT,3D オービット
+3DORBITCTR,3D オービット中心設定
+3DORBITTRANSPARENT,3DORBITTRANSPARENT
+3DPAN,3D 画面移動
+3DPANTRANSPARENT,3DPANTRANSPARENT
+3DPOLY,3D ポリライン
+3DPRINT,3D プリント
+3DPRINTSERVICE,3D プリント サービス
+3DROTATE,3D 回転
+3DSCALE,3D 尺度変更
+3DSIN,3DS 読み込み
+3DSWIVEL,3D 旋回
+3DSWIVELTRANSPARENT,3DSWIVELTRANSPARENT
+3DWALK,3D ウォークスルー
+3DZOOM,3D ズーム
+3DZOOMTRANSPARENT,3DZOOMTRANSPARENT
+ACA,ACA
+ACADBLOCKDIALOG,ACADBLOCKDIALOG
+ACADINFO,ACADINFO
+ACADWBLOCKDIALOG,ACADWBLOCKDIALOG
+ACISIN,ACIS 読み込み
+ACISOUT,ACIS 書き出し
+ACS,ACS
+ACTBASEPOINT,アクション マクロ基点挿入
+action editor,アクション エディタ
+ACTMANAGER,アクション マクロ管理
+ACTRECORD,アクション マクロ記録
+ACTSTOP,アクション マクロ記録停止
+ACTUSERINPUT,アクション マクロ ユーザ入力
+ACTUSERMESSAGE,アクション マクロ メッセージ挿入
+ADC,ADC
+ADCCLOSE,デザインセンターを閉じる
+ADCCUSTOMNAVIGATE,ADCCUSTOMNAVIGATE
+ADCENTER,デザインセンター
+ADCNAVIGATE,デザインセンター パス設定
+ADDSELECTED,選択オブジェクト追加
+AEC entity,AEC 図形
+AEC Industry,建設業界
+AEC Industry Breakout,建設業界ブレイクアウト
+AEC Industry Collection,建設業界コレクション
+AEC Industry Overview,建設業界の概要
+AEC Industry Partners,建設業界パートナー
+AEC Industry Playbook,建設業界プレイブック
+AEC Industry Sales Academy,建設業界販売アカデミー
+AEC Industry Sales Materials,建設業界販売資料
+AEC Industry Solutions,建設業界ソリューション
+AEC Industry Trends,建設業界の動向
+AEC object,AEC オブジェクト
+aerial view,上空表示
+AI_CIRCTAN,AI_CIRCTAN
+AI_PSPACE,AI_PSPACE
+AIDIMPREC,AIDIMPREC
+AIDIMSTYLE,AIDIMSTYLE
+AIDIMTEXTMOVE,AIDIMTEXTMOVE
+ALIASEDIT,ALIASEDIT
+Aligned Dimension,平行寸法
+ALIGNSPACE,ALIGNSPACE
+ALKIS,ALKIS
+all-around symbol,全周記号
+ALLPLAY,ALLPLAY
+alpha-blend,アルファブレンド
+alternate unit,変換単位
+altimetry,高度測量
+AMECONVERT,AME 変換
+AMSHIDE,AMSHIDE
+ANALYSISCURVATURE,曲率解析
+ANALYSISDRAFT,勾配解析
+ANALYSISOPTIONS,解析オプション
+ANALYSISZEBRA,ゼブラ解析
+analytical surface,解析サーフェス
+ANIPATH,アニメーション パス
+ANNORESET,尺度表現位置リセット
+annotation,注記
+annotational constraint,注釈拘束
+annotative object,異尺度対応オブジェクト
+ANNOUPDATE,異尺度対応オブジェクト更新
+anode,電食
+anode station,電食ステーション
+APERTURE,オブジェクト スナップ範囲設定
+APPAUTOLOADER,アプリケーション自動ロード
+appearance style,外観スタイル
+APPLOAD,アプリケーション ロード
+ARC,円弧
+Arc Length,円弧の長さ
+Arc radius,円弧の半径
+arc segmentation,円弧セグメンテーション
+arc-chord distance,円弧-線分距離
+ARCTEXT,ARCTEXT
+ARG,ARG
+ARRAYCLASSIC,旧配列複写
+ARRAYCLOSE,配列複写編集モード終了
+ARRAYEDIT,配列複写編集
+ARRAYPATH,パス配列複写
+ARRAYPOLAR,円形状配列複写
+ARRAYRECT,矩形状配列複写
+assembly extraction template,アセンブリ抽出テンプレート
+associative array,自動調整配列
+Associative QDIM extension,Associative QDIM extension
+assumed nozzle,仮想ノズル
+ATEXT,ATEXT
+ATIL,ATIL
+ATTACHURL,URL アタッチ
+ATTDEF,属性定義
+ATTDISP,属性表示
+ATTEDIT,属性編集
+ATTEXT,属性書き出し
+ATTIN,ATTIN
+ATTIPEDIT,属性値インプレイス編集
+ATTOUT,ATTOUT
+ATTREDEF,属性再定義
+ATTSYNC,属性同期
+AutoCAD block,AutoCAD ブロック
+AutoCAD color index,AutoCAD カラー インデックス
+AutoCAD Mobile,AutoCAD モバイル
+Autocad Mobile app,Autocad Mobile アプリ
+AUTOCONSTRAIN,自動拘束
+Autodesk Assistant,Autodesk Assistant
+AUTODESKCONNECTIONPOINT,AUTODESKCONNECTIONPOINT
+AutoLISP development,AutoLISP 開発
+AutoLISP environment,AutoLISP 環境
+AUTOPUBLISH,自動パブリッシュ
+auxiliary coordinate system,補助座標系
+axial stress,軸方向応力
+axis offset,軸オフセット
+azimuth,方位
+BACKGROUND,背景
+backing strip,ビード
+backwater gate,逆流ゲート
+BACTION,ブロック アクション
+BACTIONBAR,ブロック アクション バー
+BACTIONSET,ブロック アクション選択セット
+BACTIONTOOL,ブロック アクション追加
+ball mill,ボール ミル
+base point,基点
+BASSOCIATE,ブロック アクション関連付け
+Batch Standards Checker,バッチ標準チェッカー
+BATTMAN,ブロック属性管理
+BATTORDER,ブロック属性順序
+baud rate,ボーレート
+BAUTHORPALETTE,ブロック オーサリングを開く
+BAUTHORPALETTECLOSE,ブロック オーサリングを閉じる
+BCLOSE,ブロック エディタを閉じる
+BCONSTRUCTION,構築ジオメトリ変換
+BCOUNT,BCOUNT
+BCPARAMETER,ブロック拘束パラメータ
+BCYCLEORDER,循環順序
+BEDIT,ブロック エディタ
+below grade,地下
+BESETTINGS,ブロック エディタ設定
+bevel,ベベル
+BEXTEND,BEXTEND
+BGRIPSET,ブロック グリップ設定
+BHATCH,境界ハッチング
+bill of materials,部品表
+binary large object,バイナリ ラージ オブジェクト
+bitonal image,モノクロ イメージ
+blend mode,ブレンド モード
+blend surface,ブレンド サーフェス
+BLOB,BLOB
+block authoring object,ブロック オーサリング オブジェクト
+block library,ブロック ライブラリ
+block properties table,ブロック プロパティ テーブル
+block replacement,ブロック置換
+BLOCKICON,ブロック アイコン
+BLOCKMRULIST,BLOCKMRULIST
+BLOCKNAVIGATE,BLOCKNAVIGATE
+BLOCKREPLACE,BLOCKREPLACE
+blocks palette,ブロック パレット
+BLOCKSPALETTE,ブロック パレット
+BLOCKSPALETTECLOSE,ブロック パレットを閉じる
+BLOCKTOXREF,BLOCKTOXREF
+BLOOKUPTABLE,ブロック ルックアップ テーブル
+blow off valve,ブローオフ バルブ
+BMOD,ブロック説明修正
+BMPOUT,BMP 書き出し
+boolean,ブール
+bounded area,境界領域
+bounding area,境界領域
+bounding box,境界ボックス
+BPARAMETER,ブロック パラメータ
+BPOLY,BPOLY
+branch circuit,分岐回路
+break loop,break ループ
+break point,ブレーク ポイント
+breaker,ブレーカ
+BREAKLINE,BREAKLINE
+break-out line,破断線
+breakpoint,ブレークポイント
+BREP,境界表現
+BROWSER,ブラウザ
+BROWSERCLOSE,BROWSERCLOSE
+BROWSEROPEN,BROWSEROPEN
+BSAVEAS,名前を付けてブロック定義保存
+BSCALE,BSCALE
+BTABLE,ブロック プロパティ テーブル
+BTESTBLOCK,ブロック テスト
+BTRIM,BTRIM
+bulge,膨らみ係数
+bulge factor,ふくらみ係数
+bulk copy,一括コピー
+bump,バンプ
+bump map,バンプ マップ
+bump mapping,バンプ マッピング
+bus bar,バス バー
+BVHIDE,ブロック可視非表示
+BVSHOW,ブロック可視表示
+BVSTATE,ブロック可視状態
+BYBLOCK,BYBLOCK
+BYLAYER,BYLAYER
+cable tray,ケーブル ラック
+cable tray fitting,ケーブル ラック継手
+CAD manager,CAD マネージャ
+CAL,ジオメトリック計算
+CAMERA,カメラ
+camera calibration,カメラ位置合わせ
+camera glyph,カメラ記号
+canvas,キャンバス
+cap,端部キャップ
+cap filleting,キャップ フィレット
+cap height,キャップの高さ
+capacitor,コンデンサ
+Cascading Style Sheets,カスケード スタイル シート
+casing,保護
+casing model,保護モデル
+Catmull-Clark subdivision surface,Catmull-Clark サブディビジョン サーフェス
+CDORDER,CDORDER
+center line,中心線
+center mark,中心マーク
+center point,中心点
+CENTERDISASSOCIATE,中心自動調整解除
+CENTERLINE,中心線
+CENTERMARK,中心マーク
+CENTERREASSOCIATE,中心自動調整再割り当て
+CENTERRESET,中心リセット
+chamfer,面取り
+CHAMFEREDGE,面取りエッジ
+character large object,キャラクタ ラージ オブジェクト
+CHECKSTANDARDS,標準仕様を確認
+chi square,カイ二乗
+child feature class,子フィーチャ クラス
+CHPROP,プロパティ変更
+CHSPACE,空間変更
+CHURLS,CHURLS
+cinematic shot,シネマティック ショット
+CIRCLE,円
+circlip,止め輪
+circuit breaker,回路ブレーカ
+circuitry,回路
+CLASSICGROUP,旧オブジェクト グループ設定
+CLASSICIMAGE,旧イメージ管理
+CLASSICINSERT,旧ブロック挿入
+CLASSICLAYER,旧画層管理
+CLASSICXREF,旧外部参照管理
+CLEANSCREENOFF,フル スクリーン表示オフ
+CLEANSCREENON,フル スクリーン表示オン
+CLIP,クリップ
+clip volume,ボリュームをクリップ
+CLIPIT,CLIPIT
+clipping plane,クリップ平面
+CLOB,CLOB
+CLOSE,閉じる
+CLOSEALL,すべて閉じる
+CLOSEALLOTHER,CLOSEALLOTHER
+closed polyline,閉じたポリライン
+code combination,コード組み合わせ
+COGO,COGO
+cold grip,寒色のグリップ
+cold water fixture unit,冷水器具ユニット
+colinear,同一線上
+colinear constraint,同一直線上拘束
+collate,照合する
+collection,コレクション
+collinear,同一線上
+color book,カラー ブック
+colorbook,カラーブック
+combined electric and heat generating station,複合火力発電所
+combustion chamber,燃焼室
+COMMANDLINE,コマンド ライン表示
+COMMANDLINEHIDE,コマンド ライン非表示
+comminuting machine,粉砕機
+COMPARECLOSE,比較モード終了
+COMPAREEXPORT,比較結果書き出し
+COMPAREIMPORT,比較図面読み込み
+COMPAREINFO,図面比較情報
+component class,コンポーネント クラス
+component list,コンポーネント リスト
+composite solid,合成ソリッド
+composite symbol,複合記号
+compound joint,複合継手
+compound symbol,複合シンボル
+compression,圧縮
+compression end,コンプレッション エンド
+computed length,計算された長さ
+conductor,電線
+CONE,円錐
+CONFIG,CONFIG
+connection grip,接続グリップ
+connection symbol,接続シンボル
+connector line,コネクタ ライン
+connector pin,コネクタ ピン
+constrained object,コンストレインされたオブジェクト
+constraint,拘束
+constraint bar,拘束バー
+constraint parameter,拘束パラメータ
+constraint point,拘束点
+constraint variable,拘束変数
+CONSTRAINTBAR,拘束バー表示
+CONSTRAINTSETTINGS,拘束バー設定
+construction line,構築線
+content library,コンテンツ ライブラリ
+content pack,コンテンツ パック
+control cabinet,制御キャビネット
+control cable,制御ケーブル
+control hull,制御ハル
+control point,制御点
+control vertex hull,制御点ハル
+control vertices hull,制御点ハル
+CONVERTCTB,CTB 変換
+CONVERTOLDLIGHTS,光源変換
+CONVERTOLDMATERIALS,マテリアル変換
+CONVERTPOLY,CONVERTPOLY
+CONVERTPSTYLES,印刷スタイル変換
+CONVTOMESH,メッシュ変換
+CONVTONURBS,NURBS 変換
+CONVTOSOLID,ソリッドに変換
+CONVTOSURFACE,サーフェスに変換
+coordinate reference system,座標参照系
+coordinate system tracker,座標系トラッカー
+COORDINATIONMODELATTACH,COORDINATIONMODELATTACH
+COPYBASE,基点コピー
+COPYCLIP,コピー
+COPYHIST,ヒストリ コピー
+COPYLINK,ビュー コピー
+COPYM,COPYM
+COPYTOLAYER,指定画層に複写
+corner point,コーナー点
+covering area,カバー エリア
+CRC,CRC
+crease,折り目
+cross section,断面
+cross section duct,断面ダクト
+CRS,CRS
+CS library,座標系ライブラリ
+CSS,CSS
+CUI,ユーザ インタフェースをカスタマイズ
+CUI editor,CUI エディタ
+CUIEXPORT,CUI 書き出し
+CUIIMPORT,CUI 読み込み
+CUILOAD,CUI ロード
+CUIUNLOAD,CUI ロード解除
+curvature analysis,曲率解析
+Customer Error Reporting,カスタマ エラー報告
+customer support,カスタマ サポート
+CUTCLIP,切り取り
+cutting line,切断線
+CV,CV
+CV hull,CV ハル
+CVADD,制御点追加
+CVHIDE,制御点非表示
+CVREBUILD,制御点再生成
+CVREMOVE,制御点除去
+CVSHOW,制御点表示
+CWFU,CWFU
+CYLINDER,円柱
+DATAEXTRACTION,データ書き出し
+DATALINK,データリンク マネージャ
+DATALINKUPDATE,データ リンク更新
+datum Identifier,データム ID
+datum note,データム注記
+datumpoint,データム点
+DBCCONFIGURE,DBCCONFIGURE
+DBCCONNECT,DBCCONNECT
+DBCDEFINELLT,DBCDEFINELLT
+DBCDEFINELT,DBCDEFINELT
+DBCDELETELINKS,DBCDELETELINKS
+DBCDELETELLT,DBCDELETELLT
+DBCDELETELT,DBCDELETELT
+DBCDELETEQRY,DBCDELETEQRY
+DBCDISCONNECT,DBCDISCONNECT
+DBCEDITLINKEDTABLE,DBCEDITLINKEDTABLE
+DBCEDITLLT,DBCEDITLLT
+DBCEDITLT,DBCEDITLT
+DBCEDITQRY,DBCEDITQRY
+DBCEDITTABLE,DBCEDITTABLE
+DBCEXECUTEQRY,DBCEXECUTEQRY
+DBCEXPORTLINKS,DBCEXPORTLINKS
+DBCEXPORTQS,DBCEXPORTQS
+DBCEXPORTTS,DBCEXPORTTS
+DBCHIDELABELS,DBCHIDELABELS
+DBCIMPORTQRY,DBCIMPORTQRY
+DBCIMPORTQS,DBCIMPORTQS
+DBCIMPORTTS,DBCIMPORTTS
+DBCLINKCONVERSION,DBCLINKCONVERSION
+DBCLINKMANAGER,DBCLINKMANAGER
+DBCONNECT,データベース接続
+DBCRELOADLABELS,DBCRELOADLABELS
+DBCSELECTLINKS,DBCSELECTLINKS
+DBCSHOWLABELS,DBCSHOWLABELS
+DBCVIEWLINKEDTABLE,DBCVIEWLINKEDTABLE
+DBCVIEWTABLE,DBCVIEWTABLE
+DBLIST,オブジェクト情報一覧
+DCALIGNED,平行寸法拘束
+DCANGULAR,角度寸法拘束
+DCCONVERT,寸法拘束変換
+DCDIAMETER,直径寸法拘束
+DCDISPLAY,寸法拘束表示/非表示
+DCFORM,寸法拘束フォーム
+DCHORIZONTAL,水平寸法拘束
+DCLINEAR,長さ寸法拘束
+DCM Engine,DCM エンジン
+DCRADIUS,半径寸法拘束
+DCVERTICAL,垂直寸法拘束
+DDATTE,属性編集 D
+DDGRIPS,グリップ管理 D
+DDIM,寸法スタイル管理 D
+DDINSERT,ブロック挿入 D
+DDPLOTSTAMP,DDPLOTSTAMP
+DDRMODES,作図補助モード管理 D
+DDSELECT,オブジェクト選択設定 D
+DDSTYLE,DDSTYLE
+DDUCS,UCS 管理 D
+DDUCSP,UCS プリセット D
+DDUNITS,単位管理 D
+DDVPOINT,3D 視点プリセット D
+dead joint symbol,デッド ジョイント
+decorative element,装飾要素
+default mleader style,既定のマルチ引出線スタイル
+default plot style,既定の印刷スタイル
+default table style,既定の表スタイル
+DEFPOINTS,DEFPOINTS
+degrees minutes seconds,度/分/秒
+DELAY,タイマ
+DELCONSTRAINT,拘束削除
+dependency highlighting,依存関係のハイライト表示
+depth of field,被写界深度
+depth polygon,深さポリゴン
+Design Review,Design Review
+Design Web Format,Design Web Format
+DESKTOPANALYTICS,DESKTOPANALYTICS
+DETACHURL,URL アタッチ解除
+DGNADJUST,DGN 調整
+DGNATTACH,DGN アタッチ
+DGNBIND,DGN バインド
+DGNCLIP,DGN クリップ
+DGNEXPORT,DGN 書き出し
+DGNIMPORT,DGN 読み込み
+DGNLAYERS,DGN 画層
+DGNMAPPING,DGN マッピング
+diameter,直径
+diffuse map,拡散マップ
+digital elevation model,数値標高モデル
+Digital Signature Extension,Digital Signature Extension
+DIGITALSIGN,DIGITALSIGN
+digitizer puck,ディジタイザ
+digitizing tablet,ディジタイジング タブレット
+DIM,DIM
+DIM1,DIM1
+DIMALIGNED,平行寸法記入
+DIMANGULAR,角度寸法記入
+DIMARC,弧長寸法記入
+DIMBASELINE,並列寸法記入
+DIMBREAK,寸法マスク
+DIMCENTER,中心記入
+DimConstraint,寸法拘束
+DIMCONTINUE,直列寸法記入
+DIMDIAMETER,直径寸法記入
+DIMDISASSOCIATE,寸法自動調整解除
+DIMEDIT,寸法編集
+dimension constraint,寸法拘束
+dimension line,寸法線
+dimension style,寸法スタイル
+dimensional constraint,寸法拘束
+DIMEX,DIMEX
+DIMHORIZONTAL,DIMHORIZONTAL
+DIMIM,DIMIM
+DIMINSPECT,検査寸法
+DIMJOGGED,折り曲げ半径寸法記入
+DIMJOGLINE,寸法線折り曲げ
+DIMLINEAR,長さ寸法記入
+DIMORDINATE,座標寸法記入
+DIMOVERRIDE,寸法スタイル優先
+DIMRADIUS,半径寸法記入
+DIMREASSOC,DIMREASSOC
+DIMREASSOCIATE,寸法自動調整再割り当て
+DIMREGEN,寸法位置更新
+DIMROTATED,回転寸法記入
+DIMSPACE,寸法線間隔
+DIMTEDIT,寸法値位置変更
+DIMVERTICAL,DIMVERTICAL
+disposal tank,排水タンク
+DIST,距離計算
+distance offset,距離のオフセット
+DISTANTLIGHT,遠隔光源
+distributed rendering,分散レンダリング
+dithering,ディザリング
+DMS,DMS
+dock,ドッキング
+DOF,DOF
+DONUT,ドーナツ
+dots per inch,1 インチあたりのドット数
+DOUGHNUT,DOUGHNUT
+DOWNLOADMANAGER,ダウンロード管理
+DPI,DPI
+draft analysis,勾配解析
+DRAGMODE,ドラッグ モード
+drain area,排水区域
+drawing area,作図領域
+drawing congestion,図面の過密度
+drawing folder,図面フォルダ
+Drawing Interchange Format,Drawing Interchange Format
+drawing limit,図面範囲
+drawing list report,図面リスト レポート
+Drawing Manager,図面マネージャ
+DRAWINGRECOVERY,図面修復管理
+DRAWINGRECOVERYHIDE,図面修復管理を閉じる
+DRAWORDER,表示順序
+driven constraint,被駆動拘束
+driving dimension,駆動寸法
+DROPGEOM,DROPGEOM
+DSETTINGS,作図補助設定
+DTED,DTED
+DTEXT,ダイナミック文字記入
+duct fitting,ダクト継手
+dump,ダンプ ファイル
+DWF,DWF
+DWFADJUST,DWF 調整
+DWFATTACH,DWF アタッチ
+DWFCLIP,DWF クリップ
+DWFFORMAT,DWF 形式
+DWFLAYERS,DWF 画層
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DWGPROPS,図面プロパティ
+DXBIN,DXB 読み込み
+DXF,DXF
+DXFIN,DXF 読み込み
+DXFOUT,DXF 書き出し
+dynamic constraint,ダイナミック拘束
+dynamic schematic drawing,ダイナミック スケマティック図面
+easting,東座標値
+EATTEDIT,拡張属性編集
+EATTEXT,拡張属性書き出し
+EDGE,エッジ
+EDGESURF,エッジ サーフェス
+edit in place,インプレイス編集
+editing tool,編集ツール
+EDITSHOT,ショット編集
+EDITTABLECELL,EDITTABLECELL
+EDITTIME,EDITTIME
+ejector,エジェクタ
+elbow,エルボ
+Electric Explorer,電力エクスプローラ
+ELEV,高度設定
+elevation,立面図
+elevation offset,高さオフセット
+elide,省略する
+ELLIPSE,楕円
+embed,埋め込む
+emitter,放出口
+end point,端点
+endline grip,終端グリップ
+enhanced secondary window,拡張 2 次ウィンドウ
+enhanced viewer,拡張ビューア
+environment map,環境マップ
+EPLOTEXT,EPLOTEXT
+EPSG code,EPSG コード
+ERASE,削除
+ESW,ESW
+ETRANSMIT,e-トランスミット
+evaluation version,評価版
+EXOFFSET,EXOFFSET
+EXPLAN,EXPLAN
+EXPLODE,分解
+EXPLORER,EXPLORER
+EXPORT,書き出し
+EXPORTDWF,DWF 書き出し
+EXPORTDWFX,DWFx 書き出し
+EXPORTPDF,PDF 書き出し
+EXPORTSETTINGS,書き出し設定
+EXPORTTOAUTOCAD,AutoCAD に書き出し
+Expression Builder,式ビルダ
+EXPRESSMENU,EXPRESSMENU
+EXPRESSTOOLS,エクスプレス ツール
+EXTEND,延長
+extended help file,拡張ヘルプ ファイル
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+extension line,寸法補助線
+External Reference Manager,外部参照管理
+EXTERNALREFERENCES,外部参照パレット
+EXTERNALREFERENCESCLOSE,外部参照パレットを閉じる
+EXTRIM,EXTRIM
+EXTRUDE,押し出し
+fabricated equipment,組合せ機器
+facet,切り子面
+facility,設備
+FASTSEL,FASTSEL
+FDO,FDO
+feature class,フィーチャ クラス
+feature container,フィーチャ コンテナ
+Feature Explorer,フィーチャ エクスプローラ
+feeder,フィーダ
+FID,FID
+FIELD,フィールド
+field bus,フィールドバス
+field fit,フィールド フィット
+FILEOPEN,FILEOPEN
+FILETAB,ファイル タブを表示
+FILETABCLOSE,ファイルタブを非表示
+fill pattern,塗り潰しパターン
+fillet,フィレット
+FILLETEDGE,フィレット エッジ
+Filtration Bed,濾床
+final gathering,ファイナル ギャザリング
+fit point,フィット点
+fitting,継手
+flanged butt,フランジ突合せ
+flat search,水平検索
+FLATSHOT,フラットショット
+flow arrow,流向矢印
+flow direction,流れ方向
+flush constraint,フラッシュ拘束
+FOG,霧
+fold panel,折りたたみパネル
+foul water,汚水
+frame,フレーム
+frame rate,フレーム レート
+free standpoint,未計測点
+free station,未計測点
+freeform design,フリーフォーム デザイン
+FREESPOT,フリー スポットライト
+freestanding annotation,分立注釈
+FREEWEB,フリー配光光源
+front clipping plane,前方クリップ平面
+FS,FS
+functionality,機能
+fuse,ヒューズ
+fuzz,ぼかし
+gap,ギャップ
+GATTE,GATTE
+GCCOINCIDENT,一致拘束
+GCCOLLINEAR,同一直線上拘束
+GCCONCENTRIC,同心円拘束
+GCEQUAL,同値拘束
+GCFIX,固定拘束
+GCHORIZONTAL,水平拘束
+GCPARALLEL,平行拘束
+GCPERPENDICULAR,直交拘束
+GCSMOOTH,スムーズ拘束
+GCSYMMETRIC,対称拘束
+GCTANGENT,正接拘束
+GCVERTICAL,垂直拘束
+geodetic network point,測地ネットワークポイント
+geodetic transformation,測地変換
+GEOGRAPHICLOCATION,地理的位置
+GEOLOCATEME,自分の位置を表示
+GEOMAP,マップ オン/オフ
+GEOMAPIMAGE,GEOMAPIMAGE
+GEOMAPIMAGEUPDATE,GEOMAPIMAGEUPDATE
+GEOMARKME,計測した現在位置に地理マーカーを配置
+GEOMARKPOINT,指定点で地理マーカーを配置
+GEOMARKPOSITION,地理的位置をマーク
+GEOMCONSTRAINT,幾何拘束
+geometric constraint,幾何拘束
+GEOREMOVE,地理的位置除去
+GEOREORIENTMARKER,地理マーカーの方向を変更
+geospatial information,空間情報
+GETSEL,GETSEL
+gizmo,ギズモ
+Gooch shading,Gooch シェーディング
+GOTOSTART,GOTOSTART
+GOTOURL,URL を表示
+GRADIENT,グラデーション
+gradient ramp,グラデーション ランプ
+grading plan,勾配計画
+GRAPHICSCONFIG,ハードウェア パフォーマンスの調整
+GRAPHSCR,グラフィックス スクリーン
+grease trap,グリース トラップ
+grip,グリップ
+grip point,グリップ点
+grip rotate,グリップ回転
+grip scale,グリップ尺度変更
+grit chamber,沈砂池
+ground,接地
+ground water,地下水
+Group Policy Object,グループ ポリシー オブジェクト
+grouped BOM row,グループ化された BOM 行
+GROUPEDIT,グループ編集
+handhole,ハンドホール
+hardware shader,ハードウェア シェーダ
+hatch pattern,ハッチング パターン
+HATCHEDIT,ハッチング編集
+HATCHGENERATEBOUNDARY,ハッチング境界生成
+HATCHSETBOUNDARY,ハッチング境界再設定
+HATCHSETORIGIN,ハッチング原点設定
+HATCHTOBACK,ハッチングを背面に移動
+heat exchanger,熱交換器
+HELIX,らせん
+hidden line,隠線
+HIDEOBJECTS,オブジェクト非表示
+HIDEPALETTES,パレット非表示
+HIGHLIGHTNEW,新機能ハイライト表示
+HLSETTINGS,隠線処理設定
+horizontal landing,水平参照線
+host,ホスト
+hot grip,ホット グリップ
+hot water fixture unit,温水器具ユニット
+house connector,ハウス コネクタ
+HYPERLINK,ハイパーリンク
+HYPERLINKBACK,HYPERLINKBACK
+HYPERLINKFWD,HYPERLINKFWD
+HYPERLINKOPEN,HYPERLINKOPEN
+HYPERLINKOPTIONS,ハイパーリンク オプション
+HYPERLINKSTOP,HYPERLINKSTOP
+IGESEXPORT,IGES 書き出し
+IGESIMPORT,IGES 読み込み
+illuminance distance,照度距離
+IMAGEADJUST,イメージ調整
+IMAGEAPP,IMAGEAPP
+IMAGEATTACH,イメージ アタッチ
+IMAGECLIP,イメージ クリップ
+IMAGEEDIT,IMAGEEDIT
+IMAGEOVERLAP,IMAGEOVERLAP
+IMAGEQUALITY,イメージ画質
+implied windowing,自動窓選択モード
+IMPORT,読み込み
+IMPRINT,インプリント
+in-canvas tool,キャンバス内ツール
+included angle,中心角
+index color,インデックス カラー
+industry model,インダストリ モデル
+industry standard,工業規格
+information channel,情報チャネル
+inline component,インライン コンポーネント
+input type,入力タイプ
+INPUTSEARCHOPTIONS,検索オプションを入力
+INSERTOBJ,オブジェクトの作成と貼り付け
+inspection dimension,検査寸法
+installation code,装置コード
+instrument,計装
+Interactive Create & Edit,インタラクティブな作成/編集
+interference check,干渉チェック
+internal destination,内部接続先
+inverse linear,反比例方式
+inverse square,逆二乗方式
+ISA,ISA
+ISODRAFT,ISODRAFT
+ISOLATEOBJECTS,オブジェクト選択表示
+isolator,アイソレータ
+isometric,アイソメ
+isoparm,アイソパラム
+ISOPLANE,アイソメ図法
+JOIN,結合
+junction,ジャンクション
+JUSTIFYTEXT,文字位置合わせ
+Keyhole Markup Language,Keyhole Markup Language
+kink,キンク
+KML,KML
+KMZ,KMZ
+knot parameterization,ノット パラメータ
+knot vector,ノット ベクトル
+label block,ラベル ブロック
+lagoon,排水池
+land management,土地管理
+language pack,言語パック
+latitude,緯度
+Launchpad,ラウンチパッド
+LAYCUR,現在画層に移動
+LAYDEL,画層削除
+layer state,画層状態
+LAYERCLOSE,画層管理を閉じる
+LAYERP,画層復元
+LAYERPALETTE,画層管理パレット
+LAYERPMODE,画層復元モード
+LAYERSTATE,画層状態管理
+LAYERSTATESAVE,LAYERSTATESAVE
+LAYFRZ,画層フリーズ
+LAYISO,画層選択表示
+LAYLCK,画層ロック
+LAYMCH,指定画層に移動
+LAYMCUR,現在画層を変更
+LAYMRG,画層合成
+LAYOFF,選択オブジェクトの画層を非表示
+LAYON,全画層表示
+LAYOUTMERGE,LAYOUTMERGE
+LAYOUTWIZARD,レイアウト ウィザード
+LAYTHW,全画層フリーズ解除
+LAYTRANS,画層標準を適用
+LAYULK,画層ロック解除
+LAYUNISO,画層選択表示解除
+LAYVPI,ビューポート画層選択表示
+LAYWALK,画層閲覧
+leader line,引出線
+Learning AutoCAD 2010,Learning AutoCAD 2010
+license alert,ライセンスの警告
+LIGHTLIST,光源一覧
+LIGHTLISTCLOSE,光源一覧を閉じる
+lightning arrester,避電器
+line merge,線を重ね書き
+linear dimension,長さ寸法
+link box,リンク ボックス
+linked annotation,リンク注釈
+lisp file,LISP ファイル
+Live Enabler,Live Enabler
+live section,ライブ断面
+LIVESECTION,ライブ断面
+load tap changer,負荷時タップ切替装置
+loaded standard,ロードされている標準仕様
+location,位置
+LOFT,ロフト
+LOGFILEOFF,ログ ファイル オフ
+LOGFILEON,ログ ファイル オン
+long radius elbow,長い半径エルボ
+longitude,経度
+lookup,ルックアップ
+loop crossing,ループ交差
+lot,区画
+LSPSURF,LSPSURF
+LTSCALE,線種尺度
+LV board,LV 盤
+LWEIGHT,線の太さ
+MAKEPREVIEW,MAKEPREVIEW
+MANAGEUPLOADS,アップロード管理
+manhole,マンホール
+manifold,マニホールド
+manufacturer,製造元
+markup set,マークアップ セット
+Markup Set Manager,マークアップ セット管理
+MARKUPCLOSE,マークアップ セット管理を閉じる
+MASSPROP,マスプロパティ
+MATBROWSERCLOSE,マテリアル ブラウザを閉じる
+MATBROWSEROPEN,マテリアル ブラウザを開く
+MATCHCELL,セル プロパティ コピー
+mate constraint,メイト拘束
+MATEDITORCLOSE,マテリアル エディタを閉じる
+MATEDITOROPEN,マテリアル エディタを開く
+MATERIALASSIGN,マテリアル割り当て
+MATERIALATTACH,マテリアル アタッチ
+MATERIALMAP,マテリアル マップ
+MATERIALS,マテリアル
+MATERIALSCLOSE,マテリアル パレットを閉じる
+MATLIB,マテリアル ライブラリ
+measured length,計測済みの長さ
+MEASUREGEOM,ジオメトリ計測
+measurement,計測
+measurement error,計測エラー
+mechanical driver,駆動機
+mechanical link,機械的リンク
+median,中央
+mental ray,mental ray
+mental ray rendering engine,レンダリング エンジン mental ray
+MENULOAD,メニュー ロード
+MENUUNLOAD,メニュー ロード解除
+MEP,MEP
+MESHCAP,メッシュの穴を閉じる
+MESHCOLLAPSE,メッシュ折りたたみ
+MESHCREASE,メッシュ折り目作成
+MESHEXTRUDE,メッシュ押し出し
+MESHMERGE,メッシュ合成
+MESHOPTIONS,メッシュ分割オプション
+MESHPRIMITIVEOPTIONS,メッシュ プリミティブ オプション
+MESHREFINE,メッシュ リファイン
+MESHSMOOTH,スムーズ オブジェクト変換
+MESHSMOOTHLESS,メッシュ スムーズ減少
+MESHSMOOTHMORE,メッシュ スムーズ増加
+MESHSPIN,メッシュ スピン
+MESHSPLIT,メッシュ 2 分割
+MESHUNCREASE,メッシュ折り目解除
+meter,メーター
+meter area,メーター エリア
+meter model,メーター モデル
+midpoint,中点
+MIGRATEMATERIALS,マテリアルをマイグレート
+migration log file,マイグレーション ログ ファイル
+minidump,ミニダンプ
+minimum spanning tree,最小スパン ツリー
+MINSERT,ブロック一括挿入
+mirror line,対称軸
+MIRROR3D,3D 鏡像
+mitered elbow,留め継ぎエルボ
+mixer,ミキサ
+MKLTYPE,MKLTYPE
+MKSHAPE,MKSHAPE
+MLD,MLD
+MLEADER,マルチ引出線
+mleader object,マルチ引出線オブジェクト
+MLEADERALIGN,マルチ引出線位置合わせ
+MLEADERCOLLECT,マルチ引出線グループ化
+MLEADEREDIT,マルチ引出線編集
+MLEADERSTYLE,マルチ引出線スタイル管理
+MLEDIT,マルチライン編集
+MLINE,マルチライン
+MLSTYLE,マルチライン スタイル管理
+MOCORO,MOCORO
+model parameter,モデル パラメータ
+model space,モデル空間
+motor,モーター
+MOVE,移動
+MOVEBAK,MOVEBAK
+MPEDIT,MPEDIT
+MREDO,複数の UNDO を戻す
+MSLIDE,スライド保存
+MSPACE,モデル空間
+MSTRETCH,MSTRETCH
+MTEDIT,マルチ テキスト編集
+MTPROP,MTPROP
+Multi Language Dictionary,他言語辞書
+multi-functional grip,多機能グリップ
+multilanguage user interface,他言語ユーザー インターフェイス
+multileader,マルチ引出線
+multileader style,マルチ引出線スタイル
+multiple circuits,複数回路
+Multiple Design Environment,マルチ ドキュメント環境
+multi-relation,マルチリレーション
+multi-sheet,マルチシート
+MVIEW,浮動ビューポート管理
+MvPart,MvPart
+MVSETUP,浮動ビューポート設定
+Name Number,名前/番号
+named projection,名前の付いた投影
+nameplate,銘板
+NANT,NANT
+NAVBAR,ナビゲーション バー
+navigation pane,ナビゲーション ペイン
+NAVSMOTION,ShowMotion を表示
+NAVSMOTIONCLOSE,ShowMotion を閉じる
+NAVSWHEEL,SteeringWheels を表示
+NAVVCUBE,ViewCube 切替
+NBA,NBA
+NCLOB,NCLOB
+NCOPY,ネストを複写
+nested reference,ネストされた参照
+network adjustment,ネットワーク調整
+network surface,ネットワーク サーフェス
+network topology,ネットワーク トポロジ
+network trace,ネットワーク トレース
+network tracing tool,ネットワーク トレース ツール
+neutralizer,中和装置
+NEWSHEETSET,シート セット新規作成
+NEWSHOT,ショットを新規作成
+NEWVIEW,ビューを新規作成
+non-ending pipe,終了しない管
+non-manifold,非マニホールド
+non-rectangular viewport,矩形状でないビューポート
+normal distribution,正規分布
+normal style,標準スタイル
+North arrow,北矢印
+northing,北座標
+Not Equal,等しくない
+NPR,NPR
+nudge,微調整
+NURBS surface,NURBS サーフェス
+object,オブジェクト
+object snap mode,オブジェクト スナップ モード
+ObjectARX,ObjectARX
+OBJECTSCALE,異尺度対応オブジェクトの尺度
+oblique angle,傾斜角度
+obscured line,陰線
+OC,OC
+octant,八分円弧
+odour equipment,脱臭装置
+OE,OE
+OEM Make Wizard,OEM Make Wizard
+OFFSET,オフセット
+OFFSETEDGE,オフセット エッジ
+Oil water separator,油水分離器
+OLECONVERT,OLECONVERT
+OLELINKS,OLE リンクの設定
+OLEOPEN,OLEOPEN
+OLERESET,OLERESET
+OLESCALE,OLE 尺度
+ONLINEDESIGNSHARE,オンライン設計共有
+OOPS,オブジェクト復活
+opacity,不透明度
+OPENDWFMARKUP,マークアップ DWF を開く
+OPENFROMCLOUD,OPENFROMCLOUD
+OPENFROMWEBMOBILE,Web およびモバイルから開く
+OPENSHEETSET,シートセットを開く
+OPTCHPROP,OPTCHPROP
+OPTIONS,オプション
+ordinate dimension,座標寸法
+ordinate dimensioning,累進寸法
+organic modeling,有機モデリング
+ortho drawing,オルソ図面
+ortho mode,直交モード
+ortho view,直交ビュー
+ortho-image,オルソ画像
+outer style,外側のみスタイル
+outfall,吐き口
+over-constrain,過剰拘束
+OVERKILL,重複オブジェクト削除
+overlapping ring,重複リング
+overlay,オーバーレイ
+overline,上線
+overlining,上線
+override theme,優先するテーマ
+P&ID,P&ID
+pad,パッド
+PAGESETUP,ページ設定
+panel footprint symbol,パネル機器シンボル図面
+panorama,パノラマ
+paper space,ペーパー空間
+PARAMETERSCLOSE,パラメータ管理を閉じる
+parametric drawing,パラメトリック図面
+parametric expression,パラメータ表現
+parcel,区画
+parent feature class,親フィーチャ クラス
+part extraction template,パーツ抽出テンプレート
+part reference,パーツ参照
+PARTIALOAD,部分ロード
+PARTIALOPEN,部分的に開く
+PASTEASHYPERLINK,ハイパーリンクとして貼り付け
+PASTEBLOCK,ブロック貼り付け
+PASTECLIP,貼り付け
+PASTEORIG,同一位置に貼り付け
+PASTESPEC,形式を選択して貼り付け
+patch,パッチ
+patch list,パッチ リスト
+patch surface,パッチ サーフェス
+path array,パス配列複写
+path curve,パス カーブ
+pathway,経路
+PCEXTRACTSECTION,PCEXTRACTSECTION
+PCINWIZARD,印刷設定読み込みウィザード
+PDFADJUST,PDF 調整
+PDFATTACH,PDF アタッチ
+PDFCLIP,PDF クリップ
+PDFIMPORT,PDF 読み込み
+PDFLAYERS,PDF 画層
+PDFSHXTEXT,PDFSHX 文字変換
+PEDIT,ポリライン編集
+pen width,ペン幅
+Pencil tool,鉛筆ツール
+performance hint,パフォーマンスのヒント
+periodic curve,周期曲線
+persistent object snap,定常オブジェクト スナップ
+persistent reactor,不変リアクタ
+persistent zoom,継続ズーム
+PFACE,ポリ メッシュ
+photo modeling,フォト モデリング
+photon map,フォトン マップ
+physical prototyping,物理的プロトタイプ作成
+pickfirst set,事前選択セット
+pig launch,ピグ ランチャー
+PIP,PIP
+pipe,管
+pipe fitting,配管継手
+pipe gap end,配管ギャップ端部
+pipe insulation,配管断熱材
+PKFSTGROUP,旧グループ管理
+planar face,平面
+plane coordinate,平面座標系
+PLANESURF,平面サーフェス
+planimetry,面積測定
+plastic socket,プラスチック ソケット
+PLINE,ポリライン
+plot,印刷
+plot frame,印刷フレーム
+plot stamp,印刷スタンプ
+plot structure,印刷構造
+PLOTSTAMP,印刷スタンプ
+PLOTSTYLE,印刷スタイル
+PLOTTERMANAGER,プロッタ管理
+PLT2DWG,PLT2DWG
+PLY,PLY
+PMSTART,PMSTART
+PMSTOP,PMSTOP
+PMTOGGLE,PMTOGGLE
+PMTRACE,PMTRACE
+PNGOUT,PNG 書き出し
+point feature,ポイント フィーチャ
+POINTCLOUDATTACH,点群アタッチ
+POINTCLOUDCOLORMAP,点群カラー マップ管理
+POINTCLOUDCROP,POINTCLOUDCROP
+POINTCLOUDCROPSTATE,POINTCLOUDCROPSTATE
+POINTCLOUDMANAGER,点群マネージャを開く
+POINTCLOUDMANAGERCLOSE,点群マネージャを閉じる
+POINTCLOUDSTYLIZE,点群スタイル設定
+POINTCLOUDUNCROP,POINTCLOUDUNCROP
+pointer input,ポインタ入力
+POINTLIGHT,点光源
+polar array,円形状配列複写
+polar stretch,円形状ストレッチ
+polar tracking,極トラッキング
+pole,電柱
+polling frequency,更新頻度
+polyarc segment,ポリ円弧セグメント
+polyface mesh,ポリメッシュ
+POLYGON,ポリゴン
+polygon mesh,ポリゴン メッシュ
+polyline,ポリライン
+POLYSOLID,ポリソリッド
+position finder,位置検索
+position point,配置ポイント
+power station,発電所
+precision presets manager,精度プリセット管理
+PREFERENCES,基本設定
+pressed joint,プレス式継手
+PRESSPULL,境界引き伸ばし
+pressure zone,圧力ゾーン
+PREVIEW,印刷プレビュー
+production isometric drawing,製作用アイソメ図
+profile curve,外形曲線
+profile designer,プロファイル デザイナー
+progressive tooltip,拡張ツールチップ
+project dashboard,プロジェクト ダッシュボード
+Project Simulus,Project Simulus
+projected coordinate system,投影座標系
+PROJECTGEOMETRY,ジオメトリ投影
+properties inspector,プロパティ インスペクタ
+PROPERTIESCLOSE,オブジェクト プロパティ管理を閉じる
+property line,敷地境界線
+PROPULATE,PROPULATE
+prototype drawing,プロトタイプ図面
+PSBSCALE,PSBSCALE
+PSETUPIN,ページ設定読み込み
+PSFILL,PS 塗り潰し
+PSOUT,PS 書き出し
+PSPACE,ペーパー空間
+PSTSCALE,PSTSCALE
+PTYPE,PTYPE
+Push to Autodesk Docs,Autodesk Docs にプッシュ
+QCCLOSE,クイック計算を閉じる
+QDIM,クイック寸法記入
+QLATTACH,QLATTACH
+QLATTACHSET,QLATTACHSET
+QLDETACHSET,QLDETACHSET
+QLEADER,クイック引出線記入
+QNEW,クイック新規作成
+QQUIT,QQUIT
+QSAVE,上書き保存
+QSELECT,クイック選択
+QTEXT,文字省略
+quick dimension,クイック寸法
+QuickCalc,クイック計算
+QUICKCUI,クイック UI カスタマイズ
+QUICKPROPERTIES,クイック プロパティ
+QVDRAWING,クイック ビュー図面
+QVDRAWINGCLOSE,クイック ビュー図面を閉じる
+QVLAYOUT,クイック ビュー レイアウト
+QVLAYOUTCLOSE,クイック ビュー レイアウトを閉じる
+R14PENWIZARD,R14PENWIZARD
+rapid prototyping,迅速なプロトタイプ作成
+rasterize,ラスター化
+RCONFIG,RCONFIG
+reality capture,リアリティ キャプチャ
+recent blocks list,最近使用したブロック リスト
+recent blocks location,最近使用したブロックの場所
+recloser,遮断器
+RECOVERALL,図面と外部参照を修復
+RECTANG,長方形
+REDEFINE,再定義
+REDIR,REDIR
+REDIRMODE,REDIRMODE
+REDO,やり直し
+REDRAW,再描画
+REDRAWALL,全再描画
+REFCLOSE,インプレイス参照編集を閉じる
+REFEDIT,インプレイス参照編集
+reference constraint,参照拘束
+reference frame,基準座標系
+reference grid,参照グリッド
+Reference Manager,参照管理ユーティリティ
+reference record,参照レコード
+refinement,リファイン
+reflection map,反射マップ
+refraction index,屈折指数
+REFSET,インプレイス参照編集選択
+REGENALL,全再作図
+REGENAUTO,自動再作図モード
+regulator,レギュレータ
+REINIT,再初期化
+relax constraint,拘束を一時解除
+RENAME,名前変更
+render,レンダリング
+render context,レンダリング コンテキスト
+render preset,レンダリング プリセット
+RENDERCROP,レンダリング クロップ
+RENDERENVIRONMENT,レンダリング環境
+RENDERENVIRONMENTCLOSE,RENDERENVIRONMENTCLOSE
+RENDEREXPOSURE,レンダリング露出調整
+RENDEREXPOSURECLOSE,RENDEREXPOSURECLOSE
+RENDERONLINE,オンライン レンダリング
+RENDERPRESETS,レンダリング プリセット
+RENDERPRESETSCLOSE,レンダリング プリセットを閉じる
+RENDERWIN,レンダリング ウィンドウ
+RENDERWINDOW,RENDERWINDOW
+RENDERWINDOWCLOSE,RENDERWINDOWCLOSE
+Report Designer,レポート デザイナー
+report generator,レポート ジェネレータ
+representation string,リプレゼンテーション ストリング
+REPURLS,REPURLS
+request code,リクエスト コード
+reservoir,貯水槽
+RESETBLOCK,ブロックをリセット
+residual,残差
+restrictor,リストリクタ
+retention tank,保持タンク
+return date,返却日
+REVCLOUD,雲マーク
+REVERSE,方向反転
+REVOLVE,回転ソリッド
+REVSURF,回転サーフェス
+rewind history,戻るツールの履歴
+Ribbon Command Locator,リボン コマンド ロケータ
+ribbon panel,リボン パネル
+RIBBONCLOSE,リボン非表示
+roll open,開く
+roll up,ロール アップ
+rollback,ロールバック
+ROTATE,回転
+ROTATE3D,3D 軸回転
+rotation angle,回転角度
+routing line,配管基準
+RPREF,レンダリング詳細設定
+RPREFCLOSE,レンダリング詳細設定を閉じる
+RSCRIPT,ファイル実行ループ
+RTEDIT,RTEDIT
+RTEXT,RTEXT
+RTEXTAPP,RTEXTAPP
+RTPAN,RTPAN
+RTUCS,RTUCS
+RTZOOM,RTZOOM
+rule base,ルール ベース
+RULESURF,ルールド サーフェス
+sample point,サンプル ポイント
+SAVE,保存
+SAVEALL,SAVEALL
+SAVEAS,名前を付けて保存
+SAVEIMG,イメージ保存
+SAVETOCLOUD,SAVETOCLOUD
+SAVETOWEBMOBILE,Web およびモバイルに保存
+scale factor height,高さの尺度係数
+SCALELISTEDIT,尺度リスト編集
+SCALETEXT,文字尺度変更
+scarf groove,はめつぎ
+schema,スキーマ
+schematic component,回路図コンポーネント
+schematic diagram,回路図
+schematic feature,スケマティック表現フィーチャ
+schematic line,スケマティック ライン
+schematic symbol,回路図シンボル
+screening,濃淡度
+SCRIPTCALL,SCRIPTCALL
+section boundary,断面境界
+section object,断面オブジェクト
+section view,断面ビュー
+SECTIONPLANEJOG,折り曲げ断面
+SECTIONPLANESETTINGS,断面オブジェクト設定
+SECTIONPLANETOBLOCK,断面オブジェクトをブロックで保存
+SECTIONSPINNERS,SECTIONSPINNERS
+SECURITYOPTIONS,セキュリティ オプション
+SELECT,オブジェクト選択
+selection cycling,選択の循環
+selection mode,選択モード
+SELECTSIMILAR,類似オブジェクト選択
+SELECTURL,URL 選択
+self-intersecting polygon,自己交差するポリゴン
+septic tank,浄化槽
+SEQUENCEPLAY,SEQUENCEPLAY
+sequential search,シーケンシャル検索
+service point,サービス ポイント
+SETBYLAYER,ByLayer に設定
+SETVAR,変数設定
+SHADE,シェーディング
+shade plot mode,陰線処理印刷モード
+SHADEMODE,シェーディング モード設定
+SHAPE,シェイプ挿入
+SHAREDVIEWS,共有ビュー パネルを表示
+SHAREDVIEWSCLOSE,共有ビュー パネルを閉じる
+SHAREVIEW,ビューを共有
+sheet set manager,シート セット マネージャ
+sheet subset,シート サブセット
+SHEETSET,シート セット マネージャ
+SHEETSETHIDE,シート セット マネージャを閉じる
+shortcut function,サンプル変数
+SHOWPALETTES,パレット表示
+SHOWRENDERGALLERY,レンダリング ギャラリー
+SHOWURLS,SHOWURLS
+SHP2BLK,SHP2BLK
+shut off valve,遮断バルブ
+SIGVALIDATE,デジタル署名検証
+site point,用地ポイント
+sleeve,スリーブ
+smart block,スマート ブロック
+snap angle,スナップ角度
+snap grid,スナップ グリッド
+SOLDRAW,ソリッド断面
+solid primitive,ソリッド プリミティブ
+SOLIDEDIT,ソリッド編集
+SOLPROF,ソリッド外形線
+SOLVIEW,ソリッド ビューポート
+sortents table,ソート順テーブル
+SPACETRANS,空間での長さを変換
+spark gap,スパーク ギャップ
+spec break,スペック ブレーク
+spec conversion report,スペック変換レポート
+SPHERE,球
+spline,スプライン
+SPLINEDIT,スプライン編集
+split point,分割ポイント
+split rivet,足割りリベット
+SPOTLIGHT,スポットライト
+SSX,SSX
+standard deviation,標準偏差
+standoff distance,スタンドオフ間隔
+Start In folder,作業フォルダ
+Start tab,[スタート]タブ
+station summary,ステーション サマリ
+STATS,レンダリング情報
+still image,静止イメージ
+still-image,静止イメージ
+stitch,ステッチ
+STLOUT,STL 書き出し
+Stock Tool,ストック ツール
+stop condition,停止条件
+straddle,またがり
+STRETCH,ストレッチ
+stretch action,ストレッチ アクション
+stretch frame,ストレッチ枠
+structure,ストラクチャ
+student version,学生版
+STYLE,文字スタイル管理
+STYLESMANAGER,印刷スタイル管理
+stylus,スタイラス
+subdivision mesh,サブディビジョン メッシュ
+subdivision surface,サブディビジョン サーフェス
+substation,サプステーション
+substitute block,置換後のブロック
+substitution grip,置換グリップ
+substitution palette,置換パレット
+sun property,日照プロパティ
+SUNPROPERTIES,日照プロパティ
+SUNPROPERTIESCLOSE,日照プロパティを閉じる
+SUPERHATCH,SUPERHATCH
+supply zone,供給ゾーン
+surface analysis,サーフェス解析
+surface indication leader,面の指示記号引出線
+surface normal,サーフェス法線
+SURFBLEND,ブレンド サーフェス
+SURFEXTEND,延長サーフェス
+SURFEXTRACTCURVE,面分割線抽出
+SURFFILLET,サーフェス フィレット
+SURFNETWORK,ネットワーク サーフェス
+SURFOFFSET,オフセット サーフェス
+SURFPATCH,パッチ サーフェス
+SURFSCULPT,サーフェス スカルプ
+SURFTRIM,サーフェス トリム
+SURFUNTRIM,サーフェス トリム解除
+SWEEP,スイープ
+sweep path,スイープ パス
+switchable,切り替え可能
+switchgear,スイッチ ギア
+swivel,旋回
+SYSVARMONITOR,SYSVARMONITOR
+SYSVDLG,SYSVDLG
+SYSWINDOWS,システム ウィンドウ
+tab page,タブ ページ
+TABLEDIT,表セル文字編集
+TABLEEXPORT,表データ書き出し
+tablespace,テーブルスペース
+TABLET,タブレット設定
+TABSURF,タビュレート サーフェス
+tabulated mesh,タビュレート メッシュ
+taper,テーパ
+target layer,ターゲット画層
+TARGETPOINT,指向性点光源
+TASKBAR,タスクバー
+TBCONFIG,TBCONFIG
+TCASE,TCASE
+TCIRCLE,TCIRCLE
+TCOUNT,TCOUNT
+template manager,テンプレート マネージャ
+termination,終端
+Terrain Point Pro,地形ポイント プロ
+tessellation,分割
+TEXTALIGN,TEXTALIGN
+TEXTEDIT,文字編集
+TEXTFIT,TEXTFIT
+TEXTMASK,TEXTMASK
+TEXTSCR,テキスト スクリーン
+TEXTTOFRONT,文字と寸法を前面へ移動
+TEXTUNMASK,TEXTUNMASK
+TFHELP,TFHELP
+TFRAMES,TFRAMES
+TIFOUT,TIFF 書き出し
+tile order,タイルの順序
+tile size,タイルのサイズ
+time server,タイム サーバ
+timeline,タイムライン
+TINSERT,表にブロック挿入
+tint color,明るい色
+title block,タイトル ブロック
+TJUST,TJUST
+tool palette,ツール パレット
+tool palette set,ツール パレット セット
+TOOLBAR,ツールバー
+TOOLPALETTES,ツール パレットを開く
+TOOLPALETTESCLOSE,ツール パレットを閉じる
+toolpath,ツールパス
+top view,平面図
+topic,トピック
+topology,トポロジ
+TORIENT,TORIENT
+torus,トーラス
+Tour Building wheel,ビルディング ツアー ホイール
+tower,鉄塔
+TPNAVIGATE,ツール パレット ナビゲート
+trace direction,トレースの方向
+trace feature,トレース機能
+trackpad,トラックパッド
+transaction,トランザクション
+transformer,変圧器
+translucency,透明度
+transmittal package,転送用パッケージ
+transmittal setup,転送セットアップ
+trapeze bar,吊りサポート金具
+tray,トレイ
+TRAYSETTINGS,ステータスバー トレイ設定
+treatment plant,処理場
+TREESTAT,ツリー情報
+trellis,格子
+TREX,TREX
+triangulate,三角形分割
+trim,トリム
+TSCALE,TSCALE
+TUTCLEAR,TUTCLEAR
+TUTDEMO,TUTDEMO
+TXT2MTXT,TXT2MTXT
+TXTEXP,TXTEXP
+U groove,U 形
+UCSICON,UCS アイコン管理
+UCSMAN,UCS 定義管理
+ULAYERS,アンダーレイ画層
+UNDEFINE,コマンド定義解除
+underconstrained,拘束された
+underlay,アンダーレイ
+UNISOLATEOBJECTS,オブジェクト選択表示終了
+up direction,上方向
+UPDATEFIELD,フィールド更新
+UPDATETHUMBSNOW,サムネイル更新
+upstream,上流
+User Coordinate System,ユーザ座標系
+utility,ユーティリティ
+UV space,UV 空間
+V groove,V 形
+VBAIDE,VBA エディタ
+VBALOAD,VBA ロード
+VBAMAN,VBA 管理
+VBANEW,VBA 新規作成
+VBAPREF,VBA 基本設定
+VBARUN,VBA 実行
+VBASTMT,VBA 文実行
+VBAUNLOAD,VBA ロード解除
+vertex,頂点
+vertex bulge,頂点のふくらみ
+View Object wheel,オブジェクト表示ホイール
+VIEWBASE,ベース ビュー作成
+VIEWCOMPONENT,構成要素表示
+VIEWDETAIL,詳細ビュー作成
+VIEWDETAILSTYLE,詳細ビュー スタイル管理
+VIEWEDIT,ビュー編集
+VIEWGO,ビュー呼び出し
+VIEWPLAY,ビュー再生
+VIEWPLOTDETAILS,印刷とパブリッシュの詳細
+VIEWPORTS,VIEWPORTS
+VIEWPROJ,投影ビュー作成
+VIEWRES,表示精度
+VIEWSECTION,断面ビュー作成
+VIEWSECTIONSTYLE,断面ビュー スタイル管理
+VIEWSETPROJ,ビュー プロジェクト設定
+VIEWSKETCHCLOSE,シンボル スケッチ終了
+VIEWSTD,ビュー標準設定
+VIEWSYMBOLSKETCH,シンボル スケッチ
+VIEWUPDATE,ビュー更新
+visor,バイザー
+VISUALSTYLES,表示スタイル管理
+VISUALSTYLESCLOSE,表示スタイル管理を閉じる
+VLIDE,VLIDE
+VLISP,VLISP エディタ
+VPCLIP,ビューポート クリップ
+VPLAYER,ビューポート画層管理
+VPMAX,ビューポートを最大化
+VPMIN,ビューポートを元に戻す
+VPOINT,3D 視点
+VPORTS,ビューポート管理
+VPSCALE,VPSCALE
+VPSYNC,VPSYNC
+VSCURRENT,ビューポート表示スタイル
+VSLIDE,スライド表示
+VSSAVE,表示スタイル保存
+VTOPTIONS,推移を表示
+WALKFLYSETTINGS,ウォークスルー/フライスルー設定
+waste water,下水
+watched folder,ウォッチ フォルダ
+watermark editor,ウォーターマーク エディタ
+watertight,隙間のない
+WBLOCK,ブロック書き出し
+WCS,WCS
+web file,配光データ ファイル
+web light,配光光源
+web mapping service,Web マッピング サービス
+WEBLIGHT,配光光源
+WEBLOAD,WEBLOAD
+WEDGE,くさび
+welcome screen,ウェルカム センター
+wildcard,ワイルドカード
+winding fill,ワインディング塗り潰し
+WIPEOUT,ワイプアウト
+wipeout object,ワイプアウト オブジェクト
+wireframe,ワイヤフレーム
+WMFIN,WMF 読み込み
+WMFOPTS,WMF オプション
+WMFOUT,WMF 書き出し
+World Coordinate System,ワールド座標系
+world space,ワールド空間
+WSSAVE,ワークスペース保存
+WSSETTINGS,ワークスペース設定
+XATTACH,外部参照アタッチ
+XBIND,個別バインド
+XCLIP,外部参照クリップ
+XDATA,XDATA
+XDLIST,XDLIST
+XEDGES,エッジ抽出
+XLIST,XLIST
+XOPEN,外部参照を開く
+XP,XP
+XPLODE,拡張分解
+XSL,XSL
+zebra analysis,ゼブラ解析
+zipped KML file,圧縮 KML ファイル
+ZOOM,ズーム
+zoom in,拡大ズーム
+zoom invariant,ズームしても変化しない
+zoom out,縮小ズーム

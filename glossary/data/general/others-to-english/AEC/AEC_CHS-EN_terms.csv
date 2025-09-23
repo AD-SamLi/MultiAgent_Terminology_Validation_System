@@ -1,0 +1,560 @@
+﻿source,target
+三维迷你地图,3D Mini-map
+三维旋转小控件,3D Rotate gizmo
+三维缩放小控件,3D Scale gizmo
+桥台,abutment
+帐户管理员,account administrator
+管理员,administrator
+聚合视图,aggregate View
+空气处理设备,air handler
+路线形状点,alignment geometry point
+路线偏移,alignment offset
+ALKIS,ALKIS
+载流量,ampacity
+8 字形分度标,analemma
+分析支撑,analytical brace
+分析楼层,analytical floor
+角速度,angular speed
+注释,annotation
+APL,APL
+视在功率,apparent power
+外观样式,appearance style
+弧弦距离,arc-chord distance
+ArchiCAD 模型,ArchiCAD model
+建筑楼层,architectural floor
+人工地平线,artificial horizon
+ASBD,ASBD
+ASHRAE 管件,ASHRAE fitting
+资源库,asset library
+ATIL,ATIL
+附件,attachment
+AUM 团队,AUM team
+Autodesk 图像库,Autodesk Image Library
+平均端面积,average end area
+方位角,azimuth
+后视,backsight
+被分配者,ball in court
+基本族,base family
+基准曲面,base surface
+批量转换器,batch converter
+Batch Print,Batch Print
+Batch Utility,Batch Utility
+BCA,BCA
+承重墙,bearing wall
+弯曲直径,bend diameter
+护道,berm
+投标资料包,bid package
+计费期,billing period
+BIM 对象,BIM object
+BIM 工具,BIM tool
+Bloss,bloss
+模糊度,blurriness
+借用者,borrower
+边界点,boundary point
+边界框,bounding box
+坡度变化,breakover removal
+砖饰面,brick veneer
+桥,Bridge
+预算支付申请,budget payment application
+预算转移,budget transfer
+建筑公共面积,building common area
+建筑迹线,building footprint
+组合屋顶,built-up roof
+凸起,bulge
+业务部门,business units
+平接,butt
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+电缆桥架,cable tray
+详图索引标记,callout markup
+基于相机,camera-centric
+铁路超高,cant
+端口,cap
+卡通集,cartoon set
+平开,casement
+现场浇注,cast-in-place
+汇流,catchment
+空心墙,cavity wall
+CDE,CDE
+天花板平面,ceiling plan
+中心线,center line
+中心标记,center mark
+瓷砖,ceramic tile
+倒角,chamfer
+更改分析,change analysis
+“更改”工具,Changes tool
+弦距离,chord distance
+碰撞,clash
+Clash Detective,Clash Detective
+冲突网格,clash grid
+冲突组,clash group
+冲突服务,clash service
+间隙,clearance
+间隙碰撞,clearance clash
+天窗,clerestory
+剪裁范围,clip volume
+云模型,cloud model
+规范组合,code combination
+代码集样式,code set style
+几何空间点,Cogo Points
+冷水卫浴装置当量,cold water fixture unit
+共线,colinear
+公司,company
+复合对象,composite object
+合成屋顶,composition roof
+概念能量分析,Conceptual Energy Analysis
+概念体量,conceptual mass
+冷凝水排水,condensate drain
+导管接头,conduit connector
+连接符号,connection symbol
+约束图元,constraint element
+可施工性,constructability
+可施工性建模,constructability modeling
+建筑用钉枪,construction nail gun
+联系人,contact
+内容感知,Content Awareness
+内容包,content pack
+等高线标签,contour label
+受控共享,controlled sharing
+对流载荷,convection load
+外凸,convex
+坐标系,Coordinate System
+坐标追踪器,Coordinate Tracker
+协作空间,coordination space
+连接端切割,cope
+COR,COR
+托臂,corbel
+道路横断面编辑器,corridor section editor
+道路包络线,corridor shrinkwrap
+道路曲面,corridor surface
+成本影响,cost impact
+成本支付申请,cost payment application
+计数算量,count takeoff
+扶壁式,counterfort
+国家/地区套件,country kit
+交叉管道,crossing pipe
+蹲伏,crouch
+三次抛物线,cubic parabola
+当前目录,current directory
+幕墙嵌板,curtain panel
+幕墙系统,curtain system
+幕墙框架,curtain wall frame
+幕墙竖梃,curtain wall mullion
+幕墙单元,curtain wall unit
+曲线拟合步长,curve tessellation distance
+弯曲梁,curved beam
+切入风速,cut-in speed wind
+切出风速,cut-out speed wind
+CWFU,CWFU
+面板,dashboard
+数据标注栏,data band
+采光口,daylight portal
+采光玻璃,daylighting glass
+恒荷载,dead load
+DECDEG,DECDEG
+桥面,deck
+度/分/秒,degrees minutes seconds
+DEM,DEM
+设计,design
+Desktop Connector,Desktop Connector
+数字高程模型,digital elevation model
+数字地形模型,digital terrain model
+分发列表,Distribution List
+dll,DLL
+DMS,DMS
+文档,document
+文档日志,document log
+Document Management,Document Management
+工程图组,drawing group
+落差量,drop amount
+落差参考位置,drop reference location
+落差值,drop value
+忽略,drop-out
+干球,dry bulb
+补墙板,drywall
+DTM,DTM
+风管调节阀,duct damper
+风管管件,duct fitting
+风管内衬,duct lining
+风管系统,duct system
+副本碰撞,duplicate clash
+土方,earthworks
+东距,easting
+编辑点,edit point
+EDM,EDM
+电气设备,electrical equipment
+电子测距仪,electronic distance meter
+标高,elevation
+标高轴,elevation axis
+椭圆段,ellipse segment
+内嵌墙,embedded wall
+终点连接件,end connector
+平衡铁路超高,equilibrium cant
+EVC,EVC
+EVCE,EVCE
+执行权,executive
+排风,exhaust air
+外部距离,external distance
+外部割线,external secant
+护眼,eye
+预制支架,fabrication hanger
+预制零件,fabrication parts
+镶嵌面系数,faceting factor
+功能,feature
+要素线,feature lines
+外业手簿,field book
+视野,field of view
+现场拼接,field splice
+现场团队,field team
+文件,file
+文件日志,files log
+填充图案,fill pattern
+圆角,fillet
+配件,fitting
+固定线,fixed line
+固定窗,fixed window
+卫浴装置当量,fixture unit
+排水沟边坡顶点,flange point
+扩口角度,flare angle
+浮动曲线,float curve
+楼层平面,floor plan
+焦点,focal point
+表单,Form
+形状图元,form element
+基础,foundation
+帧,frame
+帧速率,frame rate
+自由浮动时间,free float
+FU,FU
+甘特图,Gantt
+总承包商,general contractor
+总承包商公司,general contractor company
+大梁,girder
+小控件,gizmo
+百分度,grad
+重力管网,gravity network
+重力管道,gravity pipe
+栅格填充,grid padding
+地线,ground conductor
+地下水,ground water
+护栏,guardrail
+支架,hanger
+硬碰撞,hard clash
+HDS,HDS
+热岛,heat island
+热负荷和冷负荷,heating and cooling loads
+加热设计温度,heating design temperature
+HGL,HGL
+高侧位置,highside location
+平面平差方法,horizontal adjustment method
+火线,hot conductor
+热点,hotspot
+HP,HP
+HS 端板,HS end plate
+HVAC 区,HVAC zone
+循环,hydronic
+Hypermodel,hypermodel
+Hypermodeling,hypermodeling
+冰巨星,ice giants
+影响成本,impact cost
+切线延长线交点,implied point of intersection
+InfraWorks 模型,InfraWorks model
+初期损失,initial abstraction
+发起者,initiator
+输入类型,input type
+实例,instance
+干涉检查,interference check
+内部预算转移,internal budget transfer
+相交策略,intersection method
+Inventor Server,Inventor Server
+库存,inventory
+问题,issue
+“问题”工具,issues tool
+条目,item
+条目摘要,Item summary
+注释记号,keynote
+注释记号表,keynote table
+注释记号标记,keynote tag
+注释记号文字,keynote text
+肘形转角,knuckle
+人工和员工报告,labor and workforce report
+LAS,LAS
+潜热,latent heat
+布局纵断面,layout profile
+标高平台,level landing
+平滑度,level of smoothness
+LF,LF
+照明功率密度,lighting power density
+线边界,line boundary
+线串,line string
+线性阵列,linear array
+线性算量,linear takeoff
+活荷载,live load
+荷载工况,load case
+负荷分类,load classification
+载荷图,load diagram
+定位线,location line
+日志,log
+LP,LP
+主合同,main contract
+检修孔,manhole
+手动输入栏,manual entry bar
+地图检查,mapcheck
+体量楼层,mass floor
+填挖方图,mass haul diagram
+体量分区,mass zone
+材质提取,material takeoff
+Max 模型,Max model
+最大坡度变化,maximum breakover
+最大镶嵌面偏差,maximum facet deviation
+平均日较差,mean daily range
+机械负荷,mechanical load
+成员,member
+迷你地图,mini-map
+副桩号,minor station
+斜接,miter join
+模型对齐,model alignment
+模型生成器,Model Builder
+模型线,model line
+模型文字,model text
+基于模型,model-centric
+多极线路,multi-poled circuit
+多页,multi-sheet
+钉枪,nail gun
+净值图表,net graph
+中性线,neutral conductor
+下一个操作者,next action by
+节点,node
+公称直径,nominal diameter
+北距,northing
+无问题,not an issue
+护理呼叫设备,nurse call device
+对象,object
+对象夹点,object grip
+占用,occupancy
+单向配筋板,one way slab
+组织,organization
+原始预算,original budget
+正交,orthographic
+出水口,outfall
+外部路肩超高方法,outside shoulder superelevation method
+业主变更,owner changes
+P&ID Modeler,P&ID Modeler
+模板托梁,pan joist
+配电盘,panelboard
+路径钢筋,path reinforcement
+PCO,PCO
+人体潜热增量,people latent heat gain
+权限,permission
+阶段过滤器,phase filter
+阶段映射,phase mapping
+Photo on ReCap 360,Photo on ReCap 360
+光域形状,photometric shape
+光子贴图,photon map
+精准光源,physically accurate light
+桥墩,pier
+墩帽,pier cap
+桥墩柱,pier column
+管道附件,pipe accessory
+管道端线,pipe end line
+管件,pipe fitting
+管道隔热层,pipe insulation
+管道平面,pipe plan
+管道铺设,pipe run
+管道壁,pipe wall
+Piranesi EPix,Piranesi EPix
+俯仰,pitch
+Place Me,Place Me
+正压送风系统,plenum
+卫浴装置,plumbing fixture
+点边界条件,point boundary condition
+点荷载,point load
+电力线,power circuit
+电力负荷,power load
+预作用消防系统,pre-action fire protection system
+预浇,precast
+压力损失,pressure loss
+主要,Primary
+主模型,primary model
+产品拾取器,product picker
+纵断面曲线点,profile geometry point
+纵断面坡面线,profile grade line
+纵断面栅格视图,profile grid view
+进度照片,progress photos
+进度跟踪,Progress Tracking
+项目,project
+项目管理员,project administrator
+项目列表,Project List
+项目指标,project metrics
+投影坐标系,projected coordinate system
+近似检查,proximity check
+PyPE,Pype
+质量风险趋势,Quality Risk Trend
+扶手系统,railing system
+原始亮度,raw intensity
+光线跟踪,ray tracing
+RCP,RCP
+钢筋,rebar bar
+ReCap Pro collaboration features,ReCap Pro
+红线批注,redline
+参考,reference
+参考纵断面,reference profile
+区域线,region line
+回归图形,regression graph
+释放条件,release condition
+渲染外观,rendering appearance
+回风,return air
+回风量,return airflow
+反向播放,reverse play
+审阅者,reviewer
+Revit 云工作共享,Revit Cloud Worksharing
+RFI,RFI
+RFI 自定义字段,RFI custom field
+道路红线,right of way
+踢面,riser
+风险级别,Risk Level
+Roamer,Roamer
+角色,role
+卷材屋顶,rolled roof
+屋顶封檐带,roof fascia
+屋脊,roof ridge
+屋檐底板,roof soffit
+房间空置率,room cavity ratio
+房间明细表,room schedule
+根本原因,root cause
+管路,run
+凹曲线,sag curve
+采样线编组,sample line group
+采样点,sample point
+采样的源,sampled source
+价格一览表,schedule of values
+SCO,SCO
+动画互动工具,Scripter
+剖面,section plane
+横断面图纸,section sheet
+选取精度,selection resolution
+维修间隙,service clearance
+集,set
+设置,settings
+阴影捕捉器,shadow catcher
+剪力墙,shear wall
+图纸,sheet
+围护结构,shell construction
+施工图,shop drawing
+路肩坡度变化,shoulder breakover
+正弦半波长递减正切曲线,sine half-wavelength diminishing tangent curve
+正弦曲线,sinusoidal curve
+SketchUp,SketchUp
+斜交角,skew angle
+板底部,slab bottom
+板顶部,slab top
+坡型,slope pattern
+斜梁,sloped beam
+带坡度管道,sloped piping
+软碰撞,soft clash
+实心钢筋混凝土板,solid reinforced concrete slab
+空间命名实用程序,Space Naming Utility
+规格部分,spec section
+拆分位置,split location
+高程点坡度,spot slope
+喷水装置,sprinkler
+接管,spud
+叠层墙,stacked wall
+戳记,stamp
+桩号高程标签,station elevation label
+钢桁架,steel truss
+阶梯式基脚,step footing
+内外牙弯头,street elbow
+字符串字段,string field
+水平长窗,strip window
+剥离铺装层,stripping pavement
+剥离表土,stripping top soil
+结构分析,structural analysis
+结构建模,structural modeling
+部件,subassembly
+分包商质量风险趋势,Subcontractor Quality Risk Trend
+子位置,sub-location
+提交资料,submittal
+从属,Subordinate
+订阅者,subscriber
+叠合纵断面,superimposed profile
+补充距离,supplementing distance
+供应商变更单,supplier change order
+送风系统,supply air system
+曲面纵断面,surface profile
+测量网络,survey network
+测量点,survey point
+样本宽度,swath width
+开关板,switchboard
+算量,takeoff
+算量包,takeoff package
+算量类型,takeoff type
+切线距离,tangent distance
+接头,tap
+任务,task
+团队空间,Team Space
+团队主题,team theming
+温度荷载,temperature load
+模板,template
+箍筋,tie bend
+倾斜角度,tilt angle
+流经时间,time of travel
+时间线,Timeline
+TimeLiner,TimeLiner
+Tinkerplay,Tinkerplay
+标题,title
+标题标记,title mark
+公差,tolerance
+工具,tool
+工具空间,toolspace
+过渡管件,transition fitting
+过渡段长度,transition length
+过渡桩号,transition station
+降低透明度,transparent dimming
+导线测量编辑器,Traverse Editor
+沟渠,trench
+修剪,trim
+实际电流,true current
+实际负荷,true load
+垂直双截面,two-cut plumb
+正方形双截面,two-cut square
+取消存档,unarchive
+无中间带的双向横坡,undivided crowned
+无中间带的单向横坡,undivided planar
+未融入的外部参照,unresolved Xref
+上游预算变更单,upstream budget change order
+用户等高线,user contour
+用户研究,user research
+变风量,Variable Air Volume
+VAV,VAV
+Vehicle Tracking,Vehicle Tracking
+风压,velocity pressure
+饰面,veneer
+通风,vented
+高程平差,vertical adjustment
+竖曲率,vertical curvature
+视图,view
+视图列表,view list
+查看器,viewer
+视点,viewpoint
+视野玻璃,vision glass
+空心几何图形,void geometry
+作废 RFI,void RFI
+空心板,voided slab
+体积表,volume table
+漫游,walkthrough
+条形基础,wall foundation
+腹板厚度,web thickness
+消除,weed
+焊接钢筋结构,welded wire fabric
+湿球,wet bulb
+排水卫浴装置当量,WFU
+WIP 模型,WIP model
+Worksharing Monitor,Worksharing Monitor
+世界坐标系上方向,world up direction
+世界坐标系上方向矢量,world up vector
+包络,wrap
+XDRef,XDRef
+视线影响区,zone of visual influence
+缩放框,zoom box

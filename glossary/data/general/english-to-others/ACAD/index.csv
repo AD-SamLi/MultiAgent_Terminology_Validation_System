@@ -1,0 +1,4 @@
+file,source,target
+ACAD_ARA_terms.csv,en,ar
+ACAD_CHS_terms.csv,en,zh-cn
+ACAD_CHT_terms.csv,en,zh-tw

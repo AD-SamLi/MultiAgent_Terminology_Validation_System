@@ -1,0 +1,119 @@
+﻿source,target
+3D Move-gizmo,3D Move gizmo
+3D Rotate-gizmo,3D Rotate gizmo
+3D Scale-gizmo,3D Scale gizmo
+ALKIS,ALKIS
+analytisch oppervlak,analytical surface
+annotatieve beperking,annotational constraint
+ATIL,ATIL
+Autodesk Content Explorer,Autodesk Content Explorer
+mengmodus,blend mode
+mengoppervlak,blend surface
+BLOB,BLOB
+blokontwerpobject,block authoring object
+blokeigenschappentabel,block properties table
+begrensd gebied,bounded area
+camerakalibratie,camera calibration
+Catmull-Clark-oppervlak met onderverdelingen,Catmull-Clark subdivision surface
+CHAR,CHAR
+CLOB,CLOB
+inactieve grip,cold grip
+samengesteld volume,composite solid
+concentrisch,concentric
+beperkingsparameter,constraint parameter
+beperkingsvariabele,constraint variable
+besturingsomhulsel,control hull
+CRS,CRS
+CSS,CSS
+CV,CV
+CWFU,CWFU
+DCM-engine,DCM Engine
+afhankelijkheidsmarkering,dependency highlighting
+Design Review,Design Review
+Design Web Format,Design Web Format
+Digital Signature Extension,Digital Signature Extension
+bematingsbeperking,dimensional constraint
+DMS,DMS
+DOF,DOF
+DPI,DPI
+Drawing Interchange Format,Drawing Interchange Format
+gestuurde beperking,driven constraint
+DTED,DTED
+DWF,DWF
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DXF,DXF
+hoogte,elevation
+ESW,ESW
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+facet,facet
+FDO,FDO
+plaatsingspunt,fit point
+fold-paneel,fold panel
+ontwerp uit de vrije hand,freeform design
+geometrische beperking,geometric constraint
+georuimtelijke informatie,geospatial information
+gizmo,gizmo
+actieve grip,hot grip
+ISA,ISA
+isolijn,isoline
+isoparm,isoparm
+Keyhole Markup Language,Keyhole Markup Language
+KML,KML
+KMZ,KMZ
+knoopparametrisering,knot parameterization
+taalpakket,language pack
+breedtegraad,latitude
+vloeiendheidsniveau,level of smoothness
+lijnkleuren samenvoegen,line merge
+lengtegraad,longitude
+mental ray,mental ray
+modelparameter,model parameter
+multifunctionele grip,multi-functional grip
+NANT,NANT
+NCLOB,NCLOB
+geneste verwijzing,nested reference
+netwerkoppervlak,network surface
+NURBS-oppervlak,NURBS surface
+ObjectARX,ObjectARX
+octant,octant
+organische modellering,organic modeling
+orthoafbeelding,ortho-image
+overbeperken,over-constrain
+P&ID,P&ID
+panorama,panorama
+parametrisch tekenen,parametric drawing
+patch-oppervlak,patch surface
+potlood,Pencil tool
+periodieke kromme,periodic curve
+aanhoudende objectmagneet,persistent object snap
+tabblad Photo Modeling,photo modeling
+fysieke prototypering,physical prototyping
+voorselectieset,pickfirst set
+PIP,PIP
+planair vlak,planar face
+PolarSnap,PolarSnap
+polyboogsegment,polyarc segment
+polylijn,polyline
+beheer van precisievoorinstellingen,precision presets manager
+primair,Primary
+snelle prototypering,rapid prototyping
+vastlegging van realiteit,reality capture
+referentiebeperking,reference constraint
+beperking verminderen,relax constraint
+secundaire,Secondary
+ShapeManager,ShapeManager
+SketchUp,SketchUp
+onderverdeelde mesh,subdivision mesh
+oppervlak met onderverdelingen,subdivision surface
+thermoplast,thermoplastic
+Underlay,underlay
+opwaartse richting,up direction
+UV-ruimte,UV space
+hoekpunt,vertex
+waterdicht,watertight
+welkomstvenster,welcome screen
+XSL,XSL
+gezipt KML-bestand,zipped KML file
+Invariabel ongeacht zoomfactor,zoom invariant

@@ -1,0 +1,421 @@
+﻿source,target
+3D Print,3D nyomtatás
+action modifier button,műveletmódosító gomb
+adult Tinkercad account,felnőtt Tinkercad-fiók
+air trap,légzárvány
+aligned section view,illesztett metszet
+all-around symbol,összetartozó felületek rajzjel
+alternate unit,Alternatív mértékegység
+analytical surface,analitikus felület
+Angular range,Szögtartomány
+angular speed,szögsebesség
+animation footage,animációs nyersanyag
+assembly constraint,összeállítási kényszer
+assembly pattern,összeállítási kiosztás
+asset library,eszközelemtár
+Autodesk Inventor Mentor,Autodesk Inventor mentor
+Autodesk Manufacturing Community Portal,Autodesk gépipari közösségi portál
+Autodesk Masters award,Autodesk mester díj
+Autodesk Masters Program,Autodesk mesterképzési program
+Autodesk Partner,Autodesk Partner
+Autodesk Projects,Autodesk-projektek
+Autodesk Vault Professional edition,Autodesk Vault Professional változat
+automatic face chain,automatikus laplánckövetés
+automatic routing,automatikus vezetés
+automatic verification,automatikus ellenőrzés
+axis,tengely
+axis offset,tengelyeltolás
+axle,tengely
+background processing,háttérbeli feldolgozás
+ball mill,golyósmalom
+ball nosed tool,gömbvégű marószerszám
+ball screw,golyós orsó
+barrel tool,hordó alakú maró
+base body,bázistest
+base point,bázispont
+baud rate,átviteli sebesség
+beam detail,tartó részletei
+Being Inventive,Being Inventive
+Belleville spring,tányérrugó
+bent tubing route,hajlított cső útvonala
+blend surface,simítási felület
+blisk,járókerék
+body load,testre ható terhelés
+BOM,DBJ
+boundary patch,határvonalfolt
+Bounding Box,befoglaló téglatest
+braking torque,fékezési nyomaték
+branch connection,leágazó kötés
+bulk load,kötegelt feltöltés
+bump,felület
+bump map,felülettérkép
+bump mapping,felülettérképezés
+burn mark,égési nyom
+cable tray,kábeltálca
+callout style,buborékstílus
+canvas,vászon
+cap filleting,Lezárás lekerekítése
+cascade water junction,kaszkádoló vízcsatlakozó
+caterpillar,varratjel
+center line,középvonal
+center pin,központosító csap
+centre point,középpont
+centric axis,középtengely
+chain dimension,láncméretezés
+chamfer tool,élletörő maró
+circlip,rögzítőgyűrű
+circular tapered gate,kúpos beömlőcsatorna
+circumferential speed,kerületi sebesség
+clearance,hézag
+closed edge,lezárt él
+closed return bend,zárt visszahajlítás
+cloud data,felhőadatok
+code snippet,kódrészlet
+codebase,codebase
+coincident constraint,egybeeső kényszer
+co-injection molding,kétkomponensű fröccsöntés
+cold slug,hideg ömledék
+collision,ütközés
+common material,általános anyag
+component visibility,részegység láthatósága
+composite curve,kompozitgörbe
+compound hole,Összetett furat
+concentricity,egytengelyűség
+conduit,vezeték
+Configuration Administrator,Konfiguráció-rendszergazda
+Configurator 360,Configurator 360
+connected workgroup,kapcsolódó munkacsoport
+connector pin,csatlakozótű
+constant-radius fillet,állandó sugarú lekerekítés
+constrained object,kényszerezett objektum
+constraint,kényszer
+contact point boundary,Érintési pontra számított határgörbe
+content library,tartalomtár
+contour,kontúr
+control vertex,vezérlő csúcspont
+control vertex hull,vezérlő csomópontok hálója
+control vertices hull,vezérlő csomópontok hálója
+coolant,hűtőanyag
+coordinate,koordináta
+COPPA,COPPA
+core pin,magcsap
+cosmetic weld bead,jelképes varrat
+cross section analysis,keresztmetszet-elemzés
+cross-highlighting,kiemelés a grafikus felületen
+current directory,aktuális alkönyvtár
+curvature continuous fillet,görbületfolytonos lekerekítés
+curve definition,görbe megadása
+curve editor,görbeszerkesztő
+cutting line,metszővonal
+cycle,ciklus
+database exports,adatbázis-exportálás
+decal,dekoráció
+decision support system,döntéstámogató rendszer
+defeaturing,kis sajátosságok eltávolítása
+dial-up network connection,telefonos hálózati kapcsolat
+die formed lofted flange,préselt pásztázott perem
+dots per inch,pont hüvelykenként
+DPI,DPI
+draft angle,oldalferdeség
+drawing group,rajzi csoport
+drilling cycles,fúróciklusok
+drilling toolpaths,fúrópályák
+drive curve,vezérgörbe
+DSS,DSS
+duct connector,Csővezeték csatlakozó
+dynamic preview,dinamikus előnézet
+edit in place,szerkesztés helyben
+EDM,EDM
+educator account,oktatói fiók
+ejection temperature,kilökési hőmérséklet
+ejector,kilökő
+ejector pin,kilökőcsap
+ejector plate,kilökőlemez
+elbow,könyök
+electric discharge machining,szikraforgácsolás
+electronic distance meter,elektronikus távmérő
+emboss,dombornyomat
+end fill,végső kitöltés
+end of fill pressure,töltőnyomás vége
+end point,végpont
+end treatment,végső megmunkálás
+Expression Builder,Kifejezés-készítő
+exterior corner,külső sarok
+external frame,külső keret
+Fasteners library,Kötőelemtár
+feature collision,alaksajátosságok ütközése
+feature group,alaksajátosság-csoport
+feed rate,előtoló sebesség
+field fit,helyi szerelési
+filestore,fájltároló
+fillet,lekerekítés
+fillet feature,lekerekítés sajátosság
+fillet style,lekerekítés típusa
+fixed edge draft,rögzített élű ferdeség
+fixture offset,nullponteltolás
+flat pattern,teríték
+Flexible Release Process,Rugalmas kiadási folyamat
+flood solution,árvédelmi megoldás
+flow rate,áramlás
+flowline machining strategy,vezérgörbés simító stratégia
+flush constraint,egysíkú kényszer
+free drag,szabadkézi húzás
+freeform edit,szabadvonalas szerkesztés
+freeform shape,szabadformájú alakzat
+Full Navigation wheel,Teljes navigációs kerék
+full round fillet,teljes lekerekítés
+functional design,funkcióalapú tervezés
+Fusion Modeling Data,Fusion Modeling Data
+geometry,geometria
+gesture behavior,mozdulatvezérlés
+gouge,alámarás
+graphics card,videokártya
+gripper,fogó
+groove weld,peremvarrat
+ground plane,talajsík
+ground shadow,talajra vetett árnyék
+grounded work point,rögzített munkapont
+harness part,kábelkorbács-alkatrész
+harness segment,kábelkorbácsszakasz
+hatch pattern,sraffozási minta
+heat transfer pipe,hőátadó cső
+Helius Composite,Helius Composite
+Helius PFA,Helius PFA
+holder clearance,tartó biztonsági távolsága
+horizontal arc,vízszintes körív
+HSV,HSV
+hydroforming,vízsugaras megmunkálás
+I section,I-szelvény
+iCopy,iCopy
+iFeatures,iFeatures
+impersonating user,megtestesítő felhasználó
+inactive component,inaktív részegység
+in-canvas tool,rajzterületi eszköz
+inference,felismerés
+injection cone,beömlőkúp
+injection-compression molding,fröccssajtolás
+insulation displacement,szigetelés eltolása
+intermittent weld,szakaszos varrat
+internal frame,belső keret
+iProperties,iProperties
+ISTE,ISTE
+item deletion restrictions,tételtörlési korlátozások
+item number,tételszám
+item revision,tételverzió
+kinematic chain,kinematikus lánc
+L section,L-szelvény
+language pack,nyelvi csomag
+Launchpad,Indítópult
+layer,fólia
+leaf node mapping,végcsúcsleképezés
+Learning Inventor 2010,Az Inventor 2010 elsajátítása
+lease period,kölcsönzési időszak
+lesser version,korábbi változat
+license server,licenckiszolgáló
+lifecycle transition limit,életciklus-átmenet korlátja
+lifter,emelő
+Live Enabler,Live Enabler
+load diagram,terhelési diagram
+location ring,központosító gyűrű
+lock set,zárókészlet
+lofted flange,pásztázott perem
+loop,hurok
+machining toolpath,megmunkálási szerszámútvonal
+manipulator,manipulátor
+mass flow rate,tömegáram
+material accuracy,anyagpontosság
+maximum clamp force,maximális rögzítőerő
+mechanistic movement,mechanikus mozgás
+mesh view,hálónézet
+mesher,hálózó
+milling tool,marószerszám
+mirror plane,tükörsík
+Model area clearance,Modell nagyolása
+model complexity,modell összetettsége
+model files,modellfájlok
+model limits,modell kiterjedése
+moderator,moderátor
+mold,öntőforma
+mold base,öntőformaalap
+molding window,öntési határok
+multibody workflow,többtestes munkafolyamat
+multi-body workflow,többtestes munkafolyamat
+multi-cavity mold,többfészkes öntőforma
+multiple composites,több kompozit
+navigation bar,Navigációs sáv
+neck,szár
+New Features Workshop,Új szolgáltatások bemutató
+newsgroup,hírcsoport
+NGSS,NGSS
+nodal moment,csomóponti nyomaték
+non-production,nem éles
+non-rectangular viewport,nem négyszögletes nézetablak
+object category,objektumkategória
+organic modeling,természetes modellezés
+Orientation vector machining,megmunkálás orientációs vektorral
+orientation vectors,orientációs vektorok
+origin work feature,kezdőpont munkasajátosság
+o-ring,o-gyűrű
+outer angle,külső szög
+outlining,kivonatolás
+parent account,szülői fiók
+parting design,osztásterv
+parting diagnostic,osztás elemzése
+password policy requirement,jelszóházirend követelményei
+patching surface,foltfelület
+path sketch,útvonalvázlat
+pattern entity,minta
+pattern feature,kiosztás sajátosság
+pencil trace,belsőél-simítás
+physical material,fizikai anyag
+pin constraint,csap kényszer
+pipe plug,csődugó
+pitch diameter,osztókörátmérő
+pitch line,osztóvonal
+placed feature,elhelyezett sajátosság
+planar curve,síkbeli görbe
+planar face,síklap
+plastic part,műanyag alkatrész
+plate detail face,lemezrészlet felülete
+Poisson ratio,Poisson-tényező
+pressed joint,sajtolt kötés
+pressure drop,nyomásveszteség
+pressure loss,nyomásveszteség
+Pro,Pro
+probe body,érzékelőtest
+production version,éles verzió
+program point,programozott pont
+progressive tooltip,progresszív eszköztipp
+project explorer,projektböngésző
+Projects,Projektek
+property mapping,tulajdonságleképezés
+protrusion,vastagítás
+publisher,Közzétevő
+puck,kijelölés
+pull direction,eltávolítás iránya
+quadrant point,körnegyedelő
+quarter section view,negyed metszet
+quilt,lepel
+range,tartomány
+reaction force,reakcióerő
+realistic appearance,valósághű megjelenés
+referencing toolpaths,hivatkozó szerszámpályák
+reflectivity,tükröződés
+re-index,újraindexelés
+repositioned,áthelyezve
+resin identification code,gyantaazonosító kód
+restored pattern element,visszaállított kiosztási elem
+revision format,verzióformátum
+revision scheme,verzióséma
+revision scheme format,verzióséma-formátum
+revision tag,verziócímke
+ribbon cable,szalagkábel
+roughing slice,nagyolási metszet
+rule fillet,szabályalapú lekerekítés
+ruled surface,szabályos felület
+runoff loop,mag körvonala
+runoff surface,magfelület
+sealing plug,tömítődugó
+segment,szegmens
+shank,szár
+shear heating,nyírási melegedés
+shear rate,nyírás mértéke
+sheet metal face,lemezalkatrész lapja
+shell,héj
+shrinkwrap,burkolókontúr
+shrinkwrap substitute,helyettesítés burkolókontúrral
+side core,oldalsó mag
+side lock,oldalsó zár
+single composite,egyetlen összetett test
+Single Point of Failure,egyedi hibapont
+sketch grid,vázlatháló
+sketch illustration,vázlatillusztráció
+sketched feature,vázlatolt sajátosság
+sketched symbol,vázlatolt rajzi jel
+Skill Builder,Készségfejlesztő
+snippet,részlet
+solid face,szilárdtest lapja
+Spindle calibration,Főorsó kalibrálása
+split rivet,hasított szegecs
+spotface,mélyítés
+sprue,beömlőcsatorna
+sprue bushing,beömlőpersely
+spur gear,hengeres fogaskerék
+standard appearance,szabványos megjelenés
+start point,kezdőpont
+stepover,fogásszélesség
+stop pin,rögzítő csap
+strategy,stratégia
+stress analysis,feszültségelemzés
+structural member,szerkezeti elem
+Suite Workflows,csomag munkafolyamatai
+suppressed assembly pattern element,összeállítási kiosztás letiltott eleme
+surface associativity,felületi asszociativitás
+surface body,felületalapú test
+surface face,felület lap
+surface fillet,felület lekerekítése
+surface normal,felületi normális
+surface normal arc,felületre merőleges köríven
+Surface Projection,felületprojekció
+surface texture,felületi mintázat
+surface trimming,felületmetszés
+Swarf,swarf
+terminal electrical properties,kivezetés elektromos tulajdonságai
+Thick Client,Thick Client
+thickness,vastagság
+Thin Client,Thin Client
+thin-walled support shape,vékony falú támasztó alakzat
+third-angle projection,amerikai vetítési rend
+three quarter section view,háromnegyed metszet
+thumb screw,rovátkolt fejű csavar
+time slider,időcsúszka
+tolerance,tűrés
+tool,szerszám
+tool assembly,szerszám-összeállítás
+tool axis,szerszámtengely
+tool database,szerszámadatbázis
+tool entity,szerszámelem
+tool shank,szerszámszár
+tool shank data,szerszámszár adatai
+tool tip radius,szerszám élsugara
+tooling,szerszámkészítés
+toolpath,szerszámpálya
+toolpath points,szerszámpályapontok
+toolpath segments,pályaszegmensek
+toolpath workplane,szerszámpálya koordináta-rendszere
+torque load,nyomatékterhelés
+trochoid,trochoid
+U Section,U-szelvény
+underlay geometry,alávetítési geometria
+undirected angle,irány nélküli szög
+unfold method,kiterítési módszer
+valve gate,szelepes gát
+variable-radius fillet,változó sugarú lekerekítés
+Vault account,Vault-fiók
+Vault blog,Vault blog
+Vault Workgroup,Vault Workgroup
+vaulting restriction,Vault tárbeli korlátozás
+vent,szellőző
+viewer mode,megtekintő mód
+visualization file,látványtervfájl
+volumetric flow rate,térfogatáram
+Vortex toolpath,Vortex-szerszámpálya
+wall clearance,ráhagyás a falakon
+watermark,vízjel
+web thickness,Bordavastagság
+wedge,ék
+weld line,hegesztési varrat
+weld symbol,hegesztési jel
+welding neck flange,hegeszthető toldatos karima
+wire run,vezetékezés
+wireframe display,drótvázas megjelenítés
+work axis,munkatengely
+work feature,munkasajátosság
+work plane,munkasík
+work surface,munkafelület
+workgroup,munkacsoport
+workpiece,munkadarab
+workplane,koordináta-rendszer
+worm gear,csigahajtás
+yaw,függőleges tengely körüli elfordulás
+yield strength,folyáshatár

@@ -1,0 +1,558 @@
+﻿source,target
+3D mesh primitive,3D 網面基本圖元
+3D Move gizmo,3D 移動控點
+3D Rotate gizmo,3D 旋轉控點
+3D Scale gizmo,3D 縮放控點
+administrator,管理員
+air handler,空氣處理裝置
+aligned section view,對齊剖面視圖
+alignment geometry point,定線幾何點
+alignment offset,定線偏移
+ALKIS,ALKIS
+ampacity,載流量
+analemma,日行軌跡
+analytical brace,分析支撐
+analytical floor,解析樓板
+analytical surface,解析表面
+angle of deflection,偏折角度
+angular speed,角速度
+annotation,註解
+apparent power,視在功率
+appearance style,外觀型式
+appurtenance,附屬設備
+arc-chord distance,弧弦距離
+ArcGIS,ArcGIS
+ArchiCAD model,ArchiCAD 模型
+architectural floor,建築樓板
+artificial horizon,人造水平
+As-built,竣工圖
+ASHRAE fitting,ASHRAE 配件
+asset library,資產資源庫
+ATIL,ATIL
+AUM team,AUM 團隊
+AutoCAD model,AutoCAD 模型
+Autodesk Image Library,Autodesk 影像資源庫
+Autodesk Model Coordination,Autodesk Model Coordination
+average end area,平均端面積
+axis offset,軸偏移
+azimuth,方位角
+backsight,後視
+ball in court,行動者
+base family,基準族群
+base surface,基準地形
+batch converter,批次轉換器
+Batch Print,Batch Print
+Batch Utility,Batch Utility
+BCA,BCA
+BCF,BCF
+bearing wall,支承牆
+bend diameter,折彎直徑
+berm,護道
+bid package,投標套件
+billing period,計費期間
+BIM tool,BIM 工具
+bloss,Bloss
+blur,模糊
+blurriness,模糊度
+borrower,借用者
+boundary point,邊界點
+bounding box,邊界框
+branch circuit,分支電路
+breakover removal,坡度變化移除
+brick veneer,磚板
+Bridge,橋接
+Bridge Design for InfraWorks 360,Bridge Design for InfraWorks 360
+budget code segment,預算代碼區段
+budget payment application,預算付款申請
+budget transfer history,預算轉移歷程
+building common area,建築公共區域
+building footprint,建築整地版形
+building level,建築樓層
+built-up roof,組合式屋頂
+bulge,凸度
+butt,平接
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+cable tray,電纜托盤
+CADmep,CADmep
+callout tag,圖說標籤
+camera-centric,相機中心
+cant,鐵路超高
+cap,末端收頭
+cartoon set,底圖集
+casement,推開窗
+cast-in-place,現場澆注
+catchment,集水區
+cavity wall,空心牆
+ceiling plan,天花板平面圖
+center line,中心線
+center mark,中心標記
+ceramic tile,瓷磚
+chamfer,倒角
+change order transfer,變更命令轉移
+chord distance,弦距離
+clash,衝突
+Clash Detective,Clash Detective
+clash grid,衝突網格
+clearance,間隙
+clearance clash,間隙衝突
+clerestory,高窗
+clip volume,截取體積
+code set style,代碼集型式
+cold water fixture unit,冷水裝置單元
+company,公司
+composite object,複合物件
+composition roof,組合式屋頂
+Conceptual Energy Analysis,概念能源分析
+conceptual mass,概念量體
+condensate drain,冷凝水排水
+conduit,導管
+conduit connector,導管接頭
+conduit fitting,導管配件
+constraint element,約束元素
+constructability modeling,可營造性建模
+contact,聯絡人
+content library,圖庫
+content pack,內容套件
+contour label,等高線標示
+contract item,合約項目
+controlled sharing,受控共用
+convection load,對流負載
+convex,凸面
+Coordinate Tracker,座標追蹤器
+cope,蓋頂
+COR,COR
+corbel,樑托
+corridor section editor,廊道橫斷面編輯器
+corridor shrinkwrap,廊道伸縮外圍
+corridor surface,廊道地形
+cost basis,成本基礎
+cost impact,成本影響
+cost payment application,成本付款申請
+count takeoff,計數計量
+country kit,國家/地區套件
+crossing pipe,十字管
+crouch,蹲伏
+cubic parabola,三次拋物線
+current directory,目前目錄
+curtain grid,帷幕網格
+curtain panel,帷幕板
+curtain system,帷幕系統
+curtain wall,帷幕牆
+curtain wall frame,帷幕牆框架
+curtain wall grid,帷幕牆網格線
+curtain wall mullion,帷幕牆豎框
+curtain wall unit,帷幕牆單位
+curve tessellation distance,曲線嵌合距離
+curved beam,彎曲樑
+cut-in speed wind,切入風
+cut-out speed wind,切出風
+CWFU,CWFU
+daily risk,每日風險
+data band,資料區帶
+daylight portal,日光入口
+daylighting glass,採光玻璃
+dead load,靜荷載
+DECDEG,DECDEG
+degrees minutes seconds,度/分/秒
+DEM,DEM
+demand factor,需求率
+design,設計
+Desktop Connector,Desktop Connector
+digital elevation model,數位高程模型
+digital terrain model,數位地形模型
+DimConstraint,尺度約束
+display representation,顯示模式
+DLL,dll
+DMS,DMS
+Drainage Design for Infraworks 360,Drainage Design for Infraworks 360
+drawing group,圖面群組
+drop amount,落差量
+drop reference location,落差參考位置
+drop value,落差值
+drop-out,忽略
+dry bulb,乾球
+drywall,乾砌牆
+DTM,DTM
+duct connector,管道接頭
+duct damper,管道阻尼器
+duct fitting,管道配件
+duct lining,管道內襯
+duct system,管道系統
+duplicate clash,重複衝突
+earthworks,土方工程
+easting,東距
+edit point,編輯點
+EDM,EDM
+electrical equipment,電氣設備
+electronic distance meter,電子測距儀
+elevation,高程
+elevation axis,高程軸
+embedded wall,嵌入牆
+end connector,端點接口
+Engineer-to-Order,Engineer-to-Order
+equilibrium cant,平衡鐵路超高
+EVC,EVC
+EVCE,EVCE
+executive,行政主管
+exhaust air,排氣
+external distance,外部距離
+external secant,外側正割線
+eye,視線
+fabrication parts,製造零件
+faceting factor,刻面係數
+feature,功能
+fidelity,保真度
+field book,實地紀錄
+field of view,視野
+field report,現場報告
+files log,檔案記錄
+fill pattern,填滿樣式
+fillet,圓角
+financial markup formula,財務標記公式
+fitting,配件
+fixed line,固定線
+fixed window,固定窗
+fixture unit,裝置單位
+flange point,凸緣點
+float curve,浮動曲線
+floor plan,樓板平面圖
+focal point,焦點
+Form,表單
+form element,塑形元素
+frame,畫面
+frame rate,畫面速率
+FU,FU
+fuzz,連綴
+GDPR,GDPR
+general contractor,總承包商
+generative design,衍生式設計
+gizmo,控點
+grad,百分度
+grading plan,整地計畫
+gravity network,重力管網
+grid padding,格線填補
+ground conductor,接地導體
+guardrail,護欄
+hard clash,硬衝突
+HDS,HDS
+heat gain,熱增量
+heat island,熱島
+heating and cooling loads,加熱與冷卻荷載
+heating design temperature,加熱設計溫度
+HGL,HGL
+highside location,高側位置
+horizontal adjustment method,水平校正法
+hot conductor,火線
+hotspot,聚光角
+HP,HP
+HS end plate,HS 端板
+HVAC zone,HVAC 區域
+hydronic,循環
+hypermodel,超模型
+Ia,Ia
+ice giants,冰巨行星
+implied point of intersection,隱含的交點
+industry model,產業模型
+input type,輸入類型
+instance,例證
+interference check,干涉檢查
+internal budget transfer,內部預算轉移
+intersection,交點
+intersection method,相交方式
+inventory,庫存清單
+issues tool,問題工具
+item,項目
+keynote,關鍵註記
+keynote table,關鍵註記表格
+keynote tag,關鍵註記標籤
+keynote text,關鍵註記文字
+knuckle,肘形路緣
+latent heat,潛熱
+layer state,圖層狀態
+layout profile,配置縱斷面
+level landing,樓層平台
+level of smoothness,平滑度等級
+LF,LF
+lighting device,照明裝置
+lighting fixture,照明裝置
+lighting power density,照明功率密度
+line boundary,線邊界
+line string,線串
+linear array,線性陣列
+linear dimension,線性標註
+linear takeoff,線性計量
+live load,動荷載
+load case,荷載情況
+load classification,荷載分類
+location,位置
+location line,定位線
+log,記錄
+LP,LP
+lump sum,一次性付款
+main contract,主合約
+manhole,人孔
+manual entry bar,手動輸入列
+mapcheck,地圖檢查
+markup,標記
+mass floor,量體樓板
+mass haul diagram,運土圖
+mass zone,量體區域
+master schedule,主明細表
+material takeoff,材料需求
+Max model,Max 模型
+maximum breakover,最大坡度變化法
+maximum facet deviation,最大刻面偏差
+mean daily range,平均日溫差
+mechanical load,機械荷載
+member,成員
+mid-ordinate,中距
+mid-ordinate distance,中距距離
+mini-map,迷你地圖
+minor station,次要樁號
+miter join,斜接
+model alignment,模型對齊
+model line,模型線
+model text,模型文字
+model-centric,模型中心
+Multiplanar,多層面
+Multi-planar,多層面
+multiple members,多位成員
+multi-poled circuit,多極電路
+multi-sheet,多圖紙
+net graph,淨值圖表
+NNI,NNI
+nominal diameter,標稱直徑
+northing,北向
+nurse call device,急救裝置
+object,物件
+object grip,物件掣點
+occupancy,佔用
+occupiable,可佔用
+offering,提供內容
+one way slab,單向樓板
+ordinate dimensioning,座標式標註
+organization,組織
+orthographic,正投影
+outfall,出口
+outside shoulder superelevation method,外側路肩超高法
+overbilling,超額計費
+owner changes,擁有者變更
+owner company,擁有者公司
+P&ID Modeler,P&ID Modeler
+pan joist,門板小樑
+panelboard,配電盤
+path reinforcement,路徑鋼筋
+payment application,付款申請
+people latent heat gain,人群潛熱增量
+permission,權限
+permission level,權限等級
+permission tier,權限層級
+phase filter,階段篩選
+phase mapping,階段對映
+Photo on ReCap 360,Photo on ReCap 360
+photometric shape,光度造型
+photon map,光子貼圖
+physically accurate light,精準光源
+PI point,PI 點
+pier,碼頭
+pipe accessory,管附件
+pipe connector,管接頭
+pipe end line,管末端線
+pipe fitting,管配件
+pipe insulation,管隔熱層
+pipe layout,管配置
+pipe plan,管平面
+pipe wall,管壁
+Piranesi EPix,Piranesi EPix
+pitch,俯仰
+plan readability,平面圖可讀性
+plenum,靜壓箱
+plumbing fixture,衛工裝置
+point boundary condition,點邊界條件
+point load,點負載
+power circuit,動力電路
+power collaborator,主要合作者
+power load,動力負載
+pre-action fire protection system,預動防火系統
+precast,預鑄
+pressure loss,壓力損耗
+pressure pipe,壓力管
+Primary,主要
+primary model,主要模型
+product,產品
+product picker,產品選擇工具
+profile geometry point,縱斷面幾何點
+profile grade line,縱坡線
+profile grid view,縱斷面格線視圖
+project,專案
+Project List,專案清單
+projected coordinate system,投影座標系統
+property line,地界線
+proximity check,近似檢查
+purchase order change order,採購訂單變更命令
+purchase order quotation,採購訂單報價
+pushpin,圖釘
+railing system,扶手系統
+raw intensity,原始強度
+ray tracing,光跡追蹤
+rebar bar,直筋
+redline,紅線批注
+redundant room,冗餘的房間
+reference,參考
+reference profile,參考縱斷面
+reflected ceiling plan,天花板反射平面
+region line,區域線
+regression graph,回歸圖表
+release condition,釋放條件
+rendering appearance,彩現外觀
+retention,保留額
+return air,回氣
+return airflow,回氣量
+reverse play,反向播放
+revised cost basis,修訂成本基礎
+RFI,RFI
+RFI custom field,RFI 自訂欄位
+RFQ,報價請求
+right of way,路權線
+riser,豎板
+Roadway Design for InfraWorks 360,Roadway Design for InfraWorks 360
+Roamer,Roamer
+rolled roof,卷材屋頂
+roof fascia,屋頂樑橫帶
+roof ridge,屋脊
+roof soffit,屋簷底板
+room cavity ratio,房間空出率
+room schedule,房間明細表
+rumble strips,跳動路面
+sag curve,凹陷
+sample line group,取樣線群組
+sample point,取樣點
+sampled source,取樣來源
+Schedule,進度表
+schedule of values,計價進度表
+Scripter,Scripter
+section sheet,橫斷面圖紙
+segment code,區段代碼
+selection resolution,選取解析度
+service clearance,維修間隙
+set,集
+settings,設定
+shadow catcher,陰影捕捉
+shear wall,剪力牆
+shell construction,殼體營造
+shop drawing,施工圖
+shoulder breakover,路肩坡度變化
+sine half-wavelength diminishing tangent curve,正弦半波遞減切線
+sinusoidal curve,正弦曲線
+SketchUp,SketchUp
+skew angle,斜交角
+slab bottom,平板底部
+slab top,平板頂部
+slope pattern,坡度樣式
+sloped beam,斜樑
+sloped piping,傾斜管
+soft clash,軟衝突
+Space Naming Utility,Space Naming Utility
+speed striping,減速路面
+spiral,螺旋線
+split location,分割位置
+spot slope,定點斜度
+sprinkler,灑水頭
+spud,銷釘
+stacked wall,堆疊牆
+stamp,戳記
+station elevation label,樁號高程標籤
+step footing,台階基腳
+still image,靜態影像
+stored material,儲存材料
+street elbow,公母接頭
+strip window,條形窗
+stripping pavement,剝離鋪面
+stripping top soil,剝離表土
+structural analysis,結構分析
+Structural Analysis for Revit,Structural Analysis for Revit
+structural modeling,結構建模
+subassembly,次組合
+subcontract change order,子合約變更命令
+sub-location,子位置
+submittal,提交項目
+Subordinate,從屬
+subscriber,訂閱客戶
+superimposed profile,疊合縱斷面
+supplementing distance,增補距離
+supplier change order,供應商變更命令
+supplier contract,供應商合約
+supply air system,供氣系統
+surface profile,地形縱斷面
+survey network,測量控制網
+survey point,測量點
+swath width,行跡寬度
+switchboard,配電板
+tag,標籤
+takeoff,計量
+takeoff item,計量項目
+takeoff package,計量套件
+tangent distance,切線距離
+tap,接頭
+task,任務
+team,團隊
+team theming,團隊主題
+temperature load,溫度負載
+template,樣板
+tie bend,箍筋
+tilt angle,傾斜角度
+time of travel,流動時間
+TimeLiner,TimeLiner
+title,職稱
+title mark,標題標記
+tolerance,公差
+tool,工具
+toolspace,工具區
+transition fitting,轉移配合
+transition length,變化長度
+transition station,變化樁號
+transparent dimming,暗顯透明化
+Traverse Editor,導線編輯器
+trench,溝渠
+trim,修剪
+true current,實際電流
+true load,實際荷載
+two-cut plumb,垂直對切
+two-cut square,正方形對切
+UCS,UCS
+undivided crowned,未分割拱形
+undivided planar,未分割平面
+unresolved Xref,未解析的外部參考
+upstream budget change order,上游預算變更命令
+user contour,使用者等高線
+Variable Air Volume,可變風量
+VAV,VAV
+Vehicle Tracking,Vehicle Tracking
+velocity pressure,速度壓力
+veneer,薄板
+vertical adjustment,垂直調整法
+vertical curvature,垂直曲率
+view,視圖
+view list,視圖清單
+viewpoint,視點
+vision glass,可視玻璃
+void geometry,空心幾何圖形
+volume table,體積表
+walkthrough,穿越
+wall foundation,牆基礎
+weather station,氣象站
+web thickness,腹板厚度
+weed,刪點
+welded wire fabric,焊接鋼絲網
+wet bulb,濕球
+WFU,WFU
+wood framing,木框架
+Worksharing Monitor,Worksharing Monitor
+world up direction,世界向上方向
+world up vector,世界向上向量
+wrap,折繞
+XDRef,XDRef
+zone of visual influence,視線影響區域
+zoom box,縮放框

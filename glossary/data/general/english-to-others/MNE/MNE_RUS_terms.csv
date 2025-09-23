@@ -1,0 +1,70 @@
+﻿source,target
+alpha-blend,альфа-смешение
+angular speed,угловая скорость
+Autodesk Masters award,Награда Autodesk Masters
+Autodesk Masters Program,Программа Autodesk Masters
+axis offset,смещение оси
+bake,применить тени
+binary large object,большой двоичный объект
+bind pose,поза в привязке
+blend mode,режим смешивания
+blend surface,переходная поверхность
+border,граница
+bounding box,ограничивающая рамка
+brush,кисть
+Building Information Modeling,информационное моделирование объектов строительства
+bulge,прогиб
+bump,выдавливание
+bump map,карта выдавливания
+bump mapping,текстура выдавливания
+camera,камера
+casement,распашной переплет
+character large object,большой символьный объект
+CLOB,CLOB
+closed edge,замкнутое ребро
+constrained object,зависимый объект
+constraint solver,решение зависимостей
+control vertex,управляющая вершина
+control vertex hull,каркас управляющих вершин
+control vertices hull,каркас управляющих вершин
+convex,выпуклый
+coordinate reference system,опорная система координат
+depth of field,глубина резкости
+digital elevation model,цифровая модель рельефа
+displacement scale,масштаб смещения
+dithering,размывание
+elevation axis,ось отметки
+eyedropper,пипетка
+fillet,сопряжение
+Filmbox,Filmbox
+flyout,всплывающие меню
+fly-out,всплывающие меню
+frame,кадр
+frame rate,частота кадров
+full-body inverse kinematics,обратная кинематика всего тела
+hardware shader,аппаратный шейдер
+isoparm,изопараметрическая кривая
+knuckle,изгиб
+layer,слой
+level,уровень
+linear array,линейный массив
+MatchMover,MatchMover
+mesh,сеть
+mesher,генератор сети
+Meshmixer,Meshmixer
+MUD,MUD
+Mudbox,Mudbox
+NTSC,NTSC
+OBJ,OBJ
+opacity,непрозрачность
+OpenEXR,OpenEXR
+ray tracing,трассировка лучей
+reflection map,карта отражения
+sample point,выборочная точка
+secondary joint,вспомогательное соединение
+slope-offset-power,"наклон, смещение, степень"
+SMPTE,SMPTE
+SOP,SOP
+superimposed profile,наложенный профиль
+surface trimming,обрезка поверхности
+universal manipulator,универсальный манипулятор

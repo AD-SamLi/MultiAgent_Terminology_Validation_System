@@ -1,0 +1,415 @@
+﻿source,target
+3D mesh primitive,primitivo de malha 3D
+3D Mini-map,minimapa 3D
+3D Move gizmo,meta-alça Mover 3D
+3D Rotate gizmo,meta-alça Rotacionar 3D
+3D Scale gizmo,meta-alça Escala 3D
+abutment,encontro
+ACC,ACC
+account administrator,administrador da conta
+aggregate View,vista agregada
+air handler,dissipadores de ar
+Airtable,Airtable
+aligned section view,vista de corte alinhada
+alignment offset,deslocamento do alinhamento
+ALKIS,ALKIS
+ampacity,ampacidade
+analemma,analema
+analytical brace,contraventamento analítico
+analytical floor,pisos analíticos
+analytical surface,superfície analítica
+angle of deflection,ângulo de deflexão
+angular speed,velocidade angular
+annotation,anotação
+APL,APL
+apparent power,potência aparente
+appearance style,estilo da aparência
+approver,aprovador
+ArcGIS,ArcGIS
+architectural floor,piso de arquitetura
+ASBD,ASBD
+ASHRAE fitting,acessório ASHRAE
+asset library,biblioteca de recursos
+Assets,Ativos
+ATIL,ATIL
+attachment,anexo
+AutoCAD model,Modelo do AutoCAD
+Autodesk Image Library,Biblioteca de imagens da Autodesk
+Autodesk Model Coordination,Autodesk Model Coordination
+azimuth,azimute
+ball in court,cessionário
+base family,família base
+Batch Print,Batch Print
+BCA,BCA
+bearing wall,parede de apoio
+bend diameter,diâmetro da dobra
+borrower,usuário temporário
+bounding box,caixa delimitadora
+box girder,longarina de caixa
+branch circuit,circuito de ramificação
+brick veneer,tijolo envernizado
+Bridge,Ponte
+Bridge Design for InfraWorks 360,Bridge Design for InfraWorks 360
+building common area,área comum do edifício
+building footprint,perímetro da construção
+building level,andar de um prédio
+built-up roof,telhado composto
+bulge,convexidade
+business units,setores da empresa
+butt,junta de topo
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+cable tray,bandeja de cabos
+callout tag,marca de legenda
+cant,superelevação ferroviária
+cap,capa
+cartoon set,conjunto de desenhos digitais
+casement,de vidro
+catchment,área de contribuição
+ceiling plan,planta de forro
+center line,linha de centro
+center mark,marca de centro
+ceramic tile,azulejo cerâmico
+change analysis,análise de alterações
+Changes tool,ferramenta Alterações
+characteristic strength,resistência característica
+clash group,grupo de interferências
+clash service,serviço de detecção de interferências
+clip volume,volume de corte
+cloud model,modelo da nuvem
+code combination,combinação de códigos
+cold water fixture unit,unidade do acessório de água fria
+colinear,colinear
+collinear,colinear
+composition roof,telhado composto
+compressive strength,resistência à compressão
+Conceptual Energy Analysis,Análise de energia conceitual
+conceptual mass,massa conceitual
+condensate drain,dreno de condensação
+conduit,conduíte
+conduit fitting,conexão de conduíte
+constraint element,elemento de restrição
+content library,biblioteca de conteúdo
+content pack,pacote de conteúdo
+contour label,legenda de contorno
+convection load,carga de convexão
+convex,convexo
+coordination space,espaço de coordenação
+cope,junta
+corbel,consolo
+corridor section,seção de corredor
+corridor section editor,editor de seção do corredor
+counterfort,contraforte
+current directory,diretório atual
+curtain grid,eixo cortina
+curtain panel,painel cortina
+curtain system,sistema de cortina
+curtain wall,parede cortina
+curtain wall frame,moldura de parede cortina
+curtain wall grid,eixo de parede cortina
+curtain wall mullion,montante de parede cortina
+curtain wall unit,unidade de parede cortina
+curved beam,viga curvada
+custom girder,longarina personalizada
+cut-in speed wind,velocidade de corte do vento
+cut-out speed wind,velocidade de arranque do vento
+CWFU,CWFU
+dashboard,painel
+daylight portal,portal de luz natural
+daylighting glass,vidro de luz natural
+dead load,carga permanente
+DECDEG,DECDEG
+deck,tabuleiro
+degrees minutes seconds,graus minutos segundos
+DEM,DEM
+demand factor,fatores de demanda
+design report,relatório de projeto
+Desktop Connector,Desktop Connector
+DimConstraint,RestriçãoCota
+direction type,tipo de direção
+Distribution List,Lista de distribuição
+DLL,dll
+DMS,DMS
+document,documento
+document log,registro de documentos
+Drainage Design for Infraworks 360,Drainage Design for Infraworks 360
+drainage network,rede de drenagem
+drawing group,grupo de desenhos
+dry bulb,bulbo seco
+drywall,drywall
+DTM,DTM
+duct connector,conector de dutos
+duct damper,amortecedor de dutos
+duct fitting,conexão de duto
+duct lining,revestimento do duto
+duct system,sistema de dutos
+EDM,EDM
+electrical equipment,equipamentos elétricos
+electronic distance meter,medidor eletrônico de distância
+elevation,elevação
+elevation axis,eixo de elevação
+embedded wall,parede embutida
+end connector,conector final
+equilibrium cant,superelevação ferroviária de equilíbrio
+EVC,EVC
+EVCE,EVCE
+exhaust air,ar de exaustão
+fabrication parts,peças de fabricação
+feature lines,linhas de recurso
+field splice,emenda de campo
+file,arquivo
+fill pattern,padrão de preenchimento
+fillet,arredondamento
+fillet radius,raio de arredondamento
+Final Surface,superfície de projeto
+finite-element bridge analysis,análise de ponte com método de elemento finito
+fixed window,janela fixa
+fixture unit,unidade de ajuste
+flare angle,ângulo de abertura
+floor plan,planta baixa
+form element,elemento da forma
+Forms,Formulários
+foundation,fundação
+frame,quadro
+frame rate,taxa de quadros
+FU,FU
+fuzz,degradação
+girder,longarina
+girder shape,forma da longarina
+gizmo,meta-alça
+grading plan,projeto de nivelamento
+gravity network,rede de gravidade
+gravity pipe,tubulação de gravidade
+ground conductor,condutor terra
+hanger,tirante
+HDS,HDS
+heat gain,ganho de calor
+heat island,ilha de calor
+heating and cooling loads,cargas de aquecimento e resfriamento
+heating design temperature,temperatura do projeto de aquecimento
+HGL,HGL
+hot conductor,fases
+HP,HP
+HVAC zone,Zona AVAC
+hydronic,hidrônico
+hypermodeling,hipermodelo
+Ia,Ia
+impact cost,afetar o custo
+industry model,modelo industrial
+InfraWorks model,modelo do InfraWorks
+initiator,iniciador
+interface shear,cisalhamento da interface
+interference check,verificação de interferência
+intersection component,componente de interseção
+issue,problema
+Issues,Problemas
+Item summary,Resumo do item
+keynote,nota-chave
+keynote table,tabela de notas-chaves
+keynote tag,identificador de nota-chave
+keynote text,texto da nota-chave
+ladder deck,tabuleiro de escada
+latent heat,calor latente
+lateral bracing,contraventamento lateral
+level landing,patamar de nível
+level of smoothness,nível de suavidade
+LF,LF
+lighting device,dispositivo de iluminação
+lighting fixture,luminárias
+lighting power density,densidade de potência de iluminação
+line boundary,limite da linha
+linear array,matriz linear
+linear dimension,cota linear
+load case,carga diversificada
+load classification,classificação de cargas
+load diagram,diagrama de cargas
+location line,linha de localização
+Locations,localizações
+longitudinal spacing,espaçamento longitudinal
+LP,LP
+markup,marca de revisão
+mass floor,piso de massa
+mass zone,zona de massa
+material properties,propriedades do material
+material takeoff,levantamento de material
+Max model,Modelo do Max
+mean daily range,faixa diária média
+mechanical load,carga mecânica
+Meetings,Reuniões
+miter join,junta chanfrada
+Model Builder,Gerador de modelo
+Model Builder model,modelo do Gerador de modelo
+model line,linha do modelo
+model text,texto de modelo
+Multiplanar,Multiplanar
+Multi-planar,Multiplanar
+multi-poled circuit,circuito de múltiplos polos
+multi-sheet,múltiplas folhas
+neutral conductor,condutor neutro
+next action by,próxima ação por
+node,nó
+nominal diameter,diâmetro nominal
+northing,norte
+not an issue,não é um problema
+nurse call device,dispositivo de chamada de enfermeira
+occupancy,ocupação
+occupiable,ocupável
+one way slab,laje de uma direção
+ordinate dimensioning,cotação por coordenada
+orthographic,ortogonal
+P&ID Modeler,P&ID Modeler
+pan joist,Pan Joist
+panelboard,painel de controle
+path reinforcement,armadura do caminho
+people latent heat gain,ganho de calor latente por pessoa
+phase filter,filtro de fase
+phase mapping,mapeamento de fase
+photometric shape,forma fotométrica
+photon map,mapa de fótons
+Photos,Fotos
+PI point,Ponto PI
+pier,pilar
+pier cap,cobertura do pilar
+pier column,coluna do pilar
+pipe accessory,acessório de tubulação
+pipe fitting,conexão de tubulação
+pipe insulation,isolamento da tubulação
+pipe layout,layout da tubulação
+pipe plan,planta de tubulação
+pipe run,trecho de tubulação
+Piranesi EPix,Piranesi EPix
+pitch,passo
+Place Me,Levar-me
+plenum,plenum
+plumbing fixture,material hidráulico
+point boundary condition,condição de limite de ponto
+point cloud data,dados da nuvem de pontos
+Point Cloud Image Lookup,busca de imagem de nuvem de pontos
+point load,carga do ponto
+power circuit,circuito de potência
+power load,carga de potência
+pre-action fire protection system,sistema de proteção de pré-ação contra incêndio
+precast,pré-moldado
+pressure loss,perda de pressão
+Primary,principal
+project administrator,administrador do projeto
+project metrics,métricas do projeto
+project plan,plano de projeto
+projected coordinate system,sistema de coordenadas do projeto
+property line,linha de divisa
+proposal,proposta
+push pin,pino
+Pype,Pype
+Quick Tickets,Tíquetes rápidos
+railing system,sistema de guarda-corpo
+ray tracing,tracejamento de raio
+RCP,RCP
+reactive ticket,tíquete reativo
+rebar bar,barra de armadura
+redundant room,ambiente redundante
+reference profile,perfil de referência
+reflected ceiling plan,planta de forro refletido
+region line,linha de região
+release condition,condição de liberação
+rendering appearance,aparência de renderizado
+return air,ar de retorno
+return airflow,fluxo de ar de retorno
+reviewer,revisor
+RFI,RFI
+riser,espelho de degrau
+Risk Level,nível de risco
+Roadway Design for InfraWorks 360,Roadway Design for InfraWorks 360
+role,função
+rolled roof,telhado em rolo
+roof fascia,borda do telhado
+roof ridge,cume do telhado
+roof soffit,sofito do telhado
+room cavity ratio,relação de cavidade do ambiente
+room schedule,tabela de ambientes
+root cause,causa raiz
+rumble strips,faixas de alerta
+run,condutor
+Schedule,Cronograma
+seat,licença
+selection resolution,resolução da seleção
+service clearance,espaço para realizar manutenção
+shear wall,parede de cisalhamento
+sheet,prancha
+Sheets,Pranchas
+shell construction,construção das paredes externas
+shop drawing,desenho de fabricação
+SketchUp,SketchUp
+slab bottom,base da laje
+slab top,topo da laje
+sloped beam,viga inclinada
+sloped piping,tubulação inclinada
+solid reinforced concrete slab,laje sólida de concreto reforçado
+Space Naming Utility,Space Naming Utility
+spec section,seção de especificações
+speed striping,faixa redutora de velocidade
+spiral,espiral
+spot slope,inclinação em um ponto específico
+sprinkler,pulverizador
+spud,conexão
+stacked wall,parede empilhada
+steel girder,longarina de aço
+steel truss,treliça de aço
+step footing,sapata com degrau
+still image,imagem estática
+still-image,imagem estática
+street elbow,cotovelo macho-fêmea
+strip window,janela em faixa
+structural analysis,análise estrutural
+Structural Analysis for Revit,Structural Analysis for Revit
+Structural Bridge Design,Structural Bridge Design
+structural modeling,modelagem estrutural
+Subcontractor Quality Risk Trend,Tendência de risco de qualidade dos subempreiteiros
+Submittals,Apresentações de proposta
+Subordinate,subordinado
+supply air system,sistema de suprimento de ar
+survey point,ponto de levantamento topográfico
+switchboard,quadro elétrico
+tag,identificador
+tap,rosca
+Team Space,Espaço da equipe
+Teams,Equipes
+temperature load,carga de temperatura
+template,template
+tensile strength,resistência à tensão
+tie bend,flexão do tirante
+tilt angle,ângulo de inclinação
+Timeline,linha do tempo
+TimeLiner,TimeLiner
+title mark,marca de título
+tolerance,tolerância
+toolspace,espaço da ferramenta
+transition fitting,ajuste de transição
+true current,corrente real
+true load,carga real
+tub girder,longarina trapezoidal
+two-cut plumb,corte duplo de encanamento
+two-cut square,corte duplo com esquadro
+Variable Air Volume,volume de ar variável
+VAV,VAV
+Vehicle Tracking,Vehicle Tracking
+velocity pressure,velocidade/pressão
+veneer,envernizado
+vented,ventilado
+view list,lista de vista
+viewer,visualizador
+vision glass,vidro de visão
+void geometry,geometria vazia
+void RFI,anular RFI
+voided slab,laje treliçada bidirecional
+walkthrough,apresentação
+wall foundation,fundação da parede
+web thickness,espessura da teia
+welded wire fabric,malha pop
+wet bulb,bulbo úmido
+WFU,WFU
+WIP model,modelo WIP
+Worksharing Monitor,Worksharing Monitor
+wrap,revestir
+XDRef,XDRef
+zoom box,caixa de zoom

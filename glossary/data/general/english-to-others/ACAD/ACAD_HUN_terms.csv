@@ -1,0 +1,1507 @@
+﻿source,target
+3D mesh primitive,3D hálóprimitív
+3D Move gizmo,3D mozgatási minialkalmazás
+3D Rotate gizmo,3D forgatási minialkalmazás
+3D Scale gizmo,3D léptékezési minialkalmazás
+3DALIGN,3DILLESZT
+3DARRAY,3DKIOSZT
+3DCLIP,3DMETSZ
+3DCORBIT,3DFKERINGÉS
+3DDISTANCE,3DTÁVOLSÁG
+3DDWF,3DDWF
+3DDWFPUBLISH,3DDWFKÖZZÉTESZ
+3DEDITBAR,3DEDITBAR
+3DFACE,3DLAP
+3DFLY,3DREPÜL
+3DFORBIT,3DSZKERINGÉS
+3DMESH,3DHÁLÓ
+3DMOVE,3DMOZGAT
+3DORBIT,3DKERINGÉS
+3DORBITCTR,3DKERINGÉSKP
+3DORBITTRANSPARENT,3DKERINGÉSTRANSZPARENS
+3DOSNAP,3DTRASZTER
+-3DOSNAP,-3DTRASZTER
+3DPAN,3DTOL
+3DPANTRANSPARENT,3DTOLTRANSZPARENS
+3DPOLY,3DVLÁNC
+3DPRINT,3DNYOMTAT
+3DPRINTSERVICE,3DNYOMTATÁSISZOLGÁLTATÁS
+3DROTATE,3DFORGAT
+3DSCALE,3DLÉPTÉK
+3DSIN,3DSBE
+3DSWIVEL,3DELFORGAT
+3DSWIVELTRANSPARENT,3DELFORGATTRANSZPARENS
+3DWALK,3DSÉTA
+3DZOOM,3DZOOM
+3DZOOMTRANSPARENT,3DZOOMTRANSZPARENS
+ACADBLOCKDIALOG,ACADBLOCKDIALOG
+ACADINFO,ACADINFO
+ACADWBLOCKDIALOG,ACADWBLOCKDIALOG
+ACISIN,ACISBE
+ACISOUT,ACISKI
+ACS,SKR
+ACTBASEPOINT,BÁZISPONTMAKRÓBA
+ACTIVITYINSIGHTSCLOSE,TEVÉKENYSÉGBETEKINTŐBEZÁR
+ACTIVITYINSIGHTSOPEN,TEVÉKENYSÉGBETEKINTŐMEGNYIT
+ACTMANAGER,MAKRÓKEZELŐ
+ACTRECORD,MŰVELETRÖGZÍT
+ACTSTOP,MŰVLEÁLLÍT
+ACTUSERINPUT,MŰVFELHBEV
+ACTUSERMESSAGE,MŰVFELHÜZENET
+ADC,ADC
+ADCCLOSE,ADCBEZÁR
+ADCCUSTOMNAVIGATE,ADCFELHÚTVONAL
+ADCENTER,ADCENTER
+ADCNAVIGATE,ADCÚTVONAL
+ADDSELECTED,ADDSELECTED
+AI_CIRCTAN,AI_CIRCTAN
+AI_PSPACE,AI_PSPACE
+AIDIMPREC,AIDIMPREC
+AIDIMSTYLE,AIDIMSTYLE
+AIDIMTEXTMOVE,AIDIMTEXTMOVE
+ALIASEDIT,ALIASEDIT
+aligned section view,illesztett metszet
+ALIGNSPACE,ALIGNSPACE
+ALKIS,ALKIS
+all-around symbol,összetartozó felületek rajzjel
+ALLPLAY,MINDLEJÁTSZ
+alpha-blend,alfasimitás
+alternate unit,Alternatív mértékegység
+AMECONVERT,AMEKONVERT
+ANALYSISCURVATURE,ELEMZÉSGÖRBÜLET
+ANALYSISDRAFT,ELEMZÉSFERDESÉG
+ANALYSISOPTIONS,ELEMZÉSBEÁLLÍT
+ANALYSISZEBRA,ELEMZÉSZEBRA
+analytical surface,analitikus felület
+angle of deflection,hajlásszög
+ANIPATH,ANIMÚTVONAL
+ANNORESET,FELIRATVISSZAÁLL
+annotational constraint,feliratozási kényszer
+annotative object,feliratozási objektum
+ANNOUPDATE,FELIRATFRISSÍT
+anode,anód
+anode station,anódállomás
+APPAUTOLOADER,AUTOBETÖLTALK
+appearance style,megjelenésstílus
+APPLOAD,ALKTÖLT
+APPSTORE,APPSTORE
+ARC,ÍV
+arc segmentation,ívfelosztás
+arc-chord distance,ív-húr távolság
+ARCTEXT,ARCTEXT
+AREA,TERÜLET
+ARG,ARG
+ARRAYCLASSIC,KIOSZTKLASSZIKUS
+ARRAYCLOSE,KIOSZTBEZÁR
+ARRAYEDIT,KIOSZTSZERKESZT
+ARRAYPATH,KIOSZTÚTVONAL
+ARRAYPOLAR,KIOSZTPOLÁRIS
+ARRAYRECT,KIOSZTNÉGYSZ
+ARX,ARX
+assembly drawing,összeállítási rajz
+ASSISTANTCLOSE,SEGÉDBEZÁR
+ASSISTANTOPEN,SEGÉDMEGNYIT
+Associative QDIM extension,Associative QDIM extension
+ATEXT,ÍVSZÖVEG
+ATIL,ATIL
+ATTACHURL,URLCSATOL
+ATTDEF,ATTDEF
+ATTDISP,ATTLÁTH
+ATTEDIT,ATTEDIT
+ATTEXT,ATTKI
+ATTIN,ATTIN
+ATTIPEDIT,ATTEDITHELYBEN
+ATTOUT,ATTOUT
+ATTREDEF,ATTREDEF
+ATTSYNC,ATTSZINK
+AUDIT,HLISTA
+AutoCAD color index,AutoCAD színindex
+AutoCAD including specialized toolsets,AutoCAD including specialized toolsets
+AutoCAD Migration Assistance,AutoCAD Migration Assistance
+AutoCAD Mobile,AutoCAD mobil
+AutoComplete,Automatikus kiegészítés
+AUTOCONSTRAIN,AUTOKÉNYSZER
+Autodesk Assistant,Autodesk Assistant
+Autodesk CAD Manager Tools,Autodesk CAD Manager Tools Setup Wizard
+Autodesk Content Explorer,Autodesk Content Explorer
+Autodesk Manufacturing Community Portal,Autodesk gépipari közösségi portál
+AUTODESKCONNECTIONPOINT,AUTODESKCONNECTIONPOINT
+AutoLISP development,AutoLISP-fejlesztés
+AutoLISP environment,AutoLISP-környezet
+AUTOPUBLISH,AUTOKÖZZÉTESZ
+auxiliary coordinate system,segéd koordináta-rendszer
+axis offset,tengelyeltolás
+azimuth,azimut
+BACKGROUND,HÁTTÉR
+backwater gate,másodrendű védőgát
+BACTION,BMŰVELET
+BACTIONBAR,BMŰVELETSOR
+BACTIONSET,BMŰVELETBEÁLL
+BACTIONTOOL,BMŰVELETESZKÖZ
+ball mill,golyósmalom
+base point,bázispont
+BASSOCIATE,BTÁRSÍT
+Batch Standards Checker,Kötegelt szabványellenőrző
+BATTMAN,BATTKEZ
+BATTORDER,BATTSORREND
+baud rate,átviteli sebesség
+BAUTHORPALETTE,BSZERZŐIPALETTA
+BAUTHORPALETTECLOSE,BSZERZŐIPALETTABEZÁR
+BCLOSE,BBEZÁR
+BCONSTRUCTION,BSZERKGEOM
+BCOUNT,BCOUNT
+BCPARAMETER,BKPARAMÉTER
+BCYCLEORDER,BCIKLUSSORREND
+BDA,BDA
+BEDIT,BSZERK
+BESETTINGS,BLOKKSZERKBEÁLL
+bevel,letörés
+BEXTEND,BEXTEND
+BGRIPSET,BFOGÓKÉSZLET
+BHATCH,HSRAFFOZ
+bill of materials,darabjegyzék
+binary large object,nagy bináris objektum
+bitonal image,bitonális kép
+blend mode,keverési mód
+blend surface,simítási felület
+BLOB,BLOB
+block authoring object,blokk-készítési objektum
+block library,blokk-könyvtár
+block properties table,blokk tulajdonságtáblája
+block replacement,blokk lecserélése
+BLOCKICON,BLOKKIKON
+BLOCKMRULIST,BLOCKMRULIST
+BLOCKNAVIGATE,BLOCKNAVIGATE
+BLOCKREPLACE,BLOCKREPLACE
+BLOCKSDATAOPTION,BLOKKADATBEÁLL
+BLOCKSPALETTE,BLOKKPALETTA
+BLOCKSPALETTECLOSE,BLOKKPALETTABEZÁR
+BLOCKTOXREF,BLOCKTOXREF
+BLOOKUPTABLE,BKERESÉSITÁBLÁZAT
+blow off valve,Lefúvató szelep
+BMAKE,BKÉSZÍT
+BMOD,BMOD
+BMPOUT,BMPKI
+BOM,DBJ
+boolean,logikai
+BOUNDARY,HVONAL
+bounded area,körülhatárolt terület
+bounding area,befoglaló terület
+BOX,TTEST
+BPARAMETER,BPARAMÉTER
+BPOLY,HVLÁNC
+branch circuit,áramkör
+break loop,megszakítási ciklus
+break point,töréspont
+BREAKATPOINT,MEGTÖRÉSPONTBAN
+breaker,megszakító
+BREAKLINE,BREAKLINE
+break-out line,kitörési vonal
+breakout section view,kitört metszeti nézet
+breakpoint,töréspont
+BREP,BREP
+BREPLACE,BCSERE
+BROWSER,BÖNGÉSZŐ
+BROWSERCLOSE,BÖNGÉSZŐBEZÁR
+BROWSEROPEN,BÖNGÉSZŐMEGNYIT
+BSAVE,BMENT
+BSAVEAS,BMENTMINT
+BSCALE,BSCALE
+BTABLE,BLOKKTÁBLA
+BTESTBLOCK,BLOKKTESZT
+BTRIM,BTRIM
+bulge factor,kitüremkedési tényező
+bulk copy,kötegelt másolás
+bump map,felülettérkép
+bump mapping,felülettérképezés
+bus bar,gyűjtősín
+BVHIDE,BLELREJT
+BVSHOW,BLMEGJELENÍT
+BVSTATE,BLÁLLAPOT
+cable tray,kábeltálca
+cable tray fitting,kábeltálca-szerelvény
+CAL,KAL
+CAMERA,KAMERA
+camera calibration,kamerakalibrálás
+camera glyph,kamera jele
+canvas,vászon
+cap filleting,Lezárás lekerekítése
+cap height,nagybetűmagasság
+Cascading Style Sheets,egymásra épülő stíluslapok
+casing,védőcső
+casing model,Védőcsőmodell
+Catmull-Clark subdivision surface,Catmull-Clark osztófelület
+CDORDER,CDORDER
+center line,középvonal
+center mark,középjel
+CENTERDISASSOCIATE,KÖZÉPLEVÁLASZT
+CENTERLINE,KÖZÉPVONAL
+CENTERMARK,KÖZÉPPONTJEL
+CENTERREASSOCIATE,KÖZÉPÚJRACSATOL
+CENTERRESET,KÖZÉPVISSZAÁLLÍT
+CHAMFEREDGE,ÉLLETÖR
+CHAR,CHAR
+character large object,nagy karakteres objektum
+CHECKSTANDARDS,SZABVÁNYELLENŐRZÉS
+child feature class,gyermek jellemzőosztály
+CHPROP,TVÁLT
+CHSPACE,TÉRVÁLT
+CHURLS,CHURLS
+cinematic shot,mozgóképes felvétel
+CIRCLE,KÖR
+circlip,rögzítőgyűrű
+circuit breaker,árammegszakító
+CLASSICGROUP,KLASSZIKUSCSOPORT
+CLASSICIMAGE,KLASSZIKUSKÉP
+CLASSICINSERT,KLASSZIKUSBEILL
+CLASSICLAYER,KLASSZIKUSFÓLIA
+CLASSICXREF,KLASSZIKUSXREF
+CLEANSCREENOFF,TISZTAKÉPERNYŐKI
+CLEANSCREENON,TISZTAKÉPERNYŐBE
+clip volume,metszőtérfogat
+CLIPIT,CLIPIT
+CLOB,CLOB
+CLOSEALL,MINDBEZÁR
+CLOSEALLOTHER,MINDENMÁSTBEZÁR
+closed edge,lezárt él
+code combination,kódkombináció
+COGO,COGO
+cold grip,inaktív fogó
+cold water fixture unit,egyenértékű hidegvízfogyasztási egység
+colinear,egyvonalú
+colinear constraint,egyvonalú kényszer
+collate,leválogat
+collection,gyűjtemény
+collinear,egyvonalú
+color book,színkatalógus
+colorbook,színkatalógus
+combustion chamber,égéstér
+COMMANDLINE,PARANCSSOR
+COMMANDLINEHIDE,PARANCSSORELREJT
+COMMANDMACROS,PARANCSMAKRÓK
+COMMANDMACROSCLOSE,PARANCSMAKRÓKBEZÁR
+comminuting machine,őrlőgép
+COMPARECLOSE,ÖSSZEHASONLÍTÁSBEZÁR
+COMPAREEXPORT,ÖSSZEHASONLÍTÁSEXPORT
+COMPAREIMPORT,ÖSSZEHASONLÍTÁSIMPORT
+COMPAREINFO,ÖSSZEHASONLÍTINFÓ
+component list,összetevőlista
+composite solid,összetett szilárdtest
+composite symbol,összetett szimbólum
+compound symbol,összetett szimbólum
+compression,tömörítés
+compression spring,nyomórugó
+computed length,számított hossz
+concentric,koncentrikus
+conductor,vezető
+conduit,vezeték
+conduit fitting,csatornaidom
+CONE,KÚP
+CONFIG,KONFIG
+connector pin,csatlakozótű
+constrained object,kényszerezett objektum
+constraint bar,kényszertár
+constraint parameter,kényszerparaméter
+constraint point,kényszerezési pont
+constraint solver,kényszermegoldó
+constraint variable,kényszerváltozó
+CONSTRAINTBAR,KÉNYSZERTÁR
+CONSTRAINTSETTINGS,KÉNYSZERBEÁLL
+construction line,szerkesztővonal
+CONTENT,TARTALOM
+content library,tartalomtár
+content pack,tartalomcsomag
+control cabinet,vezérlőszekrény
+control cable,vezérlőkábel
+control hull,vezérlő háló
+control point,vezérlőpont
+control vertex,vezérlő csúcspont
+control vertex hull,vezérlő csomópontok hálója
+control vertices hull,vezérlő csomópontok hálója
+CONVERTCTB,KONVERTCTB
+CONVERTOLDLIGHTS,RÉGIFÉNYKONVERTÁL
+CONVERTOLDMATERIALS,RÉGIANYAGKONVERTÁL
+CONVERTPOLY,VLKONVERT
+CONVERTPSTYLES,KONVERTNYSTÍLUS
+CONVTOMESH,KONVERTHÁLÓVÁ
+CONVTONURBS,KONVERTNURBSBE
+CONVTOSOLID,KONVTESTTÉ
+CONVTOSURFACE,KONVFELÜLETTÉ
+coordinate reference system,koordinátareferencia-rendszer
+coordinate system tracker,koordinátarendszer-követő
+COORDINATIONMODELATTACH,KOORDINÁCIÓSMODELLCSATOL
+COPYBASE,ALAPMÁSOL
+COPYCLIP,VGMÁSOL
+COPYFROMTRACE,PAUSZRÓLMÁSOL
+COPYHIST,PTMÁSOL
+COPYLINK,VGNMÁSOL
+COPYM,COPYM
+COPYTOLAYER,FÓLIÁRAMÁSOL
+COUNTAREA,DARABSZÁMTERÜLET
+COUNTAREACLOSE,DARABSZÁMTERÜLETBEZÁR
+COUNTCLOSE,DARABSZÁMBEZÁR
+COUNTFIELD,DARABSZÁMMEZŐ
+COUNTLIST,DARABSZÁMLISTA
+COUNTLISTCLOSE,DARABSZÁMLISTABEZÁR
+COUNTNAVNEXT,DARABSZÁMNAVKÖVETKEZŐ
+COUNTNAVPREV,DARABSZÁMNAVELŐZŐ
+COUNTTABLE,DARABSZÁMTÁBLÁZAT
+covering area,takarófelület
+CRC,CRC
+cross section,keresztmetszet
+CRS,CRS
+CS library,KR-könyvtár
+CSS,CSS
+cubic loft,harmadfokú pásztázás
+CUI,CUI
+CUI editor,CUI-szerkesztő
+CUIEXPORT,CUIEXPORT
+CUIIMPORT,CUIIMPORT
+CUILOAD,CUIBETÖLT
+CUIUNLOAD,CUITÖRÖL
+current directory,aktuális alkönyvtár
+curvature analysis,görbületelemzés
+Customer Error Reporting,Felhasználói hibajelentés
+customer support,ügyfélszolgálat
+CUSTOMIZE,TESTRESZAB
+CUTBASE,ALAPKIVÁG
+CUTCLIP,VGVÁG
+cutting line,metszővonal
+CV,CV
+CV hull,VCS háló
+CVADD,VPHOZZÁAD
+CVHIDE,VPELREJT
+CVREBUILD,VPÚJRAÉPÍT
+CVREMOVE,VPELTÁVOLÍT
+CVSHOW,VPMEGJELENÍT
+CWFU,CWFU
+CYLINDER,HENGER
+DATAEXTRACTION,ADATKIEMEL
+DATALINK,ADATKAPCSOLAT
+DATALINKUPDATE,ADATKAPCSOLATFRISSÍT
+datumpoint,bázispont
+DBCCONFIGURE,DBCCONFIGURE
+DBCCONNECT,DBCCONNECT
+DBCDEFINELLT,DBCDEFINELLT
+DBCDEFINELT,DBCDEFINELT
+DBCDELETELINKS,DBCDELETELINKS
+DBCDELETELLT,DBCDELETELLT
+DBCDELETELT,DBCDELETELT
+DBCDELETEQRY,DBCDELETEQRY
+DBCDISCONNECT,DBCDISCONNECT
+DBCEDITLINKEDTABLE,DBCEDITLINKEDTABLE
+DBCEDITLLT,DBCEDITLLT
+DBCEDITLT,DBCEDITLT
+DBCEDITQRY,DBCEDITQRY
+DBCEDITTABLE,DBCEDITTABLE
+DBCEXECUTEQRY,DBCEXECUTEQRY
+DBCEXPORTLINKS,DBCEXPORTLINKS
+DBCEXPORTQS,DBCEXPORTQS
+DBCEXPORTTS,DBCEXPORTTS
+DBCHIDELABELS,DBCHIDELABELS
+DBCIMPORTQRY,DBCIMPORTQRY
+DBCIMPORTQS,DBCIMPORTQS
+DBCIMPORTTS,DBCIMPORTTS
+DBCLINKCONVERSION,DBCLINKCONVERSION
+DBCLINKMANAGER,DBCLINKMANAGER
+DBCONNECT,DBCONNECT
+DBCRELOADLABELS,DBCRELOADLABELS
+DBCSELECTLINKS,DBCSELECTLINKS
+DBCSHOWLABELS,DBCSHOWLABELS
+DBCVIEWLINKEDTABLE,DBCVIEWLINKEDTABLE
+DBCVIEWTABLE,DBCVIEWTABLE
+DBLIST,ABLISTA
+DCALIGNED,MKILLESZT
+DCANGULAR,MKSZÖG
+DCCONVERT,MKKONVERT
+DCDIAMETER,MKÁTMÉRŐ
+DCDISPLAY,MKMEGJELENÍT
+DCFORM,MKFORMÁTUM
+DCHORIZONTAL,MKVÍZSZINTES
+DCLINEAR,MKHOSSZ
+DCRADIUS,MKSUGÁR
+DCVERTICAL,MKFÜGGŐLEGES
+DDATTE,DDATTE
+DDGRIPS,DPFOGÓK
+DDIM,DPMÉRET
+DDINSERT,DPBEILL
+DDPLOTSTAMP,DPPLOTPECSÉT
+DDRMODES,DPRMÓD
+DDSELECT,DPKIJELÖL
+DDSTYLE,DPSTÍLUS
+DDUCS,DPFKR
+DDUCSP,DPFKRB
+DDUNITS,DPMÉRTEGYS
+DDVPOINT,DPNÉZŐPONT
+degrees minutes seconds,fok perc másodperc
+DELCONSTRAINT,KÉNYSZERTÖRÖL
+dependency highlighting,függőségkiemelés
+depth of field,mélységélesség
+Design Review,Design Review
+Design Web Format,Design Web Format
+DESKTOPANALYTICS,ASZTALIELEMZÉS
+DETACHURL,URLLEVÁLASZT
+deviation,eltérés
+DGNADJUST,DGNBEÁLLÍT
+DGNATTACH,DGNCSATOL
+DGNBIND,DGNCSATOLÁS
+DGNCLIP,DGNRÉSZ
+DGNEXPORT,DGNEXPORT
+DGNIMPORT,DGNIMPORT
+DGNLAYERS,DGNFÓLIÁK
+DGNMAPPING,DGNLEKÉPEZÉS
+diameter,átmérő
+diffuse map,diffúziós térkép
+digital elevation model,DEM/digitális domborzatmodell
+Digital Signature Extension,Digital Signature Extension
+DIGITALSIGN,DIGITÁLISALÁÍRÁS
+digitizer puck,digitalizáló korong
+digitizing tablet,digitalizáló tábla
+DIM,MÉRET
+DIM1,MÉRET1
+DIMALIGNED,MÉRETILLESZT
+DIMANGULAR,MÉRETSZÖG
+DIMARC,MÉRETÍV
+DIMBASELINE,MÉRETBVONAL
+DIMBREAK,MÉRETMEGTÖR
+DIMCENTER,MÉRETKÖZÉP
+DimConstraint,méretkényszer
+DIMCONTINUE,MÉRETFOLYTAT
+DIMDIAMETER,MÉRETÁTMÉRŐ
+DIMDISASSOCIATE,MÉRETLEVÁLASZTÁS
+DIMEDIT,MÉRETEDIT
+dimension constraint,méretkényszer
+dimension style,méretstílus
+dimensional constraint,méretkényszer
+DIMEX,DIMEX
+DIMHORIZONTAL,MÉRETVÍZSZ
+DIMIM,DIMIM
+DIMINSPECT,MÉRETELLENŐRIZ
+DIMJOGGED,MÉRETTÖRT
+DIMJOGLINE,MÉRETMEGTÖRŐ
+DIMLINEAR,MÉRETHOSSZ
+DIMORDINATE,MÉRETKOORD
+DIMOVERRIDE,MÉRETFELÜLÍR
+DIMRADIUS,MÉRETSUGÁR
+DIMREASSOC,DIMREASSOC
+DIMREASSOCIATE,MÉRETÚJRACSATOL
+DIMREGEN,MÉRETREGEN
+DIMROTATED,MÉRETELFORGATOTT
+DIMSPACE,MÉRETKÖZ
+Dimstyle,méretstílus
+DIMTEDIT,MÉRETSZEDIT
+DIMVERTICAL,MÉRETFÜGG
+disposal tank,szennyvíztartály
+DIST,TÁVS
+distance offset,Vízszintes eltolás
+DISTANTLIGHT,TÁVOLIFÉNY
+distributed rendering,elosztott renderelés
+dithering,összemosás
+DMS,DMS
+DOF,DOF
+DONUT,GYŰRŰ
+dots per inch,pont hüvelykenként
+DOUGHNUT,GYŰRŰ
+DOWNLOADMANAGER,LETÖLTÉSKEZELŐ
+DPI,DPI
+draft analysis,ékszögelemzés
+drafting standard,rajzi szabvány
+DRAGMODE,VONTMÓD
+drain area,vízelvezetési terület
+drawing folder,rajzmappa
+Drawing Interchange Format,Drawing Interchange Format
+Drawing Manager,Rajzkezelő
+drawing set,rajzkészlet
+DRAWINGRECOVERY,RAJZHELYREÁLL
+DRAWINGRECOVERYHIDE,RAJZHELYREÁLLELREJT
+DRAWORDER,MEGJREND
+driven constraint,kiadódó kényszer
+driving dimension,meghatározó méret
+DROPGEOM,GEOMEJTÉS
+DSETTINGS,RAJZBEÁLL
+DTED,DTED
+DTEXT,DSZÖVEG
+duct fitting,csőszerelvény
+DVIEW,DNÉZET
+DWF,DWF
+DWFADJUST,DWFBEÁLLÍT
+DWFATTACH,DWFCSATOL
+DWFCLIP,DWFRÉSZ
+DWFFORMAT,DWFFORMÁTUM
+DWFLAYERS,DWFFÓLIÁK
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DWG TrueView,Autodesk DWG TrueView Sequoia
+DWGCONVERT,KONVERTDWG
+DWGHISTORY,RAJZELŐZMÉNYEK
+DWGHISTORYCLOSE,RAJZELŐZMÉNYEKBEZÁR
+DXBIN,DXBBE
+DXF,DXF
+DXFIN,DXFBE
+DXFOUT,DXFKI
+dynamic constraint,dinamikus kényszer
+easting,kelet koordináta
+EATTEDIT,BATTEDIT
+EATTEXT,BATTKI
+edge symbol,él szimbólum
+EDGESURF,ÉLFEL
+edit in place,szerkesztés helyben
+EDITSHOT,KÉPSZERK
+EDITTABLECELL,TÁBLÁZATCELLASZERK
+EDITTIME,EDITTIME
+ejector,kilökő
+elbow,könyök
+ELEV,SZINT
+elevation,magasság
+elevation offset,Magassági eltolás
+elide,kihagy
+ELLIPSE,ELLIPSZ
+embed,beágyaz
+entity filter,rajzelem szűrő
+environment map,környezeti térkép
+EPLOTEXT,EPLOTKIT
+EPSG code,EPSG-kód
+ESW,ESW
+ETRANSMIT,EKÜLD
+evaluation version,értékelési verzió
+EXOFFSET,EXOFFSET
+EXPLAN,EXPLAN
+EXPLODE,SZÉTVET
+EXPORT,EXPORT
+EXPORTDWF,DWFEXPORT
+EXPORTDWFX,DWFXEXPORT
+EXPORTLAYOUT,EXPORTELREND
+EXPORTPDF,PDFEXPORT
+EXPORTSETTINGS,EXPORTBEÁLL
+EXPORTTOAUTOCAD,EXPORTTOAUTOCAD
+Expression Builder,Kifejezés-készítő
+EXPRESSMENU,EXPRESSMENU
+EXPRESSTOOLS,EXPRESSTOOLS
+extended help file,Bővített súgófájl
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+extension,kiterjesztés
+extension spring,húzórugó
+external reference,külső referencia
+External Reference Manager,External Reference Manager
+EXTERNALREFERENCES,KÜLSŐREFERENCIÁK
+EXTERNALREFERENCESCLOSE,KÜLSŐREFERENCIÁKBEZÁR
+EXTRIM,EXTRIM
+EXTRUDE,KIHÚZ
+facet,lapka
+FADEMARKUP,JELÖLŐHALVÁNYÍT
+FASTSEL,FASTSEL
+FDO,FDO
+feature class,jellemzőosztály
+feature container,jellemzőtároló
+feature control frame,alaktűréskeret
+Feature Explorer,Jellemzőkezelő
+feeder,ellátó
+FG,FG
+FID,FID
+FIELD,MEZŐ
+field fit,helyi szerelési
+FILEOPEN,FMEGNYIT
+FILETAB,FÁJLLAP
+FILETABCLOSE,FÁJLLAPBEZÁR
+FILL,KITÖLT
+fill pattern,kitöltési minta
+FILLETEDGE,ÉLLEKEREKÍT
+Filtration Bed,szűrőágy
+final gathering,végső összegyűjtés
+FIND,KERES
+fit point,illesztési pont
+flat search,egyszerű keresés
+FLATSHOT,SÍKNÉZET
+flow direction,folyásirány
+flush constraint,egysíkú kényszer
+flyout,leporelló
+FOG,KÖD
+fold panel,kihajló panel
+foreign key,idegen kulcs
+foul water,szennyezett víz
+freeform design,szabadformájú
+FREESPOT,SZABADREFLEKTOR
+FREEWEB,SZABADHÁLÓ
+FS,FS
+fuzz,tűrési tényező
+GATTE,GATTE
+GCCOINCIDENT,GKEGYBEESŐ
+GCCOLLINEAR,GKEGYVONALÚ
+GCCONCENTRIC,GKKONCENTRIKUS
+GCEQUAL,GKEGYENLŐ
+GCFIX,GKRÖGZÍT
+GCHORIZONTAL,GKVÍZSZINTES
+GCPARALLEL,GKPÁRHUZAMOS
+GCPERPENDICULAR,GKMERŐLEGES
+GCSMOOTH,GKSIMA
+GCSYMMETRIC,GKSZIMMETRIKUS
+GCTANGENT,GKÉRINTŐ
+GCVERTICAL,GKFÜGGŐLEGES
+geodetic network point,geodéziai hálózati pont
+geodetic transformation,geodéziai transzformáció
+GEOGRAPHICLOCATION,FÖLDRAJZIHELY
+GEOLOCATEME,FÖLDRHELYZETEMMEGHAT
+GEOMAP,FÖLDRTÉRKÉP
+GEOMAPIMAGE,FÖLDTÉRKÉP
+GEOMAPIMAGEUPDATE,FÖLDTÉRKÉPFRISSÍT
+GEOMARKLATLONG,FÖLDRSZÉLHOSSZMEGJELÖL
+GEOMARKME,FÖLDRSAJÁTHELYMEGJELÖL
+GEOMARKPOINT,FÖLDRPONTMEGJELÖL
+GEOMARKPOSITION,FÖLDRPOZÍCIÓMEGJELÖL
+GEOMCONSTRAINT,GEOMKÉNYSZER
+geometric constraint,geometriai kényszer
+GEOREMOVE,FÖLDRELTÁVOLÍT
+GEOREORIENTMARKER,FÖLDRTÁJOLÓJELÖLŐ
+geospatial information,térinformatikai információ
+GETSEL,GETSEL
+gizmo,minialkalmazás
+Gooch shading,Gooch-árnyalás
+GOTOSTART,UGRÁSINDÍTÁSRA
+GOTOURL,GOTOURL
+GRADIENT,ÁTMENET
+gradient ramp,átmenetskála
+grading plan,rézsűterv
+GRAPHICSCONFIG,GRAFIKUSBEÁLL
+GRAPHSCR,GRAFKÉP
+grease trap,Zsírfogó
+GRID,HÁLÓ
+grit chamber,homokszűrő kamra
+ground thread,köszörült menet
+GROUP,CSOPORT
+Group Policy Object,Csoportházirend-objektum
+GROUPEDIT,CSOPORTSZERK
+hardware shader,hardveres árnyaló
+hatch pattern,sraffozási minta
+HATCHEDIT,SRAFFEDIT
+HATCHGENERATEBOUNDARY,HATCHGENERATEBOUNDARY
+HATCHSETBOUNDARY,HATCHSETBOUNDARY
+HATCHSETORIGIN,HATCHSETORIGIN
+HATCHTOBACK,HATCHTOBACK
+HELIX,CSAVARVONAL
+helix angle,emelkedési szög
+HIDEOBJECTS,HIDEOBJECTS
+HIDEPALETTES,PALETTAELREJT
+HIGHLIGHTNEW,ÚJKIEMELÉSE
+HLSETTINGS,TVBEÁLL
+hole chart,furatlista
+horizontal constraint,vízszintes kényszer
+horizontal landing,vízszintes szakasz
+hot grip,aktuális fogó
+hot water fixture unit,egyenértékű melegvízfogyasztási egység
+house connector,végpont
+HYPERLINK,HHIVATKOZÁS
+HYPERLINKBACK,HHIVATKOZÁSVISSZA
+HYPERLINKFWD,HHIVATKOZÁSELŐRE
+HYPERLINKOPEN,HHIVATKOZÁSMEGNYIT
+HYPERLINKOPTIONS,HHIVATKOZÁSOPC
+HYPERLINKSTOP,HHIVATKOZÁSLEÁLLÍT
+i-drop Enhancer,i-drop Enhancer
+i-drop Indicator,i-drop-jelölő
+IGESEXPORT,IGESEXPORT
+IGESIMPORT,IGESIMPORT
+illuminance distance,megvilágítási távolság
+IMAGE,KÉP
+IMAGEADJUST,KÉPBEÁLL
+IMAGEAPP,IMAGEAPP
+IMAGEATTACH,KÉPCSATOL
+IMAGECLIP,KÉPRÉSZ
+IMAGEEDIT,IMAGEEDIT
+IMAGEOVERLAP,IMAGEOVERLAP
+IMAGEQUALITY,KÉPMINŐSÉG
+implied windowing,kijelölőablak
+IMPORT,IMPORT
+in-canvas tool,rajzterületi eszköz
+included angle,bezárt szög
+information channel,információs csatorna
+input type,beviteli típus
+INPUTSEARCHOPTIONS,BEVITELKERESÉSBEÁLL
+INSERTCONTENT,TARTALOMBESZÚR
+INSERTDRAWINGASBLOCK,RAJZBESZÚRÁSBLOKKÉNT
+INSERTOBJ,OBJBEILL
+inspection dimension,ellenőrizendő méret
+Interactive Create & Edit,interaktív létrehozás és szerkesztés
+interference check,ütközésvizsgálat
+inverse linear,Inverz lineáris
+inverse report,visszaellenőrzési jelentés
+inverse square,inverz négyzetes
+ISA,ISA
+ISODRAFT,ISORAJZ
+ISOLATEOBJECTS,ISOLATEOBJECTS
+isolator,szigetelő
+isoline,szintvonal
+isometric,izometrikus
+isoparm,paraméter-szintvonal
+ISOPLANE,IZOSÍK
+JPGOUT,JPGKI
+junction,csomópont
+JUSTIFYTEXT,SZÖVEGIGAZÍT
+Keyhole Markup Language,Keyhole Markup Language
+kink,csomó
+KML,KML
+KMZ,KMZ
+knot parameterization,csomópont paraméterezése
+knot vector,csomópontvektor
+label block,feliratblokk
+lagoon,derítőtó
+land management,területkezelés
+language pack,nyelvi csomag
+latitude,szélesség
+Launchpad,Indítópult
+LAYCUR,FÓLIAAKT
+LAYDEL,FÓLIATÖRL
+layer state,fóliaállapot
+LAYERCLOSE,FÓLIABEZÁR
+LAYERP,FÓLIAE
+LAYERPALETTE,FÓLIAPALETTA
+LAYERPMODE,FÓLIAEMÓD
+LAYERSTATE,FÓLIAÁLLAPOT
+LAYERSTATESAVE,LAYERSTATESAVE
+LAYFRZ,FÓLIAFAGY
+LAYISO,FÓLIAELK
+LAYLCK,FÓLIAZÁR
+LAYMCH,FÓLIATÖBBVÁLT
+LAYMCUR,FÓLIAAKTUÁLIS
+LAYMRG,FÓLIAEGYES
+LAYOFF,FÓLIAKI
+LAYON,FÓLIABE
+LAYOUT,ELRENDEZÉS
+LAYOUTMERGE,LAYOUTMERGE
+LAYOUTWIZARD,ELRENDEZÉSVARÁZSLÓ
+LAYTHW,FÓLIAOLV
+LAYTRANS,FÓLIARENDEZŐ
+LAYULK,FÓLIANYIT
+LAYUNISO,FÓLIAELKKI
+LAYVPI,FÓLIANAELK
+LAYWALK,FÓLIAÁLLAPOTOK
+Learning AutoCAD 2010,Az AutoCAD 2010 elsajátítása
+LENGTHEN,HOSSZABBÍT
+level of smoothness,simasági szint
+license alert,Licencfigyelmeztetés
+light weight polyline,pehelykönnyű vonallánc
+LIGHTLIST,FÉNYLISTA
+LIGHTLISTCLOSE,FÉNYLISTABEZÁR
+lightning arrester,villámhárító
+LIMITS,RHATÁR
+LINE,VONAL
+line merge,vonalszín egyesítése
+line string,Vonallánc
+linear array,hosszirányú kiosztás
+linear dimension,hosszirányú méretezés
+linear loft,lineáris pásztázás
+LINETYPE,VTÍPUS
+link box,elosztódoboz
+lisp file,LISP-fájl
+Live Enabler,Live Enabler
+live section,élő metszet
+LIVESECTION,ÉLŐMETSZET
+load tap changer,csomópontvezérlő
+loaded standard,betöltött szabvány
+location,hely
+locking,lezárás/lelakatolás
+LOGFILEOFF,NAPLÓFÁJLKI
+LOGFILEON,NAPLÓFÁJLBE
+longitude,hosszúság
+lookup,Keresés
+LSP,LSP
+LSPSURF,LSPSURF
+LTSCALE,VTLÉPTÉK
+LWEIGHT,VVAST
+MAKELISPAPP,LISPALKKÉSZÍT
+MAKEPREVIEW,MAKEPREVIEW
+MANAGEUPLOADS,FELTÖLTÉSKEZEL
+manhole,akna
+manufacturer,gyártó
+markup,jelölő
+markup set,jelölőkészlet
+Markup Set Manager,Jelölőkészlet-kezelő
+MARKUPASSIST,JELÖLŐSEGÉD
+MARKUPCLOSE,JELÖLŐBEZÁR
+MARKUPIMPORT,JELÖLŐIMPORT
+MASSPROP,FIZJELL
+MATBROWSERCLOSE,ANYAGBÖNGÉSZŐBEZÁR
+MATBROWSEROPEN,ANYAGBÖNGÉSZŐMEGNYIT
+MATCHCELL,CELLATULMÁSOL
+MATCHPROP,TULMÁSOL
+mate constraint,egybeeső kényszer
+MATEDITORCLOSE,ANYAGSZERKBEZÁR
+MATEDITOROPEN,ANYAGSZERKMEGNYIT
+MATERIALASSIGN,ANYAGHOZZÁRENDEL
+MATERIALATTACH,ANYAGCSATOL
+MATERIALMAP,ANYAGLEKÉPEZ
+MATERIALS,ANYAGOK
+MATERIALSCLOSE,ANYAGOKBEZÁR
+MATLIB,ANYAGTÁR
+measured length,mért hossz
+MEASUREGEOM,GEOMMÉR
+measurement error,mérési hiba
+median,medián
+mental ray,mental ray
+mental ray rendering engine,mental ray renderelőmotor
+MENU,MENÜ
+MENULOAD,MENÜBETÖLT
+MENUUNLOAD,MENÜTÖRÖL
+MEP,MEP
+MESHCAP,HÁLÓLEZÁR
+MESHCOLLAPSE,HÁLÓPONTEGYESÍT
+MESHCREASE,HÁLÓÉL
+MESHEXTRUDE,HÁLÓKIHÚZ
+MESHMERGE,HÁLÓEGYESÍT
+MESHOPTIONS,HÁLÓBEÁLL
+MESHPRIMITIVEOPTIONS,HÁLÓPRIMITÍVBEÁLL
+MESHREFINE,HÁLÓFINOMÍT
+MESHSMOOTH,HÁLÓSIMÍT
+MESHSMOOTHLESS,HÁLÓSIMÍTÁSCSÖKK
+MESHSMOOTHMORE,HÁLÓSIMÍTÁSNÖV
+MESHSPIN,HÁLÓFORGAT
+MESHSPLIT,HÁLÓFELOSZT
+MESHUNCREASE,HÁLÓÉLTÖRÖL
+meter area,mérési terület
+meter model,mérőműszermodell
+midpoint,felezőpont
+MIGRATEMATERIALS,ANYAGOKÁTTELEPÍT
+migration log file,áttelepítési naplófájl
+minidump,minidump
+minimum spanning tree,minimális fahossz
+MINSERT,TBEILL
+mirror line,tükrözési vonal
+MIRROR3D,TÜKRÖZ3D
+MKLTYPE,MKLTYPE
+MKSHAPE,MKSHAPE
+MLD,MLD
+MLEADER,TMUTATÓ
+mleader object,tmutató objektum
+MLEADERALIGN,TMUTATÓILLESZT
+MLEADERCOLLECT,TMUTATÓBEGYŰJT
+MLEADEREDIT,TMUTATÓEDIT
+MLEADERSTYLE,TMUTATÓSTÍLUS
+MLEDIT,TVEDIT
+MLINE,TVONAL
+MLSTYLE,TVSTÍLUS
+MOCORO,MOCORO
+MODEL,MODELL
+model parameter,modellparaméter
+model space,modelltér
+moment of inertia,másodrendű nyomaték
+motor,motor
+MOVEBAK,MOVEBAK
+MPEDIT,MPEDIT
+MREDO,TELŐRE
+MSLIDE,KIDIA
+MSPACE,MTÉR
+MSTRETCH,MSTRETCH
+MTEDIT,BSZEDIT
+MTEXT,BSZÖVEG
+MTPROP,BSZTUL
+multi-functional grip,többfunkciós fogó
+multilanguage user interface,többnyelvű felhasználói felület
+multi-map,összetett térkép
+multipart feature,többrészes jellemzők
+multiple circuits,Többszörözött áramkör
+Multiple Design Environment,Multiple Design Environment
+multi-relation,többszörös kapcsolat
+multi-sheet,többlapos
+MVIEW,MNÉZET
+MvPart,MvPart
+MVSETUP,MVSETUP
+Name Number,névszám
+named projection,nevesített vetület
+NANT,NANT
+NAVBAR,NAVSÁV
+navigation pane,navigációs ablak
+NAVSMOTION,NAVSMOTION
+NAVSMOTIONCLOSE,NAVSMOTIONBEZÁR
+NAVSWHEEL,NAVSWHEEL
+NAVVCUBE,NAVVCUBE
+NBA,NBA
+NCLOB,NCLOB
+NCOPY,NCOPY
+nested reference,beágyazott referencia
+NETLOAD,NETBETÖLT
+network adjustment,hálózat igazítása
+network surface,hálózati felület
+network topology,hálózati topológia
+network trace,hálózatkövetés
+network tracing tool,hálózatkövetési eszköz
+neutralizer,semlegesítő kamra
+NEW,ÚJ
+NEWSHEETSET,ÚJLAPKÉSZLET
+NEWSHOT,ÚJKÉP
+NEWVIEW,ÚJNÉZET
+non-ending pipe,lezárás nélküli cső
+non-manifold,nem manifold
+non-rectangular viewport,nem négyszögletes nézetablak
+normal distribution,Normáleloszlás
+normal style,normál stílus
+northing,észak koordináta
+Not Equal,nem egyenlő
+nudge,pontos mozgatás
+NURBS surface,NURBS-felület
+object snap mode,tárgyrasztermódok
+object thematic mapping,Objektum alapú tematikus térkép készítése
+ObjectARX,ObjectARX
+OBJECTSCALE,OBJEKTUMLÉPTÉK
+oblique angle,döntés szöge
+obscured line,eltakart vonalak
+OC,OC
+octant,térnyolcad
+odour equipment,Szagosító berendezés
+OE,OE
+OEM Make Wizard,OEM Make varázsló
+OFFSETEDGE,ÉLELTOL
+Ohm,Ohm
+Oil water separator,olaj-víz szétválasztó
+OLECONVERT,OLEKONVERT
+OLELINKS,OLECSATL
+OLEOPEN,OLEMEGNYIT
+OLERESET,OLEVISSZAÁLL
+OLESCALE,OLELÉPTÉK
+ONLINEDESIGNSHARE,ONLINETERVMEGOSZTÁS
+opacity,átlátszatlanság
+OPENDWFMARKUP,DWFJELÖLŐMEGNYIT
+OPENFROMCLOUD,MEGNYITÁSFELHŐBŐL
+OPENFROMWEBMOBILE,WEBMOBILMEGNYIT
+OPENSHEETSET,LAPKÉSZLETMEGNYIT
+OPTCHPROP,OPTTVÁLT
+OPTIONS,OPCIÓK
+ordinate dimension,koordinátaméret
+ordinate dimensioning,koordinátaméretezés
+organic modeling,természetes modellezés
+origin label,Kezdőpont felirat
+ortho,Orto
+ortho mode,orto-mód
+ortho-image,ortografikus kép
+OSNAP,TRASZTER
+outer style,külső stílus
+outfall,kifolyó
+over-constrain,túlkényszerez
+overlapping ring,átfedő hurok
+overline,föléhúzás
+overlining,föléhúzás
+P&ID,P&ID
+PAGESETUP,OLDALBEÁLL
+-PAGESETUP,-OLDALBEÁLL
+PAINTER,FESTŐ
+panorama,panoráma
+paper space,papírtér
+parallel constraint,párhuzamos kényszer
+PARAMETERS,PARAMÉTEREK
+PARAMETERSCLOSE,PARAMÉTERBEZÁR
+parametric drawing,parametrikus rajz
+parametric expression,parametrikus kifejezés
+parent feature class,szülő jellemzőosztály
+PARTIALOAD,RÉSZBETÖLT
+PARTIALOPEN,RÉSZMEGNYIT
+PASTEASHYPERLINK,HHIVATKOZÁSBEILL
+PASTEBLOCK,BLOKKBEILL
+PASTECLIP,VGBEILL
+PASTEORIG,BEILLORIG
+PASTESPEC,VGIRBEILL
+patch list,javítócsomag-lista
+patch surface,foltfelület
+path array,kiosztás útvonal mentén
+path curve,útvonalgörbe
+PCEXTRACTSECTION,PFMETSZETKIEMEL
+PCINWIZARD,PKBEVARÁZSLÓ
+PDFADJUST,PDFBEÁLL
+PDFATTACH,PDFCSATOL
+PDFCLIP,PDFRÉSZ
+PDFIMPORT,PDFIMPORT
+PDFLAYERS,PDFRÉTEGEK
+PDFSHXTEXT,PDFSHXSZÖVEG
+PEDIT,VLEDIT
+pen width,tollvastagság
+Pencil tool,Ceruza eszköz
+PERFANALYZER,TELJESÍTMÉNYELEMZŐ
+PERFANALYZERCLOSE,TELJESÍTMÉNYELEMZŐBEZÁR
+performance hint,Teljesítménynövelő tipp
+periodic curve,periodikus görbe
+persistent object snap,állandó tárgyraszter
+persistent reactor,állandó reaktor
+pessimistic locking,pesszimista lezárás
+PFACE,SOKLAP
+photo modeling,fotómodellezés
+photon map,fotontérkép
+physical prototyping,fizikai prototípus-készítés
+pickfirst set,előzetes kijelölési készlet
+pig launch,csőgörényállomás
+PIP,PIP
+pipe fitting,csőszerelvény
+pipe insulation,csőszigetelés
+PKFSTGROUP,PKFSTGROUP
+planar face,síklap
+PLANESURF,SÍKFEL
+plastic socket,műanyag karmantyú
+PLINE,VLÁNC
+plot frame,nyomtatási keret
+plot stamp,nyomtatási pecsétek
+plot structure,Nyomtatási struktúra
+plot style,nyomtatási stílus
+PLOTSTAMP,PLOTPECSÉT
+PLOTSTYLE,NYOMTSTÍLUS
+PLOTTERMANAGER,PLOTTERKEZELŐ
+PLT2DWG,PLT2DWG
+PMSTART,PMSTART
+PMSTOP,PMSTOP
+PMTOGGLE,PMTOGGLE
+PMTRACE,PMTRACE
+PNGOUT,PNGKI
+point feature,pontjellemző
+POINTCLOUDATTACH,PONTFELHŐCSATOL
+POINTCLOUDCOLORMAP,PONTFELHŐSZÍNTÉRKÉP
+POINTCLOUDCROP,PONTFELHŐKIVÁG
+POINTCLOUDCROPSTATE,PONTFELHŐKIVÁGÁLLAPOT
+POINTCLOUDMANAGER,PONTFELHŐKEZELŐ
+POINTCLOUDMANAGERCLOSE,PONTFELHŐKEZELŐBEZÁR
+POINTCLOUDSTYLIZE,PONTFELHŐSTILIZÁL
+POINTCLOUDUNCROP,PONTFELHŐKIVÁGMEGSZÜNTET
+pointer input,mutatóbevitel
+POINTLIGHT,PONTFÉNY
+polar array,poláris kiosztás
+polar stretch,Poláris nyújtás
+polar tracking,poláris követés
+PolarSnap,PolarSnap
+pole,oszlop
+polling frequency,ellenőrzési gyakoriság
+polyarc segment,íves vonalláncszakasz
+polyface mesh,soklapháló
+POLYGON,POLIGON
+polygon mesh,poligonháló
+polyline,vonallánc
+POLYSOLID,VLÁNCTEST
+position finder,pozíciókereső
+position point,pozíciópont
+Power Dimensioning,Profi méretezés
+precision presets manager,pontosságbeállítás-kezelő
+PREFERENCES,BEÁLLÍTÁSOK
+pressed joint,sajtolt kötés
+PRESSPULL,TOLHÚZ
+pressure zone,Nyomászóna
+PRJ,Legacy PRJ
+profile curve,Profilgörbe
+profile designer,Metszettervező
+progressive tooltip,progresszív eszköztipp
+project dashboard,projektműszerfal
+Project Simulus,Simulus projekt
+projected coordinate system,vetületi koordináta-rendszerek
+PROJECTGEOMETRY,GEOMETRIAVETÍT
+properties inspector,tulajdonságfelügyelő
+PROPERTIESCLOSE,TULAJDONSÁGOKBEZÁR
+property line,telekhatár
+PROPULATE,PROPULATE
+prototype drawing,prototípusrajz
+PSBSCALE,PSBSCALE
+PSETUPIN,OLDALBEÁLLBE
+PSFILL,PSKITÖLT
+PSOUT,PSKI
+PSPACE,PTÉR
+PSTSCALE,PSTSCALE
+PTYPE,PTÍPUS
+PUSHTODOCSCLOSE,FELTÖLTÉSDOCSBABEZÁR
+PUSHTODOCSOPEN,FELTÖLTÉSDOCSBAMEGNYIT
+QCCLOSE,GYSZBEZÁR
+QDIM,GYMÉRET
+QLATTACH,QLATTACH
+QLATTACHSET,QLATTACHSET
+QLDETACHSET,QLDETACHSET
+QLEADER,GYMUTATÓ
+QNEW,GYÚJ
+QQUIT,QQUIT
+QSAVE,GYMENT
+QSELECT,GYKIJELÖL
+QTEXT,GYSZÖVEG
+quick dimension,gyors méretezés
+QuickCalc,GySzámol
+QUICKCUI,GYORSCUI
+QUICKPROPERTIES,GYORSTULAJDONSÁGOK
+QVDRAWING,GYNRAJZ
+QVDRAWINGCLOSE,GYNRAJZBEZÁR
+QVLAYOUT,GYNELRENDEZÉS
+QVLAYOUTCLOSE,GYNELRENDEZÉSBEZÁR
+R14PENWIZARD,R14TOLLVARÁZSLÓ
+radial dimension,sugárméret
+radius reflection line,sugár tükrözési vonala
+rapid prototyping,gyors prototípus-készítés
+RAY,SUGÁR
+RCONFIG,RBEÁLL
+reality capture,valóság rögzítése
+Recent,Legutóbbi
+recent blocks list,legutóbbi blokkok listája
+recent blocks location,legutóbbi blokkok helye
+recloser,feszültségszabályzó
+RECOVERALL,MINDHELYREHOZ
+RECTANG,TÉGL
+RECTANGLE,TÉGLALAP
+REDIR,REDIR
+REDIRMODE,REDIRMODE
+REDRAWALL,MINDFR
+REFCLOSE,REFBEZÁR
+REFEDIT,REFSZERK
+reference constraint,referenciakényszer
+reference frame,referenciakeret
+reference grid,referenciaháló
+Reference Manager,Referenciakezelő
+reference record,Referenciaadat
+refinement,finomítás
+reflection map,visszaverődési térkép
+refraction index,törésmutató
+REFSET,REFHALMAZ
+REGEN,REGEN
+REGEN3,REGEN3
+REGENALL,MINDREG
+REGENAUTO,AUTOREG
+REINIT,ÚJRAINIC
+relax constraint,kényszer kikapcsolása
+RENAME,ÁTNEVEZ
+render context,renderelési tartomány
+render preset,renderbeállítás
+RENDERCROP,RENDERRÉSZ
+RENDERENVIRONMENT,RENDERKÖRNYEZET
+RENDERENVIRONMENTCLOSE,RENDERKÖRNYEZETBEZÁR
+RENDEREXPOSURE,RENDEREXPOZÍCIÓ
+RENDEREXPOSURECLOSE,RENDEREXPOZÍCIÓBEZÁR
+RENDERONLINE,RENDERONLINE
+RENDERPRESETS,RENDERBEÁLLÍTÁSOK
+RENDERPRESETSCLOSE,RENDERBEÁLLÍTÁSOKBEZÁR
+RENDERWIN,RENDERABL
+RENDERWINDOW,RENDERABLAK
+RENDERWINDOWCLOSE,RENDERABLAKBEZÁR
+Report Designer,jelentéstervező
+representation,ábrázolás
+representation string,helyettesítő szöveg
+REPURLS,REPURLS
+reservoir,víztározó
+RESETBLOCK,BLOKKVISSZA
+residual,maradék
+restrictor,szűkítő
+RESUME,FOLYTAT
+REVCLOUD,REVBUBORÉK
+REVCLOUDPROPERTIES,REVBUBORÉKTULAJDONSÁGOK
+REVSURF,FORGFEL
+rewind history,visszatekerés előzményei
+Ribbon Command Locator,Menüszalagparancsok
+ribbon panel,szalagpanel
+RIBBONCLOSE,SZALAGBEZÁR
+roll open,kigördül
+roll up,felgördül
+rollback,visszaléptetés
+ROTATE3D,FORGAT3D
+RPREF,RBEÁLL
+RPREFCLOSE,RENDERBEÁLLBEZÁR
+RSCRIPT,ÚJRAFUT
+RTEDIT,RTEDIT
+RTEXT,RTEXT
+RTEXTAPP,RTEXTAPP
+RTPAN,VITOL
+RTUCS,RTUCS
+RTZOOM,VIZOOM
+RULESURF,SZABFEL
+SAVEALL,SAVEALL
+SAVEAS,MENTMINT
+SAVEIMG,KÉPMENTŐ
+SAVETOCLOUD,MENTÉSFELHŐBE
+SAVETOWEBMOBILE,WEBMOBILMENT
+scale factor height,Függőleges lépték
+SCALELISTEDIT,LÉPTÉKLISTASZERK
+SCALETEXT,SZÖVEGLÉPTÉK
+schema,séma
+schematic feature,sematikus tulajdonság
+schematic symbol,kapcsolási rajzi jel
+SCRIPT,FKÖNYV
+SCRIPTCALL,PFÁJLHÍVÁS
+section boundary,metszet határvonala
+section line,keresztszelvényvonal
+section object,metszet objektum
+section plane,metszősík
+section view,metszeti nézet
+SECTIONPLANE,METSZŐSÍK
+SECTIONPLANEJOG,METSZŐSÍKTÖR
+SECTIONPLANESETTINGS,METSZŐSÍKBEÁLL
+SECTIONPLANETOBLOCK,METSZŐSÍKBÓLBLOKK
+SECTIONSPINNERS,SZELVÉNYLÉPTETŐK
+SECURITYOPTIONS,BIZTONSÁGIBEÁLLÍTÁSOK
+SELECTCOUNT,DARABSZÁMKIJELÖL
+SELECTSIMILAR,SELECTSIMILAR
+SELECTURL,URLKIJELÖL
+self-intersecting polygon,önmetsző poligon
+septic tank,Rothasztó tartály
+SEQUENCEPLAY,KÉPSORLEJÁTSZ
+sequential search,keresés sorrendben
+service point,szolgáltatási pont
+SETBYLAYER,FÓLIÁRAÁLLÍT
+SETVAR,VÁLTOZÓK
+SH,SH
+shade plot mode,árnyalt nyomtatási mód
+SHADEMODE,ÁRNYALÁSMÓD
+shaft break,tengelymegtörés
+ShapeManager,ShapeManager
+SHAREDVIEWS,MEGOSZTOTTNÉZETEK
+SHAREDVIEWSCLOSE,MEGOSZTOTTNÉZETEKBEZÁR
+SHAREVIEW,NÉZETMEGOSZT
+sheet set manager,lapkészletkezelő
+sheet subset,részlapkészlet
+SHEETSET,LAPKÉSZLET
+SHEETSETHIDE,LAPKÉSZLETELREJT
+shortcut function,rövid függvény
+SHOWPALETTES,PALETTAMEGJELENÍT
+SHOWRENDERGALLERY,RENDERGALÉRIAMUTAT
+SHOWURLS,SHOWURLS
+SHP2BLK,SHP2BLK
+SIGVALIDATE,ALÁÍRÁSELLENŐRIZ
+site point,helyszínpont
+SketchUp,SketchUp
+smart block,intelligens blokk
+snap angle,raszterszög
+snap grid,raszterháló
+SOLDRAW,TESTRAJZOL
+solid primitive,primitív szilárdtest
+SOLIDEDIT,SZTESTSZERKESZT
+SOLPROF,TESTVET
+SOLVIEW,TESTNÉZET
+sortents table,sortents táblázat
+SPACETRANS,TÉRMÉR
+SPHERE,GÖMB
+spline,spline
+SPLINEDIT,SPLINEDIT
+split point,felosztási pont
+split rivet,hasított szegecs
+SPOTLIGHT,REFLEKTOR
+SSM,LKK
+SSX,SSX
+standard deviation,szórás
+STANDARDS,SZABVÁNYOK
+Start In folder,Kezdőmappa
+Start tab,Indítás lap
+still image,állókép
+still-image,állókép
+STLOUT,STLKI
+Stock Tool,Alapvető eszköz
+stop condition,leállási feltétel
+STRETCH,NYÚJT
+stretch action,nyújtás művelet
+stretch frame,nyújtási keret
+structure,struktúra
+structure environment,szerkezeti környezet
+student version,diákverzió
+STYLE,STÍLUS
+STYLESMANAGER,STÍLUSKEZELŐ
+stylus,toll
+subdivision mesh,osztóháló
+subdivision surface,osztófelület
+substation,alállomás
+substitute block,helyettesítő blokk
+sun property,napfény tulajdonságai
+SUNPROPERTIES,NAPTULAJDONSÁGOK
+SUNPROPERTIESCLOSE,NAPTULAJDONSÁGOKBEZÁR
+SUPERHATCH,SUPERHATCH
+supply zone,készletzóna
+surface analysis,felületelemzés
+surface normal,felületi normális
+SURFBLEND,FELÜLETSIMÍT
+SURFEXTEND,FELÜLETHOSSZABBÍT
+SURFEXTRACTCURVE,FELÜLETGÖRBEKIEMEL
+SURFFILLET,FELÜLETLEKEREKÍT
+SURFNETWORK,FELÜLETHÁLÓZATBÓL
+SURFOFFSET,FELÜLETELTOL
+SURFPATCH,FELÜLETFOLT
+SURFSCULPT,FELÜLETSZOBRÁSZ
+SURFTRIM,FELÜLETMETSZ
+SURFUNTRIM,FELÜLETVISSZAÁLLÍT
+sweep path,söprési útvonal
+switchable,kapcsolható
+switchgear,kapcsoló berendezés
+SYSVARMONITOR,RENDSZERVÁLTFIGYELŐ
+SYSVDLG,SYSVDLG
+SYSWINDOWS,ABLAKOK
+tab page,lapfül
+TABLEDIT,TÁBLÁZATEDIT
+TABLEEXPORT,TÁBLÁZATEXPORT
+TABLESTYLE,TÁBLÁZATSTÍLUS
+TABSURF,TABFEL
+tabulated mesh,tabulált háló
+taper angle,szűkülés szöge
+TARGETPOINT,CÉLPONT
+task pane,Feladatok lap
+TASKBAR,TÁLCA
+TBCONFIG,ESKONFIG
+TCASE,TCASE
+TCIRCLE,TCIRCLE
+TCOUNT,TCOUNT
+template manager,Sablonkezelő
+Terrain Point Pro,Terepi pont szelvényben
+tessellation,vonalazás
+TEXT,SZÖVEG
+TEXTALIGN,SZÖVEGILLESZT
+TEXTEDIT,SZÖVSZERK
+TEXTFIT,TEXTFIT
+TEXTMASK,TEXTMASK
+TEXTSCR,SZÖVKÉP
+TEXTTOFRONT,SZÖVEGFELÜL
+TEXTUNMASK,TEXTUNMASK
+TFHELP,TFHELP
+TFRAMES,TFRAMES
+thermal conductivity,hővezetési tényező
+thermoplastic,hőre lágyuló
+TIFOUT,TIFKI
+tile order,mozaiksorrend
+tile size,Mozaikméret
+tiling scheme,Szelvényezési séma
+TIME,IDŐ
+time server,időkiszolgáló
+timeline,időegyenes
+TINSERT,TÁBLÁZATBEILL
+tint color,színezési szín
+title block,címpecsét
+TJUST,TJUST
+TOLERANCE,TŰRÉS
+tool palette,eszközpaletta
+tool palette set,eszközpaletta-készlet
+TOOLBAR,ESZKÖZTÁR
+TOOLPALETTES,ESZKÖZPALETTÁK
+TOOLPALETTESCLOSE,ESZKÖZPALETTÁKBEZÁR
+toolpath,szerszámpálya
+top view,felülnézet
+topic,téma
+topology,topológia
+TORIENT,TORIENT
+torsion spring,forgatórugó
+torus,tórusz
+Tour Building wheel,Épületbemutató kerék
+tower,torony
+TPNAVIGATE,ESZKPALÚTVONAL
+trace direction,követési irány
+trace feature,pausz funkció
+TRACEBACK,PAUSZHÁTRA
+TRACEEDIT,PAUSZSZERK
+TRACEFRONT,PAUSZELŐRE
+TRACEPALETTECLOSE,PAUSZPALETTABEZÁR
+TRACEPALETTEOPEN,PAUSZPALETTAMEGNYIT
+TRACEVIEW,PAUSZMEGTEKINT
+trackpad,trackpad
+transaction,Tranzakció
+transformer,transzformátor
+translucency,áttetszőség
+transmittal package,küldeménycsomag
+transmittal setup,küldeménybeállítás
+tray,tálca
+TRAYSETTINGS,TÁLCABEÁLL
+treatment plant,szennyvíztisztító telep
+TREESTAT,FASTÁTUSZ
+trellis,rács
+TREX,TREX
+trial version,próbaverzió
+triangulate,háromszögelés
+TSCALE,TSCALE
+TUTCLEAR,GYAKTÖRÖL
+TUTDEMO,GYAKDEMO
+TXT2MTXT,SZÖVEGBSZÖVEGGÉ
+TXTEXP,TXTEXP
+U,V
+UCS,FKR
+UCSICON,FKRIKON
+UCSMAN,FKRKEZ
+ULAYERS,AVFÓLIA
+UNDEFINE,DEFTÖRÖL
+underconstrained,alulkényszerezett
+underlay,alávetítés
+UNISOLATEOBJECTS,UNISOLATEOBJECTS
+up direction,felfelé irány
+UPDATEFIELD,MEZŐFRISSÍT
+UPDATETHUMBSNOW,ELŐNÉZETFRISSÍT
+User Coordinate System,Felhasználói koordináta-rendszer
+utility,közmű
+UV space,UV-tér
+VBAIDE,VBAIDE
+VBALOAD,VBABETÖLT
+VBAMAN,VBAKEZELŐ
+VBANEW,VBAÚJ
+VBAPREF,VBABEÁLL
+VBARUN,VBAFUTTAT
+VBASTMT,VBAUTASÍT
+VBAUNLOAD,VBATÖRÖL
+VERSIONCOMPARE,VERZIÓÖSSZEHASONLÍT
+vertex,töréspont
+vertex bulge,csúcspont-kitüremkedés
+View Object wheel,Objektummegtekintő minikerék
+VIEWBASE,BÁZISNÉZET
+VIEWCOMPONENT,NÉZETKOMPONENS
+VIEWDETAIL,NÉZETRÉSZLET
+VIEWDETAILSTYLE,NÉZETRÉSZLETSTÍLUS
+VIEWEDIT,NÉZETSZERKESZT
+VIEWGO,NÉZETHEZ
+VIEWPLAY,NÉZETLEJÁTSZ
+VIEWPLOTDETAILS,NYOMTRÉSZLETEK
+VIEWPORTS,NÉZETABL
+VIEWPROJ,VETÍTETTNÉZET
+VIEWRES,ÍVFELB
+VIEWSECTION,NÉZETMETSZET
+VIEWSECTIONSTYLE,NÉZETMETSZETSTÍLUS
+VIEWSETPROJ,VETÍTETTNÉZETBEÁLL
+VIEWSKETCHCLOSE,NÉZETVÁZLATBEZÁR
+VIEWSTD,NÉZETSTANDARD
+VIEWSYMBOLSKETCH,NÉZETSZIMBÓLUMVÁZLAT
+VIEWUPDATE,NÉZETFRISSÍT
+visit point,érintett pont
+VISUALSTYLES,LÁTVÁNYSTÍLUSOK
+VISUALSTYLESCLOSE,LÁTVÁNYSTÍLUSOKBEZÁR
+VLIDE,VLIDE
+VLIDE command,VLIDE parancs
+VLISP,VLISP
+Volo View Express,Volo View Express
+VPCLIP,NARÉSZ
+VPEDIT,NASZERK
+VPLAYER,NAFÓLIA
+VPMAX,NAMAX
+VPMIN,NAMIN
+VPOINT,NÉZŐPONT
+VPORTS,NABL
+VPSCALE,VPSCALE
+VPSYNC,VPSYNC
+VSCURRENT,LSAKTUÁLIS
+VSLIDE,BEDIA
+VSSAVE,LSMENT
+VTOPTIONS,NÁBEÁLL
+WALKFLYSETTINGS,SÉTAREPÜLBEÁLL
+waste water,szennyvíz
+watched folder,figyelt mappa
+water fixture unit,egyenértékű vízfogyasztási egység
+watertight,vízhatlan
+wavelet,wavelet
+WBLOCK,BLOKKDEF
+WCS,VKR
+web file,hálófájl
+web light,hálófény
+web mapping service,webes térképészeti szolgáltatás
+WEBLIGHT,HÁLÓFÉNY
+WEBLOAD,WEBBETÖLT
+welcome screen,Üdvözlő képernyő
+WHOHAS,KIÉ
+wildcard,helyettesítő karakter
+winding fill,körkitöltés
+wipeout object,kitakarás objektum
+wireframe,drótváz
+WMFIN,WMFBE
+WMFOPTS,WMFOPCIÓK
+WMFOUT,WMFKI
+World Coordinate System,világ koordináta-rendszer
+world space,világtér
+WSSAVE,MTMENT
+WSSETTINGS,MTBEÁLL
+XATTACH,XILLESZT
+XBIND,XCSATOL
+XCLIP,XRÉSZ
+XCOMPARE,XÖSSZEHASONLÍT
+XCOMPARECLOSE,XÖSSZEHASONLÍTBEZÁR
+XCOMPARERCNEXT,XÖSSZEHASONLÍTKÖVETKEZŐ
+XCOMPARERCPREV,XÖSSZEHASONLÍTELŐZŐ
+XDATA,XDATA
+XDLIST,XDLIST
+XEDGES,ÉLKIEMEL
+XLINE,SZVONAL
+XLIST,XLIST
+XOPEN,XMEGNYIT
+XPLODE,ROBBANT
+xref,xref
+XSL,XSL
+zipped KML file,tömörített KML-fájl
+zoom invariant,állandó méretű

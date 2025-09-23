@@ -1,0 +1,133 @@
+﻿source,target
+3D-verkkoprimitiivi,3D mesh primitive
+3D-objektin siirtokoje,3D Move gizmo
+3D-objektin kiertokoje,3D Rotate gizmo
+3D-objektin skaalauskoje,3D Scale gizmo
+ALKIS,ALKIS
+analyyttinen pinta,analytical surface
+merkinnän rajoite,annotational constraint
+Associative QDIM extension,Associative QDIM extension
+ATIL,ATIL
+AutoCAD Migration Assistance,AutoCAD Migration Assistance
+AutoCAD mobiililaitteille,AutoCAD Mobile
+Autodesk Content Explorer,Autodesk Content Explorer
+yhdistämistila,blend mode
+yhdistävä pinta,blend surface
+BLOB,BLOB
+blokinluomisobjekti,block authoring object
+blokin ominaisuustaulukko,block properties table
+rajattu alue,bounded area
+katkoskohta,break point
+keskeytyskohta,breakpoint
+kameran kalibrointi,camera calibration
+Catmull-Clark-alajaottelupinta,Catmull-Clark subdivision surface
+CHAR,CHAR
+CLOB,CLOB
+passiivinen kahva,cold grip
+yhdistetty tilavuusobjekti,composite solid
+rajoiterivi,constraint bar
+rajoiteparametri,constraint parameter
+rajoitepiste,constraint point
+rajoitemuuttuja,constraint variable
+rakenneviiva,construction line
+ohjausrunko,control hull
+CRS,CRS
+CSS,CSS
+CWFU,CWFU
+DCM-moduuli,DCM Engine
+riippuvuuden korostus,dependency highlighting
+Design Web Format,Design Web Format
+Digital Signature Extension,Digital Signature Extension
+mittarajoite,dimensional constraint
+DMS,DMS
+DOF,DOF
+DPI,DPI
+Drawing Interchange Format,Drawing Interchange Format
+määräytyvä rajoite,driven constraint
+ohjaava mitta,driving dimension
+DTED,DTED
+DWF,DWF
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DXF,DXF
+dynaaminen rajoite,dynamic constraint
+korkeustaso,elevation
+ESW,ESW
+laajennettu ohjetiedosto,extended help file
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+pinta-alkio,facet
+FDO,FDO
+pyöristys,fillet
+sovituspiste,fit point
+taittopaneeli,fold panel
+vapaamuotoinen suunnittelu,freeform design
+geometrinen rajoite,geometric constraint
+geospatiaaliset tiedot,geospatial information
+koje,gizmo
+Google Earth,Google Earth
+aktiivinen kahva,hot grip
+i-drop Enhancer,i-drop Enhancer
+ISA,ISA
+isoline-viiva,isoline
+isoparm,isoparm
+Keyhole Markup Language,Keyhole Markup Language
+mutka,kink
+KML,KML
+KMZ,KMZ
+solmuparametrien määritys,knot parameterization
+kielipaketti,language pack
+leveysaste,latitude
+tasaisuuden taso,level of smoothness
+viivojen yhdistäminen,line merge
+pituusaste,longitude
+mental ray,mental ray
+verkko,mesh
+MLD,MLD
+malliparametri,model parameter
+monitoimikahva,multi-functional grip
+NANT,NANT
+NAS,NAS
+NCLOB,NCLOB
+sisäkkäinen viite,nested reference
+verkkopinta,network surface
+NURBS-pinta,NURBS surface
+ObjectARX,ObjectARX
+oktantti,octant
+Ohm,Ohm
+orgaaninen mallinnus,organic modeling
+ortho-kuva,ortho-image
+ylirajoittaminen,over-constrain
+P&ID,P&ID
+panoraama,panorama
+parametripiirto,parametric drawing
+paikkaava pinta,patch surface
+kynätyökalu,pencil tool
+periodinen käyrä,periodic curve
+jatkuva objektin kohdistus,persistent object snap
+Photo Modeling -välilehti,photo modeling
+fyysinen prototyypin luominen,physical prototyping
+ensipoimintajoukko,pickfirst set
+PIP,PIP
+tasopinta,planar face
+PolarSnap,PolarSnap
+Polyarc-kaarisegmentti,polyarc segment
+polyline-objekti,polyline
+tarkkuuden esimääritysten hallinta,precision presets manager
+nopea prototyypin luominen,rapid prototyping
+todellisuuden tallennus,reality capture
+viiterajoite,reference constraint
+vapauta rajoite,relax constraint
+ShapeManager,ShapeManager
+SketchUp,SketchUp
+jakautumisverkko,subdivision mesh
+jakautumispinta,subdivision surface
+pinnan normaalit,surface normal
+havainnollistaminen,tessellation
+pohjakuva,underlay
+suunta ylös,up direction
+UV-tila,UV space
+kärkipiste,vertex
+aloitusruutu,welcome screen
+XSL,XSL
+zoomattaessa muuttumaton,zoom invariant

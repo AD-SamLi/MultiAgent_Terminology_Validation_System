@@ -1,0 +1,910 @@
+﻿source,target
+3D Packing,3D-упаковка
+3D Print,3D-друк
+abrasive flow rate,витрата абразиву
+adaptive clearing,адаптивне навчання
+adaptive refinement,адаптивне уточнення
+additive manufacturing simulation,моделювання адитивного виробництва
+additive technology,адитивна технологія
+admin,адміністратор
+administrator,адміністратор
+advanced simulation study,розширене імітаційне дослідження
+AFR,AFR
+air convection,конвекція повітря
+air trap,повітряна пастка
+Alias,Псевдонім
+aligned section view,вирівняний вид перетину
+alignment,вирівнювання
+all-around symbol,універсальний символ
+allowance,посібник
+alternate unit,альтернативний блок
+AM,AM
+analysis time,час аналізу
+analytical surface,аналітична поверхня
+angular global load,кутове глобальне навантаження
+angular speed,кутова швидкість
+angular velocity,кутова швидкість
+angularity,незграбність
+animation footage,анімаційні кадри
+annotation,анотація
+application,докладання
+arc,дуга
+assembly constraint,обмеження збірки
+assembly pattern,схема збірки
+asset library,бібліотека активів
+associative PCB,асоціативна друкована плата
+auto-draw tool,інструмент автоматичного малювання
+Autodesk Human Interface Guidelines,Рекомендації по роботі з людським інтерфейсом Autodesk
+Autodesk Partner,Партнер Autodesk
+Autodesk Projects,Проекти Autodesk
+Autodesk Vault Professional edition,Професійне видання Autodesk Vault
+automatic face chain,автоматична торцева ланцюжок
+automatic feature recognition,автоматичне розпізнавання об'єктів
+automatic ordering,автоматичне замовлення
+automatic routing,автоматична маршрутизація
+automatic tool changer capacity,продуктивність автоматичної зміни інструменту
+automatic verification,автоматична перевірка
+auxiliary view,допоміжний вид
+axis,вісь
+axle,вісь
+B axis,Вісь B
+background processing,фонова обробка
+ball mill,кульовий млин
+ball nosed tool,інструмент з кульовим наконечником
+ball screw,кульковий гвинт
+barrel tool,бочкоподібний інструмент
+base body,базовий корпус
+base face,Базова поверхня
+base flange,базовий фланець
+base point,базова точка
+baud rate,швидкість передачі даних в бодах
+bead width,ширина бортика
+beam detail,деталь променя
+Belleville spring,Бельвільська пружина
+bend relief override,перевизначення рельєфу вигину
+bent tubing route,траса для гнутих труб
+bill of materials,специфікація матеріалів
+biocompatible material,біосумісний матеріал
+blend surface,розтушована поверхня
+blisk,блиск
+board outline,схема дошки
+body load,навантаження на тіло
+body thickness,товщина корпусу
+body type,тип статури
+BOM,BOM
+BOM grid,Таблиця специфікацій
+BOM Object,Об'єкт специфікації
+boring bar,розточувальна планка
+boss feature,особливість боса
+boundary,межа
+boundary patch,прикордонна ділянка
+bouquet,букет
+bowtie,краватка-метелик
+box display,дисплей коробки
+braking torque,гальмівний момент
+branch connection,підключення до філії
+brush,щітка
+buckling,прогинатися
+build preparation software,програмне забезпечення для підготовки збірки
+bulk load,насипний вантаж
+bulk modulus,об'ємний модуль пружності
+bump,удар
+bump map,рельєфна карта
+bump mapping,відображення рельєфу
+burn mark,слід від опіку
+burn region,область горiння
+C axis,Вісь C
+cable tray,кабельний лоток
+calibration,калібрування
+callout style,стиль виноски
+CAM capabilities,Можливості CAM
+CAM programming,Програмування CAM
+canned cycle,законсервований цикл
+canvas,полотно
+cap filleting,филетирование капелюшки
+carrier,перевізник
+cascade water junction,каскадний Водний перехід
+cel shading,затінення cel
+center line,центральна лінія
+center pin,Центральний штифт
+centre point,центральна точка
+centric axis,центральна вісь
+chain dimension,розмір ланцюга
+chain selection,вибір ланцюжка
+chaining,приковування ланцюгом
+chamfer tool,інструмент для зняття фаски
+chamfering tools,інструменти для зняття фасок
+change order,змінити порядок
+chip formation,освіта стружки
+chuck jaws,затискні губки
+circlip,Стопорне кільце
+circular pitch,круговий крок
+circular tapered gate,круглі конічні ворота
+circumferential speed,колова швидкість
+CLDATA,CLDATA
+clearance value,величина зазору
+clip planes,затискні площини
+closed edge,закритий край
+closed return bend,закритий зворотний вигин
+cloud credit balance,Хмарний кредитний баланс
+cloud credit task,хмарна кредитна задача
+cloud data,хмарні дані
+CMM,CMM
+CNC,CNC
+CNC controller,Контролер з CNC
+co-injection molding,спільне лиття під тиском
+coarsening generations,огрубляючі покоління
+coating,покриття
+code snippet,фрагмент коду
+codebase,кодова база
+coincident constraint,збіг обмеження
+cold slug,холодна куля
+collet,втулка
+collision,зіткнення
+collision avoidance,запобігання зіткнень
+collision avoidance parameters,параметри запобігання зіткнень
+collision free link path,шлях з'єднання без зіткнень
+colored confetti,різнобарвне конфетті
+colorization options,варіанти розфарбовування
+colour palette,колірна палітра
+command window,командне вікно
+Common Core,Загальне ядро
+common material,звичайний матеріал
+component,компонент
+component placement,розміщення компонентів
+component visibility,видимість компонентів
+composite curve,складова крива
+compound hole,складений отвір
+computenode,обчислювальний вузол
+concentricity,концентричність
+conduit,трубопровід
+cone,конус
+Configuration Administrator,Адміністратор конфігурації
+connected workgroup,підключена робоча група
+connector,з'єднувач
+connector pin,контактний роз'єм
+constant-radius fillet,округлення з постійним радіусом
+constrained object,обмежений об'єкт
+constraint,обмеження
+constraint status,статус обмеження
+construction plane,будівельна площина
+contact point,контактний пункт
+contact point boundary,межа точки контакту
+Content Center Editor,Редактор центру вмісту
+content library,бібліотека контенту
+contour flange,контурний фланець
+control vertex,керуюча вершина
+control vertex hull,корпус контрольної вершини
+control vertices hull,корпус керуючих вершин
+convergence plot,графік збіжності
+coolant,охолоджувальна рідина
+coolant options,варіанти охолоджуючої рідини
+cooling fan part,частина вентилятора охолодження
+cooling wizard,майстер охолодження
+coordinate,координувати
+coplanar,паралельний
+COPPA,COPPA
+core,ядро
+core pin,стрижневий штифт
+corner filleting,заокруглення кутів
+corner filleting style,стиль заокруглення кутів
+corner radius,радіус кута
+cosmetic weld bead,косметичний зварний шов
+counterbore hole,отвір для зенковки
+counterdrill hole,зустрічний свердлильний отвір
+countersink hole,потаємний отвір
+critical temperature attribute,критичний температурний параметр
+cross section analysis,аналіз поперечного перерізу
+cross-highlighting,перехресне виділення
+current directory,поточний каталог
+curvature comb,гребінь кривизни
+curvature continuous fillet,безперервне округлення кривизни
+curve definition,визначення кривої
+curve editor,редактор кривих
+curve information,інформація про криву
+cutter compensation,компенсація різця
+cutting line,лінія різання
+CV,CV
+CV hull,Корпус CV
+cylinder,циліндр
+data buffer,буфер даних
+data card,карта даних
+database exports,експорт бази даних
+datum note,примітка до вихідних даних
+datum reference frame,Початкова система відліку
+datum target,початкова мета
+decal,наклейка
+decision support system,система підтримки прийняття рішень
+defeaturing,характеризується
+Dental Wings printers,Принтери зубних крил
+deposition layer,шар осадження
+depth of cut,глибина різання
+depth of field,глибина різкості
+design conflict,конфлікт у дизайні
+design file,файл дизайну
+design reservation,резервування дизайну
+Desktop Connector,З'єднувач для настільного комп'ютера
+diagnostic log file,файл журналу діагностики
+dial-up network connection,віддалене мережеве підключення
+diameter,діаметр
+die formed lofted flange,формований під тиском піднятий фланець
+dimension,вимірювання
+direction,напрямок
+DirectX Runtime,Середовище виконання DirectX
+distance and angle chamfer,відстань і кутова фаска
+DOF,DOF
+dots per inch,точок на дюйм
+DPI,DPI
+draft angle,кут нахилу
+draft surface,чорнова поверхня
+Draw panel,Панель малювання
+drawing group,група малювання
+drill diameter,діаметр свердла
+drilling cycles,цикли буріння
+drilling toolpaths,траєкторії руху свердлильного інструменту
+drive curve,крива приводу
+DSS,DSS
+duct connector,з'єднувач повітроводів
+dump,звалище
+dxf,dxf
+dynamic point,динамічна точка
+dynamic preview,динамічний попередній перегляд
+EBM,EBM
+edge,край
+edge index,Індекс кромки
+edge lambda,гранична лямбда
+edit in place,редагувати на місці
+edit model workspace,редагування робочої області моделі
+EDM,EDM
+ejection direction button,кнопка напрямку викиду
+ejection temperature,температура викиду
+ejector,виштовхувач
+ejector pin,виштовхуючий штифт
+ejector plate,виштовхуюча пластина
+elbow,лікоть
+electric arc wire,дріт для електричної дуги
+electric discharge machining,електроерозійна обробка
+electro discharge machining,електроерозійна обробка
+electrode,електрод
+electronic distance meter,електронний вимірювач відстані
+electronics component,компонент електроніки
+electronics cooling,охолодження електроніки
+electronics workspace,робочий простір для електроніки
+element,елемент
+element deletion criteria,критерії видалення елементів
+elevation,висота
+end angle,кінцевий кут
+end of fill pressure,кінець тиску наповнення
+end point,кінцева точка
+end treatment,закінчення лікування
+environment image,зображення навколишнього середовища
+error map,карта помилок
+event simulation,моделювання подій
+Experimental Generative Solvers and Features,Експериментальні генеративні вирішувачі та їх особливості
+Explorer Window,Вікно провідника
+Express mode,Експрес-режим
+Expression Builder,Конструктор виразів
+exterior corner,зовнішній кут
+external frame,зовнішня рама
+extruder,екструдер
+F3Z,F3Z
+face,особа
+face direction,напрямок обличчя
+face draft,протяг для обличчя
+face group,група осіб
+facegroup,група осіб
+fan geometry,геометрія вентилятора
+Fasteners library,Бібліотека кріпильних деталей
+FEA mesh,Сітка FEA
+feature collision,зіткнення функцій
+feature construction,конструкція елемента
+feature control frame,рамка управління функцією
+feature group,група об'єктів
+feature number,функціональний номер
+feed mode,режим подачі
+feed rate,швидкість подачі
+Feedback Hub,Центр зворотного зв'язку
+feedrate,швидкість подачі
+FFF,FFF
+FFF additive manufacturing,Адитивне виробництво FFF
+FFF machine,Машина FFF
+FFF print,Печатка FFF
+field fit,посадка в польових умовах
+file doctor,доктор файлів
+filestore,сховище файлів
+fill pattern,шаблон заливки
+fillet feature,особливість заокруглення
+fillet style,стиль філе
+finite element mesh,сітка з кінцевих елементів
+fixed edge draft,фіксована осаду кромки
+fixture ID,ідентифікатор пристрою
+fixture offset,зміщення фіксатора
+fixturing,закріплення
+flange height,висота фланця
+flange profile,профіль фланця
+flare v,спалах v
+flat list,плоский список
+flat pattern,плоский візерунок
+flat shading,плоске затінення
+Flex,Згинати
+flood solution,вирішення проблеми повені
+flowline machining strategy,стратегія потокової обробки
+fluid motion,рух рідини
+focal plane,фокальна площина
+foil reservoir,резервуар з фольги
+free drag,безкоштовний наркотик
+free orbit,вільна орбіта
+freeform edit,редагувати у довільній формі
+freeform shape,форма вільної форми
+Full Navigation wheel,Повне навігаційне колесо
+full round fillet,повне кругле філе
+functional design,функціональний дизайн
+Fusion PCB,Друкована плата для плавлення
+Fusion Team administrator,Адміністратор команди Fusion
+gap,пробіл
+gate,ворота
+GCode,Код G
+generative design setup,Налаштування генеративного дизайну
+generative model,породжуюча модель
+generative modeling,генеративне моделювання
+generative technology,генеративна технологія
+geometric feature,геометричний елемент
+geometry,геометрія
+geometry simplification,спрощення геометрії
+gesture behavior,поведінка за допомогою жестів
+global coordinate system,глобальна система координат
+gouge,виїмка
+grain direction,напрямок зерен
+graphic handle,графічний дескриптор
+graphics card,графічна карта
+grid,сітка
+gripper,захоплення
+gripper arm,захватний важіль
+groove,паз
+groove root,корінь канавки
+groove weld,канавочний зварний шов
+ground plane,наземна площина
+ground shadow,тінь від землі
+grounded work point,заземлена робоча точка
+Grow to Box,Вирости до боксера
+GTC,GTC
+guided point,керована точка
+hard transition,важкий перехід
+harness part,частина ременя безпеки
+harness segment,сегмент джгута проводів
+hatch pattern,шаблон штрихування
+hatching,вилуплення
+headnode,примітка до заголовка
+heat load,теплове навантаження
+heat transfer pipe,труба для передачі тепла
+hex washer,шестигранна шайба
+history marker,Історичний маркер
+holder clearance,зазор між власниками
+hole feature,особливість отвору
+hole table,стіл з отворами
+home location,розташування будинку
+horizontal arc,горизонтальна дуга
+host,головний
+HSV,HSV
+hydroforming,гідроформування
+hyperelastic material model,модель гіперпружного матеріалу
+I section,розділ I
+iCopy,iкопія
+ID 2019 Add-In,Додаток ID 2019
+iFeatures,i особливістi
+IFR,IFR
+iLogic Design Copy,Копія логічного дизайну
+impersonating user,видає себе за користувача
+in-canvas tool,інструмент «на полотні»
+inactive component,неактивний компонент
+incompressible material,нестисливий матеріал
+independent PCB,незалежна PCB
+infer constraints,виводити обмеження
+inference,висновок
+injection cone,інжекційний конус
+injection location,місце ін'єкції
+injection molding simulation study,дослідження моделювання процесу лиття під тиском
+injection-compression molding,лиття під тиском
+inner radius,внутрішній радіус
+inspection sequence,послідовність перевірки
+insulation displacement,зміщення ізоляції
+intelligent cursor,інтелектуальний курсор
+Interactive Feature Recognition,Інтерактивне розпізнавання об'єктів
+interlock,блокування
+intermittent weld,переривчастий зварний шов
+internal frame,внутрішня рама
+internal heat,внутрішнє тепло
+internal heat load,внутрішнє теплове навантаження
+internal heat load attribute,атрибут внутрішнього теплового навантаження
+internal heat load types,типи внутрішнього теплового навантаження
+interval,інтервал
+inventor View,представлення винахідника
+iPart Author,Автор частини
+iProperties,властивість
+ISO,ISO
+isocurve,ізокруг
+isoline,ізолінія
+ISTE,ISTE
+item deletion restrictions,обмеження на видалення елементів
+item number,номер товару
+item revision,перегляд товару
+item revision number,номер редакції виробу
+Job Server,Сервер завдань
+joint origin,спільне походження
+joint origin point,загальна вихідна точка
+jump delay,затримка переходу
+key point,ключовий момент
+kinematic chain,кінематичний ланцюг
+kPa,kPa
+L section,L-подібна секція
+landing surface,посадкова поверхня
+language pack,мовний пакет
+laser jump delay,затримка лазерного стрибка
+laser mark delay,затримка лазерної мітки
+laser polygon delay,затримка лазерного полігону
+lattice and skin optimization,оптимізація структури і обшивки
+Launchpad,Панель запуску
+layer height,висота шару
+layer stack,стопка шарів
+layer thickness,товщина шару
+lead angle,ведучий кут
+Learning Inventor 2010,Навчальний винахідник 2010
+lease period,термін оренди
+lesser version,зменшена версія
+license server,сервер ліцензій
+lifecycle rules,правила життєвого циклу
+lifecycle transition limit,межа переходу до життєвого циклу
+lifter,підйомник
+line style toolpath,траєкторія руху інструменту в стилі лінії
+linear global load,лінійне Глобальне навантаження
+lip and groove,виступ і канавка
+lip feature,особливість губ
+Live Enabler,Живий інструмент
+live update,оперативне оновлення
+load diagram,діаграма навантаження
+local coordinate system,локальна система координат
+location ring,кільце розташування
+lock set,установка замку
+lollipop mill,млин для виробництва льодяників
+loop,петля
+Machine Connector,Машинний з'єднувач
+machine design,конструкція машини
+machine tool,механічний інструмент
+MachineDNA,Машинна ДНК
+machining discipline,дисципліна механічної обробки
+Machining extension,Подовжувач для механічної обробки
+machining toolpath,траєкторія руху обробного інструменту
+manipulator,маніпулятор
+manual machine,ручна машина
+manufacturing environment,виробниче середовище
+manufacturing extension,розширення виробництва
+manufacturing toolpath strategies,стратегії створення траєкторії руху інструменту
+markup,розмітка
+mass flow rate,масова витрата
+mass properties,масові властивості
+mass proportional,пропорційний масі
+material accuracy,точність матеріалу
+material model,модель матеріалу
+matrix,матриця
+maximum clamp force,максимальне зусилля затиску
+MD file,Файл MD
+measurement data,дані вимірювань
+mechanistic movement,механічний рух
+member,член
+mesh,меш
+mesh view,вид сітки
+mesher,мешер
+metal powder bed fusion,сплавлення в шарі металевого порошку
+metal powder bed fusion process,процес плавлення шару металевого порошку
+migration path,шлях міграції
+milling operation,операція фрезерування
+milling tool,фрезерний інструмент
+mini toolbar,міні-панель інструментів
+mirror plane,дзеркальна площина
+miter,митра
+mitred corner,скошений кут
+model complexity,складність моделі
+model files,файли моделей
+model limits,межі моделі
+model stiffness,жорсткість моделі
+model translation,переклад моделі
+model view,вид моделі
+moderator,модератор
+mold,прес-форма
+mold base,основа прес-форми
+molding window,формувальне вікно
+morph strategy,стратегія перетворення
+multi-body,багатокорпусний
+multi-body workflow,багатоцільовий робочий процес
+multi-cavity mold,прес-форма з декількома порожнинами
+multibody workflow,багатотільний робочий процес
+multiple composites,багато композитів
+multiple fixture document,документ з декількома фіксаторами
+MultiValue,Багатозначний
+name collision,зіткнення імен
+navigation bar,панель навігації
+NC program,Програма ЧПУ
+NC Program item,Програмний елемент ЧПУ
+NC Programs,Програми з ЧПУ
+NC setup,Налаштування ЧПУ
+neck,шия
+negative shell,негативна оболонка
+nesting,гніздування
+New Features Workshop,Семінар з нових можливостей
+newsgroup,група новин
+NG,NG
+NGSS,NGSS
+nodal moment,Вузловий момент
+non-production,невиробничий
+non-rectangular viewport,непрямокутний видовий екран
+nonlinear library,нелінійна бібліотека
+note,примітка
+numbering scheme,схема нумерації
+numbering schemes,схеми нумерації
+o-ring,ущільнювальне кільце
+object category,Категорія об'єкта
+objective limits,об'єктивні межі
+obstacle geometry,геометрія перешкоди
+OD,OD
+optimized SLM workflow,оптимізований робочий процес SLM
+organic modeling,органічне моделювання
+orientation point,точка орієнтації
+orientation vectors,вектори орієнтації
+origin work feature,оригінальна робоча функція
+original file name,оригінальне ім'я файлу
+outcome image,зображення результату
+outer angle,зовнішній кут
+outer radius,зовнішній радіус
+overhang angle,кут звису
+parallel feature construction,паралельна побудова об'єктів
+parallel plane,паралельна площина
+parameter,параметр
+part catcher,уловлювач деталей
+parting design,конструкція проділу
+parting diagnostic,Діагностика розставання
+password policy requirement,вимоги до політики паролів
+patch curve,крива заплатки
+patching surface,поверхня для закладення швів
+path sketch,ескіз траєкторії
+pattern,шаблон
+pattern feature,особливість візерунка
+PCB,PCB
+PCB feature,Характеристика PCB
+PDF Publish,Публікація у форматі PDF
+pencil trace,олівцевий слід
+peripheral,периферійний
+permission control,контроль дозволів
+physical material,фізичний матеріал
+pilot hole,контрольний отвір
+pin constraint,обмеження пін-коду
+pipe plug,заглушка для труби
+pitch diameter,діаметр кроку
+pitch line,лінія подачі
+placed feature,функція розміщення
+planar curve,плоска крива
+planar face,плоска грань
+plane,літак
+plastic part,пластикова деталь
+plate detail face,лицьова сторона деталі пластини
+plate fixture,пластинчасте кріплення
+plunge point,точка занурення
+point mass,точкова маса
+Poisson ratio,Коефіцієнт Пуассона
+polygon delay,полігональна затримка
+positive direction,позитивний напрямок
+post processing properties,властивості постобробки
+post processor,постпроцесор
+powder bed metal additive manufacturing,виробництво присадок до металу в порошковому шарі
+power feature,функція живлення
+power surface,силова поверхня
+Pozidriv,Позидрив
+preserve geometry,збереження геометрії
+press brake,натискне гальмо
+Press/Pull,Натискати / тягнути
+pressed joint,спресоване з'єднання
+pressure drop,спадання тиску
+pressure loss,утрата тиску
+preview extrusion,попередній перегляд екструзії
+principal strain,основна напруга
+PRM file,Файл PRM
+PRM generation,Генерація PRM
+probe,зонд
+probe body,корпус зонда
+probe geometry,геометрія зонда
+probe mode,режим зондування
+probe type,тип зонда
+process simulation study,дослідження моделювання процесу
+production version,виробнича версія
+profile passes,проходи профілю
+program point,програмний момент
+progressive tooltip,прогресивна підказка
+project,проект
+project explorer,дослідник проекту
+Project Simulus,Стимулювання проекту
+projects,проекти
+promote surface,активізувати поверхню
+property mapping,зіставлення властивостей
+protrusion,виступ
+puck,шайба
+pull direction,напрямок витягування
+quadrant point,точка квадранта
+quarter section view,вид в розрізі на чверть
+quick list,короткий список
+quilt,клаптева ковдра
+radius,радіус
+ramp,рампа
+randomized seam,рандомізований шов
+range,діапазон
+re-index,повторна індексація
+reaction force,сила реакції
+realistic appearance,реалістичний зовнішній вигляд
+recoater,пристрій для повторного нанесення покриття
+recoater clearance,зазор для повторного нанесення покриття
+recoating,повторне нанесення покриття
+rectangle,прямокутник
+reference design,еталонний дизайн
+reference geometry,оригінальна геометрія
+referenced component,довідковий компонент
+referenced object,"об'єкт, на який посилається посилання"
+reflectivity,відбивна здатність
+relief remnant value,залишкова вартість допомоги
+replication,копіювання
+repositioned,змінене положення
+reservation,бронювання
+resin identification code,ідентифікаційний код смоли
+restored pattern element,відновлений елемент візерунка
+results workspace,робоча область результатів
+retract distance,робоча область результатів
+revision format,формат перегляду
+revision mark,відмітка про перегляд
+revision scheme format,формат схеми перегляду
+revision tag,тег зміни
+rib chamfer,ребриста фаска
+rib fillet,реберцеве філе
+ribbon cable,стрічковий кабель
+rider,наїзник
+rotary B axis,обертова вісь B
+rotary C axis,обертова вісь С
+rotary direction,напрям обертання
+rotational adjustment,регулювання обертання
+roughing slice,чорновий зріз
+roughing strategy,стратегія чорнової обробки
+round washer,кругла шайба
+rule fillet,правте філе
+ruled surface,вирівняна поверхня
+runoff loop,петля стоку
+runoff surface,поверхня стоку
+scatter plot,точковий графік
+scratch zone,зона подряпин
+sealing plug,ущільнювальна пробка
+section view,Вид перетину
+seed curve,Початкова крива
+seed point,початкова точка
+segment,сегмент
+selective laser sintering,селективне лазерне спікання
+self symmetric,самосиметричний
+self-tapping screw,самонарізний гвинт
+sensor,датчик
+sequence tree,дерево послідовностей
+setup sheet image,зображення листа налаштування
+setup WCS,Налаштування WCS
+shaft segment height,висота сегмента вала
+shaft upper diameter,верхній діаметр вала
+shallow area,неглибока ділянка
+shank,хвостовик
+shank clearance,зазор між хвостовиками
+shank profile,профіль хвостовика
+shape,форма
+shear heating,нагрівання при зсуві
+shear rate,швидкість зсуву
+sheet bar,листовий брус
+sheet metal,листовий метал
+sheet metal face,поверхня з листового металу
+sheet metal features,особливості листового металу
+sheet metal rule,правило для листового металу
+shell,мушля
+Shera printers,Принтери Shera
+Show Me animation,Анімація Show Me
+shrinkage,усадка
+shrinkwrap,термозбіжна плівка
+shrinkwrap substitute,замінник термоусадочної плівки
+side,сторона
+side core,бічний сердечник
+side lock,бічний замок
+sight line,лінія огляду
+simple measures group,група простих заходів
+simplified DWG,спрощений DWG
+simplify workspace,спрощення робочого простору
+simulated orientations,імітація орієнтації
+Simulation CFD 3D Viewer,Імітаційний CFD 3D-переглядач
+Simulation CFD Viewer,Програма перегляду CFD-моделей для моделювання
+simulation mesh,імітаційна сітка
+simulation model,імітаційна модель
+simulation study,імітаційне дослідження
+single composite,Одиночний композит
+sketch edge,край ескізу
+sketch entity,ескіз об'єкта
+sketch grid,сітка ескізу
+sketch illustration,ескізна ілюстрація
+sketched feature,намальований елемент
+sketched symbol,намальований символ
+Skill Builder,Творець навичок
+slide core,ковзний сердечник
+slider,повзунок
+SLM machine,Машина для SLM
+slope symbol,символ нахилу
+SLS,SLS
+Smart Surfacer,Розумна поверхня
+smooth,гладкий
+smooth display mode,плавний режим відображення
+smoothing mode,режим згладжування
+smoothing tolerance factor,коефіцієнт допуску згладжування
+snippet,уривок
+soft transition,м'який перехід
+solid,твердий
+solid face,тверде обличчя
+SolidscapeDL Printer,Принтер Solidscape
+solve status information interval,вирішіть інформаційний інтервал про стан
+source component,оригінальний компонент
+spindle,шпиндель
+spindle calibration,калібрування шпинделя
+spindle orientation,орієнтація шпинделя
+spindle revolution,обертання шпинделя
+spline,сплайн
+split rivet,роз'ємна заклепка
+split surface,розділена поверхня
+spot drill,точкове свердління
+spotface,точкова поверхня
+sprue,пружина
+sprue bushing,литникова втулка
+spur gear,циліндрична шестерня
+square inch,квадратний дюйм
+standard appearance,стандартний зовнішній вигляд
+star point,Зоряна точка
+start angle,початковий кут
+start point,початкова точка
+steel satin,сталевий сатин
+steep area,крутий ділянку
+stepdown,пониження в посаді
+stepover,перехідний етап
+stiffness proportional,пропорційна жорсткість
+stipple count,кількість штрихів
+stock,склад
+stock model,Стокова модель
+stop pin,стопорний штифт
+strain,напруга
+strain energy,енергія деформації
+strategy,стратегія
+Straumann printers,Принтери Straumann
+stress analysis,аналіз стресу
+structural buckling simulation,моделювання втрати стійкості конструкції
+structural buckling study,дослідження втрати стійкості конструкції
+structural member,конструктивний елемент
+study type,тип дослідження
+sub-spindle,допоміжний шпиндель
+subspindle,допоміжний шпиндель
+suite workflow,робочий процес набору
+support generation,формування підтримки
+support settings,Налаштування підтримки
+suppressed assembly pattern element,пригнічений елемент шаблону збірки
+surface,поверхня
+surface associativity,поверхнева асоціативність
+surface body,поверхня тіла
+surface face,поверхнева поверхня
+surface fillet,поверхневе заокруглення
+surface inspection group,група поверхневого контролю
+surface normal,нормальна поверхня
+surface normal arc,нормальна дуга поверхні
+surface probe,поверхневий зонд
+surface projection,проекція на поверхню
+surface texture,текстура поверхні
+surface trimming,обрізка поверхні
+SVG,SVG
+swarf,стружка
+symbol definition,визначення символу
+T-Spline,Т-подібний сплайн
+T-Spline body,Корпус з Т-подібним шліцом
+tangent direction,напрямок дотичної
+tangent plane,дотична площина
+target component,цільовий компонент
+target point,цільова точка
+target safety factor,цільовий коефіцієнт запасу міцності
+terminal electrical properties,електричні властивості клем
+terminator,термінатор
+thin-walled support shape,форма тонкостінної опори
+third-angle projection,проекція під третім кутом
+three quarter section view,вид в розрізі на три чверті
+thumb screw,гвинт з накатаною головкою
+time slider,повзунок часу
+tolerance,толерантність
+tolerance band,діапазон допусків
+tonemap method,метод тональної карти
+tool,інструмент
+tool assembly,збірка інструменту
+tool axis,вісь інструменту
+tool axis angle,кут нахилу осі інструменту
+tool axis limit,межа осі інструменту
+tool database,база даних інструментів
+tool direction button,кнопка напрямку інструменту
+tool entity,об'єкт інструменту
+tool magazine,магазин для інструментів
+tool orientation,орієнтація інструменту
+tool property,властивість інструменту
+tool radius,радіус дії інструменту
+tool shank data,дані про хвостовик інструменту
+tool tip radius,радіус наконечника інструменту
+tooling,набір інструментів
+toolpath,траєкторія руху інструменту
+Toolpath Edit menu,Меню Редагування траєкторії руху інструменту
+toolpath points,точки траєкторії руху інструменту
+toolpath segments,сегменти траєкторії руху інструменту
+toolpath simulation,моделювання траєкторії руху інструменту
+toolpath tail,хвіст траєкторії руху інструменту
+toolpath workplane,робоче місце з траєкторією руху інструменту
+torque coefficient,коефіцієнт крутного моменту
+torque load,крутний момент навантаження
+torus,тор
+transient load,перехідне навантаження
+translation,переклад
+tree view,деревоподібний вид
+trim boundary,кордон обрізки
+trivial hole,тривіальна діра
+trochoid,трохоїдальний
+turret,вежа
+twin-symmetric,здвоєно-симетричний
+U section,U-подібна секція
+UCS,UCS
+ultimate tensile strength,межа міцності при розтягуванні
+undercut,підрізати
+Undercut option,Опція підріза
+underlay,підкладка
+underlay geometry,геометрія підкладки
+undirected angle,ненаправлений кут
+unfold method,метод розкриття
+user coordinate system,система координат користувача
+v butt,v - подібний зад
+v-belt,клиновий пас
+valve gate,засувка клапана
+variable fillet,змінне округлення
+variable-radius fillet,заокруглення зі змінним радіусом
+Vault account,Обліковий запис сховища
+Vault blog,Блог сховища
+vaulted version,склепінчаста версія
+vaulting restriction,обмеження стрибків з парашутом
+vector,вектор
+vent,вихідний отвір
+vertex,вершина
+viewer mode,режим перегляду
+visualization file,файл візуалізації
+volumetric flow rate,об'ємна витрата
+vortex toolpath,вихрові траєкторії руху інструменту
+vorticity,завихреність
+voxel resolution,дозвіл вокселя
+wall clearance,зазор між стінами
+wall shear stress,напруга зсуву стінки
+WCS,WCS
+web,мережа
+web thickness,товщина полотна
+wedge,клин
+weld damage,пошкодження зварного шва
+weld line,лінія зварювання
+weld symbol,символ зварного шва
+welding neck flange,зварювальний шийний фланець
+width,ширина
+wire feedrate,швидкість подачі дроту
+wire run,дротяний занос
+wireframe,каркасний
+wireframe display,каркасний дисплей
+work axis,робоча вісь
+work feature,робоча функція
+work plane,робоча площина
+work surface,робоча поверхня
+workgroup,робоча група
+workpiece,деталь
+workplane,робоче місце
+worm gear,черв'ячна передача
+Wrap Wizard,Майстер обгортання
+X clearance position,X Положення зазору
+X-ray ground shadow,Рентгенівська тінь на землі
+yaw,відхилятися
+yield strength,межа плинності

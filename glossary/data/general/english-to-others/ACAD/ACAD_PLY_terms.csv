@@ -1,0 +1,1538 @@
+﻿source,target
+3D Move gizmo,metauchwyt Przesunięcie 3D
+3D Rotate gizmo,metauchwyt Obrót 3D
+3D Scale gizmo,metauchwyt Skala 3D
+3DALIGN,3DWYRÓWNAJ
+3DARRAY,3DSZYK
+3DCLIP,3DPRZEKRÓJ
+3DCORBIT,3DCORBITA
+3DDISTANCE,3DODLEG
+3DDWF,3DDWF
+3DDWFPUBLISH,OPUBLIKUJDWF3D
+3DEDITBAR,3DEDITBAR
+3DFACE,3WPOW
+3DFLY,3DPRZELOT
+3DFORBIT,3DWORBITA
+3DMESH,SIATKA3W
+3DMOVE,3DPRZESUŃ
+3DORBIT,3DORBITA
+3DORBITCTR,3DORBITACRT
+3DORBITTRANSPARENT,3DPRZEZROCZYSTAORBITA
+3DOSNAP,PRZYCIĄGOBIEKTU3D
+3DPAN,3DNFRAGM
+3DPANTRANSPARENT,3DNFRAGMPROST
+3DPOLY,3WPLINIA
+3DPRINT,DRUKUJ3D
+3DPRINTSERVICE,USŁUGADRUKU3D
+3DROTATE,3DOBRÓT
+3DSCALE,SKALA3D
+3DSIN,3DSWE
+3DSWIVEL,3DKAMERA
+3DSWIVELTRANSPARENT,3DPRZEZROCZYSTAKAM
+3DWALK,3DSPACER
+3DZOOM,3DZOOM
+3DZOOMTRANSPARENT,3DZOOMPROST
+ACA,ACA
+ACADBLOCKDIALOG,ACADBLOCKDIALOG
+ACADINFO,ACADINFO
+ACADWBLOCKDIALOG,ACADWBLOCKDIALOG
+ACISIN,ACISWE
+ACISOUT,ACISWY
+ACTBASEPOINT,PUNKTBAZOPER
+ACTIVITYINSIGHTSCLOSE,ZAMKNIJSPOSTRZAKTYW
+ACTIVITYINSIGHTSOPEN,OTWÓRZSPOSTRZAKTYW
+ACTMANAGER,MENEDŻERREJOP
+ACTRECORD,REJOP
+ACTSTOP,REJOPSTOP
+ACTUSERINPUT,REJOPWPROW
+ACTUSERMESSAGE,REJOPKOMUNIKAT
+ADC,ADC
+ADCCLOSE,ADCZAMKNIJ
+ADCCUSTOMNAVIGATE,ADCAPLUŻYT
+ADCENTER,ADCENTER
+ADCNAVIGATE,ADCPRZEJDŹ
+ADDSELECTED,ADDSELECTED
+AI_CIRCTAN,AI_CIRCTAN
+AI_PSPACE,AI_PSPACE
+AIDIMPREC,AIDIMPREC
+AIDIMSTYLE,AIDIMSTYLE
+AIDIMTEXTMOVE,AIDIMTEXTMOVE
+ALIASEDIT,ALIASEDIT
+aligned section view,przekrój dopasowany
+ALIGNSPACE,ALIGNSPACE
+ALKIS,ALKIS
+all-around symbol,symbol pełnej spoiny na obwodzie
+ALLPLAY,ODTWARZAJWSZ
+alpha-blend,łączenie alfa
+alternate unit,Jednostka dodatkowa
+altimetry,altymetria
+AMECONVERT,AMEKONW
+ANALYSISCURVATURE,ANALIZAKRZYWIZNY
+ANALYSISDRAFT,ANALIZASZKICU
+ANALYSISOPTIONS,OPCJEANALIZY
+ANALYSISZEBRA,ANALIZAZEBRY
+analytical surface,powierzchnia modelu analitycznego
+angle of deflection,kąt ugięcia
+ANIPATH,ŚCIEŻKANIM
+ANNORESET,OPISRESET
+annotation,opis
+annotative object,skala obiektu opisowego
+ANNOUPDATE,OPISAKTUAL
+anode,anoda
+anode station,stacja anody
+APERTURE,CELOWNIK
+APPAUTOLOADER,AUTOWCZYTYWANIEAPL
+appearance style,styl wyglądu
+APPLOAD,WCZYTAJAPL
+arc segmentation,segmentacja łuku
+arc-chord distance,strzałka łuku
+ARCHIVE,ARCHIWIZACJA
+ARCTEXT,ARCTEXT
+AREA,POLE
+ARG,ARG
+ARRAY,SZYK
+ARRAYCLASSIC,SZYKKLAS
+ARRAYCLOSE,ZAMKNIJSZYK
+ARRAYEDIT,EDYTUJSZYK
+ARRAYPATH,ŚCIEŻKASZYK
+ARRAYPOLAR,SZYKBIEGUN
+ARRAYRECT,SZYKPROST
+ARX,ARX
+assembly drawing,rysunek złożeniowy
+assembly extraction template,szablon wyodrębniania złożenia
+ASSISTANTCLOSE,ASYSTENTZAMKNIJ
+ASSISTANTOPEN,ASYSTENTOTWÓRZ
+Associative QDIM extension,Associative QDIM extension
+ATEXT,ATEXT
+ATIL,ATIL
+ATTACHURL,DOŁĄCZURL
+ATTDEF,ATRDEF
+ATTDISP,ATRWID
+ATTEDIT,ATRRED
+ATTEXT,ATRWYC
+ATTIN,ATTIN
+ATTIPEDIT,EDYCJAPODKUR
+ATTOUT,ATTOUT
+ATTREDEF,ATTREDEF
+ATTSYNC,ATRSYN
+AutoCAD color index,Indeks kolorów AutoCAD
+AutoCAD including specialized toolsets,AutoCAD including specialized toolsets
+AutoCAD Migration Assistance,AutoCAD Migration Assistance
+AutoCAD Mobile,aplikacja mobilna AutoCAD
+AutoComplete,autouzupełnianie
+AUTOCONSTRAIN,AUTOWIĄZGEOM
+Autodesk Assistant,Autodesk Assistant
+Autodesk CAD Manager Tools,Autodesk CAD Manager Tools Setup Wizard
+Autodesk Content Explorer,Autodesk Content Explorer
+Autodesk Manufacturing Community Portal,portal Autodesk Manufacturing Community
+AUTODESKCONNECTIONPOINT,AUTODESKCONNECTIONPOINT
+AutoLISP development,środowisko programistyczne AutoLISP
+AutoLISP environment,środowisko AutoLISP
+AUTOPUBLISH,OPUBLIKUJAUTO
+auxiliary coordinate system,pomocniczy układ współrzędnych
+axis offset,odsunięcie osi
+azimuth,azymut
+BACKGROUND,TŁO
+backwater gate,stawidło
+BACTION,BOPERACJA
+BACTIONBAR,PASEKZMNAKONSTR
+BACTIONSET,BZESTOPERACJI
+BACTIONTOOL,BNARZOPERACJI
+ball mill,młyn kulowy
+BASE,BAZA
+base point,punkt bazowy
+BASSOCIATE,BSKOJARZ
+Batch Standards Checker,Wsadowy kontroler standardów
+BATTMAN,MENATR
+BATTORDER,BATRKOLEJ
+baud rate,szybkość transmisji
+BAUTHORPALETTE,BPALETAAUTOR
+BAUTHORPALETTECLOSE,BPALETAAUTORZAMKNIJ
+BCLOSE,BZAMKNIJ
+BCONSTRUCTION,BKONSTR
+BCOUNT,BCOUNT
+BCPARAMETER,PARAMWIĄZBLOKU
+BCYCLEORDER,BKOLEJCYKL
+BEDIT,BEDYCJA
+below grade,podziemne
+BESETTINGS,BEDYCJAUSTAW
+bevel,skos
+BEXTEND,BEXTEND
+BGRIPSET,BZESTAWUCHWYTÓW
+BHATCH,GKRESKUJ
+bill of materials,zestawienie komponentów
+binary large object,wielki obiekt binarny
+bitonal image,obraz dwukolorowy
+blend mode,tryb łączenia
+blend surface,powierzchnia połączenia
+BLOB,BLOB
+block,blok
+block authoring object,obiekt autorski bloku
+block library,biblioteka bloków
+block properties table,tabela właściwości bloku
+block replacement,zastępowanie definicji bloku
+BLOCKICON,IBLOK
+BLOCKREPLACE,BLOCKREPLACE
+BLOCKSDATAOPTION,DANEBLOKÓWOPCJA
+BLOCKSPALETTE,PALETABLOKI
+BLOCKSPALETTECLOSE,PALETĘBLOKIZAMKNIJ
+BLOCKTOXREF,BLOCKTOXREF
+BLOOKUPTABLE,BTABWYSZUKANIA
+blow off valve,zawór spustowy
+BMAKE,TBLOK
+BMOD,BMOD
+BMPOUT,BMPWY
+BOUNDARY,OBWIEDNIA
+bounded area,obszar obramowany
+bounding area,obszar obramowania
+bounding box,ramka ograniczająca
+BPARAMETER,BPARAMETR
+BPOLY,GPLINIA
+branch circuit,obwód rozgałęziony
+break loop,pętla przerwania
+break point,punkt przerwania
+BREAKATPOINT,PRZERWIJWPUNKCIE
+breaker,wyłącznik instalacyjny
+BREAKLINE,BREAKLINE
+break-out line,linia przerwania
+breakout section view,rzut przekroju wyrwania w obszarze papieru
+breakpoint,punkt przerwania
+BREP,REPOBW
+BREPLACE,ZASTĄPBL
+BROWSER,PRZEGLĄDAJ
+BROWSERCLOSE,ZAMKNIJPRZEGL
+BROWSEROPEN,OTWÓRZPRZEGL
+BSAVE,BZAPISZ
+BSAVEAS,BNZAPISZ
+BSCALE,BSCALE
+BTABLE,BTABELA
+BTESTBLOCK,BTESTUJBLOK
+BTRIM,BTRIM
+bulge,wybrzuszenie
+bulge factor,współczynnik wypukłości
+bulk copy,kopia całkowita
+bump,wypukłość
+bump map,mapa wypukłości
+bump mapping,mapowanie wypukłości
+BURST,BURST
+bus bar,magistrala
+BVHIDE,BWUKRYJ
+BVSHOW,BWPOKAŻ
+BVSTATE,BWSTAN
+cable tray,kanał kablowy
+cable tray fitting,łącznik kanału kablowego
+CAL,KALK
+CAMERA,KAMERA
+camera calibration,kalibracja kamery
+camera glyph,znaczniki kamery
+canvas,obszar rysunku
+cap,zaślepka
+cap filleting,zakończenie łukowe
+cap height,wysokość wersalika
+capacitor,kondensator
+Cascading Style Sheets,arkusze stylu kaskadowego
+casing,obudowa
+casing model,model obudowy
+Catmull-Clark subdivision surface,powierzchnia podpodziałów Catmull-Clarka
+CDORDER,CDORDER
+center mark,znacznik środka
+CENTERDISASSOCIATE,ODCZEPODŚRODKA
+CENTERMARK,ZNACZNIKŚRODKA
+CENTERREASSOCIATE,DOCZEPDOŚRODKA
+CENTERRESET,RESETUJŚRODEK
+CHAMFEREDGE,FAZOWKRAW
+CHAR,CHAR
+character large object,wielki obiekt znaku
+CHECKSTANDARDS,SPRSTANDARD
+chi square,chi-kwadrat
+child feature class,podrzędna klasa elementów
+CHPROP,ZMCECHY
+CHSPACE,ZMOBSZAR
+CHURLS,CHURLS
+cinematic shot,ujęcie kinowe
+CIRCLE,OKRĄG
+circlip,pierścień sprężynujący zabezpieczający
+circuit breaker,wyłącznik instalacyjny
+CLASSICGROUP,GRUPAKLASYCZNA
+CLASSICIMAGE,KLASYCZNYOBRAZ
+CLASSICINSERT,WSTAWKLASYCZNIE
+CLASSICLAYER,CLASSICLAYER
+CLASSICXREF,KLASYCZNYODNZ
+CLEANSCREENOFF,CZYŚĆEKRANWYŁ
+CLEANSCREENON,CZYŚĆEKRANWŁ
+clip volume,objętość przycięcia
+CLIPIT,CLIPIT
+CLOB,CLOB
+CLOSEALL,ZAMKNIJWS
+CLOSEALLOTHER,ZAMKNIJPOZOSTAŁE
+closed edge,zamknięta krawędź
+code combination,kombinacje normowe
+COGO,COGO
+cold grip,nieaktywny uchwyt
+cold water fixture unit,jednostka armatury do zimnej wody
+colinear constraint,wiązania współliniowe
+collate,scalić
+COLOR,KOLOR
+color book,paleta kolorów
+colorbook,paleta kolorów
+combustion chamber,komora spalania
+COMMANDLINE,LINPOL
+COMMANDLINEHIDE,LINPOLUKRYJ
+COMMANDMACROS,MAKRAPOLECEŃ
+COMMANDMACROSCLOSE,MAKRAPOLECEŃZAMKNIJ
+comminuting machine,rozdrabniarka
+COMPARECLOSE,PORÓWNANIEZAMKNIJ
+COMPAREEXPORT,PORÓWNANIEEKSPORTUJ
+COMPAREIMPORT,PORÓWNANIEIMPORTUJ
+COMPAREINFO,PORÓWNAJINFO
+component list,lista komponentów
+composite solid,bryła złożona
+composite symbol,symbol złożony
+compound symbol,złożona definicja symbolu
+compression,mechanizm kompresji
+compression spring,sprężyna ściskana
+computed length,długość obliczona
+conductor,przewodnik
+conduit,rura kablowa
+conduit fitting,osprzęt do rurkowania
+CONE,STOŻEK
+CONFIG,KONFIG
+connector line,linia łącząca
+connector pin,wtyk złącza
+constrained object,obiekt związany
+constraint bar,pasek ograniczeń
+constraint parameter,parametr wiązania
+constraint point,punkt ograniczający
+constraint solver,funkcja rozwiązywania ograniczeń
+constraint variable,zmienna ograniczenia
+CONSTRAINTBAR,PASEKWIĄZAŃ
+CONSTRAINTSETTINGS,USTAWWIĄZGEOM
+construction line,linia konstrukcyjna
+Content Editor,edytor zawartości
+content library,biblioteka zawartości
+content pack,pakiet zawartości
+control cabinet,szafka kontrolna
+control cable,przewód kontrolny
+control hull,powłoka sterująca
+control point,punkt kontrolny
+control vertex,wierzchołek sterujący
+control vertex hull,powłoka z wierzchołków sterujących
+control vertices hull,powłoka z wierzchołków sterujących
+CONVERTCTB,KONWERSJACTB
+CONVERTOLDLIGHTS,PRZEKSTARŚWIAT
+CONVERTOLDMATERIALS,PRZEKSTARMATER
+CONVERTPOLY,KONWERSJAPLINIA
+CONVERTPSTYLES,KONWERSJASTYLWYDRUKU
+CONVTOMESH,PRZEKSZTAŁĆWSIATKĘ
+CONVTONURBS,PRZEKSZTAŁĆWNURBS
+CONVTOSOLID,KONWNABRYŁĘ
+CONVTOSURFACE,KONWNAPOW
+coordinate reference system,układ współrzędnych odniesienia
+coordinate system tracker,śledzenie układów współrzędnych
+COORDINATIONMODELATTACH,MODELKOORDDOŁĄCZ
+COPYBASE,KOPIUJBAZA
+COPYCLIP,KOPIUJ_S
+COPYFROMTRACE,KOPIUJZEŚLADU
+COPYHIST,KOPIUJHIST
+COPYLINK,KOPIUJ_P
+COPYM,COPYM
+COPYTOLAYER,KOPIUJNAWAR
+COUNTAREA,OBSZARZLICZANIA
+COUNTAREACLOSE,OBSZARZLICZANIAZAMKNIJ
+COUNTCLOSE,ZLICZZAMKNIJ
+COUNTFIELD,ZLICZPOLE
+COUNTLIST,ZLICZLISTA
+COUNTLISTCLOSE,ZLICZLISTAZAMKNIJ
+COUNTNAVNEXT,ZLICZNASTĘPNYELEMENT
+COUNTNAVPREV,ZLICZPOPRZEDNIELEMENT
+COUNTTABLE,ZLICZTABELA
+covering area,obszar przykrycia
+CRC,CRC
+crease,fałdowanie
+cross section,etykieta przekroju poprzecznego bez przekroju poprzecznego
+cross section duct,przekrój kanału
+CRS,CRS
+CS library,biblioteka UW
+CSS,CSS
+cubic loft,wyciągnięcie sześcienne
+CUIEXPORT,EKSPORTCUI
+CUIIMPORT,IMPORTCUI
+CUILOAD,WCZYTAJCUI
+CUIUNLOAD,USUŃCUI
+current directory,bieżący katalog
+curvature analysis,analiza krzywizny
+Customer Error Reporting,Zgłaszanie błędów po stronie klienta
+customer support,obsługa klienta
+CUTBASE,WYTNIJBAZA
+CUTCLIP,WYTNIJ
+cutting line,linia cięcia
+CV hull,powłoka z wierzchołków sterujących
+CVADD,DODAJPUNKTSTER
+CVHIDE,UKRYJPUNKTSTER
+CVREBUILD,PRZEBUDUJPUNKTSTER
+CVREMOVE,USUŃPUNKTSTER
+CVSHOW,POKAŻPUNKTSTER
+CWFU,CWFU
+CYLINDER,WALEC
+DATAEXTRACTION,WYODRDANYCH
+DATALINK,ŁĄCZEDANYCH
+DATALINKUPDATE,AKTUALŁĄCZEDANYCH
+datumpoint,punkt odniesienia
+DBCCONFIGURE,DBCCONFIGURE
+DBCCONNECT,DBCCONNECT
+DBCDEFINELLT,DBCDEFINELLT
+DBCDEFINELT,DBCDEFINELT
+DBCDELETELINKS,DBCDELETELINKS
+DBCDELETELLT,DBCDELETELLT
+DBCDELETELT,DBCDELETELT
+DBCDELETEQRY,DBCDELETEQRY
+DBCDISCONNECT,DBCDISCONNECT
+DBCEDITLINKEDTABLE,DBCEDITLINKEDTABLE
+DBCEDITLLT,DBCEDITLLT
+DBCEDITLT,DBCEDITLT
+DBCEDITQRY,DBCEDITQRY
+DBCEDITTABLE,DBCEDITTABLE
+DBCEXECUTEQRY,DBCEXECUTEQRY
+DBCEXPORTLINKS,DBCEXPORTLINKS
+DBCEXPORTQS,DBCEXPORTQS
+DBCEXPORTTS,DBCEXPORTTS
+DBCHIDELABELS,DBCHIDELABELS
+DBCIMPORTQRY,DBCIMPORTQRY
+DBCIMPORTQS,DBCIMPORTQS
+DBCIMPORTTS,DBCIMPORTTS
+DBCLINKCONVERSION,DBCLINKCONVERSION
+DBCLINKMANAGER,DBCLINKMANAGER
+DBCONNECT,BDPODŁĄCZ
+DBCRELOADLABELS,DBCRELOADLABELS
+DBCSELECTLINKS,DBCSELECTLINKS
+DBCSHOWLABELS,DBCSHOWLABELS
+DBCVIEWLINKEDTABLE,DBCVIEWLINKEDTABLE
+DBCVIEWTABLE,DBCVIEWTABLE
+DBLIST,BDLISTA
+DCALIGNED,WYRÓWNANEWW
+DCANGULAR,KĄTOWEWW
+DCCONVERT,KONWERTUJWW
+DCDIAMETER,ŚREDNICAWW
+DCDISPLAY,WYŚWIETLWW
+DCFORM,FORMAWW
+DCHORIZONTAL,POZIOMEWW
+DCLINEAR,LINIOWEWW
+DCM Engine,silnik DCM
+DCRADIUS,PROMIEŃWW
+DCVERTICAL,PIONOWEWW
+DDATTE,ODATR
+DDGRIPS,ODUCHWYT
+DDIM,ODWYM
+DDINSERT,ODWSTAW
+DDPLOTSTAMP,ODZNAKWYDRUKU
+DDRMODES,ODSTAN
+DDSELECT,ODWYBIERZ
+DDSTYLE,ODSTYL
+DDUCS,ODLUW
+DDUCSP,ODLUWS
+DDUNITS,ODJEDN
+DDVPOINT,ODPKTOBS
+dead joint symbol,połączenie nierozłączne
+decorative element,powtarzalne elementy dekoracyjne
+degrees minutes seconds,"stopnie, minuty, sekundy"
+DELCONSTRAINT,USUŃWIĄZANIA
+dependency highlighting,zaznaczanie obiektów zależnych
+depth of field,głębia ostrości
+depth polygon,wielobok głębokości
+Design Review,Design Review
+Design Web Format,Design Web Format
+DESKTOPANALYTICS,ANALIZAAKTYWNOŚCI
+DETACHURL,ODŁĄCZURL
+deviation,odchylenie
+DGNADJUST,DGNDOPAS
+DGNATTACH,DGNDOŁĄCZ
+DGNBIND,USTALDGN
+DGNCLIP,DGNPRZYT
+DGNEXPORT,DGNEKSPORT
+DGNIMPORT,DGNIMPORT
+DGNLAYERS,DGNWARSTWY
+DGNMAPPING,DGNODWZOR
+diameter,średnica
+diffuse map,mapa rozproszenia
+digital elevation model,cyfrowy model wysokościowy
+Digital Signature Extension,Digital Signature Extension
+DIGITALSIGN,CYFRPODPISY
+digitizer puck,wskaźnik digitalizatora
+digitizing tablet,tablet
+DIM,WYMIAR
+DIM1,WYMIAR1
+DIMALIGNED,WYMNORMALNY
+DIMANGULAR,WYMKĄTOWY
+DIMARC,WYMŁUK
+DIMBASELINE,WYMBAZA
+DIMBREAK,PRZERWYMIAR
+DIMCENTER,WYMCENTRUM
+DIMCONTINUE,WYMSZEREG
+DIMDIAMETER,WYMŚREDNICA
+DIMDISASSOCIATE,ODCZEPWYMIAR
+DIMEDIT,WYMEDYCJA
+dimension constraint,wiązanie wymiarowe
+dimension style,styl wymiaru
+dimensional constraint,wiązanie wymiarowe
+dimensional input,dane wejściowe wymiarowe
+DIMEX,DIMEX
+DIMHORIZONTAL,WYMPOZIOMY
+DIMIM,DIMIM
+DIMINSPECT,WYMSPR
+DIMJOGGED,WYMSKRÓCONY
+DIMJOGLINE,LINWYMSKR
+DIMLINEAR,WYMLINIOWY
+DIMORDINATE,WYMWSPÓŁRZ
+DIMOVERRIDE,WYMZMIEŃ
+DIMRADIUS,WYMPROMIEŃ
+DIMREASSOC,DIMREASSOC
+DIMREASSOCIATE,DOCZEPWYMIAR
+DIMREGEN,REGENWYM
+DIMROTATED,WYMOBRÓCONY
+DIMSPACE,PRZESTRZWYM
+DIMTEDIT,WYMEDTEKST
+DIMVERTICAL,WYMPIONOWY
+disposal tank,zbiornik ściekowy
+DIST,ODLEG
+distance offset,odsunięcie odległości
+DISTANTLIGHT,ŚWIATODL
+distributed rendering,renderowanie rozproszone
+dithering,wyrównywanie
+DMS,DMS
+DOF,DOF
+DONUT,PIERŚCIEŃ
+DOUGHNUT,PIERŚCIEŃ
+DOWNLOADMANAGER,MENPOBIERANIA
+DPI,DPI
+draft analysis,analiza pochylenia
+drafting standard,norma rysunkowa
+DRAGMODE,TRDYNAM
+drain area,obszar zlewni
+drawing folder,folder rysowania
+Drawing Interchange Format,Drawing Interchange Format
+Drawing Manager,Menedżer rysunków
+drawing set,zestaw rysunków
+DRAWINGRECOVERY,NAPRAWRYSUNEK
+DRAWINGRECOVERYHIDE,NAPRAWRYSUNEKUKRYJ
+DRAWORDER,PORZWYŚ
+driven constraint,wiązanie sterowane
+driving dimension,wymiar sterowany
+DROPGEOM,UPELEM
+DSETTINGS,USTAWIENIARYS
+DTED,DTED
+DTEXT,DTEKST
+duct fitting,łącznik przewodu
+dump,plik zrzutu
+DVIEW,DWIDOK
+DWF,DWF
+DWFADJUST,DWFDOPAS
+DWFATTACH,DWFDOŁĄCZ
+DWFCLIP,DWFPRZYT
+DWFFORMAT,DWFFORMAT
+DWFLAYERS,DWFWARSTWY
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DWGCONVERT,PRZEKSZTAŁĆDWG
+DWGHISTORY,HISTORIADWG
+DWGHISTORYCLOSE,HISTORIADWGZAMKNIJ
+DWGPROPS,DWGWŁAŚCIWOŚCI
+DXBIN,DXBWE
+DXF,DXF
+DXFIN,DXFWE
+DXFOUT,DXFWY
+dynamic constraint,wiązanie dynamiczne
+easting,współrzędna wschodnia
+EATTEDIT,RATRRED
+EATTEXT,RATRWYC
+edge symbol,symbol krawędzi
+EDGESURF,POWKRAW
+edit in place,edycja lokalna
+EDITSHOT,EDUJĘCIE
+EDITTABLECELL,EDKOMTABELI
+EDITTIME,EDITTIME
+ejector,wypychacz
+elastic modulus,moduł elastyczności
+elbow,kątnik
+Electric Explorer,Eksplorator części elektrycznych
+ELEV,POZIOM
+elevation,wysokość nad płaszczyzną
+elevation offset,odsunięcie wysokości
+elide,opuszczenie
+ELLIPSE,ELIPSA
+embed,osadzić
+emitter,emiter
+E-Modulus,E-moduł
+entity filter,filtr elementów
+environment map,mapa środowiska
+EPLOTEXT,EPLOTEXT
+EPSG code,kod EPSG
+ESW,ESW
+ETRANSMIT,ETRANSMIT
+evaluation version,wersja do oceny
+EXOFFSET,EXOFFSET
+EXPLAN,EXPLAN
+EXPORT,EKSPORT
+EXPORTDWF,DWFEKSPORT
+EXPORTDWFX,DWFXEKSPORT
+EXPORTLAYOUT,EKSPORTARKUSZA
+EXPORTPDF,PDFEKSPORT
+EXPORTSETTINGS,USTAWEKSPORT
+EXPORTTOAUTOCAD,EXPORTTOAUTOCAD
+Expression Builder,Kreator wyrażeń
+EXPRESSMENU,EXPRESSMENU
+EXPRESSTOOLS,EXPRESSTOOLS
+extended help file,plik rozszerzonej pomocy
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+extension spring,sprężyna rozciągana
+external reference,odnośnik zewnętrzny
+EXTERNALREFERENCES,ZEWODN
+EXTERNALREFERENCESCLOSE,ZEWODNZAMKNIJ
+EXTRIM,EXTRIM
+facet,faseta
+facility,instalacja
+FADEMARKUP,PRZYGAŚZNACZNIK
+Family Table,Tabela rodziny
+FASTSEL,FASTSEL
+FDO,FDO
+feature class,klasa elementów
+feature container,zasobnik elementów
+feature control frame,tolerancja kształtu i położenia
+Feature Explorer,Eksplorator elementów
+feeder,zasilanie
+FID,FID
+field fit,montaż w terenie
+FILEOPEN,OTWPLIK
+FILETAB,KARTAPLIKU
+FILETABCLOSE,ZAMKNIJKARTĘPLIKU
+fill pattern,wzór wypełnienia
+FILLETEDGE,ZAOKRĄGLKRAW
+Filtration Bed,warstwa filtracyjna
+final gathering,pobieranie końcowe
+fit point,punkt dopasowania
+flat search,wyszukiwanie proste
+FLATSHOT,RZUTPŁASKI
+flow direction,kierunek przepływu
+flush constraint,wiązania równoległe
+FOG,MGŁA
+fold panel,panel rozwijany
+foreign key,klucz obcy
+foul water,woda zanieczyszczona
+free standpoint,stanowisko swobodne
+free station,stanowisko swobodne
+freeform design,projektowanie swobodne
+FREESPOT,WOLNYREFL
+FREEWEB,WOLNESIATKI
+FS,FS
+fuse,bezpiecznik
+fuzz,połączenie
+GATTE,GATTE
+GCCOINCIDENT,ZGODNEWG
+GCCOLLINEAR,WSPÓŁLINIOWEWG
+GCCONCENTRIC,KONCENTRYCZNEWG
+GCEQUAL,RÓWNEWG
+GCFIX,USTALWG
+GCHORIZONTAL,POZIOMEWG
+GCPARALLEL,RÓWNOLEGŁEWG
+GCPERPENDICULAR,PROSTOPADŁEWG
+GCSMOOTH,GŁADKIEWG
+GCSYMMETRIC,SYMETRYCZNEWG
+GCTANGENT,STYCZNAWG
+GCVERTICAL,PIONOWEWG
+geodetic network point,punkt sieci geodezyjnej
+geodetic transformation,transformacja geodezyjna
+GEOGRAPHICLOCATION,POŁGEOGR
+GEOLOCATEME,MOJAGEOPOZYCJA
+GEOMAPIMAGE,GEOMAPOBRAZ
+GEOMAPIMAGEUPDATE,GEOMAPOBRAZAKTUALIZUJ
+GEOMARKLATLONG,GEOZNACZSZERDŁUG
+GEOMARKME,GEOZNACZMOJPOŁ
+GEOMARKPOINT,GEOZNACZPUNKT
+GEOMARKPOSITION,ZAZNGEOPOZYCJĘ
+GEOMCONSTRAINT,WIĘZGEOM
+geometric constraint,wiązanie geometryczne
+GEOREMOVE,USUŃGEO
+GEOREORIENTMARKER,REORIENTUJGEOZNACZNIK
+geospatial information,informacje geoprzestrzenne
+GETSEL,GETSEL
+gizmo,metauchwyt
+Gooch shading,cieniowanie Goocha
+GOTOSTART,IDŹNASTART
+GOTOURL,GOTOURL
+GRADIENT,GRADIENT
+gradient ramp,intensywność gradientu
+grading plan,plan niwelowania
+GRAPHICSCONFIG,KONFIGGRAF
+GRAPHSCR,GEKRAN
+grease trap,filtr zanieczyszczeń
+grip,uchwyt
+grit chamber,piaskownik
+ground,uziemienie
+ground thread,gwint szlifowany
+ground water,wody gruntowe
+GROUP,GRUPA
+Group Policy Object,obiekt zasad grupy
+GROUPEDIT,EDYTUJGRUPĘ
+handhole,otwór rewizyjny
+hardware shader,sprzętowe narzędzie cieniowania
+HATCH,KRESKUJ
+hatch pattern,wzór kreskowania
+HATCHEDIT,EDKRESK
+HATCHGENERATEBOUNDARY,HATCHGENERATEBOUNDARY
+HATCHSETBOUNDARY,HATCHSETBOUNDARY
+HATCHSETORIGIN,HATCHSETORIGIN
+HATCHTOBACK,HATCHTOBACK
+helix angle,kąt zwoju
+HIDEOBJECTS,HIDEOBJECTS
+HIDEPALETTES,UKRYJPALETY
+HIGHLIGHTNEW,PODŚWIETLNOWE
+HLSETTINGS,USTAWLU
+hole chart,wiele wykazów otworów
+horizontal constraint,wiązania poziome
+horizontal landing,pozioma linia łącząca
+hot grip,aktywny uchwyt
+hot water fixture unit,jednostka armatury do ciepłej wody
+house connector,przyłącze
+HYPERLINK,HIPERŁĄCZE
+HYPERLINKBACK,HIPERŁĄCZEWSTECZ
+HYPERLINKFWD,HIPERŁĄCZEDALEJ
+HYPERLINKOPEN,HIPERŁĄCZEOTWÓRZ
+HYPERLINKOPTIONS,HIPERŁĄCZEOPCJE
+HYPERLINKSTOP,HIPERŁĄCZEZATRZYMAJ
+ID,ID
+IGESEXPORT,EKSPORTUJIGES
+IGESIMPORT,IMPORTUJIGES
+illuminance distance,zasięg oświetlenia
+IMAGE,OBRAZ
+IMAGEADJUST,DOPASOBR
+IMAGEAPP,IMAGEAPP
+IMAGEATTACH,DOŁĄCZOBR
+IMAGECLIP,PRZYTOBR
+IMAGEEDIT,IMAGEEDIT
+IMAGEOVERLAP,NAŁÓŻOBR
+IMAGEQUALITY,JAKOŚĆOBR
+implied windowing,okno niejawne
+IMPORT,IMPORT
+IMPRINT,ODCISK
+in-canvas tool,narzędzie w obszarze projektowania
+included angle,kąt rozwarcia
+industry model,moduł
+infer constraints,utwórz wiązania
+information channel,kanał informacyjny
+input type,typ wprowadzenia
+INPUTSEARCHOPTIONS,OPCJEWYSZUKWIERPOL
+INSERTCONTENT,WSTAWZAWARTOŚĆ
+INSERTDRAWINGASBLOCK,WSTAWRYSUNEKJAKOBLOK
+INSERTOBJ,WSTAWOBJ
+inspection dimension,wymiar sprawdzający
+Interactive Create & Edit,Interaktywne tworzenie i edycja
+interference check,sprawdzanie kolizji
+inverse linear,odwrotnie liniowe
+inverse report,raport odwrócony
+inverse square,odwrotnie kwadratowe
+ISA,ISA
+ISODRAFT,IZOSZKIC2D
+ISOLATEOBJECTS,ISOLATEOBJECTS
+isolator,izolator
+isoline,izolinia
+isoparm,krzywa izoparametryczna
+JPGOUT,JPGWY
+junction,łącznik
+JUSTIFYTEXT,WYRÓWNAJTEKST
+Keyhole Markup Language,Keyhole Markup Language
+kink,punkt podziału
+KML,KML
+KMZ,KMZ
+knot parameterization,parametryzacja węzłów
+knot vector,wektor węzła
+label block,blok etykiety
+lagoon,zalew
+land management,gospodarka przestrzenna
+language pack,Language Pack
+latitude,szerokość geograficzna
+Launchpad,Program rozruchowy
+LAYCUR,WARAKT
+LAYDEL,WARUSUŃ
+layer,warstwa
+layer state,stan warstwy
+LAYERCLOSE,WARSTWAZAMKNIJ
+LAYERP,PWARSTWA
+LAYERPALETTE,WARSTWAPALETA
+LAYERPMODE,PWARSTWATRYB
+LAYERSTATE,WARSTAN
+LAYERSTATESAVE,ZAPISZSTANWARSTWY
+LAYFRZ,WARZAB
+LAYISO,WARIZO
+LAYLCK,WARZAM
+LAYMCH,ZMWWAR
+LAYMCUR,WARZMAKT
+LAYMRG,WARPOŁ
+LAYOFF,WARWYŁ
+LAYON,WARWŁ
+LAYOUT,ARKUSZ
+LAYOUTMERGE,LAYOUTMERGE
+LAYOUTWIZARD,KREATORARKUSZA
+LAYTHW,WARODB
+LAYTRANS,WARSTWKONWERT
+LAYULK,WAROTW
+LAYUNISO,WARODIZO
+LAYVPI,WARRZUTI
+LAYWALK,SPACERWAR
+Learning AutoCAD 2010,Nauka obsługi programu AutoCAD 2010
+level of smoothness,poziom gładkości
+license alert,alert licencji
+LIGHT,ŚWIATŁO
+light weight polyline,polilinia cienka
+LIGHTLIST,OŚWLISTA
+LIGHTLISTCLOSE,ZAMKLISTAOŚW
+lightning arrester,ochronnik przepięciowy
+LIMITS,GRANICE
+LINE,LINIA
+line merge,scalanie linii
+line string,ciąg linii
+linear array,szyk liniowy
+linear dimension,wymiar liniowy
+linear loft,liniowe wygięcie
+LINETYPE,RODZLIN
+link box,skrzynka połączeniowa
+lisp file,plik LISP
+LIST,LISTA
+Live Enabler,Moduł odblokowania obiektów
+live section,przekrój na bieżąco
+LIVESECTION,PRZEKBIEŻ
+load tap changer,przełącznik zaczepów
+loaded standard,załadowany standard
+location,położenie
+locking,blokowanie
+LOGFILEOFF,PLIKHISTNIE
+LOGFILEON,PLIKHISTTAK
+longitude,długość geograficzna
+lookup,przeglądanie
+lot,parcela
+LSP,LSP
+LSPSURF,LSPSURF
+LTSCALE,RLSKALA
+LV board,płyta LV
+LWEIGHT,SZERLIN
+MAKELISPAPP,TWAPLIKLISP
+MAKEPREVIEW,MAKEPREVIEW
+MANAGEUPLOADS,ZARZADZAJPRZEK
+manhole,właz
+manifold,rozgałęziona
+manufacturer,producent
+markup set,zestaw znaczników
+Markup Set Manager,Menedżer zestawu znaczników
+MARKUPASSIST,ZNACZNIKASYST
+MARKUPCLOSE,ZNACZNIKZAMKNIJ
+MARKUPIMPORT,ZNACZNIKIMPORT
+MASSPROP,PARAMFIZ
+MATBROWSERCLOSE,ZAMKPRZEGLMAT
+MATBROWSEROPEN,OTWÓRZPRZEGLMAT
+MATCHCELL,UZGWŁAŚCIWOŚCITABELI
+MATCHPROP,UZGWŁAŚCIWOŚCI
+mate constraint,wiązanie zestawiające
+MATEDITORCLOSE,ZAMKEDYTMAT
+MATEDITOROPEN,OTWÓRZEDYTMAT
+MATERIALASSIGN,PRZYPISZMAT
+MATERIALATTACH,DOŁĄCZMAT
+MATERIALMAP,MAPAMATERIAŁÓW
+MATERIALS,MATERIAŁY
+MATERIALSCLOSE,ZAMMATERIAŁY
+MATLIB,BIBLMAT
+measured length,długość zmierzona
+MEASUREGEOM,ZMIERZGEOM
+measurement,pomiar
+measurement error,błąd pomiaru
+median,średnia
+mental ray,mental ray
+mental ray rendering engine,silnik renderujący mental ray
+MENU,MENU
+MENULOAD,MENUWCZYTAJ
+MENUUNLOAD,MENUUSUŃ
+MEP,MEP
+merge,scalić
+mesh,siatka
+MESHCAP,POKRYCIESIATKĄ
+MESHCOLLAPSE,ZWIŃSIATKĘ
+MESHCREASE,FAŁDSIAT
+MESHEXTRUDE,WYCIĄGNIJSIATKĘ
+MESHMERGE,ZŁĄCZSIATKĘ
+MESHOPTIONS,OPCJESIAT
+MESHPRIMITIVEOPTIONS,OPCJEPRYMITSIATKI
+MESHREFINE,SIATKAUDOSK
+MESHSMOOTH,GŁADSIATKA
+MESHSMOOTHLESS,USGŁADSIATKI
+MESHSMOOTHMORE,DODGŁADSIATKI
+MESHSPIN,OBRÓTSIATKI
+MESHSPLIT,PODZIELSIAT
+MESHUNCREASE,USFAŁDSIAT
+meter area,powierzchnia licznika
+meter model,model licznika
+midpoint,punkt środkowy
+MIGRATEMATERIALS,MIGRUJMAT
+migration log file,plik dziennika migracji
+minidump,minidump
+minimum spanning tree,minimalna liczba segmentów
+MINSERT,WWSTAW
+mirror line,linia odbicia lustrzanego
+MIRROR3D,LUSTRO3D
+MKLTYPE,MKLTYPE
+MKSHAPE,MKSHAPE
+MLEADER,WIELOLODN
+mleader object,wielolinia odniesienia
+MLEADERALIGN,WIELOLODNDOPASUJ
+MLEADERCOLLECT,WIELOLODNZBIERZ
+MLEADEREDIT,WIELOLODNEDYCJA
+MLEADERSTYLE,WIELOLODNSTYL
+MLEDIT,EDMLIN
+MLINE,MLINIA
+MLSTYLE,MLSTYL
+MOCORO,MOCORO
+model parameter,parametr modelu
+model space,widok obszaru modelu
+moment of inertia,Moment bezwładności
+motor,silnik
+MOVEBAK,MOVEBAK
+MPEDIT,MPEDIT
+MREDO,WODTWÓRZ
+MSLIDE,WSLAJD
+MSPACE,MODEL
+MSTRETCH,MSTRETCH
+MTEDIT,EDWTEKST
+MTEXT,WTEKST
+MTPROP,WTCECHY
+Multi Language Dictionary,słownik wielojęzyczny
+multi-functional grip,uchwyt wielofunkcyjny
+multilanguage user interface,wielojęzyczny interfejs użytkownika
+multipart feature,elementy wieloczęściowe
+multiple circuits,wiele obwodów
+Multiple Design Environment,środowisko wieloprojektowe
+multi-relation,wiele powiązań
+MVIEW,WWIDOK
+MvPart,CzęśćMv
+MVSETUP,MVSETUP
+Name Number,nazwa numer
+NANT,NANT
+NAVBAR,PASEKNAW
+navigation pane,panel nawigacji
+NAVSMOTION,NAVSMOTION
+NAVSMOTIONCLOSE,NAVSMOTIONZAMKNIJ
+NAVSWHEEL,NAVSWHEEL
+NAVVCUBE,NAVVCUBE
+NBA,NBA
+NCLOB,NCLOB
+NCOPY,NCOPY
+nested reference,odwołanie zagnieżdżone
+NETLOAD,WCZYTAJNET
+network adjustment,dostosowanie sieci
+network surface,powierzchnia na siatce
+network topology,topologia sieci
+network trace,śledzenie sieci
+network tracing tool,narzędzie śledzenia sieci
+neutralizer,neutralizator
+NEWSHEETSET,NOWYZESTAWARKUSZY
+NEWSHOT,NOWEUJĘCIE
+NEWVIEW,NOWYWIDOK
+non-ending pipe,rura niezakończona
+non-rectangular viewport,rzutnia nieprostokątna
+normal distribution,rozkład normalny
+normal style,styl normalny
+northing,fałszywa współrzędna północna
+NURBS surface,powierzchnia NURBS
+object snap mode,tryb lokalizacji względem obiektu
+object thematic mapping,mapy tematyczne na bazie obiektów
+ObjectARX,ObjectARX
+OBJECTSCALE,SKALAOBIEKTU
+oblique angle,kąt pochylenia
+obscured line,linie przysłonięte
+octant,oktant
+odour equipment,sprzęt nawaniający
+OFFSETEDGE,KRAWODSUNIĘCIA
+Ohm,Ohm
+Oil water separator,separator oleju
+OLECONVERT,OLECONVERT
+OLELINKS,OLE_P
+OLEOPEN,OLEOPEN
+OLERESET,OLERESET
+OLESCALE,OLESKALA
+ONLINEDESIGNSHARE,UDOSTĘPNIJPROJEKTONLINE
+opacity,nieprzezroczystość
+OPENDWFMARKUP,OTWÓRZDWFZNACZNIK
+OPENFROMCLOUD,OTWÓRZZCHMURY
+OPENFROMWEBMOBILE,OPENFROMWEBMOBILE
+OPENSHEETSET,OTWÓRZZESTAWARKUSZY
+OPTCHPROP,ZMCECHYOPT
+OPTIONS,OPCJE
+ordinate dimension,wymiar współrzędnościowy
+ordinate dimensioning,wymiarowanie współrzędnych
+organic modeling,modelowanie organiczne
+origin label,etykieta początku
+ortho,Orto
+ortho mode,tryb orto
+ortho-image,obraz ortogonalny
+OSNAP,OBIEKT
+outer style,styl skrajny
+outfall,wylot
+over-constrain,dodać zbyt wiele wiązań
+OVERKILL,OVERKILL
+overlapping ring,pierścienie nakładające się
+overlay,nakładka
+overline,nadkreślenie
+overlining,nadkreślenie
+override,zastąp
+override theme,schemat nadrzędny
+P&ID,P&ID
+pad,zaczep
+PAGESETUP,USTAWIENIASTR
+-PAGESETUP,-USTAWIENIASTR
+PAINTER,MALARZ
+panorama,obraz panoramiczny
+paper space,obszar papieru
+parallel constraint,wiązania równoległe
+PARAMETERS,PARAMETRY
+PARAMETERSCLOSE,ZAMKNIJPARAM
+parametric drawing,rysunek parametryczny
+parametric expression,wyrażenie parametryczne
+parcel,działka
+parent feature class,nadrzędna klasa elementów
+part extraction template,szablon wyodrębniania części
+part reference,punkt informacyjny części
+PARTIALOAD,WCZYTAJCZĘŚĆ
+PARTIALOPEN,OTWÓRZCZĘŚĆ
+PASTEASHYPERLINK,WKLEJJAKOHIPERŁĄCZE
+PASTEBLOCK,WKLEJBLOK
+PASTECLIP,WKLEJ
+PASTEORIG,WKLEJORYG
+PASTESPEC,WKLEJ_S
+patch,poprawka
+patch list,lista poprawek
+patch surface,powierzchnia zamykająca
+path array,szyki wzdłuż ścieżek
+path curve,krzywa definiująca
+PCEXTRACTSECTION,PCWYODRPRZEKR
+PCINWIZARD,KREATORPCWE
+PDFADJUST,PDFDOPAS
+PDFATTACH,PDFDOŁĄCZ
+PDFCLIP,PDFPRZYT
+PDFIMPORT,PDFIMPORT
+PDFLAYERS,PDFWAR
+PDFSHXTEXT,PDFTEKSTSHX
+PEDIT,EDPLIN
+pen width,szerokość pióra
+Pencil tool,narzędzie Ołówek
+PERFANALYZER,WYDANALIZATOR
+PERFANALYZERCLOSE,WYDANALIZATORZAMKNIJ
+performance hint,poprawa wydajności
+periodic curve,krzywa okresowa
+persistent object snap,trwałe przyciąganie do obiektu
+persistent reactor,reaktor trwały
+pessimistic locking,blokowanie pesymistyczne
+PFACE,PPOW
+photo modeling,fotomodelowanie
+photon map,mapa fotonów
+physical prototyping,prototypowanie fizyczne
+pickfirst set,zestaw pierwszego wyboru
+pig launch,czyszczak
+PIP,PIP
+pipe fitting,łącznik rury
+pipe insulation,izolacja rury
+piping and instrumentation diagram,schemat instalacji rurowych i oprzyrządowania
+PKFSTGROUP,NAJWYBGRUPĘ
+PLAN,PLAN
+planar face,powierzchnia płaska
+plane coordinate,współrzędne płaszczyzny
+PLANESURF,POWPŁAS
+planimetry,planimetria
+plastic socket,gniazdo z tworzywa sztucznego
+PLINE,PLINIA
+plot frame,ramka wydruku
+plot stamp,znaki wydruku
+plot structure,struktura wydruku
+plot style,styl wydruku
+PLOTSTAMP,ZNAKWYDRUKU
+PLOTSTYLE,STYLWYDRUKU
+PLOTTERMANAGER,MENPLOT
+PLT2DWG,PLT2DWG
+PMSTART,PMSTART
+PMSTOP,PMSTOP
+PMTOGGLE,PMTOGGLE
+PMTRACE,PMTRACE
+PNGOUT,PNGWY
+POINT,PUNKT
+point feature,element punktu
+POINTCLOUDATTACH,DOŁĄCZCHMURĘPUN
+POINTCLOUDCOLORMAP,ODWZORKOLORCHMURYPUNKT
+POINTCLOUDCROP,CHMURAPUNKTÓWOBETNIJ
+POINTCLOUDCROPSTATE,CHMPKTSTANPRZYC
+POINTCLOUDMANAGER,MENCHMURYPUNKTÓW
+POINTCLOUDMANAGERCLOSE,ZAMKNIJMENCHMURYPUNKTÓW
+POINTCLOUDSTYLIZE,STYLIZUJCHMURĘPUNKTÓW
+POINTCLOUDUNCROP,CHMURAPUNKTÓWBEZOBCINANIA
+pointer input,wprowadzanie przy kursorze
+POINTLIGHT,ŚWIATPUNKT
+polar array,szyk biegunowy
+polar stretch,rozciąganie biegunowe
+polar tracking,śledzenie biegunowe
+PolarSnap,PolarSnap
+pole,biegun
+polling frequency,częstotliwość sprawdzania
+polyarc segment,segment łukowy polilinii
+polyface mesh,siatka polipowierzchni
+POLYGON,WIELOBOK
+polygon mesh,siatka wielokątna
+polyline,polilinia
+POLYSOLID,POLIBRYŁA
+position finder,wyszukiwanie położenia
+position point,punkt położenia
+Power Dimensioning,Superwymiarowanie
+precision presets manager,menedżer wstępnych ustawień dokładności
+pressed joint,połączenie tłoczone
+PRESSPULL,NACIŚNIJCIĄG
+pressure zone,strefa ciśnienia
+profile curve,krzywa profilu
+profile designer,projektant profilu
+progressive tooltip,progresywna etykieta narzędzia
+project dashboard,Tablica narzędzi projektu
+Project Simulus,Project Simulus
+projected coordinate system,odwzorowania kartograficzne
+PROJECTGEOMETRY,RZUTUJGEOM
+PROPERTIES,WŁAŚCIWOŚCI
+properties inspector,inspektor właściwości
+PROPERTIESCLOSE,WŁAŚCIWOŚCIZAMKNIJ
+property line,linia właściwości
+PROPULATE,PROPULATE
+prototype drawing,rysunek prototypowy
+PSBSCALE,PSBSCALE
+PSETUPIN,USTAWIENIASTRWE
+PSFILL,PSWYP
+PSOUT,PSWY
+PSPACE,PAPIER
+PSTSCALE,PSTSCALE
+PTYPE,TYPPUNKTU
+PUSHTODOCSCLOSE,PRZEŚLIJDODOCSZAMKNIJ
+PUSHTODOCSOPEN,PRZEŚLIJDODOCSOTWÓRZ
+QCCLOSE,kalkulatorzamknij
+QDIM,SWYMIAR
+QLATTACH,QLATTACH
+QLATTACHSET,QLATTACHSET
+QLDETACHSET,QLDETACHSET
+QLEADER,SLODNIES
+QNEW,SNOWY
+QQUIT,QQUIT
+QSAVE,SZAPISZ
+QSELECT,SWYBIERZ
+QTEXT,MTEKST
+quick dimension,szybki wymiar
+QUICKCUI,SZYBKICUI
+QUICKPROPERTIES,SZYBKIEWŁAŚCIWOŚCI
+QVDRAWING,QVDRAWING
+QVDRAWINGCLOSE,PODGLRYSZAMKNIJ
+QVLAYOUT,PODGLARK
+QVLAYOUTCLOSE,PODGLARKZAMKNIJ
+R14PENWIZARD,KRPISR14
+radial dimension,wymiar promieniowy
+radius reflection line,linia odwzorowania zaokrąglenia
+ramp,wymuszenie
+rapid prototyping,szybkie prototypowanie
+RAY,PÓŁPROSTA
+RCONFIG,RKONFIG
+reality capture,tworzenie obrazów fotorealistycznych
+RECAP,RECAP
+recent blocks list,lista ostatnio używanych bloków
+recent blocks location,lokalizacja ostatnio używanych bloków
+recloser,wyłącznik ochronny
+RECOVERALL,NAPRAWWSZ
+RECTANG,PROSTOK
+RECTANGLE,PROSTOKĄT
+REDIR,REDIR
+REDIRMODE,REDIRMODE
+REDRAWALL,PRZERYSW
+REFCLOSE,ODNZAMKNIJ
+REFEDIT,ODNEDYCJA
+reference constraint,wiązanie odniesienia
+reference frame,ramka odniesienia
+reference grid,siatka odniesienia
+Reference Manager,menedżer odniesienia
+reference record,rekord odniesienia
+refinement,zagęszczanie
+reflection map,mapa odbić
+refraction index,współczynnik załamania
+REFSET,ODNUSTAW
+REGEN,REGEN
+REGEN3,REGEN3
+REGENALL,REGENW
+REGENAUTO,REGENAUTO
+REGION,REGION
+regulator,regulator
+REINIT,REINST
+relax constraint,wyłącz wiązanie
+render context,kontekst renderowania
+render preset,ustawienie wstępne renderowania
+RENDERCROP,RENDERWYC
+RENDERENVIRONMENT,ŚRODRENDER
+RENDERENVIRONMENTCLOSE,RENDERENVIRONMENTCLOSE
+RENDEREXPOSURE,RENDEREKSPOZ
+RENDEREXPOSURECLOSE,RENDEREXPOSURECLOSE
+RENDERONLINE,RENDERONLINE
+RENDERPRESETS,RENDERSTAND
+RENDERPRESETSCLOSE,RENDERSTANDZAMKNIJ
+RENDERWIN,RENDEROKNO
+RENDERWINDOW,RENDEROKNO
+RENDERWINDOWCLOSE,RENDEROKNOZAMKNIJ
+Report Designer,Projektant raportów
+representation,reprezentacja
+representation string,ciąg reprezentacji
+REPURLS,REPURLS
+request code,kod żądania
+reservoir,źródło zewnętrzne
+RESETBLOCK,PRZYWRÓĆBLOK
+residual,resztkowy
+restrictor,przepustnica
+retention tank,zbiornik retencyjny
+return date,data zwrotu
+REVCLOUD,REVCLOUD
+REVCLOUDPROPERTIES,WLASNOSCICHMURKIWERSJI
+REVSURF,POWOBROT
+rewind history,historia przewijania
+Ribbon Command Locator,Lokalizator poleceń
+ribbon panel,panel wstążki
+RIBBONCLOSE,WSTĄŻKAZAMKNIJ
+riser,podstopnica
+rollback,cofnij
+ROTATE3D,OBRÓT3D
+ROTATED,OBRÓCONY
+RPREF,RPARAM
+RPREFCLOSE,ZAMKRPARAM
+RSCRIPT,CPOKAZ
+RTEDIT,RTEDIT
+RTEXT,RTEXT
+RTEXTAPP,RTEXTAPP
+RTPAN,SNFRAGM
+RTUCS,RTUCS
+RTZOOM,SZOOM
+rule base,podstawa reguły
+RULESURF,POWPROST
+sample point,punkt próbki
+SAVEALL,SAVEALL
+SAVEAS,NZAPISZ
+SAVEIMG,ZAPISZOBR
+SAVETOCLOUD,ZAPISZWCHMURZE
+SAVETOWEBMOBILE,SAVETOWEBMOBILE
+SCALE,SKALA
+scale factor height,skażenie skali pionowej
+SCALELISTEDIT,edlistyskal
+SCALETEXT,SKALUJTEKST
+schema,schemat
+schematic feature,element schematyczny
+schematic line,linia schematyczna
+schematic symbol,symbol graficzny
+screening,intensywność
+SCRIPTCALL,URUCHOMPOKAZ
+section boundary,obwiednia przekroju
+section line,linia przekroju
+section object,obiekt przekroju
+section plane,płaszczyzna przekroju
+SECTIONPLANE,PŁAPRZEKR
+SECTIONPLANEJOG,PRZEKPOWUSK
+SECTIONPLANESETTINGS,USTAWPRZEKPOW
+SECTIONPLANETOBLOCK,PRZEKPOWBLOK
+SECTIONSPINNERS,POKRĘTŁAPRZEKR
+SECURITYOPTIONS,OPCJEBEZP
+SELECTCOUNT,WYBIERZELZLICZANIA
+SELECTSIMILAR,SELECTSIMILAR
+SELECTURL,WYBIERZURL
+self-intersecting polygon,samoprzecinający się wielobok
+septic tank,zbiornik nieczystości płynnych
+SEQUENCEPLAY,ODTWARZAJSEKW
+sequential search,wyszukiwanie sekwencyjne
+service point,punkt obsługi
+SETBYLAYER,USTJAKWAR
+SETVAR,ZMSYS
+SH,SH
+shade plot mode,tryb wydruku cieniowanego
+SHADEMODE,STYLCIENIOWANIA
+shaft break,przerwanie wałka
+ShapeManager,ShapeManager
+SHAREDVIEWS,WIDOKIWSPÓŁDZIELONE
+SHAREDVIEWSCLOSE,WIDOKIWSPÓŁDZIELZAMKNIJ
+SHAREVIEW,WSPÓŁDZIELWIDOK
+sheet set manager,menedżer zestawów arkuszy
+sheet subset,podzestaw arkuszy
+SHEETSET,ZESTAWARKUSZY
+SHEETSETHIDE,UKRYJZESTAWARKUSZY
+shortcut function,funkcje skrótów
+SHOWPALETTES,POKAŻPALETY
+SHOWRENDERGALLERY,POKAŻGALERRENDER
+SHOWURLS,SHOWURLS
+SHP2BLK,SHP2BLK
+shut off valve,zawór odcinający
+SHX,SHX
+SIGVALIDATE,SPRAWDŹSYG
+site point,punkt obszaru
+SketchUp,SketchUp
+sleeve,tuleja
+SLICE,PŁAT
+smart block,inteligentny blok
+snap angle,kąt skoku
+snap grid,skok siatki
+SOLDRAW,RYSRZUT
+solid primitive,prymityw bryłowy
+SOLIDEDIT,EDBRYŁA
+SOLPROF,PROFIL
+SOLVIEW,RZUTUJ
+sortents table,tabela sortowań
+SPACETRANS,KONPRZESTRZ
+SPHERE,SFERA
+spline,splajn
+SPLINEDIT,EDSPLAJN
+split point,punkt podziału
+split rivet,nit rozwidlony
+SPOTLIGHT,REFLŚWIETLNY
+spring rate,sztywność sprężyny
+SSM,SSM
+SSX,SSX
+standard deviation,standardowe odchylenie
+STANDARDS,STANDARDY
+Start In folder,folder Rozpocznij w
+Start tab,karta Początek
+starting view,widok początkowy
+station summary,opis stanowiska
+STATS,STAT
+STATUS,STAN
+still image,obraz nieruchomy
+still-image,obraz nieruchomy
+stitch,zszycie
+STLOUT,STLWY
+Stock Tool,narzędzie domyślne
+stop condition,warunek zatrzymania
+straddle,obejmować
+stretch action,operacja rozciągania
+stretch frame,ramka rozciągania
+structure,struktura
+structure environment,środowisko zorganizowane
+student version,wersja studencka
+STYLE,STYL
+STYLESMANAGER,MENSTYLÓW
+stylus,pióro
+subdivision mesh,siatka podpodziałów
+subdivision surface,powierzchnia podpodziałów
+substation,podstacja
+substitute block,blok zastępujący
+SUNPROPERTIES,WŁAŚSŁOŃCA
+SUNPROPERTIESCLOSE,WŁAŚSŁOŃCAZAMK
+SUPERHATCH,SUPERHATCH
+supply zone,strefa zaopatrzeniowa
+surface analysis,analiza powierzchni
+surface indication leader,linia odniesienia wskazania powierzchni
+surface normal,normalna powierzchni
+SURFBLEND,POŁĄCZPOW
+SURFEXTEND,WYDŁUŻPOW
+SURFEXTRACTCURVE,WYODRKRZYWPOW
+SURFFILLET,ZAOKRĄGLPOW
+SURFNETWORK,POWZSIECI
+SURFOFFSET,ODSUNPOW
+SURFPATCH,ZAMKPOW
+SURFSCULPT,RZEŹBAPOW
+SURFTRIM,PRZYTPOW
+SURFUNTRIM,COFPRZYCPOW
+sweep path,ścieżka przeciągnięcia
+switchgear,rozdzielnica
+SYSVARMONITOR,MONITORZMIENNYCHSYS
+SYSVDLG,SYSVDLG
+SYSWINDOWS,SYSWINDOWS
+TABLE,TABELA
+TABLEDIT,EDYCJATABELI
+TABLEEXPORT,EKSPORTABELI
+tablespace,przestrzenie tabel
+TABLESTYLE,STYLTABELI
+TABLET,PULPIT
+TABSURF,POWWALC
+tabulated mesh,siatka walcowa
+taper angle,kąt pochylenia
+TARGETPOINT,PKTDOCEL
+task pane,okno zadań
+TASKBAR,PASEKZADAŃ
+TBCONFIG,PNKONFIG
+TCASE,TCASE
+TCIRCLE,TCIRCLE
+TCOUNT,TCOUNT
+template manager,menedżer szablonów
+termination,zakończenie
+Terrain Point Pro,punkt terenu na profilu
+TEXT,TEKST
+TEXTALIGN,WYRÓWNAJTEKST
+TEXTEDIT,EDTEKST
+TEXTFIT,TEXTFIT
+TEXTMASK,TEXTMASK
+TEXTSCR,TEKRAN
+TEXTTOFRONT,TEKSTNAWIERZCH
+TEXTUNMASK,TEXTUNMASK
+TFHELP,TFHELP
+TFRAMES,TFRAMES
+thermal conductivity,przewodnictwo cieplne
+thermoplastic,termoplastik
+THICKEN,POGRUB
+TIFOUT,TIFWY
+tile order,kolejność wycinków
+tile size,rozmiar wycinka
+tiling,pokrywanie
+tiling scheme,schemat podziału
+TIME,CZAS
+time server,serwer czasu
+timeline,oś czasu
+TINSERT,TWSTAW
+tint color,kolor zabarwienia
+title block,tabelka rysunkowa
+TJUST,TJUST
+TOLERANCE,TOLERANCJA
+tool palette,paleta narzędzi
+tool palette set,zestaw palet
+TOOLBAR,PASEKN
+TOOLPALETTES,PALETYNARZĘDZI
+TOOLPALETTESCLOSE,PALETYNARZĘDZIZAMKNIJ
+toolpath,ścieżka narzędzia
+top view,widok z góry
+topic,temat
+topology,topologia
+TORIENT,TORIENT
+torsion spring,sprężyna skręcana
+torus,torus
+Tour Building wheel,koło Przegląd budynku
+tower,wieża
+TPNAVIGATE,TPNPRZEJDŹ
+trace direction,kierunek śledzenia
+trace feature,funkcja śladu
+TRACEBACK,ŚLADTYŁ
+TRACEEDIT,ŚLADEDYCJA
+TRACEFRONT,ŚLADPRZÓD
+TRACEPALETTECLOSE,PALETAŚLADZAMKNIJ
+TRACEPALETTEOPEN,PALETAŚLADOTWÓRZ
+TRACEVIEW,ŚLADWIDOK
+transaction,transakcja
+transformer,transformator
+translucency,półprzezroczystość
+transmittal package,pakiet przekazu
+transmittal setup,ustawienia przekazu
+tray,zasobnik
+TRAYSETTINGS,USTAWZASOBNIK
+treatment plant,oczyszczalnia ścieków
+TREESTAT,DRZEWO
+trellis,krata
+TREX,TREX
+trial version,wersja testowa
+triangulate,triangulować
+TSCALE,TSCALE
+TUTCLEAR,TUTWYCZYŚĆ
+TUTDEMO,TUTDEMO
+TXT2MTXT,TEKSTNAWTEKST
+TXTEXP,TXTEXP
+UCS,LUW
+UCSICON,LUWSYMB
+UCSMAN,MENLUW
+ULAYERS,UWARSTWY
+UNDEFINE,UNDEF
+underlay,podrys
+UNISOLATEOBJECTS,UNISOLATEOBJECTS
+up direction,kierunek w górę
+UPDATEFIELD,UAKTUALNIJPOLADANYCH
+UPDATETHUMBSNOW,UAKTUALNIJMINIATURY
+upstream,pod prąd
+User Coordinate System,lokalny układ współrzędnych
+utility,instalacje
+UV space,przestrzeń UV
+VBAIDE,VBAIDE
+VBALOAD,VBALOAD
+VBAMAN,VBAMAN
+VBANEW,VBANEW
+VBAPREF,VBAPREF
+VBARUN,VBARUN
+VBASTMT,VBASTMT
+VBAUNLOAD,VBAUNLOAD
+VERSIONCOMPARE,PORÓWNAJWERSJE
+vertex,wierzchołek
+vertex bulge,wypukłość wierzchołka
+View Object wheel,koło Wyświetl obiekt
+VIEWBASE,WIDOKPODST
+VIEWCOMPONENT,WIDKOMP
+VIEWDETAIL,WIDDET
+VIEWDETAILSTYLE,STYLWIDDET
+VIEWEDIT,EDYTUJWIDOK
+VIEWGO,IDŹDOWIDOKU
+VIEWPLAY,ODTWARZAJWIDOK
+VIEWPLOTDETAILS,POKAŻINFODRUKU
+VIEWPORTS,RZUTNIE
+VIEWPROJ,WIDOKRZUTOWANY
+VIEWRES,ROZDZ
+VIEWSECTION,WIDPRZEKR
+VIEWSECTIONSTYLE,STYLWIDPRZEKR
+VIEWSETPROJ,KONFIGURUJPROJEKTWIDOK
+VIEWSKETCHCLOSE,SZKICWIDZAMKNIJ
+VIEWSTD,STANDARDWIDOKU
+VIEWSYMBOLSKETCH,WIDOKSZKICSYMBOL
+VIEWUPDATE,AKTUALIZUJWIDOK
+visit point,punkt przejściowy
+visor,maska
+VISUALSTYLES,STYLEWIZ
+VISUALSTYLESCLOSE,ZAMKSTYLEWIZ
+VLIDE,VLIDE
+VLIDE command,polecenie VLIDE
+VLISP,VLISP
+VPCLIP,PRZYTRZUT
+VPEDIT,EDYCJARZUTNI
+VPLAYER,RWARSTWA
+VPMAX,RZUTNIAMAKS
+VPMIN,RZUTNIAMIN
+VPOINT,PKTOBS
+VPORTS,RZUTNIE
+VPSCALE,VPSCALE
+VPSYNC,VPSYNC
+VSCURRENT,BIEŻSTYLWIZ
+VSLIDE,SLAJD
+VSSAVE,SWZAPISZ
+VTOPTIONS,OPCJEPW
+WALKFLYSETTINGS,USTAWPRZE
+waste water,ścieki
+watched folder,folder obserwowany
+water fixture unit,jednostka armatury hydraulicznej
+watermark editor,edytor znaku wodnego
+WBLOCK,PISZBLOK
+web file,plik siatki
+web light,światło siatki
+WEBLIGHT,ŚWIATŁOSIATKI
+WEBLOAD,ZAŁADUJZSIECI
+WEDGE,KLIN
+welcome screen,ekran powitalny
+WHOHAS,CZYJ
+wildcard,symbol wieloznaczny
+winding fill,wypełnienie zawijane
+WIPEOUT,PRZYKRYJ
+wipeout object,moduł odblokowania obiektów maskowania
+wireframe,model krawędziowy
+wireway,ciąg przewodów
+WMFIN,WMFWE
+WMFOPTS,WMFOPCJE
+WMFOUT,WMFWY
+WORKSPACE,PRZESROBOCZA
+World Coordinate System,globalny układ współrzędnych
+world space,powierzchnia globalna
+WSSAVE,ZAPISZPR
+WSSETTINGS,USTAWPR
+XATTACH,XDOŁĄCZ
+XBIND,USTAL
+XCLIP,PRZYTODN
+XCOMPARE,PORÓWNODN
+XCOMPARECLOSE,PORÓWODNZAMKNIJ
+XCOMPARERCNEXT,PORÓWODNNASTGRUPA
+XCOMPARERCPREV,PORÓWODNPOPRZGRUPA
+XDATA,XDATA
+XDLIST,XDLIST
+XEDGES,WYDZKRAW
+XLINE,PROSTA
+XLIST,XLIST
+XOPEN,OTWÓRZODN
+XP,XP
+XPLODE,XPLODE
+XSL,XSL
+zebra analysis,analiza typu Zebra
+zipped KML file,skompresowany plik KML
+zoom invariant,niezależny od powiększenia

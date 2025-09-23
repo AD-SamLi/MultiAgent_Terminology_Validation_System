@@ -1,0 +1,696 @@
+﻿source,target
+3D 메쉬 기본체,3D mesh primitive
+3D 이동 장치,3D Move gizmo
+3D 회전 장치,3D Rotate gizmo
+3D 축척 장치,3D Scale gizmo
+ACS,ACS
+AEC 컨텐츠,AEC content
+AEC 도면요소,AEC entity
+AEC 객체,AEC object
+정렬 치수,Aligned Dimension
+정렬 단면도,aligned section view
+ALKIS,ALKIS
+온둘레 기호,all-around symbol
+알파 혼합,alpha-blend
+대체 단위,alternate unit
+고도계,altimetry
+해석 표면,analytical surface
+편각,angle of deflection
+주석,annotation
+주석 구속조건,annotational constraint
+주석 객체,annotative object
+양극,anode
+양극 측점,anode station
+모양 스타일,appearance style
+호,arc
+호 세그먼트화,arc segmentation
+호-현 거리,arc-chord distance
+영역 값,area value
+ARG,ARG
+조립품 추출 템플릿,assembly extraction template
+Associative QDIM extension,Associative QDIM extension
+ATIL,ATIL
+AutoCAD,AutoCAD
+AutoCAD 블록,AutoCAD block
+AutoCAD 색상 색인,AutoCAD color index
+AutoCAD Electrical,AutoCAD Electrical
+AutoCAD for Mac,AutoCAD for Mac
+AutoCAD including specialized toolsets,AutoCAD including specialized toolsets
+AutoCAD LT,AutoCAD LT
+AutoCAD LT for Mac,AutoCAD LT for Mac
+AutoCAD Map 3D,AutoCAD Map 3D
+AutoCAD Mechanical,AutoCAD Mechanical
+AutoCAD Migration Assistance,AutoCAD Migration Assistance
+AutoCAD 모바일,AutoCAD Mobile
+AutoCAD Mobile 앱을,Autocad Mobile app
+AutoCAD OEM,AutoCAD OEM
+AutoCAD P&ID,AutoCAD P&ID
+AutoCAD Plant 3D,AutoCAD Plant 3D
+AutoCAD Raster Design,AutoCAD Raster Design
+AutoCAD Revit Architecture Suite,AutoCAD Revit Architecture Suite
+자동 완성,AutoComplete
+Autodesk Assistant,Autodesk Assistant
+Autodesk Content Explorer,Autodesk Content Explorer
+오토데스크 제조 커뮤니티 포털,Autodesk Manufacturing Community Portal
+AutoLISP 개발,AutoLISP development
+AutoLISP 환경,AutoLISP environment
+보조 좌표계,auxiliary coordinate system
+방위각,azimuth
+역류 게이트,backwater gate
+볼 밀,ball mill
+기준점,base point
+기준선,baseline
+배치 표준 검사기,Batch Standards Checker
+전송 속도,baud rate
+지하,below grade
+대용량 이진 객체,binary large object
+비트 이미지,bitonal image
+혼합 모드,blend mode
+혼합 표면,blend surface
+BLOB,BLOB
+블록 제작 객체,block authoring object
+블록 정의,block definition
+블록 라이브러리,block library
+블록 특성 테이블,block properties table
+블록 교체,block replacement
+BLOCKNAVIGATE,BLOCKNAVIGATE
+블록 팔레트,blocks palette
+BLOCKSPALETTE,BLOCKSPALETTE
+BLOCKSPALETTECLOSE,BLOCKSPALETTECLOSE
+블로우 오프 밸브,blow off valve
+BOM,BOM
+경계 상자,bounding box
+분기 회로,branch circuit
+중단 루프,break loop
+BREAKATPOINT,BREAKATPOINT
+차단기,breaker
+이탈선,break-out line
+벌지,bulge
+돌출 비율,bulge factor
+대량 복사,bulk copy
+범프,bump
+범프 맵,bump map
+범프 매핑,bump mapping
+모선,bus bar
+BYBLOCK,BYBLOCK
+BYLAYER,BYLAYER
+케이블 트레이,cable tray
+케이블 트레이 부속,cable tray fitting
+카메라 교정,camera calibration
+카메라 그림 문자,camera glyph
+캔버스,canvas
+마감,cap
+캡을 씌운 모깎기,cap filleting
+캡 높이,cap height
+축전지,capacitor
+계단식 스타일 시트,Cascading Style Sheets
+케이스,casing
+케이스 모형,casing model
+Catmull-Clark 세분화 표면,Catmull-Clark subdivision surface
+중심선,center line
+중심 표식,center mark
+중심점,center point
+모따기,chamfer
+CHAR,CHAR
+대용량 문자 객체,character large object
+카이 제곱,chi square
+하위 피쳐 클래스,child feature class
+영화 샷,cinematic shot
+써클립,circlip
+회로 차단기,circuit breaker
+회로,circuitry
+CLASSICINSERT,CLASSICINSERT
+객체 자르기,clip volume
+자르기 평면,clipping plane
+CLOB,CLOB
+닫힌 모서리,closed edge
+코드 조합,code combination
+COGO,COGO
+콜드 그립,cold grip
+냉수기구배수부하,cold water fixture unit
+동일선상 구속조건,colinear constraint
+대조,collate
+컬렉션,collection
+연소실,combustion chamber
+분쇄기,comminuting machine
+COMPARECLOSE,COMPARECLOSE
+COMPAREEXPORT,COMPAREEXPORT
+COMPAREIMPORT,COMPAREIMPORT
+구성요소 클래스,component class
+구성요소 리스트,component list
+복합 솔리드,composite solid
+복합 기호,composite symbol
+복합 기호 정의,compound symbol
+압축,compression
+계산된 길이,computed length
+컨덕터,conductor
+배선,conduit
+덕트 장치,conduit fitting
+커넥터 라인,connector line
+커넥터 핀,connector pin
+구속된 객체,constrained object
+구속조건 막대,constraint bar
+구속조건 매개변수,constraint parameter
+구속점,constraint point
+구속조건 변수,constraint variable
+구성 선,construction line
+컨텐츠 라이브러리,content library
+컨텐츠 팩,content pack
+제어 캐비닛,control cabinet
+제어 케이블,control cable
+제어 선체,control hull
+제어점,control point
+제어 정점 선체,control vertices hull
+좌표계 추적기,coordinate system tracker
+COUNTCLOSE,COUNTCLOSE
+COUNTFIELD,COUNTFIELD
+COUNTLIST,COUNTLIST
+COUNTLISTCLOSE,COUNTLISTCLOSE
+COUNTNAVNEXT,COUNTNAVNEXT
+COUNTNAVPREV,COUNTNAVPREV
+COUNTTABLE,COUNTTABLE
+커버링 영역,covering area
+CRC,CRC
+횡단,cross section
+횡단 덕트,cross section duct
+CRS,CRS
+CS 라이브러리,CS library
+CSS,CSS
+CUI 편집기,CUI editor
+현재 디렉토리,current directory
+곡률 분석,curvature analysis
+고객 오류 보고,Customer Error Reporting
+고객 지원,customer support
+절단선,cutting line
+CV,CV
+CV 선체,CV hull
+CWFU,CWFU
+데이터 포인트,datumpoint
+DCM 엔진,DCM Engine
+고정 접합,dead joint symbol
+장식 요소,decorative element
+기본 다중 지시선 스타일,default mleader style
+기본 플롯 스타일,default plot style
+기본 테이블 스타일,default table style
+DEFPOINTS,DEFPOINTS
+종속성 강조,dependency highlighting
+초점 심도,depth of field
+깊이 폴리곤,depth polygon
+Design Review,Design Review
+Design Web Format,Design Web Format
+지름,diameter
+분산 맵,diffuse map
+Digital Signature Extension,Digital Signature Extension
+디지타이저 퍽,digitizer puck
+디지타이징 타블렛,digitizing tablet
+DimConstraint,DimConstraint
+치수,dimension line
+치수 스타일,dimension style
+Dimstyle,Dimstyle
+거리 간격띄우기,distance offset
+분산 렌더링,distributed rendering
+디더링,dithering
+DMS,DMS
+DOF,DOF
+기울기 분석,draft analysis
+제도 표준,drafting standard
+배수 영역,drain area
+도면 폴더,drawing folder
+Drawing Interchange Format,Drawing Interchange Format
+도면 관리자,Drawing Manager
+구동된 구속조건,driven constraint
+연동 치수,driving dimension
+DTED,DTED
+덕트 부속,duct fitting
+덤프 파일,dump
+DWF,DWF
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DWGCONVERT,DWGCONVERT
+DWGHISTORY,DWGHISTORY
+DWGHISTORYCLOSE,DWGHISTORYCLOSE
+DXF,DXF
+동적 구속조건,dynamic constraint
+동향,easting
+내부 편집,edit in place
+이젝터,ejector
+엘보,elbow
+전기 탐색기,Electric Explorer
+고도,elevation
+고도 간격띄우기,elevation offset
+생략,elide
+방사체,emitter
+끝점,end point
+미래를 위한 엔진,Engineered for the Future
+향상된 보조 창,enhanced secondary window
+환경 맵,environment map
+EPSG 코드,EPSG code
+ESW,ESW
+평가 버전,evaluation version
+EXPORTLAYOUT,EXPORTLAYOUT
+표현식 빌더,Expression Builder
+확장된 도움말 파일,extended help file
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+치수 보조선,extension line
+외부 참조,external reference
+외부 참조 관리자,External Reference Manager
+깎인면,facet
+설비,facility
+FDO,FDO
+기능 클래스,feature class
+피쳐 컨테이너,feature container
+형상 공차,feature control frame
+피쳐 데이터 객체,Feature Data Object
+피쳐 탐색기,Feature Explorer
+공급장치,feeder
+FG,FG
+FID,FID
+필드 버스,field bus
+필드 맞춤,field fit
+채우기 패턴,fill pattern
+모깎기,fillet
+여과조,Filtration Bed
+파이널 게더링,final gathering
+맞춤점,fit point
+피팅,fitting
+단순 검색,flat search
+흐름 방향,flow direction
+플러쉬 구속조건,flush constraint
+접기 패널,fold panel
+하수,foul water
+프레임,frame
+프레임속도,frame rate
+자유 관점,free standpoint
+자유 측점,free station
+자유형 설계,freeform design
+전면 자르기 평면,front clipping plane
+측지망 점,geodetic network point
+측지 변환,geodetic transformation
+기하학적 구속조건,geometric constraint
+지형 공간 정보,geospatial information
+장치,gizmo
+Gooch 셰이딩,Gooch shading
+Google Earth,Google Earth
+그라데이션 램프,gradient ramp
+정지 평면,grading plan
+그리스 트랩,grease trap
+그립,grip
+그립 대칭,grip mirror
+그립 회전,grip rotate
+그립 축척,grip scale
+침사지,grit chamber
+지하수,ground water
+그룹 정책 객체,Group Policy Object
+핸드홀,handhole
+하드웨어 셰이더,hardware shader
+해치 패턴,hatch pattern
+수평 연결선,horizontal landing
+핫 그립,hot grip
+온수기구배수부하,hot water fixture unit
+하우스 커넥터,house connector
+i-drop Enhancer,i-drop Enhancer
+i-drop 표시기,i-drop Indicator
+조도 거리,illuminance distance
+빈 영역 선택 시 자동 윈도우,implied windowing
+캔버스 내 도구,in-canvas tool
+사이각,included angle
+색인 색상,index color
+산업 모형,industry model
+구속조건 추정,infer constraints
+정보 채널,information channel
+입력 유형,input type
+INSERTCONTENT,INSERTCONTENT
+INSERTDRAWINGASBLOCK,INSERTDRAWINGASBLOCK
+검사 치수,inspection dimension
+설치 코드,installation code
+대화식 작성 및 편집,Interactive Create & Edit
+간섭 검사,interference check
+내부 대상,internal destination
+역 선형,inverse linear
+역제곱,inverse square
+ISA,ISA
+절연체,isolator
+등각선,isoline
+아이소팜,isoparm
+Keyhole Markup Language,Keyhole Markup Language
+KML,KML
+KMZ,KMZ
+매듭 매개변수화,knot parameterization
+매듭 벡터,knot vector
+레이블 블록,label block
+라군,lagoon
+토지 관리,land management
+언어 팩,language pack
+위도,latitude
+론치패드,Launchpad
+도면층 상태,layer state
+AutoCAD 2010 학습,Learning AutoCAD 2010
+부드럽기 정도,level of smoothness
+라이센스 경고,license alert
+피뢰기,lightning arrester
+선 병합,line merge
+행 문자열,line string
+선형 배열,linear array
+선형 치수,linear dimension
+링크 박스,link box
+lisp 파일,lisp file
+Live Enabler,Live Enabler
+라이브 단면,live section
+부하 탭 전환기,load tap changer
+로드된 표준,loaded standard
+위치,location
+경도,longitude
+LV 보드,LV board
+MAKELISPAPP,MAKELISPAPP
+MAKEPREVIEW,MAKEPREVIEW
+맨홀,manhole
+복합,manifold
+제조업체,manufacturer
+표식,markup
+표식 세트,markup set
+표식 세트 관리자,Markup Set Manager
+MARKUPIMPORT,MARKUPIMPORT
+메이트 구속조건,mate constraint
+MDE,MDE
+측정 길이,measured length
+측정,measurement
+측정 오류,measurement error
+중간,median
+mental ray,mental ray
+Mental Ray 렌더링 엔진,mental ray rendering engine
+MEP,MEP
+병합,merge
+메쉬,mesh
+미터기,meter
+미터기 영역,meter area
+미터기 모형,meter model
+중간점,midpoint
+마이그레이션 로그 파일,migration log file
+미니 덤프,minidump
+최소 스패닝 트리,minimum spanning tree
+대칭 선,mirror line
+MLD,MLD
+모델 매개변수,model parameter
+모형 공간,model space
+모터,motor
+다중 언어 사전,Multi Language Dictionary
+다기능 그립,multi-functional grip
+다중 언어 사용자 인터페이스,multilanguage user interface
+다중 지시선 스타일,multileader style
+다중 회로,multiple circuits
+다중 설계 환경,Multiple Design Environment
+다중 관계,multi-relation
+다중 시트,multi-sheet
+이름 번호,Name Number
+명명된 투영,named projection
+명판,nameplate
+NANT,NANT
+탐색 창,navigation pane
+NBA,NBA
+NCLOB,NCLOB
+하위 또는 내포된 참조,nested reference
+네트워크 조정,network adjustment
+네트워크 표면,network surface
+네트워크 위상,network topology
+네트워크 추적,network trace
+네트워크 추적 도구,network tracing tool
+중화제,neutralizer
+비단관,non-ending pipe
+직사각형이 아닌 뷰포트,non-rectangular viewport
+일반 분산,normal distribution
+일반 스타일,normal style
+북향,northing
+같지 않음,Not Equal
+공증,notarization
+NPR,NPR
+NURBS 표면,NURBS surface
+객체 스냅 모드,object snap mode
+ObjectARX,ObjectARX
+기울기 각도,oblique angle
+가려진 선,obscured line
+OC,OC
+8분원,octant
+악취 장비,odour equipment
+OE,OE
+OEM Make 마법사,OEM Make Wizard
+Ohm,Ohm
+유수 분리기,Oil water separator
+불투명도,opacity
+OPENFROMWEBMOBILE,OPENFROMWEBMOBILE
+유기적 모델링,organic modeling
+직교 모드,ortho mode
+직교 이미지,ortho-image
+외부 스타일,outer style
+배수구,outfall
+과도한 구속,over-constrain
+중첩 링,overlapping ring
+재지정,override
+주제 재지정,override theme
+P&ID,P&ID
+패드,pad
+패널 외곽설정 도면,panel footprint symbol
+파노라마,panorama
+도면 공간,paper space
+파라메트릭 도면,parametric drawing
+파라메트릭 표현,parametric expression
+상위 피쳐 클래스,parent feature class
+부품 추출 템플릿,part extraction template
+부품 참조,part reference
+패치,patch
+패치 리스트,patch list
+패치 곡면,patch surface
+경로 배열,path array
+경로 곡선,path curve
+경로,pathway
+펜 두께,pen width
+연필 도구,Pencil tool
+성능 힌트,performance hint
+주기 곡선,periodic curve
+객체 스냅 구속조건화,persistent object snap
+영구 리액터,persistent reactor
+사진 모델링,photo modeling
+광자 맵,photon map
+물리적 프로토타이핑,physical prototyping
+Pickfirst 세트,pickfirst set
+피그 시작,pig launch
+PIP,PIP
+파이프,pipe
+파이프 부속,pipe fitting
+파이프 단열재,pipe insulation
+평면형 면,planar face
+평면좌표,plane coordinate
+면적 측정,planimetry
+플라스틱 소켓,plastic socket
+플롯 프레임,plot frame
+플롯 스탬프,plot stamp
+플롯 구조,plot structure
+PLY,PLY
+점 피쳐,point feature
+포인터 입력,pointer input
+원형 배열,polar array
+원형 신축,polar stretch
+극좌표 추적,polar tracking
+PolarSnap,PolarSnap
+극,pole
+폴링 빈도,polling frequency
+폴리아크 세그먼트,polyarc segment
+폴리면 메쉬,polyface mesh
+폴리곤 메쉬,polygon mesh
+폴리선,polyline
+위치 찾기,position finder
+위치 점,position point
+정밀도 사전 설정 관리자,precision presets manager
+프레스된 접합,pressed joint
+압력 구역,pressure zone
+1차,Primary
+윤곽 곡선,profile curve
+프로파일 설계자,profile designer
+단계적 툴팁,progressive tooltip
+프로젝트 대시보드,project dashboard
+Project Simulus,Project Simulus
+투영된 좌표계,projected coordinate system
+특성 검사기,properties inspector
+대지 경계선,property line
+원형 도면,prototype drawing
+Push to Autodesk Docs,Push to Autodesk Docs
+PUSHTODOCSCLOSE,PUSHTODOCSCLOSE
+PUSHTODOCSOPEN,PUSHTODOCSOPEN
+치수 신속 생성,quick dimension
+빠른 작업 옵션,quick option
+빠른 계산기,QuickCalc
+신속한 프로토타이핑,rapid prototyping
+래스터화,rasterize
+리얼리티 캡처,reality capture
+최근 블록 리스트,recent blocks list
+최근 블록 위치,recent blocks location
+재폐로 차단기,recloser
+참조 구속조건,reference constraint
+참조 프레임,reference frame
+참조 그리드,reference grid
+참조 관리자,Reference Manager
+참조 기록,reference record
+반사 맵,reflection map
+굴절 색인,refraction index
+조절기,regulator
+렌더 컨텍스트,render context
+렌더 사전 설정,render preset
+보고서 설계자,Report Designer
+보고서 생성기,report generator
+표현 문자열,representation string
+물 탱크,reservoir
+제한자,restrictor
+저장조,retention tank
+반환 날짜,return date
+REVCLOUDPROPERTIES,REVCLOUDPROPERTIES
+뒤로 내역,rewind history
+리본 명령 위치 지정,Ribbon Command Locator
+리본 패널,ribbon panel
+라이저,riser
+롤오픈,roll open
+롤업,roll up
+롤백,rollback
+회전 각도,rotation angle
+규칙 기반,rule base
+샘플 점,sample point
+축척 비율 높이,scale factor height
+스키마,schema
+스키매틱 구성요소,schematic component
+스키매틱 다이어그램,schematic diagram
+스키매틱 피쳐,schematic feature
+구조도 기호,schematic symbol
+스크리닝,screening
+2차,Secondary
+단면 경계,section boundary
+단면 객체,section object
+단면 평면,section plane
+단면도,section view
+선택 순환,selection cycling
+자체 교차 폴리곤,self-intersecting polygon
+순차 검색,sequential search
+서비스 지점,service point
+음영 플롯 모드,shade plot mode
+ShapeManager,ShapeManager
+시트 세트 관리자,sheet set manager
+시트 하위 세트,sheet subset
+바로 가기 함수,shortcut function
+차단 밸브,shut off valve
+부지 점,site point
+SketchUp,SketchUp
+슬리브,sleeve
+스마트 블록,smart block
+스냅 각도,snap angle
+스냅 그리드,snap grid
+Sortents 테이블,sortents table
+전문화 툴셋,specialized toolset
+스플라인,spline
+분할 점,split point
+분할 리벳,split rivet
+SSM,SSM
+표준 편차,standard deviation
+시작 폴더,Start In folder
+시작 탭,Start tab
+측점 요약,station summary
+연결,stitch
+스톡 도구,Stock Tool
+정지 조건,stop condition
+걸치다,straddle
+신축 동작,stretch action
+신축 프레임,stretch frame
+구조,structure
+학생용 버전,student version
+스타일러스,stylus
+세분화 메쉬,subdivision mesh
+세분화 표면,subdivision surface
+서브스크립션 구매하기,Subscribe
+변전소,substation
+블록 대체,substitute block
+일영 특성,sun property
+공급 구역,supply zone
+표면 분석,surface analysis
+표면 표시 지시선,surface indication leader
+곡면 법선,surface normal
+스윕 경로,sweep path
+개폐기,switchgear
+탭 페이지,tab page
+테이블 스페이스,tablespace
+방향 벡터 메쉬,tabulated mesh
+템플릿 관리자,template manager
+종단,termination
+프로파일의 지형점,Terrain Point Pro
+테셀레이션,tessellation
+TEXTALIGN,TEXTALIGN
+배열 순서,tile order
+배열 크기,tile size
+시간 서버,time server
+타임라인,timeline
+색조 색상,tint color
+제목 블록,title block
+공차,tolerance
+도구 팔레트,tool palette
+도구 팔레트 세트,tool palette set
+도구 경로,toolpath
+평면도,top view
+토픽,topic
+위상,topology
+토러스,torus
+빌딩 둘러보기 휠,Tour Building wheel
+타워,tower
+추적 방향,trace direction
+트레이스 기능,trace feature
+트레이스 팔레트,trace palette
+TRACEBACK,TRACEBACK
+TRACEFRONT,TRACEFRONT
+TRACEPALETTECLOSE,TRACEPALETTECLOSE
+TRACEPALETTEOPEN,TRACEPALETTEOPEN
+트랙패드,trackpad
+트랜잭션,transaction
+변환기,transformer
+반투명도,translucency
+전송 패키지,transmittal package
+전송 설정,transmittal setup
+처리 설비,treatment plant
+격자,trellis
+체험판 버전,trial version
+삼각측량,triangulate
+UCS,UCS
+언더레이,underlay
+위쪽 방향,up direction
+업스트림,upstream
+사용자 좌표계,User Coordinate System
+공공설비,utility
+UV 공간,UV space
+VERSIONCOMPARE,VERSIONCOMPARE
+정점,vertex
+정점 돌출,vertex bulge
+객체 보기 휠,View Object wheel
+바이저,visor
+VLIDE 명령,VLIDE command
+Volo View Express,Volo View Express
+VP 동결,VP freeze
+VPEDIT,VPEDIT
+감시된 폴더,watched folder
+기구배수부하,water fixture unit
+워터마크 편집기,watermark editor
+수밀,watertight
+웹 파일,web file
+웹 라이트,web light
+웹 매핑 서비스,web mapping service
+환영 화면,welcome screen
+와일드카드,wildcard
+Winding 채우기,winding fill
+객체 가리기 객체,wipeout object
+와이어프레임,wireframe
+워크플로우,Workflows
+표준 좌표계,World Coordinate System
+표준 공간,world space
+XCOMPARE,XCOMPARE
+XCOMPARECLOSE,XCOMPARECLOSE
+XCOMPARERCNEXT,XCOMPARERCNEXT
+XCOMPARERCPREV,XCOMPARERCPREV
+XSL,XSL
+지브라 분석,zebra analysis
+압축된 KML 파일,zipped KML file
+확대,zoom in
+줌 불변체,zoom invariant
+축소,zoom out

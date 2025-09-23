@@ -1,0 +1,697 @@
+﻿source,target
+3D Print,3D-печать
+Accept,Принять
+additive technology,технология аддитивного производства
+admin,администратор
+administrator,администратор
+adult Tinkercad account,учетная запись взрослого в Tinkercad
+AFR,АРЭ
+air trap,воздушный карман
+aligned section view,сечение с выравниванием
+alignment,выравнивание
+all-around symbol,по замкнутому контуру
+allowance,припуск
+alternate unit,альтернативная единица
+AM,АП
+analytical surface,аналитическая поверхность
+Angular range,пределы угла поворота
+angular speed,угловая скорость
+angularity,наклон
+animation footage,отснятый материал для анимации
+annotation,аннотация
+application,приложение
+Apply,Применить
+arc,дуга
+"ARCHITECTURE, ENGINEERING & CONSTRUCTION COLLECTION","ARCHITECTURE, ENGINEERING & CONSTRUCTION COLLECTION"
+assembly constraint,сборочная зависимость
+assembly pattern,массив сборки
+asset library,библиотека компонентов
+attachment,вставленный файл
+Autodesk Inventor Mentor,обучение работе с Autodesk Inventor
+Autodesk Manufacturing Community Portal,портал сообщества пользователей Autodesk в сфере производства
+Autodesk Masters award,Награда Autodesk Masters
+Autodesk Masters Program,Программа Autodesk Masters
+Autodesk Partner,партнер Autodesk
+Autodesk Projects,Проекты Autodesk
+Autodesk Vault Professional edition,выпуск Autodesk Vault Professional
+auto-draw tool,инструмент автоотрисовки
+automatic face chain,автоматическое формирование цепочек граней
+automatic feature recognition,автоматическое распознавание элементов
+automatic ordering,автоматическое упорядочение
+automatic routing,автоматическая трассировка
+automatic tool changer capacity,возможность автоматической смены инструмента
+automatic verification,автоматическая проверка
+axis,ось
+axis offset,смещение оси
+axle,ось
+ball mill,шаровая мельница
+ball nosed tool,сферическая фреза
+ball screw,шариковый винт
+base body,базовое тело
+base point,базовая точка
+beam detail,Эпюры балки
+Belleville spring,тарельчатая пружина
+bent tubing route,трасса изогнутых трубопроводов
+bill of material,спецификация
+blend surface,переходная поверхность
+blisk,моноколесо
+body load,нагрузка на тело
+boring bar,расточной патрон
+boss feature,бобышка
+boundary,граница
+boundary patch,участок поверхности
+bounding box,ограничивающая рамка
+bowtie,петля
+braking torque,тормозной момент
+branch connection,соединение ответвления
+Break Link,Разорвать связь
+brickify,преобразовать в модель из кирпичей
+brush,кисть
+build preparation software,программное обеспечение для подготовки сборок
+bulk load,групповая загрузка
+bump,выдавливание
+bump map,карта выдавливания
+bump mapping,текстура выдавливания
+burn mark,прижог
+burn region,зона прожига
+cable tray,кабельный лоток
+calibration,калибровка
+callout style,стиль выносного элемента
+CAM capabilities,возможности АСУП
+CAM programming,программирование CAM-систем
+canned cycle,стандартный цикл
+canvas,рабочая область
+cap filleting,фильтрация заглушек
+Carrier,направляющая
+cascade water junction,каскадное водное соединение
+caterpillar,условный шов
+cavity,матрица
+cel shading,тонирование CEL
+center line,осевая линия
+center pin,центральный штифт
+centre point,центр
+centric axis,центральная ось
+chain dimension,размерная цепь
+chain selection,выбор цепочки
+chaining,объединение
+chamfer,фаска
+chamfer tool,фасочная фреза
+chamfering tools,фасочные резцы
+chip formation,образование стружки
+chuck,патрон
+chuck jaws,кулачки патрона
+circle,окружность
+circlip,стопорное кольцо
+circular pitch,окружной шаг
+circular tapered gate,конусная шейка питателя
+circumferential speed,окружная скорость
+CLDATA,CLDATA
+clearance,зазор
+closed edge,замкнутое ребро
+closed return bend,сомкнутое обратное колено
+cloud data,облачные данные
+CMM,КИМ
+CNC,ЧПУ
+CO,CO
+coarsening generations,огрубляющие формирования
+code snippet,фрагмент кода
+codebase,codebase
+coincident constraint,зависимость совмещения
+co-injection molding,двухкомпонентное литье
+cold slug,холодная порция
+collet,цанговый патрон
+collision,столкновение
+collision avoidance parameters,параметры предотвращения столкновений
+collision free link path,безопасный переход
+colour palette,палитра цветов
+command window,командное окно
+Common Core,Common Core
+common material,стандартный материал
+component,компонент
+component visibility,видимость компонента
+composite curve,контур
+compound hole,составное отверстие
+Computenode,Вычислительный узел
+concentricity,cоосность
+conduit,короб
+cone,конус
+Configurator 360,Configurator 360
+connected workgroup,связанные рабочие группы
+connector,соединитель
+connector pin,вывод соединителя
+constant-radius fillet,сопряжение с постоянным радиусом
+constrained object,зависимый объект
+constraint,oпоры
+contact point,точка контакта
+contact point boundary,граница точки контакта
+Content Center Editor,редактор Библиотеки компонентов
+content library,библиотека компонентов
+contour,контур
+contour flange,фланец с отгибом
+control vertex,управляющая вершина
+control vertex hull,каркас управляющих вершин
+control vertices hull,каркас управляющих вершин
+convex,выпуклый
+coolant,хладагент
+coolant options,параметры СОЖ
+cooling wizard,мастер каналов охлаждения
+coordinate,координата
+core,пуансон
+core pin,палец литейного стержня
+Corner Filleting,скругление углов
+corner filleting style,стиль скругления углов
+corner radius,радиус угла
+cosmetic weld bead,косметический сварной шов
+cross section analysis,анализ поперечного сечения
+cross-highlighting,перекрестное выделение
+current directory,рабочий каталог
+curvature continuous fillet,сопряжение с непрерывной кривизной
+curve,кривая
+curve definition,определение кривой
+curve editor,редактор кривых
+cutter compensation,коррекция инструмента
+cutting line,линия сечения
+CV,CV
+cycle,цикл
+cylinder,цилиндр
+database exports,экспорт базы данных
+datum reference frame,базовая система координат
+decal,маркировка
+decision support system,система поддержки принятия решений
+defeaturing,упрощение
+demote,понизить уровень
+depth of cut,глубина резания
+depth of field,глубина резкости
+design conflict,коллизия
+design file,файл проекта
+design reservation,резервирование проекта
+Desktop Connector,Desktop Connector
+dial-up network connection,подключение через удаленный доступ
+diameter,диаметр
+die formed lofted flange,штампованный лофтированный фланец
+direction,направление
+DirectX Runtime,исполняемая библиотека DirectX
+dots per inch,точек на дюйм
+DPI,DPI
+draft angle,угол уклона
+draft surface,поверхность уклона
+Draw panel,панель «Показать»
+drawing group,группа чертежей
+drill,сверло
+drilling cycles,циклы сверления
+drilling toolpaths,траектории сверления
+drive curve,ведущая кривая
+DSS,DSS
+duct connector,соединитель воздуховода
+dump,дамп
+dynamic point,динамическая точка
+dynamic preview,динамический просмотр
+edit in place,контекстное редактирование
+edit point,редактирование точки
+educator account,учетная запись преподавателя
+ejection temperature,температура выталкивания
+ejector,выталкиватель
+ejector pin,выталкивающий стержень
+ejector plate,плита выталкивателя
+elbow,отвод
+electric arc wire,провод электродуги
+electric discharge machining,электроэрозионная обработка
+Electro Discharge Machining,электроэрозионная обработка
+electrode,электрод
+electronic distance meter,электронный измеритель расстояния
+element,элемент
+elevation,элевация
+end angle,конечный угол
+end fill,сварной катет
+end of fill pressure,давление в конце заполнения
+end point,конечная точка
+end treatment,форма линий разрыва
+error map,карта ошибок
+Express mode,режим «Экспресс»
+Expression Builder,Построитель выражений
+exterior corner,внешний угол
+external frame,внешняя рама
+extract,извлечь
+extruder,пресс для выдавливания
+face,грань
+face draft,наклон грани
+Fasteners library,Библиотека крепежа
+feature collision,столкновение элементов
+feature control frame,допуск формы и расположения
+feature group,группа элементов
+feature number,номер элемента
+feature set,набор элементов
+feed mode,режим подачи
+feed rate,подача
+feedrate,скорость подачи
+FFF,производство способом наплавления нитей
+FFF additive manufacturing,аддитивное производство способом наплавления нитей
+FFF print,печать FFF
+field fit,поставляется с запасом
+file doctor,Файл-Доктор
+filestore,хранилище файлов
+fill pattern,образец заливки
+fillet feature,элемент сопряжения
+fillet style,стиль скругления
+film Coefficient,пленочный коэффициент
+Finish panel,панель «Чистовая»
+finite element mesh,сеть конечных элементов
+fixed edge draft,уклон с фиксированным ребром
+fixture,крепление
+fixturing,зажимное приспособление
+flat pattern,развертка
+flat shading,плоское тонирование
+flood solution,решение для защиты от наводнений
+flow rate,расход
+flowline machining strategy,стратегия обработки по потоку
+flush,выступ
+flush constraint,зависимость заподлицо
+focal plane,плоскость фокуса
+form mill,фасонная фреза
+free drag,свободное перетаскивание
+free orbit,свободная орбита
+freeform edit,произвольное изменение формы
+freeform shape,произвольная форма
+Full Navigation wheel,суперштурвал
+full round fillet,полное круговое сопряжение
+functional design,функциональное проектирование
+Fusion Lifecycle,Fusion Lifecycle
+Fusion Modeling Data,Fusion Modeling Data
+Fusion Team administrator,администратор Fusion Team
+gap,зазор
+gate,шейка питателя
+GCode,G-код
+geometric feature,геометрический элемент
+geometry,геометрия
+gesture behavior,управление жестами
+global coordinate system,глобальная система координат
+gouge,зарез
+graphic handle,графический маркер
+graphics card,видеокарта
+grid,сетка
+gripper,захват
+groove,канавка
+groove weld,сварной шов с разделкой кромок
+ground plane,нулевая плоскость
+ground shadow,тень на земле
+grounded work point,закрепленная рабочая точка
+Grow to Box,нарастить до рамки
+guided point,наводимая точка
+handle,маркер
+harness part,деталь кабеля
+harness segment,сегмент кабеля
+hatch pattern,образец штриховки
+Headnode,Головной узел
+Heat Flux,тепловой поток
+heat transfer pipe,труба теплообменника
+Helius Composite,Helius Composite
+Helius PFA,Helius PFA
+holder clearance,зазор патрона
+horizontal arc,горизонтальная дуга
+HSV,HSV
+hydroforming,гидроформинг
+I section,двутавр
+iCopy,iCopy
+iFeatures,iFeatures
+IFR,ИРЭ
+iLogic Design Copy,копирование проектов iLogic
+impersonating user,заимствование прав пользователя
+inactive component,неактивный компонент
+in-canvas tool,инструмент в активном окне
+infer constraints,подразумеваемая зависимость
+inference,формирование
+injection cone,конус впрыска
+injection-compression molding,литье под давлением с подпрессовкой
+inspection sequence,интеллектуальный курсор
+insulation displacement,смещение изоляции
+intelligent cursor,разумный курсор
+Interactive Feature Recognition,интерактивное распознавание элементов
+interlock,внутренний фиксатор
+intermittent weld,прерывистый сварной шов
+internal frame,внутренняя рама
+intersect,пересекать
+interval,интервал
+iPart Author,создание параметрического ряда
+iProperties,iProperties
+isoline,изолиния
+isometric,изометрический
+ISTE,ISTE
+item deletion restrictions,ограничения в отношении удаления элемента
+item revision number,номер редакции элемента
+key point,ключевая точка
+kinematic chain,кинематическая цепь
+landing surface,целевая поверхность
+language pack,пакет локализации
+Launchpad,Стартовая панель
+layer,слой
+Layer Thickness,толщина слоя
+leaf node mapping,сопоставление узлов листов
+Learning Inventor 2010,Learning Inventor 2010
+lease period,период аренды
+lesser version,более ранняя версия
+license server,сервер лицензий
+lifecycle transition limit,предел перехода жизненного цикла
+lifter,подъемник
+Live Enabler,адаптер объектов
+live update,обновление по сети
+load diagram,диаграмма нагрузки
+local coordinate system,локальная система координат
+location ring,установочное кольцо
+lock set,фиксатор
+loft,лофт
+lofted flange,лофтированный фланец
+lollipop mill,шарообразная фреза
+Machine Connector,Machine Connector
+machine design,дизайн станка
+machine tool,станок
+MachineDNA,MachineDNA
+machining discipline,тип обработки
+Machining extension,Machining Extension
+machining toolpath,траектория перемещения инструмента при обработке
+Manage Extension,расширение управления
+manipulator,манипулятор
+manual machine,станок с ручным управлением
+manufacturing toolpath strategies,производственные стратегии траектории перемещения инструмента
+markup,пометка
+mass flow rate,массовый расход
+material accuracy,точность материала
+matrix,матрица
+maximum clamp force,максимальное усилие смыкания
+MD file,MD-файл
+measure,измерить
+mechanistic movement,механистическое движение
+member,участник
+mesh,сетка
+mesh view,bид сетки
+mesher,генератор сети
+milling tool,фреза
+mirror plane,плоскость отражения
+Model area clearance,выборка 3D-модели
+model complexity,сложность модели
+model files,файлы модели
+model limits,габариты модели
+model translation,преобразование модели
+moderator,модератор
+mold,пресс-форма
+mold base,пресс-форма
+molding window,окно литья
+morph strategy,стратегия «Изменение формы»
+multi-body,мультидеталь
+multibody workflow,работа с мультидеталями
+multi-body workflow,работа с мультидеталями
+multi-cavity mold,полидетальная пресс-форма
+multiple composites,несколько составных элементов
+multiple fixture document,документ многоместного зажима
+MultiValue,с несколькими значениями
+navigation bar,панель навигации
+NC Programs,NC-файлы
+NC setup,установ в NC-файле
+neck,шейка
+nesting,раскрой
+New Features Workshop,Семинар по новым возможностям
+newsgroup,группа новостей
+NG,NG
+NGSS,NGSS
+nodal moment,узловой момент
+non-rectangular viewport,непрямоугольный видовой экран
+note,пояснение
+Object ID,Идентификатор элемента
+organic modeling,органическое моделирование
+orientation point,точка ориентации
+Orientation vector machining,обработка с использованием вектора ориентации
+orientation vectors,векторы ориентации
+origin work feature,исходный рабочий элемент
+o-ring,уплотнительное кольцо
+outer angle,внешний угол
+outlining,структурирование
+parallel feature construction,параллельное построение элементов
+parameter,параметр
+parent account,родительская учетная запись
+parting design,разъем конструкции
+parting diagnostic,диагностика разделения
+password policy requirement,требование к политике паролей
+patch,фрагмент
+patching surface,замыкающая поверхность
+path sketch,эскиз траектории
+pattern,массив
+pattern entity,шаблон
+pattern feature,элемент массива
+pencil trace,однопроходная доработка углов
+physical material,материал
+pilot hole,направляющее отверстие
+pin constraint,опора
+pipe plug,заглушка трубы
+pitch diameter,диаметр делительной окружности
+pitch line,делительная прямая
+placed feature,размещаемый элемент
+planar curve,плоская кривая
+planar face,плоская грань
+plane,плоскость
+plastic part,пластмассовая деталь
+plate detail face,наружная сторона детали
+plunge point,точка врезания
+Poisson ratio,коэффициент Пуассона
+polygonised,полигонизированный
+positive direction,положительное направление
+post processing properties,свойства постобработки
+post processor,постпроцессор
+press brake,кромкогибочный пресс
+pressed joint,прессовое соединение
+pressure drop,падение давления
+pressure loss,потеря давления
+preview,просмотр
+preview extrusion,просмотр выдавливания
+Primary,основной
+Pro,Pro
+probe body,корпус щупа
+probe geometry,геометрия для измерения
+probe mode,режим измерения
+probe type,тип измерения
+production version,производственная версия
+Profile Passes,проходы по профилю
+program point,программируемая точка
+progressive tooltip,активная подсказка
+project,проект
+project explorer,проводник проекта
+Project Simulus,Project Simulus
+Projects,Проекты
+promote surface,повышение уровня поверхности
+property mapping,сопоставление свойств
+protrusion,выступ
+publisher,источник
+puck,шайба
+pull direction,направление извлечения
+quadrant point,точка квадранта
+quarter section view,сечение в одну четверть
+quilt,сшивка
+radius,радиус
+ramp,врезание
+range,диапазон
+reaction force,сила реакции
+realistic appearance,реалистичное представление
+recoater,инструмент повторного покрытия
+rectangle,прямоугольник
+referencing toolpaths,справочные траектории
+reflectivity,отражательная способность
+refold,свернуть повторно
+re-index,переиндексация
+replication,репликация
+repositioned,перемещенный
+reservation,резервирование
+resin identification code,идентификационный код полимера
+restored pattern element,восстановленный элемент массива
+retract distance,расстояние отвода
+revision mark,метка редакции
+revision scheme,схема редакции
+revision tag,тег редакции
+ribbon cable,плоский кабель
+Rider,рейтерная
+rotary direction,направление вращения
+rotational adjustment,корректировка вращения
+roughing slice,слой выборки
+rule fillet,правило сопряжения
+ruled surface,поверхность соединения
+runoff loop,контур сбега
+runoff surface,поверхность разделения
+sealing plug,притертая пробка
+section view,сечение
+segment,сегмент
+selective laser sintering,выборочное лазерное спекание
+sensor,датчик
+sequence tree,дерево последовательности
+shaft segment height,высота сегмента хвостовика
+shank,хвостовик
+Shank clearance,зазор хвостовика
+Shank profile,профиль хвостовика
+shape,форма
+shear heating,нагрев при сдвиге
+shear rate,скорость сдвига
+sheet metal face,грань листового металла
+shell,оболочка
+Show Me animation,демонстрационный ролик
+shrinkwrap,внешний контур
+shrinkwrap substitute,подстановка внешнего контура
+side,стенка
+side core,боковой пуансон
+side lock,боковой фиксатор
+simple measures group,группа простых измерений
+Simulated Orientations,ориентация из симуляции
+simulation mesh,сеть моделирования
+Single Point of Failure,единственная точка отказа
+sketch grid,эскизная сетка
+sketch illustration,эскизная иллюстрация
+sketched feature,эскизный элемент
+sketched symbol,эскизное обозначение
+Skill Builder,урок мастерства (Skill Builder)
+slide core,ползун
+slider,движок
+slot mill,пазовая фреза
+Smart Surfacer,умный моделировщик поверхностей
+snapshot,фото
+snippet,фрагмент
+solid,тело
+solid face,грань тела
+source component,исходный компонент
+spindle,шпиндель
+Spindle calibration,калибровка шпинделя
+spindle orientation,ориентация шпинделя
+spindle revolution,оборот шпинделя
+split rivet,разжимная заклепка
+split surface,поверхность разъема
+spot drill,центровочное сверло
+spotface,место под уплотнение
+sprue,литник
+sprue bushing,литниковая втулка
+spur gear,цилиндрическое зубчатое зацепление
+standard appearance,стандартное представление
+start angle,начальный угол
+start point,начальная точка
+Start Thread,начальная резьба
+stepdown,шаг по Z
+stepover,шаг
+stock,заготовка
+stock model,модель материала
+stop pin,стопорный штифт
+strain,напряжение
+strategy,стратегия
+stress analysis,анализ напряжений
+structural member,несущий элемент
+student design,проект учащегося
+subspindle,контршпиндель
+sub-spindle,противошпиндель
+Suite Workflows,Рабочие процессы Suite
+support generation,создание опор
+suppressed assembly pattern element,подавленный элемент массива сборки
+surface,поверхность
+surface associativity,ассоциативность поверхности
+surface body,поверхностное тело
+surface face,грань поверхности
+surface fillet,сопряжение поверхностей
+surface inspection group,группа контроля поверхности
+surface normal,нормаль к поверхности
+surface normal arc,касательная дуга
+Surface Projection,Проекция поверхности
+surface texture,шероховатость
+surface trimming,обрезка поверхности
+Swarf,Боком фрезы
+symbol definition,определитель символа
+tangent direction,направление касательной
+target component,целевой компонент
+target point,контрольная точка
+team,группа
+terminal electrical properties,электрические свойства клеммы
+terminator,ограничитель
+Thick Client,Thick Client
+thickness,припуск
+Thin Client,Thin Client
+thin-walled support shape,форма тонкостенной опоры
+third-angle projection,американский тип проекции
+thread,резьба
+three quarter section view,разрез в три четвери
+thumb screw,винт с накатанной головкой
+time slider,регулятор времени
+tolerance,допуск
+tolerance band,диапазон допуска
+tonemap method,метод карты тонов
+tool,инструмент
+tool assembly,сборка инструмента
+tool axis,ось инструмента
+tool axis limit,предел оси инструмента
+tool database,база инструмента
+tool entity,элемент «Инструмент»
+tool magazine,инструментальный магазин
+tool orientation,ориентация инструмента
+tool property,свойство инструмента
+tool radius,радиус инструмента
+tool shank,хвостовик инструмента
+tool shank data,данные хвостовика инструмента
+tool tip radius,радиус кромки инструмента
+toolbar,панель инструментов
+tooling,механическая обработка
+Toolpath Edit menu,меню «Правка траектории»
+toolpath points,точки траектории
+toolpath segments,сегменты траектории
+toolpath tail,конечный отрезок траектории
+toolpath workplane,локальная СК траектории
+torque load,нагрузка в виде крутящего момента
+torus,тор
+tree view,дерево
+trim,обрезать
+trim boundary,граница обрезки
+trochoid,трохоида
+turn,точение
+turret,револьверная головка
+U Section,швеллер
+UCS,ЛСК
+ultimate tensile strength,предел прочности
+uncrease,разгибать
+undercut,поднутрение
+Undercut option,функция «Поднутрения»
+underlay,подложка
+underlay geometry,геометрия подложки
+undirected angle,ненаправленный угол
+unfold method,метод развертки
+user coordinate system,локальная система координат
+valve gate,запорный клапан
+variable-radius fillet,сопряжение с переменным радиусом
+Vault account,учетная запись Vault
+Vault blog,блог Vault
+Vault Workgroup,Vault Workgroup
+vaulted version,версия из хранилища
+vaulting restriction,ограничение хранилища
+v-belt,клиновой ремень
+vector,вектор
+vent,вентиляция
+viewer mode,режим просмотра
+visualization file,файл визуализации
+Volume Flow Rate,объемный расход
+volumetric flow rate,объемный расход
+Vortex toolpath,траектория Vortex
+Voxel Meshing,создание сети вокселов
+wall clearance,отступ от стенок
+watermark,водяной знак
+WCS,РСК
+web thickness,толщина сетки
+wedge,клин
+weld line,линия сварки
+weld symbol,обозначение сварки
+welding neck flange,приварной фланец с буртиком
+width,ширина
+wire feedrate,скорость подачи на провод
+wire run,участок провода
+wireframe,каркас
+wireframe display,отображение каркаса
+work axis,рабочая ось
+work feature,рабочий элемент
+work in progress,разработка
+work plane,рабочая плоскость
+work surface,рабочая поверхность
+workgroup,рабочая группа
+workpiece,заготовка
+worm gear,червячная передача
+Wrap Wizard,мастер наложения
+X clearance position,положение зазора по оси X
+XBUILD,XBUILD
+X-ray ground shadow,проникающая тень на земле
+yaw,отклонение
+yield strength,предел текучести

@@ -1,0 +1,146 @@
+﻿source,target
+actuals,实际结果
+Admin Settings,管理设置
+advanced sculpt attributes,高级雕刻属性
+alpha-blend,Alpha 混合
+angular speed,角速度
+autosave,自动保存
+bid,投标
+binary large object,二进制大对象
+bind pose,绑定姿势
+blue pencil,蓝色铅笔
+blur,模糊
+blurriness,模糊度
+bookmark,书签
+border edge,边界边
+bounding box,边界框
+brush,画笔
+built-in node,内置节点
+bulge,凸起
+bump,凹凸
+bump map,凹凸贴图
+bump mapping,凹凸贴图
+camera,相机
+casement,平开
+character large object,字符大对象
+character rig,角色绑定
+clear-coat roughness,透明涂层粗糙度
+CLOB,CLOB
+closed edge,闭合边
+constrained object,受约束对象
+contract date,合同日期
+control vertex hull,控制点外壳线
+convex,外凸
+CPV,CPV
+CV,CV
+DAG,DAG
+default,默认/默认值
+default task template,默认任务模板
+department,部门
+depth of field,景深
+diffuse color,漫反射颜色
+digital elevation model,数字高程模型
+displacement scale,位移比例
+dithering,抖动
+DOF,DOF
+elevation axis,标高轴
+emissive color,发射颜色
+entity,实体
+Evaluation Manager,解算管理器
+EventLogEntry,事件日志条目
+eyedropper,吸管工具
+falloff,衰减
+Falloff Ramp,衰减渐变
+fillet,圆角
+flood algorithm,整体应用算法
+fragment,片段
+frame,帧
+full-body inverse kinematics,全身反向运动学
+gaussian smooth filter,高斯平滑过滤器
+ghost,重影
+ghost driver,重影驱动者
+gimbal lock,万向锁定
+GPU Override,GPU 覆盖
+Graph Editor,曲线图编辑器
+instanced,实例化
+instantaneous shutter,瞬间快门
+internal resources,内部资源
+interpolation,插值
+intersection classification,交集类别
+inverse lerp,逆线性插值
+inverse linear interpolation,逆线性插值
+isoparm,等参线
+keyframe,关键帧
+knuckle,肘形转角
+layer,图层
+legacy XGen,旧版 XGen
+lerp,线性插值
+level,级别
+linear array,线性阵列
+linear interpolation,线性插值
+Main,主
+mesh,网格
+mesh face,网格面
+mesh sampling,网格采样
+mesh vertex,网格顶点
+modifier,修改器
+NTSC,NTSC
+NURBS,NURBS
+opacity,不透明度
+operator,运算符
+Particle View,粒子视图
+Pivot,轴
+pixelated globe,像素化球体
+poly modeling shelf,多边形建模工具架
+prim path,基本体路径
+project navigation bar,项目导航栏
+proxy,代理
+quaternion,四元数
+query field,查询字段
+quick rig,快速绑定
+raw driver,原始驱动程序
+ray tracing,光线跟踪
+reflection map,反射贴图
+regular polygon,正多边形
+retopologize,重新拓扑
+retopology,重新拓扑
+retopology mesh,重新拓扑网格
+retopology modifier,重新拓扑修改器
+retopology process,重新拓扑过程
+retopology tools,重新拓扑工具
+rollover,变换
+rounded rectangle,圆角矩形
+Safe Frame,安全框
+sample point,采样点
+script editor,脚本编辑器
+script tab,脚本选项卡
+sculpt,雕刻
+Shotgun server,Shotgun 服务器
+singularity,奇点
+slope-offset-power,渐变-偏移-强度
+smooth factor,平滑因子
+SMPTE,SMPTE
+SOP,SOP
+spline knot,样条线结
+status list,状态列表
+stencil,蒙板
+superimposed profile,叠合纵断面
+surface trimming,曲面修剪
+sweep mesh,扫描网格
+task templates,任务模板
+threshold,阈值
+toolset,工具组合
+topology,拓扑
+transcode,转码
+transcoder,转码器
+translation,平移/转换
+Triangulate Cap,三角化封口
+unghost,取消重影
+universal manipulator,通用操纵器
+UV set,UV 集
+vertex map,顶点贴图
+vertex valence,顶点边价
+Waveform Display,波形显示
+Webhook status,Webhook 状态
+z vector,Z 向量
+zero padding,零填充

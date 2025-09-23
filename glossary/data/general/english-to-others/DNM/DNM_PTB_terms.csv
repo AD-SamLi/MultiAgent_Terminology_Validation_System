@@ -1,0 +1,933 @@
+﻿source,target
+3D Print,Impressão 3D
+Accept,Aceitar
+ACIS,ACIS Files
+admin,admin
+administrator,administrador
+Advanced Toolpath Utility,Utilitário avançado de percurso da ferramenta
+AFR,RAF
+air trap,aprisionamento de ar
+aligned section view,vista de corte alinhada
+alignment,alinhamento
+all-around symbol,símbolo de todo o contorno
+allowance,tolerância
+alternate unit,unidade alternativa
+AMF,Additive Manufacturing File
+analytical surface,superfície analítica
+Angular range,intervalo angular
+angular speed,velocidade angular
+angularity,angularidade
+animation footage,linha de tempo da animação
+annotation,anotação
+annular ring,anel anular
+Antialiasing Level,Nível de suavização de serrilhado
+application,aplicativo
+Apply,Aplicar
+arc,arco
+Arcam,Arcam
+Arcam EBM,Arcam EBM
+Arcam EBM Spectra H,Arcam EBM Spectra H
+ASCII STL,ASCII STL
+assembly constraint,restrição de montagem
+assembly pattern,padrão de montagem
+asset library,biblioteca de recursos
+auto-accept,autoaceitar
+Autodesk Masters award,prêmio Autodesk Masters
+Autodesk Masters Program,programa Autodesk Masters
+Autodesk Partner,Parceiro da Autodesk
+Autodesk Projects,Projetos Autodesk
+Autodesk Vault Professional edition,Autodesk Vault Professional Edition
+auto-draw tool,autoexibir ferramenta
+automatic face chain,cadeia automática de faces
+automatic feature recognition,reconhecimento automático de figura
+automatic ordering,ordem automática
+automatic routing,roteamento automático
+automatic verification,verificação automática
+axis,eixo
+axis offset,deslocamento do eixo
+axle,eixo
+background processing,processamento em segundo plano
+ball mill,moinho de esferas
+ball nosed tool,ferramenta esférica
+ball screw,fuso de esferas
+bar contour,contorno da barra
+barrel tool,ferramenta de tambor
+base class,classe de base
+base plate,placa base
+base point,Ponto Base
+baud rate,taxa de transmissão
+beam,viga
+beam detail,detalhe da viga
+Belleville spring,mola prato
+bend radius,raio da dobra
+bent tubing route,rota de tubulação curva
+bill of material,lista de materiais
+biocompatible material,material biocompatível
+blend surface,superfície de mescla
+blisk,turbina
+Bluetooth Network Encapsulation Protocol,Protocolo Bluetooth Network Encapsulation
+body load,carga do corpo
+BOM grid,grade da lista de materiais
+Boolean Intersection,Interseção booleana
+bore,broquear
+bottom part connection,conexão inferior da peça
+boundary,fronteira
+boundary patch,fechamento de contorno
+bounding shape,forma delimitadora
+bouquet,buquê
+bowtie,nó
+brace,contraventamento
+braking torque,torque de frenagem
+branch connection,conexão de ramificações
+brickify,concretizar
+brush,pincel
+building process,processo de construção
+Buildplate,Placa de construção
+buildroom,ambiente de construção
+buildstyle,estilo de construção
+build-time estimation,estimativa do tempo de produção
+bulk load,carregamento em massa
+bump,saliência
+bump map,mapa de textura
+bump mapping,mapeamento de textura
+burn mark,queima superficial
+burn region,região de queima
+CA certificates,Certificados CA
+cable tray,bandeja de cabos
+calibration,calibração
+calibration file,arquivo de calibração
+callout style,estilo de texto explicativo
+canned cycle,ciclo combinado
+canvas,tela
+cap filleting,concordância de capeamento
+cascade water junction,refrigeração em cascata
+caterpillar,caterpillar
+cavity,cavidade
+cel shading,Célula sombreada
+center line,linha de centro
+center pin,pino central
+centre point,ponto central
+centric axis,eixo central
+chain dimension,cotas concatenadas
+chaining,encadeamento
+chamfer,chanfro
+Checkerboard hatching,Checkerboard hatching
+Chessboard,tabuleiro de xadrez
+circle,círculo
+circlip,anel elástico
+circular pitch,passo circular
+circular tapered gate,comportas circulares inclinadas
+circumferential speed,velocidade circunferencial
+CLDATA,CLDATA
+CLF,CLF
+CLI,CLI
+clip planes,planos de corte
+close flat,fechar plano
+closed edge,aresta fechada
+closed return bend,curva de retorno fechada
+cloud data,dados da nuvem
+CLS,CLS
+CMM,CMM
+CNC,CNC
+CO,CO
+code snippet,fragmento de código
+coincident constraint,restrição coincidente
+co-injection molding,moldagem por coinjeção
+cold slug,material frio
+collision,colisão
+collision avoidance parameters,parâmetros de evasão de colisão
+collision free link path,caminho de ligação livre de colisão
+colour palette,palheta de cores
+command window,janela de comando
+Common Core,Common Core
+common material,material comum
+component,componente
+component visibility,visibilidade do componente
+composite curve,curva composta
+compound hole,furo composto
+Compressed Mesh,Compressed Mesh
+concentricity,concentricidade
+conduit,conduíte
+cone,cone
+Configuration Administrator,Administrador de configuração
+Configurator 360,Configurator 360
+connected workgroup,grupo de trabalho conectado
+connection height,altura da conexão
+connector,conector
+connector pin,pino do conector
+constant-radius fillet,arredondamento de raio constante
+constrained object,objeto restrito
+constraint,restrição
+contact point,ponto de contato
+contact point boundary,fronteira de ponto de contato
+Content Center Editor,Editor do Centro de conteúdo
+content library,biblioteca de conteúdo
+contour,contorno
+contour flange,flange de contorno
+control vertex,vértice de controle
+control vertices hull,cobertura do vértice de controle
+convex,convexo
+convex hull,casco convexo
+coolant,fluido de refrigeração
+cooling wizard,assistente de refrigeração
+coordinate,coordenada
+COPPA,COPPA
+copy Design,Copy Design
+core,núcleo
+core pin,pino de macho
+Corner Filleting,Arredondamento de canto
+corner filleting style,estilo de arredondamento de canto
+corner radius,raio de canto
+cosinus projection,projeção de cosseno
+cosmetic weld bead,cordão de solda cosmético
+crinkle washer,arruela ondulada
+cross pattee,cruz pátea
+cross recessed,Phillips
+cross section analysis,análise de cortes transversais
+cross-highlighting,realce cruzado
+current directory,diretório atual
+curvature continuous fillet,arredondamento com curvatura contínua
+curve,curva
+curve definition,definição de curva
+curve editor,editor de curva
+custom part library,biblioteca de peças personalizadas
+custom profile,perfil personalizado
+cutter compensation,compensação de fresa
+cutting line,linha de corte
+CV,CV
+CV hull,cobertura do VC
+cycle,ciclo
+cylinder,cilindro
+data card,cartão de dados
+database exports,exportações de banco de dados
+datum reference frame,quadro de referência
+deburr,rebarbar
+decal,decalque
+decision support system,sistema de suporte à decisão
+defeaturing,limpeza de recursos
+degenerate face,face degenerada
+demote,rebaixar
+density factor,fator de densidade
+density map,mapa de densidade
+Dental Wings printers,Impressoras Dental Wings
+deposition,deposição
+deposition layer,camada de deposição
+Deposition speed,Velocidade da deposição
+depth of cut,profundidade de corte
+design conflict,conflito de projeto
+design reservation,reserva de projetos
+Desktop Connector,Desktop Connector
+Dew Point,Ponto de orvalho
+dial-up network connection,conexão de rede discada
+diameter,diâmetro
+die formed lofted flange,flange transitada moldada
+dimension,cota
+direction,direção
+DirectX Runtime,executáveis do DirectX
+discretation degree,grau de discretização
+displacement magnitude,magnitude do deslocamento
+DLP printer,impressora DLP
+DM,DM
+dots per inch,pontos por polegada
+dove tailed,cauda de andorinha
+downskin,revestimento inferior
+downskin analysis,análise inferior
+DPI,DPI
+draft angle,ângulo de saída
+draft surface,superfície de saída
+Draw panel,painel Exibir
+drawing group,grupo de desenhos
+drill,broca
+drilling cycles,ciclos de furação
+drive curve,curva diretriz
+DSS,DSS
+DTD,DTD
+DTLS server,Servidor DTLS
+dual extrusion,extrusão dupla
+duct connector,conector de dutos
+dump,despejo
+Duplex Printing,Impressão duplex
+duplicate transition,duplicar transição
+DWF,DWF visualization
+dynamic point,ponto dinâmico
+dynamic preview,visualização dinâmica
+EBPA,EBPA
+edge index,índice do vetor
+Edge lambda,lambda do vetor
+edit in place,edição no local
+EDM,EDM
+ejection temperature,temperatura de extração
+ejector,ejetor
+ejector pin,pino extrator
+ejector plate,placa extratora
+elbow,cotovelo
+electrode,eletrodo
+electronic distance meter,medidor eletrônico de distância
+element,elemento
+elevation,elevação
+ELF object,Objeto ELF
+end angle,ângulo final
+end fill,preenchimento da extremidade
+end of fill pressure,final da pressão de preenchimento
+end point,ponto final
+end treatment,tratamento das extremidades
+error map,mapa de erro
+Expression Builder,Construtor de expressões
+extended repair,reparo estendido
+Extended Service Discovery Protocol,Protocolo Extended Service Discovery
+exterior corner,canto externo
+external frame,estrutura externa
+extract,extrair
+extrude edges,extrusão de arestas
+extruder,extrusora
+extrusion,extrusão
+extrusion width,largura da extrusão
+face,face
+face draft,inclinação de face
+face group,grupo de faces
+falloff distance,distância de enfraquecimento
+fanout,fanout
+fast mode,modo rápido
+Fasteners library,Biblioteca de fixadores
+FEA,FEA
+feature collision,colisão de figura
+feature control frame,operação de tolerância geométrica
+feature group,grupo de figuras
+feature set,conjunto de figuras
+feed rate,avanço
+FFF,FFF
+FFF workspace,espaço de trabalho FFF
+field fit,ajuste de campo
+file doctor,Reparador de Arquivos
+filestore,armazenamento de arquivos
+fill pattern,padrão de preenchimento
+fillet feature,operação de arredondamento
+fillet style,estilo de arredondamento
+Finish panel,painel Finalizar
+fixed edge draft,desenho de aresta fixa
+fixture,fixação
+fixture ID,ID de Fixação
+fixture offset,Offset de fixação
+Flat List,Lista plana
+flat orientation,orientação plana
+flat pattern,padrão plano
+flat shading,sombreamento uniforme
+flat washer,arruela plana
+flood solution,solução de inundação
+flow rate,Vazão
+flow source,origem do fluxo
+flush,flush
+flush constraint,restrição de alinhamento
+focal plane,plano de foco
+foil reservoir,reservatório de rolo de alumínio
+fragment contour,contorno do fragmento
+fragmentation,fragmentação
+free drag,arraste livre
+free orbit,órbita livre
+freeform edit,edição de forma livre
+freeform shape,forma livre
+Full Navigation wheel,círculo de navegação completa
+full round fillet,arredondamento completo
+functional design,projeto funcional
+Fusion Electronics,Fusion Electronics
+Fusion Lifecycle,Fusion Lifecycle
+Fusion material library,Biblioteca de materiais do Fusion
+Fusion Team administrator,Administrador do Fusion Team
+gap,gap
+gas flow,fluxo de gás
+gate,ponto de injeção
+Gcode,Código G
+Generic FFF Printer,Impressora FFF genérica
+geocode manager,gerenciador de codificação geométrica
+geodesic,geodésico
+geometry,geometria
+gesture behavior,comportamento gestual
+global coordinate system,sistema de coordenadas global
+Gnu Tesselated Surface File,Arquivo de superfície GNU com suavização de serrilhado
+gouge,invasão
+graphic handle,alça gráfica
+graphics card,placa gráfica
+grid,grade
+gripper,mecânico
+groove,canal
+groove weld,solda chanfrada
+ground plane,plano base
+ground shadow,sombra projetada
+grounded work point,ponto de referência fixo
+Grow to Box,Aumentar para caixa
+GTC,GTC
+GTS,GTS
+GUI applications,aplicativos GUI
+guide rail,trilho guia
+guided point,ponto guiado
+Gyroid,Giroide
+handle,alça
+Hangul Banja,Hangul Banja
+Hangul Hanja,Hangul Hanja
+Hangul Jamo,Hangul Jamo
+hard transition,transição abrupta
+harness part,peça de fiação
+harness segment,segmento de fiação
+hatch,hachura
+hatch cutting,recorte de hachura
+hatch pattern,padrão de hachura
+hatching,hatching
+heat transfer pipe,tubo de transferência de calor
+Helius Composite,Helius Composite
+Helius PFA,Helius PFA
+Henkan,Henkan
+Hexa Grid,Hexagrade
+Hexa Profile,Hexaperfil
+holder clearance,folga do suporte
+Hole Edges,Arestas de furo
+hollowed geometry,geometria oca
+horizontal arc,arco horizontal
+HSM kernel,Kernel HSM
+HSV,HSV
+Human Interface Device,Dispositivo de interface humana
+Human Interface Device Protocol,Protocolo de dispositivo de interface humana
+hydroforming,hidroconformação
+Hypertext Transfer Protocol,Protocolo HTTP
+I section,corte em I
+iCopy,iCopy
+iFeatures,iFeatures
+IFR,RIF
+IGES,IGES
+iLogic Design Copy,Cópia de projeto do iLogic
+ILT,ILT
+ILT laser toolpath format,formato do percurso de ferramenta de laser ILT
+impedance,impedância
+impersonating user,usuário de representação
+inactive component,componente inativo
+in-canvas tool,ferramenta na tela
+infer constraints,inferindo restrições
+inference,inferência
+infill,preenchimento
+injection cone,cone de injeção
+injection-compression molding,moldagem por injeção-compressão
+Inner contour,Contorno interno
+inner perimeters,perímetros internos
+Inner Shell,Casca interna
+inspection sequence,sequência de inspeção
+insulation displacement,deslocamento de isolamento
+intelligent cursor,cursor inteligente
+Interactive Feature Recognition,reconhecimento interativo de figura
+interlayer temperature,temperatura entre camadas
+interlock,centralizador
+Interlockings,Entrelaçamentos
+intermittent weld,solda intermitente
+internal frame,estrutura interna
+interval,intervalo
+iPart Author,iPart Author
+iProperties,iProperties
+isoline,isolinha
+isometric,isométrica
+ISTE,ISTE
+item number,número do item
+item revision,revisão do item
+JIT option,Opção JIT
+Job Server,Servidor de trabalhos
+joint,junta
+jump delay,atraso no avanço rápido
+key point,ponto-chave
+kinematic chain,cadeia cinemática
+L section,corte em L
+landing surface,superfície de assentamento
+language pack,pacote de idiomas
+laser jump delay,atraso do laser no avanço rápido
+laser mark delay,atraso do laser na marcação
+laser Melting Workspace,Espaço de trabalho de fusão a laser
+laser polygon delay,atraso do laser em polígono
+lattice and skin optimization,Otimização de Estrutura Lattice e Revestimento
+Launchpad,janela inicial
+layer,camada
+layer stack,pilha de camadas
+Layer Thickness,espessura de nível
+leaf node mapping,mapeamento de nós folha
+Learning Inventor 2010,Learning Inventor 2010
+lease period,período de empréstimo
+lesser version,versão anterior
+license server,servidor de licenças
+lifecycle transition limit,limite de transição de ciclo de vida
+lifter,elevador
+Live Enabler,Live Enabler
+live update,atualização automática
+load diagram,diagrama de cargas
+local coordinate system,sistema de coordenadas local
+location ring,anel de localização
+lock set,trava do molde
+lofted flange,flange de transição
+loop,contorno
+LRO,LRO
+LSR,LSR
+LUA debugger,Depurador LUA
+LUA script,Script LUA
+machine design,design de máquinas
+machine workspace,espaço de trabalho de máquina
+MachineDNA,MachineDNA
+machining toolpath,percurso de usinagem
+Manage Extension,Extensão de gerenciamento
+manipulator,manipulador
+manual machine,máquina manual
+markup,marcação
+mass flow rate,taxa de piso de massa
+material accuracy,precisão do material
+matrix,matriz
+maximum clamp force,força máxima de fechamento
+MD file,arquivo MD
+measure,medida
+mechanistic movement,movimento mecânico
+medial axis,eixo medial
+member,membro
+Menger sponge,esponja de Menger
+mesh,malha
+mesh lattice,Malha Lattice
+mesh manipulation,manipulação de malha
+mesh view,vista de malha
+mesher,criador de malha
+metal FFF,metal FFF
+migration path,caminho de migração
+milling tool,ferramenta de fresamento
+mirror plane,plano de espelho
+Model area clearance,desbaste do modelo
+model complexity,complexidade do modelo
+model limits,limites de modelo
+model translation,conversão de modelos
+moderator,moderador
+mold,molde
+mold base,porta-molde
+molding window,janela de processo
+Monte Carlo packer,Empacotador Monte Carlo
+MPBF,MPBF
+multi-body,vários corpos
+multibody workflow,fluxo de trabalho com vários corpos
+multi-body workflow,fluxo de trabalho com vários corpos
+multi-cavity mold,molde com várias cavidades
+multi-leg,multipernas
+multiple composites,múltiplas superfícies compostas
+multiple fixture document,documento de fixação múltipla
+MultiValue,vários valores
+Namespace declarations,Declarações de espaço de nome
+navigation bar,barra de navegação
+NC program,programa NC
+NC Programs,Programas NC
+NCM,NCM
+nearest neighbour algorithm,algoritmo vizinho mais próximo
+neck,pescoço
+negative shell,concha negativa
+nesting,nesting
+Netfabb batch utilities,Utilitários de lote do Netfabb
+Netfabb Crash Logging Utility,Utilitário de registro de erros fatais do Netfabb
+NetProject,NetProject
+New Features Workshop,Workshop de novos recursos
+newsgroup,grupo de notícias
+NGSS,NGSS
+NLP,NLP
+nodal moment,momento nodal
+node,nó
+noise shell,casca de ruído
+nominal diameter,diâmetro nominal
+nonlinear material,material não linear
+non-rectangular viewport,viewport não retangular
+normal tolerance,tolerância normal
+nose height,altura do nariz
+note,nota
+object category,categoria do objeto
+Ogham,Ogham
+OpenJob,OpenJob
+OpenSSL,OpenSSL
+Optimization Utility,Utilitário de otimização
+orbit,órbita
+organic modeling,modelagem orgânica
+orientation point,ponto de orientação
+Orientation vector machining,usinagem do vetor de orientação
+orientation vectors,vetores de orientação
+origin work feature,operações de trabalho da origem
+o-ring,anel de vedação
+outbox,Caixa externa
+outer angle,ângulo externo
+outer contour,contorno externo
+outer shell,casca externa
+outlining,descrição
+overtravel,sobrecurso
+packing density,densidade de empacotamento
+pad height,altura de tapete
+parameter,parâmetros
+parametrization,parametrização
+parent account,conta parental
+part,peça
+part analysis,análise de peças
+part visibility,visibilidade das peças
+Particle,Partícula
+parting design,projeto da linha de partição
+parting diagnostic,diagnóstico da partição
+password policy requirement,regulamentos de senha
+patch,fechamento
+patching surface,superfície de fechamento
+path sketch,esboço de caminho
+pattern,padrão
+pattern entity,entidade padrão
+pattern feature,operação de padrão
+PCRE,PCRE
+PDF Publish,Publicação de PDF
+pecking retract,retração de perfuração escalonada
+pencil trace,trajeto Pencil
+physical material,material físico
+PIM,PIM
+pin,pino
+pin constraint,restrição de pino
+pipe plug,tampo de tubulação
+pitch diameter,diâmetro do flanco
+pitch line,linha de passo
+placed feature,recurso inserido
+plain washer,arruela lisa
+planar curve,curva plana
+planar face,face plana
+plane,plano
+plastic part,peça de plástico
+plate detail face,face detalhada da placa
+plate fixture,fixação da placa
+plunge feed rate,taxa de avanço de mergulho
+plunge point,ponto de mergulho
+PMI,PMI
+Poisson ratio,coeficiente de Poisson
+polygon delay,atraso em polígono
+polygonised,polígono
+polyline type,tipo de polilinha
+POSIX,POSIX
+POSIX collating elements,Elementos de intercalação POSIX
+powder bed,leito de pó
+press brake,dobradeira
+Press/Pull,pressionar/puxar
+pressed joint,junta pressionada
+pressure drop,queda de pressão
+pressure loss,perda de pressão
+preview,visualização
+Primary,principal
+print bed,mesa de impressão
+print time,tempo de impressão
+PRM file,arquivo PRM
+PRM generation,Geração de PRM
+Pro,Pro
+probe body,suporte do apalpador
+production version,versão de produção
+profile,perfil
+Profile Passes,Passos de perfil
+program point,ponto de programação
+progressive tooltip,dica de ferramenta progressiva
+project,projeto
+Project Simulus,Project Simulus
+projector areas,áreas do projetor
+Projects,Projetos
+promote surface,promover superfícies
+propagation delay,atraso de propagação
+protrusion,protrusão
+publisher,editor
+puck,cursor de seleção
+pull direction,direção de extração
+Quad Island,Ilha quadrática
+Quad Remeshing,Malha quadrática
+quadrant point,ponto quadrante
+quarter section view,vista em corte de um quarto
+Quaternion,Quaternion
+quilt,superfície composta
+radius,raio
+raft base,estrutura raft
+ramp,rampa
+range,intervalo
+Rapid Shape printers,Impressoras Rapid Shape
+raster,raster
+reaction force,força de reação
+Real Extrusion,Extrusão real
+realistic appearance,aparência realista
+recoating,recobrimento
+rectangle,retângulo
+recursive depth,profundidade recursiva
+reference designator,designador de referência
+referencing toolpaths,percursos de referência
+reflectivity,reflexibilidade
+reflex angle,ângulo reflexo
+refold,Redobrar
+re-index,reindexação
+relief remnant,alívio remanescente
+replay,reprodução
+repositioned,reposicionado
+reservation,reserva
+resin identification code,Código de identificação da resina
+restored pattern element,elemento de padrão restaurado
+retessellate,retesselar
+retriangulation,retriangulação
+revision format,formato de revisão
+revision scheme,esquema de revisão
+revision scheme format,formato do esquema de revisão
+revision tag,identificador de revisão
+rho value,valor de rho
+ribbon cable,cabo plano
+rip up,romper
+RLE,RLE
+root component,componente raiz
+rotation angle,ângulo de rotação
+roughing slice,camada de desbaste
+rule fillet,arredondamento com regras
+ruled surface,superfície regrada
+runoff loop,contorno de canal de escoamento
+runoff surface,superfície de canal de escoamento
+SAT file,Arquivo SAT
+Scalable Vector Graphics,Scalable Vector Graphics
+scaling ratio,proporção da escala
+scanline,linha de digitalização
+Scanline packer,empacotador de linha de digitalização
+sealing plug,plugue de vedação
+Secondary,secundário
+section view,vista do corte de seção
+segment,segmento
+self-intersection,autoinserção
+sensor,sensor
+sequence tree,diagrama de sequência
+sequential print,impressão sequencial
+shank,haste
+Shank clearance,folga da haste
+Shank profile,perfil da haste
+shape,forma
+shear heating,aquecimento por cisalhamento
+shear rate,taxa de cisalhamento
+sheet metal face,face da chapa de metal
+shell,casca
+Shera printers,Impressoras Shera
+shim ring,arruela de calço
+show cutplanes,mostrar planos de corte
+shrinkage,contração
+shrinkwrap,contorno simplificado
+shrinkwrap substitute,substituto de contorno simplificado
+side,lateral
+side core,macho lateral
+side lock,trava lateral
+Sierpinski pyramid,pirâmide de Sierpinski
+signal integrity,integridade de sinal
+simple measures group,grupo de medições simples
+Simulated Orientations,Orientações simuladas
+Simulation,Simulação
+Simulation Utility LT,Utilitário de simulação LT
+single composite,composta única
+Single Point of Failure,ponto único de falha
+single-spindle lathe,torno monofuso
+sintering,sinterização
+sketch edge,aresta do esboço
+sketch grid,grade do esboço
+sketch illustration,ilustração de esboço
+sketched feature,operação de esboço
+sketched symbol,símbolo de esboço
+Skill Builder,Exercícios práticos
+skin optimization,otimização de revestimento
+skin triangle,triângulo de revestimento
+SLC Converter,Conversor de SLC
+SLI format,formato da SLI
+Slice Commander,Comandante de fatiamento
+Slice skeleton,Fatiar esqueleto
+Slicing,Fatiamento
+slide core,postiço da gaveta
+slider,controle deslizante
+Slot depth,Profundidade da fenda
+Smart Surfacer,Criador de Superfície
+SMD,SMD
+smoke,fumaça
+smoke circle,círculo de fumaça
+smoke simulation,simulação de fumaça
+Snap Mode,Modo de snap
+Snapin,Snap-in
+snapshot,instantâneo
+snippet,fragmento
+snow flake,floco de neve
+soft box,caixa suave
+soft transition,transição suave
+solid,sólido
+Solid bar,Barra de sólidos
+Solid body,Corpo sólido
+solid face,face do sólido
+Solid part,Peça sólida
+Solidscape,Solidscape
+SolidscapeDL Printer,Impressora SolidscapeDL
+SolidWorks files,Arquivos do SolidWorks
+source component,componente fonte
+Spark Asset,Recurso Spark
+Spindle calibration,calibração de eixo
+Spline,Spline
+split rivet,rebite bifurcado
+split surface,superfície de fechamento
+Splitter,Divisor
+Spot size,Tamanho de ponto
+spotface,escareado
+spring washer,arruela de pressão
+sprue,Bucha
+sprue bushing,Bucha de Injeção
+spur gear,engrenagem reta
+SSL handshake,Handshake de SSL
+SSL session,Sessão SSL
+stack check,verificação de pilha
+standard appearance,aparência padrão
+Stanford Triangle Format,Stanford Triangle Format
+start angle,ângulo inicial
+start point,ponto inicial
+Start Thread,rosca inicial
+STEP File,Arquivo STEP
+step size,tamanho da etapa
+stepdown,passo vertical
+stepover,passo lateral
+stipple count,contagem do pontilhado
+stock,material
+stop pin,pino de trava
+Stratasys,Stratasys
+strategy,estratégia
+Straumann printers,Impressoras Straumann
+stress analysis,análise de tensões
+stripe,listra
+structural member,membro estrutural
+student design,projeto do estudante
+Subtract,Subtrair
+Suite Workflows,Fluxos de trabalho do Suite
+suppressed assembly pattern element,elemento suprimido do padrão de montagem
+surface,superfície
+Surface area,Área de superfície
+surface associativity,associatividade de superfícies
+surface body,corpo de superfície
+surface face,face da superfície
+surface fillet,arredondamento de superfície
+surface inspection group,grupo de inspeção de superfície
+surface normal,normal de superfície
+surface normal arc,arco normal da superfície
+Surface Projection,projeção de superfície
+surface texture,textura de superfície
+Surface tolerance,Tolerância da superfície
+surface trimming,corte de superfície
+Swiss machining,usinagem em torno tipo suíço
+symbol definition,definição de símbolo
+tangent direction,direção de tangente
+tapered mill,fresa cônica
+team,equipe
+terminal electrical properties,propriedades elétricas do terminal
+terminator,extremidade
+Tessellation parameter library,Biblioteca de parâmetros de tesselação
+test line,linha de teste
+texture,textura
+Thermal Compensation,Compensação térmica
+Thick Client,Thick Client
+Thickness Factor,Fator de espessura
+thickness gradient,gradiente de espessura
+Thin Client,Thin Client
+thin-walled support shape,forma de apoio de paredes finas
+third-angle projection,projeção a partir do terceiro ângulo
+thread designation,designação de rosca
+three quarter section view,vista em corte de três quartos
+thumb screw,parafuso borboleta
+time slider,controle deslizante de tempo
+tolerance,tolerância
+tolerance band,banda de tolerância
+Tolerance Spacing,Tolerância de espaçamento
+tonemap method,método de mapa de tons
+tool,ferramenta
+tool assembly,montagem da ferramenta
+tool axis,eixo ferramenta
+tool database,base de dados da ferramenta
+tool entity,entidade ferramenta
+tool property,propriedade de ferramenta
+tool radius,raio da ferramenta
+tool shank,haste da ferramenta
+tool shank data,dados da haste da ferramenta
+tool tip radius,raio da ponta da ferramenta
+toolbar,barra de ferramentas
+tooling,usinagem
+Toolpath Calculation,Cálculo de percurso de ferramenta
+toolpath display,Exibição do percurso da ferramenta
+Toolpath Edit menu,menu Edição do percurso
+Toolpath Optimization,Otimização do percurso de ferramenta
+toolpath points,pontos do percurso
+toolpath segments,segmentos de percurso
+toolpath workplane,plano de trabalho do percurso
+top part connection,conexão superior da peça
+torque load,carga de torque
+torus,toro
+transition feedrate,avanço em transição
+travel speed,velocidade de deslocamento
+tree view,vista em árvore
+Tresca,Tresca
+triangle mesh,malha de triângulo
+triangle reduction,redução de triângulo
+trim,trimar
+trim boundary,fronteira de trimagem
+turn,torneamento
+turret,torre
+U Section,corte em U
+UCP,UCP
+UCS,UCS
+ULP,ULP
+ultimate tensile strength,resistência máxima à tração
+uncovered triangle,triângulo descoberto
+uncrease,desvincar
+undercut,entalhe
+Undercut option,opção de contra-saída
+underlay,Subjacência
+underlay geometry,geometria subjacente
+undirected angle,ângulo não dirigido
+unfold method,método de planificação
+unidirectional hatching,hachura unidirecional
+uniform remeshing,reaplicação de malha uniforme
+Unit Cell,Célula de unidade
+uPrint,uPrint
+upskin,revestimento superior
+user coordinate system,sistema de coordenadas do usuário
+User Datagram Protocol,Protocolo de diagrama de dados do usuário
+USF,USF
+valve gate,comporta de válvula
+variable-radius fillet,arredondamento de raio variável
+Vault account,conta do Vault
+Vault blog,blog do Vault
+Vault Workgroup,Vault Workgroup
+vaulted version,versão armazenada no Vault
+vaulting restriction,restrição de armazenamento no Vault
+v-belt,correia em V
+vector,vetor
+vent,ventilação
+Vertical Mesh Density,Densidade da malha vertical
+viewer mode,modo visualizador
+Vin Tiles,Blocos Vin
+Virtual Reality Modeling Language,Linguagem de modelagem de realidade virtual (VRML)
+visibility,visibilidade
+visualization file,arquivo de visualização
+volumetric flow rate,taxa de fluxo volumétrico
+Volumetric Remeshing,Reaplicação de malha volumétrica
+von Mises stress,Tensão de von Mises
+Vortex toolpath,percurso Vortex
+voxel,voxel
+VRML,VRML
+wall shear stress,tensão máxima de cisalhamento na parede
+wall thickness,espessura da parede
+wave amplitude,amplitude de onda
+WCS,WCS
+web thickness,espessura da teia
+wedge,setor
+weld line,linha de solda
+weld symbol,símbolo de solda
+welding neck flange,flange com pescoço para solda
+whisper cuts,cortes superficiais
+White Movement,Movimento de branco
+width,largura
+wire run,trecho de fio
+wireframe,arames
+wireframe display,exibição em estrutura de arame
+work axis,eixo de trabalho
+work feature,operação de trabalho
+work plane,plano de trabalho
+work surface,superfície de trabalho
+workgroup,grupo de trabalho
+workpiece,peça de trabalho
+workplane,plano de trabalho
+worm gear,engrenagem sem-fim
+Wrap Wizard,Assistente de Wrap
+wrench size,tamanho da chave
+XBUILD,XBUILD
+X-ray ground shadow,sombra radiográfica
+yaw,guinada
+yield strength,resistência ao escoamento
+yield stress,tensão de escoamento
+Z Offset,Deslocamento Z
+ZPR,ZPR

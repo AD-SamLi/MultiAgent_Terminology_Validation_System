@@ -1,0 +1,537 @@
+﻿source,target
+сетевой 3D-примитив,3D mesh primitive
+гизмо 3D-переноса,3D Move gizmo
+гизмо 3D-поворота,3D Rotate gizmo
+гизмо 3D-масштабирования,3D Scale gizmo
+устой,abutment
+установка для кондиционирования воздуха,air handler
+сечение с выравниванием,aligned section view
+точка геометрии трассы,alignment geometry point
+смещение трассы,alignment offset
+ALKIS,ALKIS
+допустимая токовая нагрузка,ampacity
+аналемма,analemma
+аналитическая модель раскоса,analytical brace
+аналитическая модель перекрытия,analytical floor
+аналитическая поверхность,analytical surface
+угол отклонения,angle of deflection
+угловая скорость,angular speed
+аннотация,annotation
+полная установленная мощность,apparent power
+стиль представления,appearance style
+примыкающая дорога,approach road
+переходная полоса,apron
+расстояние от хорды до дуги,arc-chord distance
+модель ArchiCAD,ArchiCAD model
+архитектурный вид,architectural floor
+ASBD,ASBD
+фитинг по нормам ASHRAE,ASHRAE fitting
+асимметричный шаблон дорожного полотна,asymmetrical roadway template
+ATIL,ATIL
+модель AutoCAD,AutoCAD model
+Библиотека изображений Autodesk,Autodesk Image Library
+усредненная площадь,average end area
+азимут,azimuth
+обратное визирование,backsight
+базовое семейство,base family
+базовый слой,base layer
+пакетное преобразование,batch converter
+BCA,BCA
+несущая стена,bearing wall
+берма,benching
+диаметр изгиба,bend diameter
+кривая Блосса,bloss
+промежуток рамки и линии выноски,border and leader gap
+заемщик,borrower
+точка контура,boundary point
+ограниченный объем,bounded volume
+ограничивающая рамка,bounding box
+форма контура,bounding shape
+коробчатая балка,box girder
+участок цепи,branch circuit
+удаление перелома,breakover removal
+кирпичная облицовка,brick veneer
+зона общего пользования в здании,building common area
+проекция здания,building footprint
+информационное моделирование объектов строительства,Building Information Modeling
+этаж здания,building level
+многослойная кровля,built-up roof
+прогиб,bulge
+стыковое соединение,butt
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+полоса объезда,bypass lane
+кабельный лоток,cable tray
+марка выносного элемента,callout tag
+заглушка,cap
+набор эскизов,cartoon set
+распашной переплет,casement
+монолитный,cast-in-place
+местоположение водосбора,catchment location
+пустотная стена,cavity wall
+план потолка,ceiling plan
+маркер центра,center mark
+керамическая плитка,ceramic tile
+канал,channel
+нормативная прочность,characteristic strength
+длина хорды,chord distance
+верхний ряд окон,clerestory
+усечение объема,clip volume
+облачная модель,cloud model
+сочетание норм,code combination
+стиль набора кодов,code set style
+расход прибора для холодной воды,cold water fixture unit
+комбинированный слив,combination inlet
+композитные объемы,composite volumes
+кровля комбинированной конструкции,composition roof
+составная кривая,compound curve
+концептуальный расчет энергопотребления,Conceptual Energy Analysis
+формообразующий элемент,conceptual mass
+конденсатопровод,condensate drain
+короб,conduit
+соединитель короба,conduit connector
+фитинг короба,conduit fitting
+обозначение соединения,connection symbol
+соединитель,connector
+зависимый элемент,constraint element
+моделирование технологичности строительства,constructability modeling
+конструктивный треугольник,construction triangle
+пакет компонентов,content pack
+метка горизонтали,contour label
+управляющая область,control region
+конвективная нагрузка,convection load
+выпуклый,convex
+карниз,corbel
+редактор сечений коридора,corridor section editor
+контрфорсный,counterfort
+пакет адаптации,country kit
+пересекающая труба,crossing pipe
+гребень,crown
+двускатная дорога,crowned roadway
+тупик,cul-de-sac
+бордюр,curb
+входное отверстие в бордюре,curb opening inlet
+сопряжение на пересечении,curb return
+рабочий каталог,current directory
+схема разрезки стен,curtain grid
+панель витража,curtain panel
+витражная система,curtain system
+витраж,curtain wall
+каркас витража,curtain wall frame
+сетка витража,curtain wall grid
+импост витража,curtain wall mullion
+блок витража,curtain wall unit
+протяженность мозаичной структуры для кривой,curve tessellation distance
+криволинейная балка,curved beam
+пользовательская балка,custom girder
+скорость ветра с наветренной стороны,cut-in speed wind
+скорость ветра с подветренной стороны,cut-out speed wind
+CWFU,CWFU
+область данных,data band
+световой фонарь,daylight portal
+стекло естественного освещения,daylighting glass
+постоянная нагрузка,dead load
+DECDEG,DECDEG
+настил,deck
+градусы минуты секунды,degrees minutes seconds
+DEM,DEM
+коэффициент нагрузки,demand factor
+низшая точка впадины,depression low point
+отчет по проекту,design report
+метод поиска проектной скорости,design speed lookup method
+поверхность по разности,differential surface
+цифровая модель рельефа,digital elevation model
+размерная зависимость,DimConstraint
+тип направления,direction type
+dll,DLL
+DMS,DMS
+дренажная сеть,drainage network
+группа чертежей,drawing group
+величина стока,drop amount
+база отсчета перепада,drop reference location
+значение стока,drop value
+по сухому термометру,dry bulb
+гипсокартон,drywall
+DTM,DTM
+соединитель воздуховода,duct connector
+клапан воздуховода,duct damper
+соединительная деталь воздуховода,duct fitting
+внутренняя изоляция воздуховода,duct lining
+система воздуховодов,duct system
+восточное положение,easting
+редактирование точки,edit point
+EDM,EDM
+эластомерный,elastomeric
+электрооборудование,electrical equipment
+электронный измеритель расстояния,electronic distance meter
+отметка,elevation
+ось отметки,elevation axis
+вложенная стена,embedded wall
+конечный соединитель,end connector
+длина въезда,entry length
+изменение пикетажа,equation
+EVC,EVC
+EVCE,EVCE
+отработанный воздух,exhaust air
+полоса съезда,exit lane
+Ссылка на внешние данные,External Data Reference
+внешнее расстояние,external distance
+внешняя секущая,external secant
+полевой журнал,field book
+предохранительная накладка,field splice
+образец заливки,fill pattern
+сопряжение,fillet
+радиус сопряжения,fillet radius
+проектный профиль,finished grade profile
+расчет моста методом конечных элементов,finite-element bridge analysis
+фиксированная линия,fixed line
+глухое окно,fixed window
+расход прибора,fixture unit
+точка кромки,flange point
+плоская грань,flat face
+плавающая кривая,float curve
+плавающая линия,floating line
+план этажа,floor plan
+линия потока,flow line
+элемент формы,form element
+фундамент,foundation
+кадр,frame
+частота кадров,frame rate
+перемещение в пределах заданного расстояния,freehaul
+коэффициент трения,friction factor
+смещение от границы по дороге,front yard
+внешняя граница,frontage
+смещение от внешней границы,frontage offset
+начальная точка внешней границы,frontage start point
+FU,FU
+полный вираж,full super
+допуск,fuzz
+точка геометрии,geometry point
+балка,girder
+форма балки,girder shape
+гизмо,gizmo
+сегментный отвод,gore
+план профилирования,grading plan
+цель профилирования,grading target
+решетчатый слив,grate inlet
+самотечная сеть,gravity network
+самотечная труба,gravity pipe
+расстояние по сетке,grid distance
+восточное положение в координатах сетки,grid easting
+северное положение в координатах сетки,grid northing
+заполнение сеткой,grid padding
+сетчатая поверхность,grid surface
+сетчатая поверхность для вычисления объема,grid volume surface
+заземляющий проводник,ground conductor
+грунтовые воды,ground water
+перила,guardrail
+HDS,HDS
+напор,head
+потеря напора,headloss
+оголовок водовыпуска,headwall
+теплоприток,heat gain
+тепловой купол,heat island
+отопительные и холодильные нагрузки,heating and cooling loads
+проектная температура отопления,heating design temperature
+HGL,HGL
+высокая сторона,high side
+положение высокой стороны,highside location
+метод горизонтальной корректировки,horizontal adjustment method
+провод под напряжением,hot conductor
+HP,HP
+концевая пластина HS,HS end plate
+зона ОВК,HVAC zone
+линия пьезометрического уровня,hydraulic grade line
+гидравлический радиус,hydraulic radius
+жидкостный,hydronic
+Ia,Ia
+предполагаемая точка пересечения,implied point of intersection
+отраслевая модель,industry model
+модель InfraWorks,InfraWorks model
+исходная абстракция,initial abstraction
+водоприемник,inlet
+тип ввода,input type
+радиус вписанной окружности,inscribed circle radius
+сдвиг границы,interface shear
+проверка пересечений,interference check
+компонент перекрестка,intersection component
+развязка,junction
+соединительный элемент,junction structure
+ключевая пометка,keynote
+таблица ключевых пометок,keynote table
+марка ключевой пометки,keynote tag
+текст ключевой пометки,keynote text
+изгиб,knuckle
+землеустройство,land development
+скрытый теплоприток,latent heat
+боковое ускорение,lateral acceleration
+конфигурация слоев,layer state
+степень сглаживания,level of smoothness
+LF,LF
+осветительное устройство,lighting device
+осветительный прибор,lighting fixture
+плотность силы света,lighting power density
+граничные условия «Линия»,line boundary
+видимость,line of sight
+линия,line string
+линейный массив,linear array
+линейный размер,linear dimension
+код звена,link code
+временная нагрузка,live load
+вариант нагрузки,load case
+классификация нагрузок,load classification
+диаграмма нагрузки,load diagram
+линия привязки,location line
+продольное расстояние,longitudinal spacing
+LP,LP
+люк,manhole
+проверка топологии,mapcheck
+формообразующий элемент-перекрытие,mass floor
+формообразующая зона,mass zone
+линия соответствия,match line
+ведомость материалов,material takeoff
+модель Max,Max model
+максимальный перелом,maximum breakover
+максимальное покрытие,maximum cover
+максимальная глубина,maximum depth
+средняя суточная амплитуда,mean daily range
+механическая нагрузка,mechanical load
+минимальная площадь,minimum area
+минимальное покрытие,minimum cover
+минимальная глубина,minimum depth
+минимальная длина внешней границы,minimum frontage
+соединение под углом,miter join
+Конструктор модели,Model Builder
+модель Конструктора модели,Model Builder model
+текст модели,model text
+вид модели,model view
+многостоковый,multi-drain
+многополюсная цепь,multi-poled circuit
+многостраничный,multi-sheet
+график разности объемов,net graph
+чистый объем,net volume
+нулевой провод,neutral conductor
+номинальный диаметр,nominal diameter
+нормальный поперечный уклон,normal cross-slope
+северное положение,northing
+эффект самородка,nugget effect
+устройство вызова медперсонала,nurse call device
+вместимость,occupancy
+сдается в аренду,occupiable
+трасса для смещения,offset alignment
+"неразрезная плита, армированная в одном направлении",one way slab
+открытый канал,open channel
+ординатный размер,ordinate dimensioning
+ортогональный,orthographic
+водопуск,outfall
+отток,outflow
+метод виражей внешней обочины,outside shoulder superelevation method
+превышенное перемещение,overhaul
+переполнение,overtopping
+P&ID Modeler,P&ID Modeler
+соединение в паз,pan joist
+щит,panelboard
+полоса отвода участка,parcel right of way
+расстояние видимости при обгоне,passing sight distance
+точка прохождения,pass-through point
+армирование по траектории,path reinforcement
+дорожное покрытие,pavement
+скрытый теплоприток от людей,people latent heat gain
+фильтр стадий,phase filter
+согласование стадий,phase mapping
+фотометрическая форма,photometric shape
+фотонная карта,photon map
+точка пересечения,PI point
+опора,pier
+оголовок опоры,pier cap
+стойка опоры,pier column
+арматура трубопроводов,pipe accessory
+направление трубы,pipe bearing
+сопряжение концов труб,pipe end cleanup
+соединительные детали трубопроводов,pipe fitting
+изоляция трубы,pipe insulation
+компоновка труб,pipe layout
+план трубопровода,pipe plan
+участок трубопровода,pipe run
+Piranesi EPix,Piranesi EPix
+шаг,pitch
+вид в плане,plan view
+камера,plenum
+сантехнический прибор,plumbing fixture
+граничное условие «Точка»,point boundary condition
+данные облака точек,point cloud data
+точечная нагрузка,point load
+точка касания,point of tangency
+силовая цепь,power circuit
+дренчерная система пожаротушения,pre-action fire protection system
+сборный,precast
+потеря давления,pressure loss
+основной,Primary
+по методу объема призмы,prismoidal
+определение профиля,profile definition
+геометрическая точка профиля,profile geometry point
+линия уклона профиля,profile grade line
+табличное представление профиля,profile grid view
+Вид профиля,Profile view
+спроецированная система координат,projected coordinate system
+линия проекции,projection line
+граница участка,property line
+представление,proposal
+структурная линия,proximity breakline
+проверка приближенности,proximity check
+критерий объема работ,quantity takeoff criteria
+система ограждения,railing system
+трассировка лучей,ray tracing
+RCP,RCP
+смещение от задней линии,rear yard
+арматурный стержень,rebar bar
+избыточное помещение,redundant room
+опорный профиль,reference profile
+отраженный план потолка,reflected ceiling plan
+линия области,region line
+условие выпуска,release condition
+визуальный образ,rendering appearance
+рециркулирующий воздух,return air
+расход рециркулирующего воздуха,return airflow
+полоса отвода,right of way
+край колодца,rim
+подступенок,riser
+рулонная кровля,rolled roof
+лобовая доска,roof fascia
+конек крыши,roof ridge
+подшивная доска,roof soffit
+индекс помещения,room cavity ratio
+спецификация помещения,room schedule
+трассировка,routing
+шумовые полосы,rumble strips
+участок,run
+сток,runoff
+начало/конец отгона,runout
+длина начала/конца отгона,runout length
+вогнутая кривая,sag curve
+ось сечения,sample line
+группа осей сечений,sample line group
+выборочная точка,sample point
+источники выборки,sampled source
+имя схемы,schema name
+ПКП,SCS
+ПКПКП,SCSCS
+ПКППКП,SCSSCS
+вспомогательная сетка,secondary grid
+лист сечения,section sheet
+пространство для технического обслуживания,service clearance
+линия внутреннй границы,setback line
+диафрагма жесткости,shear wall
+конструкция оболочки,shell construction
+рабочий чертеж,shop drawing
+перелом обочины,shoulder breakover
+смещение от боковой линии,side yard
+Полярная съемка,sideshot point
+боковой откос,sideslope
+убывающая половина синусоиды с прямым участком,sine half-wavelength diminishing tangent curve
+SketchUp,SketchUp
+низ перекрытия,slab bottom
+верх перекрытия,slab top
+ГОС,SLG
+переходно-скоростная полоса,slip lane
+штриховка откоса,slope pattern
+проекция откоса,slope projection
+наклонная балка,sloped beam
+трубопровод с уклоном,sloped piping
+сглаживающая кривая,smooth curve
+конфликт «мягких» пересечений,soft clash
+сплошная железобетонная плита,solid reinforced concrete slab
+пролет трубы,spanning pipe
+разметка ограничения скорости,speed striping
+таблица скоростей,speed table
+переходная кривая,spiral
+разделение вида профиля,split profile view
+уклон в точке,spot slope
+спринклер,sprinkler
+соединительный патрубок,spud
+дробный текст,stacked text
+составная стена,stacked wall
+отчет по разбивке трассы,stakeout alignment report
+стандартная структурная линия,standard breakline
+отметка пикета,station elevation label
+стальная балка,steel girder
+стальная ферма,steel truss
+ступенчатый фундамент,step footing
+пошаговое смещение,stepped offset
+поток,stream
+наружный отвод,street elbow
+ленточное остекление,strip window
+снятие дорожного покрытия,stripping pavement
+снятие верхнего слоя грунта,stripping top soil
+расчет конструкций,structural analysis
+моделирование строительных конструкций,structural modeling
+дополнительный слой основания,subbase layer
+земляное полотно,subgrade
+подчиненный,Subordinate
+глубина отстойника,sump depth
+уклон виража,superelevation rate
+продолжение отгона,superelevation runoff
+наложенный профиль,superimposed profile
+приточная система,supply air system
+расстояние по поверхности,surface distance
+база данных съемки,survey database
+точки съемки,survey point
+ширина захвата,swath width
+силовой щит,switchboard
+марка,tag
+глубина в водовыпуске,tailwater
+длина касательной,tangent distance
+целевая линия,target line
+температурная нагрузка,temperature load
+предел прочности,tensile strength
+засечка,tick
+изгиб стяжки,tie bend
+время концентрации,time of concentration
+время перемещения,time of travel
+TimeLiner,TimeLiner
+поверхность TIN для объема,TIN volume surface
+марка названия,title mark
+область инструментов,toolspace
+поверхность верха,top surface
+переходной фитинг,transition fitting
+длина перехода,transition length
+линия перехода,transition line
+коэффициент перехода,transition rate
+область перехода,transition region
+пикет перехода,transition station
+область проезда,traversable area
+редактор теодолитного хода,Traverse Editor
+траншея,trench
+обрезать,trim
+активная нагрузка,true load
+поворотная полоса,turn slip lane
+стрелка,turnout
+каталог стрелок,turnout catalog
+двойные квадратные вырезы,two-cut square
+пользовательская горизонталь,user contour
+рабочее давление,velocity pressure
+облицовка,veneer
+с вентиляцией,vented
+вертикальная корректировка,vertical adjustment
+коэффициент увеличения по вертикали,vertical factor
+список видов,view list
+прозрачное стекло,vision glass
+полостная геометрия,void geometry
+канальная плита,voided slab
+отчет об объемах,volume report
+поверхность для вычисления объема,volume surface
+таблица объемов,volume table
+обход,walkthrough
+ленточный фундамент,wall foundation
+сток воды,water drop
+маркер в точке стока воды,water drop marker
+траектория стока воды,water drop path
+толщина сетки,web thickness
+сварная проволочная сетка,welded wire fabric
+по влажному термометру,wet bulb
+желоб,wireway
+Диспетчер совместной работы,Worksharing Monitor
+Мировая геодезическая система,World Geodetic System
+огибать,wrap
+XDRef,XDRef

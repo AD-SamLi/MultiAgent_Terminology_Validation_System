@@ -1,0 +1,66 @@
+﻿source,target
+альфа-смешение,alpha-blend
+угловая скорость,angular speed
+Награда Autodesk Masters,Autodesk Masters award
+Программа Autodesk Masters,Autodesk Masters Program
+смещение оси,axis offset
+применить тени,bake
+большой двоичный объект,binary large object
+поза в привязке,bind pose
+режим смешивания,blend mode
+переходная поверхность,blend surface
+граница,border
+ограничивающая рамка,bounding box
+кисть,brush
+информационное моделирование объектов строительства,Building Information Modeling
+прогиб,bulge
+выдавливание,bump
+карта выдавливания,bump map
+текстура выдавливания,bump mapping
+камера,camera
+распашной переплет,casement
+большой символьный объект,character large object
+CLOB,CLOB
+замкнутое ребро,closed edge
+зависимый объект,constrained object
+решение зависимостей,constraint solver
+управляющая вершина,control vertex
+выпуклый,convex
+опорная система координат,coordinate reference system
+глубина резкости,depth of field
+цифровая модель рельефа,digital elevation model
+масштаб смещения,displacement scale
+размывание,dithering
+ось отметки,elevation axis
+пипетка,eyedropper
+сопряжение,fillet
+Filmbox,Filmbox
+кадр,frame
+частота кадров,frame rate
+обратная кинематика всего тела,full-body inverse kinematics
+аппаратный шейдер,hardware shader
+изопараметрическая кривая,isoparm
+изгиб,knuckle
+слой,layer
+уровень,level
+линейный массив,linear array
+MatchMover,MatchMover
+сеть,mesh
+генератор сети,mesher
+Meshmixer,Meshmixer
+MUD,MUD
+Mudbox,Mudbox
+NTSC,NTSC
+OBJ,OBJ
+непрозрачность,opacity
+OpenEXR,OpenEXR
+трассировка лучей,ray tracing
+карта отражения,reflection map
+выборочная точка,sample point
+вспомогательное соединение,secondary joint
+"наклон, смещение, степень",slope-offset-power
+SMPTE,SMPTE
+SOP,SOP
+наложенный профиль,superimposed profile
+обрезка поверхности,surface trimming
+универсальный манипулятор,universal manipulator

@@ -1,0 +1,492 @@
+﻿source,target
+3D mesh primitive,3D síťové primitivum
+3D Move gizmo,manipulátor 3D přesunu
+3D Rotate gizmo,manipulátor 3D rotace
+3D Scale gizmo,manipulátor 3D měřítka
+air handler,klimatizační jednotka
+aligned section view,zarovnaný řez
+alignment geometry point,bod geometrie trasy
+alignment offset,odsazení trasy
+ALKIS,ALKIS
+ampacity,dovolený proud
+analemma,analema
+analytical brace,analytické ztužení
+analytical floor,analytická podlaha
+analytical surface,analytický povrch
+angle of deflection,úhel odklonění
+angular speed,úhlová rychlost
+annotation,poznámka
+apparent power,Zdánlivý výkon
+appearance style,styl vzhledu
+arc-chord distance,vzdálenost oblouk-tětiva
+ArcGIS,ArcGIS
+architectural floor,architektonické podlaží
+ASHRAE fitting,tvarovka ASHRAE
+asset library,knihovna položek
+ATIL,ATIL
+Autodesk AutoSpecs,Autodesk AutoSpecs
+Autodesk Design Collaboration,Autodesk Design Collaboration
+Autodesk Fabrication,Autodesk Fabrication
+Autodesk Image Library,Knihovna obrázků Autodesk
+azimuth,azimut
+backsight,záměra vzad
+ball in court,přiřazeno straně
+base family,základní rodina
+BCA,BCA
+bearing wall,nosná stěna
+benching,stupňovité svahování
+bend diameter,průměr ohybu
+bloss,Bloss
+border and leader gap,vzdálenost mezi rámečkem a odkazovou čárou
+borrower,vypůjčovatel
+boundary point,hraniční bod
+bounded volume,ohraničené kubatury
+bounding shape,ohraničující těleso
+branch circuit,koncový obvod
+breakover removal,Dorovnání sklonu krajnice s jízdním pruhem
+brick veneer,cihlový obklad
+Bridge Design for InfraWorks 360,Bridge Design for InfraWorks 360
+building common area,veřejná plocha budovy
+building footprint,půdorysný tvar budovy
+building level,úroveň budovy
+built-up roof,vrstvená lepenková krytina
+bulge,vyboulení
+butt,tupý
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+bypass lane,jízdní pruh spojovací větve
+cable tray,kabelová lávka
+CADmep,CADmep
+callout tag,štítek odkazu
+cant,převýšení koleje
+cap,zakončení
+cartoon set,sada náčrtků
+casement,okenní křídlo
+cast-in-place,litý na místě
+catch basin,jímka
+catchment,povodí
+catchment group,skupina povodí
+catchment location,bod v povodí
+cavity wall,dutinová stěna
+ceiling plan,Půdorys stropu
+center line,osa
+center mark,středová značka
+centerline,osa
+ceramic tile,keramická dlaždice
+channel,kanál
+chord distance,délka tětivy
+CL,osa
+clearance,vůle
+clerestory,světlík
+clip volume,oříznutý objem
+code set style,styl sady kódů
+cold water fixture unit,instalační jednotka pro studenou vodu
+combination inlet,kombinace vtoků
+composite volumes,složené kubatury
+composition roof,asfaltové šindele
+compound curve,složený oblouk
+Conceptual Energy Analysis,Koncepční energetická analýza
+conceptual mass,koncepční objemy
+condensate drain,odtok kondenzátu
+conduit,vedení
+conduit fitting,tvarovka vedení
+connector,konektor
+constraint element,prvek vazby
+content library,Knihovna obsahu
+content pack,obsahový balíček
+contour label,popisek vrstevnice
+control region,definovaná oblast
+convection load,zatížení konvencí
+convex,konvexní
+cope,přizpůsobit
+corbel,krakorec
+corridor,koridor
+corridor section editor,editor příčného řezu koridoru
+country kit,místní sada
+crop region,oblast oříznutí
+crossing pipe,křížení potrubí
+crown,vrchol střechovitého sklonu vozovky
+crowned roadway,Vozovka se základním střechovitým příčným sklonem
+cul-de-sac,slepá ulice
+curb opening inlet,obrubníková vpust
+curb return,zaoblení krajnice
+current directory,aktuální adresář
+curtain grid,osnova obvodového pláště
+curtain panel,panel obvodového pláště
+curtain system,systém obvodového pláště
+curtain wall,obvodový plášť
+curtain wall frame,rám obvodového pláště
+curtain wall grid,osnova obvodového pláště
+curtain wall mullion,sloupek obvodového pláště
+curtain wall unit,jednotka obvodového pláště
+curve tessellation distance,vzdálenost mozaiky oblouku
+curved beam,zakřivený nosník
+CWFU,CWFU
+daylight portal,vstupní brána denního světla
+daylighting glass,sklo pro denní osvětlení
+dead load,stálé zatížení
+DECDEG,DECDEG
+degrees minutes seconds,stupně minuty sekundy
+DEM,DEM
+demand factor,činitel náročnosti
+depression low point,uzávěrový bod
+design,návrh
+design speed lookup method,metoda vyhledání návrhové rychlosti
+design vehicles,vozidla návrhu
+Desktop Connector,Desktop Connector
+digital elevation model,digitální výškový model
+DimConstraint,rozměrová vazba
+DLL,dll
+DMS,DMS
+Drainage Design for Infraworks 360,Drainage Design for Infraworks 360
+drawing group,skupina výkresů
+drop amount,vertikální posun potrubí
+drop reference location,referenční poloha na potrubí
+drop value,výškový rozdíl mezi vtokem a výtokem
+dry bulb,suchý teploměr
+drywall,sádrokarton
+DTM,DTM
+duct connector,spojovací součást potrubí
+duct damper,tlumič potrubí
+duct fitting,tvarovka potrubí
+duct lining,výstelka potrubí
+duct system,potrubní systém
+easting,souřadnice X
+edit point,Změnit polohu bodu
+EDM,EDM
+electrical equipment,elektrické vybavení
+electronic distance meter,elektronický měřič vzdáleností
+elevation,výška
+elevation axis,osa výšek
+embedded wall,vnořená stěna
+entry length,délka vjezdu
+equation,rovnice
+equilibrium cant,teoretické převýšení koleje
+EVC,EVC
+EVCE,EVCE
+exhaust air,odváděný vzduch
+exit lane,výjezd
+External Data Reference,externí datová reference
+external secant,externí sečna
+fabrication parts,výrobní součásti
+field book,měřický zápisník
+fill pattern,vzor výplně
+fillet,zaoblení
+Final Surface,Povrchová úprava
+finished grade profile,navržený profil
+fixed line,pevná tečna
+fixed window,pevné okno
+fixture unit,instalační jednotka
+flange point,bod připojení rigolu
+float curve,plovoucí oblouk
+floating line,plovoucí tečna
+flow line,proudnice
+formwork,bednění
+freehaul,přebytek výkopu
+friction factor,faktor tření
+front yard,odsazení přední hrany parcely
+frontage,průčelí parcely
+frontage offset,odsazení průčelí parcely
+frontage start point,počáteční bod průčelí parcely
+FU,FU
+full super,plný dostředný sklon
+fuzz,fuzzy
+Gantt,Ganttův diagram
+gizmo,manipulátor
+gore,klín
+grading plan,terénní úprava
+grading target,cíl svahování
+grate inlet,vtokové mříže
+gravity network,gravitační síť
+gravity pipe,gravitační potrubí
+grid distance,vzdálenost bodů souřadnicového systému
+grid easting,souřadnice rastru X
+grid northing,souřadnice rastru Y
+grid padding,Přesah hlavního rastru
+grid surface,povrch definovaný rastrem
+grid volume surface,objemový povrch definovaný rastrem
+ground clearance,světlá výška
+ground conductor,ochranný vodič
+guardrail,svodidlo
+hanger,závěs
+HDS,HDS
+head,výška vody nad referenčním povrchem
+headloss,ztrátová výška
+headwall,výtokové čelo
+heat gain,Přírůstek tepla
+heat island,tepelný ostrov
+heating and cooling loads,zatížení vytápění a chlazení
+heating design temperature,návrhová teplota pro vytápění
+HGL,HGL
+high side,vyšší strana
+highside location,poloha vyšší strany
+horizontal adjustment method,metoda horizontální úpravy
+hot conductor,vodič pod napětím
+HP,HP
+HS end plate,čelní deska HS
+HVAC zone,zóna HVAC
+hydraulic grade line,čára hydraulického sklonu
+hydraulic radius,hydraulický poloměr
+hydronic,teplovodní
+Ia,Ia
+implied point of intersection,dopočítaný vrchol směrového polygonu
+initial abstraction,počáteční nasycení
+inlet,vtok
+input type,způsob zadání
+interference check,Kontrola kolizí
+Issue,Vada
+issue type,Typ vady
+junction,křižovatka
+junction structure,stavební objekt s přípojkami
+keynote,indexovaná poznámka
+keynote table,tabulka indexované poznámky
+keynote tag,popisek indexované poznámky
+keynote text,text indexované poznámky
+knuckle,rozšíření v oblouku
+land development,rozvoj krajiny
+latent heat,latentní teplo
+level crown,rovná koruna
+level landing,podesta u podlaží
+level of smoothness,úroveň vyhlazení
+LF,LF
+lighting fixture,osvětlovací těleso
+line string,linie
+linear array,lineární pole
+linear dimension,přímá kóta
+link code,kód spojnice
+live load,nahodilé zatížení
+load case,zatěžovací stav
+location,lokace
+location line,čára umístění
+LP,LP
+mapcheck,geometrie parcely
+markup,připomínka
+mass floor,podlaží objemu
+mass zone,zóna objemů
+material takeoff,výkaz materiálu
+maximum breakover,maximální rozdíl sklonu jízdního pruhu a krajnice
+maximum cover,maximální krytí
+maximum depth,maximální hloubka
+minimum area,minimální výměra
+minimum cover,Minimální krytí
+minimum frontage,minimální šířka průčelí parcely
+minor station,vedlejší staničení
+miter join,kosoúhlý spoj
+model text,text modelu
+model view,zobrazení modelu
+multi-drain,povodí s více odtoky
+Multiplanar,Vícerovinný
+Multi-planar,Vícerovinný
+multiple members,více členů
+multi-poled circuit,vícepólový obvod
+multi-sheet,vícelistový
+net graph,graf celkových kubatur
+net volume,čistý objem
+neutral conductor,nulový vodič
+nominal diameter,jmenovitý průměr
+normal cross-slope,základní příčný sklon
+northing,souřadnice Y
+nugget effect,nugget efekt
+nurse call device,zařízení na přivolání ošetřovatelky
+occupancy,obsazení prostoru
+occupiable,obsaditelný
+one way slab,jednosměrná deska
+open channel,otevřený žlab
+ordinate dimensioning,staniční kótování
+outfall,výpust
+outflow,výtok
+outside shoulder superelevation method,Způsob klopení vnější krajnice
+overhaul,přebytek materiálu k rozvozu
+overtopping,přelití
+P&ID Modeler,P&ID Modeler
+pan joist,výplňový stěnový nosník
+panelboard,deska panelu
+parcel right of way,hranice silničního pozemku
+passing sight distance,délka rozhledu k předjíždění
+pass-through point,průchozí bod
+path reinforcement,výztuž podél trajektorie
+phase filter,filtr fáze
+phase mapping,mapování fáze
+photometric shape,fotometrický tvar
+photon map,fotonová mapa
+PI point,směrový lom
+pier,pilíř
+pipe accessory,příslušenství trubky
+pipe bearing,směrník potrubí
+pipe end cleanup,začištění konce potrubí
+pipe fitting,tvarovka
+pipe insulation,izolace trubky
+pipe layout,návrh potrubí
+pipe plan,situace potrubí
+pipe run,potrubní trasa
+Piranesi EPix,Piranesi EPix
+plan view,půdorys
+planar roadway,vozovka s jednostranným sklonem
+plenum,volný prostor
+plumbing fixture,instalační příslušenství
+POB,počáteční bod hranice parcely
+point boundary condition,Okrajové podmínky bodů
+point load,Bodové zatížení
+power circuit,elektrický obvod
+precast,prefabrikát
+pressure loss,ztráta tlaku
+pressure network,tlaková síť
+Primary,primární
+profile geometry point,bod geometrie profilu
+Progress Tracking,Sledování průběhu
+project plan,plán projektu
+projected coordinate system,promítnutý souřadnicový systém
+projection line,promítané linie
+property line,Hranice pozemku
+proximity breakline,povinná spojnice – výšky z bodů
+proximity check,kontrola kolizí
+quantity takeoff criteria,definice výpočtu kubatur
+railing system,systém zábradlí
+ray tracing,sledování paprsků
+rear yard,délka zadní části parcely
+rebar bar,Tyč výztuže
+redundant room,Přebytečná místnost
+reference profile,referenční profil
+reflected ceiling plan,průmět stropního plánu
+release condition,stav uvolnění
+rendering appearance,rendrovaný vzhled
+return air,Zpětný vzduch
+return airflow,Zpětný tok vzduchu
+reverse spiral,protisměrná přechodnice
+RFI,Žádost o informace
+right of way,hranice silničního pozemku
+rim,poklop
+riser,podstupnice
+Roadway Design for InfraWorks 360,Roadway Design for InfraWorks 360
+rolled roof,lepenkové střechy
+roof fascia,Hrana střechy
+roof ridge,hřeben střechy
+roof soffit,Podbití střechy
+room cavity ratio,Poměr rezonance místnosti
+room schedule,Výkaz místnosti
+root cause,Základní příčina
+routing,směrování
+run,vedení
+runoff,odtok
+runout length,délka mezi střechovitým sklonem a rovnou korunou
+sag curve,údolnicový
+sample line,stopa příčného řezu
+sample line group,skupina stop příčných řezů
+sample point,bod vzorku
+SCS,PKP
+SCSCS,PKPKP
+SCSSCS,PKPPKP
+secondary grid,vedlejší rastr
+section sheet,rozvržení příčných řezů
+service clearance,servisní mechanická vůle
+setback line,odsazení zadní hrany parcely
+shear wall,stěna namáhaná smykem
+Sheets,Výkresy
+shell construction,konstrukce hrubé stavby
+shop drawing,dílenský výkres
+shoulder breakover,Dorovnání sklonu krajnice s jízdním pruhem
+side profile,boční profil
+side yard,odsazení boční hrany parcely
+sideslope,svah
+SketchUp,SketchUp
+slab bottom,dolní plocha desky
+slab top,horní plocha desky
+SLG,skupina SPR
+slip lane,odbočovací pruh
+slope pattern,šrafování svahu
+slope projection,promítání sklonu
+sloped beam,skloněné nosníky
+sloped piping,potrubí se sklonem
+smooth curve,vyhlazení lomu obloukem
+Space Naming Utility,nástroj Space Naming
+speed table,tabulka návrhových parametrů trasy
+SPI,SPI
+split profile view,zobrazení profilu po sekcích
+spot slope,ukazatel sklonu
+sprinkler,rozstřikovač
+spud,nálitek
+stacked wall,Složená stěna
+standard breakline,standardní povinná spojnice
+step footing,výškově odsazené základy
+stepped offset,stupňovité odsazení
+still image,statický obrázek
+stream,tok
+street elbow,závitové koleno
+strip window,okenní pruh
+stripping top soil,skrývka ornice
+structural analysis,konstrukční analýza
+Structural Analysis for Revit,Structural Analysis for Revit
+structural modeling,konstrukční modelování
+subbase layer,spodní podkladní vrstva
+subgrade,ochranná vrstva
+sub-location,dílčí umístění
+Subordinate,podřízený
+sump depth,hloubka mezi dnem potrubí a dnem šachty
+superelevation rate,sklon vzestupnice/sestupnice
+superelevation runoff,délka mezi rovnou korunou a plným dostředným sklonem
+superimposed profile,překrytý profil
+surface distance,vzdálenost po povrchu
+survey database,databáze zaměření
+survey point,body zaměření
+swath width,šířka pruhu podél trasy
+switchboard,Přepínač
+tag,Popisek
+tailwater,voda pod výpustí
+take-off,výkaz
+tap,vývod
+target line,cílová hrana
+temperature load,Teplotní zatížení
+tick,značka
+tie bend,ohyb
+time of concentration,doba koncentrace
+TimeLiner,TimeLiner
+TIN volume surface,objemový povrch TIN
+title mark,značka názvu
+toolspace,prostor nástrojů
+top surface,vrchní povrch
+transition fitting,Přechodový prvek
+transition length,délka vzestupnice/sestupnice
+transition line,přechodové hrany
+transition rate,Poměr rozdílu sklonů na délku vzestupnice
+transition region,přechodová oblast
+transition station,staničení změny příčného sklonu
+traversable area,okružní jízdní pás
+Traverse Editor,Editor polygonového pořadu
+trench,příkop
+trim,odstranění spojnic
+true current,skutečný proud
+true load,Skutečné zatížení
+turn slip lane,spojovací větev
+two-cut plumb,olovnice se dvěma výřezy
+two-cut square,čtyřúhelník se dvěma výřezy
+UCS,USS
+undivided crowned,směrově nerozdělená se střechovitým sklonem
+undivided planar,směrově nerozdělená s jednostranným sklonem
+user contour,uživatelská vrstevnice
+Variable Air Volume,variabilní vzduchový objem
+Vehicle Tracking,Vehicle Tracking
+velocity pressure,dynamický tlak
+veneer,obklad
+vented,Odvětraný
+vertical factor,faktor převýšení
+view list,Seznam pohledů
+vision glass,průhledné sklo
+void geometry,geometrie vybrání
+volume report,výkaz kubatur
+volume surface,objemový povrch
+volume table,tabulka kubatur
+walkthrough,Procházka
+wall foundation,Základy stěny
+water drop,odtok
+water drop marker,značka pro odtok
+water drop path,dráha odtoku
+watershed,povodí
+welded wire fabric,svařovaná drátěná konstrukce
+wet bulb,mokrý teploměr
+wireway,kabelová chránička
+wood framing,dřevěné rámy
+Worksharing Monitor,Worksharing Monitor
+World Geodetic System,Globální geodetický systém
+wrap,obalit
+XDRef,XDRef

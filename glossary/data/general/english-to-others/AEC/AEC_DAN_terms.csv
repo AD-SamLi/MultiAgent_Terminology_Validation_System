@@ -1,0 +1,144 @@
+﻿source,target
+3D Mini-map,3D-minikort
+3D Move gizmo,håndtag til 3D-flytning
+3D Rotate gizmo,håndtag til 3D-rotering
+3D Scale gizmo,håndtag til 3D-skalering
+ACC,ACC
+account administrator,kontoadministrator
+Activity Gantt View,Aktivitetsvisning i Gantt-diagram
+administrator,administrator
+aggregate View,samlet visning
+ALKIS,ALKIS
+analytical surface,analytisk overflade
+APL point,afsætningspunkt
+approver,godkender
+ATIL,ATIL
+attachment,vedhæftet fil
+BCA,BCA
+billing period,faktureringsperiode
+BIM object,BIM-objekt
+BIM tool,BIM-værktøj
+Bridge,Databro
+Bridge Design for InfraWorks 360,Bridge Design for InfraWorks 360
+business units,forretningsenheder
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+CDE,CDE
+change analysis,Ændringsanalyse
+Changes tool,Ændringsværktøj
+clash grid,Kollisionsmatrix
+clash group,kollisionspakke
+clash service,kollisionskontrol
+classic services,klassiske tjenester
+cloud model,cloudmodel
+company,virksomhed
+contact,kontaktperson
+contingency,Uforudsete
+controlled sharing,kontrolleret deling
+coordination space,koordineringsområde
+COR,Anmodning om ordreændring
+cost impact,Indvirkning på omkostninger
+CWFU,CWFU
+dashboard,dashboard
+data center,datacenter
+DECDEG,DECDEG
+DEM,DEM
+design,design
+DMS,DMS
+document,dokument
+document log,dokumentlog
+Document Management,Document Management
+Drainage Design for Infraworks 360,Drainage Design for Infraworks 360
+DTM,DTM
+earthworks,jordarbejde
+EDM,EDM
+elevation,opstalt
+EVC,EVC
+EVCE,EVCE
+executive,leder
+feature,funktion
+file,fil
+files log,filoversigt
+Form,formular
+FU,FU
+Gantt,Gantt
+general contractor,Hovedentreprenør
+general contractor company,Hovedentreprenørvirksomhed
+gizmo,håndtag
+HDS,HDS
+HGL,HGL
+HP,HP
+hypermodel,Hybridmodel
+hypermodeling,hybridmodel
+Ia,Ia
+internal budget transfer,intern budgetoverførsel
+item,element
+labor and workforce report,Rapport over arbejde og arbejdsstyrke
+level of smoothness,grad af glathed
+LF,LF
+linear takeoff,lineær opmåling
+location,placering
+Locations,Lokationer
+log,log
+LP,LP
+main contract,bygherrekontrakt
+markup,markering
+member,medlem
+mini-map,oversigtsbillede
+next action by,næste handling af
+not an issue,ikke et problem
+object,objekt
+offering,tilbud
+organization,organisation
+original budget,oprindeligt budget
+owner changes,ejerændringer
+permission,tilladelse
+Piranesi EPix,Piranesi EPix
+Place Me,Placer mig
+power collaborator,superbruger
+primary model,Primær model
+product,produkt
+project,projekt
+project administrator,projektadministrator
+Project List,projektliste
+push pin,tegnestift
+pushpin,tegnestift
+Pype,Pype
+Quality Risk,Kvalitetsrisiko
+Quality Risk Trend,Tendens for kvalitetsrisiko
+reference,reference
+report,rapport
+reviewer,gransker
+Risk Level,Risikoniveau
+Roadway Design for InfraWorks 360,Roadway Design for InfraWorks 360
+Roamer,Roamer
+role,rolle
+safety Checklist,Sikkerhedstjekliste
+safety observations,Sikkerhedsobservation
+schedule of values,pris- og ydelsesoversigt
+section plane,snitlinje
+settings,indstillinger
+sheet,tegning
+SketchUp,SketchUp
+stamp,stempel
+structural modeling,byggeteknisk modellering
+Submittals,Indsendelser
+supplier change order,ordreændring for leverandør
+Swagger API,Swagger API
+SWPPP,SWPPP
+takeoff,opmåling
+takeoff package,opmålingspakke
+task,Arbejdsopgave
+team,team
+Team Space,Teamområde
+Teams,Teams
+template,skabelon
+Timeline,Tidslinje
+TimeLiner,TimeLiner
+title,titel
+tool,værktøj
+Vehicle Tracking,Vehicle Tracking
+viewer,viewer
+WIP model,Igangværende model
+XDRef,XDRef

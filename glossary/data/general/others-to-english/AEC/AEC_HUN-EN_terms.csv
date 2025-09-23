@@ -1,0 +1,456 @@
+﻿source,target
+3D hálóprimitív,3D mesh primitive
+3D mozgatási minialkalmazás,3D Move gizmo
+3D forgatási minialkalmazás,3D Rotate gizmo
+3D léptékezési minialkalmazás,3D Scale gizmo
+légkezelő,air handler
+illesztett metszet,aligned section view
+ALKIS,ALKIS
+névleges áram,ampacity
+analemma,analemma
+tartószerkezeti merevítés,analytical brace
+analitikus födém,analytical floor
+analitikus felület,analytical surface
+hajlásszög,angle of deflection
+szögsebesség,angular speed
+feliratozás,annotation
+Látszólagos teljesítmény,apparent power
+megjelenésstílus,appearance style
+kapcsolódó út,approach road
+ív-húr távolság,arc-chord distance
+ArcGIS,ArcGIS
+építészeti szint,architectural floor
+ASHRAE-idom,ASHRAE fitting
+eszközelemtár,asset library
+aszimmetrikus útsablon,asymmetrical roadway template
+ATIL,ATIL
+átlag végterület,average end area
+tengelyeltolás,axis offset
+azimut,azimuth
+alapcsalád,base family
+alapfólia,base layer
+Batch Print,Batch Print
+BCA,BCA
+teherhordó fal,bearing wall
+padozatképzés,benching
+hajlítási átmérő,bend diameter
+keret és mutató hézag,border and leader gap
+kölcsönző,borrower
+perempont,boundary point
+határolt térfogat,bounded volume
+befoglaló forma,bounding shape
+télgaborítás,brick veneer
+Bridge Design for InfraWorks 360,Bridge Design for InfraWorks 360
+közösen használt épületterület,building common area
+épületkontúr,building footprint
+épületszint,building level
+zsindelytető,built-up roof
+derékszög,butt
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+elkerülő sáv,bypass lane
+kábeltálca,cable tray
+tervhivatkozás címke,callout tag
+vasúti túlemelés,cant
+vasúti túlemelés meredeksége,cant gradient
+végzárás,cap
+lapkészletsablon,cartoon set
+nyíló,casement
+monolit,cast-in-place
+víznyelő medence,catch basin
+vízgyűjtő terület,catchment
+vízgyűjtő helye,catchment location
+üreges fal,cavity wall
+mennyezetterv,ceiling plan
+középjel,center mark
+kerámialap,ceramic tile
+csatorna,channel
+TENG,CL
+hézag,clearance
+világítóablak,clerestory
+metszőtérfogat,clip volume
+egyenértékű hidegvízfogyasztási egység,cold water fixture unit
+kombinált víznyelő,combination inlet
+összetett térfogat,composite volumes
+kompozit tető,composition roof
+kosárív,compound curve
+Koncepcionális energiaelemzés,Conceptual Energy Analysis
+koncepcióterv,conceptual mass
+kondenzvíz-elvezető,condensate drain
+vezeték,conduit
+vezetékcsatlakozó,conduit connector
+csatlakozó,connector
+kényszerelem,constraint element
+kivitelezhetőség modellezése,constructability modeling
+konstrukciós háromszög,construction triangle
+tartalomtár,content library
+tartalomcsomag,content pack
+Szintvonalfelirat,contour label
+vezérelt tartomány,control region
+konvekciós terhelés,convection load
+konvex,convex
+igazodás,cope
+gyámkő,corbel
+nyomtervkeresztszelvény-szerkesztő,corridor section editor
+országfüggő csomag,country kit
+Keresztező cső,crossing pipe
+tető,crown
+tetőszelvényes út,crowned roadway
+szegély,curb
+oldalbeömlésű víznyelő,curb opening inlet
+szegélylekerekítés,curb return
+aktuális alkönyvtár,current directory
+függönyfalpanel,curtain panel
+függöny rendszer,curtain system
+függönyfal,curtain wall
+függönyfal keret,curtain wall frame
+függönyfal osztórúd,curtain wall mullion
+függönyfalegység,curtain wall unit
+ívelt gerenda,curved beam
+bekapcsolási szélsebesség,cut-in speed wind
+leállítási szélsebesség,cut-out speed wind
+CWFU,CWFU
+bevilágítás,daylight portal
+bevilágító,daylighting glass
+állandó terhelés,dead load
+DECDEG,DECDEG
+fok perc másodperc,degrees minutes seconds
+DEM,DEM
+Igénytényező,demand factor
+mélypont,depression low point
+Tervezési sebesség keresési módszere,design speed lookup method
+Desktop Connector,Desktop Connector
+különbségfelület,differential surface
+méretkényszer,DimConstraint
+DMS,DMS
+Drainage Design for Infraworks 360,Drainage Design for Infraworks 360
+rajzi csoport,drawing group
+esés mértéke,drop amount
+esés referenciahelye,drop reference location
+esés értéke,drop value
+Száraz léghőmérséklet,dry bulb
+gipszkarton,drywall
+DTM,DTM
+áramlásszabályozó,duct damper
+csatornabélés,duct lining
+csatornarendszer,duct system
+kelet koordináta,easting
+EDM,EDM
+elektromos berendezés,electrical equipment
+elektronikus távmérő,electronic distance meter
+magasság,elevation
+magassági tengely,elevation axis
+beágyazott fal,embedded wall
+végcsatlakozás,end connector
+Becsatlakozási hossz,entry length
+szelvény,equation
+elméleti túlemelés,equilibrium cant
+EVC,EVC
+EVCE,EVCE
+Kivezetett levegő,exhaust air
+Kiválási sáv,exit lane
+Külső adatreferencia,External Data Reference
+Külső metszővonal,external secant
+kitöltési minta,fill pattern
+lekerekítés,fillet
+rögzített egyenes,fixed line
+fix ablak,fixed window
+egyenértékű fogyasztási egység,fixture unit
+sík lap,flat face
+úszóegyenes,floating line
+alaprajz,floor plan
+folyásfenékvonal,flow line
+leporelló,flyout
+formaelem,form element
+helyben mozgatott,freehaul
+súrlódási tényező,friction factor
+Előkert,front yard
+Homlokvonal,frontage
+Homlokvonal-távolság,frontage offset
+Homlokvonal kezdőpontja,frontage start point
+FU,FU
+teljes túlemelés,full super
+tűrési tényező,fuzz
+minialkalmazás,gizmo
+elválási terület,gore
+rézsűterv,grading plan
+szintezési cél,grading target
+Rácsos víznyelők,grate inlet
+gravitációs hálózat,gravity network
+gravitációs cső,gravity pipe
+hálótávolság,grid distance
+háló kelet koordináta,grid easting
+háló észak koordináta,grid northing
+hálófelület,grid surface
+rácstérfogat-felület,grid volume surface
+földvezeték,ground conductor
+HDS,HDS
+nyomásmagasság,head
+torlófal,headwall
+Hőmegtakarítás,heat gain
+hősziget,heat island
+fűtési és hűtési terhelések,heating and cooling loads
+fűtés tervezési hőmérséklete,heating design temperature
+HGL,HGL
+magas oldal,high side
+High-Definition Surveying,high-definition surveying
+fázisvezeték,hot conductor
+HP,HP
+HS zárólemez,HS end plate
+épületgépészeti zóna,HVAC zone
+nyomásvonal,hydraulic grade line
+hidraulikus sugár,hydraulic radius
+hidronikus,hydronic
+Ia,Ia
+számított érintő metszéspont,implied point of intersection
+szakági modell,industry model
+kezdeti veszteség,initial abstraction
+beömlő nyílás,inlet
+beviteli típus,input type
+körforgalom külső sugara,inscribed circle radius
+ütközésvizsgálat,interference check
+csomópont,junction
+Csomóponti műtárgyak,junction structure
+tételszám,keynote
+tételszámtáblázat,keynote table
+tételszámcímke,keynote tag
+tételszám szövege,keynote text
+területfejlesztés,land development
+látens hő,latent heat
+fóliaállapot,layer state
+Oldalesés,level crown
+szintbeli pihenő,level landing
+simasági szint,level of smoothness
+LF,LF
+Teljesítménysűrűség,lighting power density
+Látási vonal,line of sight
+Vonallánc,line string
+hosszirányú kiosztás,linear array
+hosszirányú méretezés,linear dimension
+csatolási kód,link code
+élő terhelés,live load
+tehereset,load case
+terhelésosztályozás,load classification
+fekvési vonal,location line
+LP,LP
+akna,manhole
+Záródás-ellenőrzés,mapcheck
+tömegelemszint,mass floor
+Tömegelemzóna,mass zone
+körömvonal,match line
+mennyiségszámítás,material takeoff
+maximális eséstörés,maximum breakover
+maximális fedőréteg,maximum cover
+Maximális mélység,maximum depth
+átlagos napi tartomány,mean daily range
+mechanikai terhelés,mechanical load
+Minimális terület,minimum area
+minimális fedőréteg,minimum cover
+Minimális mélység,minimum depth
+Minimális homlokvonalhossz,minimum frontage
+csatlakozás egyesítése,miter join
+modellszöveg,model text
+modellnézet,model view
+többgyűjtős,multi-drain
+többlapos,multi-sheet
+nettó térfogat,net volume
+nullavezető,neutral conductor
+névleges átmérő,nominal diameter
+normális keresztirányú lejtés,normal cross-slope
+észak koordináta,northing
+röghatás,nugget effect
+nővérhívó eszköz,nurse call device
+Helyiség birtokba vétele,occupancy
+használható,occupiable
+Párhuzamos nyomvonal,offset alignment
+egyirányban teherhordó  lemez,one way slab
+nyitott csatorna,open channel
+koordinátaméretezés,ordinate dimensioning
+kifolyó,outfall
+kifolyás,outflow
+hossz-szállítás,overhaul
+meghágás,overtopping
+P&ID Modeler,P&ID Modeler
+előregyártott födémgerenda,pan joist
+elosztótábla,panelboard
+kisajátítási telekvonal,parcel right of way
+előzési látótávolság,passing sight distance
+áthaladási pont,pass-through point
+vonal menti vasalás,path reinforcement
+burkolat,pavement
+Emberek látens hőmegtakarítása,people latent heat gain
+fázisszűrő,phase filter
+fázisleképezés,phase mapping
+Photo on ReCap 360,Photo on ReCap 360
+fotometriai alak,photometric shape
+fotontérkép,photon map
+SP pont,PI point
+támpillér,pier
+csőkiegészítő,pipe accessory
+csőirány,pipe bearing
+csővégek tisztítása,pipe end cleanup
+csőidom,pipe fitting
+csőszigetelés,pipe insulation
+csőelrendezés,pipe layout
+cső helyszínrajza,pipe plan
+csővezeték,pipe run
+Piranesi EPix,Piranesi EPix
+helyszínrajzi nézet,plan view
+egyoldali esésű út,planar roadway
+gépészeti szint,plenum
+szaniterszerelvény,plumbing fixture
+KP,POB
+Peremfeltételek megadása ponton,point boundary condition
+Pontszerű terhelés,point load
+érintési pont,point of tangency
+Területre vetített teljesítmény,power load
+megelőző tűzvédelmi rendszer,pre-action fire protection system
+előregyártott,precast
+prizmatikus,prismoidal
+hossz-szelvény definíció,profile definition
+vetületi koordináta-rendszerek,projected coordinate system
+vetítési vonalak,projection line
+telekhatár,property line
+közelítő törésvonal,proximity breakline
+mennyiségszámítási kritérium,quantity takeoff criteria
+Korlátrendszer,railing system
+sugárkövetés,ray tracing
+Hátsó kert,rear yard
+betonacél,rebar bar
+ReCap Pro collaboration features,ReCap Pro
+Redundáns helyiség,redundant room
+referencia-hossz-szelvény,reference profile
+vetített mennyezetháló,reflected ceiling plan
+tartomány határvonalai,region line
+elengedési feltétel,release condition
+renderelési megjelenés,rendering appearance
+Visszaáramló levegő,return air
+Visszaáramló levegőmennyiség,return airflow
+ellen-átmenetiív,reverse spiral
+fedlap,rim
+fellépés,riser
+Roadway Design for InfraWorks 360,Roadway Design for InfraWorks 360
+Roamer,Roamer
+tekercses tető,rolled roof
+tető oromdeszka,roof fascia
+tetőgerinc,roof ridge
+ereszfelület,roof soffit
+helyiségtényező,room cavity ratio
+helyiségek jegyzéke,room schedule
+rázócsíkok,rumble strips
+szakasz,run
+lefolyás,runoff
+Koronaelhagyás,runout
+Koronaelhagyási hossz,runout length
+mintavonal,sample line
+mintavonalcsoport,sample line group
+mintavételezési forrás,sampled source
+ÁÍ-Í-ÁÍ,SCS
+ÁÍ-Í-ÁÍ-Í-ÁÍ,SCSCS
+ÁÍ-Í-ÁÍ-ÁÍ-Í-ÁÍ,SCSSCS
+keresztszelvénylap,section sheet
+gépészeti karbantartó nyílás,service clearance
+Építési határvonal,setback line
+nyírófal,shear wall
+héjszerkezet,shell construction
+szerelési rajz,shop drawing
+Oldalkert,side yard
+oldalrézsű,sideslope
+SketchUp,SketchUp
+lemez alja,slab bottom
+lemez teteje,slab top
+MVCs,SLG
+kitérő sáv,slip lane
+rézsűvonalak,slope pattern
+rézsűszámítás,slope projection
+lejtős gerendák,sloped beam
+lejtős cső,sloped piping
+Simítási görbe,smooth curve
+Space Naming segédprogram,Space Naming Utility
+vezetékszakasz,spanning pipe
+sebességcsíkozás,speed striping
+sebességtáblázat,speed table
+átmenetiív,spiral
+felosztott hossz-szelvény nézet,split profile view
+elválasztó sziget hosszúsága,splitter island length
+lejtés adott pontban,spot slope
+sprinkler,sprinkler
+csőkötés,spud
+átrendezett szöveg,stacked text
+Halmozott fal,stacked wall
+normál törésvonal,standard breakline
+szelvény és magasság felirat,station elevation label
+lépcsős lábazat,step footing
+állókép,still image
+vízfolyás,stream
+könyök külső és belső csatlakozással,street elbow
+ablaksor,strip window
+szerkezetelemzés,structural analysis
+Structural Analysis for Revit,Structural Analysis for Revit
+szerkezetmodellezés,structural modeling
+ágyazati réteg,subbase layer
+ágyazat,subgrade
+zsompmélység,sump depth
+túlemelési arány,superelevation rate
+tényleges túlemelés,superelevation runoff
+Levegőbevezetés,supply air system
+felületi távolság,surface distance
+földmérési pont,survey point
+mintavételi szélesség,swath width
+kapcsolótábla,switchboard
+Címke,tag
+alvíz,tailwater
+csap,tap
+célvonal,target line
+hőmérsékleti terhelés,temperature load
+jel,tick
+kengyel,tie bend
+gyülekezési idő,time of concentration
+lefolyási menetidő,time of travel
+TimeLiner,TimeLiner
+TIN-térfogatfelület,TIN volume surface
+részletjel,title mark
+eszköztár,toolspace
+felső felület,top surface
+Átmeneti idomok,transition fitting
+átmeneti vonal,transition line
+átmeneti ráta,transition rate
+átmeneti tartomány,transition region
+járható terület,traversable area
+Sokszögvonal-szerkesztő,Traverse Editor
+lemetsz,trim
+Valós áramerősség,true current
+Valós terhelés,true load
+közvetlen forduló sáv,turn slip lane
+függőleges kettős metszés,two-cut plumb
+merőleges kettős metszés,two-cut square
+egyoldali esésű pálya,uncrowned roadway
+osztatlan tetőszelvényes,undivided crowned
+osztatlan egyoldali esésű,undivided planar
+változó légtérfogat,Variable Air Volume
+VAV,VAV
+Vehicle Tracking,Vehicle Tracking
+Sebességnyomás,velocity pressure
+furnér,veneer
+Szellőztetett,vented
+magassági tényező,vertical factor
+nézetlista,view list
+kilátást biztosító,vision glass
+kivágó geometria,void geometry
+térfogatjelentés,volume report
+térfogatfelület,volume surface
+bemutatóséta,walkthrough
+sávalapozások,wall foundation
+Lefolyási vonal,water drop
+Lefolyásivonal-jelölő,water drop marker
+Lefolyásivonal-útvonal,water drop path
+vízgyűjtő,watershed
+Bordavastagság,web thickness
+hegesztett drótszövet,welded wire fabric
+Nedves léghőmérséklet,wet bulb
+egyenértékű vízfogyasztási egység,WFU
+Worksharing Monitor,Worksharing Monitor
+Nemzetközi Geodéziai Rendszer,World Geodetic System
+ráfordulás,wrap
+XDRef,XDRef

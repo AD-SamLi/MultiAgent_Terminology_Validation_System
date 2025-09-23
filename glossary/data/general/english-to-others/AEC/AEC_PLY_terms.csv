@@ -1,0 +1,568 @@
+﻿source,target
+3D mesh primitive,prymityw siatki 3D
+3D Move gizmo,metauchwyt Przesunięcie 3D
+3D Rotate gizmo,metauchwyt Obrót 3D
+3D Scale gizmo,metauchwyt Skala 3D
+air handler,urządzenie wentylacyjne
+aligned section view,przekrój dopasowany
+alignment geometry point,punkt geometrii linii trasowania
+alignment offset,odsunięcie linii trasowania
+ALKIS,ALKIS
+ampacity,obciążalność prądowa
+analemma,analema
+analytical brace,stężenie analityczne
+analytical floor,model analityczny stropu
+analytical surface,powierzchnia modelu analitycznego
+angle of deflection,kąt ugięcia
+angular speed,prędkość kątowa
+annotation,opis
+anti-shrinkage reinforcement,zbrojenie przeciwskurczowe
+apparent power,Moc pozorna
+appearance style,styl wyglądu
+approach road,droga dojazdowa
+apron,szerokość pierścienia
+arc-chord distance,strzałka łuku
+ArcGIS,ArcGIS
+architectural floor,strop architektoniczny
+ASHRAE fitting,złączka ASHRAE
+asset library,biblioteka zasobów
+asymmetrical roadway template,przekrój normalny jezdni asymetrycznej
+ATIL,ATIL
+Autodesk Image Library,Biblioteka obrazów Autodesk
+average end area,średnia powierzchni końcowych
+axis offset,odsunięcie osi
+azimuth,azymut
+backsight,pomiar wstecz
+base family,rodzina bazowa
+base layer,warstwa podstawowa
+batch converter,konwerter wsadowy
+Batch Print,Batch Print
+BCA,BCA
+bearing wall,ściana nośna
+benching,tarasowanie
+bend diameter,Średnica gięcia
+bloss,krzywa Blossa
+border and leader gap,odsunięcie ramki i linii odniesienia
+borrower,wypożyczający
+boundary point,punkt obwiedni
+bounded volume,objętości ograniczone
+bounding box,ramka ograniczająca
+bounding shape,kształt ograniczający
+branch circuit,obwód rozgałęziony
+breakover removal,usuwanie różnicy nachylenia
+brick veneer,oblicowanie cegłą
+Bridge,Przekazy danych
+Bridge Design for InfraWorks 360,Bridge Design for InfraWorks 360
+building common area,powierzchnia wspólna budynku
+building footprint,obrys budynku
+building level,Poziom budynku
+built-up roof,pokrycie dachu wielowarstwowe
+bulge,wybrzuszenie
+butt,łączyć doczołowo
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+bypass lane,pas objazdu
+cable tray,drabinka kablowa
+CADmep,CADmep
+callout markup,adnotacja z objaśnieniem
+callout tag,oznaczenie znacznika opisowego
+cant,przechyłka kolejowa
+cant gradient,przyrost  przechyłki kolejowej
+cap,zaślepka
+cartoon set,zestaw rysunków
+casement,skrzydło okienne
+cast-in-place,wylewany na miejscu
+catch basin,wpust uliczny
+catchment,zlewnia
+catchment location,położenie zlewni
+cavity wall,ściana szczelinowa
+ceiling plan,rzut odwrócony
+center line,linia środkowa
+center mark,znacznik środka
+centerline,linia środkowa
+ceramic tile,płytka ceramiczna
+channel,kanały
+chord distance,długość cięciwy
+CL,LŚ
+clearance,odstęp
+clerestory,clerestorium
+clip volume,objętość przycięcia
+code combination,kombinacje normowe
+code set style,styl zestawu kodów
+cold water fixture unit,jednostka armatury do zimnej wody
+colinear,współliniowy
+collinear,współliniowy
+combination inlet,wlot złożony
+composite volumes,objętości złożone
+composition roof,dach z pokryciem bitumicznym
+compound curve,krzywa złożona
+Conceptual Energy Analysis,narzędzie koncepcyjnej analizy energetycznej
+conceptual mass,masa koncepcyjna
+condensate drain,dren kondensacyjny
+conduit,rura kablowa
+conduit connector,złącze przewodu
+conduit fitting,osprzęt do rurkowania
+connector,złącze
+constraint element,element ograniczający
+constructability modeling,modelowanie wykonalności
+construction triangle,trójkąt konstrukcyjny
+content library,biblioteka zawartości
+content pack,pakiet zawartości
+contour label,etykieta warstwicy
+control region,region kontrolny
+convection load,wartość konwekcji
+convex,wypukłe
+cope,przykrywać
+corbel,wspornik wysadzony
+corridor section editor,edytor przekroju korytarza
+country kit,pakiet standardów lokalnych
+crossing pipe,rura przecinająca
+crown,góra rury
+crowned roadway,Jezdnia o spadku daszkowym
+cul-de-sac,zaułek
+curb,ścianka krawężnika
+curb opening inlet,wlot krawężnika
+curb return,wyłukowanie krawędzi
+current directory,bieżący katalog
+current version,bieżąca wersja
+curtain grid,podział ściany osłonowej
+curtain panel,pole ściany osłonowej
+curtain system,system elementów osłonowych
+curtain wall,ściana kurtynowa
+curtain wall frame,rama ściany kurtynowej
+curtain wall grid,siatka ściany kurtynowej
+curtain wall mullion,szpros ściany kurtynowej
+curtain wall unit,jednostka ściany kurtynowej
+curve tessellation distance,długość mozaikowania krzywej
+curved beam,belka zakrzywiona
+cut-in speed wind,"prędkość wiatru, przy której turbina startuje"
+cut-out speed wind,"prędkość wiatru, przy której turbina zatrzymuje się"
+CWFU,CWFU
+data band,opis pasma danych
+daylight portal,portal światła dziennego
+daylighting glass,szkło doświetlające
+dead load,obciążenie stałe
+DECDEG,DECDEG
+degrees minutes seconds,"stopnie, minuty, sekundy"
+DEM,DEM
+demand factor,współczynnik zapotrzebowania
+depression low point,najniższy punkt depresji
+design speed lookup method,metoda wyszukiwania projektowanej prędkości
+Desktop Connector,Desktop Connector
+deviation report,raport odchyleń
+differential surface,powierzchnia różnicowa
+digital elevation model,cyfrowy model wysokościowy
+DimConstraint,wiązanie wymiarowe
+DLL,dll
+DMS,DMS
+Drainage Design for Infraworks 360,Drainage Design for Infraworks 360
+drawing,rysunek
+drawing group,grupa rysunkowa
+drop amount,wartość spadku
+drop reference location,lokalizacja odniesienia spadku
+drop value,wartość spadku
+dry bulb,suchy termometr
+drywall,suchy tynk
+DTM,DTM
+duct connector,łącznik kanałowy
+duct damper,przepustnica kanału
+duct fitting,złączka kanału
+duct lining,okładzina kanału
+duct system,system kanałów
+easting,współrzędna wschodnia
+edit point,edycja punktu
+EDM,EDM
+electrical equipment,sprzęt elektryczny
+electronic distance meter,dalmierz elektroniczny
+elevation,wysokość nad płaszczyzną
+elevation axis,oś rzędnych
+embedded wall,ściana osadzona
+end connector,wielopłaszczyznowe złącze końcowe
+entry length,długość włączenia
+equation,równania
+equilibrium cant,przechyłka kolejowa zrównoważona
+EVC,EVC
+EVCE,EVCE
+exhaust air,powietrze usuwane
+exit lane,pas wyłączenia
+External Data Reference,Odniesienie do danych zewnętrznych
+external distance,odległość zewnętrzna
+external secant,sieczna zewnętrzna
+fabrication hanger,podwieszenie produkcyjne
+fabrication parts,części produkcyjne
+fall protection,zabezpieczenie przed upadkiem
+field book,dziennik polowy
+fill pattern,wzór wypełnienia
+fillet,zaokrąglenie
+finished grade profile,niweleta
+fixed line,linia ustalona
+fixed window,okno nieotwieralne
+fixture unit,jednostka osprzętu
+flange point,punkt kołnierzowy
+flat face,minimalizacja płaskich powierzchni
+float curve,łuk swobodny
+floating line,linia swobodna
+floor plan,rzut kondygnacji
+flow line,linia przepływu
+form element,element formy
+freehaul,transport na miejscu
+friction factor,współczynnik tarcia
+front yard,odległość od frontu
+frontage,front
+frontage offset,odsunięcie frontu
+frontage start point,pierwszy punkt frontu
+FU,FU
+full super,maksymalna przechyłka
+fuzz,połączenie
+Gantt,wykres Gantta
+geometry point,punkt geometrii poziomej
+gizmo,metauchwyt
+gore,klin w pasie wyłączenia
+grading plan,plan niwelowania
+grading target,cel skarpy
+grate inlet,kratki ściekowe
+gravity network,sieć grawitacyjna
+grid distance,odległość siatki
+grid easting,globalna współrzędna wschodnia
+grid northing,globalna współrzędna północna
+grid padding,wypełnienie siatki
+grid surface,powierzchnia siatki
+grid volume surface,powierzchnia objętości siatkowej
+ground conductor,przewód uziemiający
+ground water,wody gruntowe
+guardrail,poręcz zabezpieczająca
+hanger,podwieszenie
+HDS,HDS
+head,ciśnienie słupa wody
+headloss,spadek ciśnienia
+headwall,mur oporowy
+heat gain,zyski ciepła
+heat island,wyspa ciepła
+heating and cooling loads,obciążenia ogrzewania i chłodzenia
+heating design temperature,temperatura projektowa ogrzewania
+HGL,HGL
+high side,strona wyższa
+high-definition surveying,pomiar HDS
+highside location,położenie strony wyższej
+horizontal adjustment method,metoda dopasowania poziomego
+hot conductor,przewód pod napięciem
+HP,HP
+HS end plate,"Ściąg rurowy, doczołowy"
+HVAC zone,strefa HVAC
+hydraulic grade line,niweleta hydrauliczna
+hydraulic radius,promień hydrauliczny
+hydronic,wodny
+Ia,Ia
+implied point of intersection,niejawny punkt przecięcia
+industry model,model branżowy
+initial abstraction,wstępna utrata
+inlet,wlot
+input type,typ wprowadzenia
+inscribed circle radius,promień okręgu wpisanego
+interference check,sprawdzanie kolizji
+Issue,Zagadnienie
+Issues,Zagadnienia
+jobsite photos,zdjęcia obiektu
+junction,skrzyżowanie
+junction structure,struktury połączeń
+keynote,opis indeksowy
+keynote table,tabela opisów indeksowych
+keynote tag,etykieta opisu indeksowego
+keynote text,tekst opisu indeksowego
+knuckle,przegub
+land development,projektowanie przestrzenne
+latent heat,ciepło utajone
+layer state,stan warstwy
+level crown,poziomuj koronę
+level landing,spocznik poziomu
+level of smoothness,poziom gładkości
+level roadway,poziomuj jezdnię
+LF,LF
+lighting device,urządzenie oświetleniowe
+lighting fixture,oprawa oświetleniowa
+lighting power density,gęstość mocy
+line boundary,parametry podpory liniowej
+line of sight,linia widoku
+line string,ciąg linii
+linear array,szyk liniowy
+linear dimension,wymiar liniowy
+link code,kod łącza
+live load,obciążenia eksploatacyjne
+load case,przypadek obciążenia
+load classification,klasyfikacja obciążenia
+load diagram,wykres obciążenia
+location line,linia położenia
+LP,LP
+manhole,właz
+mapcheck,kontrola mapy
+markup,adnotacja
+markups,Adnotacje
+mass floor,zakres kondygnacji
+mass zone,strefa bryły
+match line,linia rzutowania
+material takeoff,zestawienie materiałów
+maximum breakover,metoda maksymalnej różnicy nachylenia
+maximum cover,maksymalne przykrycie
+maximum depth,maksymalna głębokość
+mean daily range,średnia temperatura dzienna
+mechanical load,obciążenie mechaniczne na powierzchnię
+Meetings,Spotkania
+minimum area,minimalna powierzchnia
+minimum cover,Minimalne przykrycie
+minimum depth,minimalna głębokość
+minimum frontage,minimalny front
+miter join,połączenie ścięte
+model text,tekst modelu
+model view,widok modelu
+multi-drain,dren wielokrotny
+Multiplanar,wielopłaszczyznowy
+Multi-planar,wielopłaszczyznowy
+multiple members,wielu członków
+multi-poled circuit,obwód wielobiegunowy
+multi-sheet,wieloarkuszowy
+net graph,wykres netto
+net volume,objętość netto
+neutral conductor,przewód zerowy
+nominal diameter,średnica nominalna
+normal cross-slope,normalny spadek poprzeczny
+northing,fałszywa współrzędna północna
+nugget effect,efekt bryłkowy
+nurse call device,urządzenie przywoływania pielęgniarki
+occupancy,użytkowanie przestrzeni
+occupiable,użytkowana
+offset alignment,linia trasowania odsunięcia
+one way slab,płyta zbrojona jednokierunkowo
+open channel,kanał otwarty
+ordinate dimensioning,wymiarowanie współrzędnych
+outfall,wylot
+outflow,wypływ
+outside shoulder superelevation method,metoda przechyłki pobocza zewnętrznego
+overhaul,transport na odkład
+overtopping,podtopienie drogi
+P&ID Modeler,P&ID Modeler
+pan joist,belka stropowa
+panelboard,rozdzielnica
+parcel right of way,granica pasa drogowego z działki
+passing sight distance,zakres widzenia
+pass-through point,punkt wymuszający
+path reinforcement,zbrojenie po ścieżce
+pavement,nawierzchnia
+people latent heat gain,ukryty zysk ciepła na osobę
+phase filter,filtr etapów
+phase mapping,mapowanie etapów
+photometric shape,kształt fotometryczny
+photon map,mapa fotonów
+PI point,wierzchołek
+pier,filar
+pipe bearing,wspornik rury
+pipe end cleanup,czyszczenie połączenia rur
+pipe fitting,złączka rury
+pipe insulation,izolacja rury
+pipe layout,układ rur
+pipe plan,plan rur
+pipe run,rurociąg
+Piranesi EPix,Piranesi EPix
+pitch,nachylenie
+plan view,widok planu
+planar roadway,jezdnia płaska
+plenum,przestrzeń nadsufitowa
+plumbing fixture,armatura wodociągowa
+POB,punkt początkowy
+point boundary condition,parametry podpory węzłowej
+point load,obciążenie punktowe
+point of tangency,punkt styczności
+power circuit,obwód zasilania
+power collaborator,współpracownik zaawansowany
+power load,pobór energii na powierzchnię
+pre-action fire protection system,system przedprocesowy
+precast,element betonowy prefabrykowany
+pressure loss,spadek ciśnienia
+Primary,główny
+prismoidal,wzór pryzmatoidalny
+profile definition,przedłużenie definicji profilu
+profile geometry point,punkt geometrii profilu
+profile grade line,niweleta profilu
+profile grid view,widok tabelaryczny profilu
+progress photos,zdjęcia dokumentujące postępy
+Progress Tracking,Progress Tracking
+projected coordinate system,odwzorowania kartograficzne
+projection line,linie rzutowania
+property line,linia właściwości
+proximity breakline,przybliżona linia nieciągłości
+proximity check,kontrola bliskości
+quantity takeoff criteria,kryteria wielkości wyjściowych
+railing system,system poręczy
+ray tracing,śledzenie promieni
+rear yard,odległość od tyłu
+rebar bar,pręt zbrojeniowy
+redundant room,pomieszczenie nadmiarowe
+reference profile,profil odniesienia
+reflected ceiling plan,rzut odwrócony sufitu podwieszonego
+region line,linie regionów
+release condition,parametry zwolnienia
+rendering appearance,wygląd renderingu
+Request for Information,prośba o informacje
+return air,powietrze recyrkulacyjne
+return airflow,przepływ powietrza recyrkulacyjnego
+reverse spiral,krzywa odwrotna
+RFIs,Wnioski RFI
+right of way,pas drogowy
+rim,właz
+riser,podstopnica
+Roadway Design for InfraWorks 360,Roadway Design for InfraWorks 360
+Roamer,Roamer
+rolled roof,pokrycie dachu w rolkach
+roof fascia,wiatrownica
+roof ridge,kalenica
+roof soffit,podbicie dachu
+room cavity ratio,współczynnik przestrzeni nad pomieszczeniem
+room schedule,zestawienie pomieszczeń
+root cause,Główna przyczyna
+routing,wyznaczanie spływu
+rumble strips,pasy akustyczne
+run,segment
+runoff,odwracanie korony
+runout,poziomowanie korony
+runout length,długość poziomowania korony
+sag curve,wklęsły
+sample line,linia próbkowania
+sample line group,grupa linii próbkowania
+sample point,punkt próbki
+sampled source,próbkowane źródła
+SCS,KŁK
+SCSCS,KŁKŁK
+SCSSCS,KŁKKŁK
+secondary grid,siatka pomocnicza
+section sheet,arkusz przekroju
+service clearance,otwór technologiczny
+setback line,linia odsunięta
+shear wall,tarcza
+shell construction,budowa powłoki
+shop drawing,rysunek warsztatowy
+shoulder breakover,różnica nachylenia jezdni i pobocza
+side yard,odległość od boku
+sideslope,skarpa boczna
+sine half-wavelength diminishing tangent curve,styczna do połowy zanikającej sinusoidy
+SketchUp,SketchUp
+slab bottom,podstawa płyty stropowej
+slab top,góra płyty stropowej
+SLG,grupa linii próbkowania
+slip lane,pas dodatkowy
+slope pattern,wzór nachylenia
+slope projection,rzutowanie skarpy
+sloped beam,belki nachylone
+sloped piping,rura nachylona
+smooth curve,krzywa wygładzającak
+Space Naming Utility,Space Naming Utility
+spanned pipe,rura łączona
+spanning pipe,rura łączona
+spec section,Sekcja specyfikacji
+speed striping,pasy zwalniające
+speed table,tabela prędkości
+spiral,krzywa przejściowa
+split profile view,podziel widok profilu
+spot slope,nachylenie w punkcie
+sprinkler,tryskacz
+spud,połączenie gwintowane
+stacked text,tekst piętrowy
+stacked wall,ściana złożona
+stakeout alignment report,wytyczanie linii trasowania
+standard breakline,standardowa linia nieciągłości
+station elevation label,rzędna pikiety
+step footing,fundament schodkowy
+stepped offset,odsunięcie stopniowane
+still image,obraz nieruchomy
+still-image,obraz nieruchomy
+stream,stumień
+street elbow,kolano nyplowe
+strip window,pas okien
+stripping pavement,usuwanie nawierzchni
+stripping top soil,usuwanie humusu
+structural analysis,analiza strukturalna
+Structural Analysis for Revit,Structural Analysis for Revit
+structural modeling,modelowanie konstrukcyjne
+subbase layer,warstwa nośna
+subgrade,podłoże
+sub-location,lokalizacja podrzędna
+submittal,zgłoszenie
+Submittals,Zgłoszenia
+Subordinate,podrzędny
+sump depth,głębokość osadnika
+superelevation rate,wartość przechyłki
+superelevation runoff,odwracanie korony
+superimposed profile,utwórz profil nałożony
+supply air system,powietrze nawiewane
+surface distance,odległość od powierzchni
+survey database,baza danych pomiarowych
+survey point,punkty pomiarowe
+swath width,szerokość pasma
+switchboard,tablica rozdzielcza
+SWPPP,SWPPP
+tag,oznaczenie
+tailwater,woda odpływająca
+take-off,stan wyjściowy
+tangent distance,długość stycznej
+tap,przyłącze
+target line,linia docelowa
+temperature load,obciążenia temperaturowe
+tick,znacznik
+time of concentration,czas koncentracji
+time of travel,czas przepływu
+TimeLiner,TimeLiner
+TIN volume surface,powierzchnia objętościowa TIN
+title mark,znacznik tytułu
+toolspace,obszar narzędzi
+top surface,powierzchnia górna
+transition fitting,złączki redukujące
+transition length,długość przejścia — DP
+transition line,linie przejścia
+transition rate,współczynnik przechyłki
+transition region,region przejścia
+transition station,dodaj pikietę przejścia
+transmittal,przekaz
+traversable area,obszar przejezdny
+Traverse Editor,Edytor ciągu poligonowego
+trench,rów
+tribrach,spodarka
+trim,przycinanie
+true current,prąd rzeczywisty
+true load,rzeczywiste obciążenie
+turn slip lane,dodatkowy pas skrętu
+two-cut plumb,pionowe 2-cięte
+two-cut square,prostopadłe 2-cięte
+UCS,UWU
+uncrowned roadway,jezdnia o spadku jednostronnym
+undivided crowned,niepodzielona z koroną
+undivided planar,niepodzielona płaska
+user contour,warstwica użytkownika
+user research,badanie użytkownika
+Variable Air Volume,zmienny strumień powietrza
+VAV,system VAV
+Vehicle Tracking,Vehicle Tracking
+velocity pressure,ciśnienie prędkości
+veneer,oblicówka
+vented,wentylowany
+vertical adjustment,metoda dopasowania pionowego
+vertical factor,współczynnik przeskalowania pionowego
+view list,lista widoków
+vision glass,szkło przezroczyste
+void geometry,geometria wycięcia
+volume report,raport objętości
+volume surface,powierzchnia objętościowa
+volume table,tabela objętości
+walkthrough,animacja modelu
+wall foundation,Ławy fundamentowe
+water drop,spadek wody
+water drop marker,znacznik spływu wody
+water drop path,tor spływu wody
+watershed,wododział
+web thickness,grubość środnika
+welded wire fabric,siatka zbrojeniowa — zgrzewana
+wet bulb,mokry termometr
+WFU,przyłącze wody
+wireway,ciąg przewodów
+Worksharing Monitor,Worksharing Monitor
+World Geodetic System,Światowy system geodezyjny
+wrap,zawinięcie
+XDRef,XDRef

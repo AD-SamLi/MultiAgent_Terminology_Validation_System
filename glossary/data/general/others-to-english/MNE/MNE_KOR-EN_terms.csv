@@ -1,0 +1,93 @@
+﻿source,target
+실적,actuals
+관리자(Admin) 설정,Admin Settings
+알파 혼합,alpha-blend
+각속도,angular speed
+API,API
+베이킹,bake
+입찰,bid
+Big New Better,Big New Better
+Big New Max,Big New Max
+대용량 이진 객체,binary large object
+바인딩 포즈,bind pose
+혼합 모드,blend mode
+혼합 표면,blend surface
+경계 상자,bounding box
+브러시,brush
+벌지,bulge
+범프,bump
+범프 맵,bump map
+범프 매핑,bump mapping
+카메라,camera
+여닫이창,casement
+대용량 문자 객체,character large object
+ClientUsers,ClientUsers
+CLOB,CLOB
+닫힌 모서리,closed edge
+구속된 객체,constrained object
+계약일,contract date
+제어 정점 선체,control vertices hull
+볼록,convex
+CSV 출력 형식,CSV output formatting
+CV,CV
+CV 선체,CV hull
+기본 태스크 템플릿,default task template
+기본,default value
+부서,department
+초점 심도,depth of field
+변위 축척,displacement scale
+디더링,dithering
+DOF,DOF
+고도 축,elevation axis
+엔티티,entity
+EventLogEntry,EventLogEntry
+내보내기 출력,exporter output
+스포이드,eyedropper
+모깎기,fillet
+조각,fragment
+프레임,frame
+프레임속도,frame rate
+전체 몸체 역운동학,full-body inverse kinematics
+제너레이티브 디자인,generative design
+하드웨어 셰이더,hardware shader
+Hypershade,Hypershade
+앱  채팅,In-App chat
+내부 리소스,internal resources
+아이소팜,isoparm
+너클,knuckle
+도면층,layer
+수준,level
+선형 배열,linear array
+메쉬,mesh
+메셔,mesher
+수정자,modifier
+NTSC,NTSC
+불투명도,opacity
+파티클 뷰,Particle View
+피벗,Pivot
+쿼리 필드,query field
+레이트레이싱,ray tracing
+반사 맵,reflection map
+리토폴로지,retopology
+리토폴로지 메시,retopology mesh
+리토폴로지 수정자,retopology modifier
+리토폴로지 프로세스,retopology process
+리토폴로지 도구,retopology tools
+양식 되돌리기,Revert Form
+안전 프레임,Safe Frame
+샘플 점,sample point
+경사 오프셋 파워,slope-offset-power
+SMPTE,SMPTE
+SOP,SOP
+스플라인 매듭,spline knot
+상태 목록,status list
+형판,stencil
+겹친 종단,superimposed profile
+서페이스 트리밍,surface trimming
+임계값,threshold
+트랜스코딩,transcode
+트랜스코더,transcoder
+캡 삼각측량,Triangulate Cap
+범용 조작기,universal manipulator
+웹후크 상태,Webhook status
+0 패딩,zero padding

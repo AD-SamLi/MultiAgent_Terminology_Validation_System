@@ -1,0 +1,95 @@
+﻿source,target
+دمج شفافية الطبقات,alpha-blend
+السرعة الزاويّة,angular speed
+شبكة أساسية,base mesh
+كائن ثنائي كبير,binary large object
+وضع الربط,bind pose
+وضع الدمج,blend mode
+سطح الدمج,blend surface
+ضبابية,blurriness
+إشارة مرجعية,bookmark
+فرشاة,brush
+ضربة فرشاة,brush stroke
+ارتفاع المنحنى,bulge
+بروز,bump
+تخطيط البروز,bump map
+مخطط البروز,bump mapping
+كاميرا,camera
+نافذة مفصلية,casement
+كائن كبير للشخصية,character large object
+CLOB,CLOB
+حافة مغلقة,closed edge
+مكون,component
+كائن مقيّد,constrained object
+نقطة التحكم,control vertex
+هيكل نقطة التحكم,control vertex hull
+هيكل نقاط التحكم,control vertices hull
+عمق المجال,depth of field
+نموذج الارتفاع الرقمي,digital elevation model
+مخطط الإزاحة,displacement map
+مقياس الإزاحة,displacement scale
+التذبذب,dithering
+DOF,DOF
+محور الارتفاع,elevation axis
+استخراج,extraction
+قطارة,eyedropper
+وجه,face
+الشق,fillet
+تقسيم,fragment
+إطار,frame
+معدل الإطارات,frame rate
+الحركيات العكسية لكامل الجسم,full-body inverse kinematics
+جاما,gamma
+مسرع الجهاز,hardware shader
+تسليط الضوء,highlight
+هايبرشيد,Hypershade
+تخطيط الصورة,image map
+مستوى الصورة,image plane
+الإضاءة حسب الصورة,image-based lighting
+إيزوبارم,isoparm
+موقع محدد,joint
+المفصل,knuckle
+طبقة,layer
+مستوى,level
+سطح مستوي,limit surface
+مصفوفة خطية,linear array
+شبكة,mesh
+أداة الشبكات,mesher
+درجة متوسطة,mid-tone
+أداة التعديل,modifier
+ترخيص مغلق العقدة,node-locked license
+تخطيط عادي,normal map
+NTSC,NTSC
+مساحة الكائن,object space
+التعتيم,opacity
+مخطط,outline
+عرض الجسيمات,Particle View
+مضلع,polygon
+بسيط,primitive
+تخطيط الإسقاط,projection map
+تتبع الأشعة,ray tracing
+تخطيط الانعكاس,reflection map
+إعادة التحويل,retopology
+شبكة إعادة التحويل,retopology mesh
+أداة تعديل إعادة التشكيل,retopology modifier
+عملية إعادة التحويل,retopology process
+أدوات إعادة التحويل,retopology tools
+إطار آمن,safe frame
+نقطة العينة,sample point
+عرض الشاشة,screen projection
+التظليل,shading
+القوة والإزاحة والانحدار,slope-offset-power
+تنعيم,smoothing
+SMPTE,SMPTE
+SOP,SOP
+انعكاس الضوء,specular highlight
+عقدة الشق,spline knot
+استنسل,stencil
+ضربة بالفرشاة,stroke
+مستوى التقسيم,subdivision level
+ملف تعريف متراكب,superimposed profile
+تشذيب السطح,surface trimming
+الحد,threshold
+أداة التعديل العالمية,universal manipulator
+معرِّف النقطة,vertex ID
+نقطة عادية,vertex normal

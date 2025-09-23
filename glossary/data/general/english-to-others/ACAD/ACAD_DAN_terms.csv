@@ -1,0 +1,111 @@
+﻿source,target
+3D Move gizmo,håndtag til 3D-flytning
+3D Rotate gizmo,håndtag til 3D-rotering
+3D Scale gizmo,håndtag til 3D-skalering
+ALKIS,ALKIS
+analytical surface,analytisk overflade
+annotational constraint,annotationsbegrænsning
+ATIL,ATIL
+Autodesk Content Explorer,Autodesk Content Explorer
+blend surface,blandingsoverflade
+BLOB,BLOB
+block properties table,tabel med blokegenskaber
+bounded area,afgrænset område
+break point,pausepunkt
+breakpoint,pausepunkt
+camera calibration,kamerakalibrering
+Catmull-Clark subdivision surface,Catmull-Clark-underopdelt overflade
+CHAR,CHAR
+CLOB,CLOB
+composite solid,sammensat massiv figur
+concentric,koncentrisk
+constraint bar,begrænsningslinje
+constraint parameter,begrænsningsparameter
+constraint point,begrænsningspunkt
+constraint variable,begrænsningsvariabel
+construction line,konstruktionslinje
+control hull,kontrolskal
+CRS,CRS
+CSS,CSS
+CWFU,CWFU
+dependency highlighting,afhængighedsfremhævelse
+Design Review,Design Review
+Design Web Format,Design Web Format
+Digital Signature Extension,Digital Signature Extension
+dimension constraint,målsætningsbegrænsning
+dimensional constraint,målsætningsbegrænsning
+DMS,DMS
+DOF,DOF
+DPI,DPI
+Drawing Interchange Format,Drawing Interchange Format
+DTED,DTED
+DWF,DWF
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DXF,DXF
+dynamic constraint,dynamisk begrænsning
+ESW,ESW
+extended help file,udvidet hjælpefil
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+facet,facet
+FDO,FDO
+fit point,tilpasningspunkt
+freeform design,frihåndsdesign
+geometric constraint,geometrisk begrænsning
+geospatial information,geospatial information
+gizmo,håndtag
+hot grip,aktivt håndtag
+ISA,ISA
+isoline,isolinje
+isoparm,Isoparm
+Keyhole Markup Language,Keyhole Markup Language
+KML,KML
+KMZ,KMZ
+knot parameterization,knudeparametrisering
+language pack,sprogpakke
+latitude,breddegrad
+line merge,linjefletning
+longitude,længdegrad
+mesh,net
+model parameter,modelparameter
+multi-functional grip,Håndtag med flere funktioner
+NANT,NANT
+NCLOB,NCLOB
+nested reference,underordnet eller indlejret reference
+network surface,netværksoverflade
+NURBS surface,NURBS-overflade
+ObjectARX,ObjectARX
+octant,oktant
+organic modeling,organisk modellering
+ortho-image,ortho-billede
+over-constrain,overbegrænsning
+P&ID,P&ID
+panorama,panorama
+parametric drawing,parametrisk tegning
+Pencil tool,Blyant
+periodic curve,periodisk kurve
+persistent object snap,vedvarende objektsnap
+pickfirst set,vælg først-sæt
+PIP,PIP
+planar face,planflade
+PolarSnap,PolarSnap
+polyarc segment,Polybuestykke
+polyline,polylinje
+rapid prototyping,hurtig prototypefremstilling
+reality capture,virkelig optagelse
+reference constraint,referencebegrænsning
+ShapeManager,ShapeManager
+SketchUp,SketchUp
+solid,grundelement
+subdivision mesh,underopdelt net
+subdivision surface,underopdelt overflade
+surface normal,overfladenormal
+tessellation,tessellation
+thermoplastic,termoplastik
+underlay,underlægning
+UV space,UV-miljø
+vertex,knudepunkt
+watertight,vandtæt
+welcome screen,velkomstskærmbillede
+XSL,XSL

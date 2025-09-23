@@ -1,0 +1,194 @@
+﻿source,target
+3D matte,3D マット
+Admin Settings,管理者設定
+advanced sculpt attributes,高度なスカルプト アトリビュート
+alpha-blend,アルファブレンド
+angular speed,角速度
+Autodesk Masters award,Autodesk Masters アワード
+Autodesk Masters Program,Autodesk Masters プログラム
+axis offset,軸オフセット
+bake,ベイク処理
+base mesh,ベース メッシュ
+bid,ビッド
+binary large object,バイナリ ラージ オブジェクト
+bind pose,バインド ポーズ
+blend mode,ブレンド モード
+blend surface,ブレンド サーフェス
+blur,ブラー
+bookmark,ブックマーク
+border edge,境界エッジ
+bounding box,バウンディング ボックス
+brush,ブラシ
+brush stroke,ブラシ ストローク
+built-in node,ビルトイン ノード
+bulge,膨らみ係数
+bump,バンプ
+bump map,バンプ マップ
+bump mapping,バンプ マッピング
+camera,カメラ
+casement,内倒し
+character large object,キャラクタ ラージ オブジェクト
+character rig,キャラクタ リグ
+clear-coat roughness,クリア コートの粗さ
+CLOB,CLOB
+Cloud Rights,クラウド利用権
+colour palette,カラー パレット
+component,コンポーネント
+constrained object,コンストレインされたオブジェクト
+contract date,契約日
+control vertex hull,制御点ハル
+control vertices hull,制御点ハル
+coordinate reference system,座標参照系
+CPV,CPV
+CSV output formatting,CSV 出力書式
+CV,CV
+CV hull,CV ハル
+DAG,DAG
+default task template,既定のタスク テンプレート
+default value,既定値
+department,部門
+depth of field,被写界深度
+diffuse color,拡散カラー
+digital elevation model,数値標高モデル
+displacement map,ディスプレイスメント マップ
+displacement scale,変位倍率
+dithering,ディザリング
+DOF,DOF
+dolly,ドリー
+elevation axis,仰角軸
+emissive color,放出カラー
+entity,エンティティ
+Evaluation Manager,評価マネージャ
+exporter output,書き出しツールの出力
+extraction,抽出
+eyedropper,スポイト
+face,フェース
+falloff,減衰
+Falloff Ramp,減衰ランプ
+fillet,フィレット
+Filter Panel,フィルタ パネル
+floating license,フローティング ライセンス
+flood algorithm,塗り潰しアルゴリズム
+fragment,フラグメント
+frame,フレーム
+frame rate,フレーム レート
+full-body inverse kinematics,フルボディのインバース キネマティクス
+gamma,ガンマ
+gaussian smooth filter,ガウス スムーズ フィルタ
+ghost,ゴースト
+ghost driver,ゴースト化ドライバ
+ghosting,ゴースト化
+gimbal lock,ジンバル ロック
+Global Default,グローバル既定
+GPU Override,GPU のオーバーライド
+Graph Editor,グラフ エディタ
+Graph Style,グラフ スタイル
+guide pose,ガイド ポーズ
+hardware shader,ハードウェア シェーダ
+hotkey,ホットキー
+image map,イメージ マップ
+image plane,イメージ プレーン
+image-based lighting,イメージ ベースド ライティング
+In-App chat,アプリ内チャット
+instantaneous shutter,瞬時シャッター
+internal resources,内部リソース
+interpolation,補間
+intersection classification,論理積分類
+inverse lerp,逆リニア補間
+inverse linear interpolation,逆リニア補間
+isoparm,アイソパラム
+joint,ジョイント
+keyframe,キーフレーム
+legacy XGen,旧式の XGen
+lerp,リニア補間
+level,レベル
+limit surface,サーフェス制限
+linear interpolation,リニア補間
+mesh,メッシュ
+mesh sampling,メッシュのサンプリング
+mesh vertex,メッシュ頂点
+mesher,メッシャー
+mid-tone,中間トーン
+modifier,モディファイヤ
+Negative Color,負の色
+node-locked license,ノードロック ライセンス
+normal map,法線マップ
+NTSC,NTSC
+NURBS,NURBS
+object space,オブジェクト空間
+opacity,不透明度
+operator,オペレータ
+outline,アウトライン
+output type,出力タイプ
+Particle View,パーティクル ビュー
+person day,人日
+Pivot,基点
+pixelated globe,ピクセル化された球
+Playlist,プレイリスト
+poly modeling shelf,[ポリゴンのモデリング]シェルフ
+polygon,ポリゴン
+pose,ポーズ
+prim path,プライマリ パス
+primitive,プリミティブ
+projection map,投影マッピング
+proxy,プロキシ
+quaternion,クォータニオン
+query field,クエリー フィールド
+quick rig,クイック リグ
+raw driver,RAW ドライバ
+ray tracing,レイ トレーシング
+reflection map,反射マップ
+regular polygon,通常のポリゴン
+retopologize,リトポロジ化
+retopology,リトポロジ
+retopology mesh,リトポロジ メッシュ
+retopology modifier,リトポロジ モディファイヤ
+retopology process,リトポロジ プロセス
+retopology tools,リトポロジ ツール
+Revert Form,フォームを元に戻す
+rollout,ロールアウト
+rollover,の上にカーソルを合わせ
+rounded rectangle,丸みのある長方形
+Safe Frame,セーフ フレーム
+sample point,サンプル ポイント
+screen projection,スクリーンから投影
+script editor,スクリプト エディタ
+script tab,スクリプト タブ
+sculpt,スカルプト
+server-side event,サーバ側のイベント
+shading,シェーディング
+Shotgun site,Shotgun サイト
+singularity,特異性
+slope-offset-power,スロープ オフセットべき
+smooth factor,スムーズ係数
+smoothing,スムージング
+SMPTE,SMPTE
+SOP,SOP
+specular highlight,鏡面反射光ハイライト
+spline knot,スプライン ノット
+status list,ステータス リスト
+stencil,ステンシル
+stroke,ストローク
+subdivision level,サブディビジョン レベル
+superimposed profile,合成縦断
+support team,サポート チーム
+surface trimming,サーフェスのトリム
+sweep mesh,スイープ メッシュ
+Sync,同期
+task templates,タスク テンプレート
+threshold,しきい値
+timeline,タイムライン
+topology,トポロジ
+Triangulate Cap,キャップを三角形化
+tumble,タンブル
+universal manipulator,ユニバーサル マニピュレータ
+usage data,使用状況データ
+UV set,UV セット
+vertex ID,頂点 ID
+vertex map,頂点マップ
+vertex normal,頂点法線
+vertex valence,頂点価数
+Waveform Display,波形表示
+Webhook status,Webhook のステータス
+z vector,Z ベクトル
+zero padding,ゼロ パディング

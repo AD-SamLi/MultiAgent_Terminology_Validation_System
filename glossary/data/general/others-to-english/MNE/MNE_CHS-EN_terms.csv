@@ -1,0 +1,138 @@
+﻿source,target
+实际结果,actuals
+管理设置,Admin Settings
+高级雕刻属性,advanced sculpt attributes
+Alpha 混合,alpha-blend
+角速度,angular speed
+自动保存,autosave
+投标,bid
+二进制大对象,binary large object
+绑定姿势,bind pose
+蓝色铅笔,blue pencil
+模糊,blur
+模糊度,blurriness
+书签,bookmark
+边界边,border edge
+边界框,bounding box
+画笔,brush
+内置节点,built-in node
+凸起,bulge
+凹凸,bump
+相机,camera
+平开,casement
+字符大对象,character large object
+角色绑定,character rig
+透明涂层粗糙度,clear-coat roughness
+CLOB,CLOB
+闭合边,closed edge
+受约束对象,constrained object
+合同日期,contract date
+控制点外壳线,control vertex hull
+外凸,convex
+CPV,CPV
+CV,CV
+DAG,DAG
+默认/默认值,default
+默认任务模板,default task template
+部门,department
+景深,depth of field
+漫反射颜色,diffuse color
+数字高程模型,digital elevation model
+位移比例,displacement scale
+抖动,dithering
+DOF,DOF
+标高轴,elevation axis
+发射颜色,emissive color
+实体,entity
+解算管理器,Evaluation Manager
+事件日志条目,EventLogEntry
+吸管工具,eyedropper
+衰减,falloff
+衰减渐变,Falloff Ramp
+圆角,fillet
+整体应用算法,flood algorithm
+片段,fragment
+帧,frame
+全身反向运动学,full-body inverse kinematics
+高斯平滑过滤器,gaussian smooth filter
+重影,ghost
+重影驱动者,ghost driver
+万向锁定,gimbal lock
+GPU 覆盖,GPU Override
+曲线图编辑器,Graph Editor
+实例化,instanced
+瞬间快门,instantaneous shutter
+内部资源,internal resources
+插值,interpolation
+交集类别,intersection classification
+等参线,isoparm
+关键帧,keyframe
+肘形转角,knuckle
+图层,layer
+旧版 XGen,legacy XGen
+级别,level
+线性阵列,linear array
+主,Main
+网格,mesh
+网格面,mesh face
+网格采样,mesh sampling
+网格顶点,mesh vertex
+修改器,modifier
+NTSC,NTSC
+NURBS,NURBS
+不透明度,opacity
+运算符,operator
+粒子视图,Particle View
+轴,Pivot
+像素化球体,pixelated globe
+多边形建模工具架,poly modeling shelf
+基本体路径,prim path
+项目导航栏,project navigation bar
+代理,proxy
+四元数,quaternion
+查询字段,query field
+快速绑定,quick rig
+原始驱动程序,raw driver
+光线跟踪,ray tracing
+反射贴图,reflection map
+正多边形,regular polygon
+重新拓扑网格,retopology mesh
+重新拓扑修改器,retopology modifier
+重新拓扑过程,retopology process
+重新拓扑工具,retopology tools
+变换,rollover
+圆角矩形,rounded rectangle
+安全框,Safe Frame
+采样点,sample point
+脚本编辑器,script editor
+脚本选项卡,script tab
+雕刻,sculpt
+Shotgun 服务器,Shotgun server
+奇点,singularity
+渐变-偏移-强度,slope-offset-power
+平滑因子,smooth factor
+SMPTE,SMPTE
+SOP,SOP
+样条线结,spline knot
+状态列表,status list
+蒙板,stencil
+叠合纵断面,superimposed profile
+曲面修剪,surface trimming
+扫描网格,sweep mesh
+任务模板,task templates
+阈值,threshold
+工具组合,toolset
+拓扑,topology
+转码,transcode
+转码器,transcoder
+平移/转换,translation
+三角化封口,Triangulate Cap
+取消重影,unghost
+通用操纵器,universal manipulator
+UV 集,UV set
+顶点贴图,vertex map
+顶点边价,vertex valence
+波形显示,Waveform Display
+Webhook 状态,Webhook status
+Z 向量,z vector
+零填充,zero padding

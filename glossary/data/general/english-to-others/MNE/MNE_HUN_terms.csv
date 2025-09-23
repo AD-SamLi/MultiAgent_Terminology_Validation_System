@@ -1,0 +1,56 @@
+﻿source,target
+alpha-blend,alfasimitás
+angular speed,szögsebesség
+Autodesk Masters award,Autodesk mester díj
+Autodesk Masters Program,Autodesk mesterképzési program
+axis offset,tengelyeltolás
+binary large object,nagy bináris objektum
+bind pose,nyugalmi póz
+blend mode,keverési mód
+blend surface,simítási felület
+border,keret
+bounding box,befoglaló téglatest
+bulge,húrtávolság
+bump,felület
+bump map,felülettérkép
+bump mapping,felülettérképezés
+camera,kamera
+character large object,nagy karakteres objektum
+CLOB,CLOB
+closed edge,lezárt él
+constrained object,kényszerezett objektum
+constraint solver,kényszermegoldó
+control vertex,vezérlő csúcspont
+control vertex hull,vezérlő csomópontok hálója
+control vertices hull,vezérlő csomópontok hálója
+convex,konvex
+coordinate reference system,koordinátareferencia-rendszer
+depth of field,mélységélesség
+displacement scale,elmozdulásléptékezés
+dithering,összemosás
+DOF,DOF
+elevation axis,magassági tengely
+fillet,lekerekítés
+Filmbox,Filmbox
+full-body inverse kinematics,teljes test inverz kinematikája
+hardware shader,hardveres árnyaló
+isoparm,paraméter-szintvonal
+level,szint
+linear array,hosszirányú kiosztás
+MatchMover,MatchMover
+mesh,háló
+mesher,hálózó
+Meshmixer,Meshmixer
+MUD,MUD
+NTSC,NTSC
+OBJ,OBJ
+opacity,átlátszatlanság
+OpenEXR,OpenEXR
+ray tracing,sugárkövetés
+reflection map,visszaverődési térkép
+secondary joint,másodlagos csatlakozás
+slope-offset-power,Slope-Offset-Power
+SMPTE,SMPTE
+SOP,SOP
+surface trimming,felületmetszés
+universal manipulator,univerzális manipulátor

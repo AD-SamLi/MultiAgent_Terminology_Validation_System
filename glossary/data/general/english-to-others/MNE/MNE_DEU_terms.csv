@@ -1,0 +1,107 @@
+﻿source,target
+alpha-blend,Alpha-Blending
+angular speed,Winkelgeschwindigkeit
+bake,einbacken
+base mesh,Grundnetz
+Big New Better,Big New Better
+Big New Max,Big New Max
+binary large object,Binary Large Object
+bind pose,Bind Pose
+blend mode,Verschmelzungsmodus
+blend surface,Mischfläche
+blurriness,schema
+bookmark,Lesezeichen
+brush,Pinsel
+brush stroke,Pinselstrich
+bulge,Wölbung
+bump,Relief
+bump map,Relief-Map
+bump mapping,Oberflächen-Beleuchtungseffekt
+camera,Kamera
+casement,Flügel
+character large object,Character Large Object
+CLOB,CLOB
+closed edge,geschlossene Kante
+component,Komponente
+constrained object,abhängiges Objekt
+control vertex,Kontrollscheitelpunkt
+control vertex hull,Kontrollscheitelpunkthülle
+control vertices hull,Kontrollscheitelpunkthülle
+convex,konvex
+depth of field,Tiefenschärfe
+digital elevation model,DEM
+displacement map,Verschiebungs-Map
+displacement scale,Verschiebungsskala
+dithering,Pixelschattierung
+DOF,DOF
+dolly,Kamerastandpunkt verändern
+elevation axis,Höhenachse
+extraction,Extraktion
+eyedropper,Pipette
+face,Fläche
+fillet,Abrundung
+flyout,Flyout
+fly-out,Flyout
+fragment,Fragment
+frame,frame
+frame rate,Frame-Rate
+full-body inverse kinematics,Full-Body Inverse Kinematics
+gamma,Gamma
+hardware shader,Hardware-Shader
+highlight,Glanzpunkt
+Hypershade,Hypershade
+image map,Bild-Map
+image plane,Bildebene
+image-based lighting,bildbasierte Beleuchtung
+isoparm,Isoparameter
+joint,Gelenk
+knuckle,Straßenbucht
+layer,Layer
+level,Ebene
+limit surface,Grenzfläche
+linear array,lineare Anordnung
+mesh,Netz
+mesher,Netzerzeuger
+mid-tone,Mitteltöne
+modifier,Modifikator
+node-locked license,knotengesperrte Lizenz
+normal map,Normalen-Map
+NTSC,NTSC
+object space,Objektraum
+opacity,Deckkraft
+outline,Umriß
+Particle View,Partikelansicht
+Pivot,Drehpunkt
+polygon,Polygon
+pose,Pose
+primitive,Grundkörper
+projection map,Projektions-Map
+ray tracing,Raytracing
+reflection map,Reflexions-Map
+retopology,Topologieneuerstellung
+retopology mesh,Topologieneuerstellungs-Netz
+retopology modifier,Topologieneuerstellungs-Modifikator
+retopology process,Topologieneuerstellungs-Prozess
+retopology tools,Topologieneuerstellungs-Werkzeuge
+Safe Frame,Sicheres Frame
+sample point,Beispielpunkt
+screen projection,Bildschirmprojektion
+shading,Schattierung
+slope-offset-power,Slope-Offset-Power
+smoothing,Glättung
+SMPTE,SMPTE
+SOP,SOP
+specular highlight,Glanzpunkt
+spline knot,Spline-Knoten
+stencil,Schablone
+stroke,Strich
+subdivision level,Unterteilungsebene
+superimposed profile,überlagerter Längsschnitt
+surface trimming,Stutzen von Flächen
+threshold,Grenzwert
+translate,verschieben
+Triangulate Cap,Dreieckseinteilung für Verschluss
+tumble,senken
+universal manipulator,universeller Manipulator
+vertex ID,Scheitelpunkt-ID
+vertex normal,Scheitelpunktnormale

@@ -1,0 +1,158 @@
+﻿source,target
+Members,Medlemmer
+Project Admin,Project Admin
+Go to your project,Gå til prosjektet
+Project Home,Prosjekthjem
+Files,Filer
+Home,Hjem
+Packages,Pakker
+Sheets & Models,Tegninger og modeller
+Settings,Innstillinger
+Autodesk Profile,Autodesk-profil
+Output definitions,Definisjoner for utdata
+Takeoff Type,Beregningstype
+Create output definition,Opprett utdatadefinisjon
+Project,Prosjekt
+Name,Navn
+Unit of measure,Målenhet
+Cost,Kostnad
+Classifications,Klassifikasjoner
+Create another output definition,Opprett en annen utdatadefinisjon
+Import,Importer
+Import output definitions,Importer utdatadefinisjoner
+From an existing project,Fra et eksisterende prosjekt
+Import from a project,Importer fra et prosjekt
+Next,Neste
+Edit,Rediger
+Save changes,Lagre endringer
+Delete,Slett
+Getting Started,Komme i gang
+Recent Takeoff Packages,Nylige beregningspakker
+Measurement,Måling
+Classification systems,Klassifikasjonssystemer
+Currency,Valuta
+Measurement system,Målesystem
+Cost currency,Kostnadvaluta
+Upload custom classification system,Last opp egendefinert klassifiseringssystem
+Download template,Last ned mal
+Import custom system,Importer egendefinert system
+Inventory,Beholdning
+Group by,Grupper etter
+Export,Eksporter
+Reports,Rapporter
+Overview,Oversikt
+Embodied carbon,Inkorporert karbon
+Output Definitions,Utdatadefinisjoner
+Takeoff Types,Beregningstyper
+Edit takeoff type,Rediger beregningstype
+Material category,Materiell kategori
+Create report,Opprett rapport
+Options,Alternativer
+Carbon data,Informasjon om karbon
+Takeoff instances,Beregningsforekomster
+Fields,Felter
+Run report,Kjør rapport
+Show more,Vis mer
+Edit basic filters,Rediger grunnleggende filtre
+Add and reorder filters,Legg til og endre rekkefølgen på filtre
+Update,Oppdater
+Value,Verdi
+Add a rule,Legg til en regel
+Advanced filters,Avanserte filtre
+Filters,Filtre
+Total cost,Totalkostnad
+Quantity,Antall
+Package Total Cost,Totalkostnad for pakke
+More,Mer
+Apps,Apper
+Save,Lagre
+Export sheet to PDF,Eksporter tegning til PDF
+Save as,Lagre som
+Include,Inkluder
+Filter by classifications and takeoff types,Filtrer etter klassifiseringer og beregningstyper
+Legend,Tegnforklaring
+Text size,Tekststørrelse
+Legend width,Forklaringsbredde
+Export PDF,Eksporter PDF
+Model Mappings,Modellkartlegginger
+Model Properties,Modellegenskaper
+Fit to view,Tilpass visning
+Reassign,Tildel på nytt
+Total Cost,Totalkostnad
+Locations,Lokasjoner
+Assign location,Tildel sted
+Assign a location,Tildel en lokasjon
+Location,Lokasjon
+Location not set,Lokasjon ikke angitt
+Set a default location,Angi en standardlokasjon
+Set default location,Angi standardlokasjon
+Scale not set,Skala ikke angitt
+Calibrate,Kalibrer
+Calibration,Kalibrering
+Save snapshot,Lagre øyeblikksbilde
+Snapshots,Øyeblikksbilder
+Count,Telle
+Symbol Detection,Symboloppdagelse
+Selection,Valg
+Apply,Bruk
+Copy takeoff,Kopier beregning
+Package,Pakke
+Paste takeoff,Lim inn beregning
+Tool,Verktøy
+Reassign takeoff,Tildel beregning på nytt
+Area,Areal
+Linear,Lineær
+Appearance,Utseende
+BIM,BIM
+Combine,Kombiner
+Cutout,Utklipp
+Pan,Panorer
+Fit to View,Tilpass til visning
+Window Zoom,Vinduszoom
+Orbit,Bane
+First Person,Førsteperson
+Section Box,Seksjonsboks
+Form Clusters,Skjemagrupper
+Model Browser,Modellutforsker
+Properties,Egenskaper
+Levels,Nivåer
+Minimap,Minikart
+Full Screen,Fullskjerm
+Create takeoff type,Opprett beregningstype
+Description,Beskrivelse
+Primary output,Primærutdata
+Add details,Legg til informasjon
+Output name,Utdatanavn
+Classification 1,Klassifisering 1
+Classification 2,Klassifisering 2
+Formula,Formel
+Additional outputs,Ekstra utdata
+Model mappings,Modellkartlegginger
+Start takeoff,Start beregning
+Template,Mal
+Project name,Prosjektnavn
+Takeoff package,Beregningspakke
+Takeoff types,Beregningstyper
+filter,filter
+Clear all filters,Fjern alle filtre
+Create package,Opprett pakke
+Compare,Sammenlign
+Overlay,Overlagring
+Side By Side,Side om side
+Exit Compare,Avslutt sammenligning
+WIP,WIP
+Diff,Diff
+Upload files,Last opp filer
+Next to version set,Neste – Versjonssett
+Next to sheet numbers,Ved siden av tegningsnumre
+Next to titles and tags,Neste – Titler og nøkkelord
+Publish sheets,Publiser tegninger
+Publish to Takeoff Sheets & Models,Publiser til Takeoff Tegninger og Modeller
+Continue,Fortsett
+Upload models,Last opp modeller
+Done,Ferdig
+Publish,Publiser
+Search,Søk
+Sort,Sorter
+Bookmark,Bokmerke
+Document,Dokument

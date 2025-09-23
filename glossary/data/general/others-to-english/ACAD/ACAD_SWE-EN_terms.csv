@@ -1,0 +1,116 @@
+﻿source,target
+enkelt 3D-nät,3D mesh primitive
+verktyg för 3D-förflyttning,3D Move gizmo
+verktyg för 3D-rotation,3D Rotate gizmo
+verktyg för 3D-skalning,3D Scale gizmo
+ALKIS,ALKIS
+analytisk yta,analytical surface
+annoteringsbegränsning,annotational constraint
+ATIL,ATIL
+AutoCAD Migration Assistance,AutoCAD Migration Assistance
+AutoCAD för mobil,AutoCAD Mobile
+Autodesk Content Explorer,Autodesk Content Explorer
+blandningsläge,blend mode
+BLOB,BLOB
+avgränsad yta,bounded area
+kamerakalibrering,camera calibration
+CHAR,CHAR
+CLOB,CLOB
+inaktivt handtag,cold grip
+sammansatt solid,composite solid
+koncentrisk,concentric
+begränsningsfält,constraint bar
+begränsningsparameter,constraint parameter
+begränsningspunkt,constraint point
+begränsningsvariabel,constraint variable
+konstruktionslinje,construction line
+CRS,CRS
+CSS,CSS
+CWFU,CWFU
+DCM-motor,DCM Engine
+markering av beroende,dependency highlighting
+Design Review,Design Review
+Design Web Format,Design Web Format
+Digital Signature Extension,Digital Signature Extension
+dimensionell begränsning,dimensional constraint
+DMS,DMS
+DOF,DOF
+DPI,DPI
+Drawing Interchange Format,Drawing Interchange Format
+DTED,DTED
+DWF,DWF
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DXF,DXF
+dynamisk begränsning,dynamic constraint
+höjd,elevation
+ESW,ESW
+utökad hjälpfil,extended help file
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+fasett,facet
+FDO,FDO
+kontrollpunkt,fit point
+panel med storleksändring,fold panel
+friformsmodellering,freeform design
+geometrisk begränsning,geometric constraint
+geodata,geospatial information
+aktivt handtag,hot grip
+ISA,ISA
+isolinje,isoline
+isokurva,isoparm
+Keyhole Markup Language,Keyhole Markup Language
+KML,KML
+KMZ,KMZ
+språkpaket,language pack
+latitud,latitude
+jämnhet,level of smoothness
+linjesammanslagning,line merge
+longitud,longitude
+nät,mesh
+MLD,MLD
+modellparametrer,model parameter
+flerfunktionshandtag,multi-functional grip
+NANT,NANT
+NCLOB,NCLOB
+underordnad eller kapslad referens,nested reference
+nätverksyta,network surface
+NURBS-yta,NURBS surface
+ObjectARX,ObjectARX
+oktant,octant
+organisk modellering,organic modeling
+överbegränsning,over-constrain
+P&ID,P&ID
+panorama,panorama
+parametrisk ritning,parametric drawing
+ytpassning,patch surface
+pennverktyg,Pencil tool
+periodisk kurva,periodic curve
+fotomodellering,photo modeling
+framställning av fysiska prototyper,physical prototyping
+pickfirst-uppsättning,pickfirst set
+PIP,PIP
+plan yta,planar face
+PolarSnap,PolarSnap
+polybågsegment,polyarc segment
+polylinje,polyline
+hanterare för precisionsförinställning,precision presets manager
+snabb prototypframställning,rapid prototyping
+verklighetstrogen återgivning,reality capture
+referensbegränsning,reference constraint
+förfining,refinement
+upphäv begränsning,relax constraint
+ShapeManager,ShapeManager
+SketchUp,SketchUp
+solid,solid
+sammanfogning,stitch
+uppdelad mesh,subdivision mesh
+uppdelad yta,subdivision surface
+termoplast,thermoplastic
+uppåtriktning,up direction
+UV-rymd,UV space
+formhörn,vertex
+vattentät,watertight
+välkomstskärm,welcome screen
+XSL,XSL
+komprimerad KMZ-fil,zipped KML file

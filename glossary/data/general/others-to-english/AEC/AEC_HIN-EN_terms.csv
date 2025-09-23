@@ -1,0 +1,555 @@
+﻿source,target
+3D मिनी-मैप,3D Mini-map
+3D मूव गिज़्मो,3D Move gizmo
+3D मेश प्राचीन,3D mesh primitive
+3D रोटेट गिज़्मो,3D Rotate gizmo
+3D स्केल गिज़्मो,3D Scale gizmo
+Airtable,Airtable
+ALKIS,ALKIS
+ArchiCAD मॉडल,ArchiCAD model
+ASBD,ASBD
+ASHRAE फ़िटिंग,ASHRAE fitting
+ATIL,ATIL
+AutoCAD मॉडल,AutoCAD model
+Autodesk इमेज लाइब्रेरी,Autodesk Image Library
+BCA,BCA
+BCF,BCF
+BIM ऑब्जेक्ट,BIM object
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+CADmep,CADmep
+CDE,CDE
+COR,COR
+CS,CS
+CWFU,CWFU
+DECDEG,DECDEG
+DEM,DEM
+DLL,DLL
+DMS,DMS
+DTM,DTM
+EDM,EDM
+EGL,EGL
+EVC,EVC
+EVCE,EVCE
+FU,FU
+HDS,HDS
+HGL,HGL
+HP,HP
+HS अंत प्लेट,HS end plate
+HVAC ज़ोन,HVAC zone
+IMX,IMX
+InfraWorks मॉडल,InfraWorks model
+ISD,ISD
+LandXML,LandXML
+LAS,LAS
+LF,LF
+LP,LP
+MACP,MACP
+Max मॉडल,Max model
+NRV,NRV
+P&ID Modeler,P&ID Modeler
+PCO,PCO
+Photo on ReCap 360,Photo on ReCap 360
+PI बिंदु,PI point
+PID,PID
+Piranesi EPix,Piranesi EPix
+PlanGrid,PlanGrid
+PRC,PRC
+RCP,RCP
+RFI कस्टम फ़ील्ड,RFI custom field
+Roamer,Roamer
+SCS,SCS
+SCSCS,SCSCS
+SCSSCS,SCSSCS
+SketchUp,SketchUp
+SPI,SPI
+Structural Analysis for Revit,Structural Analysis for Revit
+TimeLiner,TimeLiner
+UCS,UCS
+VAV,VAV
+Vehicle Tracking,Vehicle Tracking
+WFU,WFU
+WIP मॉडल,WIP model
+XDRef,XDRef
+अंतिम कनेक्टर,end connector
+अकाउंट व्यवस्थापक,account administrator
+अटैचमेंट,attachment
+अतिउत्थान गुण,superelevation properties
+अतिउत्थान दर,superelevation rate
+अतिउत्थान प्राप्ति विधि,superelevation attainment method
+अधिभोग,occupancy
+अनावश्यक कमरा,redundant room
+अनुदैर्ध्य अंतर,longitudinal spacing
+अनुप्रस्थ बार,transversal bar
+अनुमोदक,approver
+अनुशासन,discipline
+अपस्ट्रीम बजट परिवर्तन क्रम,upstream budget change order
+अर्थवर्क,earthworks
+अविभाजित तलीय,undivided planar
+अविभाजित सड़कों की स्थितियां,undivided crowned
+अव्यक्त गर्मी,latent heat
+असेट लाइब्रेरी,asset library
+आइटम सारांश,item summary
+आइस जायंट,ice giants
+आकस्मिकता,contingency
+आधार परत,base layer
+आधार मैप,basemap
+आपूर्ति वायु प्रणाली,supply air system
+आपूर्तिकर्ता परिवर्तन आदेश,supplier change order
+आरंभकर्ता,initiator
+आर्क-कॉर्ड दूरी,arc-chord distance
+आविष्कारक सर्वर,Inventor Server
+इंटरफ़ेस कतरनी,interface shear
+इलेक्ट्रिकल उपकरण,electrical equipment
+इलेक्ट्रॉनिक दूरी मीटर (EDM),electronic distance meter
+ईंट की पतली परत,brick veneer
+उत्तल,convex
+उदारता,ampacity
+उद्योग मॉडल,industry model
+उधार लेने वाला,borrower
+उन्नयन ऐक्सिस,elevation axis
+उपयोगकर्ता रिसर्च,user research
+उपयोगकर्ता रूपरेखा,user contour
+उभार,bulge
+ऊंचाई,elevation
+ऊपरी मिट्टी को अलग करना,stripping top soil
+ऊर्ध्वाधर समायोजन,vertical adjustment
+एक तरफ़ा स्लैब,one way slab
+एक ही परिवार के,base family
+एकाधिक सदस्य,multiple members
+एक्सटर्नल डेटा रिफ़रेंस (XDRefs),external data reference
+एनालेम्मा,analemma
+एब्यूटमेंट,abutment
+एम्बेडेड वॉल,embedded wall
+एयर हेंडलर,air handler
+ऐक्टिविटी गैंट व्यू,Activity Gantt View
+ऑफ़सेट संरेखण,offset alignment
+ओनर द्वारा परिवर्तन,owner changes
+औद्योगिक शिखर प्रवाह कारक,Industrial Peak Flow Factor
+औसत अंत क्षेत्र,average end area
+औसत दैनिक सीमा,mean daily range
+कंपोज़िशन छत,composition roof
+कट-आउट गति हवा,cut-out speed wind
+कट-इन गति हवा,cut-in speed wind
+कटी हुई घास की चौड़ाई,swath width
+कतरनी वॉल,shear wall
+कदम बढ़ाना,step footing
+कनेक्टर,connector
+कमरे का शेड्यूल,room schedule
+कस्टम गर्डर,custom girder
+काउंट टेकऑफ़,count takeoff
+कार्टून सेट,cartoon set
+काल्पनिक लोड,notional load
+कीनोट,keynote
+कीनोट टैग,keynote tag
+कीनोट तालिका,keynote table
+कीनोट पाठ,keynote text
+केंद्र चिह्न,center mark
+केंद्र रेखा,center line
+केचमेंट,catchment
+केचमेंट क्षेत्र,catchment area
+केचमेंट लोकेशन,catchment location
+केबल ट्रे,cable tray
+केसमेंट,casement
+कैंट,cant
+कैंट ग्रेडियेंट,cant gradient
+कैंट व्यू,cant view
+कैच बेसिन,catch basin
+कैप,cap
+कैमरा-केंद्रित,camera-centric
+कैविटी वॉल,cavity wall
+कॉन्टेंट जागरूकता,content awareness
+कॉन्टेंट पैक,content pack
+कॉन्टेंट लाइब्रेरी,content library
+कॉलआउट टैग,callout tag
+कॉलआउट मार्कअप,callout markup
+कोड संयोजन,code combination
+कोणीय गति,angular speed
+कोप,cope
+कोरिडोर सेक्शन,corridor section
+क्यूबिक पैराबोला,cubic parabola
+क्राउन,crown
+क्राउन वाली सड़क,crowned roadway
+क्रॉसओवर लाइब्रेरी,crossover library
+क्रॉसिंग पाइप,crossing pipe
+क्लाउड मॉडल,cloud model
+क्लिप वॉल्यूम,clip volume
+क्लेस्टोरी,clerestory
+क्वॉलिटी रिस्क ट्रेंड,quality risk trend
+क्षेत्र रेखा,region line
+क्षैतिज समायोजन विधि,horizontal adjustment method
+खड़ी दीवार,stacked wall
+खाई,trench
+खिलना,bloss
+खुरपा,spud
+खोल का निर्माण,shell construction
+गड़गड़ाहट पट्टियाँ,rumble strips
+गर्डर,girder
+गर्डर आकार,girder shape
+गर्डर समूह,girder group
+गर्मी का बढ़ना,heat gain
+गिज़्मो,gizmo
+गीला बल्ब,wet bulb
+गैंट,Gantt
+ग्राउंड कंडक्टर,ground conductor
+ग्राउंड प्रोफ़ाइल,ground profile
+ग्राउंड मॉडल,ground model
+ग्रेड ब्रेक,grade break
+ग्रेडिंग प्लान,grading plan
+ग्रेविटी नेटवर्क,gravity network
+ग्रेविटी पाइप,gravity pipe
+घनीभूत नाली,condensate drain
+घाट,pier
+घाट का कॉलम,pier column
+घाट की कैप,pier cap
+घोड़िया,corbel
+चयन संकल्प,selection resolution
+चिकनाई का स्तर,level of smoothness
+छत का रिज,roof ridge
+छत का सोफिट,roof soffit
+छिड़काव,sprinkler
+जल निकासी,underdrain
+जॉबसाइट फ़ोटो,jobsite photos
+जोड़,knuckle
+टकराव समूह,clash group
+टकराव सेवा,clash service
+टर्न स्लिप लेन,turn slip lane
+टर्नआउट टेबल,turnout table
+टाइटल मार्क,title mark
+टाइमलाइन,timeline
+टिंकरप्ले,Tinkerplay
+टिप्पणी,annotation
+टिल्ट कोण,tilt angle
+टीम स्पेस,Team Space
+टू-कट प्लंब,two-cut plumb
+टू-कट स्क्वाय,two-cut square
+टूलस्पेस,toolspace
+टेकऑफ़,takeoff
+टेकऑफ़ ऑब्जेक्ट,takeoff object
+टेकऑफ़ प्रकार,takeoff type
+टेम्प्लेट,template
+टैग,tag
+ट्रांज़िशन फ़िटिंग,transition fitting
+ट्रांज़िशन स्टेशन,transition station
+ट्रू करंट,true current
+ट्रू लोड,true load
+ट्रेडप्लेट,treadplate
+ठंडे पानी की स्थिरता इकाई,cold water fixture unit
+ठोस प्रबलित कंक्रीट स्लैब,solid reinforced concrete slab
+डक्ट कनेक्टर,duct connector
+डक्ट डैम्पर,duct damper
+डक्ट प्रणाली,duct system
+डक्ट फ़िटिंग,duct fitting
+डक्ट लाइनिंग,duct lining
+डिज़ाइन रिपोर्ट,design report
+डिजिटल भूभाग मॉडल,digital terrain model
+डेक,deck
+डेटा सेंटर,data center
+डेड लोड,dead load
+डेलाइट पोर्टल,daylight portal
+डेलाइटिंग ग्लास,daylighting glass
+डेस्कटॉप कनेक्टर,Desktop Connector
+डैशबोर्ड,dashboard
+ड्राय बल्ब,dry bulb
+ड्रायवॉल,drywall
+ड्रैनेज नेटवर्क,drainage network
+ड्रॉइंग समूह,drawing group
+ड्रॉप रिफ़रेंस लोकेशन,drop reference location
+ढलान वाला बीम,sloped beam
+ढलान वाली पाइपिंग,sloped piping
+तटस्थ कंडक्टर,neutral conductor
+तन्यता क्षमता,tensile strength
+तल का प्लान,floor plan
+तापमान लोड,temperature load
+तूफ़ान नाली,storm sewer
+त्वरित टिकट,quick tickets
+दबाव पाइप,pressure pipe
+दबाव हानि,pressure loss
+दर्शक,viewer
+दस्तावेज़,document
+दस्तावेज़ लॉग,document log
+दिगंश,azimuth
+दिशा प्रकार,direction type
+दीर्घवृत्त सेगमेंट,ellipse segment
+दीवार की नींव,wall foundation
+दुकान का नक्शा,shop drawing
+देशी किट,country kit
+द्विसममितीय,bisymmetric
+धोकर साफ़ करना,washoff
+नमूना बिंदु,sample point
+नमूना स्रोत,sampled source
+नर्स कॉल डिवाइस,nurse call device
+नाली,conduit
+नाली कनेक्टर,conduit connector
+नाली की फ़िटिंग,conduit fitting
+निकास वायु,exhaust air
+निर्माणशीलता मॉडलिंग,constructability modeling
+निर्मित छत,built-up roof
+निष्ठा,fidelity
+नींव,foundation
+नेट ग्राफ़,net graph
+नॉमिनल व्यास,nominal diameter
+नोड,node
+पथ सुदृढीकरण,path reinforcement
+परत की अवस्था,layer state
+परिमित-तत्व ब्रिज विश्लेषण,finite-element bridge analysis
+परिवर्तन टूल,Changes tool
+परिवर्तन विश्लेषण,change analysis
+परिवर्तनशील शिखा,variable crest
+परिवर्तनीय वायु मात्रा,variable air volume
+परिवार का हिस्सा,part family
+पर्दा पैनल,curtain panel
+पर्दा प्रणाली,curtain system
+पर्दा वॉल,curtain wall
+पर्दा वॉल इकाई,curtain wall unit
+पर्दा वॉल ग्रिड,curtain wall grid
+पर्दा वॉल फ़्रेम,curtain wall frame
+पर्दा वॉल मुलियन,curtain wall mullion
+पर्दे वाली ग्रिड,curtain grid
+पाइप इन्सुलेशन,pipe insulation
+पाइप ऐक्सेसरीज़,pipe accessory
+पाइप कनेक्टर,pipe connector
+पाइप प्लान,pipe plan
+पाइप फ़िटिंग,pipe fitting
+पाइप बियरिंग,pipe bearing
+पाइप रन,pipe run
+पाइप लेआउट,pipe layout
+पार्श्व ब्रेसिंग,lateral bracing
+पावर लोड,power load
+पावर सर्किट,power circuit
+पावर सहयोगी,power collaborator
+पिच,pitch
+पीपल लेटेंट हीट गेन,people latent heat gain
+पुश पिन,push pin
+पूर्वाभ्यास,walkthrough
+पैटर्न भरें,fill pattern
+पैन जोइस्ट,pan joist
+पैनलबोर्ड,panelboard
+पॉइंट क्लाउड इमेज लुकअप,Point Cloud Image Lookup
+पॉलीलाइन,polyline
+प्रकाश डिवाइस,lighting device
+प्रकाश शक्ति घनत्व,lighting power density
+प्रकाश स्थिरता,lighting fixture
+प्रक्षेपित समन्वय प्रणाली,projected coordinate system
+प्रगति ट्रैकिंग,progress tracking
+प्रगति तस्वीरें,progress photos
+प्रतिक्रियाशील टिकट,reactive ticket
+प्रतिच्छेदन का निहित बिंदु,implied point of intersection
+प्रतिच्छेदन घटक,intersection component
+प्रतिच्छेदन चतुर्थांश,intersection quadrant
+प्रतिशत अभेद्य,percentage impervious
+प्रभाव लागत,impact cost
+प्रस्ताव,proposal
+प्राथमिक मॉडल,primary model
+प्री-ऐक्शन अग्नि सुरक्षा प्रणाली,pre-action fire protection system
+प्रीसमैन स्लॉट,Preissmann slot
+प्रॉपर्टी लाइन,property line
+प्रोजेक्ट वसारी,Project Vasari
+प्रोजेक्ट व्यवस्थापक,project administrator
+प्रोफ़ाइल ग्रिड व्यू,profile grid view
+प्रोफ़ाइल ग्रेड उन्नयन,profile grade elevation
+प्रोफ़ाइल ग्रेड लाइन,profile grade line
+प्रोफ़ाइल व्यू,profile view
+प्लंबिंग फिक्स्चर,plumbing fixture
+प्लेनम,plenum
+प्लेस मी,Place Me
+फ़ज़,fuzz
+फ़ाइल,file
+फ़िलेट,fillet
+फ़िलेट की त्रिज्या,fillet radius
+फ़ील्ड बुक,field book
+फ़ील्ड रिपोर्ट,field report
+फ़ील्ड स्प्लिसेस,field splice
+फुटपाथ अलग करना,stripping pavement
+फ़ेज फ़िल्टर,phase filter
+फ़ेज मैपिंग,phase mapping
+फ़ॉर्म,forms
+फ़ॉर्म तत्व,form element
+फ़ोटॉन मैप,photon map
+फ़ोटोमेट्रिक आकार,photometric shape
+फ़्री फ़्लोट,free float
+फ़्रेम,frame
+फ़्रेम दर,frame rate
+फ्लेयर कोण,flare angle
+फ़्लोट वक्र,float curve
+बजट ट्रांसफ़र,budget transfer
+बट,butt
+बर्निशिंग,burnishing
+बाधा तत्व,constraint element
+बिंदु मार्कर,point marker
+बिंदु लोड,point load
+बिंदु समूह,point group
+बिंदु सीमा स्थिति,point boundary condition
+बिखरा हुआ,diffuse
+बियरिंग वॉल,bearing wall
+बिलिंग की अवधि,billing period
+बिल्डिंग कॉमन एरिया,building common area
+बिल्डिंग फ़ुटप्रिंट,building footprint
+बिल्डिंग स्तर,building level
+बेंट बार,bent bar
+बेंड व्यास,bend diameter
+बैकसाइट,backsight
+बैठक,meetings
+बॉक्स गर्डर,box girder
+बॉल इन कोर्ट,ball in court
+ब्रश एल्यूमीनियम,brushed aluminium
+ब्रांच सर्किट,branch circuit
+भूजल,ground water
+भूभाग स्तर,terrain level
+भूमि विकास,land development
+भूमिका,role
+भौतिक गुण,material properties
+मल्टी-पोल सर्किट,multi-poled circuit
+मल्टी-शीट,multi-sheet
+मांग आरेख,demand diagram
+मांग कारक,demand factor
+मामूली टिक,minor tick
+मार्कअप,markup
+मुख्य अनुबंध,main contract
+मूल कारण,root cause
+मूल्यों का शेड्यूल,schedule of values
+मेटर जोड़,miter join
+मॉडल पाठ,model text
+मॉडल बिल्डर,Model Builder
+मॉडल बिल्डर मॉडल,Model Builder model
+मॉडल संरेखण,model alignment
+मौजूदा निर्देशिका,current directory
+यांत्रिक लोड,mechanical load
+यात्रा का समय,time of travel
+यूनिडायरेक्शनल झुकना,unidirectional bending
+योगदानकर्ता,contributor
+यौगिक वक्र,compound curve
+राउंड पाइप,round pipe
+रिफ़रेंस प्रोफ़ाइल,reference profile
+रिसर,riser
+रिहाई की शर्त,release condition
+रूप-रंग की शैली,appearance style
+रूम कैविटी रेशो (RCR),room cavity ratio
+रे ट्रेसिंग,ray tracing
+रेंडरिंग का प्रतिपादन,rendering appearance
+रेखा सीमा,line boundary
+रेल संरेखण,rail alignment
+रेलिंग,guardrail
+रेलिंग प्रणाली,railing system
+रैखिक आयाम,linear dimension
+रैखिक ऐरे,linear array
+रैखिक टेकऑफ़,linear takeoff
+रैखिक स्केल,linear scale
+रोटोडायनामिक पंप,rotodynamic pump
+रोल ओवर,rollover
+लागत पेमेंट एप्लिकेशन,cost payment application
+लागत प्रबंधन,cost management
+लागत प्रभाव,cost impact
+लिबास,veneer
+लुढ़की हुई छत,rolled roof
+लेबल शैली,label style
+लेवल लैंडिंग,level landing
+लोकेशन,locations
+लोड आरेख,load diagram
+लोड केस,load case
+लोड वर्गीकरण,load classification
+वक्र टेस्सेलेशन दूरी,curve tessellation distance
+वक्र बीम,curved beam
+वक्र-सर्पिल,curve-spiral
+वर्कशेयरिंग मॉनिटर,Worksharing Monitor
+वापसी वायुप्रवाह,return airflow
+वापसी हवा,return air
+वाष्पीकरण,evaporation
+वास्तुशिल्प फ़र्श,architectural floor
+विक्षेपण का कोण,angle of deflection
+विज़न ग्लास,vision glass
+वितरण सूची,distribution list
+विभाजित प्रोफ़ाइल व्यू,split profile view
+विशिष्ट सेक्शन,spec section
+विशेषता क्षमता,characteristic strength
+विश्लेषणात्मक तल,analytical floor
+विश्लेषणात्मक ब्रेस,analytical brace
+विश्लेषणात्मक सतह,analytical surface
+वेग दबाव,velocity pressure
+वेब की मोटाई,web thickness
+वेल्डेड वायर फैब्रिक,welded wire fabric
+वैचारिक ऊर्जा विश्लेषण,conceptual energy analysis
+वैचारिक जन,conceptual mass
+वैश्विक समन्वय प्रणाली,global coordinate system
+व्यावसायिक इकाइयां,business units
+व्यू सूची,view list
+व्यूपोर्ट,viewport
+शिखा वक्र,crest curve
+शिथिलता वक्र,sag curve
+शीट,sheet
+शीट प्रवाह,sheet flow
+शून्य RFI,void RFI
+शून्य ज्यामिति,void geometry
+शून्य स्लैब,voided slab
+संकुचित,contracted
+संकेंद्रित बल,concentrated force
+संतुलन कैंट,equilibrium cant
+संरचना प्रोफ़ाइल,structure profile
+संरचनात्मक ब्रिज डिज़ाइन,Structural Bridge Design
+संरचनात्मक मॉडलिंग,structural modeling
+संरेखण ऑफ़सेट,alignment offset
+संरेखण ज्यामिति बिंदु,alignment geometry point
+संरेखित सेक्शन व्यू,aligned section view
+संवहन लोड,convection load
+सड़क एल्बो,street elbow
+सड़क की सजावट,roadway decoration
+सतह प्रोफ़ाइल,surface profile
+सदस्य अंत बल,member end forces
+सदस्य बल,member forces
+सबअसेंबली आकार,subassembly shape
+सबकॉन्ट्रैक्टर क्वॉलिटी रिस्क ट्रेंड,subcontractor quality risk trend
+सबमिटल,submittal
+सब-लोकेशन,sub-location
+समग्र व्यू,aggregate view
+समन्वय स्थान,coordination space
+समन्वित आयाम,ordinate dimensioning
+समस्या,issue
+समस्याएं,issues
+समीक्षक,reviewer
+समोच्च लेबल,contour label
+सम्पीडक क्षमता,compressive strength
+सरिया बार,rebar bar
+सर्वेक्षण बिंदु,survey point
+सहनशीलता,tolerance
+सह-समीक्षक,co-reviewer
+साइडशॉट बिंदु,sideshot point
+सामग्री टेकऑफ़ (MTO),material takeoff
+सामान्य कॉन्ट्रैक्टर,general contractor
+सामान्य कॉन्ट्रैक्टर कंपनी,general contractor company
+सामूहिक ज़ोन,mass zone
+सामूहिक तल,mass floor
+सिकुड़न-रोधी सुदृढीकरण,anti-shrinkage reinforcement
+सिपोलेटी,Cipolletti
+सिरेमिक टाइल,ceramic tile
+सुदृढीकरण पैटर्न,reinforcement pattern
+सेक्शन प्लेन,section plane
+सेक्शन शीट,section sheet
+सेटिंग्स,settings
+सेवा मंजूरी,service clearance
+स्कीमा नाम,schema name
+स्कैलर TSDB,scalar TSDB
+स्टील गर्डर,steel girder
+स्टील ट्रस,steel truss
+स्टेकआउट संरेखण रिपोर्ट,stakeout alignment report
+स्टैक्ड प्रोफ़ाइल व्यू,stacked profile view
+स्ट्रिंग फ़ील्ड,string field
+स्ट्रीप विंडो,strip window
+स्थान ढलान,spot slope
+स्थिर विंडो,fixed window
+स्नैपशॉट,snapshot
+स्नोमेल्ट,snowmelt
+स्पष्ट पावर,apparent power
+स्पीड स्ट्रिपिंग,speed striping
+स्पेस नेमिंग यूटिलिटी,Space Naming Utility
+स्लैब टॉप,slab top
+स्लैब तल,slab bottom
+स्विचबोर्ड,switchboard
+हस्तक्षेप जाँच,interference check
+हाइपरमॉडलिंग,hypermodeling
+हीट आइलैंड,heat island
+हीटिंग और कूलिंग लोड,heating and cooling loads
+हीटिंग डिज़ाइन तापमान,heating design temperature
+हैंगर,hanger
+हॉट कंडक्टर,hot conductor
+होम,Home

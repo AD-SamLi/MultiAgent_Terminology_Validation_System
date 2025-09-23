@@ -1,0 +1,1125 @@
+﻿source,target
+[アクション モディファイヤ]ボタン,action modifier button
+[クラウド クレジット]パネル,Cloud Credits panel
+[モデルを編集]作業スペース,edit model workspace
+[内部熱]荷重タイプ,Internal Heat load types
+[単純化]作業スペース,simplify workspace
+[原点]作業フィーチャ,origin work feature
+[終了] パネル,Finish panel
+[結果]作業スペース,results workspace
+[表示] パネル,Draw panel
+[電子デザイン]作業スペース,electronics workspace
+1 インチあたりのドット数,dots per inch
+3D パッキング,3D Packing
+4 分の 1 断面,quarter section view
+4 分の 3 断面,three quarter section view
+ABF,ABF
+AM,AM
+Ansys Mechanical,Ansys Mechanical
+aPriori,aPriori
+Arcam EBM,Arcam EBM
+ATU,ATU
+AutoCAD DXF,AutoCAD DXF
+Autodesk Masters アワード,Autodesk Masters award
+Autodesk Masters プログラム,Autodesk Masters Program
+Autodesk パートナー,Autodesk Partner
+Autodesk プロジェクト,Autodesk Projects
+B 軸,B axis
+BINVOX,BINVOX
+BNEP プロトコル,Bluetooth Network Encapsulation Protocol
+BRDF,BRDF
+C 軸,C axis
+CA 証明書,CA certificates
+CAD サーフェス,CAD surface
+CAD マネージャ,CAD manager
+CAM プログラミング,CAM programming
+CAM 機能,CAM capabilities
+CLDATA,CLDATA
+CMM,CMM
+CNC,CNC
+CNC コントローラ,CNC controller
+Common Core,Common Core
+Configurator 360,Configurator 360
+COPPA,COPPA
+CORS,CORS
+CV,CV
+CV ハル,CV hull
+DirectX ランタイム,DirectX Runtime
+DPI,DPI
+DSS,DSS
+DTD,DTD
+DTLS サーバ,DTLS server
+dxf,dxf
+EBM,EBM
+EDM,EDM
+Electro Discharge Machining,Electro Discharge Machining
+ESDP プロトコル,Extended Service Discovery Protocol
+export EXR,EXR
+F3Z,F3Z
+FEA メッシュ,FEA mesh
+FFF プリント,FFF print
+FFF マシン,FFF machine
+FFF 積層造形,FFF additive manufacturing
+Fusion Electronics,Fusion Electronics
+Fusion Lifecycle,Fusion Lifecycle
+Fusion Modeling Data,Fusion Modeling Data
+Fusion PCB,Fusion PCB
+Fusion Team 管理者,Fusion Team administrator
+Fusion マテリアル ライブラリ,Fusion material library
+G コード,GCode
+GTC,GTC
+Gurmukhi,Gurmukhi
+Helius Composite,Helius Composite
+Helius PFA,Helius PFA
+HID プロトコル,Human Interface Device Protocol
+HMD,HMD
+HSM カーネル,HSM kernel
+HSV,HSV
+HTTP プロトコル,Hypertext Transfer Protocol
+I 型断面,I section
+iCopy,iCopy
+iFeatures,iFeatures
+iLogic デザイン コピー,iLogic Design Copy
+iPart を作成,iPart Author
+iProperties,iProperties
+ISO,ISO
+ISTE,ISTE
+JIT オプション,JIT option
+kPa,kPa
+L 型断面,L section
+Learning Inventor 2010,Learning Inventor 2010
+Live Enabler,Live Enabler
+Live Update,live update
+LOD,LOD
+LOD バイアス,LOD bias
+MachineDNA,MachineDNA
+MR,MR
+MTT,MTT
+MultiValue,MultiValue
+NC コード,NC code
+NC セットアップ,NC setup
+NC プログラム項目,NC Program item
+netfabb エンジン,netfabb Engine
+NGSS,NGSS
+NPR マテリアル,NPR material
+O リング,o-ring
+Offset UV,UV
+PCB,PCB
+PCB フィーチャ,PCB feature
+PCRE,PCRE
+POSIX,POSIX
+POSIX の照合要素,POSIX collating elements
+power feature,power feature
+power surface,power surface
+PowerMill アディティブ,PowerMill Additive
+PRM の生成,PRM generation
+PRM ファイル,PRM file
+Pro,Pro
+Project Simulus,Project Simulus
+Rapid Shape プリンタ,Rapid Shape printers
+RGB 吸収係数,rgb absorption coefficient
+Rho 値,rho value
+RLE,RLE
+Shera プリンタ,Shera printers
+Simulation Utility,Simulation Utility
+Skill Builder,Skill Builder
+SLM マシン,SLM machine
+SLS,SLS
+SolidscapeDL プリンタ,SolidscapeDL Printer
+SSL ハンドシェーク,SSL handshake
+STL,STL
+Straumann プリンタ,Straumann printers
+Structo Velox プリンタ,Structo Velox printer
+Substance パノラマ,substance panorama
+Substance プリセット,Substance preset
+Substance プロパティ,Substance property
+T スプライン,T-Spline
+T スプライン ボディ,T-Spline body
+Thick Client,Thick Client
+Thin Client,Thin Client
+U 型断面,U Section
+UCS,UCS
+UDP プロトコル,User Datagram Protocol
+UV スナップショット,UV snapshot
+UV マッピング,UV mapping
+UV レイアウト,UV layout
+UV 島,UV island
+V 形突合せ,v butt
+Vault Workgroup,Vault Workgroup
+Vault アカウント,Vault account
+Vault で保管されたバージョン,vaulted version
+Vault の制約,vaulting restriction
+Vin タイル,vin tiles
+VRED Cluster Service,VRED Cluster Service
+VRED クラスタ デーモン,VRED Cluster Daemon
+VRED プロジェクト,VRED project
+VRML アニメーション,VRML animation
+VRPN,VRPN
+WCS 設定,setup WCS
+X 軸クリアランス位置,X clearance position
+XBUILD,XBUILD
+アイソカーブ,isocurve
+アイソメ,isometric
+アイソライン,isoline
+アイテム リビジョン,item revision
+アウトライン表示,outlining
+アセット マネージャ,Asset Manager
+アセット ライブラリ,asset library
+アセンブリ パターン,assembly pattern
+アセンブリ拘束,assembly constraint
+アダプティブ リファインメント,adaptive refinement
+アップスキン,upskin
+アニメーションの場面,animation footage
+アニュラ リング,annular ring
+アプリケーション,application
+アライメント,alignment
+アンダーカット,undercut
+アンダーカット オプション,Undercut option
+アンダーレイ,underlay
+アンダーレイ ジオメトリ,underlay geometry
+イベント シミュレーション,event simulation
+イメージ ノイズ除去ツール,image denoiser
+イメージ フレームバッファ,image framebuffer
+イメージのノイズ除去,image denoise
+インターロック,interlock
+インタラクティブ被写界深度の品質,interactive DoF quality
+インテリジェント カーソル,intelligent cursor
+インピーダンス,impedance
+インフィル,infill
+インプレイス編集,edit in place
+ウィスパー カット,whisper cuts
+ウェッジ,wedge
+ウェブの厚さ,web thickness
+ウェルド ライン,weld line
+ウォーム ギア,worm gear
+エジェクタ,ejector
+エジェクタ ピン,ejector pin
+エジェクタ プレート,ejector plate
+エッジ,edge
+エッジ インデックス,edge index
+エッジ コンストレイント,edge constraint
+エッジ パス,edge path
+エッジ ラムダ,Edge lambda
+エラーマップ,error map
+エルボ,elbow
+エレベーション,elevation
+エレメント,element
+エンド フィル,end fill
+エンボス,emboss
+オーセチック,auxetic
+オーバートラベル,overtravel
+オーバーハング角度,overhang angle
+オーバーラップ,overlap
+オブジェクト カテゴリ,object category
+オレンジ ピール,Orange Peel
+カーブ,curve
+カーブ定義,curve definition
+カーブ編集,curve editor
+ガイド ポイント,guided point
+ガイド レール,guide rail
+ガウジ,gouge
+カスケード冷却水口,cascade water junction
+カスタム パーツ ライブラリ,custom part library
+カッター パス,cutter path
+カッター補正,cutter compensation
+カナロック,Kana Lock
+カメラ ターンテーブル,camera turntable
+カメラを反時計回り,camera counterclockwise
+カラーパレット,colour palette
+カラーライゼーション オプション,colorization options
+キー ポイント,key point
+ギズモ,gizmo
+ギャップ,gap
+キャップ フィレット,cap filleting
+キャビティ,cavity
+キャリア,Carrier
+キャンバス,canvas
+キャンバス内ツール,in-canvas tool
+キルト,quilt
+クイック リスト,Quick List
+クラウド クレジット タスク,cloud credit task
+クラウド クレジットの残高,cloud credit balance
+グラウンド面,ground plane
+グラフィック ハンドル,graphic handle
+グラフィックス カード,graphics card
+クリアランス,clearance
+クリアランス値,clearance value
+グリッド,grid
+グリッパー,gripper
+グリッパー アーム,gripper arm
+クリップ平面,clip planes
+グリップ点,grip point
+グループ化されていないボディ,ungrouped bodies
+グレイン方向,grain direction
+クローズド返しベンド,closed return bend
+グローバル座標系,global coordinate system
+グローバル線形慣性荷重,linear global load
+グローバル角慣性荷重,angular global load
+グローブ ルート,groove root
+クロームの反射の色,chrome reflection color
+クローン,clone
+ゲート,gate
+ケーブル ラック,cable tray
+コア,core
+コア ピン,core pin
+コインジェクション成形,co-injection molding
+コースティクス,caustics
+コーティング,coating
+コード スニペット,code snippet
+コーナー フィレット,Corner Filleting
+コーナー フィレット スタイル,corner filleting style
+コーナー半径,corner radius
+コールアウトのスタイル,callout style
+コールド スラグ,cold slug
+コネクタ,connector
+コネクタ ピン,connector pin
+コマンド ウィンドウ,command window
+コラボレーション セッション,collaboration session
+コレット,collet
+コンストレインされたオブジェクト,constrained object
+コンター フランジ,contour flange
+コンタクト ポイント,contact point
+コンタクト ポイント バウンダリー,contact point boundary
+コンテキストとのリンク解除,context break link
+コンテンツ センター エディタ,Content Center Editor
+コンテンツ ライブラリ,content library
+コンピュータノード,Computenode
+コンポーネント,component
+コンポーネントの表示,component visibility
+コンポーネントの配置,component placement
+コンポジット カーブ,composite curve
+サーフェス,surface
+サーフェス フィレット,surface fillet
+サーフェス プローブ,surface probe
+サーフェス ボディ,surface body
+サーフェスのトリム,surface trimming
+サーフェスの関連付け,surface associativity
+サーフェスをプロモート,promote surface
+サーフェス投影,Surface Projection
+サーフェス検査グループ,surface inspection group
+サーフェス法線,surface normal
+サーフェス法線円弧,surface normal arc
+サーフェス面,surface face
+サイクル,cycle
+サイド,side
+サイド コア,side core
+サイト ライン,sight line
+サイド ロック,side lock
+ざぐり,spotface
+ざぐり穴,counterbore hole
+サブサーフェス スキャタリング,subsurface scattering
+サブスピンドル,sub-spindle
+サブディビジョン,subdivide
+サポート生成,support generation
+サポート設定,support settings
+シーケンサ,sequencer
+シーケンス ツリー,sequence tree
+シード カーブ,seed curve
+シート メタル,sheet metal
+シート メタル フィーチャ,sheet metal features
+シート メタル ボディ,sheet metal body
+シート メタル ルール,sheet metal rule
+シートバー,sheet bar
+シード点,Seed point
+シーリング プラグ,sealing plug
+シーングラフ,Scene Graph
+シーンプレート,sceneplate
+シェイプ,shape
+シェーダ,shader
+ジェスチャーの動作,gesture behavior
+ジェネレーティブ テクノロジ,generative technology
+ジェネレーティブ デザイン セットアップ,generative design setup
+ジェネレーティブ モデリング,generative modeling
+ジェネレーティブ モデル,generative model
+シェル,shell
+ジオコード マネージャ,geocode manager
+ジオメトリ,geometry
+ジオメトリ ノード,geometry node
+ジオメトリック フィーチャ,geometric feature
+ジオメトリの単純化,geometry simplification
+ジオメトリ構造,geometry structure
+シミュレーション メッシュ,simulation mesh
+シミュレーションした方向,Simulated Orientations
+シム リング,shim ring
+シャッター スピード,shutter speed
+シャドウ マテリアル,Shadow Material
+シャンク,shank
+シャンク クリアランス,Shank clearance
+シャンク プロファイル,Shank profile
+ジャンプ遅延,jump delay
+シュリンクラップ,shrinkwrap
+シュリンクラップ代替,shrinkwrap substitute
+ジョイント,joint
+ジョイントの位置合わせ,joint alignment
+シングルスピンドル旋盤,single-spindle lathe
+ジンバル,gimbal
+シンボル定義,symbol definition
+スイート ワークフロー,Suite Workflows
+スイス旋盤加工,Swiss machining
+スカイライト環境,skylight environment
+スクラッチ ゾーン,scratch zone
+スケール,scale
+スケッチ イラスト,sketch illustration
+スケッチ エッジ,sketch edge
+スケッチ エンティティ,sketch entity
+スケッチ グリッド,sketch grid
+スケッチ フィーチャ,sketched feature
+スケッチ記号,sketched symbol
+スターのポイント,star point
+スタディ タイプ,study type
+ステップ サイズ,step size
+ステップオーバー,stepover
+ストック,stock
+ストック モデル,stock model
+ストップ ピン,stop pin
+ストライプ,stripe
+ストライプのオフセット,Stripe Offset
+ストライプ角度,stripe angle
+ストライプ間隔,stripe gap
+ストラテジー,strategy
+スナップショット,snapshot
+スニペット,snippet
+スピンドル較正,Spindle calibration
+スプライン,spline
+スプリット サーフェス,split surface
+スプルー,sprue
+スプルー ブッシュ,sprue bushing
+スペキュラ カラー,specular color
+スペクトル,spectrum
+スポット ドリル,spot drill
+スマート サーフェス,Smart Surfacer
+スムーズ,smooth
+スムーズ モード,smoothing mode
+スライダー,slider
+スライド コア,slide core
+スロット ミル,slot mill
+セイフティ アバター,safety avatar
+セカンダリ,Secondary
+セグメント,segment
+セル シェーディング,cel shading
+セルフタッピンねじ,self-tapping screw
+センサー,sensor
+せん断発熱,shear heating
+せん断速度,shear rate
+ソース,Source
+ソース コンポーネント,source component
+ソフト トランジション,soft transition
+ソフト ボックス,soft box
+ソリッド,solid
+ソリッド サポート,Solid Support
+ソリッド面,solid face
+ターゲット,Target
+ターゲット コンポーネント,target component
+ターゲット ポイント,target point
+ターゲット安全率,target safety factor
+ターミネータ,terminator
+ダイアルアップ ネットワーク接続,dial-up network connection
+ダイナミック プレビュー,dynamic preview
+ダイナミック ポイント,dynamic point
+ダイレクト モデル,direct model
+ダウンスキン,downskin
+ダウンスキン解析,downskin analysis
+ダクト コネクタ,duct connector
+タッチ センサー,touch sensor
+タレット,turret
+ダンプ ファイル,dump
+チーム,team
+チェーン選択,chain selection
+チェッカーボード テクスチャ,checkerboard texture
+チップの形成,chip formation
+チャック,chuck
+チャックの爪,chuck jaws
+チルト値,tilt value
+ツイン対称,twin-symmetric
+ツールバー,toolbar
+ツールパス,toolpath
+ツールパス シミュレーション,toolpath simulation
+ツールパス セグメント,toolpath segments
+ツールパス テール,toolpath tail
+ツールパス ポイント,toolpath points
+ツールパス作業平面,toolpath workplane
+ツールパス編集メニュー,Toolpath Edit menu
+ツールパス計算,Toolpath Calculation
+つまみねじ,thumb screw
+ツリー ビュー,tree view
+データ バッファ,data buffer
+データ パネル,data panel
+データグラム,Datagram
+データベースのエクスポート,database exports
+データム ターゲット,datum target
+データム指示枠,datum reference frame
+データム注記,datum note
+テーパ ミル,tapered mill
+デカール イメージ,decal
+テクスチャのベイク処理,texture baking
+テクスチャ座標,texture coordinate
+デザイン ファイル,design file
+デザインの予約,design reservation
+デザインの競合,design conflict
+トーラス,torus
+トーンマッピング,tonemapping
+トーンマップ法,tonemap method
+ドライブ カーブ,drive curve
+ドラフト サーフェス,draft surface
+トランジション フレーム,transition frames
+トランスフォーム バリアント,transform variant
+トリム,trim
+トリム バウンダリー,trim boundary
+トリリニア フィルタリング,trilinear filtering
+トリリニア補間,trilinear interpolation
+ドリル,drill
+ドリル径,drill diameter
+トルク係数,torque coefficient
+トルク負荷,torque load
+トレスカ,Tresca
+トレランス,tolerance
+トロコイド,trochoid
+ナビゲーション バー,navigation bar
+ネジ,thread
+ねじ径,thread diameter
+ねじ指定,thread designation
+ネスティング,nesting
+ノード モーメント,nodal moment
+パーツ キャッチャー,part catcher
+パーツの表示,part visibility
+パーティクル,Particle
+パーティング設計,parting design
+パーティング診断,parting diagnostic
+ハード トランジション,hard transition
+ハーネス セグメント,harness segment
+ハーネス パーツ,harness part
+ハイドロフォーミング,hydroforming
+パイプ プラグ,pipe plug
+パイロット リセス,pilot recess
+バウンダリー,boundary
+パス スケッチ,path sketch
+パスワード ポリシーの要求,password policy requirement
+パターン,pattern
+パターン フィーチャ,pattern feature
+パック,puck
+バックグラウンド処理,background processing
+パッチ,patch
+パッチ カーブ,patch curve
+パッチ サーフェス,patching surface
+ハッチング パターン,hatch pattern
+ばね座金,spring washer
+パラメーター,parameter
+バリ取りする,deburr
+バルブ ゲート,valve gate
+バレル,barrel tool
+ハンドル,handle
+バンプ,bump
+バンプ マッピング,bump mapping
+バンプ マップ,bump map
+ビード幅,bead width
+ビード線,cosmetic weld bead
+ビジュアル化ファイル,visualization file
+ひずみ,strain
+ひずみエネルギー,strain energy
+ピッチ円直径,pitch diameter
+ピッチ線,pitch line
+ヒューマン インタフェース デバイス,Human Interface Device
+ビューワー モード,viewer mode
+ビルド プレート,build plate
+ビルド プロセス,building process
+ビルドルーム,buildroom
+ビルド時間の推定,build-time estimation
+ピン拘束,pin constraint
+ファイル ドクター,file doctor
+ファイル保管場所,filestore
+ファンアウト,fanout
+ファンの形状,fan geometry
+フィーチャ コンストラクション,feature construction
+フィーチャー グループ,feature group
+フィーチャー セット,feature set
+フィーチャー干渉,feature collision
+フィーチャ番号,feature number
+フィードバック ハブ,Feedback Hub
+フィールド フィット,field fit
+フィクスチャー オフセット,fixture offset
+フィレット,fillet
+フィレット スタイル,fillet style
+フィレット フィーチャ,fillet feature
+ブーケ,bouquet
+ブール値,bool
+フォーム ミル,form mill
+フォトメトリック,photometric
+フォトン コースティクス,photon caustic
+プライマリ,Primary
+フラウンホーファー線,Fraunhofer line
+ブラシ,brush
+ブラシのマッピング - 放射状の XY,brush mapping radial XY
+プラスチック成形品,plastic part
+フラッシュ,flush
+フラッシュ拘束,flush constraint
+フラット シェーディング,flat shading
+フラット パターン,flat pattern
+フランジ プロファイル,flange profile
+プランジ ポイント,plunge point
+フランジの高さ,flange height
+フランジ付き丸頭,round washer
+フランジ付き六角,hex washer
+プランジ送り速度,plunge feed rate
+フリー ドラッグ,free drag
+フリーフォーム形状,freeform shape
+フリーフォーム編集,freeform edit
+フル ナビゲーション ホイール,Full Navigation wheel
+フルラウンド フィレット,full round fillet
+フレア V 形,flare v
+ブレーキ トルク,braking torque
+ブレース,brace
+プレート器具,plate fixture
+プレート詳細面,plate detail face
+フレーム ジェネレータ,Frame Generator
+プレス,Press/Pull
+プレス ブレーキ,press brake
+プレス式継手,pressed joint
+プレス金型ロフト フランジ,die formed lofted flange
+フレネル IOR パラメータ,fresnel IOR parameter
+フレネル項,fresnel term
+プレビュー,preview
+ブレンド サーフェス,blend surface
+フロー ソース,flow source
+フロー ライン,flow lines
+フロー レート,mass flow rate
+プローブ タイプ,probe type
+プローブ ボディ,probe body
+プローブ モード,probe mode
+プローブ形状,probe geometry
+プロジェクト エクスプローラ,project explorer
+プロセス シミュレーション スタディ,process simulation study
+フロントプレート,frontplate
+ベース フランジ,base flange
+ベースプレート,Baseplate
+ベクトル,vector
+ペッキング リトラクト,pecking retract
+ヘッドノード,Headnode
+ペンシル トレース,pencil trace
+ベント,vent
+ベンド チューブ ルート,bent tubing route
+ボア バー,boring bar
+ポアソン比,Poisson ratio
+ポイントを編集,edit point
+ポイント分布,point distribution
+ボウタイ,bowtie
+ボードのアウトライン,board outline
+ホーム位置,home location
+ボーリング,bore
+ボール エンド ミル,ball nosed tool
+ボール ミル,ball mill
+ボールねじ,ball screw
+ボクセル,voxel
+ボクセル解像度,voxel resolution
+ポジドライブ,Pozidriv
+ボス,boss
+ボス フィーチャ,boss feature
+ホスト,Host
+ポスト プロセッサ,post processor
+ボックスまで増大,Grow to Box
+ボディ タイプ,body type
+ボディの厚さ,body thickness
+ポリゴンの遅延,polygon delay
+ポリゴン化,polygonised
+ホルダー クリアランス,holder clearance
+マークアップ,markup
+マイタ,miter
+マシン,machine tool
+マシン コネクタ,Machine Connector
+マシン デザイン,machine design
+マシン デザイン ファイル,MD file
+マス プロパティ,mass properties
+マッピング タイプ,mapping type
+マテリアル ID,material ID
+マテリアル テクスチャ マニピュレータ,material texture manipulator
+マテリアルの精度,material accuracy
+マテリアルの詳細,bill of material
+マトリックス,matrix
+マトリックス トランスフォーム,Matrix Transform
+マニピュレータ,manipulator
+マルチプル座標系ドキュメント,multiple fixture document
+マルチボディ,multi-body
+ミップマップ,mipmapping
+ミニ ツールバー,mini toolbar
+ミラー平面,mirror plane
+ミル加工,milling operation
+メッシャー,mesher
+メッシュ,mesh
+メッシュ表示,mesh view
+メンバー,member
+モアレ除去,moiré removal
+モーション係数,motion factor
+モーフィング加工法,morph strategy
+モールディング ウィンドウ,molding window
+モールド,mold
+モールド ベース,mold base
+モデル ビュー,model view
+モデル ファイル,model files
+モデルのリミット,model limits
+モデルの剛性,model stiffness
+モデルの複雑度,model complexity
+モデル変換,model translation
+モデル簡略化,defeaturing
+モデル領域切削,Model area clearance
+モデレータ,moderator
+ユーザー座標系,user coordinate system
+ヨー,yaw
+ライセンス サーバ,license server
+ライダー,Rider
+ライトマップ,lightmap
+ライフサイクル変更制限,lifecycle transition limit
+ラウンチパッド,Launchpad
+ラスター,raster
+らせんツールパス,helical toolpath
+ラップ ウィザード,Wrap Wizard
+ラティス,lattice
+ラティス コマンダー,Lattice Commander
+ラティス マニピュレータ,lattice manipulator
+ラティスとスキンの最適化,lattice and skin optimization
+ランオフ サーフェス,runoff surface
+ランオフ ループ,runoff loop
+ランダム シード,random seed
+ランダムな継ぎ目,randomized seam
+ランプ,ramp
+ランベルト サーフェス,lambertian surface
+リース期間,lease period
+リード角,lead angle
+リコータ,recoater
+リコータ クリアランス,recoater clearance
+リップアップする,rip up
+リップと溝,lip and groove
+リビジョン スキーマ フォーマット,revision scheme format
+リビジョン マーク,revision mark
+リブ フィレット,rib fillet
+リフタ,lifter
+リブ面取り,rib chamfer
+リボン ケーブル,ribbon cable
+リリース,release
+リンクを解除,Break Link
+リンク機構,kinematic chain
+ループ,loop
+ルールド サーフェス,ruled surface
+ルールド フィレット,rule fillet
+レイトレーシング,raytracing
+レイトレーシング モード,raytracing mode
+レイヤ スタック,layer stack
+レイヤー厚み,Layer Thickness
+レイヤの高さ,layer height
+レイヤ間温度,interlayer temperature
+レーザー ジャンプ遅延,laser jump delay
+レーザー ポリゴン遅延,laser polygon delay
+レーザー マーク遅延,laser mark delay
+レベル,level
+レリーフ レムナント値,relief remnant value
+レンガ化,brickify
+レンズ フレア,lens flare
+レンダリング エンジン,render engine
+レンダリング パス,render pass
+ローカル座標系,local coordinate system
+ロック セット,lock set
+ロフト フランジ,lofted flange
+ロリポップ ミル,lollipop mill
+ワイヤーフレーム,wireframe
+ワイヤフレーム表示,wireframe display
+ワイヤ送り速度,wire feedrate
+ワイヤ配線,wire run
+一定半径のフィレット,constant-radius fillet
+一括ロード,bulk load
+一致拘束,coincident constraint
+三角形の反転,triangle flip
+下の階層に移動,demote
+下位バージョン,lesser version
+下穴,pilot hole
+不透明度,opacity values
+両面印刷,Duplex Printing
+中心ピン,center pin
+中心マーク,center mark glyph
+中心点,centre point
+中心線,center line
+主ひずみ,principal strain
+主軸の回転,spindle revolution
+主軸の方向,spindle orientation
+了解,Accept
+予約,reservation
+交差,intersect
+仕上げ代,allowance
+伝搬遅延,propagation delay
+位置決めリング,location ring
+体積,volume
+体積弾性係数,bulk modulus
+体積流量,volumetric flow rate
+作業サーフェス,work surface
+作業フィーチャ,work feature
+作業軸,work axis
+保持ジオメトリ,preserve geometry
+信号の整合性,signal integrity
+偽装ユーザの資格情報,impersonating user
+傾斜度,angularity
+充填完了時圧力,end of fill pressure
+光の強度,luminous intensity
+入力ガンマ,Input Gamma
+入力バッファ,input buffer
+全周記号,all-around symbol
+公差域,tolerance band
+共通材料,common material
+内側半径,inner radius
+内部フレーム,internal frame
+内部熱,internal heat
+内部熱荷重,internal heat load
+内部熱荷重の属性,internal heat load attribute
+円,circle
+円ピッチ,circular pitch
+円弧,arc
+円形テーパ ゲート,circular tapered gate
+円滑化許容差係数,smoothing tolerance factor
+円筒,cylinder
+円錐,cone
+再インデックス,re-index
+再コーティング,recoating
+再テッセレーション,retessellate
+再帰深度,recursive depth
+再折り曲げ,refold
+再配置,repositioned
+冷却ファン パーツ,cooling fan part
+冷却孔作成ウィザード,cooling wizard
+凸形,convex
+出力サイズ,output size
+分岐接続,branch connection
+切削工具,milling tool
+切断線,cutting line
+切込み,depth of cut
+判断サポート システム,decision support system
+剛性比例,stiffness proportional
+加工エクステンション,Machining extension
+加工のツールパス,machining toolpath
+加工順序自動設定,automatic ordering
+勾配角度,draft angle
+勾配記号,slope symbol
+十字穴付き,cross recessed
+半径,radius
+単一障害点,Single Point of Failure
+参照エディタ,Reference Editor
+参照オブジェクト,referenced object
+参照コンポーネント,referenced component
+参照ジオメトリ,reference geometry
+参照ツールパス,referencing toolpaths
+参照デザイン,reference design
+反力,reaction force
+反射率,reflectivity
+収束プロット,convergence plot
+収縮,shrinkage
+可変フィレット,variable fillet
+可変レート シェーディング,Variable Rate Shading
+合わせ面,mating face
+合焦距離,focus distance
+同一平面上,coplanar
+同心度,concentricity
+名前衝突,name collision
+周速,circumferential speed
+四半円点,quadrant point
+回転 B 軸,rotary B axis
+回転 C 軸,rotary C axis
+回転ステップ サイズ,rotation step size
+回転方向,rotary direction
+回転調整,rotational adjustment
+図面グループ,drawing group
+固定エッジの勾配,fixed edge draft
+固定サイクル,canned cycle
+固定作業点,grounded work point
+圧接,insulation displacement
+地面のキャリブレーション,ground calibration
+基本クラス,base class
+基本ボディ,base body
+基本的なイメージング プロファイル,Basic Imaging Profile
+基準面,base face
+基点,base point
+堆積層,deposition layer
+塗り潰しパターン,fill pattern
+境界の自己交差,self border intersection
+境界パッチ,boundary patch
+境界ボックス,bounding box
+境界形状,bounding shape
+壁の厚さ,wall thickness
+変換単位,alternate unit
+外側のコーナー,exterior corner
+外側半径,Outer radius
+外径,OD
+外角,outer angle
+外部フレーム,external frame
+多数個取り金型,multi-cavity mold
+大人用 Tinkercad アカウント,adult Tinkercad account
+始点,start point
+孔あけサイクル,drilling cycles
+孔あけツールパス,drilling toolpaths
+学生のデザイン,student design
+実験的なジェネレーティブ ソルバーと機能,Experimental Generative Solvers and Features
+対称平面,symmetry plane
+射出コーン,injection cone
+射出位置,injection location
+射出圧縮成形,injection-compression molding
+射出成形シミュレーション スタディ,injection molding simulation study
+小さい穴,trivial hole
+屈折,refraction
+展開方法,unfold method
+履歴,history
+履歴タグ,revision tag
+履歴マーカー,history marker
+工具アセンブリ,tool assembly
+工具エンティティ,tool entity
+工具シャンク,tool shank
+工具データベース,tool database
+工具プロパティ,tool property
+工具マガジン,tool magazine
+工具先端半径,tool tip radius
+工具制御点,tool control point
+工具半径,tool radius
+工具方向,tool orientation
+工具方向ボタン,tool direction button
+工具自動表示,auto-draw tool
+工具軸,tool axis
+工具軸制限,tool axis limit
+工具軸角度,tool axis angle
+幅,width
+干渉,collision
+干渉なしリンクパス,collision free link path
+干渉回避パラメーター,collision avoidance parameters
+平方インチ,square inch
+平歯車,spur gear
+平面に平行,parallel plane
+平面の曲線,planar curve
+平面を閉じる,close flat
+座屈,buckling
+座標,coordinate
+座標系 ID,fixture ID
+式ビルダ,Expression Builder
+引出線,leader line
+強調表示の連動,cross-highlighting
+影付き,ground shadow
+徐変フィレット,variable-radius fillet
+復元されたパターン要素,restored pattern element
+応力解析,stress analysis
+応答曲線(緑),green response curve
+急斜面領域,steep area
+慣性荷重,body load
+手動マシン,manual machine
+抜き方向,pull direction
+押し出し,protrusion
+押し出しプレビュー,preview extrusion
+押出機,extruder
+抽出,extract
+拘束,constraint
+拘束ステータス,constraint status
+拡張ツールチップ,progressive tooltip
+拡散光色,diffuse color
+持続時間,duration
+排出方向ボタン,ejection direction button
+採番スキーマ,Numbering Schemes
+採番パネル,Numbering Panel
+接地面,landing surface
+接平面,tangent plane
+接線方向,tangent direction
+推定時間,time estimation
+推定配置,inference
+操作例表示アニメーション,Show Me animation
+放電加工,electric discharge machining
+放電領域,burn region
+教員アカウント,educator account
+散布図,scatter plot
+断続溶接,intermittent weld
+断面ビュー,section view
+断面解析,cross section analysis
+新機能ワークショップ,New Features Workshop
+方向,direction
+方向の許容差,direction tolerance
+方向ベクトル,orientation vectors
+方向ベクトル加工,Orientation vector machining
+方向ポイント,orientation point
+旋削,turn
+既定の環境スイッチ,default environment switch
+時間スライダ,time slider
+曲げレリーフのオーバーライド,bend relief override
+曲げ半径,bend radius
+曲率コーム,curvature comb
+曲率連続フィレット,curvature continuous fillet
+最大型締力,maximum clamp force
+最大引張強さ,ultimate tensile strength
+最適化された SLM ワークフロー,optimized SLM workflow
+有機モデリング,organic modeling
+有限要素メッシュ,finite element mesh
+末端処理,end treatment
+材料モデル,material model
+条数,Start Thread
+梁の詳細,beam detail
+検査シーケンス,inspection sequence
+構造メンバ,structural member
+構造座屈シミュレーション,Structural Buckling simulation
+構造座屈スタディ,structural buckling study
+標準外観,standard appearance
+権限コントロール,permission control
+横糸の色,weft color
+樹脂識別コード,resin identification code
+機械的運動,mechanistic movement
+機能設計,functional design
+止め輪,circlip
+正投影,orthogonal
+正方向,positive direction
+残し代,thickness
+水平円弧,horizontal arc
+治具,fixturing
+波形座金,crinkle washer
+洪水対策ソリューション,flood solution
+流体のモーション,fluid motion
+流体の速度,fluid velocity
+流量,flow rate
+渦度,vorticity
+測地線,geodesic
+測定,measure
+溝,groove
+溶接ダメージ,weld damage
+溶接ビードの軌跡,caterpillar
+溶接記号,weld symbol
+点画,stipple
+点画数,stipple count
+点群データ,cloud data
+点質量,point mass
+焦点面,focal plane
+焼け,burn mark
+焼結,sintering
+煙,smoke
+煙のシミュレーション,smoke simulation
+煙の円,smoke circle
+熱伝導パイプ,heat transfer pipe
+熱荷重,heat load
+物理材料,physical material
+特性のユーザ説明,Characteristic User Description
+独立した PCB,independent PCB
+環境イメージ,environment image
+生体適合性のあるマテリアル,biocompatible material
+留め継ぎコーナー,mitred corner
+皿ばね,Belleville spring
+皿穴,countersink hole
+目標制限,objective limits
+直列寸法,chain dimension
+直径,diameter
+省略されたアセンブリ パターン要素,suppressed assembly pattern element
+瞳孔間距離,eye separation
+矩形状でないビューポート,non-rectangular viewport
+短繊維,staple yarn
+砥粒流動率,abrasive flow rate
+移動,translation
+積層造形シミュレーション,additive manufacturing simulation
+積層造形テクノロジ,additive technology
+穴テーブル,hole table
+穴ドリル,hole drilling
+空気対流,air convection
+突出可能温度,ejection temperature
+突合せ溶接式フランジ,welding neck flange
+端子の電気的プロパティ,terminal electrical properties
+第三角法,third-angle projection
+管理エクステンション,Manage Extension
+範囲,range
+簡易モード,Express mode
+簡易測定グループ,simple measures group
+粉末床溶融結合,metal powder bed fusion
+粗取り加工法,roughing strategy
+糸のタイプ,yarn type
+終了角度,end angle
+終点,end point
+結合 V ベルト,v-belt
+結果イメージ,outcome image
+締結部ライブラリ,Fasteners library
+締金具,crimp
+緩斜面領域,shallow area
+縦糸の色,warp color
+縮退,degenerate
+織布マテリアル,woven cloth material
+臨界温度の属性,critical temperature attribute
+自動ルーティング,automatic routing
+自動了解,auto-accept
+自動工具交換機の性能,automatic tool changer capacity
+自動検証,automatic verification
+自己対称,self symmetric
+自由オービット,free orbit
+色の付いたマーク,colored confetti
+荒加工スライス,roughing slice
+荷重図,load diagram
+薄壁状の補強,thin-walled support shape
+衝突回避,collision avoidance
+被写界深度,depth of field
+補助投影ビュー,auxiliary view
+製品バージョン,production version
+製造エクステンション,manufacturing extension
+製造ツールパス加工法,manufacturing toolpath strategies
+製造準備ソフトウェア,build preparation software
+複合孔,compound hole
+複数コンポジット,multiple composites
+複製,replication
+視差オクルージョン マッピング,parallax occlusion mapping
+視点,eye point
+親アカウント,parent account
+角度の増分,angle increment
+角度強度,Angular Intensity
+角度範囲,Angular range
+解析サーフェス,analytical surface
+解析ステータス情報の間隔,solve status information interval
+解析時間,analysis time
+言語パック,language pack
+診断ログ ファイル,diagnostic log file
+負のシェル,negative shell
+負荷制御,adaptive clearing
+質量に比例,mass proportional
+走査線フィーチャ コンストラクション,parallel feature construction
+超弾性材料モデル,hyperelastic material model
+足割りリベット,split rivet
+距離と角度の面取り,distance and angle chamfer
+軸オフセット,axis offset
+軸のセグメント高さ,shaft segment height
+軸の上側直径,shaft upper diameter
+較正,calibration
+輪郭,contour
+輪郭パス,Profile Passes
+退避距離,retract distance
+送りモード,feed mode
+透かし,watermark
+透明度,transparency
+透過,X-ray ground shadow
+連接,chaining
+過渡荷重,transient load
+適用,Apply
+遷移送り速度,transition feedrate
+選択的レーザー焼結,selective laser sintering
+部屋名,room name
+配置フィーチャ,placed feature
+金属 FFF,metal FFF
+金属積層造形,powder bed metal additive manufacturing
+鋼 - サテン,steel satin
+長方形,rectangle
+開先溶接,groove weld
+開始角度,start angle
+間接光,indirect illumination
+間隔,interval
+関連付けのある PCB,associative PCB
+降伏強さ,yield strength
+障害物ジオメトリ,obstacle geometry
+隠線,hidden line
+電子距離計測器,electronic distance meter
+電子部品,electronics component
+電子部品の冷却,electronics cooling
+電子部品の冷却スタディ,electronics cooling study
+電極,electrode
+電気アーク線,electric arc wire
+非アクティブ コンポーネント,inactive component
+非圧縮性材料,incompressible material
+非有向角,undirected angle
+非線形ライブラリ,nonlinear library
+非線形材料,nonlinear material
+非貫通穴,blind hole
+面の勾配,face draft
+面の指示,surface texture
+面の自動チェーン,automatic face chain
+面取り,chamfer
+面方向,face direction
+頂点,vertex
+頂点のベイク処理,vertex baking
+飾り模様の丸み,vignette roundness
+首,neck
+高度なシミュレーション スタディ,advanced simulation study

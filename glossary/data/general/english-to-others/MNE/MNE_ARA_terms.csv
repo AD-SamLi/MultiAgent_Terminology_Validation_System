@@ -1,0 +1,97 @@
+﻿source,target
+alpha-blend,دمج شفافية الطبقات
+angular speed,السرعة الزاويّة
+base mesh,شبكة أساسية
+binary large object,كائن ثنائي كبير
+bind pose,وضع الربط
+blend mode,وضع الدمج
+blend surface,سطح الدمج
+blurriness,ضبابية
+bookmark,إشارة مرجعية
+brush,فرشاة
+brush stroke,ضربة فرشاة
+bulge,ارتفاع المنحنى
+bump,بروز
+bump map,تخطيط البروز
+bump mapping,مخطط البروز
+camera,كاميرا
+casement,نافذة مفصلية
+character large object,كائن كبير للشخصية
+CLOB,CLOB
+closed edge,حافة مغلقة
+component,مكون
+constrained object,كائن مقيّد
+control vertex,نقطة التحكم
+control vertex hull,هيكل نقطة التحكم
+control vertices hull,هيكل نقاط التحكم
+depth of field,عمق المجال
+digital elevation model,نموذج الارتفاع الرقمي
+displacement map,مخطط الإزاحة
+displacement scale,مقياس الإزاحة
+dithering,التذبذب
+DOF,DOF
+elevation axis,محور الارتفاع
+extraction,استخراج
+eyedropper,قطارة
+face,وجه
+fillet,الشق
+flyout,قائمة منبثقة
+fly-out,قائمة منبثقة
+fragment,تقسيم
+frame,إطار
+frame rate,معدل الإطارات
+full-body inverse kinematics,الحركيات العكسية لكامل الجسم
+gamma,جاما
+hardware shader,مسرع الجهاز
+highlight,تسليط الضوء
+Hypershade,هايبرشيد
+image map,تخطيط الصورة
+image plane,مستوى الصورة
+image-based lighting,الإضاءة حسب الصورة
+isoparm,إيزوبارم
+joint,موقع محدد
+knuckle,المفصل
+layer,طبقة
+level,مستوى
+limit surface,سطح مستوي
+linear array,مصفوفة خطية
+mesh,شبكة
+mesher,أداة الشبكات
+mid-tone,درجة متوسطة
+modifier,أداة التعديل
+node-locked license,ترخيص مغلق العقدة
+normal map,تخطيط عادي
+NTSC,NTSC
+object space,مساحة الكائن
+opacity,التعتيم
+outline,مخطط
+Particle View,عرض الجسيمات
+polygon,مضلع
+primitive,بسيط
+projection map,تخطيط الإسقاط
+ray tracing,تتبع الأشعة
+reflection map,تخطيط الانعكاس
+retopology,إعادة التحويل
+retopology mesh,شبكة إعادة التحويل
+retopology modifier,أداة تعديل إعادة التشكيل
+retopology process,عملية إعادة التحويل
+retopology tools,أدوات إعادة التحويل
+safe frame,إطار آمن
+sample point,نقطة العينة
+screen projection,عرض الشاشة
+shading,التظليل
+slope-offset-power,القوة والإزاحة والانحدار
+smoothing,تنعيم
+SMPTE,SMPTE
+SOP,SOP
+specular highlight,انعكاس الضوء
+spline knot,عقدة الشق
+stencil,استنسل
+stroke,ضربة بالفرشاة
+subdivision level,مستوى التقسيم
+superimposed profile,ملف تعريف متراكب
+surface trimming,تشذيب السطح
+threshold,الحد
+universal manipulator,أداة التعديل العالمية
+vertex ID,معرِّف النقطة
+vertex normal,نقطة عادية

@@ -1,0 +1,101 @@
+﻿source,target
+Alpha-Blending,alpha-blend
+Winkelgeschwindigkeit,angular speed
+einbacken,bake
+Grundnetz,base mesh
+Big New Better,Big New Better
+Big New Max,Big New Max
+Binary Large Object,binary large object
+Bind Pose,bind pose
+Verschmelzungsmodus,blend mode
+Mischfläche,blend surface
+schema,blurriness
+Lesezeichen,bookmark
+Pinsel,brush
+Pinselstrich,brush stroke
+Wölbung,bulge
+Relief,bump
+Relief-Map,bump map
+Oberflächen-Beleuchtungseffekt,bump mapping
+Kamera,camera
+Flügel,casement
+Character Large Object,character large object
+CLOB,CLOB
+geschlossene Kante,closed edge
+Komponente,component
+abhängiges Objekt,constrained object
+Kontrollscheitelpunkt,control vertex
+konvex,convex
+Tiefenschärfe,depth of field
+DEM,digital elevation model
+Verschiebungs-Map,displacement map
+Verschiebungsskala,displacement scale
+Pixelschattierung,dithering
+DOF,DOF
+Kamerastandpunkt verändern,dolly
+Höhenachse,elevation axis
+Extraktion,extraction
+Pipette,eyedropper
+Fläche,face
+Abrundung,fillet
+Fragment,fragment
+frame,frame
+Frame-Rate,frame rate
+Full-Body Inverse Kinematics,full-body inverse kinematics
+Gamma,gamma
+Hardware-Shader,hardware shader
+Hypershade,Hypershade
+Bild-Map,image map
+Bildebene,image plane
+bildbasierte Beleuchtung,image-based lighting
+Isoparameter,isoparm
+Gelenk,joint
+Straßenbucht,knuckle
+Layer,layer
+Ebene,level
+Grenzfläche,limit surface
+lineare Anordnung,linear array
+Netz,mesh
+Netzerzeuger,mesher
+Mitteltöne,mid-tone
+Modifikator,modifier
+knotengesperrte Lizenz,node-locked license
+Normalen-Map,normal map
+NTSC,NTSC
+Objektraum,object space
+Deckkraft,opacity
+Umriß,outline
+Partikelansicht,Particle View
+Drehpunkt,Pivot
+Polygon,polygon
+Pose,pose
+Grundkörper,primitive
+Projektions-Map,projection map
+Raytracing,ray tracing
+Reflexions-Map,reflection map
+Topologieneuerstellung,retopology
+Topologieneuerstellungs-Netz,retopology mesh
+Topologieneuerstellungs-Modifikator,retopology modifier
+Topologieneuerstellungs-Prozess,retopology process
+Topologieneuerstellungs-Werkzeuge,retopology tools
+Sicheres Frame,Safe Frame
+Beispielpunkt,sample point
+Bildschirmprojektion,screen projection
+Schattierung,shading
+Slope-Offset-Power,slope-offset-power
+Glättung,smoothing
+SMPTE,SMPTE
+SOP,SOP
+Spline-Knoten,spline knot
+Schablone,stencil
+Strich,stroke
+Unterteilungsebene,subdivision level
+überlagerter Längsschnitt,superimposed profile
+Stutzen von Flächen,surface trimming
+Grenzwert,threshold
+verschieben,translate
+Dreieckseinteilung für Verschluss,Triangulate Cap
+senken,tumble
+universeller Manipulator,universal manipulator
+Scheitelpunkt-ID,vertex ID
+Scheitelpunktnormale,vertex normal

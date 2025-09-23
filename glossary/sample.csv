@@ -1,0 +1,799 @@
+﻿source,target
+3D Rotate gizmo,三维旋转小控件
+3D Scale gizmo,三维缩放小控件
+ACA,ACA
+ACS,ACS
+ACTM,ACTM
+AEC content,工程建设内容
+AEC object,AEC 对象
+Aligned Dimension,对齐标注
+ALKIS,ALKIS
+all-around symbol,全周边符号
+alpha-blend,Alpha 混合
+alternate unit,换算单位
+altimetry,测高法
+annotation,注释
+annotational constraint,注释性约束
+annotative object,注释性对象
+anode,阳极
+anode station,阳极站
+appearance style,外观样式
+arc,弧
+Arc Length,弧长
+Arc radius,半径
+arc segmentation,圆弧分割
+arc-chord distance,弧弦距离
+area value,面积值
+ARG,ARG
+assembly extraction template,部件提取模板
+associative array,关联阵列
+Associative QDIM extension,Associative QDIM extension
+assumed nozzle,假定管嘴
+ATIL,ATIL
+AutoCAD block,AutoCAD 块
+AutoCAD color index,AutoCAD 颜色索引
+AutoCAD Electrical Turing Beta,AutoCAD Electrical Turing BetaAutoCAD Electrical Turing Beta
+AutoCAD Mobile,AutoCAD 移动版
+AutoComplete,自动完成
+Autodesk Assistant,Autodesk 助手
+Autodesk Manufacturing Community Portal,Autodesk 制造业社区门户
+AutoLISP,AutoLISP Project Files
+AutoLISP development,AutoLISP 开发
+AutoLISP environment,AutoLISP 环境
+auxiliary coordinate system,辅助坐标系
+axial stress,轴向应力
+azimuth,方位角
+backwater gate,回水闸
+base point,基点
+baseline,基线
+Batch Standards Checker,标准批处理检查器
+baud rate,波特率
+BDA,BDA
+below grade,地平面以下
+bevel,倒角
+bill of materials,BOM 表
+binary large object,二进制大对象
+bitonal image,两色图像
+BLOB,BLOB
+block,块
+block authoring object,块编写对象
+block definition,块定义
+block library,块库
+block properties table,块特性表
+block replacement,块替换
+BLOCKMRULIST,BLOCKMRULIST
+BLOCKNAVIGATE,BLOCKNAVIGATE
+blocks palette,块选项板
+BLOCKSPALETTE,BLOCKSPALETTE
+BLOCKSPALETTECLOSE,BLOCKSPALETTECLOSE
+blow off valve,排出阀
+BOM,BOM 表
+boolean,布尔
+bounded area,边界区域
+bounding box,边界框
+break,打断
+break loop,中断循环
+break point,断点
+BREAKATPOINT,BREAKATPOINT
+breaker,断路器
+break-out line,局部剖切线
+breakpoint,断点
+bulge,凸起
+bulge factor,凸度因子
+bulk copy,海量复制
+bump,凹凸
+bump map,凹凸贴图
+bump mapping,凹凸贴图
+bus bar,母线
+BYBLOCK,BYBLOCK
+BYLAYER,BYLAYER
+cable tray,电缆桥架
+cable tray fitting,电缆桥架接头
+camera calibration,相机校准
+camera glyph,相机轮廓
+canvas,画布
+cap,端口
+cap filleting,封口圆角
+capacitor,电容器
+Cascading Style Sheets,级联样式表
+casing,套管
+casing model,套管模型
+catalog browser,目录浏览器
+catalog number,目录号
+Catmull-Clark subdivision surface,Catmull-Clark 细分曲面
+center line,中心线
+center mark,中心标记
+center point,中心点
+chamfer,倒角
+CHAR,CHAR
+character large object,字符大对象
+chi square,卡方
+child feature class,子要素类
+circuit breaker,断路器
+circuitry,回路
+class,类别
+CLASSICINSERT,CLASSICINSERT
+clip volume,剪裁范围
+clipping plane,剪裁平面
+CLOB,CLOB
+closed contour,闭合轮廓
+closed edge,闭合边
+code combination,规范组合
+cold grip,冷夹点
+cold water fixture unit,冷水卫浴装置当量
+colinear,共线
+colinear constraint,共线约束
+collate,排序
+collection,集合
+collinear,共线
+color book,配色系统
+colorbook,配色系统
+combined electric and heat generating station,热电站
+combustion chamber,燃烧室
+comminuting machine,粉碎机
+COMPARECLOSE,COMPARECLOSE
+COMPAREEXPORT,COMPAREEXPORT
+COMPAREIMPORT,COMPAREIMPORT
+component class,元件类别
+component list,组件列表
+composite solid,复合实体
+composite symbol,组合符号
+compound symbol,复合符号
+compression,压缩
+compression end,压力端
+computed length,计算长度
+concentric,同心
+conductor,导体
+connection grip,连接夹点
+connection symbol,连接符号
+connector line,连接线
+connector pin,连接器接点
+constrained object,受约束对象
+constraint bar,约束栏
+constraint parameter,约束参数
+constraint point,约束点
+constraint variable,约束变量
+construction geometry,构造几何图形
+construction line,构造线
+content pack,内容包
+continuation grip,顺序夹点
+control cabinet,控制柜
+control cable,控制电缆
+control hull,控制壳线
+control point,控制点
+control vertex hull,控制点外壳线
+control vertices hull,控制点外壳线
+coordinate reference system,参考坐标系
+coordinate system tracker,坐标系追踪器
+corner point,角点
+COUNT,COUNT
+COUNTCLOSE,COUNTCLOSE
+COUNTFIELD,COUNTFIELD
+COUNTLIST,COUNTLIST
+COUNTNAVNEXT,COUNTNAVNEXT
+COUNTNAVPREV,COUNTNAVPREV
+COUNTTABLE,COUNTTABLE
+covering area,遮盖区域
+CRC,循环冗余校验
+crease,锐化
+cross section,横截面
+cross section duct,横截面导管
+CRS,CRS
+CS library,坐标系库
+CSS,CSS
+CUI editor,CUI 编辑器
+current directory,当前目录
+curvature analysis,曲率分析
+Customer Error Reporting,客户错误报告
+customer support,客户支持
+cutting line,剖切线
+CV,CV
+CWFU,CWFU
+datum,基准
+datumpoint,基准点
+DCM Engine,DCM 引擎
+dead joint symbol,固定联接符号
+decorative element,装饰图元
+default mleader style,默认多重引线样式
+default plot style,默认打印样式
+default table style,默认表格样式
+DEFPOINTS,DEFPOINTS
+degrees minutes seconds,度/分/秒
+dependency highlighting,依赖亮显
+depth of field,景深
+depth polygon,深度多边形
+Design Review,Design Review
+Design Web Format,Design Web Format
+destination arrow,目标箭头
+destination signal arrow,目标信号箭头
+diameter,直径
+diffuse map,漫射贴图
+digital elevation model,数字高程模型
+Digital Signature Extension,Digital Signature Extension
+digital terrain elevation data,数字地形高程数据
+digitizer puck,数字化仪游标器
+digitizing tablet,数字化仪
+dimension constraint,标注约束
+dimension line,标注尺寸线
+dimension style,标注样式
+dimensional constraint,标注约束
+Dimstyle,标注样式
+disposal tank,废水箱
+distance offset,距离偏移
+distributed rendering,分布式渲染
+dithering,抖动
+DMS,DMS
+dock,固定
+DOF,DOF
+dots per inch,每英寸点数
+DPI,DPI
+draft analysis,拔模分析
+drain area,排水区
+drawing congestion,图形密度
+drawing folder,图形文件夹
+Drawing Interchange Format,Drawing Interchange Format
+drawing list report,图纸清单报告
+Drawing Manager,图形管理器
+driven constraint,从动约束
+driving dimension,驱动标注
+DTED,DTED
+duct fitting,风管接头
+dump,Dump
+DWF,DWF
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DWG TrueView,Autodesk DWG TrueView Sequoia
+DWGCONVERT,DWGCONVERT
+DWGHISTORY,DWGHISTORY
+DWGHISTORYCLOSE,DWGHISTORYCLOSE
+DXF,DXF
+dynamic constraint,动态约束
+dynamic schematic drawing,动态示意图
+easting,东距
+edit in place,在位编辑
+editing tool,编辑工具
+ejector,顶出元件
+elbow,弯头
+Electric Explorer,电力资源管理器
+elevation,标高
+elevation offset,高程偏移
+elide,省略
+embed,嵌入
+emitter,发射器
+end point,端点
+endline grip,线端点夹点
+enhanced secondary window,增强的辅助窗口
+enhanced viewer,增强的查看器
+environment map,环境贴图
+EPSG code,EPSG 代码
+ESW,ESW
+evaluation version,评估版
+EXPORTLAYOUT,EXPORTLAYOUT
+Expression Builder,表达式生成器
+extended help file,扩展型帮助文件
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+extension line,尺寸界线
+External Reference Manager,外部参照管理器
+fabricated equipment,组装型设备
+facet,镶嵌面
+facility,设施
+FDO,FDO
+feature class,要素类
+feature container,要素容器
+feature control frame,形位公差
+Feature Data Object,要素数据对象
+Feature Explorer,要素管理器
+feeder,馈线
+FG,FG
+FID,要素 ID
+field bus,现场总线
+field weld,现场焊接
+fill pattern,填充图案
+fillet,圆角
+Filtration Bed,过滤床
+final gathering,最终聚集
+fit point,拟合点
+fitting,配件
+Fix,固定
+flat search,全面搜索
+flow arrow,流向箭头
+flow direction,流向
+flush constraint,表面齐平约束
+fold panel,折叠面板
+foul water,污水
+frame,帧
+free standpoint,自由测站
+free station,自由测站
+freeform design,自由造型设计
+front clipping plane,前向剪裁平面
+functionality,功能性
+fuse,熔断器
+fuzz,模糊
+geodetic network point,大地测量网络点
+geodetic transformation,大地坐标变换
+geometric constraint,几何约束
+geospatial information,地理空间信息
+gizmo,小控件
+Gooch shading,古氏着色
+Google Earth,Google Earth
+gradient ramp,渐变延伸
+grease trap,隔油池
+grip,夹点
+grip mirror,夹点镜像
+grip rotate,夹点旋转
+grip scale,夹点缩放
+grit chamber,沉砂池
+groove depth,槽深
+ground,接地
+ground water,地下水
+Group Policy Object,组策略对象
+grouped BOM row,分组 BOM 表行
+handhole,手孔
+Have You Tried,您尝试过吗
+heat exchanger,换热器
+horizontal landing,水平基线
+host,宿主
+hot grip,活动夹点
+hot water fixture unit,热水卫浴装置当量
+house connector,房屋管道接头
+ICE,ICE
+illuminance distance,照度距离
+implied windowing,隐含选择窗口中的对象
+in-canvas tool,图形区域内工具
+included angle,夹角
+index color,索引颜色
+industry model,行业模型
+industry standard,行业标准
+infer constraints,推断约束
+information channel,信息频道
+inline component,嵌入式元件
+input type,输入类型
+insert,插入
+INSERTCONTENT,INSERTCONTENT
+INSERTDRAWINGASBLOCK,INSERTDRAWINGASBLOCK
+inspection dimension,检验标注
+installation code,安装代号
+Interactive Create & Edit,交互式创建与编辑
+interference check,干涉检查
+internal destination,内部接线
+inverse linear,线性反比
+inverse square,平方反比
+ISA,ISA
+iso,ISO
+isolator,绝缘体
+isometric,等轴测
+isoparm,等参线
+junction,接线盒
+Keyhole Markup Language,Keyhole Markup Language
+kink,扭折
+KML,KML
+KMZ,KMZ
+knot parameterization,节点参数化
+knot vector,节点向量
+label block,标签块
+land management,土地管理
+language pack,语言包
+latitude,纬度
+Launchpad,快速启动窗
+layer,图层
+layer state,图层状态
+Learning AutoCAD 2010,了解 AutoCAD 2010
+level of smoothness,平滑度
+license alert,许可警告
+lightning arrester,避雷器
+line merge,线条合并
+line string,线串
+linear array,线性阵列
+link box,接线盒
+linked annotation,关联注释
+lisp file,LISP 文件
+Live Enabler,Live Enabler
+load,负载
+load tap changer,有载调压分接头
+loaded standard,加载的标准
+location,位置
+long radius elbow,大弯曲半径弯头
+longitude,经度
+lookup,查寻
+loop crossing,跨越式相交
+LV board,低压配电盘
+MAKELISPAPP,MAKELISPAPP
+MAKEPREVIEW,MAKEPREVIEW
+manhole,检修孔
+manufacturer,制造商
+markup,标记
+markup set,标记集
+Markup Set Manager,标记集管理器
+mate constraint,配合约束
+MDE,MDE
+measured length,实测长度
+measurement,测量值
+measurement error,测量误差
+mechanical driver,机械驱动器
+mechanical link,机械联动
+median,中值
+mental ray,mental ray
+mental ray rendering engine,mental ray 渲染引擎
+MEP,MEP
+merge,合并
+mesh,网格
+meter,仪表
+meter area,仪表区
+meter model,仪表模型
+midpoint,中点
+migration log file,移植日志文件
+minidump,小型转储
+minimum spanning tree,最小生成树
+mirror,镜像
+mirror line,镜像线
+mitered elbow,斜接弯头
+mixer,混合器
+MLD,MLD
+mleader object,多重引线对象
+model parameter,模型参数
+model space,模型空间
+motor,电动机
+Multi Language Dictionary,多语言词典
+multi-functional grip,多功能夹点
+multilanguage user interface,多语言用户界面
+multileader,多重引线
+multileader style,多重引线样式
+multiline,多行
+multi-map,多地图
+multiple circuits,多级电路
+Multiple Design Environment,多文档设计环境
+multi-relation,多关系
+multi-sheet,多页
+MvPart,多视图零件
+My Insights for AutoCAD,AutoCAD - 我的见解
+My Insights from Autodesk,Autodesk - 我的见解
+Name Number,名称编号
+named projection,命名投影
+nameplate,铭牌
+NANT,NANT
+navigation pane,导航窗格
+NBA,NBA
+NCLOB,NCLOB
+nested reference,嵌套参照
+network adjustment,测量网平差
+network surface,网络曲面
+network topology,网络拓扑
+network trace,网络跟踪
+network tracing tool,网络跟踪工具
+neutralizer,中和器
+non-ending pipe,末端开放式管道
+non-manifold,非流形
+non-rectangular viewport,非矩形视口
+normal distribution,正态分布
+normal style,正常样式
+North arrow,北向箭头
+northing,北距
+Not Equal,不等于
+notarization,验证
+NPR,NPR
+nudge,微移
+NURBS surface,NURBS 曲面
+object,对象
+object snap mode,对象捕捉模式
+ObjectARX,ObjectARX
+oblique angle,倾斜角度
+obscured line,暗显直线
+OC,完全正交
+octant,八分圆
+odour equipment,增味设备
+OE,正交延伸基线
+OEM Make Wizard,OEM 制作向导
+Ohm,Ohm
+Oil water separator,油水分离器
+Only One. AutoCAD.,Only One. AutoCAD.
+opacity,不透明度
+OPENFROMWEBMOBILE,OPENFROMWEBMOBILE
+ordinate dimension,坐标标注
+ordinate dimensioning,坐标标注
+organic modeling,有机建模
+Original. AutoCAD.,Original. AutoCAD.
+Original. Ideas.,Original. Ideas.
+Original. People.,Original. People.
+Original. Projects.,Original. Projects.
+ortho,正交
+ortho drawing,正交图形
+ortho mode,正交模式
+ortho view,正交视图
+orthocube,OrthoCube
+ortho-image,正交图像
+outer style,外部样式
+outfall,出水口
+over-constrain,过约束
+overlapping ring,重叠环
+overlay,覆盖
+overline,上划线
+overlining,添加上划线
+override,替代
+override theme,替代主题
+P&ID,P&ID
+pad,底座
+-PAGESETUP,"""-PAGESETUP"""
+panel footprint symbol,面板示意图符号
+panorama,全景
+paper space,图纸空间
+parametric drawing,参数化图形
+parametric expression,参数化表达式
+parcel,地块
+parent feature class,父要素类
+part extraction template,零件提取模板
+part reference,零件参考
+patch,修补
+patch list,修补程序列表
+patch surface,修补曲面
+path array,路径阵列
+path curve,路径曲线
+pathway,通路
+pen width,笔宽
+Pencil tool,铅笔工具
+performance hint,性能提示
+periodic curve,周期曲线
+persistent object snap,永久对象捕捉
+persistent reactor,永久反应器
+persistent zoom,持续缩放
+photo modeling,照片建模
+photon map,光子贴图
+physical prototyping,物理样机
+pickfirst set,预先选择集
+pig launch,清管器发送筒
+PIP,PIP
+pipe,管道
+pipe fitting,管道接头
+pipe gap end,管道间隙端点
+pipe insulation,管道隔热层
+piping and instrumentation diagram,管道和仪表图
+planar face,平整面
+plane coordinate,平面坐标
+planimetry,测面法
+plastic socket,塑料承插接头
+plot,打印
+plot frame,打印边框
+plot stamp,打印戳记
+plot structure,打印结构
+PLY,PLY
+point feature,点要素
+pointer input,指针输入
+polar array,环形阵列
+polar stretch,极轴拉伸
+polar tracking,极轴追踪
+PolarSnap,PolarSnap
+polling frequency,轮询频率
+polyarc segment,多段线圆弧
+polyface mesh,多面网格
+polygon mesh,多边形网格
+polyline,多段线
+position finder,位置查找器
+position point,位置点
+power station,发电站和变电所
+precache,预缓存
+pre-cache,预缓存
+precision presets manager,精度预设管理器
+pressure zone,受压区
+Primary,主要
+production isometric drawing,加工等轴测图形
+profile curve,轮廓曲线
+profile designer,剖面定义设计器
+Project Simulus,Project Simulus
+projected coordinate system,投影坐标系
+properties inspector,特性检验器
+protective,保护装置
+prototype drawing,原型图
+Push to Autodesk Docs,推送到 Autodesk Docs
+PUSHTODOCSCLOSE,PUSHTODOCSCLOSE
+PUSHTODOCSOPEN,PUSHTODOCSOPEN
+quick dimension,快速标注
+quick option,"""快速"" 选项"
+QuickCalc,快速计算器
+rapid prototyping,快速生成原型
+rasterize,栅格化
+reality capture,现实捕捉
+Recent,最近使用的项目
+recent blocks list,最近使用的块列表
+recent blocks location,最近使用的块位置
+recloser,自动重合闸
+reference constraint,参照约束
+reference frame,参考坐标系
+reference grid,参考栅格
+Reference Manager,参照管理器
+reference record,参考记录
+refinement,优化
+reflection map,反射贴图
+refraction index,折射率
+regulator,调节器
+relax constraint,释放约束
+render context,渲染描述
+render preset,渲染预设
+Report Designer,报告设计器
+report generator,报告生成器
+representation string,表示字符串
+request code,申请号
+reservoir,蓄水池
+residual,误差
+restrictor,限流器
+retention tank,调蓄池
+return date,返还日期
+REVCLOUDPROPERTIES,REVCLOUDPROPERTIES
+rewind history,回放历史
+Ribbon Command Locator,功能区命令定位器
+ribbon panel,功能区面板
+riser,踢面
+roll open,展开
+roll up,卷起
+rollback,回滚
+rotation angle,旋转角度
+roughness,粗糙度
+routing line,布线
+rule base,规则库
+sample point,采样点
+scale factor height,高度比例因子
+scarf groove,斜对接坡口焊
+schema,模式
+schematic component,原理图元件
+schematic diagram,原理图
+schematic feature,示意图要素
+schematic line,草图线
+schematic symbol,示意图符号
+screening,淡显
+Secondary,次要
+section boundary,截面边界
+section object,截面对象
+section plane,截面平面
+section view,截面视图
+selection cycling,选择循环
+self-intersecting polygon,自交多边形
+sequential search,顺序搜索
+service point,服务站
+shade plot mode,着色打印模式
+ShapeManager,ShapeManager
+SHARE,SHARE
+sheet set manager,图纸集管理器
+sheet subset,图纸子集
+shop,车间
+shortcut function,快捷函数
+shut off valve,截止阀
+SIGCODE,信号代号
+signal arrow,信号箭头
+simple joint,简单式连接
+site point,场地点
+SketchUp,SketchUp
+sleeve,套筒
+slope tolerance,坡度公差
+smart block,智能块
+snap angle,捕捉角度
+snap grid,捕捉栅格
+solid,实体
+solid primitive,实体图元
+sortents table,排序实体表
+source arrow,源箭头
+spark gap,火花隙
+spec break,等级库打断
+spec conversion report,等级库转换报告
+spline,样条曲线
+split point,拆分点
+split rivet,开口铆钉
+SSM,SSM
+standard deviation,标准偏差
+standoff distance,最小转角距离
+Start In folder,起始文件夹
+Start tab,“开始”选项卡
+station summary,测站概要
+still image,静态图像
+still-image,静态图像
+stitch,缝合
+Stock Tool,普通工具
+stop condition,停止条件
+straddle,跨越
+stretch action,拉伸动作
+stretch frame,拉伸框架
+structure,建筑物
+student version,学生版
+stylus,手写笔
+subdivision mesh,细分网格
+subdivision surface,细分曲面
+substation,变电站
+substitute block,替代块
+substitution grip,替换夹点
+substitution palette,替换选项板
+sun property,阳光特性
+supply zone,供应区
+surface analysis,曲面分析
+surface indication leader,表面指示引线
+sweep path,扫掠路径
+switchable,可切换
+switchgear,开关柜
+swivel,回旋
+tab page,选项卡页
+tablespace,表空间
+tabulated mesh,平移网格
+taper,倾斜
+template manager,样板管理器
+terminal association value,端子关联性值
+termination,端头
+Terrain Point Pro,剖面图中的地形点
+tessellation,镶嵌
+TEXTALIGN,TEXTALIGN
+thermoplastic,热塑性塑料
+tile order,平铺次序
+tile size,平铺尺寸
+time server,时间服务器
+timeline,时间轴
+tint color,染色
+title block,标题栏
+tolerance,公差
+tool palette,工具选项板
+tool palette set,工具选项板集
+toolpath,刀具路径
+top view,俯视图
+topic,主题
+topology,拓扑
+torus,圆环体
+Tour Building wheel,巡视建筑控制盘
+tower,电塔
+trace direction,跟踪方向
+trace feature,跟踪功能
+trace palette,“跟踪” 选项板
+TRACEBACK,TRACEBACK
+TRACEFRONT,TRACEFRONT
+TRACEPALETTECLOSE,TRACEPALETTECLOSE
+TRACEPALETTEOPEN,TRACEPALETTEOPEN
+trackpad,触控板
+transaction,事务
+transformer,变压器
+translucency,半透明度
+transmittal package,传递包
+transmittal setup,传递设置
+trapeze bar,悬吊杆
+tray,托盘
+treatment plant,处理厂
+trial version,试用版
+triangulate,三角化
+trim,修剪
+UCS,用户坐标系
+underconstrained,欠约束
+underlay,参考底图
+up direction,向上方向
+upstream,上游
+User Coordinate System,用户坐标系
+utility,公用事业
+UV space,UV 空间
+VERSIONCOMPARE,VERSIONCOMPARE
+vertex,顶点
+vertex bulge,顶点凸度
+View Object wheel,查看对象控制盘
+visor,面盔
+VLIDE command,VLIDE 命令
+Volo View Express,Volo View Express
+VP freeze,视口冻结
+VPEDIT,VPEDIT
+walk,漫游
+waste water,废水
+watched folder,关注的文件夹
+water fixture unit,水卫浴装置当量
+watermark editor,水印编辑器
+WCS,WCS
+web file,光域网文件
+web light,光域网灯光
+web mapping service,Web 地图服务
+welcome screen,欢迎屏幕
+wildcard,通配符
+winding fill,交叠填充
+wipeout object,区域覆盖对象
+wireframe,线框
+World Coordinate System,世界坐标系
+world space,世界空间
+XAML dialog,XAML 对话框
+XCOMPARE,XCOMPARE
+XCOMPARECLOSE,XCOMPARECLOSE
+XCOMPARERCNEXT,XCOMPARERCNEXT
+XCOMPARERCPREV,XCOMPARERCPREV
+XSL,XSL
+zebra analysis,斑纹分析
+zipped KML file,压缩 KML 文件
+zoom in,放大
+zoom invariant,不可缩放
+zoom out,缩小

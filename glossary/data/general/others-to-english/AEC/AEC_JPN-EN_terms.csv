@@ -1,0 +1,639 @@
+﻿source,target
+2 カット垂直,two-cut square
+2 カット鉛直,two-cut plumb
+3 次曲線,cubic parabola
+3D ミニマップ,3D Mini-map
+3D メッシュ プリミティブ,3D mesh primitive
+3D 回転ギズモ,3D Rotate gizmo
+3D 尺度変更ギズモ,3D Scale gizmo
+3D 移動ギズモ,3D Move gizmo
+ACC,ACC
+Airtable,Airtable
+ALKIS,ALKIS
+APL,APL
+ArcGIS,ArcGIS
+ArcGIS データセット,ArcGIS dataset
+ArchiCAD モデル,ArchiCAD model
+ASBD,ASBD
+ASHRAE 継手,ASHRAE fitting
+ATIL,ATIL
+AUM チーム,AUM team
+AutoCAD モデル,AutoCAD model
+Autodesk Collaboration,Autodesk Collaboration
+Autodesk Image Library,Autodesk Image Library
+Batch Print,Batch Print
+BCA,BCA
+BCF,BCF
+BIM ツール,BIM tool
+Bridge Design for InfraWorks 360,Bridge Design for InfraWorks 360
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+CAD マネージャ,CAD manager
+Changes ツール,Changes tool
+Changes 解析,change analysis
+Cipolletti,Cipolletti
+Clash Detective,Clash Detective
+COGO ポイント,Cogo Points
+CWFU,CWFU
+DECDEG,DECDEG
+DEM,DEM
+Desktop Connector,Desktop Connector
+dll,DLL
+DMS,DMS
+Document Management,Document Management
+Drainage Design for Infraworks 360,Drainage Design for Infraworks 360
+DTM,DTM
+EDM,EDM
+EVC,EVC
+EVCE,EVCE
+FGDB,FGDB
+FU,FU
+HDS,HDS
+HGL,HGL
+HP,HP
+HS エンド プレート,HS end plate
+HVAC ゾーン,HVAC zone
+Ia,Ia
+InfraWorks モデル,InfraWorks model
+Inventor サーバ,Inventor Server
+LAS,LAS
+LF,LF
+LP,LP
+Max モデル,Max model
+MSQ,MSQ
+NNI,NNI
+OCR,OCR
+P&ID Modeler,P&ID Modeler
+Piranesi EPix,Piranesi EPix
+PYPE,Pype
+RCP,RCP
+Revit でクラウド ワークシェアリング,Revit Cloud Worksharing
+Roadway Design for InfraWorks 360,Roadway Design for InfraWorks 360
+Roamer,Roamer
+Scripter,Scripter
+Space Naming Utility,Space Naming Utility
+Structural Analysis for Revit,Structural Analysis for Revit
+Structural Bridge Design,Structural Bridge Design
+TimeLiner,TimeLiner
+TSDB バージョン時間,TSDB version time
+UCS,UCS
+VAV,VAV
+Vehicle Tracking,Vehicle Tracking
+WFU,WFU
+Worksharing Monitor,Worksharing Monitor
+XDRef,XDRef
+アイ ライト,eye
+アイス ジャイアント,ice giants
+アカウント管理者,account administrator
+アスファルト防水屋根,built-up roof
+アセット ライブラリ,asset library
+アナレンマ,analemma
+インスタンス,instance
+インタフェースせん断,interface shear
+インテグレーテッド プロジェクト デリバリー,integrated project delivery
+インベントリ,inventory
+ウェブ スティフナ,web stiffener
+ウェブの厚さ,web thickness
+ウォークスルー,walkthrough
+エア ハンドラ,air handler
+エネルギー勾配線,EGL
+オブジェクト,object
+オフセット距離,Offset Distance
+オリフィス,orifice
+カーテン ウォール グリッド,curtain wall grid
+カーテン ウォール フレーム,curtain wall frame
+カーテン ウォール ユニット,curtain wall unit
+カーテン グリッド,curtain grid
+カーテン システム,curtain system
+カーテン パネル,curtain panel
+カーテン マリオン,curtain wall mullion
+カーテンウォール,curtain wall
+ガードレール,guardrail
+カスタム桁,custom girder
+カットアウト風速,cut-out speed wind
+カットイン風速,cut-in speed wind
+カメラ中心,camera-centric
+カント,cant
+ガント,Gantt
+カントリー キット,country kit
+カント勾配,cant gradient
+キーノート,keynote
+キーノート タグ,keynote tag
+キーノート テーブル,keynote table
+キーノート テキスト,keynote text
+ギズモ,gizmo
+グラード,grad
+クラウド モデル,cloud model
+クラッシュ グループ,clash
+クリアランス,clearance
+クリアランス クラッシュ,clearance clash
+グリッド余白,grid padding
+グループ呼び長さ,group nominal length
+ケーブル ラック,cable tray
+コード セット スタイル,code set style
+コード組み合わせ,code combination
+コーベル,corbel
+コストの影響,impact cost
+コリドー サーフェス,corridor surface
+コリドー全体処理,corridor shrinkwrap
+コリドー横断,corridor section
+コリドー横断エディタ,corridor section editor
+コンセプト エネルギー解析,Conceptual Energy Analysis
+コンセプト マス,conceptual mass
+コンテンツ パック,content pack
+コンテンツ ライブラリ,content library
+コンテンツ認識,Content Awareness
+コントロールされた共有,controlled sharing
+サービス,offering
+サーフェス縦断,surface profile
+サイン半波長逓減曲線,sine half-wavelength diminishing tangent curve
+サブスクリプションメンバー,subscriber
+サプライヤー増減管理,supplier change order
+サブロケーション,sub-location
+サンプル ポイント,sample point
+シェル構造,shell construction
+ジオデータベース,geodatabase
+しゃがむ,crouch
+スキーマ名,schema name
+スケジュール,Schedule
+スタンプ,stamp
+ストリート エルボ,street elbow
+ストリップ窓,strip window
+スパッド,spud
+スプリンクラ,sprinkler
+スラブの厚さ,slab thickness
+スラブ上端,slab top
+スラブ下端,slab bottom
+セット,set
+セラミック タイル,ceramic tile
+ソフト クラッシュ,soft clash
+タイトル,title
+タイトル記号,title mark
+タイムライン,Timeline
+タグ,tag
+ダクト コネクタ,duct connector
+ダクト システム,duct system
+ダクト ダンパ,duct damper
+ダクト ライニング,duct lining
+ダクト継手,duct fitting
+タスク,task
+ダッシュボード,dashboard
+タップ,tap
+ダミー セット,cartoon set
+チーム スペース,Team Space
+チルト角,tilt angle
+ツール,tool
+ツールスペース,toolspace
+デッキ,deck
+デッキ スラブ,deck slab
+テンプレート,template
+ドキュメント ログ,document log
+トラバース エディタ,Traverse Editor
+トリム,trim
+トレンチ,trench
+ナース コール装置,nurse call device
+ニュートラル線,neutral conductor
+ネット グラフ,net graph
+ノード,node
+ハード クラッシュ,hard clash
+ハイパーモデリング,hypermodeling
+ハイパーモデル,hypermodel
+パイプ コネクタ,pipe connector
+パイプ壁,pipe wall
+パイプ平面,pipe plan
+パイプ終了ライン,pipe end line
+パイプ配管,pipe run
+バウンディング ボックス,bounding box
+はしごデッキ,ladder deck
+パス配筋,path reinforcement
+バッチ ユーティリティ,Batch Utility
+はめ殺し窓,fixed window
+パン ジョイスト,pan joist
+ヒート アイランド,heat island
+ビジネス ユニット,business units
+ピッチ,pitch
+ビュー,view
+ビュー リスト,view list
+ビューア,viewer
+ビューポイント,viewpoint
+ピン,push pin
+ファイル,file
+ファイル ログ,files log
+フィールド スプライス,field splice
+フィールド ブック,field book
+フィレット,fillet
+フィレット半径,fillet radius
+フープ曲げ,tie bend
+フェーズ フィルタ,phase filter
+フェーズ マッピング,phase mapping
+フォーム要素,form element
+フォトメトリック形状,photometric shape
+フォトン マップ,photon map
+ブラー,blur
+プライマリ,Primary
+プライマリ モデル,primary model
+フランジ ポイント,flange point
+ブリッジ,bridge
+ブレークオーバーの削除,breakover removal
+フレーム,frame
+フレーム レート,frame rate
+プレキャスト,precast
+プレストレス,prestress
+プレテンション方式のプレストレス桁,pretensioned prestressed girder
+プレナム,plenum
+プロジェクト,project
+プロジェクト リスト,Project List
+プロジェクトの測定基準,project metrics
+プロジェクト管理者,project administrator
+ブロス,bloss
+ボイド ジオメトリ,void geometry
+ボイド スラブ,voided slab
+ポイントを編集,edit point
+ポイント境界条件,point boundary condition
+ホーム,Home
+ボックス ズーム,zoom box
+ホットスポット,hotspot
+ボリュームをクリップ,clip volume
+マークアップ,markup
+マス ゾーン,mass zone
+マス床,mass floor
+マッピングされた BIM オブジェクト プロパティ,BIM object
+マップチェック,mapcheck
+マルチシート,multi-sheet
+マンホール,manhole
+ミーティング,Meetings
+ミニマップ,mini-map
+メイン契約,main contract
+メンバー,member
+モデル ビルダー,Model Builder
+モデル ビルダーのモデル,Model Builder model
+モデル中心,model-centric
+モデル調整,model alignment
+ユーザの調査,user research
+ユーザ等高線,user contour
+ユーロコード,eurocode
+ライン境界,line boundary
+ラベル スタイル,Label style
+リスクレベル,Risk Level
+リバース,reverse play
+リリース条件,release condition
+レイ トレーシング,ray tracing
+レイアウト縦断,layout profile
+レビュー担当者,reviewer
+レンガ ベニヤ,brick veneer
+レンダリングの外観,rendering appearance
+ロール屋根,rolled roof
+ログ,log
+ワールド上方向,world up direction
+ワールド上方向ベクトル,world up vector
+一括ビュー,aggregate View
+一括変換,batch converter
+一方向スラブ,one way slab
+上流予算の増減管理,upstream budget change order
+上空表示,aerial view
+下位,Subordinate
+下請け業者の品質リスク傾向,Subcontractor Quality Risk Trend
+不浸透率,Percentage Impervious
+中央縦距,mid-ordinate distance
+中心マーク,center mark
+中心線,center line
+乾式壁,drywall
+乾球,dry bulb
+予作動式消火システム,pre-action fire protection system
+予備費,contingency
+予算支払い請求,budget payment application
+交差メソッド,intersection method
+交差点コンポーネント,intersection component
+交点/交差点,intersection
+人体による潜熱取得,people latent heat gain
+人工地平線,artificial horizon
+仕様セクション,spec section
+仕様名称,specification
+仕様変更,COR
+付属書,annex
+付帯装置リスト,appurtenance list
+仮想交点,implied point of intersection
+仰角軸,elevation axis
+会社,company
+位置基準,location line
+位置指定,Place Me
+余裕幅,berm
+作図領域,drawing area
+価格表,schedule of values
+借用者,borrower
+傾斜梁,sloped beam
+傾斜配管,sloped piping
+入力タイプ,input type
+入札パッケージ,bid package
+共用面積,building common area
+内倒し,casement
+内部予算移転,internal budget transfer
+円弧-線分距離,arc-chord distance
+写真,Photos
+冷暖房負荷,heating and cooling loads
+冷水器具ユニット,cold water fixture unit
+凸形,convex
+凹型,sag curve
+分割位置,split location
+分岐回路,branch circuit
+分電盤,panelboard
+初期損失,initial abstraction
+副測点,minor station
+労働力と人員のレポート,labor and workforce report
+動力負荷,power load
+動水勾配線,hydraulic grade line
+勾配パターン,slope pattern
+勾配計画,grading plan
+北座標,northing
+占有可能,occupiable
+参照先,reference
+参照縦断,reference profile
+可変堤頂堰,variable crest
+可変風量,Variable Air Volume
+合成オブジェクト,composite object
+合成縦断,superimposed profile
+吊材,hanger
+吐き口,outfall
+吹き出しタグ,callout tag
+吹き出しマークアップ,callout markup
+呼び径,nominal diameter
+品質リスクの傾向,Quality Risk Trend
+器具給水負荷単位,fixture unit
+回帰グラフ,regression graph
+図面グループ,drawing group
+固定線,fixed line
+固定荷重,dead load
+土工事,earthworks
+土積図,mass haul diagram
+土量テーブル,volume table
+圧力損失,pressure loss
+圧力管ネットワーク,pressure network
+圧縮強度,compressive strength
+地下水,ground water
+均衡カント,equilibrium cant
+均質単板鉄筋コンクリート スラブ,solid reinforced concrete slab
+埋め込み壁,embedded wall
+基本ファミリ,base family
+基準サーフェス,base surface
+基礎,foundation
+基線,baseline
+塗り潰しパターン,fill pattern
+境界点,boundary point
+外側の位置,highside location
+外側路肩の横断勾配摺り付け方法,outside shoulder superelevation method
+外光取り入れ,daylight portal
+外観スタイル,appearance style
+外部セカント,external secant
+外部割線の距離,external distance
+多極回路,multi-poled circuit
+実流量,true current
+実負荷,true load
+室空間係数,room cavity ratio
+寸法拘束,DimConstraint
+対象から外す,drop-out
+工業最大流量係数,Industrial Peak Flow Factor
+帯の注釈,data band
+帯の高さ全体,full band height
+帯下部,band end
+干渉グリッド,clash grid
+干渉部位グループ,clash group
+平均断面,average end area
+平均日較差,mean daily range
+平面図表示,plan readability
+度/分/秒,degrees minutes seconds
+座標トラッカー,Coordinate Tracker
+建物フットプリント,building footprint
+建築平面図,architectural floor
+建設モデリング,constructability modeling
+引出線,leader line
+引張強度,tensile strength
+弦の距離,chord distance
+当初予算,original budget
+影キャッチャー,shadow catcher
+役割,role
+役員,executive
+後視,backsight
+復水ドレイン,condensate drain
+情報提供依頼,RFI
+情報提供依頼カスタム フィールド,RFI custom field
+手すりシステム,railing system
+手動入力バー,manual entry bar
+承認者,approver
+投影座標系,projected coordinate system
+押しピン,pushpin
+抽出したソース,sampled source
+抽出幅,swath width
+担当者,contact
+担当者の変更,owner changes
+拘束要素,constraint element
+指定点勾配,spot slope
+排気,exhaust air
+排水ネットワーク,drainage network
+採光用ガラス,daylighting glass
+接合記号,connection symbol
+接地線,ground conductor
+接線の距離,tangent distance
+控え壁,counterfort
+提出物,Submittals
+提出物のユーザ,submittal
+提案,proposal
+換気,vented
+摺り付けの長さ (LF),transition length
+摺り付け測点,transition station
+数値地形モデル(DTM),digital terrain model
+数値標高モデル,digital elevation model
+数量拾いタイプ,takeoff type
+数量拾いパッケージ,takeoff package
+数量積算,material takeoff
+敷地境界線,property line
+断面オブジェクト,section plane
+方位,azimuth
+方向タイプ,direction type
+施工図,shop drawing
+暖房設計温度,heating design temperature
+曲げ直径,bend diameter
+曲り梁,curved beam
+曲線の分割距離,curve tessellation distance
+最大ブレークオーバー法,maximum breakover
+有限要素橋梁解析,finite-element bridge analysis
+未処理強度,raw intensity
+未解決の外部参照,unresolved Xref
+朱書き,redline
+東座標値,easting
+根本原因,root cause
+桁,girder
+桁形状,girder shape
+棟,roof ridge
+楕円セグメント,ellipse segment
+構造モデリング,structural modeling
+構造解析,structural analysis
+標高差,drop amount
+標高差の参照位置,drop reference location
+標高差値,drop value
+権限,permission
+横断シート,section sheet
+横断パイプ,crossing pipe
+横断抽出ライン グループ,sample line group
+横方向のブレーシング,lateral bracing
+橋台,abutment
+橋梁投影ラベル,bridge projection label
+橋脚キャップ,pier cap
+橋脚の柱,pier column
+機械的荷重,mechanical load
+機能,feature
+欠込み,cope
+次のアクション者,next action by
+正弦曲線,sinusoidal curve
+正確性,fidelity
+水力勾配,hydraulic gradient
+水平な踊り場,level landing
+水平調整の方法,horizontal adjustment method
+水頭排出表,head discharge table
+注記,annotation
+活線,hot conductor
+活荷重,live load
+添付ファイル,attachment
+減水乗数,Recession Limb Multiplier
+温度荷重,temperature load
+測点標高,station elevation label
+測量ネットワーク,survey network
+湿球,wet bulb
+溶接金網,welded wire fabric
+潜熱,latent heat
+濁度計,turbidity
+点検スペース,service clearance
+点群イメージ ルックアップ,Point Cloud Image Lookup
+点群データ,point cloud data
+点荷重,point load
+無効な情報提供依頼,void RFI
+焦点の位置,focal point
+照明器具,lighting fixture
+照明装置,lighting device
+照明電力密度,lighting power density
+熱伝達荷重,convection load
+熱取得,heat gain
+片側固定曲線,float curve
+物理的に正確な照明,physically accurate light
+特性強度,characteristic strength
+現ステータスの担当者,ball in court
+現場レポート テンプレート,field report
+現場写真,jobsite photos
+現場打ち,cast-in-place
+用地境界線(ROW),right of way
+留め継ぎ結合,miter join
+皮相電力,apparent power
+直交投影,orthographic
+眺望用ガラス,vision glass
+移動時間,time of travel
+突合せ,butt
+立体文字,model text
+立面図,elevation
+端部キャップ,cap
+等高線ラベル,contour label
+管理者,administrator
+納まり,wrap
+累進寸法,ordinate dimensioning
+終端コネクタ,end connector
+組織,organization
+経路,run
+給気システム,supply air system
+統合モデル空間,coordination space
+継手,fitting
+線形オフセット,alignment offset
+線形ジオメトリ ポイント,alignment geometry point
+線路データ,rail line data
+縦断グリッド ビュー,profile grid view
+縦断ジオメトリ ポイント,profile geometry point
+縦断円曲線,vertical curvature
+耐力壁,bearing wall
+耐震壁,shear wall
+膨らみ係数,bulge
+自然流下式ネットワーク,gravity network
+舗装剥離,stripping pavement
+英国標準規格,British standards
+荷重ケース,load case
+荷重図,load diagram
+表土の剥離,stripping top soil
+補間距離,supplementing distance
+製品,product
+製品選択,product picker
+複合屋根,composition roof
+視覚領域,zone of visual influence
+視野,field of view
+角速度,angular speed
+解析サーフェス,analytical surface
+解析モデル,analytical model
+解析用ブレース,analytical brace
+解析用床,analytical floor
+計画線,feature lines
+設備吊材,fabrication hanger
+設定,Settings
+設計,design
+設計レポート,design report
+許容差,tolerance
+誘導角,flare angle
+請求期間,billing period
+負荷分類,load classification
+費用への影響,cost impact
+費用支払い請求,cost payment application
+路肩ブレークオーバー,shoulder breakover
+軒裏,roof soffit
+軸オフセット,axis offset
+近接チェック,proximity check
+透明で薄暗く表示,transparent dimming
+速度/圧力,velocity pressure
+連続スラブ,continuous slab
+連続基礎,wall foundation
+進捗写真,progress photos
+進行方向の間隔,longitudinal spacing
+道路の種類,road type
+道路の装飾,roadway decoration
+選択レベル,selection resolution
+還気,return air
+還気風量,return airflow
+部屋集計,room schedule
+配布先リスト,Distribution List
+配管コネクタ,conduit connector
+配管システム,piping system
+配管付属品,pipe accessory
+配管断熱材,pipe insulation
+配管継手,pipe fitting
+配管線の勾配,plumbing fixture
+配電盤,switchboard
+重ね壁,stacked wall
+重力パイプライン,gravity pipe
+重複クラッシュ,duplicate clash
+重複した部屋,redundant room
+鉄筋,rebar bar
+鉛直調整の方法,vertical adjustment
+鋼板桁,plate girder
+鋼桁,steel girder
+鋼製トラス,steel truss
+長さ寸法,linear dimension
+長さ計算,linear takeoff
+閉じたポリライン,closed polyline
+開始者,initiator
+間引き,weed
+階,building level
+階段状の基礎,step footing
+隠線,hidden line
+集水域,catchment
+集水域の都市化度,Degree Urbanization
+電力回路,power circuit
+電子距離計測器,electronic distance meter
+電気設備,electrical equipment
+電流容量,ampacity
+需要ダイアグラム,demand diagram
+需要率,demand factor
+静止イメージ,still image
+非分割クラウン,undivided crowned
+非分割片勾配,undivided planar
+非指摘事項,not an issue
+面分割の最大偏差,maximum facet deviation
+面分割係数,faceting factor
+面取り,chamfer
+項目,item
+項目サマリ,Item summary
+高窓,clerestory
+鼻隠し,roof fascia

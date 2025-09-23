@@ -1,0 +1,1659 @@
+﻿source,target
+3D mesh primitive,сетевой 3D-примитив
+3D Move gizmo,гизмо 3D-переноса
+3D Rotate gizmo,гизмо 3D-поворота
+3D Scale gizmo,гизмо 3D-масштабирования
+3DALIGN,3DВЫРОВНЯТЬ
+3DARRAY,3DМАССИВ
+3DCLIP,3DСЕКПЛ
+3DCORBIT,3DПОРБИТА
+3DDISTANCE,3DРАССТ
+3DDWF,3DДВФ
+3DDWFPUBLISH,ПУБЛ3DДВФ
+3DEDITBAR,3DEDITBAR
+3DFACE,3DГРАНЬ
+3DFLY,3DОБЛЕТ
+3DFORBIT,3DСОРБИТА
+3DMESH,3DСЕТЬ
+3DMOVE,3DПЕРЕНЕСТИ
+3DORBIT,3DОРБИТА
+3DORBITCTR,3DОРБЦЕНТР
+3DORBITTRANSPARENT,3DОРБИТАПРОЗРАЧНАЯ
+3DOSNAP,3DПРИВЯЗКА
+-3DOSNAP,-3DПРИВЯЗКА
+3DPAN,3DПАН
+3DPANTRANSPARENT,3DПАНПРОЗРАЧНОЕ
+3DPOLY,3DПЛИНИЯ
+3DPRINT,3DПЕЧАТЬ
+3DPRINTSERVICE,СЛУЖБА3DПЕЧАТИ
+3DROTATE,3DПОВЕРНУТЬ
+3DSCALE,3DМАСШТАБ
+3DSIN,ИМПОРТ3ДС
+3DSWIVEL,3DШАРНИР
+3DSWIVELTRANSPARENT,3DШАРНИРПРОЗРАЧНЫЙ
+3DWALK,3DОБХОД
+3DZOOM,3DПОКАЗАТЬ
+3DZOOMTRANSPARENT,3DПОКАЗАТЬПРОЗРАЧНЫЙ
+ACADBLOCKDIALOG,ACADBLOCKDIALOG
+ACADINFO,ACADINFO
+ACADWBLOCKDIALOG,ACADWBLOCKDIALOG
+ACISIN,ИМПОРТТЕЛ
+ACISOUT,ЭКСПОРТТЕЛ
+ACTBASEPOINT,ОПЕРБАЗОВАЯТОЧКА
+ACTIVITYINSIGHTSCLOSE,АНАЛИТИКАДЕЙСТВИЙЗАКРЫТЬ
+ACTIVITYINSIGHTSOPEN,АНАЛИТИКАДЕЙСТВИЙОТКРЫТЬ
+ACTMANAGER,ДИСПОПЕР
+ACTRECORD,ОПЕРЗАПИСЬ
+ACTSTOP,ОПЕРСТОП
+ACTUSERINPUT,ОПЕРПВВОД
+ACTUSERMESSAGE,ОПЕРПСООБЩЕНИЕ
+ADC,ADC
+ADCCLOSE,ЦУОТКЛ
+ADCCUSTOMNAVIGATE,ЦУСТПЕРЕЙТИ
+ADCENTER,ЦУВКЛ
+ADCNAVIGATE,ЦУПЕРЕЙТИ
+ADDSELECTED,ADDSELECTED
+AEC Collection,AEC Collection
+AI_CIRCTAN,AI_CIRCTAN
+AI_PSPACE,AI_PSPACE
+AIDIMPREC,AIDIMPREC
+AIDIMSTYLE,AIDIMSTYLE
+AIDIMTEXTMOVE,AIDIMTEXTMOVE
+ALIASEDIT,ALIASEDIT
+Aligned Dimension,Параллельный размер
+aligned section view,сечение с выравниванием
+ALIGNSPACE,ALIGNSPACE
+ALKIS,ALKIS
+all-around symbol,по замкнутому контуру
+ALLPLAY,ВОСПРВСЕ
+alpha-blend,альфа-смешение
+alternate unit,альтернативная единица
+altimetry,альтиметрия
+AMECONVERT,РОККОНВЕРТ
+ANALYSISCURVATURE,АНАЛИЗКРИВИЗНЫ
+ANALYSISDRAFT,АНАЛИЗУКЛОНА
+ANALYSISOPTIONS,ПАРАМЕТРЫАНАЛИЗА
+ANALYSISZEBRA,АНАЛИЗЗЕБРА
+analytical surface,аналитическая поверхность
+angle of deflection,угол отклонения
+ANIPATH,АНИМТРАЕКТ
+ANNORESET,АННОСБРОС
+annotation,аннотация
+annotational constraint,аннотативная зависимость
+annotative object,аннотативный объект
+ANNOUPDATE,АННООБНОВИТЬ
+anode,анод
+anode station,анодная станция
+APERTURE,АПЕРТУРА
+APPAUTOLOADER,ПРИЛАВТОЗАГР
+appearance style,стиль представления
+APPLOAD,ЗАГПРИЛ
+arc,дуга
+arc segmentation,сегментация дуги
+arc-chord distance,расстояние от хорды до дуги
+ARCTEXT,ARCTEXT
+ARG,ARG
+ARRAYCLASSIC,МАССИВКЛ
+ARRAYCLOSE,МАССИВЗАКР
+ARRAYEDIT,МАССИВРЕД
+ARRAYPATH,МАССИВТРАЕКТ
+ARRAYPOLAR,МАССИВКРУГ
+ARRAYRECT,МАССИВПРЯМОУГ
+ARX,ARX
+assembly drawing,сборочный чертеж
+assembly extraction template,шаблон извлечения сборки
+ASSISTANTCLOSE,АССИСТЕНТЗАКР
+ASSISTANTOPEN,АССИСТЕНТОТКР
+associative array,ассоциативный массив
+assumed nozzle,ложный штуцер
+ATEXT,ATEXT
+ATIL,ATIL
+ATTACHURL,УРЛСВЯЗАТЬ
+ATTDEF,АТОПР
+ATTDISP,АТЭКР
+ATTEDIT,АТРЕД
+ATTEXT,АТЭКСП
+ATTIN,ATTIN
+ATTIPEDIT,АТРЕДМ
+ATTOUT,ATTOUT
+ATTREDEF,ATTREDEF
+ATTSYNC,АТРОБНОВИТЬ
+AutoCAD color index,Индекс цвета AutoCAD
+AutoCAD including specialized toolsets,AutoCAD including specialized toolsets
+AutoCAD Migration Assistance,AutoCAD Migration Assistance
+AutoComplete,Автозавершение
+AUTOCONSTRAIN,АВТООГРАНИЧЕНИЕ
+Autodesk Assistant,Autodesk Assistant
+Autodesk CAD Manager Tools,Autodesk CAD Manager Tools Setup Wizard
+Autodesk Content Explorer,Autodesk Content Explorer
+Autodesk Manufacturing Community Portal,портал сообщества пользователей Autodesk в сфере производства
+AUTODESKCONNECTIONPOINT,AUTODESKCONNECTIONPOINT
+AutoLISP,AutoLISP Project Files
+AutoLISP development,разработка на AutoLISP
+AutoLISP environment,среда AutoLISP
+AUTOPUBLISH,АВТОПУБЛ
+auxiliary coordinate system,вспомогательная система координат
+axis offset,смещение оси
+azimuth,азимут
+BACKGROUND,ФОН
+backwater gate,обратный клапан
+BACTION,БЛОКРЕАКТ
+BACTIONBAR,БЛОКСТРОКАОПЕРАЦИЙ
+BACTIONSET,БЛОКРЕАКТНАБОР
+BACTIONTOOL,БЛОКРЕАКТИНСТ
+ball mill,шаровая мельница
+base point,базовая точка
+BASSOCIATE,БЛОКРЕАКТСВЯЗЬ
+Batch Standards Checker,утилита пакетного нормоконтроля
+BATTMAN,ДИСПАТБЛК
+BATTORDER,БЛОКПОРАТР
+BAUTHORPALETTE,БЛОКПАЛВАР
+BAUTHORPALETTECLOSE,БЛОКПАЛВАРЗАКР
+BCLOSE,БЛОКРЕДЗАКР
+BCONSTRUCTION,БЛОКОНСТР
+BCOUNT,BCOUNT
+BCPARAMETER,БЛОКОГРПАРАМЕТР
+BCYCLEORDER,БПОРЦИКЛ
+BDA,BDA
+BEDIT,БЛОКРЕД
+below grade,под уровнем грунта
+BESETTINGS,БЛОКРНАСТРОЙКИ
+bevel,скос
+BEXTEND,BEXTEND
+BGRIPSET,БЛОКНАБРУЧ
+BHATCH,КШТРИХ
+bill of materials,спецификация
+binary large object,большой двоичный объект
+bitonal image,монохромное изображение
+blend mode,режим смешивания
+blend surface,переходная поверхность
+BLOB,BLOB
+block authoring object,объект вариации блока
+block library,библиотека блоков
+block properties table,таблица свойств блока
+block replacement,замена блока
+BLOCKICON,БЛОБРАЗЕЦ
+BLOCKNAVIGATE,BLOCKNAVIGATE
+BLOCKREPLACE,BLOCKREPLACE
+BLOCKSDATAOPTION,ПАРАМДАННЫХБЛОКОВ
+BLOCKSPALETTE,ПАЛБЛОКИ
+BLOCKSPALETTECLOSE,ПАЛБЛОКИЗАКРЫТЬ
+BLOCKTOXREF,BLOCKTOXREF
+BLOOKUPTABLE,БЛОКТАБЛВЫБ
+blow off valve,продувной клапан
+BMAKE,BMAKE
+BMOD,BMOD
+BMPOUT,ЭКСПОРТБМП
+boolean,логический
+BOUNDARY,КОНТУР
+bounded area,ограниченная область
+bounding area,ограничивающая область
+bounding box,ограничивающая рамка
+BOX,ЯЩИК
+BPARAMETER,БЛОКПАРАМ
+BPOLY,КПОЛИ
+branch circuit,участок цепи
+break loop,цикл останова
+break point,точка разрыва
+BREAKATPOINT,РАЗОРВАТЬВТОЧКЕ
+breaker,выключатель
+BREAKLINE,BREAKLINE
+break-out line,линия местного разреза
+breakout section view,местный разрез
+breakpoint,точка останова
+BREP,ГРПРЕД
+BREPLACE,БЗАМЕНИТЬ
+BROWSER,БРАУЗЕР
+BROWSERCLOSE,БРАУЗЕРЗАКРЫТЬ
+BROWSEROPEN,БРАУЗЕРОТКРЫТЬ
+BSAVE,БЛОКСОХР
+BSAVEAS,БЛОКСОХРКАК
+BSCALE,BSCALE
+BTABLE,БЛОКТАБЛИЦА
+BTESTBLOCK,БЛОКТЕСТБЛОК
+BTRIM,BTRIM
+bulge,прогиб
+bulge factor,коэффициент прогиба
+bulk copy,групповое копирование
+bump,выдавливание
+bump map,карта выдавливания
+bump mapping,текстура выдавливания
+bus bar,шина
+BVHIDE,БЛОКСКРЫТЬ
+BVSHOW,БЛОКПОКАЗАТЬ
+BVSTATE,БЛОКСОСТВИД
+cable tray,кабельный лоток
+cable tray fitting,фитинг кабельного лотка
+CAL,КАЛЬК
+CAMERA,КАМЕРА
+camera calibration,калибровка камеры
+camera glyph,обозначение камеры
+canvas,рабочая область
+cap,заглушка
+cap filleting,фильтрация заглушек
+cap height,высота прописных букв
+capacitor,конденсатор
+Cascading Style Sheets,каскадные таблицы стилей
+casing,обсадная труба
+casing model,модель обсадной трубы
+catalog assignment,назначение каталога
+catalog parts lookup,поиск деталей в каталоге
+Catmull-Clark subdivision surface,поверхность сглаживания Catmull-Clark
+CDORDER,CDORDER
+center mark,маркер центра
+center point,центр
+CENTERDISASSOCIATE,ЦЕНТРОТКРЕПИТЬ
+CENTERMARK,МАРКЕРЦЕНТРА
+CENTERREASSOCIATE,ЦЕНТРПРИКРЕПИТЬ
+CENTERRESET,ЦЕНТРСБРОС
+CHAMFER,ФАСКА
+CHAMFEREDGE,ФАСКАКРОМКИ
+character large object,большой символьный объект
+CHECKSTANDARDS,НОРМОКОНТРОЛЬ
+chi square,хи-квадрат
+child feature class,дочерний класс элементов
+CHPROP,СВОЙСТВА
+CHSPACE,СМЕНАПРОСТР
+CHURLS,CHURLS
+cinematic shot,кинематический снимок
+CIRCLE,КРУГ
+circlip,стопорное кольцо
+circuit breaker,автоматический выключатель
+circuitry,цепи
+CLASSICGROUP,КЛГРУППА
+CLASSICIMAGE,КЛИЗОБ
+CLASSICINSERT,КЛВСТАВИТЬ
+CLASSICLAYER,CLASSICLAYER
+CLASSICXREF,КЛССЫЛКА
+CLEANSCREENOFF,ЧИСТЭКРОТКЛ
+CLEANSCREENON,ЧИСТЭКРВКЛ
+clip volume,усечение объема
+CLIPIT,CLIPIT
+CLOB,CLOB
+CLOSEALL,ЗАКРЫТЬВСЕ
+CLOSEALLOTHER,ЗАКРЫТЬВСЕПРОЧИЕ
+closed edge,замкнутое ребро
+code combination,сочетание норм
+COGO,COGO
+cold grip,неактивная ручка
+cold water fixture unit,расход прибора для холодной воды
+colinear,коллинеарный
+colinear constraint,зависимость коллинеарности
+collate,разобрать
+collection,коллекция
+collinear,коллинеарный
+color book,альбом цветов
+colorbook,альбом цветов
+combined electric and heat generating station,теплоэлектростанция
+combustion chamber,камера сгорания
+COMMANDLINE,КОМСТР
+COMMANDLINEHIDE,СКРЫТЬКОМАНДНУЮСТРОКУ
+COMMANDMACROS,МАКРОСКОМАНД
+COMMANDMACROSCLOSE,МАКРОСКОМАНДЗАКРЫТЬ
+comminuting machine,измельчитель
+COMPARECLOSE,СРАВНИТЬЗАКРЫТЬ
+COMPAREEXPORT,СРАВНИТЬЭКСПОРТ
+COMPAREIMPORT,СРАВНИТЬИМПОРТ
+COMPAREINFO,СРАВНИТЬИНФО
+component class,класс компонентов
+component list,список компонентов
+composite solid,составное тело
+composite symbol,композитное обозначение
+compound joint,составное соединение
+compound symbol,составное обозначение
+compression,сжатие
+compression end,обжатый конец
+compression spring,пружина сжатия
+computed length,вычисленная длина
+concentric,концентрический
+conductor,проводник
+conduit,короб
+conduit fitting,фитинг короба
+CONE,КОНУС
+CONFIG,НАСТР
+connection grip,ручка соединения
+connection symbol,обозначение соединения
+connector line,соединительная линия
+connector pin,вывод соединителя
+constrained object,зависимый объект
+constraint bar,панель зависимостей
+constraint parameter,параметр зависимости
+constraint point,точка зависимости
+constraint solver,решение зависимостей
+constraint variable,переменная зависимости
+CONSTRAINTBAR,ОГРСТРОКА
+CONSTRAINTSETTINGS,ОГРПАРАМЕТРЫ
+construction line,вспомогательная линия
+Content Editor,редактор компонентов
+content library,библиотека компонентов
+content pack,пакет компонентов
+continuation grip,ручка продолжения
+control cabinet,шкаф управления
+control cable,кабель управления
+control hull,каркас управляющих вершин
+control point,точка управления
+control vertex,управляющая вершина
+control vertex hull,каркас управляющих вершин
+control vertices hull,каркас управляющих вершин
+CONVERTCTB,ПРЕОБРТСП
+CONVERTOLDLIGHTS,ПРЕОБРУСТАРСВЕТ
+CONVERTOLDMATERIALS,ПРЕОБРУСТАРМАТЕРИАЛ
+CONVERTPOLY,ПОЛКОНВЕРТ
+CONVERTPSTYLES,ПРЕОБРСПЕЧ
+CONVTOMESH,ПРЕОБРВСЕТЬ
+CONVTONURBS,ПРЕОБРВNURBS
+CONVTOSOLID,ПРЕОБРВТЕЛО
+CONVTOSURFACE,ПРЕОБРВПВРХ
+coordinate reference system,опорная система координат
+coordinate system tracker,отслеживание систем координат
+coordination model,Координационная модель
+COORDINATIONMODELATTACH,КООРДМОДЕЛЬВСТАВИТЬ
+COPYBASE,БТКОПИРОВАТЬ
+COPYCLIP,КБУФЕР
+COPYFROMTRACE,КОПИРОВАТЬИЗТРАССИРОВКИ
+COPYHIST,КПРОТОКОЛ
+COPYLINK,КСВЯЗЬ
+COPYM,COPYM
+COPYTOLAYER,КОПИЯВСЛОЙ
+corner point,угловая точка
+COUNTAREA,ОБЛАСТЬПОДСЧЕТА
+COUNTAREACLOSE,ОБЛАСТЬПОДСЧЕТАЗАКРЫТЬ
+COUNTCLOSE,ПОДСЧЕТЗАКР
+COUNTFIELD,ПОДСЧЕТПОЛЕ
+COUNTLIST,ПОДСЧЕТСПИСОК
+COUNTLISTCLOSE,ПОДСЧЕТСПИСОКЗАКР
+COUNTNAVNEXT,ПОДСЧЕТПЕРЕЙТИСЛЕД
+COUNTNAVPREV,ПОДСЧЕТПЕРЕЙТИПРЕД
+COUNTTABLE,ПОДСЧЕТТАБЛ
+covering area,площадь покрытия
+CRC,CRC
+cross section duct,кабельный канал поперечного сечения
+CRS,CRS
+CS library,библиотека систем координат
+CSS,CSS
+cubic loft,кубический лофт
+CUI,НПИ
+CUI editor,редактор НПИ
+CUIEXPORT,НПИЭКСПОРТ
+CUIIMPORT,НПИИМПОРТ
+CUILOAD,НПИЗАГР
+CUIUNLOAD,НПИВЫГР
+current directory,рабочий каталог
+curvature analysis,анализ кривизны
+Customer Error Reporting,Пользовательский отчет об ошибках
+customer support,служба поддержки клиентов
+CUTBASE,ВЫРЕЗАТЬСБАЗОЙ
+CUTCLIP,ВБУФЕР
+cutting line,линия сечения
+CVADD,УВДОБАВИТЬ
+CVHIDE,УВСКРЫТЬ
+CVREBUILD,УВПЕРЕСТРОИТЬ
+CVREMOVE,УВУДАЛИТЬ
+CVSHOW,УВПОКАЗАТЬ
+CWFU,CWFU
+CYLINDER,ЦИЛИНДР
+DATAEXTRACTION,ДАННЫЕИЗВЛ
+DATALINK,СВЯЗЬ
+DATALINKUPDATE,СВЯЗЬОБНОВИТЬ
+datumpoint,базовая точка
+DBCCONFIGURE,DBCCONFIGURE
+DBCCONNECT,DBCCONNECT
+DBCDEFINELLT,DBCDEFINELLT
+DBCDEFINELT,DBCDEFINELT
+DBCDELETELINKS,DBCDELETELINKS
+DBCDELETELLT,DBCDELETELLT
+DBCDELETELT,DBCDELETELT
+DBCDELETEQRY,DBCDELETELT
+DBCDISCONNECT,DBCDISCONNECT
+DBCEDITLINKEDTABLE,DBCEDITLINKEDTABLE
+DBCEDITLLT,DBCEDITLLT
+DBCEDITLT,DBCEDITLT
+DBCEDITQRY,DBCEDITQRY
+DBCEDITTABLE,DBCEDITTABLE
+DBCEXECUTEQRY,DBCEXECUTEQRY
+DBCEXPORTLINKS,DBCEXPORTLINKS
+DBCEXPORTQS,DBCEXPORTQS
+DBCEXPORTTS,DBCEXPORTTS
+DBCHIDELABELS,DBCHIDELABELS
+DBCIMPORTQRY,DBCIMPORTQRY
+DBCIMPORTQS,DBCIMPORTQS
+DBCIMPORTTS,DBCIMPORTTS
+DBCLINKCONVERSION,DBCLINKCONVERSION
+DBCLINKMANAGER,DBCLINKMANAGER
+DBCONNECT,БДСВЯЗЬ
+DBCRELOADLABELS,DBCRELOADLABELS
+DBCSELECTLINKS,DBCSELECTLINKS
+DBCSHOWLABELS,DBCSHOWLABELS
+DBCVIEWLINKEDTABLE,DBCVIEWLINKEDTABLE
+DBCVIEWTABLE,DBCVIEWTABLE
+DBLIST,БДСПИСОК
+DCALIGNED,РОПАРАЛЛЕЛЬНОСТЬ
+DCANGULAR,РОУГОЛ
+DCCONVERT,РОПРЕОБРАЗОВАТЬ
+DCDIAMETER,РОДИАМЕТР
+DCDISPLAY,РООТОБР
+DCFORM,РОФОРМ
+DCHORIZONTAL,РОГОРИЗОНТАЛЬНОСТЬ
+DCLINEAR,РОЛИНЕЙНОСТЬ
+DCM Engine,модуль DCM
+DCRADIUS,РОРАДИУС
+DCVERTICAL,РОВЕРТИКАЛЬНОСТЬ
+DDATTE,ДИАЛАТР
+DDGRIPS,ДИАЛРУЧ
+DDIM,ДИАЛРАЗМ
+DDINSERT,ДИАЛВСТ
+DDPLOTSTAMP,DDPLOTSTAMP
+DDRMODES,ДИАЛСРЕД
+DDSELECT,ДИАЛВЫБ
+DDSTYLE,ДИАЛСТИЛЬ
+DDUCS,ДИАЛПСК
+DDUCSP,ДИАЛСПСК
+DDUNITS,ДИАЛЕДИН
+DDVPOINT,ДИАЛТЗРЕН
+dead joint symbol,обозначение неразъемного соединения
+decorative element,элементы оформления
+degrees minutes seconds,градусы минуты секунды
+DELCONSTRAINT,УДАЛОГР
+dependency highlighting,выделение зависимости
+depth of field,глубина резкости
+depth polygon,полигон глубины
+Design Review,Design Review
+Design Web Format,Design Web Format
+DESKTOPANALYTICS,РАБОЧАЯАНАЛИТИКА
+DETACHURL,УРЛРАЗОРВАТЬ
+deviation,отклонение
+DGNADJUST,ДГНРЕГУЛ
+DGNATTACH,ДГНВСТАВИТЬ
+DGNBIND,ВНЕДРИТЬДГН
+DGNCLIP,ДГНРЕЗ
+DGNEXPORT,ДГНЭКСПОРТ
+DGNIMPORT,ДГНИМПОРТ
+DGNLAYERS,ДГНСЛОЙ
+DGNMAPPING,ДГНСООТВ
+diameter,диаметр
+diffuse map,карта рассеяния
+digital elevation model,цифровая модель рельефа
+Digital Signature Extension,Digital Signature Extension
+DIGITALSIGN,ЦИФРПОДПИСЬ
+digitizer puck,шайба дигитайзера
+digitizing tablet,планшет дигитайзера
+DIM,РАЗМЕР
+DIM1,РАЗМЕР1
+DIMALIGNED,РЗМПАРАЛ
+DIMANGULAR,РЗМУГЛОВОЙ
+DIMARC,РЗМДУГИ
+DIMBASELINE,РЗМБАЗОВЫЙ
+DIMBREAK,РЗМРАЗОРВАТЬ
+DIMCENTER,РЗМЦЕНТР
+DIMCONTINUE,РЗМЦЕПЬ
+DIMDIAMETER,РЗМДИАМЕТР
+DIMDISASSOCIATE,РЗМОТКРЕПИТЬ
+DIMEDIT,РЗМРЕД
+dimension constraint,размерная зависимость
+dimension line,размерная линия
+dimension style,размерный стиль
+dimensional constraint,размерная зависимость
+dimensional input,ввод размеров
+DIMEX,DIMEX
+DIMHORIZONTAL,РЗМГОРИЗ
+DIMIM,DIMIM
+DIMINSPECT,РЗМИНСПЕКТ
+DIMJOGGED,РЗМИЗЛОМ
+DIMJOGLINE,РЗМИЗЛИНИЯ
+DIMLINEAR,РЗМЛИНЕЙНЫЙ
+DIMORDINATE,РЗМОРДИНАТА
+DIMOVERRIDE,РЗМПОДАВИТЬ
+DIMRADIUS,РЗМРАДИУС
+DIMREASSOC,DIMREASSOC
+DIMREASSOCIATE,РЗМПРИКРЕПИТЬ
+DIMREGEN,РЗМРЕГЕН
+DIMROTATED,РЗМПОВЕРН
+DIMSPACE,РЗМСМЕЩ
+DIMTEDIT,РЗМРЕДТЕКСТ
+DIMVERTICAL,РЗМВЕРТИК
+disposal tank,резервуар для сливной воды
+DIST,ДИСТ
+distance offset,расстояние смещения
+DISTANTLIGHT,УДАЛСВЕТ
+distributed rendering,распределенная визуализация
+dithering,размывание
+DMS,DMS
+dock,закрепить
+DOF,DOF
+DONUT,КОЛЬЦО
+dots per inch,точек на дюйм
+DOUGHNUT,КОЛЬЦО
+DOWNLOADMANAGER,ДИСПЕТЧЕРЗАГРУЗКИ
+DPI,DPI
+draft analysis,анализ уклона
+drafting standard,стандарт оформления
+DRAGMODE,СЛЕДИТЬ
+drain area,место слива
+drawing congestion,нагруженность чертежа
+drawing folder,папка чертежей
+Drawing Interchange Format,Drawing Interchange Format
+drawing list report,отчет о списке чертежей
+Drawing Manager,Диспетчер чертежей
+drawing set,набор чертежей
+DRAWINGRECOVERY,ВОССТАНЧЕРТЕЖА
+DRAWINGRECOVERYHIDE,СКРЫТЬВОССТАНЧЕРТЕЖА
+DRAWORDER,ПОРЯДОК
+driven constraint,варьируемая зависимость
+driving dimension,контрольный размер
+DROPGEOM,ОГЕОМ
+DSETTINGS,РЕЖИМРИС
+DTED,DTED
+DTEXT,ДТЕКСТ
+duct fitting,фитинг воздуховода
+dump,дамп
+DVIEW,ДВИД
+DWF,DWF
+DWFADJUST,ДВФРЕГУЛ
+DWFATTACH,ДВФВСТАВИТЬ
+DWFCLIP,ДВФРЕЗ
+DWFFORMAT,ДВФФОРМАТ
+DWFLAYERS,ДВФСЛОЙ
+DWG Convert,DWG Convert
+DWG TrueConvert,DWG TrueConvert
+DWG TrueView,Autodesk DWG TrueView Sequoia
+DWGCONVERT,ДВГПРЕОБРАЗОВАТЬ
+DWGHISTORY,ЖУРНАЛДВГ
+DWGHISTORYCLOSE,ЖУРНАЛДВГЗАКРЫТЬ
+DWGPROPS,СВОЙСТВАРИС
+DXBIN,ИМПОРТД
+DXF,DXF
+DXFIN,ИМПОРТА
+DXFOUT,ЭКСПОРТА
+dynamic constraint,динамическая зависимость
+dynamic schematic drawing,динамический чертеж схемы
+easting,восточное положение
+EATTEDIT,АТРЕДАКТ
+EATTEXT,АТРИЗВЛЕЧЬ
+EDGE,EDGE
+edge symbol,обозначение кромки
+EDGESURF,П-КРОМКА
+edit in place,контекстное редактирование
+editing tool,инструмент редактирования
+EDITSHOT,РЕДСНИМОК
+EDITTABLECELL,РЕДЯЧТАБЛ
+EDITTIME,EDITTIME
+ejector,выталкиватель
+elbow,отвод
+Electric Explorer,обозреватель электрооборудования
+ELEV,УРОВЕНЬ
+elevation,отметка
+elevation offset,смещение отметки
+elide,опускать
+ELLIPSE,ЭЛЛИПС
+embed,внедрить
+emitter,излучатель
+end point,конечная точка
+endline grip,ручка конца линии
+engineering items,инженерные элементы
+enhanced secondary window,расширенное вспомогательное окно
+enhanced viewer,улучшенное средство просмотра
+entity filter,фильтр объектов
+environment map,карта среды
+EPLOTEXT,EPLOTEXT
+EPSG code,код EPSG
+ERASE,СТЕРЕТЬ
+ESW,ESW
+ETRANSMIT,ФОРМКОМПЛЕКТ
+evaluation version,evaluation version
+EXOFFSET,EXOFFSET
+EXPLAN,EXPLAN
+EXPLORER,EXPLORER
+EXPORTDWF,ЭКСПОРТДВФ
+EXPORTDWFX,ЭКСПОРТДВФХ
+EXPORTLAYOUT,ЭКСПОРТВЭЛИСТА
+EXPORTPDF,ЭКСПОРТПДФ
+EXPORTSETTINGS,ЭКСПОРТНАЙСТРОЙКИ
+EXPORTTOAUTOCAD,EXPORTTOAUTOCAD
+Expression Builder,Построитель выражений
+EXPRESSMENU,EXPRESSMENU
+EXPRESSTOOLS,EXPRESSTOOLS
+EXTEND,УДЛИНИТЬ
+extended help file,дополнительный файл справки
+Extensible Markup Language,Extensible Markup Language
+Extensible Stylesheet Language,Extensible Stylesheet Language
+extension,расширение
+extension line,выносная линия
+extension spring,пружина растяжения
+external reference,внешняя ссылка
+External Reference Manager,Диспетчер внешних ссылок
+EXTERNALREFERENCES,ВНССЫЛКИ
+EXTERNALREFERENCESCLOSE,ВНССЫЛКИЗАКР
+EXTRIM,EXTRIM
+fabricated equipment,готовое оборудование
+facet,грань
+facility,установка
+FADEMARKUP,ЗАТЕНИТЬПОМЕТКУ
+FASTSEL,FASTSEL
+FDO,FDO
+feature class,класс элементов
+feature container,контейнер элементов
+feature control frame,допуск формы и расположения
+Feature Explorer,обозреватель элементов
+feeder,фидер
+FID,идентификатор элемента
+FIELD,ПОЛЕ
+field fit,поставляется с запасом
+field weld,монтажный сварной шов
+FILEOPEN,ФАЙЛОТКРЫТЬ
+FILETAB,ФАЙЛВКЛАДКА
+FILETABCLOSE,ФАЙЛВКЛАДКАЗАКРЫТЬ
+fill pattern,образец заливки
+fillet,сопряжение
+FILLETEDGE,СОПРЯЖЕНИЕКРОМКИ
+Filtration Bed,фильтрующее основание
+final gathering,финальная сборка
+fit point,определяющая точка
+flat search,динамический поиск
+FLATSHOT,ПЛОСКСНИМОК
+floater,неподключенный провод
+flow arrow,стрелка направления потока
+flow direction,направление сигнала
+flush constraint,зависимость заподлицо
+flyout,всплывающие меню
+fly-out,всплывающие меню
+FOG,ТУМАН
+fold panel,интеллектуальная панель
+foreign key,внешний ключ
+foul water,сточные воды
+frame,кадр
+frame rate,частота кадров
+free standpoint,свободный пикет
+free station,свободное размещение
+freeform design,проектирование произвольных форм
+FREESPOT,СВОБПРОЖЕКТОР
+freestanding annotation,автономнная аннотация
+FREEWEB,СВОБСЕТСВЕТ
+FS,FS
+fuse,предохранитель
+fuzz,допуск
+gap,зазор
+GATTE,GATTE
+GCCOINCIDENT,ГОСОВМЕЩЕНИЕ
+GCCOLLINEAR,ГОКОЛЛИНЕАРНОСТЬ
+GCCONCENTRIC,ГОКОНЦЕНТРИЧНОСТЬ
+GCEQUAL,ГОРАВЕНСТВО
+GCFIX,ГОФИКС
+GCHORIZONTAL,ГОГОРИЗОНТАЛЬНОСТЬ
+GCPARALLEL,ГОПАРАЛЛЕЛЬНОСТЬ
+GCPERPENDICULAR,ГОПЕРПЕНДИКУЛЯРНОСТЬ
+GCSMOOTH,ГОГЛАДКОСТЬ
+GCSYMMETRIC,ГОСИММЕТРИЯ
+GCTANGENT,ГОКАСАНИЕ
+GCVERTICAL,ГОВЕРТИКАЛЬНОСТЬ
+geodetic network point,точка геодезической сети
+geodetic transformation,преобразование геодезических данных
+GEOGRAPHICLOCATION,ГЕОПОЛОЖЕНИЕ
+GEOLOCATEME,ГЕОНАЙТИМЕНЯ
+GEOMAP,ГЕОКАРТА
+GEOMAPIMAGE,ИЗОБГЕОКАРТЫ
+GEOMAPIMAGEUPDATE,ИЗОБГЕОКАРТЫОБНОВИТЬ
+GEOMARKLATLONG,ГЕОМАРКШИРДОЛГ
+GEOMARKME,ГЕОМАРКМЕНЯ
+GEOMARKPOINT,ГЕОМАРКТОЧКА
+GEOMARKPOSITION,ГЕОМАРКПОЛОЖ
+GEOMCONSTRAINT,ГЕОМОГР
+geometric constraint,геометрическая зависимость
+GEOREMOVE,ГЕОУДАЛИТЬ
+GEOREORIENTMARKER,ГЕОПЕРЕОРИЕНТМАРКЕР
+geospatial information,картографические данные
+GETSEL,GETSEL
+gizmo,гизмо
+Gooch shading,тонирование по Гучу
+GOTOSTART,ПЕРЕЙТИВПУСК
+GOTOURL,GOTOURL
+GRADIENT,ГРАДИЕНТ
+gradient ramp,формула градиента
+grading plan,план профилирования
+GRAPHICSCONFIG,ГРАФИКАНАСТР
+GRAPHSCR,ГРАФЭКР
+grease trap,жироуловитель
+GRID,СЕТКА
+grip,ручка
+grip mirror,зеркальное отражение с помощью ручек
+grip rotate,поворот с помощью ручек
+grip scale,mасштабирование с помощью ручек
+grit chamber,гравиеловка
+ground,заземление
+ground thread,шлифованная резьба
+ground water,грунтовые воды
+Group Policy Object,объект групповой политики
+grouped BOM row,сгруппированная строка спецификации
+GROUPEDIT,ГРУППАРЕД
+handhole,люк
+hardware shader,аппаратный шейдер
+hatch pattern,образец штриховки
+HATCHEDIT,РЕДШТРИХ
+HATCHGENERATEBOUNDARY,HATCHGENERATEBOUNDARY
+HATCHSETBOUNDARY,HATCHSETBOUNDARY
+HATCHSETORIGIN,HATCHSETORIGIN
+HATCHTOBACK,HATCHTOBACK
+heat exchanger,теплообменник
+HELIX,СПИРАЛЬ
+helix angle,угол наклона зуба
+HIDEOBJECTS,HIDEOBJECTS
+HIDEPALETTES,СКРЫТЬПАЛИТРЫ
+high pressure switch,переключатель высокого давления
+HIGHLIGHTNEW,ВЫДЕЛИТЬНОВОЕ
+HLSETTINGS,НЛНАСТР
+hole chart,таблица отверстий
+horizontal constraint,зависимость горизонтальности
+horizontal landing,горизонтальная полка
+hot grip,активная ручка
+hot water fixture unit,расход прибора для горячей воды
+house connector,ввод в здание
+HYPERLINK,ГИПЕРССЫЛКА
+HYPERLINKBACK,ГИПЕРНАЗАД
+HYPERLINKFWD,ГИПЕРВПЕРЕД
+HYPERLINKOPEN,ГИПЕРОТКРЫТЬ
+HYPERLINKOPTIONS,ГИПЕРСВОЙСТВА
+HYPERLINKSTOP,ГИПЕРОСТАНОВ
+IGESEXPORT,ИГЕСЭКСПОРТ
+IGESIMPORT,ИГЕСИМПОРТ
+illuminance distance,расстояние освещенности
+IMAGEADJUST,ИЗОБРЕГУЛ
+IMAGEAPP,IMAGEAPP
+IMAGEATTACH,ИЗОБВСТАВИТЬ
+IMAGECLIP,ИЗОБРЕЗ
+IMAGEEDIT,IMAGEEDIT
+IMAGEOVERLAP,IMAGEOVERLAP
+IMAGEQUALITY,ИЗОБКАЧЕСТВО
+implied windowing,стандартный выбор рамкой
+in-canvas tool,инструмент в активном окне
+included angle,центральный угол
+index color,номер цвета
+industry model,промышленная модель
+industry standard,промышленный стандарт
+infer constraints,подразумеваемая зависимость
+information channel,информационный канал
+inline component,встраиваемый компонент
+input type,тип ввода
+INPUTSEARCHOPTIONS,НАСТРВВОДПОИСК
+insert,вставить
+INSERTCONTENT,ВСТАВИТЬКОНТЕНТ
+INSERTDRAWINGASBLOCK,ВСТАВИТЬКАКБЛОК
+INSERTOBJ,ВСТОБЪЕКТ
+inspection dimension,контрольный размер
+Interactive Create & Edit,интерактивное создание и редактирование
+interference check,проверка пересечений
+inverse linear,линейная инверсия
+inverse report,отчет о результатах обратного анализа
+inverse square,квадратичная инверсия
+ISA,ISA
+ISODRAFT,ИЗООРТО
+ISOLATEOBJECTS,ISOLATEOBJECTS
+isolator,изолятор
+isoline,изолиния
+isometric,изометрический
+isometric symbol,изометрическое обозначение
+isoparm,изопараметрическая кривая
+ISOPLANE,ИЗОМЕТР
+JOIN,СОЕДИНИТЬ
+JPGOUT,ЭКСПОРТДЖ
+junction,соединение
+JUSTIFYTEXT,ВЫРТЕКСТ
+Keyhole Markup Language,Keyhole Markup Language
+kink,излом
+KML,KML
+KMZ,KMZ
+knot parameterization,узловая параметризация
+knot vector,узловой вектор
+label block,блок-метка
+lagoon,отстойный пруд
+land management,землеустройство
+language pack,пакет локализации
+latitude,широта
+Launchpad,Стартовая панель
+LAYCUR,СЛОЙТЕК
+LAYDEL,СЛОЙУДАЛ
+layer,слой
+layer state,конфигурация слоев
+LAYERCLOSE,СЛОЙЗАКРЫТЬ
+LAYERP,СЛОЙП
+LAYERPALETTE,СЛОЙПАЛ
+LAYERPMODE,СЛОЙПРЕЖИМ
+LAYERSTATE,СЛОЙСОСТ
+LAYERSTATESAVE,LAYERSTATESAVE
+LAYFRZ,СЛОЙЗМР
+LAYISO,СЛОЙОТД
+LAYLCK,СЛОЙБЛК
+LAYMCH,СЛОЙИЗМНЕСК
+LAYMCUR,СЛОЙУСТЕК
+LAYMRG,СЛОЙОБЪЕД
+LAYOFF,СЛОЙОТКЛ
+LAYON,СЛОЙВКЛ
+LAYOUTMERGE,LAYOUTMERGE
+LAYOUTWIZARD,МАСТЕРЛИСТ
+LAYTHW,СЛОЙРМР
+LAYTRANS,СЛОЙТРАНС
+LAYULK,СЛОЙРАЗБЛ
+LAYUNISO,СЛОЙОТДОТМ
+LAYVPI,СЛОЙОВЭ
+LAYWALK,СЛОЙОБХ
+Learning AutoCAD 2010,Learning AutoCAD 2010
+level of smoothness,степень сглаживания
+license alert,предупреждение о лицензии
+light weight polyline,компактная полилиния
+LIGHTLIST,СПИСОКСВЕТ
+LIGHTLISTCLOSE,СПИСОКСВЕТЗАКР
+lightning arrester,молниеотвод
+line merge,объединение линий
+line string,линия
+linear array,линейный массив
+linear dimension,линейный размер
+linear loft,линейный лофт
+link box,распределительная коробка
+linked annotation,связанная аннотация
+lisp file,файл LISP
+live section,псевдоразрез
+LIVESECTION,ПСЕВДОРАЗРЕЗ
+load tap changer,переключатель ответвлений трансформатора
+loaded standard,загруженный стандарт
+location,местоположение
+locking,блокировка
+LOGFILEOFF,ЖУРНАЛОТКЛ
+LOGFILEON,ЖУРНАЛВКЛ
+long radius elbow,отвод большого радиуса
+longitude,долгота
+lookup,поиск
+loop crossing,обводка при пересечении
+lot,земельный участок
+LSP,LSP
+LSPSURF,LSPSURF
+LTSCALE,ЛМАСШТАБ
+LV board,шит низкого напряжения
+LWEIGHT,ВЕСЛИН
+MAKELISPAPP,СОЗДПРИЛLISP
+MAKEPREVIEW,MAKEPREVIEW
+MANAGEUPLOADS,ВЫГРУЗУПР
+manhole,люк
+manifold,коллектор
+manufacturer,производитель
+markup set,набор пометок
+Markup Set Manager,Диспетчер наборов пометок
+MARKUPASSIST,ПОМАССИСТ
+MARKUPCLOSE,ПМТЗАКРЫТЬ
+MARKUPIMPORT,ПОМИМПОРТ
+MASSPROP,МАСС-ХАР
+MATBROWSERCLOSE,МАТБРАУЗЕРЗАКРЫТЬ
+MATBROWSEROPEN,МАТБРАУЗЕРОТКРЫТЬ
+MATCHCELL,КОПИРОВАТЬЯЧСВ
+MATCHPROP,КОПИРОВАТЬСВ
+mate constraint,зависимость совмещения
+MATEDITORCLOSE,МАТРЕДАКТОРЗАКРЫТЬ
+MATEDITOROPEN,МАТРЕДАКТОРОТКРЫТЬ
+MATERIALASSIGN,МАТЕРИАЛНАЗН
+MATERIALATTACH,МАТЕРИАЛПРИСВ
+MATERIALMAP,МАТЕРИАЛСООТВ
+MATERIALS,МАТЕРИАЛЫ
+MATERIALSCLOSE,МАТЕРИАЛЫЗАКР
+MATLIB,БИБМАТ
+MDE,MDE
+measured length,измеренная длина
+MEASUREGEOM,ИЗМЕРИТЬГЕОМ
+measurement,измерение
+measurement error,погрешность измерения
+mechanical driver,механический привод
+mechanical link,механическая связь
+median,средняя линия
+mental ray,mental ray
+mental ray rendering engine,механизм визуализации mental ray
+MENU,МЕНЮ
+MENULOAD,МЕНЮЗАГР
+MENUUNLOAD,МЕНЮВЫГР
+merge,объединить
+mesh,сеть
+MESHCAP,СЕТЬСОЕД
+MESHCOLLAPSE,СЕТЬСВЕРНУТЬ
+MESHCREASE,СЕТЬСОГНУТЬ
+MESHEXTRUDE,СЕТЬВЫДАВИТЬ
+MESHMERGE,СЕТЬОБЪЕДИНИТЬ
+MESHOPTIONS,СЕТЬНАСТР
+MESHPRIMITIVEOPTIONS,СЕТЬПРИМИТИВНАСТР
+MESHREFINE,СЕТЬУТОЧНИТЬ
+MESHSMOOTH,СЕТЬСГЛАДИТЬ
+MESHSMOOTHLESS,СЕТЬСГЛАДИТЬМЕНЬШЕ
+MESHSMOOTHMORE,СЕТЬСГЛАДИТЬБОЛЬШЕ
+MESHSPIN,СЕТЬОБЕРНУТЬ
+MESHSPLIT,СЕТЬРАЗДЕЛИТЬ
+MESHUNCREASE,СЕТЬРАЗОГНУТЬ
+meter area,область расходомера
+meter model,модель расходомера
+midpoint,средняя точка
+MIGRATEMATERIALS,ПЕРЕНОСМАТЕРИАЛОВ
+migration log file,файл журнала переноса
+minidump,мини-дамп
+minimum spanning tree,минимальное связующее дерево
+MINSERT,МВСТАВИТЬ
+mirror line,ось отражения
+MIRROR3D,3DЗЕРКАЛО
+mitered elbow,наклонный отвод
+mixer,смеситель
+MKLTYPE,MKLTYPE
+MKSHAPE,MKSHAPE
+MLD,MLD
+MLEADER,МВЫНОСКА
+mleader object,объект мультивыноски
+MLEADERALIGN,МВЫНОСКАВЫР
+MLEADERCOLLECT,МВЫНОСКАСОБР
+MLEADEREDIT,МВЫНОСКАРЕД
+MLEADERSTYLE,МВЫНОСКАСТИЛЬ
+MLEDIT,МЛРЕД
+MLINE,МЛИНИЯ
+MLSTYLE,МЛСТИЛЬ
+MOCORO,MOCORO
+model parameter,параметр модели
+model space,пространство модели
+moment of inertia,момент инерции
+motor,двигатель
+MOVEBAK,MOVEBAK
+MPEDIT,MPEDIT
+MREDO,МПОВТОРИТЬ
+MSLIDE,ДСЛАЙД
+MSPACE,МОДЕЛЬ
+MSTRETCH,MSTRETCH
+MTEDIT,МТРЕД
+MTEXT,МТЕКСТ
+MTPROP,МТСВОЙСТВА
+Multi Language Dictionary,многоязычный словарь
+multi-functional grip,многофункциональная ручка
+multilanguage user interface,многоязычный пользовательский интерфейс
+multiline,многострочный
+multi-map,с несколькими картами
+multipart feature,составной элемент
+multiple circuits,несколько цепей
+Multiple Design Environment,многодокументная среда
+multi-relation,множественная связь
+multi-sheet,многостраничный
+MVIEW,СВИД
+MvPart,мультивидовой элемент
+MVSETUP,MVSETUP
+Name Number,номер имени
+named projection,именованная проекция
+nameplate,табличка
+NANT,NANT
+NAVBAR,ПАННАВ
+navigation pane,панель навигации
+NAVSMOTION,НАВПОКАЗДВИЖЕНИЕ
+NAVSMOTIONCLOSE,НАВПОКАЗДВИЖЕНИЕЗАКР
+NAVSWHEEL,НАВШТУРВАЛ
+NAVVCUBE,НАВВКУБ
+NBA,NBA
+NCLOB,NCLOB
+NCOPY,NCOPY
+nested reference,вложенная ссылка
+NETLOAD,NETLOAD
+network adjustment,корректировка сети
+network surface,сетевая поверхность
+network topology,сетевая топология
+network trace,трассировка сети
+network tracing tool,инструмент трассировки сети
+neutralizer,нейтрализатор
+NEWSHEETSET,ПШСОЗДАТЬ
+NEWSHOT,НОВСНИМОК
+NEWVIEW,НОВВИД
+non-associative array,неассоциативный массив
+non-ending pipe,незакрытая труба
+non-manifold,неразветвленный
+non-rectangular viewport,непрямоугольный видовой экран
+normal distribution,нормальное распределение
+normal style,нормальный стиль
+Normally Closed,размыкающий
+Normally Open,замыкающий
+North arrow,направление на север
+northing,северное положение
+NPR,НФТ
+nudge,сдвиг
+NURBS surface,поверхность NURBS
+object,объект
+object snap mode,pежимы объектной привязки
+object thematic mapping,тематический запрос объектов
+ObjectARX,ObjectARX
+OBJECTSCALE,ОБЪЕКТМАСШТ
+oblique angle,угол наклона
+obscured line,линии заднего плана
+OC,OC
+octant,октант
+odour equipment,одораторное оборудование
+OE,OE
+OEM Make Wizard,мастер OEM Make
+OFFSETEDGE,СМЕЩЕНИЕКРОМКИ
+Oil water separator,сепаратор замасленных стоков
+OLECONVERT,OLECONVERT
+OLELINKS,ВНЕДРСВЯЗИ
+OLEOPEN,OLEOPEN
+OLERESET,OLERESET
+OLESCALE,ОЛЕСВОЙСТВА
+ONLINEDESIGNSHARE,ОНЛАЙНОБЩИЙПРОЕКТ
+OOPS,ОЙ
+opacity,непрозрачность
+OPENDWFMARKUP,НПОТКРЫТЬ
+OPENFROMCLOUD,ОТКРЫТЬИЗОБЛАКА
+OPENFROMWEBMOBILE,ОТКРВИНТЕРНЕТМОБ
+OPENSHEETSET,ПШОТКРЫТЬ
+OPTCHPROP,ДОПСВОЙСТВА
+OPTIONS,НАСТРОЙКА
+ordinate dimension,ординатный размер
+ordinate dimensioning,ординатный размер
+organic modeling,органическое моделирование
+origin label,метка точки отсчета
+ortho drawing,двумерный чертеж
+ortho view,ортогональный вид
+orthocube,ортогональный куб
+ortho-image,ортогональное изображение
+OSNAP,ПРИВЯЗКА
+outer style,внешний стиль
+outfall,водопуск
+output size,Формат вывода
+over-constrain,избыточно ограничить
+OVERKILL,OVERKILL
+overlapping ring,накладывающееся очертание
+overlay,наложение
+overline,надчеркивание
+overlining,надчеркивание
+override,переопределять
+override theme,переопределение темы
+P&ID,P&ID
+pad,основание
+PAGESETUP,ПАРАМЛИСТ
+-PAGESETUP,-ПАРАМЛИСТ
+PAINTER,КИСТЬ
+panorama,панорама
+paper space,пространство листа
+parallel constraint,зависимость параллельности
+PARAMETERSCLOSE,ДИСППАРАМЗАКР
+parametric drawing,параметрический чертеж
+parametric expression,параметрическое выражение
+parcel,участок
+parent feature class,родительский класс элементов
+part extraction template,шаблон извлечения детали
+part reference,базовый чертеж детали
+PARTIALOAD,ЗАГРЧАСТЬ
+PARTIALOPEN,ОТКРЧАСТЬ
+PASTEASHYPERLINK,ГСВСТАВИТЬ
+PASTEBLOCK,ВСТБЛОК
+PASTECLIP,ВСТБУФЕР
+PASTEORIG,ВСТИСХОД
+PASTESPEC,ВСТСПЕЦ
+patch,исправление
+patch list,список исправлений
+patch surface,замыкающая поверхность
+path array,массив по траектории
+path curve,криволинейная траектория
+PCEXTRACTSECTION,ОБЛТОЧСЕЧЕНИЕИЗВЛ
+PCINWIZARD,МАСТЕРПЕЧ
+PDFADJUST,ПДФРЕГУЛ
+PDFATTACH,ПДФВСТАВИТЬ
+PDFCLIP,ПДФОБРЕЗ
+PDFIMPORT,ПДФИМПОРТ
+PDFLAYERS,ПДФСЛОЙ
+PDFSHXTEXT,ПДФГЕОМТЕКСТ
+PEDIT,ПОЛРЕД
+pen width,толщина пера
+Pencil tool,карандаш
+PERFANALYZER,ПРОИЗВАНАЛИЗАТОР
+PERFANALYZERCLOSE,ПРОИЗВАНАЛИЗАТОРЗАКРЫТЬ
+performance hint,рекомендации по повышению производительности
+periodic curve,периодическая кривая
+persistent object snap,постоянная объектная привязка
+persistent reactor,постоянный реактор
+persistent zoom,автоматическое зумирование
+pessimistic locking,пессимистическая блокировка
+PFACE,ПГРАНЬ
+photo modeling,фотомоделирование
+photon map,фотонная карта
+physical prototyping,физическое моделирование изделий
+pickfirst set,набор предварительного выбора
+pig launch,запуск скребка
+PIP,PIP
+pipe fitting,фитинг трубопровода
+pipe gap end,конец разрыва трубы
+pipe insulation,изоляция трубы
+PKFSTGROUP,PKFSTGROUP
+PLAN,ПЛАН
+planar face,плоская грань
+plane coordinate,координата плоскости
+PLANESURF,ПЛОСКПОВ
+planimetry,планиметрия
+plastic socket,пластиковый патрубок
+PLINE,ПЛИНИЯ
+plot frame,область печати
+plot stamp,вывод штемпеля
+plot structure,plot structure
+plot style,стиль печати
+PLOTSTAMP,ШТЕМПЕЛЬ
+PLOTSTYLE,ПСТИЛЬ
+PLOTTERMANAGER,ДИСППЕЧ
+PLT2DWG,PLT2DWG
+PLY,PLY
+PMSTART,PMSTART
+PMSTOP,PMSTOP
+PMTOGGLE,PMTOGGLE
+PMTRACE,PMTRACE
+PNGOUT,ЭКСПОРТПНГ
+point feature,точечный элемент
+POINTCLOUDATTACH,ОБЛАКОТОЧЕКВСТАВИТЬ
+POINTCLOUDCOLORMAP,ОБЛАКОТОЧЕКЦВЕТЛЕГЕНД
+POINTCLOUDCROP,ОБЛАКОТОЧЕКПОДРЕЗ
+POINTCLOUDCROPSTATE,ОБЛАКОТОЧЕКПОДРЕЗСТАТУС
+POINTCLOUDMANAGER,ДИСПОБЛАКАТОЧЕК
+POINTCLOUDMANAGERCLOSE,ДИСПОБЛАКАТОЧЕКЗАКРЫТЬ
+POINTCLOUDSTYLIZE,ОБЛАКОТОЧЕКСТИЛИЗ
+POINTCLOUDUNCROP,ОБЛАКОТОЧЕКОТМЕНАПОДРЕЗ
+pointer input,ввод с помощью мыши
+POINTLIGHT,ТОЧСВЕТ
+polar array,круговой массив
+polar stretch,полярное растяжение
+polar tracking,полярное отслеживание
+PolarSnap,PolarSnap
+pole,столб
+polling frequency,периодичность проверки
+polyarc segment,сегмент полидуги
+polyface mesh,многогранная сеть
+POLYGON,МН-УГОЛ
+polygon mesh,полигональная сеть
+polyline,полилиния
+POLYSOLID,ПОЛИТЕЛО
+position finder,поиск объектов
+position point,точка расположения
+Power Dimensioning,Суперразмеры
+power station,электростанция
+precache,предварительное кэширование
+pre-cache,предварительное кэширование
+precision presets manager,Диспетчер наборов параметров точности
+PREFERENCES,УСТАНОВКИ
+pressed joint,прессовое соединение
+PRESSPULL,ВЫДАВГРАНЬ
+pressure zone,зона давления
+Primary,основной
+production isometric drawing,производственный изометрический чертеж
+profile curve,кривая профиля
+profile designer,конструктор профилей
+progressive tooltip,активная подсказка
+project dashboard,пульт управления
+Project Simulus,Project Simulus
+projected coordinate system,спроецированная система координат
+PROJECTGEOMETRY,ГЕОМПРОЕЦ
+properties inspector,Инспектор свойств
+PROPERTIESCLOSE,ОКНОСВЗАКР
+property line,граница участка
+PROPULATE,PROPULATE
+prototype drawing,чертеж-прототип
+PSBSCALE,PSBSCALE
+PSETUPIN,ИМПОРТПЛ
+PSFILL,ПСЗАКР
+PSOUT,ЭКСПОРТПС
+PSPACE,ЛИСТ
+PSTSCALE,PSTSCALE
+PTYPE,ТИПТОЧКИ
+Push to Autodesk Docs,Передать в Autodesk Docs
+PUSHTODOCSCLOSE,ПЕРЕДАТЬВDOCSЗАКР
+PUSHTODOCSOPEN,ПЕРЕДАТЬВDOCSОТК
+PYRAMID,ПИРАМИДА
+QCCLOSE,БКЗАКРЫТЬ
+QDIM,БРАЗМЕР
+QLATTACH,QLATTACH
+QLATTACHSET,QLATTACHSET
+QLDETACHSET,QLDETACHSET
+QLEADER,БВЫНОСКА
+QNEW,БСОЗДАТЬ
+QQUIT,QQUIT
+QSAVE,БСОХРАНИТЬ
+QSELECT,БВЫБОР
+QTEXT,КТЕКСТ
+quick dimension,быстрый размер
+QuickCalc,БыстрКальк
+QUICKCUI,БЫСТРНПИ
+QUICKPROPERTIES,БЫСТРСВОЙСТВА
+QVDRAWING,БВЧЕРТЕЖ
+QVDRAWINGCLOSE,БВЧЕРТЕЖЗАКРЫТЬ
+QVLAYOUT,БВЛИСТ
+QVLAYOUTCLOSE,БВЛИСТЗАКРЫТЬ
+R14PENWIZARD,МАСТЕРПЕР14
+radial dimension,радиальный размер
+radius reflection line,линия плавного перехода
+ramp,последовательность
+rapid prototyping,быстрое моделирование изделий
+rasterize,растрировать
+RAY,ЛУЧ
+RCONFIG,RCONFIG
+reality capture,лазерное сканирование
+recent blocks list,список последних блоков
+recent blocks location,папка с последними блоками
+recloser,автомат повторного включения
+RECOVERALL,ВОССТВСЕ
+RECTANG,ПРЯМОУГОЛЬНИК
+REDEFINE,ДАКОМ
+REDIR,REDIR
+REDIRMODE,REDIRMODE
+REDO,ПОВТОРИТЬ
+REDRAW,ОСВЕЖИТЬ
+REDRAWALL,ВСЕОСВЕЖ
+REFCLOSE,ССЫЛЗАКР
+REFEDIT,ССЫЛРЕД
+reference constraint,ссылочная зависимость
+reference frame,система отсчета
+reference grid,координатная сетка
+Reference Manager,Диспетчер ссылок
+reference record,ссылочная запись
+refinement,уточнение
+reflection map,карта отражения
+refraction index,коэффициент преломления
+REFSET,ССЫЛНАБ
+REGEN,РЕГЕН
+REGEN3,РЕГЕН3
+REGENALL,ВСЕРЕГЕН
+REGENAUTO,РЕГЕНАВТО
+REGION,ОБЛАСТЬ
+regulator,регулятор
+REINIT,ПЕРЕИН
+Related Products,Связанные программы
+relax constraint,снять зависимость
+render context,контекст визуализации
+render preset,набор параметров визуализации
+RENDERCROP,ТОНИРПОДРЕЗ
+RENDERENVIRONMENT,СРЕДАТОН
+RENDERENVIRONMENTCLOSE,RENDERENVIRONMENTCLOSE
+RENDEREXPOSURE,ТОНИРЭКСПОЗ
+RENDEREXPOSURECLOSE,RENDEREXPOSURECLOSE
+RENDERONLINE,ТОНИРОНЛАЙН
+RENDERPRESETS,НАБПАРАМТОНИР
+RENDERPRESETSCLOSE,НАБПАРАМТОНИРЗАКР
+RENDERWIN,ТОНИРОКНО
+RENDERWINDOW,ТОНИРОКНО
+RENDERWINDOWCLOSE,ТОНИРОКНОЗАКР
+Report Designer,конструктор отчетов
+representation,представление
+representation string,строка представления
+REPURLS,REPURLS
+request code,код запроса
+reservoir,водохранилище
+RESETBLOCK,СБРОСБЛОКА
+restrictor,дроссель
+retention tank,сборный бак
+return date,дата возврата
+REVCLOUD,ОБЛАКО
+REVCLOUDPROPERTIES,СВОЙСТВАОБЛАКА
+REVOLVE,ВРАЩАТЬ
+REVSURF,П-ВРАЩ
+rewind history,журнал перемотки
+Ribbon Command Locator,Определитель команд ленты
+ribbon panel,панель ленты
+RIBBONCLOSE,ЛЕНТАЗАКР
+riser,подступенок
+roll open,развернуть
+roll up,свернуть
+rollback,откатить
+ROTATE,ПОВЕРНУТЬ
+ROTATE3D,ПОВЕРНУТЬ3D
+ROTATED,ПОВЕРНУТЫЙ
+rotation angle,угол поворота
+roughness,шероховатость
+routing line,линия трассировки
+RPREF,РЕЖТОН
+RPREFCLOSE,РЕЖИМТОНОТКЛ
+RSCRIPT,ВПАКЕТ
+RTEDIT,RTEDIT
+RTEXT,RTEXT
+RTEXTAPP,RTEXTAPP
+RTPAN,ПАНРВ
+RTUCS,RTUCS
+RTZOOM,ПОКАЗАТЬРВ
+rule base,база правил
+RULESURF,П-СОЕД
+sample point,выборочная точка
+SAVEALL,SAVEALL
+SAVEAS,СОХРАНИТЬКАК
+SAVEIMG,СОХРИЗОБ
+SAVETOCLOUD,СОХРАНИТЬВОБЛАКЕ
+SAVETOWEBMOBILE,СОХРВИНТЕРНЕТМОБ
+scale factor height,коэффициент масштабирования высоты
+SCALELISTEDIT,СПИСМАСШТРЕД
+SCALETEXT,МАСШТЕКСТ
+schema,схема
+schematic component,компонент схемы
+schematic diagram,принципиальная схема
+schematic feature,элемент схемы
+schematic line,линия схемы
+schematic report,отчет по схеме
+schematic symbol,условное обозначение
+screening,интенсивность
+SCRIPT,ПАКЕТ
+SCRIPTCALL,ПАКЕТВЫЗОВ
+Secondary,вторичный
+SECTION,СЕЧЕНИЕ
+section boundary,контур сечения
+section line,линия сечения
+section object,объект-сечение
+section plane,секущая плоскость
+section view,сечение
+SECTIONPLANE,СЕКПЛОСКОСТЬ
+SECTIONPLANEJOG,СЕКПЛОСКОСТЬИЗЛОМ
+SECTIONPLANESETTINGS,СЕКПЛОСКОСТЬНАСТР
+SECTIONPLANETOBLOCK,СЕКПЛОСКОСТЬВБЛОК
+SECTIONSPINNERS,СЕЧНАБСЧЕТЧИКИ
+SECURITYOPTIONS,БЕЗОПНАСТР
+SELECTCOUNT,ВЫБРАТЬПОДСЧЕТ
+SELECTSIMILAR,SELECTSIMILAR
+SELECTURL,УРЛВЫБРАТЬ
+self-intersecting polygon,самопересекающийся полигон
+septic tank,септический резервуар
+SEQUENCEPLAY,ЗАПУСТИТЬНАБОР
+sequential search,последовательный поиск
+service point,точка обслуживания
+SETBYLAYER,УСТПОСЛОЮ
+SETVAR,УСТПЕРЕМ
+SH,SH
+SHADE,РАСКРАСИТЬ
+shade plot mode,режим тонирования при выводе на печать
+SHADEMODE,РЕЖИМРАСКР
+shaft break,разрыв вала
+SHAPE,ФОРМА
+ShapeManager,ShapeManager
+SHAREDVIEWS,ОБЩИЕВИДЫ
+SHAREDVIEWSCLOSE,ОБЩИЕВИДЫЗАКРЫТЬ
+SHAREVIEW,ОБЩИЙДОСТУПВИД
+sheet set manager,Диспетчер подшивок
+sheet subset,группа листов
+SHEETSET,ПОДШИВКА
+SHEETSETHIDE,ПОДШИВКАОТКЛ
+shop,цех
+shortcut function,функции быстрого вызова
+SHOWPALETTES,ПОКАЗАТЬПАЛИТРЫ
+SHOWRENDERGALLERY,ПОКАЗГАЛЕРТОНИР
+SHOWURLS,SHOWURLS
+SHP2BLK,SHP2BLK
+shut off valve,запорный клапан
+SIGVALIDATE,ПДПРОВЕРИТЬ
+simple joint,простое соединение
+site point,точка площадки
+SketchUp,SketchUp
+sleeve,втулка
+slope tolerance,допуск уклона
+smallbore,небольшого диаметра
+smart block,умный блок
+snap angle,угол привязки
+snap grid,шаговая привязка
+SOLDRAW,Т-РИСОВАНИЕ
+solid primitive,твердотельный примитив
+SOLIDEDIT,РЕДТЕЛ
+SOLPROF,Т-ПРОФИЛЬ
+SOLVIEW,Т-ВИД
+sortents table,таблица сортировки объектов
+SPACETRANS,ЕДПРОСТ
+spark gap,искровой зазор
+spec break,разрыв миникаталога
+spec conversion report,отчет о преобразовании миникаталога
+SPHERE,ШАР
+spline,сплайн
+SPLINEDIT,РЕДСПЛАЙН
+split point,точка разделения
+split rivet,разжимная заклепка
+SPOTLIGHT,ПРОЖЕКТОР
+SSM,ДП
+SSX,SSX
+standard deviation,стандартное отклонение
+STANDARDS,СТАНДАРТЫ
+standoff distance,величина отступа
+Start In folder,начальная папка
+Start tab,вкладка «Начало»
+starting view,начальный вид
+station summary,сводка по пикетам
+STATUS,СТАТУС
+still image,статическое изображение
+still-image,статическое изображение
+STLOUT,ЭКСПОРТСТЛ
+Stock Tool,файл конфигурации инструментов
+stop condition,условие останова
+straddle,расставлять
+stretch action,операция растягивания
+stretch frame,рамка растягивания
+structure,конструкция
+structure environment,среда структуры
+student version,студенческая версия
+STYLE,СТИЛЬ
+STYLESMANAGER,ДИСПСТИЛЬ
+stylus,перо
+subdivision mesh,сеть сглаживания
+subdivision surface,поверхность сглаживания
+substation,подстанция
+substitute block,подстановочный блок
+substitution grip,ручка подстановки
+substitution palette,палитра подстановки
+sun property,свойства солнца
+SUNPROPERTIES,СВОЙСТВАСОЛНЦА
+SUNPROPERTIESCLOSE,СВОЙСТВАСОЛНЦАЗАКР
+SUPERHATCH,SUPERHATCH
+supply zone,зона снабжения
+surface analysis,анализ поверхности
+surface indication leader,выноска указателя поверхности
+surface normal,нормаль к поверхности
+SURFBLEND,ПОВЕРХПЕРЕХОД
+SURFEXTEND,ПОВЕРХУДЛИНИТЬ
+SURFEXTRACTCURVE,ПОВЕРХИЗВЛКРИВЫЕ
+SURFFILLET,ПОВЕРХСОПРЯЖЕНИЕ
+SURFNETWORK,ПОВЕРХСЕТЬ
+SURFOFFSET,ПОВЕРХСМЕЩЕНИЕ
+SURFPATCH,ПОВЕРХЗАЛАТАТЬ
+SURFSCULPT,ПОВЕРХНАПОЛНИТЬ
+SURFTRIM,ПОВЕРХОБРЕЗАТЬ
+SURFUNTRIM,ПОВЕРХВОССТАНОБР
+sweep path,траектория сдвига
+switchable,переключаемый
+switchgear,распределительное устройство
+swivel,вращать
+SYSVARMONITOR,СИСТПЕРЕММОНИТОР
+SYSVDLG,SYSVDLG
+SYSWINDOWS,ОКНО
+tab page,страница вкладки
+TABLE,ТАБЛИЦА
+TABLEDIT,ТАБЛРЕД
+TABLEEXPORT,ЭКСПОРТТАБЛ
+tablespace,табличное пространство
+TABLESTYLE,ТАБЛСТИЛЬ
+TABLET,ПЛАНШЕТ
+TABSURF,П-СДВИГ
+tabulated mesh,сеть сдвига
+taper,сужать
+taper angle,угол конуса
+TARGETPOINT,ТОЧКАЦЕЛИ
+task pane,панель задач
+TASKBAR,ПАНЗАДАЧ
+TBCONFIG,ПНАСТРОЙ
+TCASE,TCASE
+TCIRCLE,TCIRCLE
+TCOUNT,TCOUNT
+template manager,Диспетчер шаблонов
+termination,концевая заделка
+Terrain Point Pro,профиль высотной отметки
+tessellation,тесселяция
+TEXTALIGN,ТЕКСТВЫРОВНЯТЬ
+TEXTEDIT,ТЕКСТРЕД
+TEXTFIT,TEXTFIT
+TEXTMASK,TEXTMASK
+TEXTSCR,ТЕКСТЭКР
+TEXTTOFRONT,ТЕКСТПЕРПЛАН
+TEXTUNMASK,TEXTUNMASK
+TFHELP,TFHELP
+TFRAMES,TFRAMES
+thermal conductivity,теплопроводность
+thermoplastic,термопласт
+thumbnail preview,mиниатюра
+TIFOUT,ЭКСПОРТТИФ
+tile order,порядок мозаики
+tile size,размер фрагментов мозаики
+tiling,разбиение на фрагменты
+tiling scheme,схема разбиения на фрагменты
+TIME,ВРЕМЯ
+time server,сервер времени
+timeline,шкала времени
+TINSERT,ТАБЛВСТБЛОК
+tint color,оттенок
+title block,основная надпись
+TJUST,TJUST
+tolerance,допуск
+tool palette,инструментальная палитра
+tool palette set,набор инструментальных палитр
+TOOLBAR,ПАНЕЛЬ
+TOOLPALETTES,ИНСТРПАЛВКЛ
+TOOLPALETTESCLOSE,ИНСТРПАЛОТКЛ
+toolpath,траектория перемещения инструмента
+top view,вид сверху
+topic,тема
+topology,топология
+TORIENT,TORIENT
+torsion spring,пружина кручения
+torus,тор
+Tour Building wheel,штурвал для зданий
+tower,опора
+TPNAVIGATE,ИППЕРЕЙТИ
+trace direction,направление трассировки
+trace feature,функция «Трассировка»
+trace palette,Палитра «Трассировки»
+TRACEBACK,ТРАСНАЗАД
+TRACEEDIT,ТРАСРЕД
+TRACEFRONT,ТРАСПЕРЕД
+TRACEPALETTECLOSE,ТРАСПАЛЗАКР
+TRACEPALETTEOPEN,ТРАСПАЛОТК
+TRACEVIEW,ТРАСВИД
+trackpad,трекпад
+transaction,транзакция
+transformer,трансформатор
+translucency,полупрозрачность
+transmittal package,комплект файлов
+transmittal setup,набор параметров комплекта
+trapeze bar,трапецеидальная балка
+tray,область уведомлений
+TRAYSETTINGS,ЛОТОКНАСТР
+treatment plant,очистное сооружение
+TREESTAT,ДЕРЕВО
+trellis,решетка
+TREX,TREX
+trial version,демоверсия
+triangulate,производить триангуляцию
+TSCALE,TSCALE
+TUTCLEAR,TUTCLEAR
+TUTDEMO,TUTDEMO
+TXT2MTXT,ТЕКСТВМТЕКСТ
+TXTEXP,TXTEXP
+UCS,ПСК
+UCSICON,ЗНАКПСК
+UCSMAN,ДИСПСК
+ULAYERS,ПСЛОИ
+underconstrained,не полностью определенный
+underlay,подложка
+UNION,ОБЪЕДИНЕНИЕ
+UNISOLATEOBJECTS,UNISOLATEOBJECTS
+UNITS,ЕДИНИЦЫ
+up direction,направление вверх
+UPDATEFIELD,ОБНПОЛЕ
+UPDATETHUMBSNOW,ОБНОБРАЗЦЫ
+upstream,против направления потока
+User Coordinate System,пользовательская система координат
+utility,инженерная сеть
+UV space,UV-пространство
+VBAIDE,VBAIDE
+VBALOAD,VBALOAD
+VBAMAN,VBAMAN
+VBANEW,VBANEW
+VBAPREF,VBAPREF
+VBARUN,VBARUN
+VBASTMT,VBASTMT
+VBAUNLOAD,VBAUNLOAD
+VERSIONCOMPARE,ВЕРСИЯСРАВНИТЬ
+vertex,вершина
+vertex bulge,прогиб в вершине
+View Object wheel,штурвал для объектов
+VIEWBASE,ВИДБАЗ
+VIEWCOMPONENT,ВИДКОМПОНЕНТА
+VIEWDETAIL,ВЫНОСНОЙЭЛЕМЕНТ
+VIEWDETAILSTYLE,ВЫНОСНОЙЭЛЕМЕНТСТИЛЬ
+VIEWEDIT,ВИДРЕД
+VIEWGO,КВИДУ
+VIEWPLAY,ВИДЗАПУСК
+VIEWPLOTDETAILS,ПОДРОБНОСТИПП
+VIEWPORTS,ВИДОВЫЕЭКРАНЫ
+VIEWPROJ,ВИДПРОЕКЦ
+VIEWRES,НАСТРВИД
+VIEWSECTION,ВИДСЕЧЕНИЯ
+VIEWSECTIONSTYLE,ВИДСЕЧЕНИЯСТИЛЬ
+VIEWSETPROJ,ВИДУСТПРОЕКЦ
+VIEWSKETCHCLOSE,ВИДЭСКИЗАЗАКРЫТЬ
+VIEWSTD,ВИДСТД
+VIEWSYMBOLSKETCH,ВИДЭСКИЗОБОЗ
+VIEWUPDATE,ВИДОБНОВИТЬ
+visit point,промежуточная точка
+visor,панель
+VISUALSTYLES,ВИЗСТИЛИ
+VISUALSTYLESCLOSE,ВИЗСТИЛИЗАКР
+VLIDE,VLIDE
+VLIDE command,команда VLIDE
+VLISP,VLISP
+Volo View Express,Volo View Express
+VPCLIP,ВЭКРЕЗ
+VPEDIT,ВЭРЕД
+VPLAYER,ВСЛОЙ
+VPMAX,ВЭКРМАКС
+VPMIN,ВЭКРМИН
+VPOINT,ТЗРЕНИЯ
+VPORTS,ВЭКРАН
+VPSCALE,VPSCALE
+VPSYNC,VPSYNC
+VSCURRENT,ТЕКВИЗСТИЛЬ
+VSLIDE,СЛАЙД
+VSSAVE,ВССОХРАНИТЬ
+VTOPTIONS,ПАРАМЕТРЫПВ
+WALKFLYSETTINGS,ОБХОДОБЛЕТНАСТР
+waste water,водоотведение
+watched folder,отслеживаемая папка
+water fixture unit,расход прибора воды
+watermark editor,редактор штемпелей
+watertight,непроницаемый
+WBLOCK,ПБЛОК
+web file,сеточный файл
+web light,сеточный свет
+web mapping service,картографическая веб-служба
+WEBLIGHT,СЕТСВЕТ
+WEBLOAD,ЗАГРУЗИТЬЯВАСКРИПТ
+WEDGE,КЛИН
+welcome screen,экран приветствия
+WHOHAS,КЕМОТКРЫТ
+wildcard,подстановочный знак
+winding fill,альтернативная заливка
+WIPEOUT,МАСКИРОВКА
+wipeout object,маскирующий объект
+wireframe,каркас
+wireway,желоб
+WMFIN,ИМПОРТМТФ
+WMFOPTS,ОПЦИИМТФ
+WMFOUT,ЭКСПОРТМТФ
+World Coordinate System,Мировая система координат
+world space,мировое пространство
+WSSAVE,РПСОХРАНИТЬ
+WSSETTINGS,РППАРАМЕТРЫ
+XATTACH,ССВСТАВИТЬ
+XBIND,ВНЕДРИТЬ
+XCLIP,ССПОДРЕЗАТЬ
+XCOMPARE,ССЫЛКАСРАВНИТЬ
+XCOMPARECLOSE,ССЫЛКАСРАВНИТЬЗАКРЫТЬ
+XCOMPARERCNEXT,ССЫЛКАСРАВНИТЬДАЛЕЕ
+XCOMPARERCPREV,ССЫЛКАСРАВНИТЬНАЗАД
+XDATA,XDATA
+XDLIST,XDLIST
+XEDGES,ИЗВЛРЕБРА
+XLINE,ПРЯМАЯ
+XLIST,XLIST
+XOPEN,ССОТКРЫТЬ
+XP,XP
+XPLODE,ВЗОРВАТЬ
+XSL,XSL
+zebra analysis,анализ Зебра
+zipped KML file,архивированный файл KML
+ZOOM,ПОКАЗАТЬ
+zoom in,увеличить
+zoom invariant,инвариант зумирования
+zoom out,уменьшить

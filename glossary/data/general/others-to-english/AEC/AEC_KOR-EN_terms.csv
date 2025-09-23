@@ -1,0 +1,489 @@
+﻿source,target
+3D 메쉬 기본체,3D mesh primitive
+3D 이동 장치,3D Move gizmo
+3D 회전 장치,3D Rotate gizmo
+3D 축척 장치,3D Scale gizmo
+공조기,air handler
+정렬 단면도,aligned section view
+선형 지오메트리 점,alignment geometry point
+선형 간격띄우기,alignment offset
+ALKIS,ALKIS
+전류용량,ampacity
+아날렘마,analemma
+해석 가새,analytical brace
+해석 바닥,analytical floor
+해석 표면,analytical surface
+편각,angle of deflection
+각속도,angular speed
+주석,annotation
+APL,APL
+피상 전력,apparent power
+모양 스타일,appearance style
+호-현 거리,arc-chord distance
+ArcGIS,ArcGIS
+ArchiCAD 모형,ArchiCAD model
+건축 바닥,architectural floor
+가상 지평선,artificial horizon
+ASHRAE 피팅,ASHRAE fitting
+자산 라이브러리,asset library
+자산,Assets
+ATIL,ATIL
+AutoCAD Civil 3D,AutoCAD Civil 3D
+AutoCAD 모형,AutoCAD model
+AutoCAD Revit Architecture Suite,AutoCAD Revit Architecture Suite
+AutoCAD Revit LT Suite,AutoCAD Revit LT Suite
+Autodesk Docs,Autodesk Docs
+Autodesk Drive,Autodesk Drive
+오토데스크 이미지 라이브러리,Autodesk Image Library
+평균 끝 면적,average end area
+방위각,azimuth
+후시,backsight
+기본 패밀리,base family
+기준 지표면,base surface
+배치 변환기,batch converter
+Batch Print,Batch Print
+배치 유틸리티,Batch Utility
+BCA,BCA
+내력벽,bearing wall
+구부림 지름,bend diameter
+노견,berm
+Bloss,bloss
+대여자,borrower
+경계점,boundary point
+경계 상자,bounding box
+분기 회로,branch circuit
+횡단경사변경부 제거,breakover removal
+벽돌 베니아,brick veneer
+브리지,Bridge
+Bridge Design for InfraWorks 360,Bridge Design for InfraWorks 360
+예산지급 청구서,Budget Payment Application
+건물 공통 영역,building common area
+건물 외곽설정,building footprint
+건물 레벨,building level
+내장 지붕,built-up roof
+벌지,bulge
+버트,butt
+BVC,BVC
+BVCE,BVCE
+BVCS,BVCS
+케이블 트레이,cable tray
+CADmep,CADmep
+콜아웃 마크업,callout markup
+콜아웃 태그,callout tag
+카메라 중심,camera-centric
+캔트,cant
+마감,cap
+카툰 세트,cartoon set
+여닫이창,casement
+현장타설,cast-in-place
+유역,catchment
+캐비티 벽,cavity wall
+천장 평면도,ceiling plan
+중심선,center line
+중심 표식,center mark
+세라믹 타일,ceramic tile
+모따기,chamfer
+계약 변경,Change Order
+현 거리,chord distance
+간섭 그룹,clash
+Clash Detective,Clash Detective
+이격거리,clearance
+유효 간섭 범위,clearance clash
+채광창,clerestory
+객체 자르기,clip volume
+코드 세트 스타일,code set style
+냉수기구배수부하,cold water fixture unit
+나침반 각도,compass angle
+복합 객체,composite object
+복합재 지붕,composition roof
+개념 에너지 해석,Conceptual Energy Analysis
+컨셉 매스,conceptual mass
+응축수 배수,condensate drain
+배선,conduit
+배선 커넥터,conduit connector
+구속조건 요소,constraint element
+시공 가능성 모델링,constructability modeling
+컨텐츠 라이브러리,content library
+컨텐츠 팩,content pack
+등고선 레이블,contour label
+대류 하중,convection load
+볼록,convex
+좌표 추적기,Coordinate Tracker
+코핑,cope
+코벨,corbel
+서신,Correspondence
+코리더 횡단 편집기,corridor section editor
+코리더 형상단순화,corridor shrinkwrap
+코리더 표면,corridor surface
+비용 지급 청구서,Cost Payment Application
+국가별 키트,country kit
+교차 파이프,crossing pipe
+숙임,crouch
+3차 포물선,cubic parabola
+현재 디렉토리,current directory
+커튼 그리드,curtain grid
+커튼 패널,curtain panel
+커튼 시스템,curtain system
+커튼월,curtain wall
+커튼월 프레임,curtain wall frame
+커튼월 그리드,curtain wall grid
+커튼월 멀리언,curtain wall mullion
+커튼월 단위,curtain wall unit
+원곡선 다듬기 거리,curve tessellation distance
+곡선 보,curved beam
+기동 바람,cut-in speed wind
+정지 바람,cut-out speed wind
+CWFU,CWFU
+단면정보 테이블,data band
+일광 포탈,daylight portal
+일광 유리,daylighting glass
+고정 하중,dead load
+DECDEG,DECDEG
+도 분 초,degrees minutes seconds
+DEM,DEM
+수요율,demand factor
+디지털 지형 모형,digital terrain model
+DimConstraint,DimConstraint
+공종,Discipline
+dll,DLL
+DMS,DMS
+Drainage Design for Infraworks 360,Drainage Design for Infraworks 360
+도면 그룹,drawing group
+삭제 양,drop amount
+단차 참조 위치,drop reference location
+단차 값,drop value
+누락,drop-out
+건구,dry bulb
+건식벽,drywall
+DTM,DTM
+덕트 커넥터,duct connector
+덕트 댐퍼,duct damper
+덕트 라이닝,duct lining
+덕트 시스템,duct system
+중복 간섭,duplicate clash
+동향,easting
+점 편집,edit point
+EDM,EDM
+전기 장비,electrical equipment
+전자 거리 미터,electronic distance meter
+고도,elevation
+고도 축,elevation axis
+내포된 벽,embedded wall
+끝단 커넥터,end connector
+Engineer-to-Order,Engineer-to-Order
+평형 캔트,equilibrium cant
+EVC,EVC
+EVCE,EVCE
+배기,exhaust air
+외부 거리,external distance
+외부 시컨트,external secant
+눈,eye
+면분할 계수,faceting factor
+야장,field book
+시야,field of view
+현장 보고서,field report
+채우기 패턴,fill pattern
+모깎기,fillet
+피팅,fitting
+고정 선,fixed line
+고정 창,fixed window
+설비 단위,fixture unit
+플랜지 점,flange point
+부동 원곡선,float curve
+평면도,floor plan
+초점,focal point
+양식 요소,form element
+FormIt,FormIt
+양식,Forms
+프레임,frame
+프레임속도,frame rate
+FU,FU
+퍼지,fuzz
+장치,gizmo
+그래드,grad
+정지 평면,grading plan
+중력식 관망,gravity network
+중력식 파이프,gravity pipe
+그리드 패딩,grid padding
+접지 컨덕터,ground conductor
+난간,guardrail
+행거,hanger
+겹친 간섭,hard clash
+HDS,HDS
+열 취득,heat gain
+열섬,heat island
+난방 및 냉방 부하,heating and cooling loads
+난방 설계 온도,heating design temperature
+HGL,HGL
+위쪽 위치,highside location
+수평 조정 방법,horizontal adjustment method
+핫 컨덕터,hot conductor
+핫스폿,hotspot
+HP,HP
+HS 엔드 플레이트,HS end plate
+HVAC 구역,HVAC zone
+동수경사선,hydraulic grade line
+순환수,hydronic
+임시 교차점,implied point of intersection
+InfraWorks 360,InfraWorks 360
+InfraWorks 360 LT,InfraWorks 360 LT
+초기 손실,initial abstraction
+최초 작성자,Initiator
+입력 유형,input type
+인스턴스,instance
+간섭 검사,interference check
+교차점,intersection
+교차 방법,intersection method
+이슈,issues
+현장 사진,jobsite photos
+키노트,keynote
+키노트 테이블,keynote table
+키노트 태그,keynote tag
+키노트 문자,keynote text
+너클,knuckle
+잠열 취득,latent heat
+종단 배치,layout profile
+레벨 계단참,level landing
+부드럽기 정도,level of smoothness
+LF,LF
+조명 장치,lighting device
+조명 설비,lighting fixture
+조명 전력 밀도,lighting power density
+선 경계,line boundary
+행 문자열,line string
+선형 배열,linear array
+선형 치수,linear dimension
+활하중,live load
+하중 케이스,load case
+부하 분류,load classification
+위치 선,location line
+LP,LP
+맨홀,manhole
+수동 항목 막대,manual entry bar
+측량 성과 검사,mapcheck
+매스 바닥,mass floor
+유토 곡선 다이어그램,mass haul diagram
+매스 구역,mass zone
+재료 견적,material takeoff
+Max 모형,Max model
+최대 횡단경사변경부,maximum breakover
+면분할 최대 편차,maximum facet deviation
+평균 일일 범위,mean daily range
+기계적 하중,mechanical load
+중앙종거,mid-ordinate
+중앙종거 거리,mid-ordinate distance
+보조 측점,minor station
+연귀 결합,miter join
+입체 문자,model text
+모형 중심,model-centric
+다중 극 회로,multi-poled circuit
+다중 시트,multi-sheet
+Navisworks,Navisworks
+Navisworks Exporters,Navisworks Exporters
+Navisworks Freedom,Navisworks Freedom
+Navisworks Manage,Navisworks Manage
+Navisworks Simulate,Navisworks Simulate
+순토량 그래프,net graph
+중립 컨덕터,neutral conductor
+NNI,NNI
+공칭 지름,nominal diameter
+북향,northing
+간호사 호출 장치,nurse call device
+객체 그립,object grip
+점유,occupancy
+점유 가능,occupiable
+OCR,OCR
+단방향 슬래브,one way slab
+세로좌표 치수,ordinate dimensioning
+직교,orthographic
+배수구,outfall
+외부 길어깨 편경사 방법,outside shoulder superelevation method
+P&ID Modeler,P&ID Modeler
+패널 장선,pan joist
+배전반,panelboard
+경로 철근 배근,path reinforcement
+사람의 체온 취득,people latent heat gain
+공정 필터,phase filter
+단계 매핑,phase mapping
+Photo on ReCap 360,Photo on ReCap 360
+포토메트릭 모양,photometric shape
+광자 맵,photon map
+물리적 자동 광원,physically accurate light
+PI 점,PI point
+교각,pier
+파이프 액세서리,pipe accessory
+파이프 커넥터,pipe connector
+파이프 마감,pipe end line
+파이프 피팅,pipe fitting
+파이프 단열재,pipe insulation
+파이프 배치,pipe layout
+파이프 평면,pipe plan
+관로,pipe run
+파이프 벽,pipe wall
+Piranesi EPix,Piranesi EPix
+상하 회전,pitch
+읽기 쉬운 문자,plan readability
+PlanGrid,PlanGrid
+천장속,plenum
+배관 설비,plumbing fixture
+점 경계 조건,point boundary condition
+점 하중,point load
+전원 회로,power circuit
+고급 공동 작업자,power collaborator
+전력 부하,power load
+준비 작동식 방화 시스템,pre-action fire protection system
+프리캐스트,precast
+압력 손실,pressure loss
+1차,Primary
+프로파일 정의,profile definition
+종단 지오메트리 점,profile geometry point
+종단 정지선,profile grade line
+종단 그리드 뷰,profile grid view
+진행률 사진,progress photos
+투영된 좌표계,projected coordinate system
+대지 경계선,property line
+근접 검사,proximity check
+난간 시스템,railing system
+원시 강도,raw intensity
+레이트레이싱,ray tracing
+보강 철근,rebar bar
+ReCap,ReCap
+ReCap 360,ReCap 360
+ReCap 360 Ultimate,ReCap 360 Ultimate
+ReCap Pro collaboration features,ReCap Pro
+수정 지시,redline
+중복 룸,redundant room
+참조 종단,reference profile
+반사된 천장 평면도,reflected ceiling plan
+영역 선,region line
+회귀 그래프,regression graph
+재건 코리더,rehab corridor
+릴리즈 조건,release condition
+렌더링 모양,rendering appearance
+유보,retention
+순환 기류,return airflow
+뒤로 재생,reverse play
+Revit,Revit
+Revit 클라우드 작업 공유,Revit Cloud Worksharing
+Revit Collaboration Suite,Revit Collaboration Suite
+Revit LT,Revit LT
+용지경계선,right of way
+라이저,riser
+Roadway Design for InfraWorks 360,Roadway Design for InfraWorks 360
+Roamer,Roamer
+압연 지붕,rolled roof
+지붕 처마돌림,roof fascia
+지붕 용마루,roof ridge
+지붕 처마밑면,roof soffit
+룸 일람표,room schedule
+계단진행,run
+오목형,sag curve
+단면 검토선 그룹,sample line group
+샘플 점,sample point
+단면 검토된 소스,sampled source
+일정,Schedule
+Scripter,Scripter
+횡단 시트,section sheet
+선택 설정,selection resolution
+서비스 틈새,service clearance
+그림자 포착기,shadow catcher
+전단벽,shear wall
+쉘 시공,shell construction
+공장 도면,shop drawing
+길어깨 횡단경사변경부,shoulder breakover
+사인 반파장 감소 접선 원곡선,sine half-wavelength diminishing tangent curve
+사인 곡선,sinusoidal curve
+SketchUp,SketchUp
+사각,skew angle
+슬래브 하단,slab bottom
+슬래브 상단,slab top
+경사 패턴,slope pattern
+경사 보,sloped beam
+경사 파이프,sloped piping
+간격 간섭,soft clash
+빈 공간 이름 유틸리티,Space Naming Utility
+사양 분류,Spec section
+분할 위치,split location
+분리 교통섬,splitter island
+지정점 경사,spot slope
+스프링클러,sprinkler
+스퍼드,spud
+적층벽,stacked wall
+측점 표고,station elevation label
+계단식 기초,step footing
+암수 엘보우,street elbow
+스트립 창,strip window
+포장 스트립,stripping pavement
+표토 스트립,stripping top soil
+구조 해석,structural analysis
+Structural Analysis for Revit,Structural Analysis for Revit
+구조 모델링,structural modeling
+자료제출,submittals
+종속,Subordinate
+겹친 종단,superimposed profile
+보충 거리,supplementing distance
+급기 시스템,supply air system
+지표면에서 종단 작성,surface profile
+측량 데이터베이스,survey database
+측량 네트워크,survey network
+측량 점,survey point
+주사 폭,swath width
+스위치 보드,switchboard
+SWPPP,SWPPP
+태그,tag
+접선 거리,tangent distance
+탭,tap
+온도 하중,temperature load
+템플릿,template
+타이 구부림,tie bend
+경사각,tilt angle
+이동 시간,time of travel
+TimeLiner,TimeLiner
+Tinkerplay,Tinkerplay
+제목 표식,title mark
+공차,tolerance
+도구공간,toolspace
+변환 장치,transition fitting
+변환 길이 - LF,transition length
+변환 측점,transition station
+자료전송,Transmittals
+투명도 흐림,transparent dimming
+다각측량 편집기,Traverse Editor
+터파기,trench
+바닥 보강용 철판,trench plate
+자르기,trim
+진전류,true current
+실부하,true load
+귀퉁이 자른 수직,two-cut plumb
+귀퉁이 자른 사각형,two-cut square
+분할되지 않은 크라운형,undivided crowned
+분할되지 않은 평면형,undivided planar
+해석되지 않은 외부 참조,unresolved Xref
+사용자 등고선,user contour
+사용자 리서치,user research
+가변 공기 볼륨,Variable Air Volume
+VAV,VAV
+Vehicle Tracking,Vehicle Tracking
+속도 압력,velocity pressure
+베니아,veneer
+수직 조정 방법,vertical adjustment
+수직 곡면,vertical curvature
+뷰 리스트,view list
+관측점,viewpoint
+시각 유리,vision glass
+보이드 형상,void geometry
+토량 테이블,volume table
+워크쓰루,walkthrough
+벽 기초,wall foundation
+웨브 두께,web thickness
+제거,weed
+용접철구조,welded wire fabric
+습구,wet bulb
+WFU,WFU
+Worksharing Monitor,Worksharing Monitor
+표준 상방향,world up direction
+표준 상향 벡터,world up vector
+마무리,wrap
+XDRef,XDRef
+시각적 영향 구역,zone of visual influence
+확대/축소 상자,zoom box

@@ -1,0 +1,97 @@
+﻿source,target
+alpha-blend,альфа-суміш
+angular speed,кутова швидкість
+base mesh,Базова сітка
+binary large object,великий двійковий об'єкт
+bind pose,поза прив'язки
+blend mode,режим накладення
+blend surface,розтушована поверхня
+blurriness,розмитість
+bookmark,закладка
+brush,щітка
+brush stroke,мазок пензлем
+bulge,опуклість
+bump,удар
+bump map,рельєфна карта
+bump mapping,відображення рельєфу
+camera,камера
+casement,стулка
+character large object,характерний великий об'єкт
+CLOB,CLOB
+closed edge,закритий край
+component,компонент
+constrained object,обмежений об'єкт
+control vertex,керуюча вершина
+control vertex hull,корпус контрольної вершини
+control vertices hull,корпус керуючих вершин
+depth of field,глибина різкості
+digital elevation model,цифрова модель рельєфу
+displacement map,карта переміщень
+displacement scale,шкала переміщень
+dithering,який коливається
+DOF,DOF
+elevation axis,вісь висот
+extraction,видобуток
+eyedropper,піпетка для очей
+face,обличчя
+fillet,філе
+flyout,спливаюче вікно
+fly-out,вилітавши
+fragment,фрагмент
+frame,рамка
+frame rate,частота зміни кадрів
+full-body inverse kinematics,зворотна кінематика всього тіла
+gamma,гама
+hardware shader,апаратний шейдер
+highlight,виділивши
+Hypershade,Гіперзатеніння
+image map,карта зображень
+image plane,площина зображення
+image-based lighting,"освітлення, засноване на зображенні"
+isoparm,ізопарм
+joint,суглоб
+knuckle,суглоб пальця
+layer,шар
+level,рівень
+limit surface,гранична поверхня
+linear array,лінійний масив
+mesh,меш
+mesher,мешер
+mid-tone,середній тон
+modifier,модифікатор
+node-locked license,ліцензія з блокуванням вузла
+normal map,звичайна карта
+NTSC,NTSC
+object space,об'єктний простір
+opacity,непрозорість
+outline,контур
+Particle View,Вид частинок
+polygon,полігон
+primitive,примітивний
+projection map,проекційна карта
+ray tracing,трасування променів
+reflection map,карта відображень
+retopology,ретопологія
+retopology mesh,сітка ретопології
+retopology modifier,модифікатор ретопології
+retopology process,процес ретопології
+retopology tools,інструменти ретопології
+safe frame,безпечна рама
+sample point,точка відбору проб
+screen projection,проекція на екран
+shading,затінення
+slope-offset-power,нахил-зміщення-потужність
+smoothing,згладжувальний
+SMPTE,SMPTE
+SOP,SOP
+specular highlight,дзеркальне підсвічування
+spline knot,шліцьовий вузол
+stencil,трафарет
+stroke,удар
+subdivision level,рівень підрозділу
+superimposed profile,накладений профіль
+surface trimming,обрізка поверхні
+threshold,пороги
+universal manipulator,універсальний маніпулятор
+vertex ID,ідентифікатор вершини
+vertex normal,вершинна нормаль
