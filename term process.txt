@@ -1,0 +1,45 @@
+Terminology Validation and Verification Process
+Introduction
+This document outlines the comprehensive process for validating and verifying terminology in English and target languages. The process ensures consistency, accuracy, and proper management of terminology across multiple languages through a systematic approach.
+Process Overview
+The terminology validation process follows a structured workflow that includes source verification, glossary checks, dictionary validation, frequency analysis, and translation mechanisms. The process is designed to maintain terminology integrity across languages.
+Detailed Process Steps
+1. Initial Term Collection and Verification
+Term List: The process begins with a collection of terms that need validation.
+Check new Terminology exist in Source/Sources: Verify if the terminology exists in the original source materials to confirm its authenticity and relevance.
+2. Glossary Validation
+Check Against Terminology Glossary: Compare the new terms against the existing terminology glossary.
+Terminology Glossary Agent: A specialized agent that manages the terminology glossary and assists in the validation process.
+MT Glossary: Machine Translation glossary that contains approved terminology for reference during the validation process.
+3. New Terminology Processing
+New Terminology: Terms that have passed initial verification are marked as new terminology for further processing.
+Check new Terminology exist in Most up to date Dictionary: Verify if the new terminology exists in the most current dictionary resources.
+English and Targeted Language (Optional): The verification can be performed in both English and the target language as needed.
+4. Frequency Analysis and Filtering
+Filter terms candidate that is more than 2: Only terms that appear with a frequency greater than 2 are considered for immediate inclusion.
+Store the 1 frequency terms for next time if it appear again: Terms that appear only once are stored for future reference and will be reconsidered if they appear again.
+5. Translation Process
+Use Generic translation for the new Terminology: If a term passes all checks but doesn't have an established translation, a generic translation approach is used.
+Translate language 1: Begin translation process for the first language.
+Translate language 200: Continue translation process for multiple languages (up to 200 different languages).
+NLLB and AYA 101: Utilize No Language Left Behind (NLLB) and AYA 101 translation models for accurate translations.
+6. Language Verification
+Verify the targeted and source language if it is the same: Ensure that the source and target languages are correctly identified and matched.
+7. Final Review and Decision
+Terminology Web Review Agent: A specialized agent that performs the final review of the terminology.
+Yes/No Decision: Final determination on whether to approve or reject the terminology.
+Failed: Terms that do not pass the validation process are marked as failed.
+Timestamp + Term data: Record timestamp information along with term data for tracking and auditing purposes.
+Process Flow
+Terms are collected from the Term List
+Terms are checked against source materials
+Terms are validated against the existing Terminology Glossary
+New terminology is verified against up-to-date dictionaries
+Terms are filtered based on frequency
+Low-frequency terms are stored for future reference
+Approved terms are translated using appropriate methods
+Language verification ensures correct language pairing
+Final review by the Terminology Web Review Agent
+Decision on term approval or rejection
+Conclusion
+This terminology validation and verification process ensures that all terms are thoroughly checked, properly translated, and consistently applied across multiple languages. The systematic approach helps maintain terminology integrity and improves translation quality across all target languages.

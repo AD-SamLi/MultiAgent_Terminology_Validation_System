@@ -26,9 +26,9 @@ try:
     from nltk.corpus import words, wordnet
     from nltk.stem import WordNetLemmatizer
     NLTK_AVAILABLE = True
-    print("✅ NLTK available for dictionary lookups")
+    print("[OK] NLTK available for dictionary lookups")
 except ImportError:
-    print("❌ NLTK not installed. Install with: pip install nltk")
+    print("[ERROR] NLTK not installed. Install with: pip install nltk")
     NLTK_AVAILABLE = False
 
 # Load word lists
@@ -55,11 +55,11 @@ def initialize_word_lists():
         # Initialize lemmatizer
         LEMMATIZER = WordNetLemmatizer()
         
-        print(f"✅ Loaded {len(ENGLISH_WORDS):,} English words from NLTK")
+        print(f"[OK] Loaded {len(ENGLISH_WORDS):,} English words from NLTK")
         return True
         
     except Exception as e:
-        print(f"❌ Failed to initialize word lists: {e}")
+        print(f"[ERROR] Failed to initialize word lists: {e}")
         return False
 
 # Common English words list (most frequent ~2000 words for fast filtering)
@@ -140,12 +140,12 @@ def run_with_retries(agent, prompt: str, max_retries: int = 2):
         except Exception as e:
             error_msg = str(e).lower()
             if "content filter" in error_msg or "filtered" in error_msg:
-                print(f"⚠️  Attempt {attempt_index}: Content filter triggered. Retrying...")
+                print(f"[WARNING]  Attempt {attempt_index}: Content filter triggered. Retrying...")
                 if attempt_index < max_retries:
                     continue
                 return f"Content filtered after {max_retries} attempts."
             elif "server" in error_msg or "timeout" in error_msg or "connection" in error_msg:
-                print(f"⚠️  Attempt {attempt_index}: Server error. Retrying...")
+                print(f"[WARNING]  Attempt {attempt_index}: Server error. Retrying...")
                 if attempt_index < max_retries:
                     time.sleep(1)
                     continue
@@ -196,14 +196,14 @@ class FastDictionaryTool(Tool):
         if self.initialized:
             print("📚 Fast dictionary initialized with NLTK word corpus")
         else:
-            print("❌ Fast dictionary initialization failed")
+            print("[ERROR] Fast dictionary initialization failed")
     
     def forward(self, word: str, check_variations: str = "yes") -> str:
         """
         Look up a word in the fast dictionary
         """
         if not self.initialized:
-            return f"❌ Dictionary not available. Please install NLTK: pip install nltk"
+            return f"[ERROR] Dictionary not available. Please install NLTK: pip install nltk"
         
         try:
             word_clean = word.lower().strip()
@@ -211,19 +211,19 @@ class FastDictionaryTool(Tool):
             
             # Direct lookup
             if word_clean in ENGLISH_WORDS:
-                return f"✅ '{word}' found in dictionary"
+                return f"[OK] '{word}' found in dictionary"
             
             # Check variations if requested
             if check_vars and LEMMATIZER:
                 variations = self._get_word_variations(word_clean)
                 for variation in variations:
                     if variation in ENGLISH_WORDS:
-                        return f"✅ '{word}' found as '{variation}' in dictionary"
+                        return f"[OK] '{word}' found as '{variation}' in dictionary"
             
-            return f"❌ '{word}' not found in dictionary"
+            return f"[ERROR] '{word}' not found in dictionary"
             
         except Exception as e:
-            return f"❌ Error looking up '{word}': {str(e)}"
+            return f"[ERROR] Error looking up '{word}': {str(e)}"
     
     def _get_word_variations(self, word: str) -> List[str]:
         """Get word variations using lemmatization"""
@@ -269,7 +269,7 @@ class FastDictionaryAgent:
         self.dictionary_tool = FastDictionaryTool()
         
         if not self.dictionary_tool.initialized:
-            print("❌ Dictionary tool not available")
+            print("[ERROR] Dictionary tool not available")
             self.agent = None
             return
         
@@ -289,10 +289,10 @@ class FastDictionaryAgent:
                 max_iterations=3
             )
             
-            print("✅ Fast Dictionary Agent initialized successfully")
+            print("[OK] Fast Dictionary Agent initialized successfully")
             
         except Exception as e:
-            print(f"❌ Failed to initialize agent: {e}")
+            print(f"[ERROR] Failed to initialize agent: {e}")
             self.agent = None
     
     def check_word_fast(self, word: str) -> Dict:
@@ -394,21 +394,21 @@ class FastDictionaryAgent:
         Much faster than PyMultiDictionary API calls
         """
         if not self.dictionary_tool.initialized:
-            print("❌ NLTK dictionary not available. Please install: pip install nltk")
+            print("[ERROR] NLTK dictionary not available. Please install: pip install nltk")
             return [], []
         
         # Limit terms if specified
         if max_terms:
             terms = terms[:max_terms]
         
-        print(f"🚀 FAST DICTIONARY ANALYSIS of {len(terms)} terms")
+        print(f"[START] FAST DICTIONARY ANALYSIS of {len(terms)} terms")
         start_time = time.time()
         
         dictionary_words = []
         non_dictionary_words = []
         
         # Stage 1: Fast heuristic filtering
-        print("\n🔍 Stage 1: Fast heuristic filtering...")
+        print("\n[SEARCH] Stage 1: Fast heuristic filtering...")
         certain_results = []
         uncertain_terms = []
         
@@ -436,7 +436,7 @@ class FastDictionaryAgent:
             else:
                 non_dictionary_words.append(term_data)
         
-        print(f"   ✅ Fast filtering complete: {len(certain_results)} certain, {len(uncertain_terms)} uncertain")
+        print(f"   [OK] Fast filtering complete: {len(certain_results)} certain, {len(uncertain_terms)} uncertain")
         
         # Stage 2: NLTK lookup for uncertain terms
         print(f"\n📚 Stage 2: NLTK dictionary verification...")
@@ -462,12 +462,12 @@ class FastDictionaryAgent:
         total_time = time.time() - start_time
         total_terms = len(dictionary_words) + len(non_dictionary_words)
         
-        print(f"\n📊 FAST ANALYSIS COMPLETE!")
+        print(f"\n[STATS] FAST ANALYSIS COMPLETE!")
         print(f"   ⏱️  Total time: {total_time:.2f} seconds")
         print(f"   ⚡ Speed: {total_terms/total_time:.1f} terms/second")
-        print(f"   ✅ Total terms analyzed: {total_terms:,}")
+        print(f"   [OK] Total terms analyzed: {total_terms:,}")
         print(f"   📖 Dictionary words: {len(dictionary_words):,} ({len(dictionary_words)/total_terms*100:.1f}%)")
-        print(f"   🔧 Non-dictionary words: {len(non_dictionary_words):,} ({len(non_dictionary_words)/total_terms*100:.1f}%)")
+        print(f"   [SETUP] Non-dictionary words: {len(non_dictionary_words):,} ({len(non_dictionary_words)/total_terms*100:.1f}%)")
         print(f"   📚 Using NLTK offline dictionary - no API calls!")
         
         return dictionary_words, non_dictionary_words
@@ -475,18 +475,18 @@ class FastDictionaryAgent:
     def query_agent(self, prompt: str) -> str:
         """Query the agent for dictionary-related tasks"""
         if not self.agent:
-            return "❌ Agent not available. Please check NLTK installation and Azure configuration."
+            return "[ERROR] Agent not available. Please check NLTK installation and Azure configuration."
         
         try:
             return run_with_retries(self.agent, prompt)
         except Exception as e:
-            return f"❌ Error querying agent: {str(e)}"
+            return f"[ERROR] Error querying agent: {str(e)}"
     
     def batch_lookup(self, words: List[str]) -> Dict:
         """Lookup multiple words efficiently"""
         results = {}
         
-        print(f"🔍 Looking up {len(words)} words in fast dictionary...")
+        print(f"[SEARCH] Looking up {len(words)} words in fast dictionary...")
         
         for i, word in enumerate(words):
             if i % 1000 == 0:
@@ -497,7 +497,7 @@ class FastDictionaryAgent:
         
         # Summary
         found_count = sum(1 for r in results.values() if r.get("in_dictionary"))
-        print(f"✅ Batch lookup complete: {found_count:,}/{len(words):,} words found")
+        print(f"[OK] Batch lookup complete: {found_count:,}/{len(words):,} words found")
         
         return results
 
@@ -513,11 +513,11 @@ def load_terms_data(file_path: str) -> List[Dict]:
         elif isinstance(data, dict) and 'terms' in data:
             return data['terms']
         else:
-            print(f"❌ Unexpected data format in {file_path}")
+            print(f"[ERROR] Unexpected data format in {file_path}")
             return []
             
     except Exception as e:
-        print(f"❌ Error loading {file_path}: {e}")
+        print(f"[ERROR] Error loading {file_path}: {e}")
         return []
 
 
@@ -551,20 +551,20 @@ def save_results(dictionary_words: List[Dict], non_dictionary_words: List[Dict],
             "non_dictionary_terms": non_dictionary_words
         }, f, indent=2, ensure_ascii=False)
     
-    print(f"✅ Results saved:")
+    print(f"[OK] Results saved:")
     print(f"   📖 Dictionary terms: {dict_file}")
-    print(f"   🔧 Non-dictionary terms: {non_dict_file}")
+    print(f"   [SETUP] Non-dictionary terms: {non_dict_file}")
 
 
 def demo_fast_agent():
     """Demonstrate the Fast Dictionary Agent functionality"""
-    print("🚀 Fast Dictionary Agent Demo")
+    print("[START] Fast Dictionary Agent Demo")
     print("=" * 50)
     
     # Initialize agent
     agent = FastDictionaryAgent()
     if not agent.dictionary_tool.initialized:
-        print("❌ Demo aborted: Fast dictionary not available")
+        print("[ERROR] Demo aborted: Fast dictionary not available")
         return
     
     # Test individual word lookups
@@ -574,7 +574,7 @@ def demo_fast_agent():
     print("-" * 30)
     for word in test_words:
         result = agent.check_word_nltk(word)
-        status = "✅" if result["in_dictionary"] else "❌"
+        status = "[OK]" if result["in_dictionary"] else "[ERROR]"
         found_as = f" (as '{result.get('found_as')}')" if result.get('found_as') else ""
         print(f"{status} {word}: {result['method']} (confidence: {result['confidence']}){found_as}")
     
@@ -594,11 +594,11 @@ def demo_fast_agent():
     end_time = time.time()
     
     found_count = sum(1 for r in batch_results.values() if r.get("in_dictionary"))
-    print(f"✅ Processed {len(batch_words)} words in {end_time-start_time:.2f} seconds")
+    print(f"[OK] Processed {len(batch_words)} words in {end_time-start_time:.2f} seconds")
     print(f"⚡ Speed: {len(batch_words)/(end_time-start_time):.1f} words/second")
-    print(f"📊 Found: {found_count}/{len(batch_words)} words")
+    print(f"[STATS] Found: {found_count}/{len(batch_words)} words")
     
-    print("\n✅ Demo complete!")
+    print("\n[OK] Demo complete!")
 
 
 def main():
@@ -619,7 +619,7 @@ def main():
     # Initialize agent
     agent = FastDictionaryAgent()
     if not agent.dictionary_tool.initialized:
-        print("❌ Fast dictionary not available. Please install: pip install nltk")
+        print("[ERROR] Fast dictionary not available. Please install: pip install nltk")
         return
     
     # Load input data
@@ -639,18 +639,18 @@ def main():
                 break
         
         if not input_file:
-            print("❌ No input file specified and no default files found")
+            print("[ERROR] No input file specified and no default files found")
             print("   Use --input to specify a JSON file with terms data")
             return
     
-    print(f"📂 Loading terms from: {input_file}")
+    print(f"[DIR] Loading terms from: {input_file}")
     terms = load_terms_data(input_file)
     
     if not terms:
-        print("❌ No terms loaded")
+        print("[ERROR] No terms loaded")
         return
     
-    print(f"✅ Loaded {len(terms):,} terms")
+    print(f"[OK] Loaded {len(terms):,} terms")
     
     # Run analysis
     dictionary_words, non_dictionary_words = agent.analyze_terms_fast(
@@ -661,7 +661,7 @@ def main():
     # Save results
     save_results(dictionary_words, non_dictionary_words)
     
-    print("\n🎉 Fast dictionary analysis complete!")
+    print("\n[SUCCESS] Fast dictionary analysis complete!")
 
 
 if __name__ == "__main__":

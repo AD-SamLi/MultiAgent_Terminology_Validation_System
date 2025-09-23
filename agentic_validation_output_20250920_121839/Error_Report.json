@@ -1,0 +1,16 @@
+{
+  "error": "'Final_Validation_Results.json'",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\liw\\Documents\\Python\\Terms_verification_system\\agentic_terminology_validation_system.py\", line 2171, in run_complete_validation_process\n    verified_file = str(self.step_files[6]['Final_Validation_Results.json'])\n                        ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'Final_Validation_Results.json'\n",
+  "session_id": "20250922_002602",
+  "timestamp": "2025-09-22T03:43:06.869800",
+  "partial_statistics": {
+    "total_terms_input": 0,
+    "terms_after_cleaning": 0,
+    "frequency_1_terms": 0,
+    "frequency_gt_2_terms": 0,
+    "terms_translated": 8537,
+    "terms_approved": 0,
+    "terms_rejected": 0,
+    "processing_time": 0
+  }
+}

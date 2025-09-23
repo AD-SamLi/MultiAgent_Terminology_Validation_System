@@ -1,39 +1,58 @@
-# NLLB Translation Agent Requirements
-# Core ML and Translation
-torch>=2.0.0
-transformers>=4.30.0
-tokenizers>=0.13.0
-sentencepiece>=0.1.99
-accelerate>=0.25.0
+# Agentic Terminology Validation System - Requirements
+# Core dependencies for the complete terminology validation workflow
 
-# Smolagents framework for terminology review agent
-smolagents>=1.21.0
-duckduckgo-search>=3.9.0
-
-# Data processing
+# Data Processing
 pandas>=1.5.0
 numpy>=1.21.0
-scipy>=1.9.0
+sqlite3  # Built-in with Python
 
-# Visualization
-matplotlib>=3.5.0
-seaborn>=0.11.0
-plotly>=5.0.0
+# AI and Machine Learning
+torch>=2.0.0
+transformers>=4.30.0
+smolagents>=0.2.0
 
-# Utilities
+# Azure OpenAI Integration
+azure-identity>=1.13.0
+azure-openai>=1.0.0
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+
+# System Monitoring and Performance
+psutil>=5.9.0
+
+# Natural Language Processing
+nltk>=3.8.0
+
+# Web Search and HTTP
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+duckduckgo-search>=3.0.0
+
+# Translation Models (NLLB)
+sentence-transformers>=2.2.0
+sacremoses>=0.0.53
+
+# File Format Support
+openpyxl>=3.1.0  # Excel support
+xlsxwriter>=3.1.0
+
+# Logging and Utilities
 tqdm>=4.64.0
-python-dotenv>=0.19.0
-pathlib>=1.0.0
-dataclasses-json>=0.5.0
+colorama>=0.4.6
 
-# Azure integration (if using Azure OpenAI for agent)
-azure-identity>=1.12.0
-#azure-cognitiveservices-language-textanalytics>=5.2.0
+# Optional: GPU acceleration
+# torch-audio>=2.0.0  # Uncomment if needed
+# torch-vision>=0.15.0  # Uncomment if needed
 
-# Optional: CUDA support (install separately)
-# nvidia-ml-py3>=7.352.0
+# Development and Testing (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
 
-# Development and testing
-pytest>=7.0.0
-jupyter>=1.0.0
-ipykernel>=6.0.0
+# System-specific dependencies
+# Windows
+# pywin32>=306  # Uncomment on Windows
+
+# Note: Some packages may require specific versions based on your system
+# Run: pip install -r requirements.txt

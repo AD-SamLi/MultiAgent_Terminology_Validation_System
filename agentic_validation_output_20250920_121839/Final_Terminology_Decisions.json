@@ -1,0 +1,3219 @@
+{
+  "metadata": {
+    "review_timestamp": "2025-09-23T04:52:50.843727",
+    "total_terms_reviewed": 154,
+    "approved_terms": 135,
+    "rejected_terms": 4,
+    "needs_review_terms": 15,
+    "reviewer": "agentic_terminology_validation_system"
+  },
+  "final_decisions": [
+    {
+      "term": "learn",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "learn",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.826477",
+      "index": 0
+    },
+    {
+      "term": "port",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "port",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.826477",
+      "index": 1
+    },
+    {
+      "term": "object",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "object",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.826477",
+      "index": 2
+    },
+    {
+      "term": "surface",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "surface",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.827459",
+      "index": 3
+    },
+    {
+      "term": "number",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "number",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.827459",
+      "index": 4
+    },
+    {
+      "term": "Number",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "Number",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.827459",
+      "index": 5
+    },
+    {
+      "term": "point",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "point",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.827459",
+      "index": 6
+    },
+    {
+      "term": "rule",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "rule",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.827459",
+      "index": 7
+    },
+    {
+      "term": "unit",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "unit",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.95
+      },
+      "review_timestamp": "2025-09-23T04:52:50.827459",
+      "index": 8
+    },
+    {
+      "term": "map",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "map",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.828470",
+      "index": 9
+    },
+    {
+      "term": "Euler curves",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Euler curves",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.95
+      },
+      "review_timestamp": "2025-09-23T04:52:50.828470",
+      "index": 10
+    },
+    {
+      "term": "appointed parties",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "appointed parties",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.828470",
+      "index": 11
+    },
+    {
+      "term": "string resource identifier",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "string resource identifier",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.828470",
+      "index": 12
+    },
+    {
+      "term": "nominal",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "nominal",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.95
+      },
+      "review_timestamp": "2025-09-23T04:52:50.829450",
+      "index": 13
+    },
+    {
+      "term": "disable",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "disable",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.829450",
+      "index": 14
+    },
+    {
+      "term": "adjust",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "adjust",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.829450",
+      "index": 15
+    },
+    {
+      "term": "arrangement",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "arrangement",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.829450",
+      "index": 16
+    },
+    {
+      "term": "envelope",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "envelope",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.829450",
+      "index": 17
+    },
+    {
+      "term": "orphans",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "orphans",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.829450",
+      "index": 18
+    },
+    {
+      "term": "disappear",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "disappear",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.829450",
+      "index": 19
+    },
+    {
+      "term": "especially",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "especially",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.829450",
+      "index": 20
+    },
+    {
+      "term": "completely",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "completely",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.830491",
+      "index": 21
+    },
+    {
+      "term": "polygon",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "polygon",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9
+      },
+      "review_timestamp": "2025-09-23T04:52:50.830491",
+      "index": 22
+    },
+    {
+      "term": "SLS",
+      "decision": "REJECTED",
+      "status": "rejected",
+      "decision_score": 0.0,
+      "decision_reasons": [],
+      "term_data": {
+        "term": "SLS",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.6
+      },
+      "review_timestamp": "2025-09-23T04:52:50.830491",
+      "index": 23
+    },
+    {
+      "term": "g-code",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "g-code",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.925
+      },
+      "review_timestamp": "2025-09-23T04:52:50.831710",
+      "index": 24
+    },
+    {
+      "term": "unzip",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "unzip",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.8
+      },
+      "review_timestamp": "2025-09-23T04:52:50.831710",
+      "index": 25
+    },
+    {
+      "term": "new views",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "new views",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.831710",
+      "index": 26
+    },
+    {
+      "term": "design goals",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "design goals",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.832788",
+      "index": 27
+    },
+    {
+      "term": "project address",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "project address",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.832788",
+      "index": 28
+    },
+    {
+      "term": "control code",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "control code",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.832788",
+      "index": 29
+    },
+    {
+      "term": "page",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "page",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.95
+      },
+      "review_timestamp": "2025-09-23T04:52:50.833797",
+      "index": 30
+    },
+    {
+      "term": "certified video driver",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "certified video driver",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.833797",
+      "index": 31
+    },
+    {
+      "term": "additional capabilities",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "additional capabilities",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.833797",
+      "index": 32
+    },
+    {
+      "term": "region",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "region",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.925
+      },
+      "review_timestamp": "2025-09-23T04:52:50.834793",
+      "index": 33
+    },
+    {
+      "term": "cloud credits",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "cloud credits",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.834793",
+      "index": 34
+    },
+    {
+      "term": "subscription online",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "subscription online",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.834793",
+      "index": 35
+    },
+    {
+      "term": "new subscription",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "new subscription",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.835785",
+      "index": 36
+    },
+    {
+      "term": "authorized partner",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "authorized partner",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.835785",
+      "index": 37
+    },
+    {
+      "term": "wide range",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "wide range",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.835785",
+      "index": 38
+    },
+    {
+      "term": "filtered list",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "filtered list",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.836779",
+      "index": 39
+    },
+    {
+      "term": "Parent Alignment",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Parent Alignment",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.836779",
+      "index": 40
+    },
+    {
+      "term": "elastic section",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "elastic section",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.836779",
+      "index": 41
+    },
+    {
+      "term": "section modulus",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "section modulus",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.836779",
+      "index": 42
+    },
+    {
+      "term": "elastic section modulus",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "elastic section modulus",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.836779",
+      "index": 43
+    },
+    {
+      "term": "natural convection",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "natural convection",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.836779",
+      "index": 44
+    },
+    {
+      "term": "civil engineering software",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "civil engineering software",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.95
+      },
+      "review_timestamp": "2025-09-23T04:52:50.837796",
+      "index": 45
+    },
+    {
+      "term": "external component",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "external component",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.837796",
+      "index": 46
+    },
+    {
+      "term": "modular design",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "modular design",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.837796",
+      "index": 47
+    },
+    {
+      "term": "access tandem",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "access tandem",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.838786",
+      "index": 48
+    },
+    {
+      "term": "design alternatives",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "design alternatives",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.838786",
+      "index": 49
+    },
+    {
+      "term": "project 10",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "project 10",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9333333333333333
+      },
+      "review_timestamp": "2025-09-23T04:52:50.838786",
+      "index": 50
+    },
+    {
+      "term": "pdf",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "pdf",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.775
+      },
+      "review_timestamp": "2025-09-23T04:52:50.838786",
+      "index": 51
+    },
+    {
+      "term": "box",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "box",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.838786",
+      "index": 52
+    },
+    {
+      "term": "group",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "group",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.838786",
+      "index": 53
+    },
+    {
+      "term": "state",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "state",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.838786",
+      "index": 54
+    },
+    {
+      "term": "list",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "list",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.838786",
+      "index": 55
+    },
+    {
+      "term": "space",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "space",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.838786",
+      "index": 56
+    },
+    {
+      "term": "pattern",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "pattern",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 57
+    },
+    {
+      "term": "System",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "System",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.95
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 58
+    },
+    {
+      "term": "sure",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "sure",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 59
+    },
+    {
+      "term": "system",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "system",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 60
+    },
+    {
+      "term": "nested",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "nested",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 61
+    },
+    {
+      "term": "destination",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "destination",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 62
+    },
+    {
+      "term": "tunnel",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "tunnel",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.95
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 63
+    },
+    {
+      "term": "solve",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "solve",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 64
+    },
+    {
+      "term": "completes",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "completes",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 65
+    },
+    {
+      "term": "calculating",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "calculating",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 66
+    },
+    {
+      "term": "copies",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "copies",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 67
+    },
+    {
+      "term": "valid data type",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "valid data type",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 68
+    },
+    {
+      "term": "Styles",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Styles",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.839790",
+      "index": 69
+    },
+    {
+      "term": "independently",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "independently",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 70
+    },
+    {
+      "term": "Define",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Define",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 71
+    },
+    {
+      "term": "acadlt.pat",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "acadlt.pat",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 72
+    },
+    {
+      "term": "plot style table",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "plot style table",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 73
+    },
+    {
+      "term": "current edit",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "current edit",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 74
+    },
+    {
+      "term": "latest driver",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "latest driver",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 75
+    },
+    {
+      "term": "Title",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Title",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 76
+    },
+    {
+      "term": "start",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "start",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 77
+    },
+    {
+      "term": "function name",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "function name",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 78
+    },
+    {
+      "term": "active revit model",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "active revit model",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 79
+    },
+    {
+      "term": "curve type",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "curve type",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.927710843373494
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 80
+    },
+    {
+      "term": "circular curve",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "circular curve",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 81
+    },
+    {
+      "term": "borrowed license",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "borrowed license",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 82
+    },
+    {
+      "term": "bolt-line",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "bolt-line",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 83
+    },
+    {
+      "term": "selected tags",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "selected tags",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 84
+    },
+    {
+      "term": "UI Element",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "UI Element",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9397590361445783
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 85
+    },
+    {
+      "term": "named user",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "named user",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 86
+    },
+    {
+      "term": "snap point",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "snap point",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 87
+    },
+    {
+      "term": "way access",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "way access",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.963855421686747
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 88
+    },
+    {
+      "term": "water heater",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "water heater",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 89
+    },
+    {
+      "term": "valid data",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "valid data",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 90
+    },
+    {
+      "term": "symmetric constraints",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "symmetric constraints",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 91
+    },
+    {
+      "term": "linear static analysis",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "linear static analysis",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9397590361445783
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 92
+    },
+    {
+      "term": "inventor nastran",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "inventor nastran",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.927710843373494
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 93
+    },
+    {
+      "term": "Alignment Constraint",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Alignment Constraint",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 94
+    },
+    {
+      "term": "finite element analysis",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "finite element analysis",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.963855421686747
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 95
+    },
+    {
+      "term": "ribbon panel",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "ribbon panel",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.963855421686747
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 96
+    },
+    {
+      "term": "object property",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "object property",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 97
+    },
+    {
+      "term": "Service Pack",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Service Pack",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.963855421686747
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 98
+    },
+    {
+      "term": "style tables",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "style tables",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 99
+    },
+    {
+      "term": "upload complete",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "upload complete",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.963855421686747
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 100
+    },
+    {
+      "term": "fast",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "fast",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 101
+    },
+    {
+      "term": "Project Manager",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Project Manager",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 102
+    },
+    {
+      "term": "hdri",
+      "decision": "REJECTED",
+      "status": "rejected",
+      "decision_score": 0.0,
+      "decision_reasons": [],
+      "term_data": {
+        "term": "hdri",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.5421686746987951
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 103
+    },
+    {
+      "term": "vendors",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "vendors",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 104
+    },
+    {
+      "term": "Pro",
+      "decision": "REJECTED",
+      "status": "rejected",
+      "decision_score": 0.0,
+      "decision_reasons": [],
+      "term_data": {
+        "term": "Pro",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.6265060240963856
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 105
+    },
+    {
+      "term": "decimal number",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "decimal number",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 106
+    },
+    {
+      "term": "Reference Geometry",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Reference Geometry",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 107
+    },
+    {
+      "term": "software interoperability",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "software interoperability",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.95
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 108
+    },
+    {
+      "term": "quality control",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "quality control",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 109
+    },
+    {
+      "term": "change notification",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "change notification",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 110
+    },
+    {
+      "term": "boundary offset",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "boundary offset",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 111
+    },
+    {
+      "term": "offset type",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "offset type",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 112
+    },
+    {
+      "term": "identical mark-ups",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "identical mark-ups",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 113
+    },
+    {
+      "term": "p",
+      "decision": "REJECTED",
+      "status": "rejected",
+      "decision_score": 0.0,
+      "decision_reasons": [],
+      "term_data": {
+        "term": "p",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.65
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 114
+    },
+    {
+      "term": "Version",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "Version",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 115
+    },
+    {
+      "term": "game",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "game",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 116
+    },
+    {
+      "term": "create list",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "create list",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 117
+    },
+    {
+      "term": "Text Editor",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Text Editor",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 118
+    },
+    {
+      "term": "Level of Detail",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "Level of Detail",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 119
+    },
+    {
+      "term": "occured creating",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "occured creating",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.963855421686747
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 120
+    },
+    {
+      "term": "light scene",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "light scene",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 121
+    },
+    {
+      "term": "error occured creating",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "error occured creating",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.963855421686747
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 122
+    },
+    {
+      "term": "creating file",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "creating file",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 123
+    },
+    {
+      "term": "create deployments",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "create deployments",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 124
+    },
+    {
+      "term": "application document",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "application document",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 125
+    },
+    {
+      "term": "graphics processor",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "graphics processor",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 126
+    },
+    {
+      "term": "operand",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "operand",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.775
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 127
+    },
+    {
+      "term": "scene",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "scene",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 128
+    },
+    {
+      "term": "linked file",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "linked file",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 129
+    },
+    {
+      "term": "view out of date icon",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "view out of date icon",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 130
+    },
+    {
+      "term": "associated files",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "associated files",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 131
+    },
+    {
+      "term": "part list",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "part list",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.963855421686747
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 132
+    },
+    {
+      "term": "username",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "username",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.963855421686747
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 133
+    },
+    {
+      "term": "period of time",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "period of time",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 134
+    },
+    {
+      "term": "number of edges",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "number of edges",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 135
+    },
+    {
+      "term": "payment details",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "payment details",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 136
+    },
+    {
+      "term": "take effect",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "take effect",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 137
+    },
+    {
+      "term": "infinity",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "infinity",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 138
+    },
+    {
+      "term": "4mm title",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "4mm title",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 139
+    },
+    {
+      "term": "4mm",
+      "decision": "NEEDS_REVIEW",
+      "status": "needs_review",
+      "decision_score": 0.3,
+      "decision_reasons": [
+        "High translatability score"
+      ],
+      "term_data": {
+        "term": "4mm",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.8554216867469879
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 140
+    },
+    {
+      "term": "optimize",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "optimize",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 141
+    },
+    {
+      "term": "curves group",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "curves group",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.963855421686747
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 142
+    },
+    {
+      "term": "personalized",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "personalized",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 143
+    },
+    {
+      "term": "group together",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "group together",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 144
+    },
+    {
+      "term": "create polycurves",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "create polycurves",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 145
+    },
+    {
+      "term": "group create",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "group create",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 146
+    },
+    {
+      "term": "submittal item",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "submittal item",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 147
+    },
+    {
+      "term": "crash",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "crash",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 148
+    },
+    {
+      "term": "drafting environment",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "drafting environment",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 149
+    },
+    {
+      "term": "automatically create",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "automatically create",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 150
+    },
+    {
+      "term": "breakpoint",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "breakpoint",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 1.0
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 151
+    },
+    {
+      "term": "second point",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "second point",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.9518072289156626
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 152
+    },
+    {
+      "term": "machine design",
+      "decision": "APPROVED",
+      "status": "approved",
+      "decision_score": 0.5,
+      "decision_reasons": [
+        "High translatability score",
+        "Passed language verification"
+      ],
+      "term_data": {
+        "term": "machine design",
+        "frequency": 0,
+        "original_texts": {
+          "texts": []
+        },
+        "translations": {},
+        "translatability_score": 0.975
+      },
+      "review_timestamp": "2025-09-23T04:52:50.840778",
+      "index": 153
+    }
+  ]
+}

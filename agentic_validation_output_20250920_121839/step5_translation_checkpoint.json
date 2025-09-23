@@ -1,0 +1,14 @@
+{
+  "step": 5,
+  "step_name": "Translation Process",
+  "status": "partially_completed",
+  "checkpoint_timestamp": "2025-09-23T04:52:50.361399",
+  "total_terms": 14987,
+  "completed_terms": 1530,
+  "remaining_terms": 13457,
+  "completion_percentage": 10.208847667978915,
+  "next_batch_info": {
+    "batch_size": 13457,
+    "expected_output": "Translation_Results.json (append mode)"
+  }
+}

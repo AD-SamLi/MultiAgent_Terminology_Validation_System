@@ -1,0 +1,14 @@
+{
+  "step_sequence": {
+    "step_number": 1,
+    "step_name": "Initial Term Collection and Verification",
+    "step_timestamp": "2025-09-20T12:18:50.658310",
+    "session_id": "20250920_121839",
+    "workflow_stage": "Step 1: Initial Term Collection and Verification",
+    "input_file": "Term_Extracted_result.csv",
+    "processor_used": "unified_term_processor.py",
+    "extraction_source": "Final_Curated_Terms and Final_Curated_Terms_Detailed columns",
+    "terms_extracted": 216642,
+    "terms_verified": 86747
+  }
+}

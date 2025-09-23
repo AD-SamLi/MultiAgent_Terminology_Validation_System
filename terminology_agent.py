@@ -9,6 +9,7 @@ import sys
 import time
 import json
 from typing import Dict, List, Optional
+from datetime import datetime, timedelta
 from azure.identity import EnvironmentCredential
 from dotenv import load_dotenv
 
@@ -22,12 +23,55 @@ from terminology_tool import TerminologyTool
 class PatchedAzureOpenAIServerModel(AzureOpenAIServerModel):
     """
     Patched version of AzureOpenAIServerModel that removes unsupported parameters
-    for GPT-5 and other reasoning models.
+    for GPT-5 and other reasoning models, and includes token refresh capabilities.
     
     GPT-5 and O-series models don't support the 'stop' parameter that smolagents
-    tries to use by default. This wrapper filters it out.
+    tries to use by default. This wrapper filters it out and handles token refresh.
     """
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._credential = EnvironmentCredential()
+        self._token_expiry = None
+        # Immediately acquire a fresh token on initialization
+        print("🔄 [TerminologyAgent] Initializing with fresh token...")
+        self._force_token_refresh()
+
+    def _refresh_token_if_needed(self):
+        """Check if token needs refresh and refresh if necessary"""
+        try:
+            # Always refresh if we don't have a token or expiry
+            if not hasattr(self, '_token_expiry') or self._token_expiry is None or not hasattr(self, 'api_key'):
+                print("🔄 [TerminologyAgent] No token found, acquiring new token...")
+                return self._force_token_refresh()
+
+            # Check if token expires in the next 10 minutes (increased buffer)
+            if datetime.now() + timedelta(minutes=10) >= self._token_expiry:
+                print("🔄 [TerminologyAgent] Token expiring soon, refreshing...")
+                return self._force_token_refresh()
+            
+            return True
+        except Exception as e:
+            print(f"❌ [TerminologyAgent] Token check failed: {e}")
+            return self._force_token_refresh()
+
+    def _force_token_refresh(self):
+        """Force token refresh regardless of current state"""
+        try:
+            print("🔄 [TerminologyAgent] Forcing token refresh...")
+            token_result = self._credential.get_token("https://cognitiveservices.azure.com/.default")
+            self.api_key = token_result.token
+            self._token_expiry = datetime.fromtimestamp(token_result.expires_on)
+            print(f"✅ [TerminologyAgent] Token refreshed successfully, expires at {self._token_expiry.strftime('%H:%M:%S')}")
+            return True
+        except Exception as e:
+            print(f"❌ [TerminologyAgent] Token refresh failed: {e}")
+            return False
+
+
     def _prepare_completion_kwargs(self, *args, **kwargs):
+        # Check and refresh token if needed
+        self._refresh_token_if_needed()
+        
         completion_kwargs = super()._prepare_completion_kwargs(*args, **kwargs)
         # Remove unsupported params for reasoning models
         if 'stop' in completion_kwargs:
@@ -45,35 +89,88 @@ class PatchedAzureOpenAIServerModel(AzureOpenAIServerModel):
         return completion_kwargs
 
 
-def run_with_retries(agent, prompt: str, max_retries: int = 2):
-    """Run agent with retry logic for transient server errors and content filter issues."""
-    for attempt_index in range(1, max_retries + 1):
+def is_token_expired(error_msg: str) -> bool:
+    """Check if error is due to expired token"""
+    token_indicators = [
+        "401", "unauthorized", "access token", "expired", "invalid audience",
+        "token is missing", "authentication failed", "credential"
+    ]
+    return any(indicator in error_msg.lower() for indicator in token_indicators)
+
+def is_server_error(error_msg: str) -> bool:
+    """Check if error is a server error"""
+    server_indicators = [
+        "500", "502", "503", "504", "internal server error", 
+        "bad gateway", "service unavailable", "gateway timeout"
+    ]
+    return any(indicator in error_msg.lower() for indicator in server_indicators)
+
+def is_content_filter_error(error_msg: str) -> bool:
+    """Check if error is due to content filtering"""
+    filter_indicators = [
+        "content_filter", "responsibleaipolicyviolation", "jailbreak"
+    ]
+    return any(indicator in error_msg.lower() for indicator in filter_indicators)
+
+def run_with_retries(agent, prompt: str, max_retries: int = 3):
+    """Run agent with intelligent retry logic with cleanup on final failure"""
+    for attempt in range(max_retries):
         try:
-            return agent.run(prompt)
-        except Exception as exc:  # noqa: BLE001
-            error_text = str(exc)
-            is_server_error = (
-                "server had an error" in error_text.lower()
-                or " 500 " in f" {error_text} "
-                or "500 internal server error" in error_text.lower()
-            )
-            is_content_filter = (
-                "content_filter" in error_text.lower()
-                or "responsibleaipolicyviolation" in error_text.lower()
-                or "jailbreak" in error_text.lower()
-            )
+            # ALWAYS force token refresh before each attempt for maximum reliability
+            print(f"🔄 [TerminologyAgent] Attempt {attempt + 1}/{max_retries}: Ensuring fresh token...")
+            if hasattr(agent, 'model') and hasattr(agent.model, '_force_token_refresh'):
+                agent.model._force_token_refresh()
+            elif hasattr(agent, 'refresh_model_token'):
+                agent.refresh_model_token()
             
-            if (is_server_error or is_content_filter) and attempt_index < max_retries:
-                backoff_seconds = attempt_index * 3
-                if is_content_filter:
-                    print(f"⚠️ Content filter triggered (attempt {attempt_index}/{max_retries})")
-                    print("   Will retry with same prompt - sometimes filters are inconsistent")
+            return agent.run(prompt)
+            
+        except Exception as exc:
+            error_msg = str(exc)
+            print(f"⚠️ [TerminologyAgent] Attempt {attempt + 1} failed: {error_msg}")
+            
+            if attempt == max_retries - 1:
+                print(f"❌ [TerminologyAgent] All {max_retries} attempts failed. Returning clean failure result.")
+                # Return a clean failure result instead of raising exception
+                return f"Analysis failed after {max_retries} attempts due to persistent authentication issues. Term requires manual review."
+            
+            # Determine retry delay based on error type (matching modern agent)
+            if is_content_filter_error(error_msg):
+                delay = 1.0  # Shorter delay for content filter errors
+                print(f"[WARNING] Content filter triggered (attempt {attempt + 1}/{max_retries})")
+                print("   Will retry with same prompt - sometimes filters are inconsistent")
+            elif is_token_expired(error_msg):
+                delay = 4.0  # Longer delay for token issues
+                print(f"[WARNING] Authentication error (attempt {attempt + 1}/{max_retries}): {exc}")
+                print("   Token expired, forcing immediate refresh...")
+                # Force immediate token refresh
+                if hasattr(agent, 'refresh_model_token'):
+                    try:
+                        agent.refresh_model_token()
+                        print("   ✅ Token refreshed successfully via refresh_model_token")
+                        continue  # Skip the sleep for successful token refresh
+                    except Exception as refresh_error:
+                        print(f"   ❌ Token refresh failed: {refresh_error}")
+                elif hasattr(agent, 'model') and hasattr(agent.model, '_force_token_refresh'):
+                    if agent.model._force_token_refresh():
+                        print("   ✅ Token refreshed successfully via _force_token_refresh")
+                        continue  # Skip the sleep for successful token refresh
+                    else:
+                        print("   ❌ Token refresh failed")
                 else:
-                    print(f"⚠️ Server error (attempt {attempt_index}/{max_retries}): {exc}")
-                print(f"⏳ Retrying in {backoff_seconds}s...")
-                time.sleep(backoff_seconds)
-                continue
-            raise
+                    # Fallback: force refresh on next call
+                    if hasattr(agent, 'model') and hasattr(agent.model, '_token_expiry'):
+                        agent.model._token_expiry = datetime.now()
+                        print("   ⏰ Forced token expiry for next call")
+            elif is_server_error(error_msg):
+                delay = 2.0 * (2 ** attempt)  # Exponential backoff for server errors
+                print(f"[WARNING] Server error (attempt {attempt + 1}/{max_retries}): {exc}")
+            else:
+                delay = 2.0 * (1.5 ** attempt)  # Standard backoff
+                print(f"[WARNING] General error (attempt {attempt + 1}/{max_retries}): {exc}")
+            
+            print(f"🔄 Retrying in {delay:.1f} seconds...")
+            time.sleep(delay)
 
 
 class TerminologySmolTool(Tool):
@@ -132,9 +229,9 @@ class TerminologySmolTool(Tool):
         """Initialize the underlying TerminologyTool"""
         try:
             self.terminology_tool = TerminologyTool(self.glossary_folder)
-            print(f"✅ Terminology tool initialized with glossary folder: {self.glossary_folder}")
+            print(f"[OK] Terminology tool initialized with glossary folder: {self.glossary_folder}")
         except Exception as e:
-            print(f"❌ Failed to initialize terminology tool: {e}")
+            print(f"[ERROR] Failed to initialize terminology tool: {e}")
             # Create a minimal tool that will report the error
             self.terminology_tool = None
     
@@ -311,17 +408,17 @@ class TerminologyAgent:
     
     def _setup_model(self):
         """Set up the Azure OpenAI model"""
-        print(f"🔧 Setting up Azure OpenAI {self.model_name}...")
+        print(f"[SETUP] Setting up Azure OpenAI {self.model_name}...")
         
         # Load environment variables
         load_dotenv()
         
         try:
             # Get Azure AD token
-            print("🔐 Getting Azure AD token...")
+            print("[AUTH] Getting Azure AD token...")
             credential = EnvironmentCredential()
             token_result = credential.get_token("https://cognitiveservices.azure.com/.default")
-            print("✅ Token acquired successfully")
+            print("[OK] Token acquired successfully")
             
             # Get model configuration
             config = self.model_configs[self.model_name]
@@ -339,15 +436,57 @@ class TerminologyAgent:
                 },
             )
             
-            print(f"✅ Model {self.model_name} initialized successfully")
+            # Set token expiry time for refresh mechanism
+            self.model._token_expiry = datetime.fromtimestamp(token_result.expires_on)
+            
+            print(f"[OK] Model {self.model_name} initialized successfully")
             
         except Exception as e:
-            print(f"❌ Failed to setup model: {e}")
+            print(f"[ERROR] Failed to setup model: {e}")
+            raise
+    
+    def refresh_model_token(self):
+        """Recreate the model with a fresh token (matching modern_terminology_review_agent.py)"""
+        try:
+            print("🔄 [TerminologyAgent] Recreating model with fresh token...")
+            
+            # Get fresh token
+            credential = EnvironmentCredential()
+            token_result = credential.get_token("https://cognitiveservices.azure.com/.default")
+            print("✅ [TerminologyAgent] Fresh token acquired")
+            
+            # Get model configuration
+            config = self.model_configs[self.model_name]
+            endpoint = os.environ.get("AZURE_OPENAI_ENDPOINT")
+            
+            # Create completely new model instance with fresh token
+            self.model = PatchedAzureOpenAIServerModel(
+                model_id=config["model_id"],
+                azure_endpoint=endpoint,
+                api_key=token_result.token,
+                api_version=config["api_version"],
+                custom_role_conversions={
+                    "tool-call": "user",
+                    "tool-response": "assistant",
+                },
+            )
+            
+            # Set token expiry time for refresh mechanism
+            self.model._token_expiry = datetime.fromtimestamp(token_result.expires_on)
+            print(f"✅ [TerminologyAgent] Model recreated with fresh token, expires at {self.model._token_expiry.strftime('%H:%M:%S')}")
+            
+            # Update the agent with the new model
+            if hasattr(self, 'agent') and self.agent:
+                self.agent.model = self.model
+                print("✅ [TerminologyAgent] Agent updated with new model")
+                
+        except Exception as e:
+            print(f"❌ [TerminologyAgent] Failed to refresh model token: {e}")
             raise
     
     def _create_agent(self):
         """Create the smolagents CodeAgent with terminology tool"""
-        print("🤖 Creating terminology agent...")
+        print("[AI] Creating terminology agent...")
         
         try:
             # Create the terminology tool
@@ -358,15 +497,14 @@ class TerminologyAgent:
                 model=self.model,
                 tools=[terminology_tool],
                 add_base_tools=True,  # Include base tools like web search
-                max_steps=15,  # Allow more steps for complex terminology operations
-                verbose=True
+                max_steps=15  # Allow more steps for complex terminology operations
             )
             
-            print("✅ Terminology agent created successfully")
-            print(f"📁 Using glossary folder: {self.glossary_folder}")
+            print("[OK] Terminology agent created successfully")
+            print(f"[FOLDER] Using glossary folder: {self.glossary_folder}")
             
         except Exception as e:
-            print(f"❌ Failed to create agent: {e}")
+            print(f"[ERROR] Failed to create agent: {e}")
             raise
     
     def run_terminology_task(self, prompt: str) -> str:
@@ -379,7 +517,7 @@ class TerminologyAgent:
         Returns:
             Agent response
         """
-        print(f"🚀 Running terminology task: {prompt[:100]}...")
+        print(f"[START] Running terminology task: {prompt[:100]}...")
         print(f"⏱️  Started at {time.strftime('%H:%M:%S')}")
         
         if self.model_name == "gpt-5":
@@ -393,13 +531,13 @@ class TerminologyAgent:
             
             duration = time.time() - start_time
             print(f"⏱️  Completed in {duration:.1f} seconds")
-            print(f"✅ Task completed successfully")
+            print(f"[OK] Task completed successfully")
             
             return response
             
         except Exception as e:
             duration = time.time() - start_time
-            print(f"❌ Task failed after {duration:.1f} seconds: {e}")
+            print(f"[ERROR] Task failed after {duration:.1f} seconds: {e}")
             raise
     
     def get_glossary_overview(self) -> str:
@@ -461,12 +599,12 @@ class TerminologyAgent:
 def demo_terminology_agent():
     """Demonstrate the terminology agent capabilities"""
     
-    print("🌟 TERMINOLOGY AGENT DEMO")
+    print("[*] TERMINOLOGY AGENT DEMO")
     print("=" * 60)
     
     # Initialize the agent
     glossary_folder = os.path.join(os.getcwd(), "glossary")
-    print(f"📁 Using glossary folder: {glossary_folder}")
+    print(f"[FOLDER] Using glossary folder: {glossary_folder}")
     
     try:
         # Create agent with GPT-5 (change to "gpt-4.1" for faster testing)
@@ -502,10 +640,10 @@ def demo_terminology_agent():
         custom_response = agent.run_terminology_task(custom_query)
         print(custom_response)
         
-        print("\n🎉 DEMO COMPLETED SUCCESSFULLY!")
+        print("\n[SUCCESS] DEMO COMPLETED SUCCESSFULLY!")
         
     except Exception as e:
-        print(f"❌ Demo failed: {e}")
+        print(f"[ERROR] Demo failed: {e}")
         import traceback
         traceback.print_exc()
 

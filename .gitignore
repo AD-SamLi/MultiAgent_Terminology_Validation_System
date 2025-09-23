@@ -166,6 +166,16 @@ cython_debug/
 *.pickle
 model_offload/
 translation_results/
+Term_Verify_Data/
+
+# Validation outputs (keep only the specific one we want)
+agentic_validation_output_*/
+!agentic_validation_output_20250920_121839/
+
+# Temporary and sample files
+*_sample*.csv
+debug_output_*.csv
+test_output_*.csv
 
 # Large data files (keep specific important ones)
 # Uncomment the following lines if you want to exclude large JSON files
