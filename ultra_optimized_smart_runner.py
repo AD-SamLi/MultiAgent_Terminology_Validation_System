@@ -31,6 +31,9 @@ import torch
 import gc
 import psutil
 import asyncio
+
+# Set CUDA memory allocation configuration for better memory management
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Dict, List, Set, Tuple, Optional
@@ -46,24 +49,35 @@ import os
 sys.path.append(os.getcwd())
 
 from nllb_translation_tool import NLLBTranslationTool
+from dynamic_worker_manager import DynamicWorkerManager, create_dynamic_worker_manager
+from atomic_json_utils import atomic_json_write, load_json_safely
 
 @dataclass
 class UltraOptimizedConfig:
     """Ultra-optimized configuration for maximum speed"""
     model_size: str = "1.3B"
-    gpu_workers: int = 1              # Single GPU worker (configurable)
-    cpu_workers: int = 8              # CPU workers for processing
-    cpu_translation_workers: int = 4  # CPU workers for translation
+    gpu_workers: int = 0              # Auto-detect based on GPU memory (0 = dynamic detection)
+    cpu_workers: int = 2              # CPU workers for preprocessing (minimal - queueing is fast)
+    cpu_translation_workers: int = 14 # CPU workers for translation (maximized - bottleneck)
     gpu_batch_size: int = 24          # Optimized for single GPU
-    max_queue_size: int = 100         # Larger queue size to reduce bottlenecks
+    max_queue_size: int = 400          # Reduced from 1000 to prevent overflow (matches terminal log)
     checkpoint_interval: int = 20     # More frequent saves
     model_load_delay: int = 8         # Reduced delay
     
-    # Ultra-optimization settings
+    # OPTIMAL QUEUE MANAGEMENT: Proactive threshold to prevent throttling entirely
+    optimal_queue_threshold: float = 0.05     # STOP queueing at 5% to maintain optimal flow
+    queue_resume_threshold: float = 0.02      # Resume queueing when queue drops to 2%
+    queue_check_interval: float = 0.1         # Check queue levels every 0.1 seconds (faster)
+    
+    # Legacy throttling (should never be reached with optimal thresholds)
+    queue_throttle_threshold: float = 0.30    # Emergency throttling if optimal threshold fails
+    max_throttle_wait: float = 2.0            # Reduced wait time for emergency throttling
+    
+    # Ultra-optimization settings (modified for stability)
     ultra_core_threshold: float = 0.85    # More aggressive core threshold
     ultra_minimal_threshold: float = 0.3  # Very aggressive minimal threshold
     predictive_caching: bool = True       # Enable predictive caching
-    dynamic_batching: bool = True         # Dynamic batch sizing
+    dynamic_batching: bool = False        # DISABLED: Prevent batch size increases that cause OOM
     async_checkpointing: bool = True      # Async checkpoint saves
     memory_mapping: bool = True           # Memory-mapped storage
     
@@ -86,10 +100,32 @@ class UltraOptimizedSmartRunner:
         if config is None:
             config = UltraOptimizedConfig()
         
+        # DYNAMIC GPU WORKER DETECTION: Auto-calculate optimal workers based on GPU memory
+        if config.gpu_workers == 0:  # Auto-detect mode
+            config.gpu_workers = self._calculate_optimal_gpu_workers(config.model_size)
+            print(f"🎯 DYNAMIC GPU DETECTION: Calculated {config.gpu_workers} optimal GPU workers")
+        
+        # Initialize dynamic worker manager
+        self.dynamic_worker_manager = create_dynamic_worker_manager(config)
+        
+        # Initialize worker allocation tracking
+        self.dynamic_worker_manager.worker_allocation.cpu_preprocessing = config.cpu_workers
+        self.dynamic_worker_manager.worker_allocation.cpu_translation = config.cpu_translation_workers
+        self.dynamic_worker_manager.worker_allocation.gpu_translation = config.gpu_workers
+        
         # Comprehensive resource allocation for Step 5 Translation
-        config.gpu_workers = min(config.gpu_workers, self.available_gpus)
+        # Don't limit GPU workers to available GPUs for multi-model GPU scenarios
+        # Multi-model GPU allows multiple workers on single physical GPU
+        original_gpu_workers = config.gpu_workers
+        
+        # Get system resources (needed for all scenarios)
         cpu_cores = psutil.cpu_count()
         available_memory_gb = psutil.virtual_memory().available / (1024**3)
+        
+        if self.available_gpus == 1 and config.gpu_workers > 1:
+            print(f"🎮 Multi-model GPU detected - preserving {config.gpu_workers} workers on 1 GPU")
+        else:
+            config.gpu_workers = min(config.gpu_workers, self.available_gpus)
         
         print(f"🔧 OPTIMIZING TRANSLATION RESOURCES:")
         print(f"   📊 System: {cpu_cores} CPU cores, {available_memory_gb:.1f}GB RAM, {self.available_gpus} GPUs")
@@ -113,42 +149,81 @@ class UltraOptimizedSmartRunner:
             print(f"   ⚙️  CPU Preprocessing Workers: {config.cpu_workers}")
             
         elif self.available_gpus == 1:
-            print(f"🎮 Single GPU mode - balanced GPU+CPU translation")
+            # GPU Memory allocation - dynamically detect actual GPU memory (needed for all single-GPU scenarios)
+            gpu_memory_gb = 6.0  # Default fallback
+            gpu_name = "GPU"  # Default name
+            if torch.cuda.is_available() and torch.cuda.device_count() > 0:
+                try:
+                    # Get actual GPU memory from PyTorch
+                    gpu_properties = torch.cuda.get_device_properties(0)
+                    gpu_memory_gb = gpu_properties.total_memory / (1024**3)  # Convert bytes to GB
+                    gpu_name = gpu_properties.name
+                    print(f"   🔍 Detected GPU: {gpu_name} ({gpu_memory_gb:.1f}GB)")
+                except Exception as e:
+                    print(f"   ⚠️ Could not detect GPU memory, using default: {e}")
+            
+            # Check if adaptive config already set multiple GPU workers for multi-model GPU
+            if config.gpu_workers > 1:
+                print(f"🎮 Multi-Model Single GPU mode - {config.gpu_workers} NLLB instances on 1 GPU")
+            else:
+                print(f"🎮 Single GPU mode - balanced GPU+CPU translation")
             config.gpu_workers = 1
             
-            # GPU Memory allocation (RTX A1000 6GB considerations)
-            gpu_memory_gb = 6.0  # Your GPU memory
             model_memory_gb = 2.6 if config.model_size == "1.3B" else 6.7
             
-            if gpu_memory_gb < model_memory_gb * 1.5:  # Need 1.5x for safety
-                print(f"   ⚠️  GPU memory constraint: {gpu_memory_gb}GB < {model_memory_gb * 1.5:.1f}GB needed")
-                config.gpu_batch_size = 8   # Very conservative
-                config.gpu_workers = 1      # Single GPU worker only
-            else:
-                config.gpu_batch_size = 16  # Moderate
+            # Dynamic batch size calculation based on actual GPU memory and workers
+            available_memory_gb = gpu_memory_gb - model_memory_gb  # Memory available for batching
+            
+            # CRASH PREVENTION: Conservative batch sizes with safety caps
+            MAX_SAFE_BATCH_SIZE = 12  # Hard cap to prevent GPU OOM
+            
+            # TESLA T4 3-WORKER OPTIMIZATION: Extra conservative for 3 workers
+            if config.gpu_workers >= 3 and "Tesla T4" in gpu_name:
+                MAX_SAFE_BATCH_SIZE = 8  # Even smaller max for Tesla T4 3-worker mode
+                print(f"   🎯 Tesla T4 3-worker mode: Reduced max batch size to {MAX_SAFE_BATCH_SIZE}")
+            
+            if gpu_memory_gb < model_memory_gb * 1.2:  # Very tight memory
+                config.gpu_batch_size = 2   # Ultra conservative (reduced from 4)
+                print(f"   🛡️  Very tight GPU memory: {gpu_memory_gb:.1f}GB, using batch_size=2 (SAFE MODE)")
+            elif gpu_memory_gb < model_memory_gb * 1.5:  # Tight memory
+                config.gpu_batch_size = 4   # Conservative (reduced from 8)
+                print(f"   🛡️  Tight GPU memory: {gpu_memory_gb:.1f}GB, using batch_size=4 (SAFE MODE)")
+            elif gpu_memory_gb < model_memory_gb * 3.0:  # Moderate memory
+                config.gpu_batch_size = 6   # Moderate (reduced from 16)
+                print(f"   🛡️  Moderate GPU memory: {gpu_memory_gb:.1f}GB, using batch_size=6 (SAFE MODE)")
+            elif gpu_memory_gb < model_memory_gb * 6.0:  # Good memory
+                config.gpu_batch_size = 8   # Conservative (reduced from 32)
+                print(f"   🛡️  Good GPU memory: {gpu_memory_gb:.1f}GB, using batch_size=8 (SAFE MODE)")
+            else:  # Excellent memory (like Tesla T4 15.6GB)
+                config.gpu_batch_size = MAX_SAFE_BATCH_SIZE  # Capped (reduced from 64)
+                print(f"   🛡️  Excellent GPU memory: {gpu_memory_gb:.1f}GB, using batch_size={MAX_SAFE_BATCH_SIZE} (SAFE MODE)")
+            
+            print(f"   🔒 CRASH PREVENTION: All batch sizes capped at {MAX_SAFE_BATCH_SIZE} to prevent GPU OOM")
             
             # CPU resource allocation (balance between translation and preprocessing)
             reserved_cores = 3  # System + collector + checkpoint saver
             available_cores = max(1, cpu_cores - reserved_cores)
             
-            # Memory-based CPU worker allocation
+            # BOTTLENECK-OPTIMIZED CPU worker allocation
+            # Analysis shows CPU translation is the bottleneck vs preprocessing
+            # User feedback: Preprocessing (queueing) is very fast, only needs 1-2 workers
             if available_memory_gb < 6.0:
-                # Very limited memory - minimize CPU translation workers
-                config.cpu_translation_workers = 1
-                config.cpu_workers = max(4, available_cores - 1)
-                print(f"   ⚠️  Low memory mode: minimal CPU translation")
+                # Very limited memory - but still maximize translation workers
+                config.cpu_translation_workers = max(6, available_cores - 2)  # All except 2 for translation
+                config.cpu_workers = min(2, max(1, available_cores - config.cpu_translation_workers))
+                print(f"   ⚠️  Low memory mode: translation-maximized allocation ({config.cpu_translation_workers}:1 ratio)")
             elif available_memory_gb < 12.0:
-                # Moderate memory - balanced allocation
-                config.cpu_translation_workers = min(2, max(1, available_cores // 3))
-                config.cpu_workers = max(4, available_cores - config.cpu_translation_workers)
-                print(f"   📊 Balanced mode: moderate CPU translation")
+                # Moderate memory - maximize translation, minimal preprocessing
+                config.cpu_translation_workers = min(14, max(8, available_cores - 2))  # All except 2 for translation
+                config.cpu_workers = min(2, max(1, available_cores - config.cpu_translation_workers))
+                print(f"   📊 Moderate memory: translation-maximized allocation ({config.cpu_translation_workers}:1 ratio)")
             else:
-                # Good memory - more CPU translation workers
-                config.cpu_translation_workers = min(4, max(2, available_cores // 2))
-                config.cpu_workers = max(4, available_cores - config.cpu_translation_workers)
-                print(f"   🚀 High memory mode: optimized CPU translation")
+                # Good memory - maximize translation workers (preprocessing only needs 1-2)
+                config.cpu_translation_workers = min(16, max(10, available_cores - 1))  # All except 1 for translation
+                config.cpu_workers = min(2, max(1, available_cores - config.cpu_translation_workers))
+                print(f"   🚀 High memory mode: translation-maximized ({config.cpu_translation_workers}:1 ratio)")
             
-            print(f"   🎮 GPU: 1 worker, batch={config.gpu_batch_size}")
+            print(f"   🎮 GPU: {config.gpu_workers} worker{'s' if config.gpu_workers > 1 else ''}, batch={config.gpu_batch_size}")
             print(f"   💪 CPU Translation: {config.cpu_translation_workers} workers")
             print(f"   ⚙️  CPU Preprocessing: {config.cpu_workers} workers")
             print(f"   📝 Reserved: {reserved_cores} cores (system/IO)")
@@ -182,6 +257,28 @@ class UltraOptimizedSmartRunner:
         
         print(f"   ✅ Final allocation: {config.gpu_workers} GPU + {config.cpu_translation_workers} CPU-Trans + {config.cpu_workers} CPU-Prep = {config.gpu_workers + config.cpu_translation_workers + config.cpu_workers} workers")
         
+        # Log multi-model GPU configuration with dynamic detection
+        if self.available_gpus == 1 and config.gpu_workers > 1:
+            total_batch_size = config.gpu_batch_size
+            worker_batch_size = max(4, total_batch_size // config.gpu_workers)
+            
+            # Get actual GPU name for display
+            gpu_name = "GPU"
+            if torch.cuda.is_available():
+                try:
+                    gpu_name = torch.cuda.get_device_properties(0).name
+                except:
+                    pass
+            
+            print(f"   🎮 Multi-Model GPU Configuration:")
+            print(f"      📱 Single {gpu_name} hosting {config.gpu_workers} NLLB instances")
+            print(f"      💾 Total batch size: {total_batch_size} → {worker_batch_size} per worker")
+            print(f"      ⚡ Expected throughput: {config.gpu_workers}x parallel translation")
+        elif self.available_gpus > 1:
+            print(f"   🎮 Multi-GPU Configuration: {config.gpu_workers} workers across {self.available_gpus} GPUs")
+        else:
+            print(f"   🎮 Single-Model GPU Configuration: 1 worker on 1 GPU")
+        
         self.config = config
         # Store skip_checkpoint_loading for later use
         self.skip_checkpoint_loading = skip_checkpoint_loading
@@ -200,21 +297,34 @@ class UltraOptimizedSmartRunner:
         else:
             print(f"🆕 STARTING new ultra-optimized session: {self.session_id}")
         
-        # Ultra-fast queues with larger capacity
-        self.gpu_queue_1 = queue.Queue(maxsize=self.config.max_queue_size)
-        self.gpu_queue_2 = queue.Queue(maxsize=self.config.max_queue_size)
+        # Dynamic GPU queue creation based on gpu_workers
+        self.gpu_queues = []
+        for i in range(self.config.gpu_workers):
+            gpu_queue = queue.Queue(maxsize=self.config.max_queue_size)
+            self.gpu_queues.append(gpu_queue)
+            # Also create individual queue references for compatibility
+            setattr(self, f'gpu_queue_{i+1}', gpu_queue)
+        
+        print(f"⚡ Created {len(self.gpu_queues)} GPU queues for {self.config.gpu_workers} workers")
+        
         self.cpu_translation_queue = queue.Queue(maxsize=self.config.max_queue_size)
         self.result_queue = queue.Queue(maxsize=self.config.max_queue_size * 2)
         
         # Advanced load balancer
         self.next_gpu = 0
         self.gpu_lock = threading.Lock()
-        self.gpu_performance = [0.0, 0.0]  # Track GPU performance
+        self.gpu_performance = [0.0] * self.config.gpu_workers  # Dynamic GPU performance tracking
         
         # Thread control
         self.stop_event = threading.Event()
-        self.gpu1_ready = threading.Event()
-        self.gpu2_ready = threading.Event()
+        
+        # Dynamic GPU ready events
+        self.gpu_ready_events = []
+        for i in range(self.config.gpu_workers):
+            gpu_ready_event = threading.Event()
+            self.gpu_ready_events.append(gpu_ready_event)
+            # Also create individual event references for compatibility
+            setattr(self, f'gpu{i+1}_ready', gpu_ready_event)
         
         # Progress tracking with ultra-fast sets
         self.processed_terms = 0
@@ -241,16 +351,29 @@ class UltraOptimizedSmartRunner:
         # Initialize ultra-optimized language sets
         self._initialize_ultra_language_sets()
         
-        # Load existing progress if resuming (unless explicitly skipped)
-        if resume_session and not skip_checkpoint_loading:
+        # Load existing progress - try main system checkpoint first if data_source_dir exists
+        if (resume_session and not skip_checkpoint_loading) or (hasattr(self, 'data_source_dir') and self.data_source_dir and not skip_checkpoint_loading):
             self._load_checkpoint_ultra_fast()
         elif skip_checkpoint_loading:
             print("⚡ Checkpoint loading skipped - using fresh counters for terms_only processing")
-            # Ensure completely fresh state when skipping checkpoints
-            self.processed_terms = 0
-            self.failed_terms = 0
-            self.processed_terms_set.clear()
-            self.results = []
+            # But still try to load main system checkpoint if available
+            if hasattr(self, 'data_source_dir') and self.data_source_dir:
+                main_checkpoint_file = os.path.join(self.data_source_dir, "step5_translation_checkpoint.json")
+                if os.path.exists(main_checkpoint_file):
+                    print("⚡ Loading main system checkpoint despite skip_checkpoint_loading=True")
+                    self._load_checkpoint_ultra_fast()
+                else:
+                    # Ensure completely fresh state when no checkpoint available
+                    self.processed_terms = 0
+                    self.failed_terms = 0
+                    self.processed_terms_set.clear()
+                    self.results = []
+            else:
+                # Ensure completely fresh state when skipping checkpoints
+                self.processed_terms = 0
+                self.failed_terms = 0
+                self.processed_terms_set.clear()
+                self.results = []
         
         print(f"⚡ ULTRA-OPTIMIZED SMART RUNNER INITIALIZED")
         print(f"   • Session: {self.session_id}")
@@ -280,6 +403,111 @@ class UltraOptimizedSmartRunner:
         except Exception as e:
             print(f"⚠️  GPU Detection Error: {e}")
             return 0
+    
+    def _calculate_optimal_gpu_workers(self, model_size: str) -> int:
+        """Dynamically calculate optimal number of GPU workers based on actual GPU memory"""
+        if not torch.cuda.is_available() or self.available_gpus == 0:
+            return 0
+        
+        try:
+            # Get actual GPU memory from PyTorch
+            gpu_properties = torch.cuda.get_device_properties(0)
+            gpu_memory_gb = gpu_properties.total_memory / (1024**3)  # Convert bytes to GB
+            gpu_name = gpu_properties.name
+            
+            print(f"🔍 DYNAMIC GPU ANALYSIS:")
+            print(f"   🎮 GPU: {gpu_name}")
+            print(f"   💾 Total Memory: {gpu_memory_gb:.1f}GB")
+            
+            # OPTIMIZED: More realistic memory requirements for Tesla T4 3-worker attempt
+            if model_size == "1.3B":
+                model_memory_gb = 2.8  # OPTIMIZED: More realistic NLLB-1.3B memory requirement
+                overhead_memory_gb = 1.8  # OPTIMIZED: Reduced CUDA overhead estimate
+            elif model_size == "3.3B":
+                model_memory_gb = 7.5  # NLLB-3.3B memory requirement  
+                overhead_memory_gb = 3.0  # Higher overhead for larger model
+            else:
+                model_memory_gb = 2.8  # Default to optimized 1.3B
+                overhead_memory_gb = 1.8
+            
+            memory_per_worker = model_memory_gb + overhead_memory_gb
+            print(f"   📊 Memory per worker: {memory_per_worker:.1f}GB (model: {model_memory_gb:.1f}GB + overhead: {overhead_memory_gb:.1f}GB)")
+            
+            # OPTIMIZED: Reduced safety margin for 3-worker attempt
+            safety_margin_gb = 1.5  # OPTIMIZED: Smaller safety margin (was 2.0GB)
+            usable_memory_gb = gpu_memory_gb - safety_margin_gb
+            max_workers = int(usable_memory_gb // memory_per_worker)
+            
+            print(f"   🛡️  Usable memory: {usable_memory_gb:.1f}GB (after {safety_margin_gb:.1f}GB safety margin)")
+            print(f"   🧮 Theoretical max workers: {max_workers}")
+            
+            # Apply practical limits and optimizations
+            if max_workers <= 0:
+                optimal_workers = 1  # Always try at least 1 worker
+                print(f"   ⚠️  Limited memory - using 1 worker (conservative)")
+            elif max_workers == 1:
+                optimal_workers = 1
+                print(f"   ✅ Single model mode - 1 worker optimal")
+            elif max_workers == 2:
+                optimal_workers = 2
+                print(f"   ✅ Dual model mode - 2 workers optimal")
+            elif max_workers >= 3:
+                # DYNAMIC SCALING: Try 3 workers for Tesla T4 with optimized settings
+                # Previous OOM was likely due to conservative memory estimates
+                gpu_specific_limits = {
+                    "Tesla T4": 3,  # OPTIMIZED: Try 3 workers with better memory calculation
+                    "GeForce RTX": 3,  # RTX cards can handle 3
+                    "A100": 4,  # A100 can handle more
+                    "V100": 3   # V100 can handle 3
+                }
+                
+                gpu_limit = 3  # Default limit
+                for gpu_type, limit in gpu_specific_limits.items():
+                    if gpu_type in gpu_name:
+                        gpu_limit = limit
+                        if gpu_type == "Tesla T4":
+                            print(f"   🎯 {gpu_type} detected - attempting 3 workers with optimized memory calculation")
+                            print(f"   ⚡ Using smaller batch sizes and reduced memory estimates")
+                        else:
+                            print(f"   🎮 {gpu_type} detected - allowing {limit} workers max")
+                        break
+                
+                # Apply both memory-based and GPU-specific limits
+                optimal_workers = min(max_workers, gpu_limit, 3)
+                
+                if optimal_workers < max_workers:
+                    if optimal_workers == gpu_limit:
+                        print(f"   🛡️  Multi-model mode - using {optimal_workers} workers (GPU-specific limit for OOM prevention)")
+                    else:
+                        print(f"   🎯 Multi-model mode - using {optimal_workers} workers (capped from {max_workers} for optimal performance)")
+                else:
+                    print(f"   🎯 Multi-model mode - {optimal_workers} workers optimal")
+            
+            # HYBRID CPU+GPU OPTIMIZATION: Calculate leftover GPU memory for CPU acceleration
+            used_gpu_memory = optimal_workers * memory_per_worker
+            leftover_gpu_memory = usable_memory_gb - used_gpu_memory
+            
+            print(f"   🚀 OPTIMAL CONFIGURATION: {optimal_workers} GPU workers")
+            print(f"   💡 Leftover GPU memory: {leftover_gpu_memory:.1f}GB available for CPU acceleration")
+            
+            # Store hybrid configuration for later use
+            self.hybrid_config = {
+                'gpu_workers': optimal_workers,
+                'leftover_gpu_memory': leftover_gpu_memory,
+                'can_use_hybrid': leftover_gpu_memory >= 1.0,  # Need at least 1GB for hybrid
+                'hybrid_acceleration_level': min(1.0, leftover_gpu_memory / 2.0)  # Scale 0-1 based on available memory
+            }
+            
+            if self.hybrid_config['can_use_hybrid']:
+                print(f"   🔄 HYBRID MODE ENABLED: CPU workers can use {leftover_gpu_memory:.1f}GB GPU memory for acceleration")
+                print(f"   📈 Expected CPU worker speedup: {1 + self.hybrid_config['hybrid_acceleration_level'] * 0.8:.1f}x")
+            
+            return optimal_workers
+            
+        except Exception as e:
+            print(f"   ❌ GPU detection failed: {e}")
+            print(f"   🔄 Fallback: Using 1 GPU worker")
+            return 1
     
     def _get_nllb_language_mapping(self) -> Dict[str, str]:
         """Get mapping from common language codes to NLLB codes"""
@@ -360,6 +588,102 @@ class UltraOptimizedSmartRunner:
     def _get_term_hash(self, term: str) -> str:
         """Get hash for term caching"""
         return hashlib.md5(term.encode()).hexdigest()[:8]
+
+    def _check_optimal_queue_threshold(self, selected_queue) -> bool:
+        """Check if we should stop queueing at optimal threshold to maintain peak performance"""
+        try:
+            queue_size = selected_queue.qsize()
+            queue_fullness = queue_size / self.config.max_queue_size
+            
+            # ADAPTIVE THRESHOLDS: Adjust based on remaining work to prevent end-game stalling
+            remaining_terms = self.total_terms - (self.processed_terms + self.failed_terms)
+            
+            if remaining_terms < 200:
+                # FINAL STAGE: Disable optimal threshold, use legacy throttling only
+                optimal_threshold = 1.0  # Effectively disabled
+                resume_threshold = self.config.queue_resume_threshold
+                stage = "FINAL"
+                # Log transition to final stage (once per queue to avoid spam)
+                if not hasattr(self, '_final_stage_logged'):
+                    print(f"🏁 FINAL STAGE: {remaining_terms} terms remaining - optimal thresholds disabled for completion")
+                    self._final_stage_logged = True
+            elif remaining_terms < 500:
+                # END-GAME: Allow larger queues to accommodate remaining work
+                optimal_threshold = 0.25  # 25% (100 terms)
+                resume_threshold = 0.15   # 15% (60 terms)
+                stage = "END-GAME"
+                # Log transition to end-game (once to avoid spam)
+                if not hasattr(self, '_endgame_stage_logged'):
+                    print(f"🎯 END-GAME: {remaining_terms} terms remaining - increasing thresholds to 25%/15%")
+                    self._endgame_stage_logged = True
+            elif remaining_terms < 1000:
+                # LATE-STAGE: Moderate threshold increase
+                optimal_threshold = 0.10  # 10% (40 terms)
+                resume_threshold = 0.05   # 5% (20 terms)
+                stage = "LATE-STAGE"
+                # Log transition to late-stage (once to avoid spam)
+                if not hasattr(self, '_latestage_stage_logged'):
+                    print(f"📈 LATE-STAGE: {remaining_terms} terms remaining - increasing thresholds to 10%/5%")
+                    self._latestage_stage_logged = True
+            else:
+                # NORMAL: Use configured optimal thresholds
+                optimal_threshold = self.config.optimal_queue_threshold  # 5% (20 terms)
+                resume_threshold = self.config.queue_resume_threshold    # 2% (8 terms)
+                stage = "NORMAL"
+            
+            # ADAPTIVE THRESHOLD CHECK: Stop queueing at calculated optimal threshold
+            if queue_fullness >= optimal_threshold and optimal_threshold < 1.0:
+                print(f"🎯 {stage} OPTIMAL THRESHOLD: Queue {queue_fullness:.1%} full ({queue_size}/{self.config.max_queue_size})")
+                print(f"   📊 Remaining terms: {remaining_terms:,}, Threshold: {optimal_threshold:.1%}, Resume: {resume_threshold:.1%}")
+                print(f"   ⏸️  Pausing queueing to maintain optimal flow")
+                
+                # Wait for queue to clear to adaptive resume threshold
+                while not self.stop_event.is_set():
+                    time.sleep(self.config.queue_check_interval)
+                    
+                    current_size = selected_queue.qsize()
+                    current_fullness = current_size / self.config.max_queue_size
+                    
+                    # Resume when queue drops to adaptive resume level
+                    if current_fullness <= resume_threshold:
+                        print(f"✅ {stage} OPTIMAL RESUME: Queue cleared to {current_fullness:.1%} ({current_size}/{self.config.max_queue_size})")
+                        return True
+                
+                return False  # Stop event was set
+            
+            # EMERGENCY THROTTLING: Only if optimal threshold somehow fails
+            elif queue_fullness >= self.config.queue_throttle_threshold:
+                print(f"🚨 EMERGENCY THROTTLING: Queue {queue_fullness:.1%} full - optimal threshold bypassed!")
+                print(f"   ⚠️  This should not happen with optimal threshold at {self.config.optimal_queue_threshold:.1%}")
+                
+                throttle_start_time = time.time()
+                
+                # Emergency throttling with shorter timeout
+                while not self.stop_event.is_set():
+                    time.sleep(self.config.queue_check_interval)
+                    
+                    current_size = selected_queue.qsize()
+                    current_fullness = current_size / self.config.max_queue_size
+                    
+                    # Resume at queue_resume_threshold
+                    if current_fullness <= self.config.queue_resume_threshold:
+                        elapsed = time.time() - throttle_start_time
+                        print(f"✅ EMERGENCY RESUME: Queue cleared to {current_fullness:.1%} after {elapsed:.1f}s")
+                        return True
+                    
+                    # Force resume much sooner (2s instead of 5s)
+                    elapsed = time.time() - throttle_start_time
+                    if elapsed >= self.config.max_throttle_wait:
+                        print(f"⚠️  EMERGENCY FORCE RESUME: After {elapsed:.1f}s")
+                        return True
+                
+                return False  # Stop event was set
+            
+            return True  # No threshold reached - continue queueing
+            
+        except Exception as e:
+            print(f"⚠️  Queue threshold check failed: {e}")
+            return True  # Continue on error
 
     def _categorize_term_ultra_fast(self, term: str) -> str:
         """Ultra-fast term categorization with aggressive caching"""
@@ -460,74 +784,66 @@ class UltraOptimizedSmartRunner:
         """Ultra-fast checkpoint loading with format detection"""
         print(f"🔍 Ultra-fast checkpoint loading for session: {self.session_id}")
         
-        # Skip internal checkpoint loading when using terms_only (main system handles checkpoints)
-        if hasattr(self, 'skip_checkpoint_loading') and self.skip_checkpoint_loading:
-            print("⚡ Skipping ultra runner internal checkpoint loading (main system manages checkpoints)")
-            return
+        # PRIORITY 1: Always try to load main system checkpoint first
+        main_checkpoint_loaded = False
+        if hasattr(self, 'data_source_dir') and self.data_source_dir:
+            main_checkpoint_file = os.path.join(self.data_source_dir, "step5_translation_checkpoint.json")
             
-        # Check multiple formats in priority order
-        checkpoint_patterns = [
-            (f"ultra_optimized_{self.session_id}", "ultra-optimized"),
-            (f"optimized_smart_{self.session_id}", "optimized-smart"),
-            (f"fixed_dual_{self.session_id}", "fixed-dual"),
-            (f"ultra_fast_{self.session_id}", "ultra-fast")
-        ]
-        
-        for pattern, format_name in checkpoint_patterns:
-            checkpoint_file = f"Term_Verify_Data/checkpoints/{pattern}_checkpoint.json"
-            results_file = f"Term_Verify_Data/checkpoints/{pattern}_results.json"
-            
-            if os.path.exists(checkpoint_file):
+            if os.path.exists(main_checkpoint_file):
                 try:
-                    with open(checkpoint_file, 'r', encoding='utf-8') as f:
-                        checkpoint_data = json.load(f)
+                    with open(main_checkpoint_file, 'r', encoding='utf-8') as f:
+                        main_checkpoint = json.load(f)
                     
-                    # Load basic progress
-                    self.processed_terms = checkpoint_data.get('processed_terms', 0)
-                    self.failed_terms = checkpoint_data.get('failed_terms', 0)
-                    self.total_terms = checkpoint_data.get('total_terms', 0)
+                    # Load main system progress - this is the source of truth
+                    self.processed_terms = main_checkpoint.get('completed_terms', 0)
+                    self.total_terms = main_checkpoint.get('total_terms', 0)
+                    remaining_terms = main_checkpoint.get('remaining_terms', 0)
                     
-                    # Load ultra-optimization stats if available
-                    self.ultra_minimal_terms = checkpoint_data.get('ultra_minimal_terms', 0)
-                    self.core_terms = checkpoint_data.get('core_terms', 0)
-                    self.extended_terms = checkpoint_data.get('extended_terms', 0)
-                    self.language_savings = checkpoint_data.get('language_savings', 0)
+                    print(f"📂 MAIN SYSTEM CHECKPOINT LOADED:")
+                    print(f"   ✅ Completed terms: {self.processed_terms}")
+                    print(f"   ✅ Total terms: {self.total_terms}")
+                    print(f"   ✅ Remaining terms: {remaining_terms}")
                     
-                    print(f"📂 Loaded {format_name} checkpoint: {self.processed_terms} processed")
-                    
-                    # Load results if available
+                    # Load actual translation results to build processed_terms_set
+                    results_file = os.path.join(self.data_source_dir, "Translation_Results.json")
                     if os.path.exists(results_file):
-                        with open(results_file, 'r', encoding='utf-8') as f:
-                            self.results = json.load(f)
-                        
-                        # Ensure results is a list
-                        if isinstance(self.results, dict):
-                            if 'results' in self.results:
-                                self.results = self.results['results']
-                            else:
-                                self.results = list(self.results.values()) if self.results else []
-                        
-                        # Build processed terms set
-                        for result in self.results:
-                            if isinstance(result, dict) and 'term' in result:
-                                self.processed_terms_set.add(result['term'])
+                        try:
+                            with open(results_file, 'r', encoding='utf-8') as f:
+                                results_data = json.load(f)
                                 
-                                # Build performance history for predictive optimization
-                                if result.get('translatability_score'):
-                                    self.performance_history.append({
-                                        'score': result['translatability_score'],
-                                        'tier': result.get('processing_tier', 'unknown')
-                                    })
-                        
-                        print(f"📂 Loaded {len(self.results)} results, built performance history")
-                    
-                    return
+                                translation_results = results_data.get('translation_results', [])
+                                processed_terms_list = []
+                                for result in translation_results:
+                                    if isinstance(result, dict) and 'term' in result:
+                                        processed_terms_list.append(result['term'])
+                                
+                                self.processed_terms_set = set(processed_terms_list)
+                                actual_count = len(self.processed_terms_set)
+                                
+                                print(f"   ✅ Loaded {actual_count} processed terms from Translation_Results.json")
+                                
+                                # Verify consistency
+                                if actual_count != self.processed_terms:
+                                    print(f"   ⚠️  MISMATCH: Checkpoint shows {self.processed_terms}, results file has {actual_count}")
+                                    print(f"   🔧 Using actual count from results file: {actual_count}")
+                                    self.processed_terms = actual_count
+                        except Exception as e:
+                            print(f"   ⚠️ Could not load results file: {e}")
+                            self.processed_terms_set = set()
+                            
+                    main_checkpoint_loaded = True
                     
                 except Exception as e:
-                    print(f"⚠️  Could not load {format_name} checkpoint: {e}")
-                    continue
+                    print(f"⚠️ Could not load main checkpoint {main_checkpoint_file}: {e}")
         
-        print("⚠️  No compatible checkpoint found, starting fresh")
+        # NO SEPARATE ULTRA CHECKPOINT LOADING: Only use main system checkpoint
+        # All progress is now tracked in the main step5_translation_checkpoint.json
+        # and results are saved directly to Translation_Results.json
+        if main_checkpoint_loaded:
+            print("⚡ Main system checkpoint loaded successfully - no separate ultra checkpoints needed")
+        else:
+            print("⚡ No main checkpoint found - starting fresh")
+        return main_checkpoint_loaded
 
     def _load_data_ultra_fast(self) -> Tuple[List[str], List[str]]:
         """Ultra-fast data loading with pre-filtering"""
@@ -547,7 +863,6 @@ class UltraOptimizedSmartRunner:
         # Add fallback paths
         dict_file_paths.extend([
             'Dictionary_Terms_For_Translation.json',  # Current directory
-            'Term_Verify_Data/Dictionary_Terms_Found.json',  # Original path
         ])
         
         # Find recent output directories as additional fallback
@@ -599,7 +914,6 @@ class UltraOptimizedSmartRunner:
         # Add fallback paths
         non_dict_file_paths.extend([
             'Non_Dictionary_Terms_Identified.json',  # Current directory
-            'Term_Verify_Data/Non_Dictionary_Terms.json',  # Original path
         ])
         
         # Add recent output directories as additional fallback
@@ -665,14 +979,38 @@ class UltraOptimizedSmartRunner:
             
             print(f"⚡ GPU worker {worker_id} loading model with ultra settings...")
             
-            # Initialize with larger batch size for efficiency
+            # Initialize with multi-model GPU support for maximum utilization
             try:
+                # Check if we have multiple GPU workers on single GPU (multi-model scenario)
+                if self.available_gpus == 1 and self.config.gpu_workers > 1:
+                    # Multi-model single GPU: Calculate optimal batch size per worker
+                    worker_batch_size = max(4, self.config.gpu_batch_size // self.config.gpu_workers)
+                    gpu_device = 'cuda:0'  # All workers use the same GPU
+                    
+                    # Get GPU name dynamically
+                    gpu_name = "GPU"
+                    try:
+                        gpu_name = torch.cuda.get_device_properties(0).name
+                    except:
+                        pass
+                    
+                    print(f"🎮 Multi-Model GPU Worker {worker_id}: Loading NLLB instance {worker_id}/{self.config.gpu_workers}")
+                    print(f"   💾 Shared {gpu_name}, Worker batch size: {worker_batch_size}")
+                else:
+                    # Traditional single model or multi-GPU
+                    worker_batch_size = self.config.gpu_batch_size
+                    gpu_device = f'cuda:{worker_id-1}' if worker_id <= self.available_gpus else 'cuda:0'
+                
                 translator = NLLBTranslationTool(
                     model_name=self.config.model_size,
-                    batch_size=self.config.gpu_batch_size,
-                    device='cuda' if torch.cuda.is_available() else 'cpu'
+                    batch_size=worker_batch_size,
+                    device=gpu_device if torch.cuda.is_available() else 'cpu'
                 )
-                print(f"✅ Ultra GPU worker {worker_id} ready: {self.config.model_size} (Batch: {self.config.gpu_batch_size})")
+                
+                if self.available_gpus == 1 and self.config.gpu_workers > 1:
+                    print(f"✅ Multi-Model GPU Worker {worker_id} ready: {self.config.model_size} (Batch: {worker_batch_size}, Shared GPU)")
+                else:
+                    print(f"✅ GPU Worker {worker_id} ready: {self.config.model_size} (Batch: {worker_batch_size})")
                 ready_event.set()
             except Exception as model_error:
                 print(f"❌ Ultra GPU worker {worker_id} model loading failed: {model_error}")
@@ -793,8 +1131,214 @@ class UltraOptimizedSmartRunner:
             ready_event.set()
     
     def _cpu_translation_worker_ultra(self, worker_id: int):
-        """Ultra-optimized CPU translation worker using CPU-only NLLB"""
-        print(f"⚡ Initializing ultra-optimized CPU translation worker {worker_id}...")
+        """Ultra-optimized CPU translation worker with hybrid GPU acceleration when available"""
+        
+        # Check if hybrid mode is available
+        use_hybrid = hasattr(self, 'hybrid_config') and self.hybrid_config.get('can_use_hybrid', False)
+        
+        if use_hybrid:
+            print(f"🔄 Initializing HYBRID CPU+GPU translation worker {worker_id}...")
+            print(f"   💡 GPU acceleration level: {self.hybrid_config['hybrid_acceleration_level']:.1f}")
+            return self._hybrid_cpu_gpu_translation_worker(worker_id)
+        else:
+            print(f"⚡ Initializing ultra-optimized CPU translation worker {worker_id}...")
+            return self._pure_cpu_translation_worker(worker_id)
+    
+    def _hybrid_cpu_gpu_translation_worker(self, worker_id: int):
+        """Hybrid CPU+GPU translation worker that uses leftover GPU memory for acceleration"""
+        print(f"🔄 Starting hybrid CPU+GPU worker {worker_id}...")
+        
+        try:
+            # Initialize hybrid components
+            gpu_device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu')
+            cpu_device = torch.device('cpu')
+            
+            # Use model loading lock to prevent race conditions
+            with self.model_loading_lock:
+                print(f"🔄 Hybrid worker {worker_id}: Loading CPU model with GPU acceleration...")
+                
+                # Load model on CPU but prepare for GPU-accelerated operations
+                from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+                
+                model_name = f"facebook/nllb-200-{self.config.model_size}"
+                
+                # Load tokenizer (will be moved to GPU for acceleration)
+                tokenizer = AutoTokenizer.from_pretrained(model_name)
+                
+                # Load model on CPU (inference stays on CPU to avoid OOM)
+                model = AutoModelForSeq2SeqLM.from_pretrained(
+                    model_name,
+                    torch_dtype=torch.float32,
+                    low_cpu_mem_usage=True,
+                    device_map=None
+                ).to(cpu_device)
+                
+                # Pre-allocate GPU tensors for tokenization acceleration
+                max_batch_size = 4
+                max_length = 512
+                
+                try:
+                    # Allocate GPU memory for tokenization (much smaller than full model)
+                    self.gpu_tokenizer_buffer = torch.zeros(
+                        (max_batch_size, max_length), 
+                        dtype=torch.long, 
+                        device=gpu_device
+                    )
+                    self.gpu_attention_buffer = torch.zeros(
+                        (max_batch_size, max_length), 
+                        dtype=torch.long, 
+                        device=gpu_device
+                    )
+                    gpu_acceleration_available = True
+                    print(f"   ✅ GPU acceleration buffers allocated ({self.hybrid_config['leftover_gpu_memory']:.1f}GB)")
+                    
+                except torch.cuda.OutOfMemoryError:
+                    print(f"   ⚠️  GPU acceleration failed - falling back to pure CPU mode")
+                    gpu_acceleration_available = False
+                
+                print(f"✅ Hybrid worker {worker_id}: Model loaded (CPU inference + {'GPU' if gpu_acceleration_available else 'CPU'} tokenization)")
+            
+            processed_count = 0
+            worker_start_time = time.time()
+            last_performance_report = time.time()
+            performance_window = []
+            
+            while not self.stop_event.is_set():
+                try:
+                    # Get work from CPU translation queue with shorter timeout for responsiveness
+                    item = self.cpu_translation_queue.get(timeout=1.0)
+                    if item is None:  # Shutdown signal
+                        print(f"🔄 Hybrid CPU+GPU worker {worker_id} received shutdown signal")
+                        break
+                    
+                    term, target_languages, processing_tier = item
+                    process_start_time = time.time()
+                    
+                    # HYBRID PROCESSING: GPU-accelerated tokenization + CPU inference
+                    try:
+                        if gpu_acceleration_available and len(target_languages) > 2:
+                            # Use GPU for batch tokenization (faster)
+                            source_texts = [term] * len(target_languages)
+                            
+                            with torch.cuda.device(gpu_device):
+                                # Tokenize on GPU for speed
+                                inputs = tokenizer(
+                                    source_texts, 
+                                    return_tensors='pt', 
+                                    padding=True, 
+                                    truncation=True,
+                                    max_length=128
+                                ).to(gpu_device)
+                                
+                                # Move tokenized inputs back to CPU for model inference
+                                inputs = {k: v.cpu() for k, v in inputs.items()}
+                        else:
+                            # Fallback to CPU tokenization for small batches
+                            source_texts = [term] * len(target_languages)
+                            inputs = tokenizer(
+                                source_texts,
+                                return_tensors='pt',
+                                padding=True,
+                                truncation=True,
+                                max_length=128
+                            )
+                        
+                        # Model inference on CPU (to avoid GPU OOM)
+                        with torch.no_grad():
+                            translations = {}
+                            
+                            for i, target_lang in enumerate(target_languages):
+                                try:
+                                    # Set target language
+                                    tokenizer.src_lang = "eng_Latn"
+                                    tokenizer.tgt_lang = target_lang
+                                    
+                                    # Generate translation on CPU
+                                    generated_tokens = model.generate(
+                                        inputs['input_ids'][i:i+1],
+                                        attention_mask=inputs['attention_mask'][i:i+1],
+                                        forced_bos_token_id=tokenizer.lang_code_to_id[target_lang],
+                                        max_length=64,
+                                        num_beams=2,
+                                        early_stopping=True
+                                    )
+                                    
+                                    # Decode translation
+                                    translation = tokenizer.decode(generated_tokens[0], skip_special_tokens=True)
+                                    translations[target_lang] = translation
+                                    
+                                except Exception as lang_e:
+                                    print(f"   ⚠️  Translation failed for {target_lang}: {lang_e}")
+                                    translations[target_lang] = term  # Fallback
+                        
+                        # Create result
+                        result = {
+                            'term': term,
+                            'status': 'completed',
+                            'processing_tier': f'hybrid-{processing_tier}',
+                            'gpu_worker': f'CPU+GPU-{worker_id}',
+                            'translations': translations,
+                            'languages_processed': len(translations),
+                            'languages_saved': max(0, len(self.full_languages) - len(translations)),
+                            'processing_time': time.time() - process_start_time,
+                            'acceleration_used': 'gpu_tokenization' if gpu_acceleration_available else 'cpu_only'
+                        }
+                        
+                        # Send to result queue
+                        self.result_queue.put(result)
+                        processed_count += 1
+                        
+                    except Exception as e:
+                        print(f"   ❌ Hybrid worker {worker_id} translation failed for '{term}': {e}")
+                        # Send failure result
+                        result = {
+                            'term': term,
+                            'status': 'failed',
+                            'error': str(e),
+                            'gpu_worker': f'CPU+GPU-{worker_id}',
+                            'processing_tier': f'hybrid-{processing_tier}-failed'
+                        }
+                        self.result_queue.put(result)
+                    
+                    # Performance tracking
+                    process_time = time.time() - process_start_time
+                    performance_window.append(process_time)
+                    
+                    # Keep only last 10 processing times for recent performance
+                    if len(performance_window) > 10:
+                        performance_window.pop(0)
+                    
+                    # Enhanced progress reporting with performance metrics
+                    current_time = time.time()
+                    if processed_count % 5 == 0 or (current_time - last_performance_report) >= 10.0:
+                        avg_process_time = sum(performance_window) / len(performance_window) if performance_window else 0
+                        terms_per_sec = 1.0 / avg_process_time if avg_process_time > 0 else 0
+                        
+                        acceleration_status = "GPU-accel" if gpu_acceleration_available else "CPU-only"
+                        print(f"🔄 Hybrid CPU+GPU-{worker_id}: {processed_count} terms | {terms_per_sec:.1f} terms/sec | {acceleration_status} | {processing_tier}")
+                        last_performance_report = current_time
+                
+                except queue.Empty:
+                    continue
+                except Exception as e:
+                    print(f"❌ Hybrid worker {worker_id} error: {e}")
+                    time.sleep(1.0)
+                    continue
+                    
+        except Exception as e:
+            print(f"💥 Hybrid CPU+GPU worker {worker_id} failed: {e}")
+        finally:
+            print(f"🔄 Hybrid CPU+GPU worker {worker_id} shutting down")
+            # Clean up GPU buffers
+            if hasattr(self, 'gpu_tokenizer_buffer'):
+                del self.gpu_tokenizer_buffer
+            if hasattr(self, 'gpu_attention_buffer'):
+                del self.gpu_attention_buffer
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+    
+    def _pure_cpu_translation_worker(self, worker_id: int):
+        """Pure CPU translation worker (original implementation)"""
         
         try:
             # Use model loading lock to prevent race conditions
@@ -890,11 +1434,15 @@ class UltraOptimizedSmartRunner:
                         
                         term, target_languages, processing_tier = item
                         
-                        # Delegate to GPU queue instead
+                        # Delegate to GPU queue instead - DYNAMIC GPU SELECTION
                         try:
-                            self.gpu_queue_1.put((term, target_languages, processing_tier), timeout=1.0)
+                            # Use round-robin to select GPU queue
+                            with self.gpu_lock:
+                                selected_gpu_idx = self.next_gpu
+                                self.next_gpu = (self.next_gpu + 1) % self.config.gpu_workers
+                            self.gpu_queues[selected_gpu_idx].put((term, target_languages, processing_tier), timeout=1.0)
                             processed_count += 1
-                            print(f"🔄 CPU worker {worker_id}: Delegated '{term}' to GPU queue")
+                            print(f"🔄 CPU worker {worker_id}: Delegated '{term}' to GPU queue {selected_gpu_idx + 1}")
                         except queue.Full:
                             print(f"⚠️  CPU worker {worker_id}: GPU queue full, skipping '{term}'")
                             
@@ -907,16 +1455,21 @@ class UltraOptimizedSmartRunner:
                 print(f"✅ Ultra CPU translation worker {worker_id} completed (delegation mode): {processed_count} terms")
                 return
             
-            # Normal CPU translation mode
+            # Normal CPU translation mode with performance monitoring
+            last_performance_report = time.time()
+            performance_window = []
+            stall_detection_threshold = 30.0
+            
             while not self.stop_event.is_set():
                 try:
-                    # Get work from CPU translation queue
-                    item = self.cpu_translation_queue.get(timeout=2.0)
+                    # Get work from CPU translation queue with shorter timeout for responsiveness
+                    item = self.cpu_translation_queue.get(timeout=1.0)
                     if item is None:  # Shutdown signal
                         print(f"⚡ Ultra CPU translation worker {worker_id} received shutdown signal")
                         break
                     
                     term, target_languages, processing_tier = item
+                    process_start_time = time.time()
                     
                     # Perform CPU-based translation using pipeline
                     translations = {}
@@ -959,8 +1512,29 @@ class UltraOptimizedSmartRunner:
                     self.result_queue.put(result, timeout=5.0)
                     processed_count += 1
                     
-                    # Progress reporting
-                    if processed_count % 5 == 0:
+                    # Performance tracking
+                    process_time = time.time() - process_start_time
+                    performance_window.append(process_time)
+                    
+                    # Keep only last 10 processing times for recent performance
+                    if len(performance_window) > 10:
+                        performance_window.pop(0)
+                    
+                    # Enhanced progress reporting with performance metrics
+                    current_time = time.time()
+                    if processed_count % 5 == 0 or (current_time - last_performance_report) >= 10.0:
+                        avg_process_time = sum(performance_window) / len(performance_window) if performance_window else 0
+                        terms_per_sec = 1.0 / avg_process_time if avg_process_time > 0 else 0
+                        
+                        print(f"💪 Ultra CPU-{worker_id}: {processed_count} terms | {terms_per_sec:.1f} terms/sec | {processing_tier} | avg: {avg_process_time:.1f}s")
+                        last_performance_report = current_time
+                        
+                        # Stall detection
+                        if terms_per_sec < 0.1 and processed_count > 0:  # Less than 0.1 terms/sec indicates stall
+                            print(f"⚠️  CPU-{worker_id} PERFORMANCE WARNING: {terms_per_sec:.2f} terms/sec (possible stall)")
+                    
+                    # Regular progress reporting
+                    elif processed_count % 5 == 0:
                         elapsed = time.time() - worker_start_time
                         rate = processed_count / elapsed if elapsed > 0 else 0
                         print(f"💪 Ultra CPU-{worker_id}: {processed_count} terms | {rate:.1f} terms/sec | CPU translation")
@@ -1126,27 +1700,24 @@ class UltraOptimizedSmartRunner:
                 # 2. Term complexity (complex terms -> GPU, simple terms -> CPU)
                 # 3. Available workers
                 
-                gpu_queue_size = self.gpu_queue_1.qsize() + (self.gpu_queue_2.qsize() if self.config.gpu_workers >= 2 else 0)
+                # DYNAMIC GPU QUEUE SIZE CALCULATION
+                gpu_queue_size = sum(gpu_queue.qsize() for gpu_queue in self.gpu_queues)
                 cpu_queue_size = self.cpu_translation_queue.qsize()
                 
                 # Intelligent workload distribution based on resource allocation
                 gpu_load = gpu_queue_size / (self.config.max_queue_size * max(1, self.config.gpu_workers))
                 cpu_load = cpu_queue_size / (self.config.max_queue_size * max(1, self.config.cpu_translation_workers))
                 
-                # Decision factors for CPU vs GPU translation
-                # Prioritize CPU translation workers when available to balance load
+                # Decision factors for GPU vs CPU translation
+                # OPTIMIZED: Very aggressive CPU activation for maximum utilization
                 use_cpu_translation = (
                     self.config.cpu_translation_workers > 0 and (
-                        # Simple terms are ALWAYS better for CPU (faster, less memory)
-                        processing_tier in ['ultra_minimal', 'minimal'] or
-                        # Load balancing: strongly prefer CPU when GPU is getting full
-                        (gpu_load > 0.3 and cpu_load < 0.8) or
-                        # Memory pressure: offload to CPU when GPU memory is tight
-                        (self.config.gpu_batch_size <= 16 and cpu_load < gpu_load * 1.5) or
-                        # Efficiency: CPU for medium complexity terms with fewer languages
-                        (processing_tier in ['minimal', 'core'] and len(target_languages) <= 30) or
-                        # Hybrid strategy: alternate between GPU and CPU for balanced load
-                        (worker_id % 2 == 0 and cpu_load < 0.6)
+                        # Use CPU when GPU queues have any significant load (25%+ load)
+                        (gpu_load > 0.25 and cpu_load < 0.7) or
+                        # Parallel processing: both GPU and CPU work together at low thresholds
+                        (gpu_load > 0.2 and cpu_load < 0.6) or
+                        # Always use CPU when available and GPU has any load
+                        (gpu_load > 0.15 and cpu_load < gpu_load * 0.8)
                     )
                 )
                 
@@ -1156,17 +1727,15 @@ class UltraOptimizedSmartRunner:
                     selected_worker_id = f"CPU-T{(worker_id % self.config.cpu_translation_workers) + 1}"
                 else:
                     # Use GPU translation
-                    if self.config.gpu_workers >= 2:
-                        # Choose GPU based on performance
-                        if self.gpu_performance[0] >= self.gpu_performance[1]:
-                            selected_queue = self.gpu_queue_1
-                            selected_worker_id = f"GPU-1"
-                        else:
-                            selected_queue = self.gpu_queue_2
-                            selected_worker_id = f"GPU-2"
+                    # DYNAMIC PERFORMANCE-BASED GPU SELECTION
+                    if self.config.gpu_workers > 1:
+                        # Choose GPU based on performance (find best performing GPU)
+                        best_gpu_idx = max(range(self.config.gpu_workers), key=lambda i: self.gpu_performance[i])
+                        selected_queue = self.gpu_queues[best_gpu_idx]
+                        selected_worker_id = f"GPU-{best_gpu_idx + 1}"
                     else:
                         # Single GPU mode
-                        selected_queue = self.gpu_queue_1
+                        selected_queue = self.gpu_queues[0]
                         selected_worker_id = f"GPU-1"
                     selected_worker_type = 'gpu'
                 
@@ -1174,9 +1743,19 @@ class UltraOptimizedSmartRunner:
                 self.next_gpu = (self.next_gpu + 1) % max(1, self.config.gpu_workers)
             
             try:
-                # Send to selected GPU queue
+                # OPTIMAL THRESHOLD CHECK: Proactive queue management to prevent throttling
+                if not self._check_optimal_queue_threshold(selected_queue):
+                    # Stop event was set during optimal threshold wait
+                    break
+                
+                # INTELLIGENT QUEUE THROTTLING: Use dynamic worker management (fallback)
                 work_item = (term, target_languages, processing_tier)
-                selected_queue.put(work_item, timeout=20.0)
+                queue_name = f"gpu_queue_{selected_worker_id}" if selected_worker_type == 'gpu' else f"cpu_queue_{selected_worker_id}"
+                    
+                if not self.dynamic_worker_manager.intelligent_queue_throttling(queue_name, selected_queue, work_item, timeout=20.0):
+                    # Stop event was set during throttling
+                    break
+                
                 processed_count += 1
                 
                 if processed_count % 10 == 0:
@@ -1192,10 +1771,14 @@ class UltraOptimizedSmartRunner:
                         print(f"⚡ Ultra CPU-{worker_id}: {processed_count} terms | {selected_worker_type.upper()}-{selected_worker_id} | {processing_tier} | {efficiency:.1f}% efficiency")
                 
             except queue.Full:
-                # Try alternate queue if using GPU
-                if selected_worker_type == 'gpu' and self.config.gpu_workers >= 2:
-                    alternate_queue = self.gpu_queue_2 if selected_queue == self.gpu_queue_1 else self.gpu_queue_1
-                    alternate_worker_id = 2 if selected_worker_id == 1 else 1
+                # Try alternate queue if using GPU - DYNAMIC FALLBACK
+                if selected_worker_type == 'gpu' and self.config.gpu_workers > 1:
+                    # Find the least loaded GPU queue as alternate
+                    current_gpu_idx = int(selected_worker_id.split('-')[1]) - 1
+                    alternate_gpu_idx = min(range(self.config.gpu_workers), 
+                                          key=lambda i: self.gpu_queues[i].qsize() if i != current_gpu_idx else float('inf'))
+                    alternate_queue = self.gpu_queues[alternate_gpu_idx]
+                    alternate_worker_id = alternate_gpu_idx + 1
                 
                     try:
                         alternate_queue.put(work_item, timeout=10.0)
@@ -1271,28 +1854,23 @@ class UltraOptimizedSmartRunner:
                     # 2. Term complexity (complex terms -> GPU, simple terms -> CPU)
                     # 3. Available workers
                     
-                    gpu_load = (self.gpu_queue_1.qsize() / self.config.max_queue_size) if self.config.max_queue_size > 0 else 0
+                    # DYNAMIC GPU LOAD CALCULATION (average across all GPU queues)
+                    gpu_load = (sum(gpu_queue.qsize() for gpu_queue in self.gpu_queues) / (self.config.gpu_workers * self.config.max_queue_size)) if self.config.max_queue_size > 0 and self.config.gpu_workers > 0 else 0
                     cpu_load = (self.cpu_translation_queue.qsize() / self.config.max_queue_size) if hasattr(self, 'cpu_translation_queue') and self.config.max_queue_size > 0 else 0
                     
-                    # Intelligent load balancing logic (same as original)
+                    # OPTIMIZED: Very aggressive CPU activation for maximum utilization
                     use_cpu_translation = False
                     selected_worker_type = 'gpu'
                     
                     if self.config.cpu_translation_workers > 0:
-                        # Strong preference for CPU translation workers for simple terms
-                        if processing_tier in ['ultra_minimal', 'minimal']:
+                        # Use CPU when GPU queues have any significant load (25%+ load)
+                        if gpu_load > 0.25 and cpu_load < 0.7:
                             use_cpu_translation = True
-                        # Use CPU when GPU is overloaded
-                        elif gpu_load > 0.3 and cpu_load < 0.8:
+                        # Parallel processing: both GPU and CPU work together at low thresholds
+                        elif gpu_load > 0.2 and cpu_load < 0.6:
                             use_cpu_translation = True
-                        # Offload to CPU when GPU memory is tight
-                        elif self.config.gpu_batch_size <= 16 and cpu_load < gpu_load * 1.5:
-                            use_cpu_translation = True
-                        # Use CPU for medium complexity terms with fewer languages
-                        elif processing_tier in ['minimal', 'core'] and len(target_languages) <= 30:
-                            use_cpu_translation = True
-                        # Hybrid strategy - alternate between GPU and CPU for balanced load
-                        elif worker_id % 2 == 0 and cpu_load < 0.6:
+                        # Always use CPU when available and GPU has any load
+                        elif gpu_load > 0.15 and cpu_load < gpu_load * 0.8:
                             use_cpu_translation = True
                     
                     if use_cpu_translation and hasattr(self, 'cpu_translation_queue'):
@@ -1300,18 +1878,15 @@ class UltraOptimizedSmartRunner:
                         selected_worker_id = f"CPU-T{(processed_count % self.config.cpu_translation_workers) + 1}"
                         selected_worker_type = 'cpu'
                     else:
-                        # Use GPU worker(s)
-                        if self.config.gpu_workers >= 2:
-                            # Dual GPU mode - round-robin
-                            if self.next_gpu == 0:
-                                selected_queue = self.gpu_queue_1
-                                selected_worker_id = f"GPU-1"
-                            else:
-                                selected_queue = self.gpu_queue_2
-                                selected_worker_id = f"GPU-2"
+                        # Use GPU worker(s) - DYNAMIC DISTRIBUTION FOR N WORKERS
+                        if self.config.gpu_workers > 1:
+                            # Multi-GPU mode - round-robin distribution across all workers
+                            gpu_index = self.next_gpu
+                            selected_queue = self.gpu_queues[gpu_index]
+                            selected_worker_id = f"GPU-{gpu_index + 1}"
                         else:
                             # Single GPU mode
-                            selected_queue = self.gpu_queue_1
+                            selected_queue = self.gpu_queues[0]
                             selected_worker_id = f"GPU-1"
                         selected_worker_type = 'gpu'
                     
@@ -1319,9 +1894,20 @@ class UltraOptimizedSmartRunner:
                     self.next_gpu = (self.next_gpu + 1) % max(1, self.config.gpu_workers)
                 
                 try:
-                    # Send to selected queue
+                    # OPTIMAL THRESHOLD CHECK: Proactive queue management to prevent throttling
+                    if not self._check_optimal_queue_threshold(selected_queue):
+                        # Stop event was set during optimal threshold wait
+                        self.work_queue.task_done()
+                        break
+                    
+                    # INTELLIGENT QUEUE THROTTLING: Use dynamic worker management (fallback)
                     work_item = (term, target_languages, processing_tier)
-                    selected_queue.put(work_item, timeout=20.0)
+                    queue_name = f"gpu_queue_{selected_worker_id}" if selected_worker_type == 'gpu' else f"cpu_queue_{selected_worker_id}"
+                    
+                    if not self.dynamic_worker_manager.intelligent_queue_throttling(queue_name, selected_queue, work_item, timeout=20.0):
+                        # Stop event was set during throttling
+                        break
+                    
                     processed_count += 1
                     
                     if processed_count % 10 == 0:
@@ -1392,7 +1978,8 @@ class UltraOptimizedSmartRunner:
                     print(f"⚠️  Progress stalled at {current_processed}/{self.total_terms} terms. Checking queues...")
                     
                     # Check if queues are empty but translation workers are still active
-                    gpu_queue_size = self.gpu_queue_1.qsize()
+                    # DYNAMIC GPU QUEUE SIZE (sum of all GPU queues)
+                    gpu_queue_size = sum(gpu_queue.qsize() for gpu_queue in self.gpu_queues)
                     cpu_queue_size = self.cpu_translation_queue.qsize() if hasattr(self, 'cpu_translation_queue') else 0
                     
                     print(f"   GPU queue: {gpu_queue_size}, CPU translation queue: {cpu_queue_size}")
@@ -1444,6 +2031,9 @@ class UltraOptimizedSmartRunner:
                 if result.get('status') == 'completed':
                     self.processed_terms += 1
                     self.processed_terms_set.add(term)
+                    
+                    # DIRECT UPDATE: Add result to main Translation_Results.json immediately
+                    self._update_main_translation_results(result)
                     
                     # Add to performance history for learning
                     score = result.get('translatability_score', 0)
@@ -1499,54 +2089,230 @@ class UltraOptimizedSmartRunner:
         self._save_checkpoint_ultra()
         print("⚡ Ultra-optimized result collector finished")
 
+    def _update_main_translation_results(self, result):
+        """Update main Translation_Results.json directly with new result - CORRUPTION RESISTANT"""
+        try:
+            if not hasattr(self, 'data_source_dir') or not self.data_source_dir:
+                return  # No main directory to update
+            
+            main_results_file = os.path.join(self.data_source_dir, "Translation_Results.json")
+            cleaned_results_file = os.path.join(self.data_source_dir, "Translation_Results_cleaned.json")
+            
+            # Load existing results with corruption recovery
+            main_results_data = load_json_safely(main_results_file, [cleaned_results_file])
+            
+            # Check if term already exists to avoid duplicates
+            existing_terms = set()
+            for existing_result in main_results_data.get("translation_results", []):
+                if isinstance(existing_result, dict) and 'term' in existing_result:
+                    existing_terms.add(existing_result['term'])
+            
+            # Add new result if not duplicate
+            term = result.get('term', '')
+            if term and term not in existing_terms:
+                main_results_data["translation_results"].append(result)
+                
+                # Update metadata
+                if "metadata" not in main_results_data:
+                    main_results_data["metadata"] = {}
+                
+                main_results_data["metadata"].update({
+                    "last_updated": datetime.now().isoformat(),
+                    "total_results": len(main_results_data["translation_results"]),
+                    "updated_by": f"ultra_runner_{self.session_id}"
+                })
+                
+                # ATOMIC WRITE: Save to both files with corruption protection
+                success = atomic_json_write(main_results_file, main_results_data)
+                if success:
+                    # Also update cleaned version atomically
+                    atomic_json_write(cleaned_results_file, main_results_data)
+                    print(f"✅ Added '{term}' to Translation_Results.json ({len(main_results_data['translation_results'])} total)")
+                else:
+                    print(f"❌ Failed to save '{term}' - atomic write failed")
+            
+        except Exception as e:
+            print(f"❌ Failed to update main translation results: {e}")
+    
+    def _load_translation_results_safely(self, main_file, backup_file):
+        """Safely load translation results with automatic corruption recovery"""
+        
+        # Try main file first
+        if os.path.exists(main_file):
+            try:
+                with open(main_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                return data
+            except json.JSONDecodeError as e:
+                print(f"⚠️  Main results file corrupted: {e}")
+                
+                # Try to recover from backup
+                if os.path.exists(backup_file):
+                    try:
+                        print("🔄 Attempting recovery from cleaned backup...")
+                        with open(backup_file, 'r', encoding='utf-8') as f:
+                            backup_data = json.load(f)
+                        
+                        # Restore main file from backup
+                        self._atomic_json_write(main_file, backup_data)
+                        print(f"✅ Recovered {len(backup_data.get('translation_results', []))} entries from backup")
+                        return backup_data
+                        
+                    except Exception as backup_error:
+                        print(f"❌ Backup recovery failed: {backup_error}")
+                
+                # Last resort: try to salvage partial data
+                print("🔧 Attempting partial data recovery...")
+                return self._salvage_corrupted_json(main_file)
+        
+        # Create new file structure if nothing exists
+        return {
+            "metadata": {
+                "created_timestamp": datetime.now().isoformat(),
+                "source": "ultra_optimized_smart_runner",
+                "version": "1.0"
+            },
+            "translation_results": []
+        }
+    
+    def _atomic_json_write(self, file_path, data):
+        """Atomic JSON write with corruption prevention"""
+        import tempfile
+        import shutil
+        
+        try:
+            # Write to temporary file first
+            temp_file = file_path + '.tmp'
+            with open(temp_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+                f.flush()  # Force write to disk
+                os.fsync(f.fileno())  # Force OS to write to storage
+            
+            # Verify the temporary file is valid JSON
+            with open(temp_file, 'r', encoding='utf-8') as f:
+                json.load(f)  # This will raise JSONDecodeError if invalid
+            
+            # Atomic move (rename) - this is atomic on most filesystems
+            if os.path.exists(file_path):
+                backup_file = file_path + '.backup'
+                shutil.move(file_path, backup_file)  # Keep backup of old version
+            
+            shutil.move(temp_file, file_path)
+            
+            # Clean up old backup after successful write
+            backup_file = file_path + '.backup'
+            if os.path.exists(backup_file):
+                os.remove(backup_file)
+            
+            return True
+            
+        except Exception as e:
+            print(f"❌ Atomic write failed for {file_path}: {e}")
+            # Clean up temp file if it exists
+            if os.path.exists(temp_file):
+                try:
+                    os.remove(temp_file)
+                except:
+                    pass
+            return False
+    
+    def _salvage_corrupted_json(self, file_path):
+        """Attempt to salvage data from corrupted JSON file"""
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Look for complete translation result entries
+            import re
+            
+            # Find all complete translation result objects
+            pattern = r'\{[^{}]*"status"\s*:\s*"completed"[^{}]*\}'
+            matches = re.findall(pattern, content, re.DOTALL)
+            
+            salvaged_results = []
+            for match in matches:
+                try:
+                    result = json.loads(match)
+                    if 'term' in result and 'status' in result:
+                        salvaged_results.append(result)
+                except:
+                    continue
+            
+            if salvaged_results:
+                print(f"🔧 Salvaged {len(salvaged_results)} translation results from corrupted file")
+                
+                salvaged_data = {
+                    "metadata": {
+                        "created_timestamp": datetime.now().isoformat(),
+                        "source": "ultra_optimized_smart_runner",
+                        "version": "1.0",
+                        "salvaged_from_corruption": True,
+                        "salvaged_count": len(salvaged_results)
+                    },
+                    "translation_results": salvaged_results
+                }
+                
+                # Save salvaged data
+                self._atomic_json_write(file_path, salvaged_data)
+                return salvaged_data
+            
+        except Exception as e:
+            print(f"❌ Salvage operation failed: {e}")
+        
+        # Return empty structure if salvage fails
+        return {
+            "metadata": {
+                "created_timestamp": datetime.now().isoformat(),
+                "source": "ultra_optimized_smart_runner",
+                "version": "1.0",
+                "salvage_failed": True
+            },
+            "translation_results": []
+        }
+
     def _save_checkpoint_ultra(self):
         """Ultra-fast checkpoint saving"""
-        # Skip internal checkpoint saving when main system handles checkpoints
-        if hasattr(self, 'skip_checkpoint_loading') and self.skip_checkpoint_loading:
-            return
+        # CRITICAL FIX: Never skip checkpoint SAVING - only loading can be skipped
+        # The skip_checkpoint_loading flag should only affect loading, not saving!
+        # Checkpoint saving is essential for preserving progress every 20 seconds
             
         try:
-            checkpoint_file = f"Term_Verify_Data/checkpoints/ultra_optimized_{self.session_id}_checkpoint.json"
-            results_file = f"Term_Verify_Data/checkpoints/ultra_optimized_{self.session_id}_results.json"
+            # CRITICAL FIX: Update the main system checkpoint, not just internal one
+            main_checkpoint_file = None
+            if hasattr(self, 'data_source_dir') and self.data_source_dir:
+                main_checkpoint_file = os.path.join(self.data_source_dir, "step5_translation_checkpoint.json")
             
-            os.makedirs(os.path.dirname(checkpoint_file), exist_ok=True)
+            # NO SEPARATE ULTRA CHECKPOINT FILES: Only update main system checkpoint
+            # Results are saved directly to Translation_Results.json as they are processed
+            # No need for separate ultra runner checkpoint files that need merging later
             
-            # Ultra-fast checkpoint data
-            checkpoint_data = {
-                'session_id': self.session_id,
-                'processed_terms': self.processed_terms,
-                'failed_terms': self.failed_terms,
-                'total_terms': self.total_terms,
-                'checkpoint_time': time.time(),
-                'processing_rate': self.processed_terms / (time.time() - self.start_time) if self.start_time else 0,
-                'ultra_minimal_terms': self.ultra_minimal_terms,
-                'core_terms': self.core_terms,
-                'extended_terms': self.extended_terms,
-                'language_savings': self.language_savings,
-                'gpu_performance': self.gpu_performance,
-                'config': {
-                    'model_size': self.config.model_size,
-                    'gpu_workers': self.config.gpu_workers,
-                    'cpu_workers': self.config.cpu_workers,
-                    'gpu_batch_size': self.config.gpu_batch_size,
-                    'ultra_core_threshold': self.config.ultra_core_threshold,
-                    'ultra_minimal_threshold': self.config.ultra_minimal_threshold
-                },
-                'runner_type': 'ultra_optimized',
-                'language_set_sizes': {
-                    'ultra_minimal': len(self.ultra_minimal_languages),
-                    'ultra_core': len(self.ultra_core_languages),
-                    'ultra_extended': len(self.ultra_extended_languages),
-                    'full': len(self.full_languages)
-                }
-            }
-            
-            with open(checkpoint_file, 'w', encoding='utf-8') as f:
-                json.dump(checkpoint_data, f, indent=2, ensure_ascii=False)
-            
-            # Save results
-            with open(results_file, 'w', encoding='utf-8') as f:
-                json.dump(self.results, f, indent=2, ensure_ascii=False)
+            # UPDATE MAIN SYSTEM CHECKPOINT
+            if main_checkpoint_file and os.path.exists(main_checkpoint_file):
+                try:
+                    # Load existing main checkpoint
+                    with open(main_checkpoint_file, 'r', encoding='utf-8') as f:
+                        main_checkpoint = json.load(f)
+                    
+                    # Update with current progress
+                    remaining_terms = self.total_terms - self.processed_terms
+                    completion_percentage = (self.processed_terms / self.total_terms * 100) if self.total_terms > 0 else 0
+                    
+                    main_checkpoint.update({
+                        'completed_terms': self.processed_terms,
+                        'remaining_terms': remaining_terms,
+                        'completion_percentage': completion_percentage,
+                        'checkpoint_timestamp': datetime.now().isoformat(),
+                        'last_updated_by': 'ultra_optimized_smart_runner'
+                    })
+                    
+                    # Save updated main checkpoint
+                    with open(main_checkpoint_file, 'w', encoding='utf-8') as f:
+                        json.dump(main_checkpoint, f, indent=2, ensure_ascii=False)
+                    
+                    print(f"✅ Main checkpoint updated: {self.processed_terms}/{self.total_terms} ({completion_percentage:.1f}%)")
+                    
+                except Exception as e:
+                    print(f"⚠️  Failed to update main checkpoint: {e}")
             
             # Calculate and display efficiency
             if self.processed_terms > 0:
@@ -1554,10 +2320,43 @@ class UltraOptimizedSmartRunner:
                 actual_translations = sum(r.get('languages_processed', 0) for r in self.results if r.get('status') == 'completed')
                 efficiency = ((total_possible - actual_translations) / total_possible * 100) if total_possible > 0 else 0
                 
-                print(f"💾 Ultra checkpoint: {self.processed_terms} terms | {efficiency:.1f}% efficiency")
+                print(f"💾 Progress saved: {self.processed_terms} terms | {efficiency:.1f}% efficiency | No separate files")
             
         except Exception as e:
             print(f"⚠️  Ultra checkpoint save error: {e}")
+
+    def _save_unprocessed_term(self, term: str):
+        """Save unprocessed term to persistent file for next session"""
+        try:
+            import json
+            from datetime import datetime
+            unprocessed_file = os.path.join(self.data_source_dir or ".", "unprocessed_terms.json")
+            
+            # Load existing unprocessed terms
+            unprocessed_terms = []
+            if os.path.exists(unprocessed_file):
+                try:
+                    with open(unprocessed_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    unprocessed_terms = data.get('terms', [])
+                except:
+                    unprocessed_terms = []
+            
+            # Add new term if not already there
+            if term not in unprocessed_terms:
+                unprocessed_terms.append(term)
+                
+                # Save back to file
+                with open(unprocessed_file, 'w', encoding='utf-8') as f:
+                    json.dump({
+                        'terms': unprocessed_terms,
+                        'last_updated': datetime.now().isoformat(),
+                        'note': 'Terms that were not processed due to system shutdown'
+                    }, f, indent=2, ensure_ascii=False)
+                
+                print(f"💾 Saved unprocessed term for next session: {term}")
+        except Exception as e:
+            print(f"⚠️ Could not save unprocessed term: {e}")
 
     def run_ultra_optimized_processing(self, terms_only=None):
         """Run ultra-optimized processing with maximum performance
@@ -1574,12 +2373,27 @@ class UltraOptimizedSmartRunner:
                 # Use only the provided terms (for translation step)
                 print(f"⚡ Processing specified terms: {len(terms_only)} terms")
                 all_terms = terms_only
-                self.total_terms = len(all_terms)
-                # Reset checkpoint counters when using specific terms
-                self.processed_terms = 0
-                self.failed_terms = 0
-                self.processed_terms_set.clear()
-                print(f"⚡ Reset checkpoint counters for fresh processing of specified terms")
+                
+                # CRITICAL FIX: Don't override total_terms if already set by checkpoint
+                # The main system sets processed_terms and total_terms before calling this method
+                if self.total_terms == 0:
+                    # Only set total_terms if not already set (fresh start)
+                    self.total_terms = len(all_terms)
+                    print(f"⚡ Fresh start: total_terms set to {self.total_terms}")
+                else:
+                    # Preserve total_terms from checkpoint (resume scenario)
+                    print(f"⚡ Resume mode: preserving total_terms={self.total_terms}, processing {len(all_terms)} remaining")
+                
+                # CRITICAL FIX: Don't reset processed_terms if resuming from checkpoint
+                # The main system has already set processed_terms to the correct value
+                if self.processed_terms == 0:
+                    # Only reset counters for fresh start
+                    self.failed_terms = 0
+                    self.processed_terms_set.clear()
+                    print(f"⚡ Fresh start: reset counters for processing {len(all_terms)} terms")
+                else:
+                    # Preserve session progress when resuming
+                    print(f"⚡ Resume mode: preserving processed_terms={self.processed_terms}, continuing from session progress")
             else:
                 # Ultra-fast data loading (for general processing)
                 dict_terms, non_dict_terms = self._load_data_ultra_fast()
@@ -1630,42 +2444,68 @@ class UltraOptimizedSmartRunner:
             gpu_threads = []
             
             if self.config.gpu_workers > 0:
-                print(f"🎮 Starting {self.config.gpu_workers} ultra-optimized GPU workers (sequential init)...")
+                print(f"🎮 Starting {self.config.gpu_workers} ultra-optimized GPU workers (sequential init with OOM fallback)...")
                 
-                # Start GPU worker 1 and wait for it to be ready
-                print("🎮 Initializing GPU worker 1...")
-                gpu_thread_1 = threading.Thread(
-                    target=self._gpu_translation_worker_ultra,
-                    args=(1, self.gpu_queue_1, self.gpu1_ready),
-                    name="UltraGPU-1"
-                )
-                gpu_thread_1.start()
-                gpu_threads.append(gpu_thread_1)
+                # Clear GPU cache before starting workers
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                    print(f"🧹 Cleared GPU cache before worker initialization")
                 
-                # Wait for GPU worker 1 to be ready before starting worker 2
-                print("🎮 Waiting for GPU worker 1 to initialize...")
-                if not self.gpu1_ready.wait(timeout=120):
-                    print("❌ GPU worker 1 failed to initialize within 120 seconds")
-                    raise Exception("GPU worker 1 initialization timeout")
-                print("✅ GPU worker 1 ready!")
+                successful_workers = 0
+                failed_workers = []
                 
-                # Start GPU worker 2 only if we have multiple GPUs
-                if self.config.gpu_workers >= 2:
-                    print("🎮 Initializing GPU worker 2...")
-                    gpu_thread_2 = threading.Thread(
-                        target=self._gpu_translation_worker_ultra,
-                        args=(2, self.gpu_queue_2, self.gpu2_ready),
-                        name="UltraGPU-2"
-                    )
-                    gpu_thread_2.start()
-                    gpu_threads.append(gpu_thread_2)
+                # DYNAMIC GPU WORKER THREAD CREATION: Create N workers with OOM fallback
+                for worker_id in range(1, self.config.gpu_workers + 1):
+                    print(f"🎮 Initializing GPU worker {worker_id}...")
                     
-                    # Wait for GPU worker 2 to be ready
-                    print("🎮 Waiting for GPU worker 2 to initialize...")
-                    if not self.gpu2_ready.wait(timeout=120):
-                        print("❌ GPU worker 2 failed to initialize within 120 seconds")
-                        raise Exception("GPU worker 2 initialization timeout")
-                    print("✅ GPU worker 2 ready!")
+                    try:
+                        # Get the corresponding queue and ready event
+                        gpu_queue = self.gpu_queues[worker_id - 1]  # 0-indexed
+                        gpu_ready_event = self.gpu_ready_events[worker_id - 1]  # 0-indexed
+                        
+                        # Create and start the GPU worker thread
+                        gpu_thread = threading.Thread(
+                        target=self._gpu_translation_worker_ultra,
+                            args=(worker_id, gpu_queue, gpu_ready_event),
+                            name=f"UltraGPU-{worker_id}"
+                        )
+                        gpu_thread.start()
+                        gpu_threads.append(gpu_thread)
+                        
+                        # Wait for this GPU worker to be ready before starting the next
+                        print(f"🎮 Waiting for GPU worker {worker_id} to initialize...")
+                        if not gpu_ready_event.wait(timeout=120):
+                            print(f"❌ GPU worker {worker_id} failed to initialize within 120 seconds")
+                            failed_workers.append(worker_id)
+                            # Don't raise exception, continue with fewer workers
+                            continue
+                        
+                        print(f"✅ GPU worker {worker_id} ready!")
+                        successful_workers += 1
+                        
+                    except Exception as e:
+                        print(f"❌ GPU worker {worker_id} failed to start: {e}")
+                        if "CUDA out of memory" in str(e) or "OutOfMemoryError" in str(e):
+                            print(f"🚨 OOM detected for GPU worker {worker_id} - Tesla T4 may not support {self.config.gpu_workers} workers")
+                            print(f"🔄 Continuing with {successful_workers} successfully initialized GPU workers")
+                            break  # Stop trying to add more workers
+                        failed_workers.append(worker_id)
+                        continue
+                
+                # Update actual worker count based on successful initializations
+                if successful_workers < self.config.gpu_workers:
+                    print(f"⚠️  Only {successful_workers}/{self.config.gpu_workers} GPU workers started successfully")
+                    if successful_workers == 0:
+                        print(f"❌ No GPU workers available - falling back to CPU-only mode")
+                    else:
+                        print(f"✅ Continuing with {successful_workers} GPU workers (Tesla T4 OOM limitation)")
+                    
+                    # Update config to reflect actual workers
+                    self.config.gpu_workers = successful_workers
+                    
+                    # Small delay between worker starts to prevent race conditions
+                    if worker_id < self.config.gpu_workers:
+                        time.sleep(2)
                 
                 print(f"✅ All {len(gpu_threads)} GPU workers ready and operational")
             else:
@@ -1750,11 +2590,11 @@ class UltraOptimizedSmartRunner:
                 print("✅ All ultra CPU preprocessing workers completed")
                 print("✅ All terms processing confirmed - initiating shutdown sequence")
             
-            # Shutdown GPU workers
+            # Shutdown GPU workers - DYNAMIC SHUTDOWN FOR N WORKERS
             if self.config.gpu_workers > 0:
-                self.gpu_queue_1.put(None)
-                if self.config.gpu_workers >= 2:
-                    self.gpu_queue_2.put(None)
+                for i in range(self.config.gpu_workers):
+                    self.gpu_queues[i].put(None)
+                    print(f"🛑 Sent shutdown signal to GPU worker {i+1}")
             
             # Shutdown CPU translation workers
             if self.config.cpu_translation_workers > 0:

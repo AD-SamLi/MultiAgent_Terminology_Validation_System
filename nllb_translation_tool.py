@@ -16,6 +16,9 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 import warnings
 
+# Set CUDA memory allocation configuration for better memory management
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+
 # Suppress transformers warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 logging.getLogger("transformers").setLevel(logging.ERROR)
@@ -258,7 +261,7 @@ class NLLBTranslationTool:
         "zul_Latn": "Zulu"
     }
     
-    def __init__(self, model_name: str = "facebook/nllb-200-1.3B", device: str = "auto", batch_size: int = 8):
+    def __init__(self, model_name: str = "facebook/nllb-200-1.3B", device: str = "auto", batch_size: int = 8, offload_dir: str = None):
         """
         Initialize the NLLB translation tool
         
@@ -266,6 +269,7 @@ class NLLBTranslationTool:
             model_name: HuggingFace model name or size key ('small', 'medium', '1.3B', '3.3B')
             device: Device to use ('auto', 'cuda', 'cpu')
             batch_size: Batch size for translation
+            offload_dir: Directory for model offloading (default: "./model_offload")
         """
         # Resolve model name if it's a size key
         if model_name in self.MODEL_SIZES:
@@ -276,6 +280,7 @@ class NLLBTranslationTool:
         
         self.batch_size = batch_size
         self.device = self._setup_device(device)
+        self.offload_dir = offload_dir or "./model_offload"
         
         print(f"🚀 Initializing NLLB-200 Translation Tool")
         print(f"🤖 Model: {self.model_name}")
@@ -301,6 +306,10 @@ class NLLBTranslationTool:
             else:
                 device = "cpu"
                 print("💻 Using CPU (CUDA not available)")
+        elif device.startswith("cuda:"):
+            # Normalize cuda:N to cuda for our optimizations to work
+            print(f"🎮 Specific CUDA device requested: {device}")
+            device = "cuda"  # Normalize to trigger GPU optimizations
         
         return device
     
@@ -313,18 +322,43 @@ class NLLBTranslationTool:
         
         print(f"🧠 Loading model with accelerate device mapping...")
         
-        # Create offload directory
+        # Create offload directory only if offload strategy requires it
         import os
-        offload_dir = "./model_offload"
-        os.makedirs(offload_dir, exist_ok=True)
+        # Only create directory if we're actually using disk offloading
+        # Check if offload_dir is meaningful (not just a default path)
+        if self.offload_dir and self.offload_dir != "./model_offload" and "model_offload" not in self.offload_dir:
+            os.makedirs(self.offload_dir, exist_ok=True)
+        # Skip creating model_offload directories since they're not used with strategy="none"
         
         # Configure loading parameters based on device strategy
         if self.device == "cuda" and torch.cuda.is_available():
-            print("🎮 Using GPU + CPU hybrid loading...")
+            print("🎮 Using GPU + CPU hybrid loading with optimized memory management...")
+            
+            # Calculate optimal max_memory for Tesla T4 with 3 workers
+            if torch.cuda.device_count() > 0:
+                gpu_props = torch.cuda.get_device_properties(0)
+                gpu_memory_gb = gpu_props.total_memory / (1024**3)
+                gpu_name = gpu_props.name
+                
+                # Set max_memory based on GPU type and worker count
+                if "Tesla T4" in gpu_name:
+                    # Tesla T4 optimization: Use 95% of memory instead of default 90%
+                    max_memory_per_device = f"{gpu_memory_gb * 0.95:.1f}GB"
+                    print(f"   🎯 Tesla T4 detected: Using {max_memory_per_device} max memory (95% of {gpu_memory_gb:.1f}GB)")
+                else:
+                    # Other GPUs: Use 92% of memory
+                    max_memory_per_device = f"{gpu_memory_gb * 0.92:.1f}GB"
+                    print(f"   🎯 {gpu_name}: Using {max_memory_per_device} max memory (92% of {gpu_memory_gb:.1f}GB)")
+                
+                max_memory_config = {0: max_memory_per_device}
+            else:
+                max_memory_config = None
+            
             load_kwargs = {
                 "torch_dtype": torch.float16,  # Half precision for memory efficiency
                 "device_map": "auto",          # Auto-distribute across available devices
-                "offload_folder": offload_dir, # Offload to disk if needed
+                "max_memory": max_memory_config,  # Optimize memory usage per device
+                "offload_folder": self.offload_dir, # Offload to disk if needed
                 "low_cpu_mem_usage": True,     # Minimize CPU memory usage
                 "offload_state_dict": True     # Offload state dict to save memory
             }
@@ -333,7 +367,7 @@ class NLLBTranslationTool:
             load_kwargs = {
                 "device_map": "auto",          # Let accelerate handle placement
                 "low_cpu_mem_usage": True,     # Minimize CPU memory usage
-                "offload_folder": offload_dir, # Use disk offloading if needed
+                "offload_folder": self.offload_dir, # Use disk offloading if needed
                 "torch_dtype": torch.float32   # Full precision for CPU
             }
         

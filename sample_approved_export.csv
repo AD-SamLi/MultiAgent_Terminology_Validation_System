@@ -1,0 +1,9 @@
+source,target,context
+layer,layer,"Organizational tool in CAD software for grouping and managing drawing elements, allowing control over visibility, color, and properties of related objects."
+mesh,mesh,"3D geometric structure composed of vertices, edges, and faces used to represent complex surfaces in modeling and animation software applications."
+acad,acad,"Abbreviation for AutoCAD, industry-standard computer-aided design software used for creating precise 2D and 3D technical drawings and models."
+bom,bom,"Bill of Materials - structured list of components, parts, and materials required for manufacturing or assembly processes in CAD and engineering workflows."
+material,material,"Surface properties and characteristics applied to 3D objects, defining appearance, texture, reflectivity, and physical behavior in rendering and simulation."
+animation,animation,"Process of creating motion graphics and moving sequences from static 3D models, involving keyframes, interpolation, and timeline-based control."
+renders,renders,"Process of generating final images or video sequences from 3D scenes, converting geometric data into photorealistic or stylized visual output."
+block,block,"Reusable collection of CAD objects grouped together as a single unit, allowing efficient insertion and modification across multiple drawings."

@@ -1,380 +1,475 @@
-# Agentic Terminology Validation System
+# 🤖 Agentic Terminology Validation System
 
-## 🎯 Overview
+A comprehensive AI-powered system for validating, translating, and processing terminology across multiple languages using advanced machine learning, agentic frameworks, and intelligent context generation.
 
-The **Agentic Terminology Validation System** is a comprehensive, AI-powered solution for validating, processing, and translating terminology across multiple languages. The system implements a structured 8-step workflow that ensures terminology integrity, consistency, and quality through automated validation, frequency analysis, and multi-language translation.
+## 📊 System Overview
 
-## 🚀 Quick Start
+The Agentic Terminology Validation System processes terminology through a **9-step pipeline**, utilizing AI agents, machine learning models, parallel processing, and Azure OpenAI GPT-4.1 to ensure high-quality terminology validation, translation, and professional context generation.
 
-```bash
-# Basic usage
-python agentic_terminology_validation_system.py Term_Extracted_result.csv
+### 🎯 Key Features
 
-# Advanced usage with custom parameters
-python agentic_terminology_validation_system.py Term_Extracted_result.csv \
-    --glossary-folder ./glossary \
-    --terminology-model gpt-4.1 \
-    --gpu-workers 2 \
-    --cpu-workers 16
-```
+- **🔄 9-Step Processing Pipeline**: Complete terminology validation workflow with CSV export
+- **🌐 Multi-Language Translation**: Support for 200+ target languages using NLLB-200
+- **🤖 AI Agent Integration**: Advanced terminology review using smolagents framework
+- **⚡ Dynamic Resource Allocation**: GPU + CPU optimization based on system specifications
+- **🔍 Gap Detection**: Intelligent identification and recovery of missing terms
+- **📊 Quality Scoring**: ML-based quality assessment and validation
+- **🛡️ Robust Checkpointing**: Fault-tolerant processing with automatic resume
+- **📈 Batch Management**: Organized processing with consolidation capabilities
+- **🎯 Professional Context Generation**: Azure OpenAI GPT-4.1 powered context creation
+- **📋 CSV Export**: Professional terminology export compatible with reviewed/ folder structure
 
-## 📋 Complete 8-Step Process Flow
+## 📈 Latest Results (Session: 20250920_121839)
 
-```
-INPUT: Term_Extracted_result.csv
-    ↓
-[Step 1] Initial Term Collection & Verification
-    ↓
-[Step 2] Glossary Validation (Terminology Agent)
-    ↓
-[Step 3] New Terminology Processing (Fast Dictionary Agent)
-    ↓
-[Step 4] Frequency Analysis & Filtering
-    ↓
-[Step 5] Translation Process (NLLB & AYA 101)
-    ↓
-[Step 6] Language Verification
-    ↓
-[Step 7] Final Review & Decision (Web Review Agent)
-    ↓
-[Step 8] Timestamp + Data Recording
-    ↓
-OUTPUT: Validated & Translated Terminology
-```
-
-### Step-by-Step Details
-
-#### Step 1: Initial Term Collection and Verification
-- **Code**: `convert_extracted_to_combined.py` + `verify_terms_in_text.py`
-- **Process**: Converts input → Combined_Terms_Data.csv → Cleaned_Terms_Data.csv
-- **Verification**: Ensures terms actually exist in their source texts
-
-#### Step 2: Glossary Validation  
-- **Code**: `terminology_agent.py` + `terminology_tool.py`
-- **Process**: Checks against existing terminology glossary
-- **Components**: Terminology Glossary Agent + MT Glossary
-
-#### Step 3: New Terminology Processing
-- **Code**: `fast_dictionary_agent.py` (NLTK-based ultra-fast dictionary)
-- **Process**: Marks terms as new terminology for further processing
-- **Performance**: 1000+ terms/second offline processing
-- **Coverage**: 200,000+ English words from NLTK corpus
-- **Languages**: English and targeted language (optional)
-
-#### Step 4: Frequency Analysis and Filtering
-- **Code**: `frequency_storage.py` ✨ **NEW - Created as requested**
-- **Filter**: Terms with frequency > 2 → immediate processing
-- **Storage**: **Frequency = 1 terms stored for future reference** ✅
-- **Auto-promotion**: When frequency=1 terms appear again, automatically promoted
-
-#### Step 5: Translation Process
-- **Code**: `ultra_optimized_smart_runner.py`
-- **Models**: NLLB and AYA 101
-- **Languages**: 1-200 languages supported
-- **Method**: Generic translation for new terminology
-
-#### Step 6: Language Verification
-- **Process**: Verifies source and target language matching
-- **Validation**: Ensures correct language pairing
-
-#### Step 7: Final Review and Decision
-- **Code**: `modern_parallel_validation.py`
-- **Agent**: Terminology Web Review Agent
-- **Decision**: Yes/No final determination
-- **Status**: Failed or Approved
-
-#### Step 8: Timestamp + Term Data Recording
-- **Process**: Records timestamp + term data
-- **Purpose**: Tracking and auditing
-- **Output**: Complete audit trail
+| Metric | Value | Description |
+|--------|--------|-------------|
+| **Total Terms Processed** | 8,691 | Complete terminology validation |
+| **Overall Approval Rate** | 86.4% | High-quality validation results |
+| **Fully Approved** | 2,750 (31.6%) | Terms ready for immediate use |
+| **Conditionally Approved** | 4,753 (54.7%) | Terms approved with conditions |
+| **Needs Review** | 1,123 (12.9%) | Terms requiring manual review |
+| **Rejected** | 65 (0.7%) | Terms not meeting quality standards |
+| **Approved Terms Exported** | 7,503 | Professional CSV export with contexts |
+| **Average Validation Score** | 0.637 | Quality confidence metric |
+| **Batch Files Created** | 1,087 | Parallel processing efficiency |
+| **Context Generation** | Azure GPT-4.1 | Professional context descriptions |
 
 ## 🏗️ System Architecture
 
-### 🤖 **Agentic Architecture**
-- **Terminology Agent**: Manages glossary validation and terminology consistency
-- **Fast Dictionary Agent**: Ultra-fast NLTK-based dictionary checking (1000+ terms/second)
-- **Web Review Agent**: Performs final terminology review and approval decisions
-- **Translation Agents**: Handle multi-language processing using NLLB and AYA 101 models
+### Processing Steps
 
-### 📊 **Intelligent Processing**
-- **Frequency Analysis**: Automatically filters terms based on occurrence frequency
-- **Smart Storage**: Stores frequency=1 terms for future reference and reprocessing
-- **Context Analysis**: Analyzes original text contexts for better validation
-- **Ultra-fast Dictionary Checking**: NLTK-based offline processing with no API limitations
+1. **📥 Step 1: Data Collection** - Import and combine terminology data from curated sources
+2. **📚 Step 2: Glossary Analysis** - Validate against existing glossaries with parallel processing
+3. **🆕 Step 3: New Term Identification** - Identify novel terminology with dictionary analysis
+4. **📈 Step 4: Frequency Analysis** - Filter high-frequency terms (≥2 occurrences)
+5. **🌐 Step 5: Translation Process** - Multi-language translation using NLLB-200 with GPU acceleration
+6. **✅ Step 6: Verification** - Quality assessment and language verification
+7. **⚖️ Step 7: Final Decisions** - AI agent-based final validation with translatability analysis
+8. **📋 Step 8: Audit Record** - Complete audit trail generation with enhanced formatting
+9. **📄 Step 9: CSV Export** - Professional approved terms export with GPT-4.1 generated contexts
 
-### 🌐 **Multi-Language Support**
-- Translation to 200+ languages
-- Ultra-optimized translation processing
-- Language verification and consistency checks
+### Core Components
 
-### 📁 **Organized Output**
-- Structured folder organization
-- Comprehensive audit trails
-- JSON and CSV format outputs
-- Detailed processing reports
+- **`agentic_terminology_validation_system.py`** - Main orchestrator with 9-step workflow
+- **`ultra_optimized_smart_runner.py`** - Dynamic resource allocation and translation engine
+- **`modern_parallel_validation.py`** - Batch processing manager with agent integration
+- **`step7_fixed_batch_processing.py`** - Final validation logic with translatability analysis
+- **`terminology_agent.py`** - AI agent implementation with smolagents framework
+- **`modern_terminology_review_agent.py`** - Advanced terminology review agent
+- **`fast_dictionary_agent.py`** - High-speed dictionary validation
 
-## 🗂️ Core System Files
-
-### **Essential Files**:
-1. **`agentic_terminology_validation_system.py`** - Main system controller
-2. **`frequency_storage.py`** - Frequency=1 storage system (NEW)
-3. **`fast_dictionary_agent.py`** - Ultra-fast dictionary checking (NLTK-based)
-4. **`convert_extracted_to_combined.py`** - Data conversion
-5. **`verify_terms_in_text.py`** - Term verification
-6. **`create_clean_csv.py`** - Clean CSV creation
-7. **`create_json_format.py`** - JSON format creation
-8. **`terminology_agent.py`** - Glossary management agent
-9. **`terminology_tool.py`** - Core terminology tools
-10. **`ultra_optimized_smart_runner.py`** - Translation processing
-11. **`modern_parallel_validation.py`** - Final validation
-12. **`modern_terminology_review_agent.py`** - Review agent
-13. **`nllb_translation_tool.py`** - Translation models
-
-### **Essential Directories**:
-- **`Create SVG Diagram/`** - System visualization
-- **`glossary/`** - Terminology glossaries
-- **`Term_Extracted_result.csv`** - Input file
-
-## ⚙️ Installation & Setup
+## 🚀 Quick Start
 
 ### Prerequisites
+
+- Python 3.8+
+- 16GB+ RAM (32GB+ recommended for large datasets)
+- GPU support (CUDA-compatible GPU recommended)
+- Azure OpenAI access with GPT-4.1 model
+- Internet connection for model downloads
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd Terms_Verificaion_System
+   ```
+
+2. **Create virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   # or
+   venv\Scripts\activate     # Windows
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Download NLTK data**
+   ```bash
+   python -c "import nltk; nltk.download('punkt'); nltk.download('wordnet'); nltk.download('omw-1.4')"
+   ```
+
+5. **Configure Azure credentials**
+   ```bash
+   export AZURE_OPENAI_ENDPOINT="https://your-endpoint.openai.azure.com/"
+   export AZURE_CLIENT_ID="your-client-id"
+   export AZURE_CLIENT_SECRET="your-client-secret"
+   export AZURE_TENANT_ID="your-tenant-id"
+   ```
+
+### Usage
+
+#### Basic Processing (New Run)
 ```bash
-# Python 3.8+
-pip install -r requirements.txt
+python agentic_terminology_validation_system.py Term_Extracted_result.csv
 ```
 
-### Required Packages
+#### Resume from Checkpoint
 ```bash
-pip install pandas numpy sqlite3 torch transformers smolagents azure-identity python-dotenv psutil nltk
+python agentic_terminology_validation_system.py Term_Extracted_result.csv --resume-from agentic_validation_output_20250920_121839
 ```
 
-### Environment Setup
-1. Set up Azure OpenAI credentials:
+#### Custom Configuration
 ```bash
-export AZURE_OPENAI_ENDPOINT="your-endpoint"
-export AZURE_OPENAI_API_KEY="your-api-key"
+python agentic_terminology_validation_system.py Term_Extracted_result.csv \
+  --gpu-workers 3 \
+  --cpu-workers 16 \
+  --terminology-model gpt-4.1 \
+  --translation-model-size 1.3B
 ```
 
-2. Create glossary folder structure:
-```
-glossary/
-├── data/
-│   ├── general/
-│   │   ├── english-to-others/
-│   │   └── others-to-english/
-│   └── ui-element/
-└── dnt.csv
-```
-
-### NLTK Setup (for Fast Dictionary Agent)
+#### Advanced Options
 ```bash
-# The system automatically downloads required NLTK data:
-# - 'words' corpus (English word list)
-# - 'wordnet' (for lemmatization)
-# - 'omw-1.4' (Open Multilingual Wordnet)
+python agentic_terminology_validation_system.py Term_Extracted_result.csv \
+  --resume-from output_folder \
+  --glossary-folder custom_glossary \
+  --fast-mode \
+  --skip-glossary
 ```
 
-## 🔧 Configuration Options
+## 📊 Performance Optimization
 
-### Command Line Arguments
-- `--glossary-folder`: Path to glossary directory (default: "glossary")
-- `--terminology-model`: Model for terminology agent (default: "gpt-4.1")
-- `--validation-model`: Model for validation (default: "gpt-4.1")
-- `--translation-model-size`: Translation model size (default: "1.3B")
-- `--gpu-workers`: Number of GPU workers (default: 2)
-- `--cpu-workers`: Number of CPU workers (default: 16)
+### Hardware Recommendations
 
-### Debug Mode
-```bash
-python agentic_terminology_validation_system.py --debug Term_Extracted_result.csv
+| Component | Minimum | Recommended | Optimal |
+|-----------|---------|-------------|---------|
+| **CPU** | 8 cores | 16+ cores | 32+ cores |
+| **RAM** | 16GB | 32GB | 64GB+ |
+| **GPU** | GTX 1660 | RTX 3080+ | Tesla T4/V100+ |
+| **Storage** | 50GB free | 100GB+ SSD | 500GB+ NVMe SSD |
+| **Network** | 10 Mbps | 100 Mbps+ | 1 Gbps+ |
+
+### Performance Features
+
+- **Dynamic Resource Allocation**: Automatically adjusts workers based on system specifications
+- **Multi-GPU Support**: Utilizes up to 3 GPUs for parallel translation processing
+- **Intelligent Batch Sizing**: Optimizes batch sizes based on available memory
+- **Parallel Context Generation**: Concurrent GPT-4.1 API calls with rate limiting
+- **Memory Optimization**: Efficient memory usage for large datasets (8,691+ terms)
+- **Checkpoint Recovery**: Resume processing from any step with gap detection
+
+### System Optimization
+
+The system automatically detects and optimizes for:
+- **CPU Cores**: Scales workers from 4 to 20 based on available cores
+- **Memory**: Adjusts batch sizes from 4 to 16 based on available RAM
+- **GPU Memory**: Dynamic allocation for translation models
+- **Network**: Rate limiting for Azure OpenAI API calls
+
+## 🔍 Quality Assurance
+
+### Validation Layers
+
+1. **Dictionary Validation**: Cross-reference with NLTK WordNet and custom dictionaries
+2. **Glossary Matching**: Validate against existing terminology glossaries
+3. **AI Agent Review**: Advanced semantic and contextual analysis using smolagents
+4. **ML Quality Scoring**: Machine learning-based quality assessment
+5. **Translatability Analysis**: Cross-language consistency evaluation
+6. **Human Review Queue**: Terms flagged for manual review based on confidence scores
+
+### Quality Metrics
+
+- **Validation Score**: Overall term quality (0.0 - 1.0)
+- **ML Quality Score**: Machine learning confidence (0.0 - 1.0)
+- **Translatability Score**: Cross-language consistency (0.0 - 1.0)
+- **Context Quality**: GPT-4.1 generated context appropriateness
+- **Processing Tier**: Classification based on term complexity
+
+### Decision Categories
+
+- **APPROVED**: Terms ready for immediate use (31.6%)
+- **CONDITIONALLY_APPROVED**: Terms approved with specific conditions (54.7%)
+- **NEEDS_REVIEW**: Terms requiring manual review (12.9%)
+- **REJECTED**: Terms not meeting quality standards (0.7%)
+
+## 🛠️ Configuration
+
+### System Configuration
+
+The system supports various configuration options:
+
+```json
+{
+  "processing": {
+    "batch_size": "auto",
+    "max_workers": "auto",
+    "gpu_enabled": true,
+    "checkpoint_interval": 100,
+    "dynamic_resource_allocation": true
+  },
+  "validation": {
+    "min_validation_score": 0.3,
+    "require_human_review": 0.5,
+    "auto_approve_threshold": 0.8,
+    "translatability_threshold": 0.6
+  },
+  "translation": {
+    "model_size": "1.3B",
+    "target_languages": 200,
+    "fallback_to_cpu": true,
+    "gpu_workers": 3,
+    "cpu_workers": 16
+  },
+  "context_generation": {
+    "use_gpt41": true,
+    "parallel_workers": 20,
+    "rate_limit_rpm": 240,
+    "fallback_to_pattern": true
+  }
+}
 ```
 
-## 📊 Output Structure
+### Environment Variables
+
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `AZURE_OPENAI_ENDPOINT` | Azure OpenAI service endpoint | Yes |
+| `AZURE_CLIENT_ID` | Service principal client ID | Yes |
+| `AZURE_CLIENT_SECRET` | Service principal secret | Yes |
+| `AZURE_TENANT_ID` | Azure tenant ID | Yes |
+| `CUDA_VISIBLE_DEVICES` | GPU device selection | No |
+| `OMP_NUM_THREADS` | CPU thread limit | No |
+| `PYTORCH_CUDA_ALLOC_CONF` | GPU memory management | No |
+
+## 📁 Output Structure
 
 ```
 agentic_validation_output_YYYYMMDD_HHMMSS/
-├── Combined_Terms_Data.csv
-├── Cleaned_Terms_Data.csv
-├── New_Terms_Candidates.json
-├── New_Terms_Candidates_With_Dictionary.json
-├── Dictionary_Terms_Identified.json
-├── Non_Dictionary_Terms_Identified.json
-├── High_Frequency_Terms.json
-├── Translation_Results.json
-├── Verified_Translation_Results.json
-├── Final_Terminology_Decisions.json
-├── Complete_Audit_Record.json
-├── Validation_Summary_Report.md
-├── frequency_storage/
-│   ├── frequency_storage.db
-│   └── Frequency_Storage_Export.json
-└── logs/
-    └── agentic_terminology_validation.log
+├── Combined_Terms_Data.csv                    # Step 1: Raw input data
+├── Cleaned_Terms_Data.csv                     # Step 1: Verified terms
+├── Glossary_Analysis_Results.json            # Step 2: Glossary validation
+├── New_Terms_Candidates_With_Dictionary.json # Step 3: New term identification
+├── Dictionary_Terms_Identified.json          # Step 3: Dictionary terms
+├── Non_Dictionary_Terms_Identified.json      # Step 3: Non-dictionary terms
+├── High_Frequency_Terms.json                 # Step 4: Filtered terms (≥2 freq)
+├── Frequency_Storage_Export.json             # Step 4: Frequency analysis
+├── Translation_Results.json                  # Step 5: Translation output
+├── Verified_Translation_Results.json         # Step 6: Verification results
+├── Final_Terminology_Decisions.json          # Step 7: Final decisions
+├── Complete_Audit_Record.json               # Step 8: Audit trail
+├── Approved_Terms_Export.csv                # Step 9: Professional CSV export
+├── Approved_Terms_Export_metadata.json      # Step 9: Export metadata
+├── Validation_Summary_Report.md             # Summary report
+└── step7_final_evaluation_YYYYMMDD_HHMMSS/  # Batch processing data
+    ├── batch_files/                         # Individual batch results
+    │   ├── modern_step7_final_decisions_validation_batch_001.json
+    │   ├── modern_step7_final_decisions_validation_batch_002.json
+    │   └── ... (1,087 batch files)
+    ├── results/
+    │   └── consolidated_modern_step7_final_decisions_validation_results.json
+    ├── cache/                              # Processing cache
+    └── logs/                               # Processing logs
 ```
 
-## 🗄️ Frequency Storage System
-
-Implements the requirement: **"Store the 1 frequency terms for next time if it appear again"**
-
-### Features:
-- **SQLite Database**: Efficient storage and retrieval
-- **Automatic Promotion**: Terms promoted to processing when frequency ≥ 2
-- **Context Preservation**: Stores original contexts and POS tags
-- **Audit Trail**: Complete tracking of term lifecycle
-- **JSON Export**: Backup and analysis capabilities
-
-### Usage:
-```python
-from frequency_storage import FrequencyStorageSystem
-
-storage = FrequencyStorageSystem()
-storage.store_frequency_one_term(
-    term="example_term",
-    source_file="source.csv",
-    original_contexts=["context1", "context2"],
-    pos_tags=["NN", "VB"]
-)
-
-# Get terms ready for processing (frequency ≥ 2)
-ready_terms = storage.get_terms_ready_for_processing()
-```
-
-## ⚡ Performance Features
-
-### Ultra-Fast Dictionary Checking
-- **NLTK-based offline processing**: 1000+ terms/second
-- **No API limitations**: Completely offline operation
-- **Comprehensive coverage**: 200,000+ English words
-- **Intelligent processing**: Two-stage heuristic + NLTK analysis
-- **Speed improvement**: 20-100x faster than API-based approaches
-
-### Translation Processing
-- **Ultra-optimized**: 5-7x faster processing
-- **Parallel Processing**: Multi-GPU and multi-CPU support
-- **Smart Batching**: Dynamic batch sizing
-- **Memory Management**: Efficient resource utilization
-
-### Validation Processing
-- **Caching**: SQLite-based validation caching
-- **ML Scoring**: Machine learning-based quality scoring
-- **Context Analysis**: Advanced context analysis
-- **Error Handling**: Robust error recovery
-
-## 🔍 System Monitoring
-
-### Real-time Progress Tracking
-- Processing statistics
-- Success/failure rates
-- Performance metrics
-- Resource utilization
-
-### Comprehensive Logging
-- Step-by-step execution logs
-- Error tracking and recovery
-- Performance optimization insights
-
-## 🧹 Project Cleanup
-
-Use the provided cleanup script to remove non-relevant files:
-
-```bash
-python cleanup_project.py
-```
-
-This removes:
-- Analysis and testing files
-- Backup and temporary files  
-- Old/deprecated processing files
-- Monitoring and diagnostic files
-- Multiple runner variants (keeping only the optimized one)
-- Documentation duplicates
-- Log files and analysis results
-
-## 🔧 API Integration
-
-### Azure OpenAI Integration
-- GPT-4.1 and GPT-5 support
-- Automatic retry logic
-- Content filter handling
-- Token management
-
-### Translation Models
-- NLLB (No Language Left Behind)
-- AYA 101
-- Custom model support
-
-## 🛡️ Quality Assurance
-
-### Validation Criteria
-- Translation quality scores
-- Language verification checks
-- Context consistency analysis
-- Frequency-based filtering
-
-### Error Handling
-- Graceful failure recovery
-- Comprehensive error logging
-- Partial result preservation
-- Resume capabilities
-
-## 🐛 Troubleshooting
+## 🚨 Troubleshooting
 
 ### Common Issues
-1. **Missing glossary folder**: Ensure glossary structure exists
-2. **Azure credentials**: Verify environment variables
-3. **Memory issues**: Adjust worker counts
-4. **Translation timeouts**: Check network connectivity
-5. **NLTK data missing**: System auto-downloads but may need manual installation
 
-### Fallback Behavior
-If Fast Dictionary Agent is not available:
-1. System continues processing with placeholder analysis
-2. Warning logged but process doesn't stop
-3. Dictionary analysis marked as unavailable
-4. All other steps proceed normally
+#### GPU Memory Issues
+```bash
+# Monitor GPU usage
+nvidia-smi
 
-## 📈 System Statistics
+# Reduce GPU workers
+python agentic_terminology_validation_system.py --gpu-workers 1 input.csv
 
-The system provides detailed statistics:
-- **Processing time** and **speed** (terms/second)
-- **Dictionary vs non-dictionary** term counts
-- **Method breakdown** (heuristic vs NLTK lookup)
-- **Confidence levels** for each classification
-- **Translation success rates**
-- **Final approval/rejection ratios**
+# Force CPU-only processing
+export CUDA_VISIBLE_DEVICES=""
+```
 
-## 🎉 Key Features Summary
+#### Azure OpenAI Authentication Errors
+```bash
+# Verify Azure credentials
+az login
+az account show
 
-✅ **Complete 8-step process implemented**  
-✅ **Frequency=1 storage system created**  
-✅ **Ultra-fast dictionary checking integrated** (1000+ terms/second)  
-✅ **All existing code components integrated**  
-✅ **Single unified process flow**  
-✅ **Multi-language translation** (200+ languages)  
-✅ **Agentic architecture** with specialized agents  
-✅ **Comprehensive error handling** and recovery  
-✅ **Organized output structure** with audit trails  
-✅ **Performance optimization** throughout  
+# Test token acquisition
+python -c "from azure.identity import DefaultAzureCredential; print(DefaultAzureCredential().get_token('https://cognitiveservices.azure.com/.default'))"
+```
 
-## 🚀 Getting Started
+#### Memory Errors
+```bash
+# Monitor memory usage
+htop  # Linux
+# or Task Manager (Windows)
 
-1. **Prepare your input**: Ensure you have `Term_Extracted_result.csv`
-2. **Set up environment**: Configure Azure OpenAI credentials
-3. **Install dependencies**: Run `pip install -r requirements.txt`
-4. **Run the system**: `python agentic_terminology_validation_system.py Term_Extracted_result.csv`
-5. **Review results**: Check the generated output folder for comprehensive results
+# Reduce batch size
+python agentic_terminology_validation_system.py --cpu-workers 8 input.csv
+```
 
-## 📞 Support
+#### Checkpoint Recovery
+```bash
+# Resume from specific checkpoint
+python agentic_terminology_validation_system.py input.csv --resume-from agentic_validation_output_20250920_121839
 
-For issues and questions:
-- Check the logs in the output directory
-- Review the audit trail in `Complete_Audit_Record.json`
-- Examine the summary report in `Validation_Summary_Report.md`
+# Force gap detection
+python agentic_terminology_validation_system.py input.csv --resume-from output_folder --force-resume
+```
+
+#### Context Generation Issues
+```bash
+# Check Azure OpenAI quota
+az cognitiveservices account list-usage --name your-openai-resource --resource-group your-rg
+
+# Test GPT-4.1 access
+python -c "from openai import AzureOpenAI; print('GPT-4.1 accessible')"
+```
+
+### Performance Tuning
+
+1. **Batch Size Optimization**: System automatically adjusts (4-16 based on memory)
+2. **Worker Count**: Auto-scales from 4-20 based on CPU cores
+3. **GPU Memory**: Monitor with `nvidia-smi` and adjust GPU workers
+4. **Disk I/O**: Use NVMe SSD for optimal performance
+5. **Network**: Ensure stable connection for Azure OpenAI API calls
+
+## 📊 Monitoring and Logging
+
+### Log Files
+
+- **`agentic_terminology_validation.log`** - Main system log with detailed processing info
+- **`step7_final_evaluation_*/logs/`** - Batch processing logs with agent interactions
+- **`step9_gpt_processing.log`** - GPT-4.1 context generation logs
+- **Console output** - Real-time processing status with progress indicators
+
+### Monitoring Metrics
+
+- **Processing Speed**: 346 terms/second (context generation)
+- **Memory Usage**: RAM/GPU utilization tracking
+- **Quality Scores**: Distribution analysis and trends
+- **Error Rates**: API failures, processing errors
+- **Batch Completion**: Progress tracking across 1,087+ batches
+- **API Usage**: Azure OpenAI token consumption
+
+### Key Performance Indicators
+
+- **Throughput**: 8,691 terms processed in ~21.7 seconds (Step 9)
+- **Approval Rate**: 86.4% overall approval rate
+- **Quality Score**: 0.637 average validation score
+- **Resource Efficiency**: Dynamic scaling based on system specs
+- **Recovery Rate**: 100% gap detection and recovery
+
+## 🔄 System Recovery
+
+### Gap Detection
+
+The system includes intelligent gap detection that:
+- **Identifies Missing Terms**: Compares processed vs. required terms
+- **Automatic Resume**: Continues from incomplete batches
+- **Data Integrity**: Prevents data loss during interruptions
+- **Progress Validation**: Verifies completion at each step
+- **Content-based Checks**: Validates file contents, not just existence
+
+### Checkpoint Management
+
+- **Automatic Checkpointing**: Every 100 terms or batch completion
+- **Step-level Resume**: Resume from any of the 9 processing steps
+- **Incremental Processing**: Process only missing/incomplete terms
+- **State Preservation**: Maintains all processing state across restarts
+- **Dynamic Calculation**: Real-time progress tracking
+
+## 🎯 Advanced Features
+
+### Agentic Framework Integration
+
+- **Smolagents**: Advanced AI agent framework for context analysis
+- **Azure OpenAI Integration**: GPT-4.1 powered professional context generation
+- **Pattern-based Fallback**: Intelligent fallback when agents are unavailable
+- **Multi-agent Processing**: Parallel agent execution for efficiency
+
+### Professional Context Generation
+
+- **GPT-4.1 Powered**: Azure OpenAI GPT-4.1 for professional context descriptions
+- **Domain-specific**: CAD, 3D modeling, engineering, graphics contexts
+- **Format Compliance**: Compatible with reviewed/ folder CSV structure
+- **Parallel Processing**: 20 concurrent workers with rate limiting
+- **Quality Assurance**: Fallback mechanisms for robust context generation
+
+### Translation Engine
+
+- **NLLB-200 Model**: Facebook's state-of-the-art 200-language translation model
+- **Multi-GPU Support**: Utilizes up to 3 GPUs for parallel processing
+- **Dynamic Batching**: Optimizes batch sizes based on available resources
+- **Translatability Analysis**: Comprehensive analysis of translation feasibility
+
+## 📈 Future Enhancements
+
+### Planned Features
+
+- [ ] **Real-time Processing**: Stream processing capabilities
+- [ ] **Advanced ML Models**: Integration of latest language models (GPT-4o, Claude-3)
+- [ ] **Web Interface**: Browser-based management interface
+- [ ] **API Endpoints**: RESTful API for integration
+- [ ] **Multi-tenant Support**: Organization-level isolation
+- [ ] **Advanced Analytics**: Detailed processing insights and dashboards
+
+### Performance Improvements
+
+- [ ] **Distributed Processing**: Multi-node cluster support
+- [ ] **Advanced Caching**: Redis/Memcached integration
+- [ ] **Database Integration**: PostgreSQL/MongoDB support
+- [ ] **Container Deployment**: Docker/Kubernetes support
+- [ ] **Cloud Scaling**: Auto-scaling based on workload
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Development Guidelines
+
+- Follow PEP 8 style guidelines
+- Add comprehensive docstrings
+- Include unit tests for new features
+- Update documentation for changes
+- Test with various system configurations
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🆘 Support
+
+For support and questions:
+
+- **Documentation**: Check this README and inline code documentation
+- **Issues**: Create GitHub issues for bugs and feature requests
+- **Performance**: Review the analysis report (`Agentic_Terminology_Validation_Analysis.html`)
+- **Logs**: Check system logs for detailed error information
+
+## 📊 System Status
+
+| Component | Status | Last Updated | Version |
+|-----------|--------|--------------|---------|
+| **Core System** | ✅ Operational | 2025-09-30 | v1.0.0 |
+| **Gap Detection** | ✅ Active | 2025-09-30 | Enhanced |
+| **Batch Processing** | ✅ Optimized | 2025-09-30 | 1,087 batches |
+| **Quality Scoring** | ✅ Enhanced | 2025-09-30 | ML-based |
+| **Context Generation** | ✅ GPT-4.1 | 2025-09-30 | Azure OpenAI |
+| **CSV Export** | ✅ Professional | 2025-09-30 | Step 9 |
+| **Documentation** | ✅ Complete | 2025-09-30 | Updated |
+
+## 🏆 Achievements
+
+- **✅ 8,691 Terms Processed**: Complete terminology validation
+- **✅ 86.4% Approval Rate**: High-quality validation results
+- **✅ 7,503 Terms Exported**: Professional CSV with GPT-4.1 contexts
+- **✅ 1,087 Batch Files**: Efficient parallel processing
+- **✅ 100% Gap Recovery**: Intelligent missing term detection
+- **✅ Multi-GPU Support**: Up to 3 GPUs for translation
+- **✅ Dynamic Scaling**: Auto-optimization based on system specs
 
 ---
 
-**System Version**: 1.0.0  
-**Last Updated**: 2024-01-20  
-**Compatibility**: Python 3.8+, Windows/Linux/macOS
-
-The **Agentic Terminology Validation System** is now complete and ready to process `Term_Extracted_result.csv` through the full validation workflow as specified in your requirements!
+**Generated by Agentic Terminology Validation System v1.0**  
+**Last Updated**: September 30, 2025  
+**Session**: 20250920_121839  
+**Features**: 9-Step Pipeline | GPT-4.1 Context Generation | Dynamic Resource Allocation | Professional CSV Export

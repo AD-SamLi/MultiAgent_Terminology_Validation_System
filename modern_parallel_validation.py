@@ -398,12 +398,15 @@ class AdvancedContextAnalyzer:
 class OrganizedValidationManager:
     """Enhanced validation manager with organized folder structure and robust processing"""
     
-    def __init__(self, model_name: str = "gpt-4.1", run_folder: str = None, organize_existing: bool = True):
+    def __init__(self, model_name: str = "gpt-4.1", run_folder: str = None, organize_existing: bool = True, base_output_dir: str = None):
         self.model_name = model_name
         
         # Organized folder structure
         self.run_folder = run_folder or f"enhanced_run_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-        self.results_dir = os.path.join("translation_results", self.run_folder)
+        
+        # Use provided base_output_dir or fallback to "translation_results"
+        base_dir = base_output_dir if base_output_dir else "translation_results"
+        self.results_dir = os.path.join(base_dir, self.run_folder)
         self.batch_dir = os.path.join(self.results_dir, "batch_files")
         self.logs_dir = os.path.join(self.results_dir, "logs")
         self.cache_dir = os.path.join(self.results_dir, "cache")
@@ -428,9 +431,11 @@ class OrganizedValidationManager:
     
     def organize_existing_batches(self):
         """Move existing batch files to organized structure"""
+        # REMOVED: translation_results/ folder references as it's no longer used
+        # The system now uses the main output directory structure
         existing_patterns = [
-            "translation_results/modern_*_validation_batch_*.json",
-            "translation_results/enhanced_*_validation_batch_*.json"
+            "modern_*_validation_batch_*.json",
+            "enhanced_*_validation_batch_*.json"
         ]
         
         all_existing_files = []

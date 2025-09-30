@@ -1,0 +1,21 @@
+{
+  "step_sequence": {
+    "step_number": 9,
+    "step_name": "Approved Terms CSV Export",
+    "step_timestamp": "2025-09-30T22:36:25.167773",
+    "session_id": "20250930_215218",
+    "workflow_stage": "Step 9: Approved Terms CSV Export",
+    "export_format": "CSV",
+    "total_approved_terms": 7503,
+    "includes_fully_approved": true,
+    "includes_conditionally_approved": true,
+    "format_compatible_with": "reviewed/ folder structure",
+    "columns": [
+      "source",
+      "target",
+      "context"
+    ],
+    "context_generation": "Azure OpenAI GPT-4.1",
+    "original_texts_used": 8691
+  }
+}
