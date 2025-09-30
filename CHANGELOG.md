@@ -1,4 +1,4 @@
-# 📝 Changelog - Agentic Terminology Validation System
+# 📝 Changelog - Multi-Agent Terminology Validation System
 
 All notable changes to this project will be documented in this file.
 

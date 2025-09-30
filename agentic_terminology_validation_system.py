@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AGENTIC TERMINOLOGY VALIDATION SYSTEM - UNIFIED PROCESS FLOW
+MULTI-AGENT TERMINOLOGY VALIDATION SYSTEM - UNIFIED PROCESS FLOW
 ==============================================================
 
 Complete implementation of the terminology validation and verification process
@@ -190,7 +190,7 @@ class AgenticTerminologyValidationSystem:
         if self.resume_from:
             self._detect_completed_steps()
         
-        logger.info(f"[*] Agentic Terminology Validation System initialized")
+        logger.info(f"[*] Multi-Agent Terminology Validation System initialized")
         logger.info(f"[FOLDER] Session: {self.session_id}")
         logger.info(f"[DIR] Output directory: {self.output_dir}")
         
@@ -3202,7 +3202,7 @@ class AgenticTerminologyValidationSystem:
         # Create comprehensive audit record with enhanced formatting
         audit_record = {
             'system_info': {
-                'system_name': 'Agentic Terminology Validation System',
+                'system_name': 'Multi-Agent Terminology Validation System',
                 'version': '1.0.0',
                 'session_id': self.session_id,
                 'processing_start_time': datetime.now().isoformat(),
@@ -3780,7 +3780,7 @@ Generate ONLY the context description (no quotes, no extra text):"""
         report_file = str(self.output_dir / "Validation_Summary_Report.md")
         
         with open(report_file, 'w', encoding='utf-8') as f:
-            f.write("# Agentic Terminology Validation System - Summary Report\n\n")
+            f.write("# Multi-Agent Terminology Validation System - Summary Report\n\n")
             f.write(f"**Session ID:** {self.session_id}\n")
             f.write(f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
             
@@ -3939,7 +3939,7 @@ Generate ONLY the context description (no quotes, no extra text):"""
 def main():
     """Main entry point"""
     parser = argparse.ArgumentParser(
-        description="Agentic Terminology Validation System",
+        description="Multi-Agent Terminology Validation System",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

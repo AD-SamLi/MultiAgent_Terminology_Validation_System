@@ -1,4 +1,4 @@
-# Agentic Terminology Validation System - Requirements
+# Multi-Agent Terminology Validation System - Requirements
 # Generated: September 30, 2025
 # Python Version: 3.8+
 # System Version: v1.0.0 (9-Step Pipeline with GPT-4.1 Context Generation)

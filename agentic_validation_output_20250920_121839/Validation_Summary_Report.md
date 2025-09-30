@@ -1,4 +1,4 @@
-# Agentic Terminology Validation System - Summary Report
+# Multi-Agent Terminology Validation System - Summary Report
 
 **Session ID:** 20250930_215218
 **Generated:** 2025-09-30 21:52:33

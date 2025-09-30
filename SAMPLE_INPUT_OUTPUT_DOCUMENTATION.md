@@ -1,8 +1,8 @@
-# 📋 Agentic Terminology Validation System - Sample Input & Output Documentation
+# 📋 Multi-Agent Terminology Validation System - Sample Input & Output Documentation
 
 ## 🎯 Overview
 
-This document provides comprehensive examples of input data formats and expected outputs for the Agentic Terminology Validation System. The system processes terminology through a 9-step pipeline, from raw text extraction to final CSV export.
+This document provides comprehensive examples of input data formats and expected outputs for the Multi-Agent Terminology Validation System. The system processes terminology through a 9-step pipeline, from raw text extraction to final CSV export.
 
 ---
 
@@ -443,5 +443,5 @@ agentic_validation_output_YYYYMMDD_HHMMSS/
 - **Translation Success Rate:** 0-100% (cross-language compatibility)
 - **Domain Relevance:** 0.0-1.0 (CAD/3D modeling relevance)
 
-This documentation provides a complete reference for understanding the input requirements and expected outputs of the Agentic Terminology Validation System.
+This documentation provides a complete reference for understanding the input requirements and expected outputs of the Multi-Agent Terminology Validation System.
 

@@ -1,4 +1,4 @@
-# 🔧 Technical Documentation - Agentic Terminology Validation System
+# 🔧 Technical Documentation - Multi-Agent Terminology Validation System
 
 ## 📋 Table of Contents
 
@@ -1631,5 +1631,5 @@ def monitor_context_generation():
 
 **Document Version**: 2.0  
 **Last Updated**: September 30, 2025  
-**System Version**: Agentic Terminology Validation System v1.0  
+**System Version**: Multi-Agent Terminology Validation System v1.0  
 **Features**: 9-Step Pipeline | GPT-4.1 Context Generation | Dynamic Resource Allocation | Enhanced Gap Detection
