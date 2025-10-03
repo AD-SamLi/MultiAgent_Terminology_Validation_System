@@ -167,7 +167,7 @@ class UltraOptimizedSmartRunner:
                 print(f"🎮 Multi-Model Single GPU mode - {config.gpu_workers} NLLB instances on 1 GPU")
             else:
                 print(f"🎮 Single GPU mode - balanced GPU+CPU translation")
-            config.gpu_workers = 1
+                config.gpu_workers = 1
             
             model_memory_gb = 2.6 if config.model_size == "1.3B" else 6.7
             
@@ -369,7 +369,7 @@ class UltraOptimizedSmartRunner:
                     self.processed_terms_set.clear()
                     self.results = []
             else:
-                # Ensure completely fresh state when skipping checkpoints
+            # Ensure completely fresh state when skipping checkpoints
                 self.processed_terms = 0
                 self.failed_terms = 0
                 self.processed_terms_set.clear()
@@ -842,7 +842,34 @@ class UltraOptimizedSmartRunner:
         if main_checkpoint_loaded:
             print("⚡ Main system checkpoint loaded successfully - no separate ultra checkpoints needed")
         else:
-            print("⚡ No main checkpoint found - starting fresh")
+            print("⚡ No main checkpoint found - checking Translation_Results.json for existing progress")
+            # FALLBACK: Load progress directly from Translation_Results.json
+            results_file = os.path.join(self.data_source_dir, "Translation_Results.json") if self.data_source_dir else "Translation_Results.json"
+            if os.path.exists(results_file):
+                try:
+                    with open(results_file, 'r', encoding='utf-8') as f:
+                        results_data = json.load(f)
+                    
+                    translation_results = results_data.get('translation_results', [])
+                    processed_terms_list = []
+                    for result in translation_results:
+                            if isinstance(result, dict) and 'term' in result:
+                                processed_terms_list.append(result['term'])
+                    
+                    self.processed_terms_set = set(processed_terms_list)
+                    self.processed_terms = len(self.processed_terms_set)
+                    
+                    print(f"📂 FALLBACK PROGRESS DETECTED:")
+                    print(f"   ✅ Found {self.processed_terms} already translated terms in Translation_Results.json")
+                    print(f"   🔄 Will resume from existing progress instead of starting fresh")
+                    
+                    main_checkpoint_loaded = True  # Mark as loaded since we found existing progress
+                except Exception as e:
+                    print(f"   ⚠️ Could not load Translation_Results.json: {e}")
+                    print("⚡ Starting completely fresh")
+            else:
+                print("⚡ No existing results found - starting fresh")
+        
         return main_checkpoint_loaded
 
     def _load_data_ultra_fast(self) -> Tuple[List[str], List[str]]:
@@ -901,55 +928,10 @@ class UltraOptimizedSmartRunner:
             else:
                 dict_terms = dict_data
         
-        # Load non-dictionary terms (try multiple paths)
-        non_dict_file_paths = []
-        
-        # If data_source_dir is specified, prioritize it
-        if self.data_source_dir:
-            non_dict_file_paths.extend([
-                f'{self.data_source_dir}/Non_Dictionary_Terms_Identified.json',
-                f'{self.data_source_dir}/Non_Dictionary_Terms.json'
-            ])
-        
-        # Add fallback paths
-        non_dict_file_paths.extend([
-            'Non_Dictionary_Terms_Identified.json',  # Current directory
-        ])
-        
-        # Add recent output directories as additional fallback
-        for recent_dir in recent_dirs[:3] if recent_dirs else []:
-            non_dict_file_paths.append(f'{recent_dir}/Non_Dictionary_Terms_Identified.json')
-        
-        non_dict_data = None
-        for non_dict_path in non_dict_file_paths:
-            try:
-                with open(non_dict_path, 'r', encoding='utf-8') as f:
-                    non_dict_data = json.load(f)
-                print(f"✅ Successfully loaded non-dictionary terms from: {non_dict_path}")
-                break
-            except FileNotFoundError:
-                continue
-            except Exception as e:
-                print(f"⚠️  Error loading {non_dict_path}: {e}")
-                continue
-        
-        if non_dict_data is None:
-            print(f"⚠️  Warning: Could not load non-dictionary terms from any of: {non_dict_file_paths}")
+        # STEP 5 FOCUS: Skip non-dictionary terms for Step 5 translation
+        # Only load dictionary terms to match the main system's Step 5 logic
             non_dict_terms = []
-        else:
-            if isinstance(non_dict_data, dict) and 'non_dictionary_terms' in non_dict_data:
-                non_dict_terms_list = non_dict_data['non_dictionary_terms']
-                if isinstance(non_dict_terms_list, list):
-                    # Filter non-dictionary terms by frequency >= 2
-                    non_dict_terms = [
-                        item['term'] for item in non_dict_terms_list 
-                        if isinstance(item, dict) and 'term' in item and item.get('frequency', 0) >= 2
-                    ]
-                    print(f"⚡ Filtered non-dictionary terms: {len(non_dict_terms)} terms with frequency >= 2 (from {len(non_dict_terms_list)} total)")
-                else:
-                    non_dict_terms = list(non_dict_terms_list.keys()) if isinstance(non_dict_terms_list, dict) else []
-            else:
-                non_dict_terms = non_dict_data
+        print("⚡ STEP 5 MODE: Skipping non-dictionary terms - processing only dictionary terms")
         
         # Ultra-fast filtering using set operations
         processed_set = self.processed_terms_set
@@ -2101,6 +2083,10 @@ class UltraOptimizedSmartRunner:
             # Load existing results with corruption recovery
             main_results_data = load_json_safely(main_results_file, [cleaned_results_file])
             
+            # Ensure translation_results key exists
+            if "translation_results" not in main_results_data:
+                main_results_data["translation_results"] = []
+            
             # Check if term already exists to avoid duplicates
             existing_terms = set()
             for existing_result in main_results_data.get("translation_results", []):
@@ -2110,7 +2096,10 @@ class UltraOptimizedSmartRunner:
             # Add new result if not duplicate
             term = result.get('term', '')
             if term and term not in existing_terms:
-                main_results_data["translation_results"].append(result)
+                # Convert any pandas int64 types to regular Python int for JSON serialization
+                cleaned_result = self._clean_result_for_json(result)
+                
+                main_results_data["translation_results"].append(cleaned_result)
                 
                 # Update metadata
                 if "metadata" not in main_results_data:
@@ -2133,6 +2122,30 @@ class UltraOptimizedSmartRunner:
             
         except Exception as e:
             print(f"❌ Failed to update main translation results: {e}")
+            # Add more detailed error information
+            import traceback
+            print(f"   Error details: {traceback.format_exc()}")
+    
+    def _clean_result_for_json(self, result):
+        """Clean result data to ensure JSON serialization compatibility"""
+        if not isinstance(result, dict):
+            return result
+        
+        cleaned = {}
+        for key, value in result.items():
+            if hasattr(value, 'dtype') and 'int64' in str(value.dtype):
+                # Convert pandas int64 to regular Python int
+                cleaned[key] = int(value)
+            elif isinstance(value, dict):
+                # Recursively clean nested dictionaries
+                cleaned[key] = self._clean_result_for_json(value)
+            elif isinstance(value, list):
+                # Clean lists
+                cleaned[key] = [self._clean_result_for_json(item) if isinstance(item, dict) else item for item in value]
+            else:
+                cleaned[key] = value
+        
+        return cleaned
     
     def _load_translation_results_safely(self, main_file, backup_file):
         """Safely load translation results with automatic corruption recovery"""

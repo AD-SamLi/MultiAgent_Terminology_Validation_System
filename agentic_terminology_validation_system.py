@@ -98,21 +98,45 @@ def analyze_term_batch_worker(term_batch, glossary_folder, model_name):
                 # Analyze single term with proper error handling
                 analysis_result = agent.analyze_text_terminology(clean_term, "EN", "EN")
                 
-                # Ensure analysis_result is a string
-                if not isinstance(analysis_result, str):
+                # Properly handle dict responses from agent
+                if isinstance(analysis_result, dict):
+                    # Extract actual result from dict structure
+                    # Try common dict keys used by the agent
+                    analysis_result = (
+                        analysis_result.get('result', '') or 
+                        analysis_result.get('analysis', '') or
+                        analysis_result.get('output', '') or
+                        analysis_result.get('response', '') or
+                        analysis_result.get('text', '') or
+                        str(analysis_result)  # Fallback to string representation
+                    )
+                elif not isinstance(analysis_result, str):
                     analysis_result = str(analysis_result)
                 
-                # Simple parsing of the result to determine if term is found
-                analysis_lower = analysis_result.lower()
-                if ("no recognized glossary terminology terms were found" in analysis_lower or 
+                # Now safely convert to lowercase
+                analysis_lower = analysis_result.lower() if isinstance(analysis_result, str) else ''
+                
+                # Check for "not found" or "error" patterns (including auth failures)
+                is_not_found_or_error = (
+                    "no recognized glossary terminology terms were found" in analysis_lower or 
                     "no glossary terms" in analysis_lower or
                     "no terms found" in analysis_lower or
                     "no task provided" in analysis_lower or
-                    "no task was provided" in analysis_lower):
+                    "no task was provided" in analysis_lower or
+                    # Error patterns - treat as new terms for safety
+                    "analysis failed" in analysis_lower or
+                    "authentication issues" in analysis_lower or
+                    "requires manual review" in analysis_lower or
+                    "rate limit" in analysis_lower or
+                    "error code: 429" in analysis_lower or
+                    "error" in analysis_lower and "failed" in analysis_lower
+                )
+                
+                if is_not_found_or_error:
                     results.append({
                         'term': clean_term,
                         'found': False,
-                        'analysis': 'Not found in glossary'
+                        'analysis': analysis_result  # Preserve original message for tracking
                     })
                 else:
                     results.append({
@@ -238,13 +262,13 @@ class AgenticTerminologyValidationSystem:
         step_indicators = {
             1: ['Combined_Terms_Data.csv'],
             2: ['Glossary_Analysis_Results.json'],
-            3: ['New_Terms_Candidates_With_Dictionary.json', 'Dictionary_Terms_Identified.json', 'Non_Dictionary_Terms_Identified.json'],
+            3: ['New_Terms_Candidates_With_Dictionary.json'],  # Only main file needed
             4: ['Frequency_Storage_Export.json'],
             5: ['Translation_Results.json'],
             6: ['Verified_Translation_Results.json'],
-            7: ['Final_Terminology_Decisions.json'],  # FIXED: Correct file name
-            8: ['Complete_Audit_Record.json'],         # FIXED: Correct file name
-            9: ['Approved_Terms_Export.csv']           # NEW: Step 9 CSV export
+            7: ['Final_Terminology_Decisions.json'],
+            8: ['Complete_Audit_Record.json'],
+            9: ['Approved_Terms_Export.csv']
         }
         
         # Checkpoint files for resume detection
@@ -271,16 +295,12 @@ class AgenticTerminologyValidationSystem:
                 main_path = self.output_dir / main_file
                 if main_path.exists() and main_path.stat().st_size > 0:
                     step_files[main_file] = main_path
-                    # Check for optional split files
-                    for file in files[1:]:  # Skip the first file (main file)
-                        file_path = self.output_dir / file
-                        if file_path.exists() and file_path.stat().st_size > 0:
-                            step_files[file] = file_path
                     
                     # Only mark as completed if no checkpoint exists
                     if not step_has_checkpoint:
                         self.completed_steps.add(step)
                         self.step_files[step] = step_files
+                        logger.info(f"[STEP 3] Completed with single consolidated file")
                     else:
                         logger.info(f"[RESUME] Step {step} has results but also checkpoint - will resume")
             else:
@@ -296,18 +316,29 @@ class AgenticTerminologyValidationSystem:
                                 with open(file_path, 'r', encoding='utf-8') as f:
                                     data = json.load(f)
                                 translation_results = data.get('translation_results', [])
-                                if translation_results and len(translation_results) > 0:
+                                
+                                # Check if we have expected number of terms (429 for current dataset)
+                                high_freq_file = self.output_dir / "High_Frequency_Terms.json"
+                                expected_terms = 429  # Default expected
+                                if high_freq_file.exists():
+                                    try:
+                                        with open(high_freq_file, 'r', encoding='utf-8') as hf:
+                                            high_freq_data = json.load(hf)
+                                        expected_terms = high_freq_data.get('metadata', {}).get('total_terms', 429)
+                                    except:
+                                        expected_terms = 429
+                                
+                                if translation_results and len(translation_results) >= expected_terms:
                                     step_files[file] = file_path
-                                    logger.info(f"[STEP 5] Found Translation_Results.json with {len(translation_results)} terms")
+                                    logger.info(f"[STEP 5] Found Translation_Results.json with {len(translation_results)}/{expected_terms} terms - COMPLETED")
                                 else:
-                                    logger.info(f"[STEP 5] Translation_Results.json exists but is empty - Step 5 not completed")
+                                    logger.info(f"[STEP 5] Translation_Results.json has {len(translation_results)}/{expected_terms} terms - Step 5 NOT completed")
                                     step_completed = False
                                     break
                             except Exception as e:
                                 logger.warning(f"[STEP 5] Error reading Translation_Results.json: {e}")
                                 step_completed = False
                                 break
-                        
                         # Special handling for Step 7 Final_Terminology_Decisions.json
                         elif step == 7 and file == 'Final_Terminology_Decisions.json':
                             # Check if the file has complete decision data for all expected terms
@@ -344,7 +375,6 @@ class AgenticTerminologyValidationSystem:
                                 logger.warning(f"[STEP 7] Error reading Final_Terminology_Decisions.json: {e}")
                                 step_completed = False
                                 break
-                        
                         # Special handling for Step 8 Complete_Audit_Record.json
                         elif step == 8 and file == 'Complete_Audit_Record.json':
                             # Check if the file has complete audit data for all expected terms
@@ -649,8 +679,43 @@ class AgenticTerminologyValidationSystem:
                 tgt_lang="EN"  # English-only processing
             )
             
+            # Properly handle dict responses from agent
+            if isinstance(analysis, dict):
+                # Extract actual result from dict structure
+                analysis = (
+                    analysis.get('result', '') or 
+                    analysis.get('analysis', '') or
+                    analysis.get('output', '') or
+                    analysis.get('response', '') or
+                    analysis.get('text', '') or
+                    str(analysis)
+                )
+            elif not isinstance(analysis, str):
+                analysis = str(analysis)
+            
             # Parse analysis results (simplified)
-            found = "found" in analysis.lower() or "exists" in analysis.lower()
+            analysis_lower = analysis.lower() if isinstance(analysis, str) else ''
+            
+            # Check for "not found" or "error" patterns (including auth failures)
+            is_not_found_or_error = (
+                "no recognized glossary terminology terms were found" in analysis_lower or 
+                "no glossary terms" in analysis_lower or
+                "no terms found" in analysis_lower or
+                "not found" in analysis_lower or
+                # Error patterns - treat as new terms for safety
+                "analysis failed" in analysis_lower or
+                "authentication issues" in analysis_lower or
+                "requires manual review" in analysis_lower or
+                "rate limit" in analysis_lower or
+                "error code: 429" in analysis_lower or
+                ("error" in analysis_lower and "failed" in analysis_lower)
+            )
+            
+            # If error/not found, mark as not found; otherwise check if found
+            if is_not_found_or_error:
+                found = False
+            else:
+                found = "found" in analysis_lower or "exists" in analysis_lower
             
             return {
                 'found': found,
@@ -989,7 +1054,7 @@ class AgenticTerminologyValidationSystem:
         logger.info("[NEW] STEP 3: New Terminology Processing")
         logger.info("=" * 60)
         
-        new_terms = glossary_results['new_terms']
+        new_terms = glossary_results['results']['new_terms']
         logger.info(f"[SEARCH] Processing {len(new_terms)} new terms with Fast Dictionary Agent...")
         
         # Check for existing checkpoint
@@ -1060,7 +1125,8 @@ class AgenticTerminologyValidationSystem:
                     term_rows = df[df['term'] == term]
                     contexts = term_rows['original_text'].tolist()
                     pos_tags = term_rows['pos_tag'].tolist()
-                    frequency = len(term_rows)
+                    # PRESERVE ORIGINAL FREQUENCY from CSV instead of recalculating
+                    frequency = int(term_rows['frequency'].iloc[0]) if not term_rows.empty else 1
                     
                     term_data = {
                         'term': term,
@@ -1137,7 +1203,8 @@ class AgenticTerminologyValidationSystem:
                     term_rows = df[df['term'] == term]
                     contexts = term_rows['original_text'].tolist()
                     pos_tags = term_rows['pos_tag'].tolist()
-                    frequency = len(term_rows)
+                    # PRESERVE ORIGINAL FREQUENCY from CSV instead of recalculating
+                    frequency = int(term_rows['frequency'].iloc[0]) if not term_rows.empty else 1
                     
                     term_data = {
                         'term': term,
@@ -1176,77 +1243,27 @@ class AgenticTerminologyValidationSystem:
         
         # Save new terms dataset with dictionary analysis
         new_terms_file = str(self.output_dir / "New_Terms_Candidates_With_Dictionary.json")
+        
+        # Calculate statistics for metadata
+        dict_terms = [t for t in all_analyzed_terms if t.get('dictionary_analysis', {}).get('in_dictionary') == True]
+        non_dict_terms = [t for t in all_analyzed_terms if t.get('dictionary_analysis', {}).get('in_dictionary') == False]
+        
         with open(new_terms_file, 'w', encoding='utf-8') as f:
             json.dump({
                 'metadata': {
                     'created_at': datetime.now().isoformat(),
                     'total_new_terms': len(all_analyzed_terms),
-                    'dictionary_analysis_method': 'fast_dictionary_agent',
-                    'source': 'agentic_terminology_validation_system'
+                    'dictionary_terms_count': len(dict_terms),
+                    'non_dictionary_terms_count': len(non_dict_terms),
+                    'dictionary_analysis_method': 'fast_dictionary_agent' if (self.fast_dictionary_agent and self.fast_dictionary_agent.dictionary_tool.initialized) else 'unavailable',
+                    'source': 'agentic_terminology_validation_system',
+                    'note': 'Dictionary_Terms_Identified.json and Non_Dictionary_Terms_Identified.json files are no longer generated - all data is in this file'
                 },
                 'new_terms': all_analyzed_terms
             }, f, indent=2, ensure_ascii=False)
         
-        # Also save separate files for dictionary and non-dictionary terms
-        dict_terms = [t for t in all_analyzed_terms if t.get('dictionary_analysis', {}).get('in_dictionary') == True]
-        non_dict_terms = [t for t in all_analyzed_terms if t.get('dictionary_analysis', {}).get('in_dictionary') == False]
-        
-        if self.fast_dictionary_agent and self.fast_dictionary_agent.dictionary_tool.initialized:
-            
-            # Save dictionary terms
-            dict_file = str(self.output_dir / "Dictionary_Terms_Identified.json")
-            with open(dict_file, 'w', encoding='utf-8') as f:
-                json.dump({
-                    'metadata': {
-                        'created_at': datetime.now().isoformat(),
-                        'analysis_method': 'fast_dictionary_agent',
-                        'total_terms': len(dict_terms)
-                    },
-                    'dictionary_terms': dict_terms
-                }, f, indent=2, ensure_ascii=False)
-            
-            # Save non-dictionary terms
-            non_dict_file = str(self.output_dir / "Non_Dictionary_Terms_Identified.json")
-            with open(non_dict_file, 'w', encoding='utf-8') as f:
-                json.dump({
-                    'metadata': {
-                        'created_at': datetime.now().isoformat(),
-                        'analysis_method': 'fast_dictionary_agent',
-                        'total_terms': len(non_dict_terms)
-                    },
-                    'non_dictionary_terms': non_dict_terms
-                }, f, indent=2, ensure_ascii=False)
-            
-            logger.info(f"[FOLDER] Dictionary terms saved to: {dict_file}")
-            logger.info(f"[FOLDER] Non-dictionary terms saved to: {non_dict_file}")
-        else:
-            # Create empty files when dictionary agent is not available
-            dict_file = str(self.output_dir / "Dictionary_Terms_Identified.json")
-            with open(dict_file, 'w', encoding='utf-8') as f:
-                json.dump({
-                    'metadata': {
-                        'created_at': datetime.now().isoformat(),
-                        'analysis_method': 'unavailable',
-                        'total_terms': 0,
-                        'note': 'Fast Dictionary Agent was not available'
-                    },
-                    'dictionary_terms': []
-                }, f, indent=2, ensure_ascii=False)
-            
-            non_dict_file = str(self.output_dir / "Non_Dictionary_Terms_Identified.json")
-            with open(non_dict_file, 'w', encoding='utf-8') as f:
-                json.dump({
-                    'metadata': {
-                        'created_at': datetime.now().isoformat(),
-                        'analysis_method': 'unavailable',
-                        'total_terms': len(all_analyzed_terms),
-                        'note': 'All terms marked as non-dictionary due to agent unavailability'
-                    },
-                    'non_dictionary_terms': all_analyzed_terms
-                }, f, indent=2, ensure_ascii=False)
-            
-            logger.info(f"[FOLDER] Empty dictionary file created: {dict_file}")
-            logger.info(f"[FOLDER] All terms saved as non-dictionary: {non_dict_file}")
+        logger.info(f"[STATS] Dictionary terms: {len(dict_terms)}, Non-dictionary terms: {len(non_dict_terms)}")
+        logger.info(f"[NOTE] All terms saved in single file (separate dictionary/non-dictionary files no longer generated)")
         
         # Add step metadata
         self._add_step_metadata(new_terms_file, 3, "New Terminology Processing", {
@@ -1805,7 +1822,22 @@ class AgenticTerminologyValidationSystem:
         else:
             logger.info("[START] Starting fresh ultra-optimized translation processing...")
             
-            # Load high frequency dictionary terms
+            # DYNAMIC CALCULATION: Always calculate remaining terms to avoid processing already translated terms
+            logger.info("[DYNAMIC] Calculating remaining terms from authoritative sources...")
+            remaining_terms_calculated = self._calculate_remaining_terms_dynamically()
+            
+            if remaining_terms_calculated and remaining_terms_calculated['remaining'] > 0:
+                # Load the dynamically updated remaining terms file
+                remaining_file = str(self.output_dir / "Remaining_Terms_For_Translation.json")
+                with open(remaining_file, 'r', encoding='utf-8') as f:
+                    remaining_data = json.load(f)
+                
+                dictionary_terms = remaining_data.get('dictionary_terms', [])
+                logger.info(f"[DYNAMIC] Loaded {len(dictionary_terms)} remaining terms from updated file")
+                logger.info(f"[PROGRESS] Already completed: {remaining_terms_calculated['completed']}/{remaining_terms_calculated['total_required']} terms")
+            else:
+                # Fallback to original high frequency terms if dynamic calculation fails
+                logger.warning("[FALLBACK] Dynamic calculation failed or no remaining terms - using original file")
             with open(high_freq_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
@@ -1818,77 +1850,16 @@ class AgenticTerminologyValidationSystem:
                 logger.error(f"[ERROR] Unknown data structure in {high_freq_file}: {list(data.keys())}")
                 raise KeyError(f"Expected 'terms' or 'dictionary_terms' key in {high_freq_file}")
             
-            # Also load high-frequency non-dictionary terms (freq >= 2)
-            non_dict_file = str(self.output_dir / "Non_Dictionary_Terms_Identified.json")
+            # STEP 5 FOCUS: Only process dictionary terms (remaining terms only)
+            # Non-dictionary terms are handled in later steps if needed
             non_dictionary_terms = []
-            if os.path.exists(non_dict_file):
-                logger.info("[LOAD] Loading high-frequency non-dictionary terms...")
-                with open(non_dict_file, 'r', encoding='utf-8') as f:
-                    non_dict_data = json.load(f)
-                
-                if 'non_dictionary_terms' in non_dict_data:
-                    all_non_dict = non_dict_data['non_dictionary_terms']
-                    # Filter by frequency >= 2
-                    non_dictionary_terms = [
-                        term for term in all_non_dict 
-                        if isinstance(term, dict) and term.get('frequency', 0) >= 2
-                    ]
-                    logger.info(f"[FILTER] Found {len(non_dictionary_terms)} non-dictionary terms with frequency >= 2")
-                else:
-                    logger.warning("[WARNING] No non_dictionary_terms found in non-dictionary file")
-            else:
-                logger.warning(f"[WARNING] Non-dictionary file not found: {non_dict_file}")
+            logger.info("[STEP5] Step 5 focuses only on dictionary terms - skipping non-dictionary terms")
+            logger.info(f"[STEP5] Processing only {len(dictionary_terms)} remaining dictionary terms for translation")
             
-            # APPLY OVERLAP DETECTION AND RESOLUTION
-            logger.info("[OVERLAP_CHECK] Checking for overlaps between dictionary and non-dictionary terms...")
-            
-            # Create sets of term strings for overlap detection
-            dict_term_strings = set()
-            for term_data in dictionary_terms:
-                if isinstance(term_data, dict):
-                    term = term_data.get('term', '')
-                else:
-                    term = str(term_data)
-                if term:
-                    dict_term_strings.add(term)
-            
-            non_dict_term_strings = set()
-            for term_data in non_dictionary_terms:
-                term = term_data.get('term', '')
-                if term:
-                    non_dict_term_strings.add(term)
-            
-            # Detect overlaps
-            overlapping_terms = dict_term_strings & non_dict_term_strings
-            overlap_count = len(overlapping_terms)
-            
-            logger.info(f"[OVERLAP_ANALYSIS] Dictionary terms: {len(dict_term_strings):,}")
-            logger.info(f"[OVERLAP_ANALYSIS] Non-dictionary terms (freq>=2): {len(non_dict_term_strings):,}")
-            logger.info(f"[OVERLAP_ANALYSIS] Overlapping terms: {overlap_count:,}")
-            
-            if overlap_count > 0:
-                overlap_percentage = (overlap_count / len(non_dict_term_strings)) * 100 if len(non_dict_term_strings) > 0 else 0
-                logger.warning(f"[OVERLAP_DETECTED] {overlap_count:,} terms overlap ({overlap_percentage:.1f}% of non-dict terms)")
-                
-                if overlap_percentage > 90:
-                    logger.warning("[OVERLAP_RESOLUTION] High overlap detected (>90%) - using dictionary terms only")
-                    # Use only dictionary terms to avoid double-counting
-                    non_dictionary_terms = []  # Clear non-dictionary terms
-                    logger.info("[OVERLAP_RESOLUTION] Non-dictionary terms excluded due to high overlap")
-                else:
-                    logger.info(f"[OVERLAP_RESOLUTION] Removing {overlap_count:,} overlapping terms from non-dictionary list")
-                    # Remove overlapping terms from non-dictionary list
-                    non_dictionary_terms = [term_data for term_data in non_dictionary_terms 
-                                          if term_data.get('term', '') not in overlapping_terms]
-                    logger.info(f"[OVERLAP_RESOLUTION] Non-dictionary terms after deduplication: {len(non_dictionary_terms):,}")
-            else:
-                logger.info("[OVERLAP_CHECK] No overlaps detected - proceeding with both lists")
-            
-            # Combine terms after overlap resolution
-            terms_for_translation = dictionary_terms + non_dictionary_terms
-            total_unique_terms = len(dict_term_strings) + len(non_dictionary_terms)
-            logger.info(f"[OVERLAP_RESOLVED] Final terms for translation: {len(dictionary_terms):,} dict + {len(non_dictionary_terms):,} non-dict = {len(terms_for_translation):,}")
-            logger.info(f"[UNIQUE_TERMS] Total unique terms after overlap resolution: {total_unique_terms:,}")
+            # STEP 5 SIMPLIFIED: Only dictionary terms, no overlap detection needed
+            terms_for_translation = dictionary_terms
+            logger.info(f"[STEP5] Final terms for translation: {len(dictionary_terms):,} remaining dictionary terms only")
+            logger.info(f"[STEP5] No overlap detection needed - processing only remaining dictionary terms")
         
         if not terms_for_translation:
             logger.warning("[WARNING] No high frequency terms to translate")
@@ -2043,9 +2014,9 @@ class AgenticTerminologyValidationSystem:
                         logger.info(f"[CONFIG] GPU Workers: {ultra_config.gpu_workers}, CPU Workers: {ultra_config.cpu_workers}")
                         logger.info(f"[CONFIG] Batch Size: {ultra_config.gpu_batch_size}, Queue Size: {ultra_config.max_queue_size}")
                     except ImportError:
-                        # Final fallback to default configuration
-                        logger.warning("[WARNING] Could not load any optimized config, using defaults")
-                        ultra_config = UltraOptimizedConfig(
+                            # Final fallback to default configuration
+                            logger.warning("[WARNING] Could not load any optimized config, using defaults")
+                            ultra_config = UltraOptimizedConfig(
                             model_size="1.3B",
                             gpu_workers=1,  # Conservative default
                             cpu_workers=8,
@@ -2737,45 +2708,44 @@ class AgenticTerminologyValidationSystem:
             try:
                 modern_validation_system.consolidate_results("step7_final_decisions", "final_validation")
                 logger.info("[CONSOLIDATION] Successfully consolidated existing batch results")
-                
-                # Load consolidated results and proceed with decision conversion
-                if os.path.exists(consolidated_file):
-                    with open(consolidated_file, 'r', encoding='utf-8') as f:
-                        consolidated_data = json.load(f)
-                    
-                    logger.info(f"[CONSOLIDATION] Loaded consolidated results from {len(consolidated_data.get('batches', {}))} batches")
-                    
-                    # Import the helper functions from step7_fixed_batch_processing
-                    from step7_fixed_batch_processing import (_convert_modern_batch_results_to_decisions, 
-                                                             _create_final_decisions_data_with_batch_info,
-                                                             _log_step7_completion_with_batch_info)
-                    
-                    # Convert modern validation results to final decisions format
-                    final_decisions = _convert_modern_batch_results_to_decisions(
-                        consolidated_data, verified_results, translation_data_map
-                    )
-                    
-                    # Create comprehensive final decisions data
-                    final_decisions_data = _create_final_decisions_data_with_batch_info(
-                        final_decisions, consolidated_data, step7_manager
-                    )
-                    
-                    # Save final decisions
-                    decisions_file = os.path.join(str(self.output_dir), "Final_Terminology_Decisions.json")
-            
-                    with open(decisions_file, 'w', encoding='utf-8') as f:
-                        json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
-                        
-                            # Log completion statistics
-                    _log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
-                        
-                    return decisions_file
-                else:
-                    logger.error(f"[ERROR] Consolidated results file not found after consolidation: {consolidated_file}")
-                    
             except Exception as e:
-                logger.error(f"[ERROR] Failed to consolidate existing batch results: {e}")
-                logger.info(f"[FALLBACK] Will proceed with normal batch processing")
+                logger.error(f"[ERROR] Failed to consolidate results: {e}")
+                
+            # Load consolidated results and proceed with decision conversion
+            if os.path.exists(consolidated_file):
+                with open(consolidated_file, 'r', encoding='utf-8') as f:
+                    consolidated_data = json.load(f)
+                
+                logger.info(f"[CONSOLIDATION] Loaded consolidated results from {len(consolidated_data.get('batches', {}))} batches")
+                
+                # Import the helper functions from step7_fixed_batch_processing
+                from step7_fixed_batch_processing import (_convert_modern_batch_results_to_decisions, 
+                                                         _create_final_decisions_data_with_batch_info,
+                                                         _log_step7_completion_with_batch_info)
+                
+                # Convert modern validation results to final decisions format
+                final_decisions = _convert_modern_batch_results_to_decisions(
+                    consolidated_data, verified_results, translation_data_map
+                )
+                
+                # Create comprehensive final decisions data
+                final_decisions_data = _create_final_decisions_data_with_batch_info(
+                    final_decisions, consolidated_data, step7_manager
+                )
+                
+                # Save final decisions
+                decisions_file = os.path.join(str(self.output_dir), "Final_Terminology_Decisions.json")
+            
+                with open(decisions_file, 'w', encoding='utf-8') as f:
+                    json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
+                
+                # Log completion statistics
+                self._log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
+                
+                return decisions_file
+            else:
+                logger.error(f"[ERROR] Consolidated results file not found after consolidation: {consolidated_file}")
+                return self._create_empty_decisions_file(f"Consolidated results file not found: {consolidated_file}")
         
         elif existing_batch_files and os.path.exists(consolidated_file):
             logger.info(f"[RESUME] Found {len(existing_batch_files)} batch files and consolidated results")
@@ -2818,37 +2788,42 @@ class AgenticTerminologyValidationSystem:
                 # Save final decisions
                 decisions_file = os.path.join(str(self.output_dir), "Final_Terminology_Decisions.json")
             
-                with open(decisions_file, 'w', encoding='utf-8') as f:
-                    json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
+            with open(decisions_file, 'w', encoding='utf-8') as f:
+                json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
                 
-                # Log completion statistics
-                _log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
-                
-                logger.info(f"[COMPLETE] Step 7 completed using existing batch results")
-                return decisions_file
-            else:
-                logger.info(f"[CONTINUE] Only {len(processed_terms)}/{total_terms_needed} terms processed - continuing batch processing")
-                
-                # IDENTIFY MISSING TERMS: Find which specific terms need to be processed
-                all_required_terms = set()
-                for result in verified_results:
-                    term = result.get('term', '')
-                    if term:
-                        all_required_terms.add(term)
-                
-                missing_terms = all_required_terms - processed_terms
-                logger.info(f"[GAP_DETECTION] Found {len(missing_terms)} missing terms:")
-                logger.info(f"[GAP_DETECTION] Missing terms: {sorted(list(missing_terms))[:10]}{'...' if len(missing_terms) > 10 else ''}")
-                
-                # Filter verified_results to only include missing terms
-                missing_verified_results = []
-                for result in verified_results:
-                    term = result.get('term', '')
-                    if term in missing_terms:
-                        missing_verified_results.append(result)
-                
-                logger.info(f"[GAP_PROCESSING] Processing {len(missing_verified_results)} missing terms instead of all {len(verified_results)} terms")
-                verified_results = missing_verified_results  # Use only missing terms for processing
+            # Log completion statistics
+            _log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
+            
+            logger.info(f"[COMPLETE] Step 7 completed using existing batch results")
+            return decisions_file
+        else:
+            # Initialize variables for the else block (no existing batch files case)
+            logger.info("[NEW] No existing batch files found - starting fresh batch processing")
+            processed_terms = set()  # No terms processed yet
+            total_terms_needed = len(verified_results)
+            
+            logger.info(f"[CONTINUE] Starting fresh batch processing for {total_terms_needed} terms")
+            
+            # IDENTIFY MISSING TERMS: Find which specific terms need to be processed
+            all_required_terms = set()
+            for result in verified_results:
+                term = result.get('term', '')
+                if term:
+                    all_required_terms.add(term)
+            
+            missing_terms = all_required_terms - processed_terms  # All terms are missing in fresh start
+            logger.info(f"[GAP_DETECTION] Found {len(missing_terms)} missing terms:")
+            logger.info(f"[GAP_DETECTION] Missing terms: {sorted(list(missing_terms))[:10]}{'...' if len(missing_terms) > 10 else ''}")
+            
+            # Filter verified_results to only include missing terms
+            missing_verified_results = []
+            for result in verified_results:
+                term = result.get('term', '')
+                if term in missing_terms:
+                    missing_verified_results.append(result)
+            
+            logger.info(f"[GAP_PROCESSING] Processing {len(missing_verified_results)} missing terms instead of all {len(verified_results)} terms")
+            verified_results = missing_verified_results  # Use only missing terms for processing
         
         # Prepare terms for modern validation batch processing with comprehensive translatability analysis
         terms_for_validation = []
@@ -2879,10 +2854,10 @@ class AgenticTerminologyValidationSystem:
             
             # Create comprehensive term data structure for modern validation with Step 5 & 6 integration
             term_data = {
-                'term': term,
-                'frequency': result.get('frequency', 1),
-                'original_texts': result.get('original_texts', {'texts': []}),
-                'translations': result.get('translations', {}),
+                    'term': term,
+                    'frequency': result.get('frequency', 1),
+                    'original_texts': result.get('original_texts', {'texts': []}),
+                    'translations': result.get('translations', {}),
                 'translatability_score': translatability_score,
                 'translatability_analysis': translatability_analysis,
                 
@@ -3093,10 +3068,9 @@ class AgenticTerminologyValidationSystem:
                     json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
                 
                 # Log completion statistics
-                _log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
+                self._log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
                 
                 return decisions_file
-            
             else:
                 logger.error(f"[ERROR] Consolidated results file not found: {consolidated_file}")
                 return self._step_7_fallback_processing(verified_results, translation_data_map)
@@ -3264,8 +3238,10 @@ class AgenticTerminologyValidationSystem:
     def step_9_approved_terms_csv_export(self, decisions_file: str) -> str:
         """
         Step 9: Approved Terms CSV Export
-        - Export approved terms to CSV format matching reviewed/ folder structure
-        - Use Azure OpenAI GPT-4.1 to generate professional contexts from original texts
+        - Export approved terms to CSV format with description and context columns
+        - Use Azure OpenAI GPT-4.1 to generate professional descriptions
+        - Load examples from PRDSMRT_doc_merged_results_Processed_Complete.json
+        - Add context column with original_texts from the complete JSON
         - Filter for fully approved and conditionally approved terms
         """
         logger.info("[CSV] STEP 9: Approved Terms CSV Export")
@@ -3276,27 +3252,86 @@ class AgenticTerminologyValidationSystem:
             logger.warning("[WARNING] No decisions file found - creating empty CSV")
             approved_csv_file = str(self.output_dir / "Approved_Terms_Export.csv")
             with open(approved_csv_file, 'w', encoding='utf-8', newline='') as f:
-                f.write("source,target,context\n")
+                f.write("source,target,description,context\n")
             return approved_csv_file
         
         with open(decisions_file, 'r', encoding='utf-8') as f:
             decisions_data = json.load(f)
         
-        # Load High_Frequency_Terms.json for original texts
-        high_freq_file = str(self.output_dir / "High_Frequency_Terms.json")
+        # Load original_texts from Combined_Terms_Data.csv (consistent with Step 1)
+        combined_csv_file = str(self.output_dir / "Combined_Terms_Data.csv")
         original_texts_map = {}
-        if os.path.exists(high_freq_file):
-            logger.info("[CONTEXT] Loading original texts from High_Frequency_Terms.json...")
-            with open(high_freq_file, 'r', encoding='utf-8') as f:
-                high_freq_data = json.load(f)
-            
-            for term_data in high_freq_data.get('terms', []):
-                term = term_data.get('term', '')
-                original_texts = term_data.get('original_texts', {}).get('texts', [])
-                if term and original_texts:
-                    original_texts_map[term] = original_texts[:5]  # Use first 5 examples
+        examples_map = {}
         
-        logger.info(f"[CONTEXT] Loaded original texts for {len(original_texts_map):,} terms")
+        if os.path.exists(combined_csv_file):
+            logger.info("[STEP9] Loading original_texts from Combined_Terms_Data.csv for consistency...")
+            try:
+                import pandas as pd
+                df = pd.read_csv(combined_csv_file)
+                
+                # Extract original_texts for each term
+                for idx, row in df.iterrows():
+                    term = row.get('term', '')
+                    original_text = row.get('original_text', '')
+                    
+                    if term and original_text and pd.notna(original_text):
+                        # Split semicolon-separated texts back into list
+                        if isinstance(original_text, str) and '; ' in original_text:
+                            texts_list = [t.strip() for t in original_text.split('; ') if t.strip()]
+                        else:
+                            texts_list = [str(original_text).strip()] if original_text else []
+                        
+                        if texts_list:
+                            original_texts_map[term] = texts_list
+                            # For description generation: use ALL texts (LLM will read from Combined CSV)
+                            # LLM can analyze all contexts to generate better professional descriptions
+                            examples_map[term] = texts_list  # Use ALL texts for richer LLM analysis
+                
+                logger.info(f"[STEP9] Loaded original_texts for {len(original_texts_map):,} terms from Combined_Terms_Data.csv")
+                logger.info(f"[STEP9] Using same texts as examples for {len(examples_map):,} terms")
+            except Exception as e:
+                logger.error(f"[ERROR] Failed to load Combined_Terms_Data.csv: {e}")
+                logger.info("[FALLBACK] Falling back to alternative sources...")
+        
+        # Fallback to complete JSON if Combined CSV not available or failed
+        if not original_texts_map:
+            complete_json_file = str(self.output_dir / "PRDSMRT_doc_merged_results_Processed_Complete.json")
+            if os.path.exists(complete_json_file):
+                logger.info("[FALLBACK] Loading from PRDSMRT_doc_merged_results_Processed_Complete.json...")
+                try:
+                    with open(complete_json_file, 'r', encoding='utf-8') as f:
+                        complete_data = json.load(f)
+                    
+                    for term_entry in complete_data.get('terms', []):
+                        term = term_entry.get('term', '')
+                        if term:
+                            original_texts = term_entry.get('original_texts', [])
+                            if isinstance(original_texts, dict):
+                                original_texts = original_texts.get('texts', [])
+                            if original_texts:
+                                original_texts_map[term] = original_texts
+                                examples_map[term] = original_texts[:5]
+                    
+                    logger.info(f"[FALLBACK] Loaded {len(original_texts_map):,} terms from complete JSON")
+                except Exception as e:
+                    logger.error(f"[ERROR] Failed to load complete JSON: {e}")
+        
+        # Final fallback to High_Frequency_Terms.json
+        if not original_texts_map:
+            high_freq_file = str(self.output_dir / "High_Frequency_Terms.json")
+            if os.path.exists(high_freq_file):
+                logger.info("[FALLBACK] Loading from High_Frequency_Terms.json...")
+                with open(high_freq_file, 'r', encoding='utf-8') as f:
+                    high_freq_data = json.load(f)
+                
+                for term_data in high_freq_data.get('terms', []):
+                    term = term_data.get('term', '')
+                    original_texts = term_data.get('original_texts', {}).get('texts', [])
+                    if term and original_texts:
+                        original_texts_map[term] = original_texts
+                        examples_map[term] = original_texts[:5]
+                
+                logger.info(f"[FALLBACK] Loaded {len(original_texts_map):,} terms from High_Frequency_Terms.json")
         
         final_decisions = decisions_data.get('final_decisions', [])
         
@@ -3307,10 +3342,10 @@ class AgenticTerminologyValidationSystem:
             if 'APPROVED' in decision_type:  # Includes both APPROVED and CONDITIONALLY_APPROVED
                 approved_decisions.append(decision)
         
-        logger.info(f"[PARALLEL] Processing {len(approved_decisions):,} approved terms with parallel GPT-4.1 context generation")
+        logger.info(f"[PARALLEL] Processing {len(approved_decisions):,} approved terms with parallel GPT-4.1 description generation")
         
-        # Generate contexts using parallel processing
-        approved_terms = self._generate_contexts_parallel(approved_decisions, original_texts_map)
+        # Generate descriptions using parallel processing (passing examples_map for description generation)
+        approved_terms = self._generate_contexts_parallel(approved_decisions, examples_map, original_texts_map)
         
         # Sort terms alphabetically
         approved_terms.sort(key=lambda x: x['source'].lower())
@@ -3321,12 +3356,13 @@ class AgenticTerminologyValidationSystem:
         import csv
         with open(approved_csv_file, 'w', encoding='utf-8', newline='') as f:
             writer = csv.writer(f)
-            writer.writerow(['source', 'target', 'context'])
+            writer.writerow(['source', 'target', 'description', 'context'])
             
             for term_data in approved_terms:
                 writer.writerow([
                     term_data['source'],
                     term_data['target'], 
+                    term_data['description'],
                     term_data['context']
                 ])
         
@@ -3337,16 +3373,21 @@ class AgenticTerminologyValidationSystem:
             "includes_fully_approved": True,
             "includes_conditionally_approved": True,
             "format_compatible_with": "reviewed/ folder structure",
-            "columns": ["source", "target", "context"],
-            "context_generation": "Azure OpenAI GPT-4.1",
-            "original_texts_used": len(original_texts_map)
+            "columns": ["source", "target", "description", "context"],
+            "description_generation": "Azure OpenAI GPT-4.1 from original_texts",
+            "primary_data_source": "Combined_Terms_Data.csv (consistent with Step 1)",
+            "fallback_sources": ["PRDSMRT_doc_merged_results_Processed_Complete.json", "High_Frequency_Terms.json"],
+            "original_texts_used": len(original_texts_map),
+            "examples_used": len(examples_map),
+            "data_flow": "Combined_Terms_Data.csv → description (GPT-4.1) + context (samples)"
         })
         
         logger.info(f"[OK] Step 9 completed:")
         logger.info(f"   Approved terms exported: {len(approved_terms):,}")
-        logger.info(f"   CSV format: source,target,context")
-        logger.info(f"   Context generation: Azure OpenAI GPT-4.1")
-        logger.info(f"   Compatible with reviewed/ folder structure")
+        logger.info(f"   CSV format: source,target,description,context")
+        logger.info(f"   Description generation: Azure OpenAI GPT-4.1 from original_texts")
+        logger.info(f"   Primary data source: Combined_Terms_Data.csv (consistent with Step 1)")
+        logger.info(f"   Context sampling: Up to 10 samples per term for human review")
         logger.info(f"[FOLDER] CSV file saved: {approved_csv_file}")
         
         # Update process stats
@@ -3354,9 +3395,11 @@ class AgenticTerminologyValidationSystem:
         
         return approved_csv_file
     
-    def _generate_contexts_parallel(self, approved_decisions: list, original_texts_map: dict) -> list:
+    def _generate_contexts_parallel(self, approved_decisions: list, examples_map: dict, original_texts_map: dict) -> list:
         """
-        Generate contexts for approved terms using parallel processing with GPT-4.1
+        Generate descriptions and contexts for approved terms using parallel processing with GPT-4.1
+        - examples_map: Used for generating professional descriptions via GPT-4.1
+        - original_texts_map: Used for context column (samples selected from original texts)
         Optimized based on system specifications and Azure OpenAI rate limits
         """
         import multiprocessing
@@ -3395,7 +3438,7 @@ class AgenticTerminologyValidationSystem:
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             # Submit all batch jobs
             future_to_batch = {
-                executor.submit(self._process_batch_contexts, batch_idx, batch, original_texts_map): batch_idx 
+                executor.submit(self._process_batch_contexts, batch_idx, batch, examples_map, original_texts_map): batch_idx 
                 for batch_idx, batch in enumerate(batches)
             }
             
@@ -3418,9 +3461,11 @@ class AgenticTerminologyValidationSystem:
         logger.info(f"[PARALLEL] Completed parallel context generation: {len(approved_terms):,} terms processed")
         return approved_terms
     
-    def _process_batch_contexts(self, batch_idx: int, batch_decisions: list, original_texts_map: dict) -> list:
+    def _process_batch_contexts(self, batch_idx: int, batch_decisions: list, examples_map: dict, original_texts_map: dict) -> list:
         """
-        Process a batch of decisions to generate contexts using GPT-4.1
+        Process a batch of decisions to generate descriptions and contexts using GPT-4.1
+        - Uses examples_map for generating professional descriptions
+        - Uses original_texts_map for context column (selects samples)
         This runs in a separate thread/process
         """
         import time
@@ -3435,19 +3480,25 @@ class AgenticTerminologyValidationSystem:
                 term = decision.get('term', '')
                 decision_type = decision.get('decision', '')
                 
-                # Generate professional context using GPT-4.1
-                context = self._generate_professional_context_with_gpt(
+                # Generate professional description using GPT-4.1 from examples
+                examples = examples_map.get(term, [])
+                description = self._generate_professional_context_with_gpt(
                     term, 
-                    original_texts_map.get(term, []),
+                    examples,
                     decision_type,
                     decision.get('reasoning', ''),
                     decision.get('translatability_score', 0),
                     decision.get('quality_score', 0)
                 )
                 
+                # Get context from original_texts (select samples for human review)
+                original_texts = original_texts_map.get(term, [])
+                context = self._select_context_samples(original_texts, max_samples=10)
+                
                 batch_results.append({
                     'source': term,
                     'target': term,  # For English terms, target is same as source
+                    'description': description,
                     'context': context
                 })
                 
@@ -3457,11 +3508,13 @@ class AgenticTerminologyValidationSystem:
                 
             except Exception as e:
                 logger.warning(f"[BATCH {batch_idx}] Failed to process term '{term}': {e}")
-                # Add fallback context
+                # Add fallback description and context
+                original_texts = original_texts_map.get(term, [])
                 batch_results.append({
                     'source': term,
                     'target': term,
-                    'context': self._generate_fallback_context(term, decision_type)
+                    'description': self._generate_fallback_context(term, decision_type),
+                    'context': self._select_context_samples(original_texts, max_samples=10)
                 })
         
         batch_duration = time.time() - batch_start_time
@@ -3470,13 +3523,43 @@ class AgenticTerminologyValidationSystem:
         
         return batch_results
     
+    def _select_context_samples(self, original_texts: list, max_samples: int = 10) -> str:
+        """
+        Select representative samples from original_texts for the context column
+        - Selects up to max_samples (default 10) from the original texts for human review
+        - Joins them with semicolons
+        - Preserves original text without modification
+        """
+        if not original_texts:
+            return ""
+        
+        # Handle if original_texts is a dict with 'texts' key
+        if isinstance(original_texts, dict):
+            original_texts = original_texts.get('texts', [])
+        
+        # Ensure it's a list
+        if not isinstance(original_texts, list):
+            return str(original_texts) if original_texts else ""
+        
+        # Select up to max_samples (10 by default for human review)
+        samples = original_texts[:max_samples]
+        
+        # Join with semicolon and space (common CSV practice for multi-value fields)
+        context = "; ".join(str(text).strip() for text in samples if text)
+        
+        return context
+    
     def _generate_professional_context_with_gpt(self, term: str, original_texts: list, 
                                               decision_type: str, reasoning: str, 
                                               translatability_score: float, quality_score: float) -> str:
         """
-        Generate professional context description using agentic framework (smolagent)
-        Intelligently analyzes original_texts to select or create aligned context
+        Generate professional description using agentic framework (smolagent)
+        Intelligently analyzes ALL original_texts from Combined_Terms_Data.csv
+        Creates professional technical description based on comprehensive context analysis
         Following the style and format of reviewed/ CSV files
+        
+        Note: original_texts now contains ALL texts from Combined CSV (not limited to 5)
+        This allows LLM to analyze full context and generate more accurate descriptions
         """
         try:
             # Use agentic framework for intelligent context analysis
@@ -3493,8 +3576,11 @@ class AgenticTerminologyValidationSystem:
                                                decision_type: str, reasoning: str, 
                                                translatability_score: float, quality_score: float) -> str:
         """
-        Use agentic framework (smolagent) to intelligently analyze original_texts
-        and create context aligned with reviewed/ CSV formatting requirements
+        Use agentic framework (smolagent) to intelligently analyze ALL original_texts
+        from Combined_Terms_Data.csv and create professional description
+        
+        LLM has access to ALL usage examples to understand term context comprehensively
+        and generate accurate, professional technical descriptions
         """
         try:
             # Try to use smolagents with proper Azure OpenAI integration
@@ -3575,10 +3661,27 @@ class AgenticTerminologyValidationSystem:
                 max_steps=3  # Limit steps for efficiency
             )
             
-            # Create the prompt
-            original_texts_sample = original_texts[:3] if original_texts else []
-            examples_text = "\n".join([f"- {text[:100]}..." if len(text) > 100 else f"- {text}" 
+            # Create the prompt with intelligently selected samples from ALL texts
+            # If there are many texts, use diverse sampling (first, middle, last)
+            if len(original_texts) > 10:
+                # Sample strategically: beginning, middle, and end
+                sample_indices = [0, 1, len(original_texts)//3, len(original_texts)//2, 
+                                -3, -2, -1]
+                original_texts_sample = [original_texts[i] for i in sample_indices 
+                                       if i < len(original_texts) and i >= -len(original_texts)]
+            elif len(original_texts) > 5:
+                # Use first 5 for medium-sized lists
+                original_texts_sample = original_texts[:5]
+            else:
+                # Use all for small lists
+                original_texts_sample = original_texts
+            
+            examples_text = "\n".join([f"- {text[:150]}..." if len(text) > 150 else f"- {text}" 
                                      for text in original_texts_sample])
+            
+            # Add note about total examples if truncated
+            if len(original_texts) > len(original_texts_sample):
+                examples_text += f"\n\n[Note: Showing {len(original_texts_sample)} representative samples from {len(original_texts)} total usage examples]"
             
             task_prompt = f"""Create a professional context description for the term "{term}" for a terminology database.
 
