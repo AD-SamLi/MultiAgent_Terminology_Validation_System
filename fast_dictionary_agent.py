@@ -279,6 +279,7 @@ class FastDictionaryAgent:
                 model_id=os.getenv("AZURE_OPENAI_MODEL", "gpt-5-2024-11-20"),
                 api_base=os.getenv("AZURE_OPENAI_ENDPOINT"),
                 api_version=os.getenv("AZURE_OPENAI_API_VERSION", "2024-02-01"),
+                temperature=0.0,  # Deterministic for consistency
                 credentials=EnvironmentCredential()
             )
             

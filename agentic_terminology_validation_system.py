@@ -329,9 +329,9 @@ class AgenticTerminologyValidationSystem:
                                         expected_terms = 429
                                 
                                 if translation_results and len(translation_results) >= expected_terms:
-                                    step_files[file] = file_path
+                        step_files[file] = file_path
                                     logger.info(f"[STEP 5] Found Translation_Results.json with {len(translation_results)}/{expected_terms} terms - COMPLETED")
-                                else:
+                    else:
                                     logger.info(f"[STEP 5] Translation_Results.json has {len(translation_results)}/{expected_terms} terms - Step 5 NOT completed")
                                     step_completed = False
                                     break
@@ -1249,9 +1249,9 @@ class AgenticTerminologyValidationSystem:
         non_dict_terms = [t for t in all_analyzed_terms if t.get('dictionary_analysis', {}).get('in_dictionary') == False]
         
         with open(new_terms_file, 'w', encoding='utf-8') as f:
-            json.dump({
-                'metadata': {
-                    'created_at': datetime.now().isoformat(),
+                json.dump({
+                    'metadata': {
+                        'created_at': datetime.now().isoformat(),
                     'total_new_terms': len(all_analyzed_terms),
                     'dictionary_terms_count': len(dict_terms),
                     'non_dictionary_terms_count': len(non_dict_terms),
@@ -1260,8 +1260,8 @@ class AgenticTerminologyValidationSystem:
                     'note': 'Dictionary_Terms_Identified.json and Non_Dictionary_Terms_Identified.json files are no longer generated - all data is in this file'
                 },
                 'new_terms': all_analyzed_terms
-            }, f, indent=2, ensure_ascii=False)
-        
+                }, f, indent=2, ensure_ascii=False)
+            
         logger.info(f"[STATS] Dictionary terms: {len(dict_terms)}, Non-dictionary terms: {len(non_dict_terms)}")
         logger.info(f"[NOTE] All terms saved in single file (separate dictionary/non-dictionary files no longer generated)")
         
@@ -2006,27 +2006,27 @@ class AgenticTerminologyValidationSystem:
                         
                 except ImportError:
                     # Fallback to original optimized configuration
-                    try:
-                        from optimized_translation_config import get_optimized_config
-                        ultra_config, hardware_profile = get_optimized_config()
+            try:
+                from optimized_translation_config import get_optimized_config
+                ultra_config, hardware_profile = get_optimized_config()
                         logger.info(f"[HARDWARE] Using standard optimized config: {hardware_profile.get('gpu_name', 'Unknown GPU')}, {hardware_profile.get('cpu_cores', 'Unknown')} cores")
-                        logger.info(f"[CONFIG] Available RAM: {hardware_profile.get('available_ram_gb', 'Unknown')}GB")
-                        logger.info(f"[CONFIG] GPU Workers: {ultra_config.gpu_workers}, CPU Workers: {ultra_config.cpu_workers}")
-                        logger.info(f"[CONFIG] Batch Size: {ultra_config.gpu_batch_size}, Queue Size: {ultra_config.max_queue_size}")
-                    except ImportError:
-                            # Final fallback to default configuration
-                            logger.warning("[WARNING] Could not load any optimized config, using defaults")
-                            ultra_config = UltraOptimizedConfig(
-                            model_size="1.3B",
-                            gpu_workers=1,  # Conservative default
-                            cpu_workers=8,
-                            gpu_batch_size=32,
-                            max_queue_size=50,
-                            predictive_caching=True,
-                            dynamic_batching=True,
-                            async_checkpointing=True,
-                            memory_mapping=False  # Conservative for memory
-                        )
+                logger.info(f"[CONFIG] Available RAM: {hardware_profile.get('available_ram_gb', 'Unknown')}GB")
+                logger.info(f"[CONFIG] GPU Workers: {ultra_config.gpu_workers}, CPU Workers: {ultra_config.cpu_workers}")
+                logger.info(f"[CONFIG] Batch Size: {ultra_config.gpu_batch_size}, Queue Size: {ultra_config.max_queue_size}")
+            except ImportError:
+                        # Final fallback to default configuration
+                        logger.warning("[WARNING] Could not load any optimized config, using defaults")
+                ultra_config = UltraOptimizedConfig(
+                    model_size="1.3B",
+                    gpu_workers=1,  # Conservative default
+                    cpu_workers=8,
+                    gpu_batch_size=32,
+                    max_queue_size=50,
+                    predictive_caching=True,
+                    dynamic_batching=True,
+                    async_checkpointing=True,
+                    memory_mapping=False  # Conservative for memory
+                )
             
             # Initialize the ultra-optimized runner with the current output directory
             # When resuming from checkpoint, don't resume the ultra runner's internal session
@@ -2697,7 +2697,7 @@ class AgenticTerminologyValidationSystem:
         
         # CHECK IF BATCH PROCESSING IS ALREADY COMPLETE
         existing_batch_files = glob.glob(os.path.join(step7_manager.batch_dir, "modern_step7_final_decisions_validation_batch_*.json"))
-        consolidated_file = os.path.join(step7_manager.results_dir, "consolidated_step7_final_decisions_validation_results.json")
+        consolidated_file = os.path.join(step7_manager.results_dir, "consolidated_modern_step7_final_decisions_validation_results.json")
         
         if existing_batch_files and not os.path.exists(consolidated_file):
             logger.info(f"[RESUME] Found {len(existing_batch_files)} existing batch files")
@@ -2733,20 +2733,16 @@ class AgenticTerminologyValidationSystem:
                     final_decisions, consolidated_data, step7_manager
                 )
                 
-                # Save final decisions
+                    # Save final decisions
                 decisions_file = os.path.join(str(self.output_dir), "Final_Terminology_Decisions.json")
             
-                with open(decisions_file, 'w', encoding='utf-8') as f:
-                    json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
+            with open(decisions_file, 'w', encoding='utf-8') as f:
+                json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
                 
-                # Log completion statistics
-                self._log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
-                
-                return decisions_file
-            else:
-                logger.error(f"[ERROR] Consolidated results file not found after consolidation: {consolidated_file}")
-                return self._create_empty_decisions_file(f"Consolidated results file not found: {consolidated_file}")
-        
+            # Log completion statistics
+            self._log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
+            
+            return decisions_file
         elif existing_batch_files and os.path.exists(consolidated_file):
             logger.info(f"[RESUME] Found {len(existing_batch_files)} batch files and consolidated results")
             logger.info(f"[RESUME] Checking if all terms have been processed or if continuation is needed")
@@ -2789,12 +2785,12 @@ class AgenticTerminologyValidationSystem:
                 decisions_file = os.path.join(str(self.output_dir), "Final_Terminology_Decisions.json")
             
             with open(decisions_file, 'w', encoding='utf-8') as f:
-                json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
+                    json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
                 
-            # Log completion statistics
-            _log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
-            
-            logger.info(f"[COMPLETE] Step 7 completed using existing batch results")
+                # Log completion statistics
+                _log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
+                
+                logger.info(f"[COMPLETE] Step 7 completed using existing batch results")
             return decisions_file
         else:
             # Initialize variables for the else block (no existing batch files case)
@@ -2853,7 +2849,7 @@ class AgenticTerminologyValidationSystem:
             )
             
             # Create comprehensive term data structure for modern validation with Step 5 & 6 integration
-            term_data = {
+                term_data = {
                     'term': term,
                     'frequency': result.get('frequency', 1),
                     'original_texts': result.get('original_texts', {'texts': []}),
@@ -3019,7 +3015,7 @@ class AgenticTerminologyValidationSystem:
             
             logger.info("[MODERN_BATCH] Modern validation batch processing with agents completed successfully")
                         
-        except Exception as e:
+                except Exception as e:
             logger.error(f"[ERROR] Modern validation batch processing failed: {e}")
             import traceback
             traceback.print_exc()
@@ -3064,7 +3060,7 @@ class AgenticTerminologyValidationSystem:
         # Save final decisions
                 decisions_file = os.path.join(str(self.output_dir), "Final_Terminology_Decisions.json")
                 
-                with open(decisions_file, 'w', encoding='utf-8') as f:
+        with open(decisions_file, 'w', encoding='utf-8') as f:
                     json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
                 
                 # Log completion statistics
@@ -3647,6 +3643,7 @@ class AgenticTerminologyValidationSystem:
                 azure_endpoint=endpoint,
                 api_key=token_result.token,
                 api_version="2024-02-01",
+                temperature=0.0,  # Deterministic for consistency
                 custom_role_conversions={
                     "tool-call": "user",
                     "tool-response": "assistant",
@@ -3877,10 +3874,101 @@ Generate ONLY the context description (no quotes, no extra text):"""
         else:
             return f"Technical term used in CAD/engineering software; approved for terminology database."
     
+    def _load_actual_statistics(self) -> Dict:
+        """Load actual statistics from result files instead of relying on process_stats"""
+        stats = {
+            'total_terms_input': 0,
+            'terms_after_cleaning': 0,
+            'frequency_1_terms': 0,
+            'frequency_gt_2_terms': 0,
+            'terms_translated': 0,
+            'terms_approved': 0,
+            'terms_conditionally_approved': 0,
+            'terms_needs_review': 0,
+            'terms_rejected': 0,
+            'decision_breakdown': {},
+            'thresholds': {
+                'single_word_cond': 0.45,
+                'multi_word_cond': 0.38,
+                'single_word_approved': 0.55,
+                'multi_word_approved': 0.48
+            }
+        }
+        
+        try:
+            # Load from Combined_Terms_Data.csv for input/cleaning stats
+            combined_file = self.output_dir / "Combined_Terms_Data.csv"
+            if combined_file.exists():
+                with open(combined_file, 'r') as f:
+                    lines = f.readlines()
+                    stats['total_terms_input'] = len(lines) - 1  # Subtract header
+                    stats['terms_after_cleaning'] = len(lines) - 1
+            
+            # Load from Translation_Results.json for translation stats
+            translation_file = self.output_dir / "Translation_Results.json"
+            if translation_file.exists():
+                with open(translation_file, 'r') as f:
+                    trans_data = json.load(f)
+                    stats['terms_translated'] = len(trans_data.get('translation_results', []))
+            
+            # Load from Final_Terminology_Decisions.json for decision stats
+            decisions_file = self.output_dir / "Final_Terminology_Decisions.json"
+            if decisions_file.exists():
+                with open(decisions_file, 'r') as f:
+                    decisions_data = json.load(f)
+                    final_decisions = decisions_data.get('final_decisions', [])
+                    
+                    # Count by decision
+                    decision_counts = {}
+                    for decision in final_decisions:
+                        dec_type = decision.get('decision', 'UNKNOWN')
+                        decision_counts[dec_type] = decision_counts.get(dec_type, 0) + 1
+                    
+                    # Set statistics
+                    stats['terms_approved'] = decision_counts.get('APPROVED', 0)
+                    stats['terms_conditionally_approved'] = decision_counts.get('CONDITIONALLY_APPROVED', 0)
+                    stats['terms_needs_review'] = decision_counts.get('NEEDS_REVIEW', 0)
+                    stats['terms_rejected'] = decision_counts.get('REJECTED', 0)
+                    
+                    # Calculate percentages for breakdown
+                    total = len(final_decisions)
+                    if total > 0:
+                        stats['decision_breakdown'] = {
+                            'APPROVED': decision_counts.get('APPROVED', 0),
+                            'APPROVED_pct': (decision_counts.get('APPROVED', 0) / total) * 100,
+                            'CONDITIONALLY_APPROVED': decision_counts.get('CONDITIONALLY_APPROVED', 0),
+                            'CONDITIONALLY_APPROVED_pct': (decision_counts.get('CONDITIONALLY_APPROVED', 0) / total) * 100,
+                            'NEEDS_REVIEW': decision_counts.get('NEEDS_REVIEW', 0),
+                            'NEEDS_REVIEW_pct': (decision_counts.get('NEEDS_REVIEW', 0) / total) * 100,
+                            'REJECTED': decision_counts.get('REJECTED', 0),
+                            'REJECTED_pct': (decision_counts.get('REJECTED', 0) / total) * 100
+                        }
+            
+            # Load from Frequency_Storage_Export.json for frequency stats
+            freq_file = self.output_dir / "Frequency_Storage_Export.json"
+            if freq_file.exists():
+                with open(freq_file, 'r') as f:
+                    freq_data = json.load(f)
+                    freq_1 = len([t for t in freq_data.get('terms', []) if t.get('frequency', 0) == 1])
+                    freq_gt_2 = len([t for t in freq_data.get('terms', []) if t.get('frequency', 0) >= 2])
+                    stats['frequency_1_terms'] = freq_1
+                    stats['frequency_gt_2_terms'] = freq_gt_2
+            
+        except Exception as e:
+            logger.warning(f"Could not load actual statistics: {e}")
+            # Fallback to process_stats if available
+            if self.process_stats:
+                return self.process_stats
+        
+        return stats
+    
     def _generate_summary_report(self, audit_record: Dict):
         """Generate a human-readable summary report"""
         
         report_file = str(self.output_dir / "Validation_Summary_Report.md")
+        
+        # ENHANCED: Load actual statistics from files instead of relying on process_stats
+        actual_stats = self._load_actual_statistics()
         
         with open(report_file, 'w', encoding='utf-8') as f:
             f.write("# Multi-Agent Terminology Validation System - Summary Report\n\n")
@@ -3900,14 +3988,34 @@ Generate ONLY the context description (no quotes, no extra text):"""
             f.write("9. Approved Terms CSV Export\n\n")
             
             f.write("## Statistics\n\n")
-            stats = self.process_stats
-            f.write(f"- **Total Terms Input:** {stats['total_terms_input']:,}\n")
-            f.write(f"- **Terms After Cleaning:** {stats['terms_after_cleaning']:,}\n")
-            f.write(f"- **Frequency = 1 Terms (Stored):** {stats['frequency_1_terms']:,}\n")
-            f.write(f"- **Frequency > 2 Terms (Processed):** {stats['frequency_gt_2_terms']:,}\n")
-            f.write(f"- **Terms Translated:** {stats['terms_translated']:,}\n")
-            f.write(f"- **Terms Approved:** {stats['terms_approved']:,}\n")
-            f.write(f"- **Terms Rejected:** {stats['terms_rejected']:,}\n\n")
+            # Use actual_stats instead of self.process_stats
+            f.write(f"- **Total Terms Input:** {actual_stats['total_terms_input']:,}\n")
+            f.write(f"- **Terms After Cleaning:** {actual_stats['terms_after_cleaning']:,}\n")
+            f.write(f"- **Frequency = 1 Terms (Stored):** {actual_stats['frequency_1_terms']:,}\n")
+            f.write(f"- **Frequency ≥ 2 Terms (Processed):** {actual_stats['frequency_gt_2_terms']:,}\n")
+            f.write(f"- **Terms Translated:** {actual_stats['terms_translated']:,}\n")
+            f.write(f"- **Terms Approved:** {actual_stats['terms_approved']:,}\n")
+            f.write(f"- **Terms Conditionally Approved:** {actual_stats.get('terms_conditionally_approved', 0):,}\n")
+            f.write(f"- **Terms Needs Review:** {actual_stats.get('terms_needs_review', 0):,}\n")
+            f.write(f"- **Terms Rejected:** {actual_stats['terms_rejected']:,}\n\n")
+            
+            # Add decision breakdown
+            if actual_stats.get('decision_breakdown'):
+                f.write("## Decision Breakdown\n\n")
+                breakdown = actual_stats['decision_breakdown']
+                f.write(f"- **APPROVED:** {breakdown.get('APPROVED', 0)} ({breakdown.get('APPROVED_pct', 0):.1f}%)\n")
+                f.write(f"- **CONDITIONALLY_APPROVED:** {breakdown.get('CONDITIONALLY_APPROVED', 0)} ({breakdown.get('CONDITIONALLY_APPROVED_pct', 0):.1f}%)\n")
+                f.write(f"- **NEEDS_REVIEW:** {breakdown.get('NEEDS_REVIEW', 0)} ({breakdown.get('NEEDS_REVIEW_pct', 0):.1f}%)\n")
+                f.write(f"- **REJECTED:** {breakdown.get('REJECTED', 0)} ({breakdown.get('REJECTED_pct', 0):.1f}%)\n\n")
+            
+            # Add threshold information
+            if actual_stats.get('thresholds'):
+                f.write("## Threshold Configuration (Option E)\n\n")
+                thresholds = actual_stats['thresholds']
+                f.write(f"- **Single-word CONDITIONALLY_APPROVED:** ≥ {thresholds.get('single_word_cond', 0.45)}\n")
+                f.write(f"- **Multi-word CONDITIONALLY_APPROVED:** ≥ {thresholds.get('multi_word_cond', 0.38)}\n")
+                f.write(f"- **Single-word APPROVED:** ≥ {thresholds.get('single_word_approved', 0.55)}\n")
+                f.write(f"- **Multi-word APPROVED:** ≥ {thresholds.get('multi_word_approved', 0.48)}\n\n")
             
             f.write("## Output Files\n\n")
             output_files = audit_record['output_files']

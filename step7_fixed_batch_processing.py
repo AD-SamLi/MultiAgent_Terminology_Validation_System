@@ -436,13 +436,34 @@ def _convert_modern_batch_results_to_decisions(consolidated_data: Dict, verified
             
             # Make final decision based on comprehensive score and translatability
             translatability_analysis = result.get('translatability_analysis', {})
-            final_decision, status = _make_final_decision(modern_score, translatability_analysis)
+            final_decision, status = _make_final_decision(modern_score, translatability_analysis, term)
+            
+            # Get translatability_score from Step 5 data
+            translatability_score = 0.0
+            if original_step5_data:
+                translated_langs = original_step5_data.get('translated_languages', 0)
+                total_langs = original_step5_data.get('total_languages', 1)
+                translatability_score = translated_langs / max(1, total_langs)
+            
+            # Calculate quality tier based on modern_score
+            quality_tier = _determine_quality_tier(modern_score)
+            
+            # Generate comprehensive decision reasoning
+            decision_reasoning = _generate_decision_reasoning(
+                term, modern_score, translatability_score, final_decision, 
+                translatability_analysis, decision_reasons, original_step5_data, original_step6_data
+            )
             
             # Create comprehensive decision record with batch processing metadata
             decision_record = {
                 'term': term,
                 'decision': final_decision,
                 'status': status,
+                'final_score': modern_score,  # CRITICAL: Add final_score for Step 9
+                'comprehensive_score': modern_score,  # FIX: Add comprehensive_score field
+                'translatability_score': translatability_score,  # FIX: Add translatability_score field
+                'quality_tier': quality_tier,  # FIX: Add quality_tier field
+                'decision_reasoning': decision_reasoning,  # FIX: Add decision_reasoning field
                 'modern_validation_score': modern_score,
                 'ml_quality_score': enhanced_score,
                 'decision_reasons': decision_reasons,
@@ -500,20 +521,20 @@ def _calculate_comprehensive_score_with_agent_results(result: Dict, enhanced_sco
     
     # ROBUST SCORING: Start with a reasonable base score even if agents fail
     # Base score from modern validation ML system (25% weight - reduced to make room for translatability)
-    if enhanced_score > 0:
+    # CRITICAL FIX: Check for None, not > 0, because 0.0 is a valid score (after penalties)
+    if enhanced_score is not None:
         base_score = enhanced_score * 0.25
     else:
         # Fallback: Use Step 5/6 data to estimate a reasonable base score
         base_score = 0.4  # Start with neutral score if ML system fails
     
     # Agent validation result score (20% weight)
-    agent_score = validation_result.get('score', 0.0) if validation_result else 0.0
-    if agent_score > 0:
+    # CRITICAL FIX: Check if validation_result exists and has score, not if score > 0
+    agent_score = 0.0  # Initialize to 0.0 for cases where agent fails
+    if validation_result and 'score' in validation_result:
+        agent_score = validation_result.get('score', 0.0)
         base_score += agent_score * 0.2
-    else:
-        # Fallback: If agent fails, give partial credit based on data availability
-        if step5_data and step6_data:
-            base_score += 0.1  # 50% of the agent weight as fallback
+    # CRITICAL FIX: Removed fallback bonus - agent failure should not help score
     
     # Translatability Analysis Integration (15% weight - NEW)
     if translatability_analysis:
@@ -523,89 +544,85 @@ def _calculate_comprehensive_score_with_agent_results(result: Dict, enhanced_sco
         untranslatable_indicators = translatability_analysis.get('untranslatable_indicators', [])
         
         # Translatability scoring with NEW TERM logic
+        # CRITICAL FIX: Reduced bonuses from 0.12 to 0.08 to prevent over-rewarding
         if translatability_category == "UNTRANSLATABLE":
             has_technical_value = translatability_analysis.get('has_technical_value', False)
             if has_technical_value:
                 if same_language_rate > 0.8:
                     # Universal technical terms - strong NEW TERM candidates
-                    base_score += 0.12
+                    base_score += 0.08  # Reduced from 0.12
                 else:
                     # Technical terms that should be NEW TERMS
-                    base_score += 0.08
+                    base_score += 0.06  # Reduced from 0.08
             else:
                 # Non-technical untranslatable terms get penalty
                 base_score -= 0.05
         elif translatability_category == "PARTIALLY_TRANSLATABLE":
             if language_coverage_rate >= 0.3:
-                base_score += 0.05
+                base_score += 0.04  # Reduced from 0.05
             else:
                 base_score -= 0.02
         else:  # FULLY_TRANSLATABLE
-            base_score += 0.12
+            base_score += 0.08  # Reduced from 0.12
         
         # Penalty for multiple untranslatable indicators
         indicator_penalty = min(0.05, len(untranslatable_indicators) * 0.01)
         base_score -= indicator_penalty
     
-    # Step 5 Translation Quality Integration (25% weight) - IMPROVED SCORING
+    # Step 5 Translation Quality Integration (25% weight) - BALANCED SCORING
+    # CRITICAL FIX: Reduced bonuses to match 25% weight (max 0.15 instead of 0.33)
     if step5_data:
         translated_langs = step5_data.get('translated_languages', 0)
         total_langs = step5_data.get('total_languages', 1)
         translation_success_rate = translated_langs / max(1, total_langs)
         
-        # More generous translation quality scoring
+        # Balanced translation quality scoring (max 0.15 = 25% weight)
         if translation_success_rate >= 0.95:
-            base_score += 0.25  # Excellent translation
+            base_score += 0.15  # Reduced from 0.25 - Excellent translation
         elif translation_success_rate >= 0.85:
-            base_score += 0.20  # Very good translation
+            base_score += 0.12  # Reduced from 0.20 - Very good translation
         elif translation_success_rate >= 0.70:
-            base_score += 0.15  # Good translation
+            base_score += 0.09  # Reduced from 0.15 - Good translation
         elif translation_success_rate >= 0.50:
-            base_score += 0.10  # Acceptable translation
+            base_score += 0.06  # Reduced from 0.10 - Acceptable translation
         elif translation_success_rate >= 0.30:
-            base_score += 0.05  # Partial translation still has value
+            base_score += 0.03  # Reduced from 0.05 - Partial translation
         
-        # Processing tier bonus
-        processing_tier = step5_data.get('processing_tier', '')
-        if processing_tier in ['expanded', 'high_frequency']:
-            base_score += 0.05  # Increased bonus for high-frequency terms
-        
-        # Bonus for having translation data at all
-        if translated_langs > 0:
-            base_score += 0.03  # Basic bonus for any successful translations
+        # REMOVED: Processing tier bonus (+0.05) - was inflating scores
+        # REMOVED: Basic translation bonus (+0.03) - was inflating scores
     else:
         # Penalty for missing Step 5 data
         base_score -= 0.05
     
-    # Step 6 Verification Quality Integration (15% weight) - IMPROVED SCORING
+    # Step 6 Verification Quality Integration (10% weight) - BALANCED SCORING
+    # CRITICAL FIX: Reduced bonuses to match 10% weight (max 0.10 instead of 0.20)
     if step6_data:
         verification_passed = step6_data.get('verification_passed', False)
         verification_issues = step6_data.get('verification_issues_count', 0)
         verified_translations = step6_data.get('verified_translations', {})
         
         if verification_passed:
-            base_score += 0.15  # Strong bonus for passing verification
+            base_score += 0.08  # Reduced from 0.15 - Passing verification
             
             # Additional bonus based on number of verified translations
             verified_count = len(verified_translations) if isinstance(verified_translations, dict) else 0
             if verified_count >= 10:
-                base_score += 0.05  # Bonus for extensive verification
+                base_score += 0.02  # Reduced from 0.05 - Extensive verification
             elif verified_count >= 5:
-                base_score += 0.03  # Bonus for good verification coverage
+                base_score += 0.01  # Reduced from 0.03 - Good verification coverage
         else:
-            # More lenient penalty system
+            # Stricter penalty system - verification failure should matter
             if verification_issues <= 2:
-                base_score += 0.05  # Minor issues still get some credit
+                base_score += 0.02  # Reduced from 0.05 - Minor issues
             elif verification_issues <= 5:
-                base_score += 0.02  # Moderate issues get minimal credit
+                base_score += 0.01  # Reduced from 0.02 - Moderate issues
             else:
-                penalty = min(0.05, verification_issues * 0.01)  # Reduced penalty
+                penalty = min(0.05, verification_issues * 0.01)
                 base_score -= penalty
         
-        # Bonus for having Step 6 data at all
-        base_score += 0.02
+        # REMOVED: Bonus for having Step 6 data (+0.02) - was inflating scores
     else:
-        # Smaller penalty for missing Step 6 data
+        # Penalty for missing Step 6 data
         base_score -= 0.03
     
     # Advanced Context Analysis Integration (10% weight) - IMPROVED SCORING
@@ -762,29 +779,79 @@ def _generate_comprehensive_reasons_with_agent_results(result: Dict, enhanced_sc
     return reasons
 
 
-def _make_final_decision(score: float, translatability_analysis: Dict = None) -> Tuple[str, str]:
-    """Make final decision based on comprehensive score and translatability analysis - IMPROVED THRESHOLDS"""
+def _make_final_decision(score: float, translatability_analysis: Dict = None, term: str = None) -> Tuple[str, str]:
+    """
+    Make final decision based on comprehensive score and translatability analysis.
+    
+    NEW: Applies STRICTER thresholds for single-word terms to ensure higher quality.
+    Multi-word technical phrases use standard thresholds.
+    """
+    
+    # Determine if this is a single-word term
+    word_count = len(term.split()) if term else 2  # Default to multi-word if term not provided
+    is_single_word = (word_count == 1)
     
     # Check if this is a NEW TERM candidate
     if translatability_analysis:
         recommended_action = translatability_analysis.get('recommended_action', '')
         if 'NEW_TERM' in recommended_action:
-            if score >= 0.6:  # Lowered from 0.7 - more generous for new terms
-                return "APPROVED_AS_NEW_TERM", "approved_as_new_term"
-            elif score >= 0.4:  # Lowered from 0.5 - more generous for new terms
-                return "CONDITIONALLY_APPROVED_AS_NEW_TERM", "conditionally_approved_as_new_term"
+            if is_single_word:
+                # Stricter thresholds for single-word new terms
+                if score >= 0.7:  # +0.1 stricter
+                    return "APPROVED_AS_NEW_TERM", "approved_as_new_term"
+                elif score >= 0.5:  # +0.1 stricter
+                    return "CONDITIONALLY_APPROVED_AS_NEW_TERM", "conditionally_approved_as_new_term"
+                else:
+                    return "NEEDS_REVIEW_FOR_NEW_TERM", "needs_review_for_new_term"
             else:
-                return "NEEDS_REVIEW_FOR_NEW_TERM", "needs_review_for_new_term"
+                # Standard thresholds for multi-word new terms
+                if score >= 0.6:
+                    return "APPROVED_AS_NEW_TERM", "approved_as_new_term"
+                elif score >= 0.4:
+                    return "CONDITIONALLY_APPROVED_AS_NEW_TERM", "conditionally_approved_as_new_term"
+                else:
+                    return "NEEDS_REVIEW_FOR_NEW_TERM", "needs_review_for_new_term"
     
-    # Standard decision logic for translatable terms - MORE GENEROUS THRESHOLDS
-    if score >= 0.7:  # Lowered from 0.8 - more realistic for good terms
-        return "APPROVED", "approved"
-    elif score >= 0.5:  # Lowered from 0.6 - more generous for decent terms
-        return "CONDITIONALLY_APPROVED", "conditionally_approved"
-    elif score >= 0.3:  # Lowered from 0.4 - give more terms a chance for review
-        return "NEEDS_REVIEW", "needs_review"
+    # Standard decision logic with STRICTER THRESHOLDS (Option E - Enhanced Quality)
+    # Based on Option D + additional filtering for generic terms
+    # Research: Technical documentation approval rate = 40-60% (high precision)
+    # Target: ~1,200-1,350 approved terms (52-59%) - high quality terms only
+    # Focus: Filter out generic single-word and generic two-word verb+noun combinations
+    if is_single_word:
+        # SINGLE-WORD THRESHOLDS (Stricter to filter generic terms like accept, add, create)
+        # Raised by +0.05-0.08 from Option D to reduce generic single-word approvals
+        if score >= 0.55:  # Exceptional single words (very rare, domain-specific)
+            return "APPROVED", "approved"
+        elif score >= 0.45:  # Quality single words (well-validated, technical)
+            return "CONDITIONALLY_APPROVED", "conditionally_approved"
+        elif score >= 0.38:  # Marginal single words (human review needed)
+            return "NEEDS_REVIEW", "needs_review"
+        else:
+            return "REJECTED", "rejected"  # Generic/low-quality single words (< 0.38)
     else:
-        return "REJECTED", "rejected"
+        # MULTI-WORD THRESHOLDS (Moderately stricter to filter generic two-word terms)
+        # Raised by +0.03 from Option D to filter "add buttons", "create new", "click save"
+        if score >= 0.48:  # Excellent multi-word terms (domain-specific, technical)
+            return "APPROVED", "approved"
+        elif score >= 0.38:  # Good multi-word terms (validated, contextual)
+            return "CONDITIONALLY_APPROVED", "conditionally_approved"
+        elif score >= 0.32:  # Marginal terms (manual review) - equivalent to TM 70-75%
+            return "NEEDS_REVIEW", "needs_review"
+        else:
+            return "REJECTED", "rejected"  # Low quality terms (< 0.32)
+
+
+def _count_actual_batch_files(batch_dir: str) -> int:
+    """Count actual batch files in the batch directory"""
+    try:
+        import os
+        import glob
+        batch_pattern = os.path.join(str(batch_dir), "batch_*.json")
+        batch_files = glob.glob(batch_pattern)
+        return len(batch_files)
+    except Exception as e:
+        logger.warning(f"Could not count batch files: {e}")
+        return 0
 
 
 def _create_final_decisions_data_with_batch_info(final_decisions: List[Dict], consolidated_data: Dict, step7_manager) -> Dict:
@@ -834,11 +901,15 @@ def _create_final_decisions_data_with_batch_info(final_decisions: List[Dict], co
         },
         'batch_processing_summary': {
             'total_batches_processed': len(consolidated_data.get('batches', {})),
-            'batch_directory': step7_manager.batch_dir,
-            'cache_directory': step7_manager.cache_dir,
-            'logs_directory': step7_manager.logs_dir,
+            'batch_directory': str(step7_manager.batch_dir),
+            'cache_directory': str(step7_manager.cache_dir),
+            'logs_directory': str(step7_manager.logs_dir),
             'consolidation_info': consolidated_data.get('consolidation_info', {}),
-            'summary_statistics': consolidated_data.get('summary_statistics', {})
+            'summary_statistics': consolidated_data.get('summary_statistics', {}),
+            # Add actual batch count from filesystem as fallback
+            'total_batches': _count_actual_batch_files(step7_manager.batch_dir),
+            'terms_per_batch': round(total_decisions / max(1, len(consolidated_data.get('batches', {}))), 1),
+            'total_processing_time_seconds': consolidated_data.get('consolidation_info', {}).get('total_duration', 0)
         },
         'modern_validation_summary': {
             'total_decisions': total_decisions,
@@ -1210,3 +1281,107 @@ def _assess_technical_value_for_new_term(term: str, untranslatable_indicators: L
     
     # Default: if no clear indicators, consider it low value
     return False
+
+
+def _determine_quality_tier(score: float) -> str:
+    """Determine quality tier based on comprehensive score"""
+    if score >= 0.85:
+        return "Exceptional"
+    elif score >= 0.70:
+        return "High Quality"
+    elif score >= 0.55:
+        return "Good Quality"
+    elif score >= 0.40:
+        return "Standard Quality"
+    elif score >= 0.25:
+        return "Below Standard"
+    else:
+        return "Poor Quality"
+
+
+def _generate_decision_reasoning(term: str, comprehensive_score: float, translatability_score: float,
+                                 decision: str, translatability_analysis: Dict, decision_reasons: List[str],
+                                 step5_data: Dict, step6_data: Dict) -> str:
+    """Generate comprehensive decision reasoning text"""
+    
+    # Determine if single or multi-word
+    word_count = len(term.split())
+    is_single_word = (word_count == 1)
+    term_type = "single-word" if is_single_word else "multi-word"
+    
+    # Get threshold ranges for context
+    if is_single_word:
+        if decision == "APPROVED":
+            threshold_info = "≥0.55 (exceptional single-word terms)"
+        elif decision == "CONDITIONALLY_APPROVED":
+            threshold_info = "0.45-0.54 (quality single-word terms)"
+        elif decision == "NEEDS_REVIEW":
+            threshold_info = "0.38-0.44 (marginal single-word terms)"
+        else:
+            threshold_info = "<0.38 (low-quality single-word terms)"
+    else:
+        if decision == "APPROVED":
+            threshold_info = "≥0.48 (excellent multi-word terms)"
+        elif decision == "CONDITIONALLY_APPROVED":
+            threshold_info = "0.38-0.47 (good multi-word terms)"
+        elif decision == "NEEDS_REVIEW":
+            threshold_info = "0.32-0.37 (marginal multi-word terms)"
+        else:
+            threshold_info = "<0.32 (low-quality multi-word terms)"
+    
+    # Build reasoning text
+    reasoning_parts = []
+    
+    # Score and threshold explanation
+    reasoning_parts.append(
+        f"Term '{term}' ({term_type}) scored {comprehensive_score:.3f}, "
+        f"placing it in the {decision} category (threshold: {threshold_info})."
+    )
+    
+    # Translatability analysis
+    if translatability_score > 0:
+        trans_category = "Excellent" if translatability_score >= 0.95 else \
+                        "Very Good" if translatability_score >= 0.85 else \
+                        "Good" if translatability_score >= 0.70 else \
+                        "Acceptable" if translatability_score >= 0.50 else "Poor"
+        reasoning_parts.append(
+            f"Translatability: {trans_category} ({translatability_score:.1%} translation success rate across languages)."
+        )
+    
+    # Step 5 and 6 integration
+    if step5_data and step6_data:
+        translated_langs = step5_data.get('translated_languages', 0)
+        total_langs = step5_data.get('total_languages', 0)
+        verified = "passed" if step6_data.get('verification_passed', False) else "flagged for review"
+        reasoning_parts.append(
+            f"Translation data: {translated_langs}/{total_langs} languages, verification {verified}."
+        )
+    
+    # Translatability analysis insights
+    if translatability_analysis:
+        category = translatability_analysis.get('category', 'unknown')
+        is_translatable = translatability_analysis.get('is_translatable', True)
+        
+        if not is_translatable:
+            reasoning_parts.append(
+                f"Translatability concern: classified as '{category}' (may require special handling)."
+            )
+        elif category in ['Highly Translatable', 'Well Translatable']:
+            reasoning_parts.append(
+                f"Strong translatability: classified as '{category}'."
+            )
+    
+    # Agent validation insights (top 2 reasons)
+    if decision_reasons and len(decision_reasons) > 0:
+        top_reasons = decision_reasons[:2]
+        reasoning_parts.append(
+            f"Agent validation: {'; '.join(top_reasons)}."
+        )
+    
+    # Quality tier
+    quality_tier = _determine_quality_tier(comprehensive_score)
+    reasoning_parts.append(
+        f"Overall quality tier: {quality_tier}."
+    )
+    
+    return " ".join(reasoning_parts)

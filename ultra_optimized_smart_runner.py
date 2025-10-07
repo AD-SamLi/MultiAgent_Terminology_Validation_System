@@ -166,8 +166,8 @@ class UltraOptimizedSmartRunner:
             if config.gpu_workers > 1:
                 print(f"🎮 Multi-Model Single GPU mode - {config.gpu_workers} NLLB instances on 1 GPU")
             else:
-                print(f"🎮 Single GPU mode - balanced GPU+CPU translation")
-                config.gpu_workers = 1
+            print(f"🎮 Single GPU mode - balanced GPU+CPU translation")
+            config.gpu_workers = 1
             
             model_memory_gb = 2.6 if config.model_size == "1.3B" else 6.7
             
@@ -370,10 +370,10 @@ class UltraOptimizedSmartRunner:
                     self.results = []
             else:
             # Ensure completely fresh state when skipping checkpoints
-                self.processed_terms = 0
-                self.failed_terms = 0
-                self.processed_terms_set.clear()
-                self.results = []
+            self.processed_terms = 0
+            self.failed_terms = 0
+            self.processed_terms_set.clear()
+            self.results = []
         
         print(f"⚡ ULTRA-OPTIMIZED SMART RUNNER INITIALIZED")
         print(f"   • Session: {self.session_id}")
@@ -845,16 +845,16 @@ class UltraOptimizedSmartRunner:
             print("⚡ No main checkpoint found - checking Translation_Results.json for existing progress")
             # FALLBACK: Load progress directly from Translation_Results.json
             results_file = os.path.join(self.data_source_dir, "Translation_Results.json") if self.data_source_dir else "Translation_Results.json"
-            if os.path.exists(results_file):
+                    if os.path.exists(results_file):
                 try:
-                    with open(results_file, 'r', encoding='utf-8') as f:
+                        with open(results_file, 'r', encoding='utf-8') as f:
                         results_data = json.load(f)
                     
                     translation_results = results_data.get('translation_results', [])
                     processed_terms_list = []
                     for result in translation_results:
                             if isinstance(result, dict) and 'term' in result:
-                                processed_terms_list.append(result['term'])
+                            processed_terms_list.append(result['term'])
                     
                     self.processed_terms_set = set(processed_terms_list)
                     self.processed_terms = len(self.processed_terms_set)
@@ -1123,7 +1123,7 @@ class UltraOptimizedSmartRunner:
             print(f"   💡 GPU acceleration level: {self.hybrid_config['hybrid_acceleration_level']:.1f}")
             return self._hybrid_cpu_gpu_translation_worker(worker_id)
         else:
-            print(f"⚡ Initializing ultra-optimized CPU translation worker {worker_id}...")
+        print(f"⚡ Initializing ultra-optimized CPU translation worker {worker_id}...")
             return self._pure_cpu_translation_worker(worker_id)
     
     def _hybrid_cpu_gpu_translation_worker(self, worker_id: int):
@@ -2391,7 +2391,7 @@ class UltraOptimizedSmartRunner:
                 # The main system sets processed_terms and total_terms before calling this method
                 if self.total_terms == 0:
                     # Only set total_terms if not already set (fresh start)
-                    self.total_terms = len(all_terms)
+                self.total_terms = len(all_terms)
                     print(f"⚡ Fresh start: total_terms set to {self.total_terms}")
                 else:
                     # Preserve total_terms from checkpoint (resume scenario)
@@ -2401,8 +2401,8 @@ class UltraOptimizedSmartRunner:
                 # The main system has already set processed_terms to the correct value
                 if self.processed_terms == 0:
                     # Only reset counters for fresh start
-                    self.failed_terms = 0
-                    self.processed_terms_set.clear()
+                self.failed_terms = 0
+                self.processed_terms_set.clear()
                     print(f"⚡ Fresh start: reset counters for processing {len(all_terms)} terms")
                 else:
                     # Preserve session progress when resuming

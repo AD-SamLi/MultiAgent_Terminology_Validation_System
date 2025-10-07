@@ -430,6 +430,7 @@ class TerminologyAgent:
                 azure_endpoint=endpoint,
                 api_key=token_result.token,
                 api_version=config["api_version"],
+                temperature=0.0,  # Deterministic for consistency
                 custom_role_conversions={
                     "tool-call": "user",
                     "tool-response": "assistant",
