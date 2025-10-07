@@ -1,0 +1,111 @@
+# ==============================================
+# Additions to .gitignore for Terminology System
+# Date: October 7, 2025
+# ==============================================
+
+# Add these lines to your .gitignore file
+
+# Test files
+test_*.py
+validate_fixes.py
+test_*.log
+
+# Temporary environment files
+current_session.env
+session_vars.env
+current_full_session.env
+*.env.backup
+
+# Log files
+*.log
+*.log.gz
+*.log.*
+
+# Archive directories
+archive/
+old_outputs/
+
+# Output directories (keep structure, ignore contents)
+agentic_validation_output_*/
+prdsmrt_full_validation_output_*/
+
+# Temporary analysis files
+*_SUMMARY.md
+*_FIX*.md
+*_ANALYSIS*.md
+*_REPORT.txt
+SESSION_COMPARISON*.md
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Azure/Cloud credentials (if accidentally created)
+*.pem
+*.key
+azure_credentials*.json
+
+# Large binary files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.bin
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Node modules (for Create SVG Diagram)
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Pytest
+.pytest_cache/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
