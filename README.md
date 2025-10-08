@@ -19,7 +19,7 @@ The Multi-Agent Terminology Validation System processes terminology through a **
 - **🎯 Professional Context Generation**: Azure OpenAI GPT-4.1 powered context creation
 - **📋 CSV Export**: Professional terminology export compatible with reviewed/ folder structure
 
-## 📈 Latest Results (Session: 20251007_170215)
+## 📈 Latest Results (Session: 20251008_133519)
 
 | Metric | Value | Description |
 |--------|--------|-------------|
@@ -48,15 +48,54 @@ The Multi-Agent Terminology Validation System processes terminology through a **
 8. **📋 Step 8: Audit Record** - Complete audit trail generation with enhanced formatting
 9. **📄 Step 9: CSV Export** - Professional approved terms export with GPT-4.1 generated contexts
 
-### Core Components
+### 📁 Project Structure
 
-- **`agentic_terminology_validation_system.py`** - Main orchestrator with 9-step workflow
-- **`ultra_optimized_smart_runner.py`** - Dynamic resource allocation and translation engine
-- **`modern_parallel_validation.py`** - Batch processing manager with agent integration
-- **`step7_fixed_batch_processing.py`** - Final validation logic with translatability analysis
-- **`terminology_agent.py`** - AI agent implementation with smolagents framework
-- **`modern_terminology_review_agent.py`** - Advanced terminology review agent
-- **`fast_dictionary_agent.py`** - High-speed dictionary validation
+```
+MultiAgent_Terminology_Validation_System/
+├── agentic_terminology_validation_system.py  # Main orchestrator (9-step workflow)
+├── requirements.txt                          # Python dependencies
+├── README.md                                # This file
+│
+├── src/                                     # Source code modules
+│   ├── agents/                             # AI agents
+│   │   ├── terminology_agent.py           # Glossary validation
+│   │   ├── modern_terminology_review_agent.py  # Final review
+│   │   └── fast_dictionary_agent.py       # Dictionary analysis
+│   ├── processors/                         # Data processors
+│   │   ├── direct_unified_processor.py    # Term collection
+│   │   ├── frequency_storage.py           # Frequency analysis
+│   │   └── step7_fixed_batch_processing.py  # Batch helpers
+│   ├── translation/                        # Translation system
+│   │   ├── ultra_optimized_smart_runner.py  # Translation orchestrator
+│   │   ├── nllb_translation_tool.py       # NLLB model wrapper
+│   │   └── dynamic_worker_manager.py      # Worker management
+│   ├── validation/                         # Validation modules
+│   │   └── modern_parallel_validation.py  # Parallel validation
+│   ├── config/                             # Configuration
+│   │   ├── adaptive_system_config.py      # Primary config
+│   │   ├── multi_model_gpu_config.py      # Multi-GPU config
+│   │   ├── multi_model_gpu_manager.py     # GPU management
+│   │   └── optimized_translation_config.py  # Translation config
+│   └── tools/                              # Utility tools
+│       ├── terminology_tool.py            # Glossary management
+│       ├── atomic_json_utils.py           # JSON operations
+│       └── auth_fix_wrapper.py            # Authentication
+│
+├── glossary/                               # Terminology glossaries
+│   ├── data/                              # Glossary data files
+│   └── README.md                          # Glossary documentation
+│
+├── docs/                                   # Documentation
+│   ├── TECHNICAL_DOCUMENTATION.md         # Technical specs
+│   ├── CHANGELOG.md                       # Version history
+│   └── [other docs]                       # Additional documentation
+│
+├── examples/                               # Example files
+│   └── Create SVG Diagram/                # Visualization tool
+│
+└── output/                                 # Output directory
+    └── agentic_validation_output_*/       # Run outputs
+```
 
 ## 🚀 Quick Start
 
@@ -72,12 +111,12 @@ The Multi-Agent Terminology Validation System processes terminology through a **
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd Terms_Verificaion_System
+   git clone https://github.com/AD-SamLi/MultiAgent_Terminology_Validation_System.git
+   cd MultiAgent_Terminology_Validation_System
    ```
 
 2. **Create virtual environment**
-   ```bash
+```bash
    python -m venv venv
    source venv/bin/activate  # Linux/Mac
    # or
@@ -85,9 +124,9 @@ The Multi-Agent Terminology Validation System processes terminology through a **
    ```
 
 3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 4. **Download NLTK data**
    ```bash
@@ -293,7 +332,7 @@ python -c "from azure.identity import DefaultAzureCredential; print(DefaultAzure
 ```
 
 #### Memory Errors
-```bash
+   ```bash
 # Monitor memory usage
 htop  # Linux
 # or Task Manager (Windows)
@@ -303,7 +342,7 @@ python agentic_terminology_validation_system.py --cpu-workers 8 input.csv
 ```
 
 #### Checkpoint Recovery
-```bash
+   ```bash
 # Resume from specific checkpoint
 python agentic_terminology_validation_system.py input.csv --resume-from agentic_validation_output_20250920_121839
 
@@ -312,7 +351,7 @@ python agentic_terminology_validation_system.py input.csv --resume-from output_f
 ```
 
 #### Context Generation Issues
-```bash
+   ```bash
 # Check Azure OpenAI quota
 az cognitiveservices account list-usage --name your-openai-resource --resource-group your-rg
 
@@ -470,8 +509,8 @@ For support and questions:
 ---
 
 **Generated by Multi-Agent Terminology Validation System v1.0**  
-**Last Updated**: October 7, 2025  
-**Session**: 20251007_170215  
+**Last Updated**: October 8, 2025  
+**Session**: 20251008_133519  
 **Features**: 9-Step Pipeline | GPT-4.1 Context Generation | Dynamic Resource Allocation | Professional CSV Export
 
 ---

@@ -23,30 +23,32 @@ Process Flow:
 import os
 import sys
 import json
+
+# Fix Windows console encoding for emoji support
+if sys.platform == 'win32':
+    import codecs
+    # Set UTF-8 encoding for stdout and stderr
+    if sys.stdout.encoding != 'utf-8':
+        sys.stdout.reconfigure(encoding='utf-8')
+    if sys.stderr.encoding != 'utf-8':
+        sys.stderr.reconfigure(encoding='utf-8')
 import time
 import logging
 import argparse
-import subprocess
 from datetime import datetime
 from typing import Dict, List, Optional, Set, Tuple, Any
 from pathlib import Path
-from multiprocessing import Pool, cpu_count
-from functools import partial
+from multiprocessing import cpu_count
 import concurrent.futures
 import multiprocessing as mp
 
 # Import system components
-from convert_extracted_to_combined import convert_extracted_to_combined
-from verify_terms_in_text import create_cleaned_csv, analyze_term_matching
-from create_clean_csv import create_clean_csv_formats
-from create_json_format import create_complete_json_format
-from frequency_storage import FrequencyStorageSystem
-from terminology_agent import TerminologyAgent
-from terminology_tool import TerminologyTool
-from ultra_optimized_smart_runner import UltraOptimizedSmartRunner, UltraOptimizedConfig
-from modern_parallel_validation import OrganizedValidationManager, EnhancedValidationSystem
-from fast_dictionary_agent import FastDictionaryAgent
-from auth_fix_wrapper import ensure_agent_auth_fix, robust_agent_call_with_retries
+from src.processors.frequency_storage import FrequencyStorageSystem
+from src.agents.terminology_agent import TerminologyAgent
+from src.translation.ultra_optimized_smart_runner import UltraOptimizedSmartRunner, UltraOptimizedConfig
+from src.validation.modern_parallel_validation import OrganizedValidationManager, EnhancedValidationSystem
+from src.agents.fast_dictionary_agent import FastDictionaryAgent
+from src.tools.auth_fix_wrapper import ensure_agent_auth_fix
 
 # Setup logging
 logging.basicConfig(
@@ -181,15 +183,11 @@ class AgenticTerminologyValidationSystem:
         self.resume_from = resume_from
         
         # Performance optimization flags
-        self.skip_glossary_validation = self.config.get('skip_glossary_validation', False)
-        self.fast_mode = self.config.get('fast_mode', False)
         self.use_process_pool = self.config.get('use_process_pool', False)  # Default to ThreadPool for stability
         
         # System components
         self.frequency_storage = None
         self.terminology_agent = None
-        self.validation_manager = None
-        self.translation_runner = None
         self.fast_dictionary_agent = None
         self.resource_monitor = None  # Dynamic resource monitoring
         
@@ -329,9 +327,9 @@ class AgenticTerminologyValidationSystem:
                                         expected_terms = 429
                                 
                                 if translation_results and len(translation_results) >= expected_terms:
-                        step_files[file] = file_path
+                                    step_files[file] = file_path
                                     logger.info(f"[STEP 5] Found Translation_Results.json with {len(translation_results)}/{expected_terms} terms - COMPLETED")
-                    else:
+                                else:
                                     logger.info(f"[STEP 5] Translation_Results.json has {len(translation_results)}/{expected_terms} terms - Step 5 NOT completed")
                                     step_completed = False
                                     break
@@ -506,48 +504,10 @@ class AgenticTerminologyValidationSystem:
             else:
                 logger.warning(f"[WARNING] Glossary folder not found: {glossary_folder}")
             
-            # 3. Initialize Validation Manager (DISABLED - not used in current flow)
-            # self.validation_manager = OrganizedValidationManager(
-            #     model_name=self.config.get('validation_model', 'gpt-4.1'),
-            #     run_folder=f"validation_{self.session_id}",
-            #     base_output_dir=str(self.output_dir),
-            #     organize_existing=True
-            # )
-            self.validation_manager = None  # Disabled to prevent unnecessary directory creation
-            
-            # 4. Initialize Fast Dictionary Agent
+            # 3. Initialize Fast Dictionary Agent
             self.fast_dictionary_agent = FastDictionaryAgent()
             if not self.fast_dictionary_agent.dictionary_tool.initialized:
                 logger.warning("[WARNING] Fast Dictionary Agent not fully initialized - NLTK may be missing")
-            
-            # 4.5. Initialize Azure OpenAI client for Step 9 context generation
-            try:
-                from azure.identity import DefaultAzureCredential
-                from openai import AzureOpenAI
-                
-                credential = DefaultAzureCredential()
-                token = credential.get_token("https://cognitiveservices.azure.com/.default")
-                
-                self.azure_openai_client = AzureOpenAI(
-                    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT", "https://autodesk-openai-eastus.openai.azure.com/"),
-                    api_version="2024-02-01",
-                    azure_ad_token=token.token
-                )
-                logger.info("[AZURE] Azure OpenAI client initialized for Step 9 context generation")
-            except Exception as e:
-                logger.warning(f"[AZURE] Failed to initialize Azure OpenAI client: {e}")
-                self.azure_openai_client = None
-            
-            # 5. Initialize Translation Runner
-            translation_config = UltraOptimizedConfig()
-            translation_config.model_size = self.config.get('translation_model_size', '1.3B')
-            translation_config.gpu_workers = self.config.get('gpu_workers', 3)  # Support up to 3 GPU workers
-            translation_config.cpu_workers = self.config.get('cpu_workers', 16)
-            
-            self.translation_runner = UltraOptimizedSmartRunner(
-                config=translation_config,
-                resume_session=None
-            )
             
             logger.info("[OK] All system components initialized successfully")
             
@@ -577,7 +537,7 @@ class AgenticTerminologyValidationSystem:
         
         try:
             # Import and use direct processor
-            from direct_unified_processor import process_terms_directly
+            from src.processors.direct_unified_processor import process_terms_directly
             
             # Process directly
             combined_file, cleaned_file = process_terms_directly(input_file, output_prefix)
@@ -652,13 +612,8 @@ class AgenticTerminologyValidationSystem:
             logger.info(f"[OK] Step 1 completed using Unified Processor")
             return final_file
             
-        except subprocess.CalledProcessError as e:
-            logger.error(f"[ERROR] Unified processor failed: {e}")
-            if e.stderr:
-                logger.error(f"[STDERR] {e.stderr}")
-            raise RuntimeError(f"Unified processor failed: {e}")
         except Exception as e:
-            logger.error(f"[ERROR] Step 1 unexpected error: {e}")
+            logger.error(f"[ERROR] Step 1 failed: {e}")
             raise
     
     def _analyze_single_term(self, term: str) -> Dict[str, Any]:
@@ -1054,7 +1009,14 @@ class AgenticTerminologyValidationSystem:
         logger.info("[NEW] STEP 3: New Terminology Processing")
         logger.info("=" * 60)
         
-        new_terms = glossary_results['results']['new_terms']
+        # Handle different glossary_results structures
+        if isinstance(glossary_results, dict) and 'results' in glossary_results:
+            new_terms = glossary_results['results']['new_terms']
+        elif isinstance(glossary_results, dict) and 'new_terms' in glossary_results:
+            new_terms = glossary_results['new_terms']
+        else:
+            logger.error(f"[ERROR] Unexpected glossary_results structure: {glossary_results.keys() if isinstance(glossary_results, dict) else type(glossary_results)}")
+            new_terms = []
         logger.info(f"[SEARCH] Processing {len(new_terms)} new terms with Fast Dictionary Agent...")
         
         # Check for existing checkpoint
@@ -1933,14 +1895,14 @@ class AgenticTerminologyValidationSystem:
             logger.info("[TRANSLATE] Running sophisticated NLLB translation process with modern validation...")
             
             # Initialize ultra-optimized smart runner with sophisticated dual-GPU architecture
-            from ultra_optimized_smart_runner import UltraOptimizedSmartRunner, UltraOptimizedConfig
+            from src.translation.ultra_optimized_smart_runner import UltraOptimizedSmartRunner, UltraOptimizedConfig
             
             logger.info("[INIT] Initializing ultra-optimized smart runner with dual-GPU NLLB architecture...")
             
             # Load optimized configuration based on hardware detection
             try:
                 # Try FULL RESOURCE UTILIZATION adaptive configuration first
-                from adaptive_system_config import get_adaptive_system_config
+                from src.config.adaptive_system_config import get_adaptive_system_config
                 profile, adaptive_config, resource_monitor = get_adaptive_system_config(enable_dynamic_monitoring=True)
                 
                 # Convert adaptive config to UltraOptimizedConfig format
@@ -1975,7 +1937,7 @@ class AgenticTerminologyValidationSystem:
             except ImportError:
                 # Fallback to multi-model GPU configuration
                 try:
-                    from multi_model_gpu_config import get_multi_model_gpu_config
+                    from src.config.multi_model_gpu_config import get_multi_model_gpu_config
                     multi_gpu_config = get_multi_model_gpu_config(['nllb-200-1.3B', 'gpt-4.1', 'terminology_agent'])
                     
                     if multi_gpu_config['success']:
@@ -2006,27 +1968,27 @@ class AgenticTerminologyValidationSystem:
                         
                 except ImportError:
                     # Fallback to original optimized configuration
-            try:
-                from optimized_translation_config import get_optimized_config
-                ultra_config, hardware_profile = get_optimized_config()
+                    try:
+                        from src.config.optimized_translation_config import get_optimized_config
+                        ultra_config, hardware_profile = get_optimized_config()
                         logger.info(f"[HARDWARE] Using standard optimized config: {hardware_profile.get('gpu_name', 'Unknown GPU')}, {hardware_profile.get('cpu_cores', 'Unknown')} cores")
-                logger.info(f"[CONFIG] Available RAM: {hardware_profile.get('available_ram_gb', 'Unknown')}GB")
-                logger.info(f"[CONFIG] GPU Workers: {ultra_config.gpu_workers}, CPU Workers: {ultra_config.cpu_workers}")
-                logger.info(f"[CONFIG] Batch Size: {ultra_config.gpu_batch_size}, Queue Size: {ultra_config.max_queue_size}")
-            except ImportError:
+                        logger.info(f"[CONFIG] Available RAM: {hardware_profile.get('available_ram_gb', 'Unknown')}GB")
+                        logger.info(f"[CONFIG] GPU Workers: {ultra_config.gpu_workers}, CPU Workers: {ultra_config.cpu_workers}")
+                        logger.info(f"[CONFIG] Batch Size: {ultra_config.gpu_batch_size}, Queue Size: {ultra_config.max_queue_size}")
+                    except ImportError:
                         # Final fallback to default configuration
                         logger.warning("[WARNING] Could not load any optimized config, using defaults")
-                ultra_config = UltraOptimizedConfig(
-                    model_size="1.3B",
-                    gpu_workers=1,  # Conservative default
-                    cpu_workers=8,
-                    gpu_batch_size=32,
-                    max_queue_size=50,
-                    predictive_caching=True,
-                    dynamic_batching=True,
-                    async_checkpointing=True,
-                    memory_mapping=False  # Conservative for memory
-                )
+                        ultra_config = UltraOptimizedConfig(
+                            model_size="1.3B",
+                            gpu_workers=1,  # Conservative default
+                            cpu_workers=8,
+                            gpu_batch_size=32,
+                            max_queue_size=50,
+                            predictive_caching=True,
+                            dynamic_batching=True,
+                            async_checkpointing=True,
+                            memory_mapping=False  # Conservative for memory
+                        )
             
             # Initialize the ultra-optimized runner with the current output directory
             # When resuming from checkpoint, don't resume the ultra runner's internal session
@@ -2038,7 +2000,7 @@ class AgenticTerminologyValidationSystem:
             )
             
             # Initialize modern terminology review agent for validation
-            from modern_terminology_review_agent import ModernTerminologyReviewAgent
+            from src.agents.modern_terminology_review_agent import ModernTerminologyReviewAgent
             logger.info("[INIT] Initializing modern terminology review agent...")
             review_agent = ModernTerminologyReviewAgent(model_name="gpt-4.1")
             # Apply authentication fix
@@ -2625,16 +2587,29 @@ class AgenticTerminologyValidationSystem:
         logger.info("[LOG] STEP 7: Final Review and Decision with Modern Validation Batch Processing")
         logger.info("=" * 80)
         
-        # Load verified results from Step 6
+        # Load verified results from Step 6 (or use translation results if verification was skipped)
         verified_file_path = os.path.join(str(self.output_dir), "Verified_Translation_Results.json") if not os.path.isabs(verified_file) else verified_file
         
         if not os.path.exists(verified_file_path):
-            raise FileNotFoundError(f"Verified results file not found: {verified_file_path}")
-        
-        with open(verified_file_path, 'r', encoding='utf-8') as f:
-            verified_data = json.load(f)
-        
-        verified_results = verified_data.get('verified_results', [])
+            logger.warning(f"[WARNING] Verified results file not found: {verified_file_path}")
+            logger.info("[FALLBACK] Using Translation_Results.json directly since verification was skipped")
+            
+            # Use translation results directly
+            translation_file_path = os.path.join(str(self.output_dir), "Translation_Results.json")
+            if not os.path.exists(translation_file_path):
+                raise FileNotFoundError(f"Neither verified results nor translation results found")
+            
+            with open(translation_file_path, 'r', encoding='utf-8') as f:
+                translation_data = json.load(f)
+            
+            # Convert translation results to verified results format
+            verified_results = translation_data.get('translation_results', [])
+            logger.info(f"[FALLBACK] Loaded {len(verified_results):,} terms from translation results")
+        else:
+            with open(verified_file_path, 'r', encoding='utf-8') as f:
+                verified_data = json.load(f)
+            
+            verified_results = verified_data.get('verified_results', [])
         
         if not verified_results:
             logger.warning("[WARNING] No verified results found for final review")
@@ -2661,7 +2636,7 @@ class AgenticTerminologyValidationSystem:
                 logger.info(f"[INTEGRATION] Loaded {len(translation_data_map):,} translation records for cross-step analysis")
         
         # Initialize PROPER modern validation system with batch processing
-        from modern_parallel_validation import OrganizedValidationManager, EnhancedValidationSystem
+        from src.validation.modern_parallel_validation import OrganizedValidationManager, EnhancedValidationSystem
         
         # RESUME FROM EXISTING STEP 7 FOLDER (if it exists)
         import glob
@@ -2719,7 +2694,7 @@ class AgenticTerminologyValidationSystem:
                 logger.info(f"[CONSOLIDATION] Loaded consolidated results from {len(consolidated_data.get('batches', {}))} batches")
                 
                 # Import the helper functions from step7_fixed_batch_processing
-                from step7_fixed_batch_processing import (_convert_modern_batch_results_to_decisions, 
+                from src.processors.step7_fixed_batch_processing import (_convert_modern_batch_results_to_decisions, 
                                                          _create_final_decisions_data_with_batch_info,
                                                          _log_step7_completion_with_batch_info)
                 
@@ -2767,7 +2742,7 @@ class AgenticTerminologyValidationSystem:
                 logger.info(f"[COMPLETE] All terms appear to be processed - converting to final decisions")
                 
                 # Import the helper functions from step7_fixed_batch_processing
-                from step7_fixed_batch_processing import (_convert_modern_batch_results_to_decisions, 
+                from src.processors.step7_fixed_batch_processing import (_convert_modern_batch_results_to_decisions, 
                                                          _create_final_decisions_data_with_batch_info,
                                                          _log_step7_completion_with_batch_info)
                 
@@ -2784,7 +2759,7 @@ class AgenticTerminologyValidationSystem:
                 # Save final decisions
                 decisions_file = os.path.join(str(self.output_dir), "Final_Terminology_Decisions.json")
             
-            with open(decisions_file, 'w', encoding='utf-8') as f:
+                with open(decisions_file, 'w', encoding='utf-8') as f:
                     json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
                 
                 # Log completion statistics
@@ -2849,7 +2824,7 @@ class AgenticTerminologyValidationSystem:
             )
             
             # Create comprehensive term data structure for modern validation with Step 5 & 6 integration
-                term_data = {
+            term_data = {
                     'term': term,
                     'frequency': result.get('frequency', 1),
                     'original_texts': result.get('original_texts', {'texts': []}),
@@ -3015,7 +2990,7 @@ class AgenticTerminologyValidationSystem:
             
             logger.info("[MODERN_BATCH] Modern validation batch processing with agents completed successfully")
                         
-                except Exception as e:
+        except Exception as e:
             logger.error(f"[ERROR] Modern validation batch processing failed: {e}")
             import traceback
             traceback.print_exc()
@@ -3028,7 +3003,7 @@ class AgenticTerminologyValidationSystem:
         
         try:
             # Import the helper functions from step7_fixed_batch_processing
-            from step7_fixed_batch_processing import (_convert_modern_batch_results_to_decisions, 
+            from src.processors.step7_fixed_batch_processing import (_convert_modern_batch_results_to_decisions, 
                                                      _create_final_decisions_data_with_batch_info,
                                                      _log_step7_completion_with_batch_info)
             
@@ -3060,7 +3035,7 @@ class AgenticTerminologyValidationSystem:
         # Save final decisions
                 decisions_file = os.path.join(str(self.output_dir), "Final_Terminology_Decisions.json")
                 
-        with open(decisions_file, 'w', encoding='utf-8') as f:
+                with open(decisions_file, 'w', encoding='utf-8') as f:
                     json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
                 
                 # Log completion statistics
@@ -3080,32 +3055,32 @@ class AgenticTerminologyValidationSystem:
     def _analyze_term_translatability(self, term: str, translatability_score: float, language_coverage_rate: float, 
                                     same_language_rate: float, error_rate: float) -> dict:
         """Comprehensive translatability analysis for agent decision-making"""
-        from step7_fixed_batch_processing import _analyze_term_translatability
+        from src.processors.step7_fixed_batch_processing import _analyze_term_translatability
         return _analyze_term_translatability(term, translatability_score, language_coverage_rate, same_language_rate, error_rate)
 
     def _calculate_step5_step6_consistency(self, step5_data: dict, step6_data: dict) -> float:
         """Calculate consistency between Step 5 and Step 6 results"""
-        from step7_fixed_batch_processing import _calculate_step5_step6_consistency
+        from src.processors.step7_fixed_batch_processing import _calculate_step5_step6_consistency
         return _calculate_step5_step6_consistency(step5_data, step6_data)
 
     def _convert_modern_batch_results_to_decisions(self, consolidated_data: dict, verified_results: list, translation_data_map: dict) -> list:
         """Convert modern validation batch results to final decisions format"""
-        from step7_fixed_batch_processing import _convert_modern_batch_results_to_decisions
+        from src.processors.step7_fixed_batch_processing import _convert_modern_batch_results_to_decisions
         return _convert_modern_batch_results_to_decisions(consolidated_data, verified_results, translation_data_map)
 
     def _create_final_decisions_data_with_batch_info(self, final_decisions: list, consolidated_data: dict, step7_manager) -> dict:
         """Create comprehensive final decisions data structure with batch processing information"""
-        from step7_fixed_batch_processing import _create_final_decisions_data_with_batch_info
+        from src.processors.step7_fixed_batch_processing import _create_final_decisions_data_with_batch_info
         return _create_final_decisions_data_with_batch_info(final_decisions, consolidated_data, step7_manager)
 
     def _log_step7_completion_with_batch_info(self, final_decisions_data: dict, decisions_file: str, step7_manager):
         """Log Step 7 completion with comprehensive batch processing statistics"""
-        from step7_fixed_batch_processing import _log_step7_completion_with_batch_info
+        from src.processors.step7_fixed_batch_processing import _log_step7_completion_with_batch_info
         return _log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
 
     def _step_7_fallback_processing(self, verified_results: list, translation_data_map: dict) -> str:
         """Fallback to in-memory processing if batch processing fails"""
-        from step7_fixed_batch_processing import _step_7_fallback_processing
+        from src.processors.step7_fixed_batch_processing import _step_7_fallback_processing
         return _step_7_fallback_processing(self, verified_results, translation_data_map)
 
     def _create_empty_decisions_file(self, reason: str) -> str:
@@ -3375,7 +3350,7 @@ class AgenticTerminologyValidationSystem:
             "fallback_sources": ["PRDSMRT_doc_merged_results_Processed_Complete.json", "High_Frequency_Terms.json"],
             "original_texts_used": len(original_texts_map),
             "examples_used": len(examples_map),
-            "data_flow": "Combined_Terms_Data.csv → description (GPT-4.1) + context (samples)"
+            "data_flow": "Combined_Terms_Data.csv -> description (GPT-4.1) + context (samples)"
         })
         
         logger.info(f"[OK] Step 9 completed:")

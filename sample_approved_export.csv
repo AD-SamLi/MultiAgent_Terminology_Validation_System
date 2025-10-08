@@ -1,9 +1,5 @@
-source,target,context
-layer,layer,"Organizational tool in CAD software for grouping and managing drawing elements, allowing control over visibility, color, and properties of related objects."
-mesh,mesh,"3D geometric structure composed of vertices, edges, and faces used to represent complex surfaces in modeling and animation software applications."
-acad,acad,"Abbreviation for AutoCAD, industry-standard computer-aided design software used for creating precise 2D and 3D technical drawings and models."
-bom,bom,"Bill of Materials - structured list of components, parts, and materials required for manufacturing or assembly processes in CAD and engineering workflows."
-material,material,"Surface properties and characteristics applied to 3D objects, defining appearance, texture, reflectivity, and physical behavior in rendering and simulation."
-animation,animation,"Process of creating motion graphics and moving sequences from static 3D models, involving keyframes, interpolation, and timeline-based control."
-renders,renders,"Process of generating final images or video sequences from 3D scenes, converting geometric data into photorealistic or stylized visual output."
-block,block,"Reusable collection of CAD objects grouped together as a single unit, allowing efficient insertion and modification across multiple drawings."
+source,target,description,context
+drawing organization,drawing organization,"Feature that manages the arrangement, grouping, and display of elements in CAD or 3D modeling drawings.",Edit the layer properties to change drawing organization and display settings.
+material properties,material properties,"Feature that assigns physical and visual characteristics to objects in CAD, 3D modeling, or engineering graphics.",Apply material properties to the selected objects in your 3D scene for realistic rendering.
+quality settings,quality settings,"Feature that adjusts rendering fidelity and output parameters in CAD, 3D modeling, or graphics applications.",Configure the animation quality settings and output format for the final render.
+selected objects,selected objects,Feature that allows users to modify or assign properties to objects currently highlighted in CAD or 3D modeling software.,Apply material properties to the selected objects in your 3D scene for realistic rendering.
