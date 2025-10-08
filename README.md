@@ -19,20 +19,19 @@ The Multi-Agent Terminology Validation System processes terminology through a **
 - **🎯 Professional Context Generation**: Azure OpenAI GPT-4.1 powered context creation
 - **📋 CSV Export**: Professional terminology export compatible with reviewed/ folder structure
 
-## 📈 Latest Results (Session: 20251008_133519)
+## 📈 System Capabilities
 
-| Metric | Value | Description |
-|--------|--------|-------------|
-| **Total Terms Processed** | 8,691 | Complete terminology validation |
-| **Overall Approval Rate** | 86.4% | High-quality validation results |
-| **Fully Approved** | 2,750 (31.6%) | Terms ready for immediate use |
-| **Conditionally Approved** | 4,753 (54.7%) | Terms approved with conditions |
-| **Needs Review** | 1,123 (12.9%) | Terms requiring manual review |
-| **Rejected** | 65 (0.7%) | Terms not meeting quality standards |
-| **Approved Terms Exported** | 7,503 | Professional CSV export with contexts |
-| **Average Validation Score** | 0.637 | Quality confidence metric |
-| **Batch Files Created** | 1,087 | Parallel processing efficiency |
-| **Context Generation** | Azure GPT-4.1 | Professional context descriptions |
+The system provides comprehensive terminology validation with high-quality results:
+
+| Capability | Description |
+|------------|-------------|
+| **Multi-Language Support** | 200+ languages using NLLB-200 model |
+| **Approval Workflow** | Four-tier decision system (Approved, Conditionally Approved, Needs Review, Rejected) |
+| **Quality Assessment** | ML-based scoring with multiple validation layers |
+| **Context Generation** | Azure OpenAI GPT-4.1 powered professional descriptions |
+| **Parallel Processing** | Efficient batch processing with automatic consolidation |
+| **Gap Detection** | Intelligent recovery of incomplete processing |
+| **Checkpoint System** | Resume capability at any processing step |
 
 ## 🏗️ System Architecture
 
@@ -150,7 +149,7 @@ python agentic_terminology_validation_system.py Term_Extracted_result.csv
 
 #### Resume from Checkpoint
 ```bash
-python agentic_terminology_validation_system.py Term_Extracted_result.csv --resume-from agentic_validation_output_20250920_121839
+python agentic_terminology_validation_system.py Term_Extracted_result.csv --resume-from agentic_validation_output_YYYYMMDD_HHMMSS
 ```
 
 #### Custom Configuration
@@ -344,7 +343,7 @@ python agentic_terminology_validation_system.py --cpu-workers 8 input.csv
 #### Checkpoint Recovery
    ```bash
 # Resume from specific checkpoint
-python agentic_terminology_validation_system.py input.csv --resume-from agentic_validation_output_20250920_121839
+python agentic_terminology_validation_system.py input.csv --resume-from agentic_validation_output_YYYYMMDD_HHMMSS
 
 # Force gap detection
 python agentic_terminology_validation_system.py input.csv --resume-from output_folder --force-resume
@@ -378,20 +377,20 @@ python -c "from openai import AzureOpenAI; print('GPT-4.1 accessible')"
 
 ### Monitoring Metrics
 
-- **Processing Speed**: 346 terms/second (context generation)
-- **Memory Usage**: RAM/GPU utilization tracking
-- **Quality Scores**: Distribution analysis and trends
-- **Error Rates**: API failures, processing errors
-- **Batch Completion**: Progress tracking across 1,087+ batches
-- **API Usage**: Azure OpenAI token consumption
+- **Processing Speed**: Real-time term processing with progress indicators
+- **Memory Usage**: RAM/GPU utilization tracking and optimization
+- **Quality Scores**: Distribution analysis and validation trends
+- **Error Rates**: API failures and processing error tracking
+- **Batch Completion**: Progress tracking across all batch files
+- **API Usage**: Azure OpenAI token consumption monitoring
 
 ### Key Performance Indicators
 
-- **Throughput**: 8,691 terms processed in ~21.7 seconds (Step 9)
-- **Approval Rate**: 86.4% overall approval rate
-- **Quality Score**: 0.637 average validation score
-- **Resource Efficiency**: Dynamic scaling based on system specs
-- **Recovery Rate**: 100% gap detection and recovery
+- **Throughput**: Optimized parallel processing for maximum speed
+- **Approval Rate**: Multi-layer validation ensures high quality
+- **Quality Score**: ML-based scoring with translatability analysis
+- **Resource Efficiency**: Dynamic scaling based on system specifications
+- **Recovery Rate**: Intelligent gap detection and automatic recovery
 
 ## 🔄 System Recovery
 
@@ -479,48 +478,50 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and questions:
 
-- **Documentation**: Check this README and inline code documentation
+- **Documentation**: Check this README and the `docs/` folder for comprehensive guides
 - **Issues**: Create GitHub issues for bugs and feature requests
-- **Performance**: Review the analysis report (`Agentic_Terminology_Validation_Analysis.html`)
-- **Logs**: Check system logs for detailed error information
+- **Technical Details**: See `docs/TECHNICAL_DOCUMENTATION.md` for in-depth information
+- **Logs**: Check system logs (`*.log` files) for detailed error information
 
 ## 📊 System Status
 
-| Component | Status | Last Updated | Version |
-|-----------|--------|--------------|---------|
-| **Core System** | ✅ Operational | 2025-09-30 | v1.0.0 |
-| **Gap Detection** | ✅ Active | 2025-09-30 | Enhanced |
-| **Batch Processing** | ✅ Optimized | 2025-09-30 | 1,087 batches |
-| **Quality Scoring** | ✅ Enhanced | 2025-09-30 | ML-based |
-| **Context Generation** | ✅ GPT-4.1 | 2025-09-30 | Azure OpenAI |
-| **CSV Export** | ✅ Professional | 2025-09-30 | Step 9 |
-| **Documentation** | ✅ Complete | 2025-09-30 | Updated |
+| Component | Status | Version |
+|-----------|--------|---------|
+| **Core System** | ✅ Operational | v1.0.0 |
+| **Gap Detection** | ✅ Active | Enhanced |
+| **Batch Processing** | ✅ Optimized | Parallel |
+| **Quality Scoring** | ✅ Enhanced | ML-based |
+| **Context Generation** | ✅ GPT-4.1 | Azure OpenAI |
+| **CSV Export** | ✅ Professional | Step 9 |
+| **Documentation** | ✅ Complete | Up-to-date |
 
-## 🏆 Achievements
+## 🏆 Key Features
 
-- **✅ 8,691 Terms Processed**: Complete terminology validation
-- **✅ 86.4% Approval Rate**: High-quality validation results
-- **✅ 7,503 Terms Exported**: Professional CSV with GPT-4.1 contexts
-- **✅ 1,087 Batch Files**: Efficient parallel processing
-- **✅ 100% Gap Recovery**: Intelligent missing term detection
-- **✅ Multi-GPU Support**: Up to 3 GPUs for translation
-- **✅ Dynamic Scaling**: Auto-optimization based on system specs
+- **✅ Large-Scale Processing**: Handle thousands of terms efficiently
+- **✅ High Approval Rate**: Multi-layer validation ensures quality
+- **✅ Professional Export**: CSV format with AI-generated contexts
+- **✅ Efficient Batch Processing**: Parallel processing with consolidation
+- **✅ Intelligent Recovery**: Automatic gap detection and recovery
+- **✅ Multi-GPU Support**: Up to 3 GPUs for translation acceleration
+- **✅ Dynamic Scaling**: Auto-optimization based on system specifications
 
 ---
 
 **Generated by Multi-Agent Terminology Validation System v1.0**  
 **Last Updated**: October 8, 2025  
-**Session**: 20251008_133519  
 **Features**: 9-Step Pipeline | GPT-4.1 Context Generation | Dynamic Resource Allocation | Professional CSV Export
 
 ---
 
-## 📋 Analysis Documents
+## 📚 Additional Documentation
 
-The system includes comprehensive analysis documentation for potential enhancements:
+For more detailed information, see the `docs/` directory:
 
-- **`GLOSSARY_VS_PATTERN_ANALYSIS.md`**: Analysis of pattern-based vs glossary-based technical term detection (97% recall achievable)
-- **`INTELLIGENT_GENERIC_TERM_DETECTION.md`**: Generic term detection strategies
-- **`STATE_OF_ART_TERMINOLOGY_STANDARDS_ANALYSIS.md`**: Industry standards analysis
+- **`docs/TECHNICAL_DOCUMENTATION.md`**: Comprehensive technical specifications
+- **`docs/CHANGELOG.md`**: Version history and changes
+- **`docs/INTELLIGENT_GENERIC_TERM_DETECTION.md`**: Generic term detection strategies
 
-**Note**: Pattern-based detection has been analyzed and documented but is **not yet implemented** in the main code. The analysis shows it could achieve 97% recall for technical terms if implemented in future versions.
+Sample files for testing are available in the root directory:
+- `sample_input_data.csv`: Example input format
+- `sample_approved_export.csv`: Example output format
+- `sample_final_decisions.json`: Example decision structure
