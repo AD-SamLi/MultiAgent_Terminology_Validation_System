@@ -92,7 +92,9 @@ test_*.py
 validate_fixes.py
 test_*.log
 
-# Temporary environment files
+# Environment files with secrets
+.env
+*.env
 current_session.env
 session_vars.env
 current_full_session.env
