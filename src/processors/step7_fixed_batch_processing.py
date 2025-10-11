@@ -12,6 +12,13 @@ from typing import Dict, List, Tuple
 
 logger = logging.getLogger(__name__)
 
+# Import generic term detection
+try:
+    from .generic_term_detection_ensemble import apply_generic_term_penalty
+except ImportError:
+    # Fallback if running as script
+    from generic_term_detection_ensemble import apply_generic_term_penalty
+
 def step_7_final_review_decision_fixed(self, verified_file: str, translation_results_file: str = None) -> str:
     """
     Step 7: Final Review and Decision with PROPER Modern Validation Batch Processing
@@ -383,7 +390,8 @@ def _calculate_step5_step6_consistency(step5_data: Dict, step6_data: Dict) -> fl
     return consistency
 
 
-def _convert_modern_batch_results_to_decisions(consolidated_data: Dict, verified_results: List, translation_data_map: Dict) -> List[Dict]:
+def _convert_modern_batch_results_to_decisions(consolidated_data: Dict, verified_results: List, translation_data_map: Dict, 
+                                               generic_detector=None) -> List[Dict]:
     """Convert modern validation batch results to final decisions format with Step 5 & 6 integration"""
     
     final_decisions = []
@@ -392,6 +400,8 @@ def _convert_modern_batch_results_to_decisions(consolidated_data: Dict, verified
     batches = consolidated_data.get('batches', {})
     
     logger.info(f"[CONVERSION] Converting results from {len(batches)} batches to final decisions")
+    if generic_detector:
+        logger.info(f"[GENERIC DETECTION] Full Ensemble detector enabled (Methods 1+2+5 - NO TRAINING REQUIRED)")
     
     for batch_key, batch_info in batches.items():
         batch_data = batch_info.get('data', {})
@@ -422,10 +432,10 @@ def _convert_modern_batch_results_to_decisions(consolidated_data: Dict, verified
             if not original_step6_data:
                 continue
             
-            # Calculate comprehensive modern validation score using agent results + Step 5 & 6 data
-            modern_score = _calculate_comprehensive_score_with_agent_results(
+            # Calculate comprehensive modern validation score using agent results + Step 5 & 6 data + Generic Detection
+            modern_score, detection_info = _calculate_comprehensive_score_with_agent_results(
                 result, enhanced_score, ml_features, advanced_context, validation_result,
-                original_step5_data, original_step6_data
+                original_step5_data, original_step6_data, generic_detector
             )
             
             # Generate comprehensive decision reasons including agent analysis
@@ -467,6 +477,16 @@ def _convert_modern_batch_results_to_decisions(consolidated_data: Dict, verified
                 'modern_validation_score': modern_score,
                 'ml_quality_score': enhanced_score,
                 'decision_reasons': decision_reasons,
+                # Generic Term Detection Results
+                'generic_penalty': detection_info['penalty'],
+                'generic_detection': {
+                    'votes': detection_info['votes'],
+                    'confidence': detection_info['confidence'],
+                    'reasoning': detection_info['reasoning'],
+                    'method_votes': detection_info.get('method_votes', {}),
+                    'has_protection': detection_info.get('has_protection', False),
+                    'protection_reason': detection_info.get('protection_reason', None)
+                },
                 'advanced_context_analysis': advanced_context,
                 'agent_validation_result': validation_result,
                 'modern_validation_metadata': {
@@ -513,8 +533,24 @@ def _convert_modern_batch_results_to_decisions(consolidated_data: Dict, verified
 
 def _calculate_comprehensive_score_with_agent_results(result: Dict, enhanced_score: float, ml_features: Dict, 
                                                     advanced_context: Dict, validation_result: Dict,
-                                                    step5_data: Dict, step6_data: Dict) -> float:
-    """Calculate comprehensive modern validation score including agent validation results and translatability analysis"""
+                                                    step5_data: Dict, step6_data: Dict,
+                                                    generic_detector=None) -> Tuple[float, Dict]:
+    """Calculate comprehensive modern validation score including agent validation results and translatability analysis
+    
+    Returns:
+        Tuple[float, Dict]: (final_score, detection_info)
+    """
+    
+    # Initialize generic detection info (will be populated if generic detector is enabled)
+    detection_info = {
+        'penalty': 0.0,
+        'votes': 0,
+        'confidence': 0.0,
+        'reasoning': '',
+        'method_votes': {},
+        'has_protection': False,
+        'protection_reason': None
+    }
     
     # Get translatability analysis from result
     translatability_analysis = result.get('translatability_analysis', {})
@@ -602,23 +638,26 @@ def _calculate_comprehensive_score_with_agent_results(result: Dict, enhanced_sco
         verified_translations = step6_data.get('verified_translations', {})
         
         if verification_passed:
-            base_score += 0.08  # Reduced from 0.15 - Passing verification
+            base_score += 0.08  # Passing verification
             
             # Additional bonus based on number of verified translations
             verified_count = len(verified_translations) if isinstance(verified_translations, dict) else 0
             if verified_count >= 10:
-                base_score += 0.02  # Reduced from 0.05 - Extensive verification
+                base_score += 0.02  # Extensive verification
             elif verified_count >= 5:
-                base_score += 0.01  # Reduced from 0.03 - Good verification coverage
+                base_score += 0.01  # Good verification coverage
         else:
-            # Stricter penalty system - verification failure should matter
-            if verification_issues <= 2:
-                base_score += 0.02  # Reduced from 0.05 - Minor issues
+            # FIX: Failed verification should be a penalty, not a bonus
+            if verification_issues == 0:
+                # Failed with no issues = verification was skipped/incomplete
+                base_score -= 0.02  # Small penalty for missing verification data
+            elif verification_issues <= 2:
+                base_score -= 0.01  # Minor issues penalty
             elif verification_issues <= 5:
-                base_score += 0.01  # Reduced from 0.02 - Moderate issues
+                base_score -= 0.03  # Moderate issues penalty
             else:
-                penalty = min(0.05, verification_issues * 0.01)
-                base_score -= penalty
+                penalty = min(0.08, verification_issues * 0.015)
+                base_score -= penalty  # Serious issues penalty
         
         # REMOVED: Bonus for having Step 6 data (+0.02) - was inflating scores
     else:
@@ -641,22 +680,51 @@ def _calculate_comprehensive_score_with_agent_results(result: Dict, enhanced_sco
         if step5_data and step6_data:
             base_score += 0.03
     
-    # DEBUGGING: Log the scoring breakdown for the first few terms
+    # ==========================================================================
+    # GENERIC TERM DETECTION - FULL ENSEMBLE (Methods 1+2+5 - NO TRAINING REQUIRED)
+    # ==========================================================================
     term_name = result.get('term', 'unknown')
+    
+    if generic_detector is not None:
+        # Get term contexts for Method 1
+        term_contexts = []
+        if advanced_context and 'original_contexts' in advanced_context:
+            term_contexts = advanced_context['original_contexts']
+        
+        # Apply generic term detection
+        base_score, detection_info = apply_generic_term_penalty(
+            term=term_name,
+            base_score=base_score,
+            detector=generic_detector,
+            contexts=term_contexts
+        )
+        
+        # Log generic term detection for debugging
+        if detection_info['penalty'] < 0:
+            logger.debug(f"[GENERIC] '{term_name}': penalty={detection_info['penalty']:.3f}, "
+                        f"votes={detection_info['votes']}/3, confidence={detection_info['confidence']:.2f}")
+            if hasattr(_calculate_comprehensive_score_with_agent_results, 'generic_count'):
+                _calculate_comprehensive_score_with_agent_results.generic_count += 1
+            else:
+                _calculate_comprehensive_score_with_agent_results.generic_count = 1
+    
+    # DEBUGGING: Log the scoring breakdown for the first few terms
     if hasattr(_calculate_comprehensive_score_with_agent_results, 'debug_count'):
         _calculate_comprehensive_score_with_agent_results.debug_count += 1
     else:
         _calculate_comprehensive_score_with_agent_results.debug_count = 1
     
     if _calculate_comprehensive_score_with_agent_results.debug_count <= 5:
-        print(f"[SEARCH] SCORING DEBUG for '{term_name}':")
+        print(f"🔍 SCORING DEBUG for '{term_name}':")
         print(f"   Enhanced Score: {enhanced_score}")
         print(f"   Agent Score: {agent_score}")
         print(f"   Step5 Data: {bool(step5_data)}")
         print(f"   Step6 Data: {bool(step6_data)}")
         print(f"   Final Score: {max(0.0, min(1.0, base_score))}")
+        print(f"   Generic Penalty: {detection_info['penalty']}")
+        print(f"   Generic Votes: {detection_info['votes']}/3")
     
-    return max(0.0, min(1.0, base_score))
+    return max(0.0, min(1.0, base_score)), detection_info
 
 
 def _generate_comprehensive_reasons_with_agent_results(result: Dict, enhanced_score: float, ml_features: Dict,
@@ -751,13 +819,17 @@ def _generate_comprehensive_reasons_with_agent_results(result: Dict, enhanced_sc
     if step6_data:
         verification_passed = step6_data.get('verification_passed', False)
         verification_issues = step6_data.get('verification_issues_count', 0)
+        verified_count = len(step6_data.get('verified_translations', {}))
         
         if verification_passed:
             reasons.append("Step 6 - Verification: PASSED")
         else:
-            reasons.append(f"Step 6 - Verification: FAILED ({verification_issues} issues)")
+            # FIX: More descriptive error messages
+            if verification_issues == 0 and verified_count == 0:
+                reasons.append("Step 6 - Verification: SKIPPED (no data)")
+            else:
+                reasons.append(f"Step 6 - Verification: FAILED ({verification_issues} issues)")
         
-        verified_count = len(step6_data.get('verified_translations', {}))
         reasons.append(f"Step 6 - Verified Translations: {verified_count} languages")
     
     # Advanced context analysis reasons

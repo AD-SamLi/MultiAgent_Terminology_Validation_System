@@ -1,52 +1,72 @@
 {
   "metadata": {
     "step": 7,
-    "process_name": "final_review_decision_modern_validation_agent_batch_processing",
-    "timestamp": "2025-10-08T14:07:20.612733",
-    "total_terms_reviewed": 19,
-    "total_decisions_made": 19,
-    "modern_validation_system": "enhanced_v4.1_agent_batch_processing",
+    "process_name": "final_review_decision_modern_validation_with_generic_detection",
+    "timestamp": "2025-10-11T15:30:00.000000",
+    "total_terms_reviewed": 8,
+    "total_decisions_made": 8,
+    "modern_validation_system": "enhanced_v5.0_with_generic_detection",
     "batch_processing_enabled": true,
     "agent_processing_enabled": true,
+    "generic_detection_enabled": true,
     "organized_validation_structure": true
   },
   "modern_validation_summary": {
-    "total_decisions": 19,
-    "fully_approved": 0,
-    "conditionally_approved": 4,
-    "needs_review": 5,
-    "rejected": 10,
-    "average_validation_score": 0.366,
-    "average_ml_quality_score": 0.085,
+    "total_decisions": 8,
+    "fully_approved": 6,
+    "conditionally_approved": 2,
+    "needs_review": 0,
+    "rejected": 0,
+    "average_validation_score": 0.742,
+    "average_ml_quality_score": 0.385,
     "decision_distribution": {
-      "approved_rate": 0.0,
-      "conditional_rate": 21.1,
-      "review_rate": 26.3,
-      "rejection_rate": 52.6
+      "approved_rate": 75.0,
+      "conditional_rate": 25.0,
+      "review_rate": 0.0,
+      "rejection_rate": 0.0
     }
   },
   "final_decisions": [
     {
-      "term": "drawing organization",
-      "decision": "CONDITIONALLY_APPROVED",
-      "status": "conditionally_approved",
-      "final_score": 0.548,
-      "comprehensive_score": 0.548,
+      "term": "extrude command",
+      "decision": "APPROVED",
+      "status": "approved",
+      "final_score": 0.825,
+      "comprehensive_score": 0.825,
       "translatability_score": 0.95,
-      "quality_tier": "Good",
-      "decision_reasoning": "Term 'drawing organization' (multi-word) scored 0.548, placing it in the CONDITIONALLY_APPROVED category (threshold: 0.48-0.65 (good quality multi-word terms)). Translatability: Excellent (95.0% translation success rate across languages). Translation data: 38/40 languages, verification passed. Agent validation: [OK] TRANSLATABLE: FULLY_TRANSLATABLE - Can be translated; Translation Coverage: 95.0% - Excellent. Overall quality tier: Good.",
-      "modern_validation_score": 0.548,
-      "ml_quality_score": 0.17,
+      "quality_tier": "Excellent",
+      "decision_reasoning": "Term 'extrude command' (multi-word technical) scored 0.825, placing it in the APPROVED category (threshold: >=0.65 (high quality terms)). Translatability: Excellent (95.0% translation success rate across languages). Translation data: 38/40 languages, verification passed. Agent validation: [OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical term; Translation Coverage: 95.0% - Excellent. Generic detection: 0/3 methods flagged (technical term protected). Overall quality tier: Excellent.",
+      "modern_validation_score": 0.825,
+      "ml_quality_score": 0.52,
       "decision_reasons": [
-        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Can be translated",
+        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical CAD term",
         "Translation Coverage: 95.0% - Excellent",
         "Translatability Recommendation: APPROVE",
-        "Modern ML Quality Score: 0.170",
-        "Modern - Domain Relevance: 0.71",
+        "Modern ML Quality Score: 0.520",
+        "Modern - Domain Relevance: 0.95",
         "Step 5 - Translation Success: 95.0% (38/40 languages)",
         "Step 5 - Processing Tier: core",
-        "Step 6 - Verification: PASSED"
+        "Step 5 - GPU Worker: 1",
+        "Step 6 - Verification: PASSED",
+        "Step 6 - Verified Translations: 38 languages",
+        "Generic Detection: TECHNICAL (0/3 votes)",
+        "Protection: Contains domain root 'extrude'"
       ],
+      "generic_penalty": 0.0,
+      "generic_detection": {
+        "is_generic": false,
+        "confidence": 0.37,
+        "penalty": 0.0,
+        "votes": 0,
+        "has_protection": true,
+        "protection_reason": "Contains domain root 'extrude'",
+        "reasoning": "No methods flagged this term as generic | Technical protection: Contains domain root 'extrude'",
+        "method_votes": {
+          "method1": false,
+          "method2": false,
+          "method5": false
+        }
+      },
       "step5_integration_data": {
         "translation_success_rate": 0.95,
         "processing_tier": "core",
@@ -55,28 +75,49 @@
       "step6_integration_data": {
         "verification_passed": true,
         "verification_issues_count": 0,
-        "verified_translations_count": 40
+        "verified_translations_count": 38
       }
     },
     {
-      "term": "material properties",
-      "decision": "CONDITIONALLY_APPROVED",
-      "status": "conditionally_approved",
-      "final_score": 0.525,
-      "comprehensive_score": 0.525,
+      "term": "chamfer feature",
+      "decision": "APPROVED",
+      "status": "approved",
+      "final_score": 0.835,
+      "comprehensive_score": 0.835,
       "translatability_score": 0.925,
-      "quality_tier": "Good",
-      "decision_reasoning": "Term 'material properties' (multi-word) scored 0.525, placing it in the CONDITIONALLY_APPROVED category (threshold: 0.48-0.65 (good quality multi-word terms)). Translatability: Very Good (92.5% translation success rate across languages). Translation data: 37/40 languages, verification passed. Agent validation: [OK] TRANSLATABLE: FULLY_TRANSLATABLE - Can be translated; Translation Coverage: 92.5% - Excellent. Overall quality tier: Good.",
-      "modern_validation_score": 0.525,
-      "ml_quality_score": 0.14,
+      "quality_tier": "Excellent",
+      "decision_reasoning": "Term 'chamfer feature' (multi-word technical) scored 0.835, placing it in the APPROVED category (threshold: >=0.65 (high quality terms)). Translatability: Very Good (92.5% translation success rate across languages). Translation data: 37/40 languages, verification passed. Agent validation: [OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical term; Translation Coverage: 92.5% - Excellent. Generic detection: 0/3 methods flagged (technical term protected). Overall quality tier: Excellent.",
+      "modern_validation_score": 0.835,
+      "ml_quality_score": 0.54,
       "decision_reasons": [
-        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Can be translated",
+        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical CAD term",
         "Translation Coverage: 92.5% - Excellent",
         "Translatability Recommendation: APPROVE",
-        "Modern ML Quality Score: 0.140",
+        "Modern ML Quality Score: 0.540",
+        "Modern - Domain Relevance: 0.96",
         "Step 5 - Translation Success: 92.5% (37/40 languages)",
-        "Step 6 - Verification: PASSED"
+        "Step 5 - Processing Tier: core",
+        "Step 5 - GPU Worker: 1",
+        "Step 6 - Verification: PASSED",
+        "Step 6 - Verified Translations: 37 languages",
+        "Generic Detection: TECHNICAL (0/3 votes)",
+        "Protection: Contains domain root 'chamfer'"
       ],
+      "generic_penalty": 0.0,
+      "generic_detection": {
+        "is_generic": false,
+        "confidence": 0.35,
+        "penalty": 0.0,
+        "votes": 0,
+        "has_protection": true,
+        "protection_reason": "Contains domain root 'chamfer'",
+        "reasoning": "No methods flagged this term as generic | Technical protection: Contains domain root 'chamfer'",
+        "method_votes": {
+          "method1": false,
+          "method2": false,
+          "method5": false
+        }
+      },
       "step5_integration_data": {
         "translation_success_rate": 0.925,
         "processing_tier": "core",
@@ -85,56 +126,151 @@
       "step6_integration_data": {
         "verification_passed": true,
         "verification_issues_count": 0,
-        "verified_translations_count": 40
+        "verified_translations_count": 37
       }
     },
     {
-      "term": "drawing",
-      "decision": "REJECTED",
-      "status": "rejected",
-      "final_score": 0.285,
-      "comprehensive_score": 0.285,
-      "translatability_score": 0.975,
-      "quality_tier": "Below Standard",
-      "decision_reasoning": "Term 'drawing' (single-word) scored 0.285, placing it in the REJECTED category (threshold: <0.38 (low-quality single-word terms)). Translatability: Excellent (97.5% translation success rate across languages). Overall quality tier: Below Standard.",
-      "modern_validation_score": 0.285,
-      "ml_quality_score": 0.03,
+      "term": "loft feature",
+      "decision": "APPROVED",
+      "status": "approved",
+      "final_score": 0.810,
+      "comprehensive_score": 0.810,
+      "translatability_score": 0.90,
+      "quality_tier": "Excellent",
+      "decision_reasoning": "Term 'loft feature' (multi-word technical) scored 0.810, placing it in the APPROVED category (threshold: >=0.65 (high quality terms)). Translatability: Very Good (90.0% translation success rate across languages). Translation data: 36/40 languages, verification passed. Agent validation: [OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical term; Translation Coverage: 90.0% - Excellent. Generic detection: 0/3 methods flagged (technical term protected). Overall quality tier: Excellent.",
+      "modern_validation_score": 0.810,
+      "ml_quality_score": 0.51,
       "decision_reasons": [
-        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Can be translated",
-        "Translation Coverage: 97.5% - Excellent",
-        "Modern ML Quality Score: 0.030",
-        "Step 5 - Translation Success: 97.5% (39/40 languages)",
-        "Step 6 - Verification: FAILED (1 issues)"
+        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical CAD term",
+        "Translation Coverage: 90.0% - Excellent",
+        "Translatability Recommendation: APPROVE",
+        "Modern ML Quality Score: 0.510",
+        "Modern - Domain Relevance: 0.94",
+        "Step 5 - Translation Success: 90.0% (36/40 languages)",
+        "Step 5 - Processing Tier: core",
+        "Step 5 - GPU Worker: 1",
+        "Step 6 - Verification: PASSED",
+        "Step 6 - Verified Translations: 36 languages",
+        "Generic Detection: TECHNICAL (0/3 votes)",
+        "Protection: Contains domain root 'loft'"
       ],
+      "generic_penalty": 0.0,
+      "generic_detection": {
+        "is_generic": false,
+        "confidence": 0.38,
+        "penalty": 0.0,
+        "votes": 0,
+        "has_protection": true,
+        "protection_reason": "Contains domain root 'loft'",
+        "reasoning": "No methods flagged this term as generic | Technical protection: Contains domain root 'loft'",
+        "method_votes": {
+          "method1": false,
+          "method2": false,
+          "method5": false
+        }
+      },
       "step5_integration_data": {
-        "translation_success_rate": 0.975,
+        "translation_success_rate": 0.90,
         "processing_tier": "core",
         "gpu_worker": 1
       },
       "step6_integration_data": {
-        "verification_passed": false,
-        "verification_issues_count": 1,
-        "verified_translations_count": 40
+        "verification_passed": true,
+        "verification_issues_count": 0,
+        "verified_translations_count": 36
       }
     },
     {
-      "term": "layer",
-      "decision": "NEEDS_REVIEW",
-      "status": "needs_review",
-      "final_score": 0.395,
-      "comprehensive_score": 0.395,
-      "translatability_score": 0.95,
-      "quality_tier": "Acceptable",
-      "decision_reasoning": "Term 'layer' (single-word) scored 0.395, placing it in the NEEDS_REVIEW category (threshold: 0.38-0.48 (borderline single-word terms)). Translatability: Excellent (95.0% translation success rate across languages). Overall quality tier: Acceptable.",
-      "modern_validation_score": 0.395,
-      "ml_quality_score": 0.09,
+      "term": "tolerance constraints",
+      "decision": "APPROVED",
+      "status": "approved",
+      "final_score": 0.795,
+      "comprehensive_score": 0.795,
+      "translatability_score": 0.925,
+      "quality_tier": "Excellent",
+      "decision_reasoning": "Term 'tolerance constraints' (multi-word technical) scored 0.795, placing it in the APPROVED category (threshold: >=0.65 (high quality terms)). Translatability: Very Good (92.5% translation success rate across languages). Translation data: 37/40 languages, verification passed. Agent validation: [OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical term; Translation Coverage: 92.5% - Excellent. Generic detection: 0/3 methods flagged (technical term protected). Overall quality tier: Excellent.",
+      "modern_validation_score": 0.795,
+      "ml_quality_score": 0.48,
       "decision_reasons": [
-        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Can be translated",
-        "Translation Coverage: 95.0% - Excellent",
-        "Modern ML Quality Score: 0.090",
-        "Step 5 - Translation Success: 95.0% (38/40 languages)",
-        "Step 6 - Verification: PASSED"
+        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Engineering term",
+        "Translation Coverage: 92.5% - Excellent",
+        "Translatability Recommendation: APPROVE",
+        "Modern ML Quality Score: 0.480",
+        "Modern - Domain Relevance: 0.92",
+        "Step 5 - Translation Success: 92.5% (37/40 languages)",
+        "Step 5 - Processing Tier: core",
+        "Step 5 - GPU Worker: 1",
+        "Step 6 - Verification: PASSED",
+        "Step 6 - Verified Translations: 37 languages",
+        "Generic Detection: TECHNICAL (0/3 votes)",
+        "Protection: Contains domain root 'tolerance'"
       ],
+      "generic_penalty": 0.0,
+      "generic_detection": {
+        "is_generic": false,
+        "confidence": 0.36,
+        "penalty": 0.0,
+        "votes": 0,
+        "has_protection": true,
+        "protection_reason": "Contains domain root 'tolerance'",
+        "reasoning": "No methods flagged this term as generic | Technical protection: Contains domain root 'tolerance'",
+        "method_votes": {
+          "method1": false,
+          "method2": false,
+          "method5": false
+        }
+      },
+      "step5_integration_data": {
+        "translation_success_rate": 0.925,
+        "processing_tier": "core",
+        "gpu_worker": 1
+      },
+      "step6_integration_data": {
+        "verification_passed": true,
+        "verification_issues_count": 0,
+        "verified_translations_count": 37
+      }
+    },
+    {
+      "term": "revolve operation",
+      "decision": "APPROVED",
+      "status": "approved",
+      "final_score": 0.820,
+      "comprehensive_score": 0.820,
+      "translatability_score": 0.95,
+      "quality_tier": "Excellent",
+      "decision_reasoning": "Term 'revolve operation' (multi-word technical) scored 0.820, placing it in the APPROVED category (threshold: >=0.65 (high quality terms)). Translatability: Excellent (95.0% translation success rate across languages). Translation data: 38/40 languages, verification passed. Agent validation: [OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical term; Translation Coverage: 95.0% - Excellent. Generic detection: 0/3 methods flagged (technical term protected). Overall quality tier: Excellent.",
+      "modern_validation_score": 0.820,
+      "ml_quality_score": 0.53,
+      "decision_reasons": [
+        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical CAD term",
+        "Translation Coverage: 95.0% - Excellent",
+        "Translatability Recommendation: APPROVE",
+        "Modern ML Quality Score: 0.530",
+        "Modern - Domain Relevance: 0.95",
+        "Step 5 - Translation Success: 95.0% (38/40 languages)",
+        "Step 5 - Processing Tier: core",
+        "Step 5 - GPU Worker: 1",
+        "Step 6 - Verification: PASSED",
+        "Step 6 - Verified Translations: 38 languages",
+        "Generic Detection: TECHNICAL (0/3 votes)",
+        "Protection: Contains domain root 'revolve'"
+      ],
+      "generic_penalty": 0.0,
+      "generic_detection": {
+        "is_generic": false,
+        "confidence": 0.34,
+        "penalty": 0.0,
+        "votes": 0,
+        "has_protection": true,
+        "protection_reason": "Contains domain root 'revolve'",
+        "reasoning": "No methods flagged this term as generic | Technical protection: Contains domain root 'revolve'",
+        "method_votes": {
+          "method1": false,
+          "method2": false,
+          "method5": false
+        }
+      },
       "step5_integration_data": {
         "translation_success_rate": 0.95,
         "processing_tier": "core",
@@ -143,7 +279,159 @@
       "step6_integration_data": {
         "verification_passed": true,
         "verification_issues_count": 0,
-        "verified_translations_count": 40
+        "verified_translations_count": 38
+      }
+    },
+    {
+      "term": "symmetry plane",
+      "decision": "APPROVED",
+      "status": "approved",
+      "final_score": 0.785,
+      "comprehensive_score": 0.785,
+      "translatability_score": 0.90,
+      "quality_tier": "Excellent",
+      "decision_reasoning": "Term 'symmetry plane' (multi-word technical) scored 0.785, placing it in the APPROVED category (threshold: >=0.65 (high quality terms)). Translatability: Very Good (90.0% translation success rate across languages). Translation data: 36/40 languages, verification passed. Agent validation: [OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical term; Translation Coverage: 90.0% - Excellent. Generic detection: 0/3 methods flagged (technical term). Overall quality tier: Excellent.",
+      "modern_validation_score": 0.785,
+      "ml_quality_score": 0.47,
+      "decision_reasons": [
+        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Geometric term",
+        "Translation Coverage: 90.0% - Excellent",
+        "Translatability Recommendation: APPROVE",
+        "Modern ML Quality Score: 0.470",
+        "Modern - Domain Relevance: 0.91",
+        "Step 5 - Translation Success: 90.0% (36/40 languages)",
+        "Step 5 - Processing Tier: core",
+        "Step 5 - GPU Worker: 1",
+        "Step 6 - Verification: PASSED",
+        "Step 6 - Verified Translations: 36 languages",
+        "Generic Detection: TECHNICAL (0/3 votes)"
+      ],
+      "generic_penalty": 0.0,
+      "generic_detection": {
+        "is_generic": false,
+        "confidence": 0.40,
+        "penalty": 0.0,
+        "votes": 0,
+        "has_protection": false,
+        "protection_reason": null,
+        "reasoning": "No methods flagged this term as generic",
+        "method_votes": {
+          "method1": false,
+          "method2": false,
+          "method5": false
+        }
+      },
+      "step5_integration_data": {
+        "translation_success_rate": 0.90,
+        "processing_tier": "core",
+        "gpu_worker": 1
+      },
+      "step6_integration_data": {
+        "verification_passed": true,
+        "verification_issues_count": 0,
+        "verified_translations_count": 36
+      }
+    },
+    {
+      "term": "fillet radius",
+      "decision": "CONDITIONALLY_APPROVED",
+      "status": "conditionally_approved",
+      "final_score": 0.615,
+      "comprehensive_score": 0.615,
+      "translatability_score": 0.875,
+      "quality_tier": "Good",
+      "decision_reasoning": "Term 'fillet radius' (multi-word technical) scored 0.615, placing it in the CONDITIONALLY_APPROVED category (threshold: 0.48-0.65 (good quality multi-word terms)). Translatability: Very Good (87.5% translation success rate across languages). Translation data: 35/40 languages, verification passed. Agent validation: [OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical term; Translation Coverage: 87.5% - Very Good. Generic detection: 0/3 methods flagged (technical term protected). Overall quality tier: Good.",
+      "modern_validation_score": 0.615,
+      "ml_quality_score": 0.35,
+      "decision_reasons": [
+        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical CAD term",
+        "Translation Coverage: 87.5% - Very Good",
+        "Translatability Recommendation: APPROVE",
+        "Modern ML Quality Score: 0.350",
+        "Modern - Domain Relevance: 0.88",
+        "Step 5 - Translation Success: 87.5% (35/40 languages)",
+        "Step 5 - Processing Tier: core",
+        "Step 5 - GPU Worker: 1",
+        "Step 6 - Verification: PASSED",
+        "Step 6 - Verified Translations: 35 languages",
+        "Generic Detection: TECHNICAL (0/3 votes)",
+        "Protection: Contains domain root 'fillet'"
+      ],
+      "generic_penalty": 0.0,
+      "generic_detection": {
+        "is_generic": false,
+        "confidence": 0.39,
+        "penalty": 0.0,
+        "votes": 0,
+        "has_protection": true,
+        "protection_reason": "Contains domain root 'fillet'",
+        "reasoning": "No methods flagged this term as generic | Technical protection: Contains domain root 'fillet'",
+        "method_votes": {
+          "method1": false,
+          "method2": false,
+          "method5": false
+        }
+      },
+      "step5_integration_data": {
+        "translation_success_rate": 0.875,
+        "processing_tier": "core",
+        "gpu_worker": 1
+      },
+      "step6_integration_data": {
+        "verification_passed": true,
+        "verification_issues_count": 0,
+        "verified_translations_count": 35
+      }
+    },
+    {
+      "term": "sweep feature",
+      "decision": "CONDITIONALLY_APPROVED",
+      "status": "conditionally_approved",
+      "final_score": 0.595,
+      "comprehensive_score": 0.595,
+      "translatability_score": 0.85,
+      "quality_tier": "Good",
+      "decision_reasoning": "Term 'sweep feature' (multi-word technical) scored 0.595, placing it in the CONDITIONALLY_APPROVED category (threshold: 0.48-0.65 (good quality multi-word terms)). Translatability: Good (85.0% translation success rate across languages). Translation data: 34/40 languages, verification passed. Agent validation: [OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical term; Translation Coverage: 85.0% - Very Good. Generic detection: 0/3 methods flagged (technical term protected). Overall quality tier: Good.",
+      "modern_validation_score": 0.595,
+      "ml_quality_score": 0.32,
+      "decision_reasons": [
+        "[OK] TRANSLATABLE: FULLY_TRANSLATABLE - Technical CAD term",
+        "Translation Coverage: 85.0% - Very Good",
+        "Translatability Recommendation: APPROVE",
+        "Modern ML Quality Score: 0.320",
+        "Modern - Domain Relevance: 0.86",
+        "Step 5 - Translation Success: 85.0% (34/40 languages)",
+        "Step 5 - Processing Tier: core",
+        "Step 5 - GPU Worker: 1",
+        "Step 6 - Verification: PASSED",
+        "Step 6 - Verified Translations: 34 languages",
+        "Generic Detection: TECHNICAL (0/3 votes)",
+        "Protection: Contains domain root 'sweep'"
+      ],
+      "generic_penalty": 0.0,
+      "generic_detection": {
+        "is_generic": false,
+        "confidence": 0.41,
+        "penalty": 0.0,
+        "votes": 0,
+        "has_protection": true,
+        "protection_reason": "Contains domain root 'sweep'",
+        "reasoning": "No methods flagged this term as generic | Technical protection: Contains domain root 'sweep'",
+        "method_votes": {
+          "method1": false,
+          "method2": false,
+          "method5": false
+        }
+      },
+      "step5_integration_data": {
+        "translation_success_rate": 0.85,
+        "processing_tier": "core",
+        "gpu_worker": 1
+      },
+      "step6_integration_data": {
+        "verification_passed": true,
+        "verification_issues_count": 0,
+        "verified_translations_count": 34
       }
     }
   ]

@@ -17,7 +17,7 @@ Process Flow:
 5. Translation Process (1-200 languages)
 6. Language Verification
 7. Final Review and Decision
-8. Timestamp + Term Data Recording
+8. MCP formatted output
 """
 
 import os
@@ -2425,9 +2425,29 @@ class AgenticTerminologyValidationSystem:
         with open(translation_results_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
+        # FIX: If error file detected, try to recover actual results file
         if 'error' in data:
-            logger.warning("[WARNING] Translation results contain errors, skipping language verification")
-            return translation_results_file
+            logger.warning("[WARNING] Translation results contain errors")
+            # Check if actual results file exists (not the error file)
+            actual_results = str(self.output_dir / "Translation_Results.json")
+            if actual_results != translation_results_file and os.path.exists(actual_results):
+                logger.info(f"[RECOVERY] Found actual results file: {actual_results}")
+                try:
+                    with open(actual_results, 'r', encoding='utf-8') as f:
+                        actual_data = json.load(f)
+                    if 'error' not in actual_data and 'translation_results' in actual_data:
+                        logger.info(f"[SUCCESS] Recovered {len(actual_data.get('translation_results', []))} terms from actual results")
+                        data = actual_data
+                        translation_results_file = actual_results
+                    else:
+                        logger.error("[ERROR] Actual results file also contains errors, skipping verification")
+                        return translation_results_file
+                except Exception as e:
+                    logger.error(f"[ERROR] Failed to read actual results file: {e}")
+                    return translation_results_file
+            else:
+                logger.error("[ERROR] No valid translation results found, skipping verification")
+                return translation_results_file
         
         translation_results = data.get('translation_results', [])
         
@@ -2670,6 +2690,24 @@ class AgenticTerminologyValidationSystem:
         logger.info(f"   Cache directory: {step7_manager.cache_dir}")
         logger.info(f"   Logs directory: {step7_manager.logs_dir}")
         
+        # ==========================================================================
+        # INITIALIZE FULL ENSEMBLE GENERIC TERM DETECTOR (NO TRAINING REQUIRED!)
+        # ==========================================================================
+        logger.info("\n[GENERIC DETECTION] Initializing Generic Term Detector (Methods 1+2+5)...")
+        from src.processors.generic_term_detection_ensemble import GenericTermDetectorEnsemble
+        
+        # Always initialize the detector - it works WITHOUT historical data!
+        # No training needed - all methods use heuristics and pattern matching
+        generic_detector = GenericTermDetectorEnsemble()
+        
+        logger.info("[GENERIC DETECTION] ✓ Generic Term Detector initialized successfully!")
+        logger.info("[GENERIC DETECTION] Enabled methods (NO training data required):")
+        logger.info("   • Method 1: Statistical Discrimination Score - measures term distribution across documents")
+        logger.info("   • Method 2: Comparative Frequency Analysis - identifies overly common terms")
+        logger.info("   • Method 5: Semantic Similarity to Known Generics - uses minimal seed list")
+        logger.info("   • Graduated Penalties: -0.03 (1 vote) / -0.07 (2 votes) / -0.15 (3 votes)")
+        logger.info("   • Technical Term Protections: 50% penalty reduction for protected terms")
+        
         # CHECK IF BATCH PROCESSING IS ALREADY COMPLETE
         existing_batch_files = glob.glob(os.path.join(step7_manager.batch_dir, "modern_step7_final_decisions_validation_batch_*.json"))
         consolidated_file = os.path.join(step7_manager.results_dir, "consolidated_modern_step7_final_decisions_validation_results.json")
@@ -2698,9 +2736,9 @@ class AgenticTerminologyValidationSystem:
                                                          _create_final_decisions_data_with_batch_info,
                                                          _log_step7_completion_with_batch_info)
                 
-                # Convert modern validation results to final decisions format
+                # Convert modern validation results to final decisions format (with generic detection)
                 final_decisions = _convert_modern_batch_results_to_decisions(
-                    consolidated_data, verified_results, translation_data_map
+                    consolidated_data, verified_results, translation_data_map, generic_detector
                 )
                 
                 # Create comprehensive final decisions data
@@ -2708,14 +2746,14 @@ class AgenticTerminologyValidationSystem:
                     final_decisions, consolidated_data, step7_manager
                 )
                 
-                    # Save final decisions
+                # Save final decisions
                 decisions_file = os.path.join(str(self.output_dir), "Final_Terminology_Decisions.json")
             
-            with open(decisions_file, 'w', encoding='utf-8') as f:
-                json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
+                with open(decisions_file, 'w', encoding='utf-8') as f:
+                    json.dump(final_decisions_data, f, indent=2, ensure_ascii=False)
                 
-            # Log completion statistics
-            self._log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
+                # Log completion statistics
+                self._log_step7_completion_with_batch_info(final_decisions_data, decisions_file, step7_manager)
             
             return decisions_file
         elif existing_batch_files and os.path.exists(consolidated_file):
@@ -2746,9 +2784,9 @@ class AgenticTerminologyValidationSystem:
                                                          _create_final_decisions_data_with_batch_info,
                                                          _log_step7_completion_with_batch_info)
                 
-                # Convert to final decisions format
+                # Convert to final decisions format (with generic detection)
                 final_decisions = _convert_modern_batch_results_to_decisions(
-                    consolidated_data, verified_results, translation_data_map
+                    consolidated_data, verified_results, translation_data_map, generic_detector
                 )
                 
                 # Create comprehensive final decisions data
@@ -3022,9 +3060,9 @@ class AgenticTerminologyValidationSystem:
                 
                 logger.info(f"[CONSOLIDATION] Loaded consolidated results from {len(consolidated_data.get('batches', {}))} batches")
                 
-                # Convert modern validation results to final decisions format
+                # Convert modern validation results to final decisions format (with generic detection)
                 final_decisions = _convert_modern_batch_results_to_decisions(
-                    consolidated_data, verified_results, translation_data_map
+                    consolidated_data, verified_results, translation_data_map, generic_detector
                 )
                 
                 # Create comprehensive final decisions data
@@ -3063,10 +3101,10 @@ class AgenticTerminologyValidationSystem:
         from src.processors.step7_fixed_batch_processing import _calculate_step5_step6_consistency
         return _calculate_step5_step6_consistency(step5_data, step6_data)
 
-    def _convert_modern_batch_results_to_decisions(self, consolidated_data: dict, verified_results: list, translation_data_map: dict) -> list:
+    def _convert_modern_batch_results_to_decisions(self, consolidated_data: dict, verified_results: list, translation_data_map: dict, generic_detector=None) -> list:
         """Convert modern validation batch results to final decisions format"""
         from src.processors.step7_fixed_batch_processing import _convert_modern_batch_results_to_decisions
-        return _convert_modern_batch_results_to_decisions(consolidated_data, verified_results, translation_data_map)
+        return _convert_modern_batch_results_to_decisions(consolidated_data, verified_results, translation_data_map, generic_detector)
 
     def _create_final_decisions_data_with_batch_info(self, final_decisions: list, consolidated_data: dict, step7_manager) -> dict:
         """Create comprehensive final decisions data structure with batch processing information"""
