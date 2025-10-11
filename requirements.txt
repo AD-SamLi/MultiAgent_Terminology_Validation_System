@@ -6,6 +6,7 @@
 # Core Dependencies
 pandas>=2.0.0
 numpy>=1.24.0
+scipy>=1.10.0
 torch>=2.0.0
 transformers>=4.30.0
 nltk>=3.8.0
@@ -140,6 +141,7 @@ seaborn>=0.12.0    # For advanced plotting (optional)
 # ✅ Smolagents Agentic Framework
 # ✅ NLLB-200 Multi-Language Translation (200+ languages)
 # ✅ Intelligent Gap Detection and Recovery
+# ✅ Generic Term Detection (NO training required!)
 # ✅ Professional CSV Export with Contexts
 # ✅ Comprehensive Quality Scoring
 # ✅ Translatability Analysis

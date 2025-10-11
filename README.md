@@ -1,10 +1,10 @@
-# 🤖 Multi-Agent Terminology Validation System
+# 🤖 Multi-Agent Intelligent Terminology Validation System
 
 A comprehensive AI-powered system for validating, translating, and processing terminology across multiple languages using advanced machine learning, agentic frameworks, and intelligent context generation.
 
 ## 📊 System Overview
 
-The Multi-Agent Terminology Validation System processes terminology through a **9-step pipeline**, utilizing AI agents, machine learning models, parallel processing, and Azure OpenAI GPT-4.1 to ensure high-quality terminology validation, translation, and professional context generation.
+The Multi-Agent Intelligent Terminology Validation System processes terminology through a **9-step pipeline**, utilizing AI agents, machine learning models, parallel processing, and Azure OpenAI GPT-4.1 to ensure high-quality terminology validation, translation, and professional context generation.
 
 ### 🎯 Key Features
 
@@ -14,6 +14,7 @@ The Multi-Agent Terminology Validation System processes terminology through a **
 - **⚡ Dynamic Resource Allocation**: GPU + CPU optimization based on system specifications
 - **🔍 Gap Detection**: Intelligent identification and recovery of missing terms
 - **📊 Quality Scoring**: ML-based quality assessment and validation
+- **🚫 Generic Term Detection**: Ensemble-based filtering (NO training required!)
 - **🛡️ Robust Checkpointing**: Fault-tolerant processing with automatic resume
 - **📈 Batch Management**: Organized processing with consolidation capabilities
 - **🎯 Professional Context Generation**: Azure OpenAI GPT-4.1 powered context creation
@@ -43,9 +44,21 @@ The system provides comprehensive terminology validation with high-quality resul
 4. **📈 Step 4: Frequency Analysis** - Filter high-frequency terms (≥2 occurrences)
 5. **🌐 Step 5: Translation Process** - Multi-language translation using NLLB-200 with GPU acceleration
 6. **✅ Step 6: Verification** - Quality assessment and language verification
-7. **⚖️ Step 7: Final Decisions** - AI agent-based final validation with translatability analysis
+7. **⚖️ Step 7: Final Decisions** - AI agent-based validation with translatability analysis + **Generic Term Detection**
 8. **📋 Step 8: Audit Record** - Complete audit trail generation with enhanced formatting
 9. **📄 Step 9: CSV Export** - Professional approved terms export with GPT-4.1 generated contexts
+
+### 🚫 Generic Term Detection (New!)
+
+**Automated filtering of generic terms without training data:**
+
+- **3 Detection Methods** (no training required):
+  - Method 1: Statistical Discrimination Score - analyzes term distribution
+  - Method 2: Comparative Frequency Analysis - identifies overly common terms  
+  - Method 5: Semantic Similarity - pattern matching with known generics
+- **Graduated Penalties**: -0.03 (1 vote) / -0.07 (2 votes) / -0.15 (3 votes)
+- **Technical Protections**: 50% penalty reduction for terms with technical suffixes/roots
+- **Results Saved**: `generic_penalty` and `generic_detection` fields in decisions
 
 ### 📁 Project Structure
 
@@ -63,6 +76,7 @@ MultiAgent_Terminology_Validation_System/
 │   ├── processors/                         # Data processors
 │   │   ├── direct_unified_processor.py    # Term collection
 │   │   ├── frequency_storage.py           # Frequency analysis
+│   │   ├── generic_term_detection_ensemble.py  # Generic term filtering
 │   │   └── step7_fixed_batch_processing.py  # Batch helpers
 │   ├── translation/                        # Translation system
 │   │   ├── ultra_optimized_smart_runner.py  # Translation orchestrator
